@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Significant Figures</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Physics 212">
+<meta property="book:author" content="Sunil Karna">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.98,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js"></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="CalPhysII.html"><span class="title">Physics 212:</span> <span class="subtitle">Calculus-Based</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-erranalysis.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_first-intro.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_first-example.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\T}{\mathcal T}
+\newcommand\comb[2]{^{#1}C{_{#2}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth3"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physical Quantities</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec_dimanal-subsection.html" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Derived Units</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec_dimanal-subsection.html#subsubsec-diamanlysis" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Dimensional Analysis</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-erranalysis.html" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Errors in Measurement</span></a></div></li>
+<li class="active">
+<div class="toc-item"><a href="subsec-sigfig.html" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-sigfig.html#subsubsec-rounding_off" class="internal"><span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sigfig.html#subsubsec-math_op_sig" class="internal"><span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-example.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Examples</span></a></div></li>
+<li><div class="toc-item"><a href="ex_first.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-compnt_vect.html" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Components of a Vector:</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-vect_mult.html" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Product of Two Vectors:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-vect_mult.html#subsubsec-dot_product" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Scalar (or Dot) Product</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-vect_mult.html#subsubsec-cross_product" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Vector (or Cross) Product</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-axis_transform.html" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Transformation of Axis</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="append_partdiff.html" class="internal"><span class="codenumber">B</span> <span class="title"></span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-sigfig"><h2 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span>
+</h2>
+<section class="introduction" id="introduction-4"><div class="para" id="p-36">Significant figures are the digits which give us useful information about the accuracy of a measurement. The result of a measurement includes  digits that are known reliably and the last digit that is uncertain. For example, the  length  of an  object measured to be <span class="process-math">\(287.5\)</span> cm when measured with a meterstick marked with centimeter (0.1 resolution) and has four  significant  figures, the  digits  2,  8,  7 are certain while the last digit 5 is uncertain. If someone measure the same object with another meterstick marked with millimeters (0.01 resolution) one could have measured the length to be 287.54 cm and that contains 5 significant figures, the  digits 2, 8, 7, and 5  are certain while the last digit 4 is uncertain. Each smaller measurement allows observers to determine the length of the object with a bit more accuracy. Maybe someother can measure with great accuracy as 287.542 cm. No matter what you do, there must be some inaccuracy always come at every measurement. Scientists account for this unavoidable uncertainty in measurement by using significant digits. significant digits do not remove the uncertainty but warn readers to where uncertainty lies.</div> <div class="para" id="p-37">
+<span class="process-math">\(1000\)</span> has one significant digit: only 1 is interesting and reliable. The zeroes may have been just the placeholders; they may have rounded something off to get this value.</div> <div class="para" id="p-38">1000.0 has five significant digits: the ".0" tells us about the accuracy of the measurement that the measurement is accurate to the tenths place.</div> <div class="para" id="p-39">In scientific notation if 200 has two significant figures then <span class="process-math">\(2.0\times10^{2}\)</span> is used. If it has three sig.fig. then <span class="process-math">\(2.00\times10^{2}\)</span> is used. If it had four then 200.0 is sufficient.</div> <div class="para" id="p-40">Here are some basic rules to determine significant figures:</div> <ol class="lower-roman">
+<li id="li-8"><div class="para" id="p-41">All nonzero digits are significant; in number 0.003004500 the digits 3, 4, and 5 are significant.</div></li>
+<li id="li-9"><div class="para" id="p-42">All zeroes between significant digits are significant; in number 0.003004500 the 0, 0 between 3 and 4 are significant.</div></li>
+<li id="li-10"><div class="para" id="p-43">Trailing zeros in the decimal portion are significant; in number 0.003004500 the 0,0 at end of 5 are significant.</div></li>
+<li id="li-11"><div class="para" id="p-44">Trailing zeroes in a whole number with no decimal shown are not significant; in number "540" there are only two sig.fig. 5 and 4, the last 0 is not significant.</div></li>
+<li id="li-12"><div class="para" id="p-45">Leading zeroes in the decimal portion to the first non-zero digit are not significant; in number 0.003004500 the 0 to the right of decimal point and digits 0, 0 to the left of decimal point before the digit 3 are not significant.</div></li>
+<li id="li-13"><div class="para" id="p-46">Exponential digits in scientific notation are not significant; <span class="process-math">\(1.32\times 10^{6}\)</span> has only three significant figures, 1, 3, and 2.</div></li>
+</ol></section><section class="subsubsection" id="subsubsec-rounding_off"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span>
+</h3>
+<div class="para" id="p-47">When rounding, we examine the digit following to the right of the digit that is to be the last digit in the rounded off number. The digit we are examining is the first digit to be dropped.</div>
+<div class="para" id="p-48">If digit to be dropped off is less than 5, then drop it off with all the other digits to the right of it.</div>
+<div class="para" id="p-49">If the digit to be dropped off is greater than 5, then increase the number by 1 to the preceeding digit to be rounded.</div>
+<div class="para" id="p-50">If the digit to be dropped is 5, then round the preceeding digit so that it will become even number. Zero is considered to be even when rounding off. This is the process of minimizing systematic error. Here are some examples:</div>
+<ol class="lower-roman">
+<li id="li-14">
+<div class="para" id="p-51">Round 742,396 to four, three, and two significant digits: To round to four sig. fig. start with the first significant digit, which is the 7. Then count to the right from there. The first four significant digits of 742,396 are the 7, the 4, the 2, and the 3. Just to the right of the 3 is a 9. Because this value is "greater than  5", round the 3 up to 4. Replace the remaining digits (the 9 and the 6) with zeroes. Then: 742,400 (four significant digits).</div>
+<div class="para" id="p-52">To round 742,396 to three places, start again with the 7 and include the next two digits, being the 4 and the 2. Since the next digit is a 3, which is "less than 5", leave the 2 alone and don't round up. Replace the three digits after the comma with zeroes. Then: 742,000 (three significant digits).</div>
+<div class="para" id="p-53">To round 742,396 to two places, use only the first two digits, which are followed by a 2, so don't round up. Instead, just replace the final four digits with zeroes, to get: 740,000 (two significant digits).</div>
+</li>
+<li id="li-15">
+<div class="para" id="p-54">Round 0.07284 to four, three, and two significant digits: To round 0.07284 to four significant digits, start with the first significant digit, which is the 7. (The zero between the decimal point and the 7 is not significant, as it serves only to "place" the 7 into the hundreds place.) There are only three more digits, so all of them will be included in answer. Since no digit follows the 4, there is no information about rounding, so just leave the 4 as it is. Hence, 0.07284 is four sig-digs.</div>
+<div class="para" id="p-55">When rounding 0.07284 to three sig-digs, the final sig-dig is the 8, which is followed by the 4. Since 4 is less than 5, so simply drop it. Because these sig-digs are after the decimal point, not replace the 4 with a zero. Hence, 0.0728 is three sig-digs.</div>
+<div class="para" id="p-56">To round 0.07284 to two sig-digs, use the 7 and the 2. Since the 2 is followed by an 8, round the 2 up to 3; drop everything that follows. Hence, 0.073 is two sig-digs.</div>
+</li>
+<li id="li-16"><div class="para" id="p-57">Round 425.35 to four and two significant digits: For four sig.fig. this number is 425.4, because the value to be rounded off (3) is "odd" and followed by a "5", then round the 3 up to 4 and remove the remaining digits. For two sig.fig. it would be 420, because the value to be rounded off (2) is "even" and  followed by a "5", then leave 2 as it is and replace the other with zeroes.</div></li>
+</ol></section><section class="subsubsection" id="subsubsec-math_op_sig"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span>
+</h3>
+<ol class="upper-roman">
+<li id="li-17"><div class="para" id="p-58">
+<dfn class="terminology">Addition or subtraction:</dfn> The final result should retain <em class="emphasis">as many decimal places as</em> there are in the number with the least decimal places in the data. For example, the sum of the numbers 436.32 g, 227.2 g and 0.301 g is 663.821 g by mere arithmetic addition but the least precise measurement (227.2 g) is correct to only one decimal place. Therefore, the final result should  be rounded off to 663.8 g. Similarly, the difference in lengths of 66.25 m and 23.3055 m is <span class="process-math">\(66.25 m - 23.3055 m = 42.9445 m\text{.}\)</span> Which can be expressed as 42.94 only.</div></li>
+<li id="li-18"><div class="para logical" id="p-59">
+<div class="para">
+<dfn class="terminology">Multiplication or division:</dfn> The final result should retain <em class="emphasis">as many significant figures as</em> are there in the original number with the least significant figures. For example, if mass of an object is measured to be, say, 4.237 g (four significant figures) and its volume is measured to be <span class="process-math">\(2.51 cm^{3}\text{,}\)</span> then its density, by mere arithmetic division, is 1.68804780876 <span class="process-math">\(g/cm^{3}\)</span> upto 11 decimal places. But density should be reported to three significant figures.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Density  =\frac{4.237 g}{2.51 cm^{3}}= 1.69\quad g/cm^{3}.
+\end{equation*}
+</div>
+</div></li>
+</ol></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="subsec-erranalysis.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-example.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org"><div class="name">Authored in PreTeXt</div>
+<div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259 "></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0  472  9732 "></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496 "></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496 A 4241 4241  0  0  1  4724  3590 "></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259 A 4507 4507  0  0  1  4724  9448 "></path><polyline points="5385,4299 4062,8125 " style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="8598,3496 8598,9259 " style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="850,3496 850,9259 " style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="4960,9685 4488,9685 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="3070,4582 1889,6141 3070,7700 " style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="6418,4582 7600,6141 6418,7700 " style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="8976,3590 8976,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732 "></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy"><div class="name">Powered by Runestone</div>
+<img class="logo" title="Powered by Runestone" src="https://runestone.academy/runestone/static/rectangle_badge.png" alt="Powered by Runestone"></a><a class="mathjax-logo" href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a>
+</div>
+</body>
+</html>
