@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Preface",
-  "body": " General physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but is designed to support calculus-based physics materials at a rapid and an efficient way in my personal teaching activities. Students who want to use this text assume to have prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization cannot seem to be working efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different approach than simply trying to memorize lists of formulae or examples. This book is organized into two volumes that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. Volume I contains Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  Volume II contains Electricity, Magnetism, Waves, Acoustics, and Optics. These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' policy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted -- Author   "
+  "body": " General physics is a calculus-based introductory physics book. This book is a concise form of my lecture notes that I have been delivering in my introductory level courses for many years. This text is not a replacement of any textbook that has been recommended by the instructor but is designed to support calculus-based physics materials at a rapid and an efficient way in my personal teaching activities. Students who want to use this text assume to have prerequisite knowledge of some basic mathematical skills such as geometry, algebra, trigonometry, and some advanced mathematical tools such as a differential and integral calculus.  Learning skills by memorization cannot seem to be working efficiently in learning physics. Physics is a logical and conceptual based learning hence it requires a completely different approach than simply trying to memorize lists of formulae or examples. This book is organized into two volumes that covers the syllabus of introductory physics at undergraduate level in various universities and colleges. General Physics I contains Basics of Mechanics, Fluid Mechanics, and Thermodynamics.  General Physics II contains Electricity, Magnetism, Waves, Acoustics, and Optics. These topics have been carefully chosen to provide an introduction to the basic concepts in physics and to give an opportunity to sharpen critical thinking and problem solving skills. The main objective of this book is to learn how to investigate and approach problems in a logical manner. This book strives to guide readers to learn physics in a logical manner. Many examples and practice problems throughout the text may be helpful to refine physical intuition.  To tackle the physical problems the book uses the 'GUESS' policy for a systematic gatheing of information and finding realistic and logistic solution. Here is what GUESS stands for   G: Given, identify the given information and sketch the information if possible.   U: Unknown, identify the unknown that we are looking for.   E: Equation\/s, set up the equation from given information.   S: Substitute, substitute the number\/s in the equation\/s.   S: Solve, solve the equation to obtain the answer.  Comments and suggestions for improvements to the text will be gratefully accepted -- Author   "
 },
 {
   "id": "p-4",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Volume I Volume II "
+  "body": "General Physics I General Physics II "
 },
 {
   "id": "subsec-charg_transf",
@@ -109,20 +109,47 @@ var ptx_lunr_docs = [
   "body": " Principle of Superposition  It states that every charge in space exerts a force on another in such a way that there are no other chrages present in that medium. Hence, the net force excerted at a point charge by two or more charges in space is a vector sum of the individual forces.  "
 },
 {
-  "id": "sec_first-example",
+  "id": "sec_first-exampleA",
   "level": "1",
-  "url": "sec_first-example.html",
+  "url": "sec_first-exampleA.html",
   "type": "Section",
   "number": "1.2",
-  "title": "Examples",
-  "body": " Examples  "
+  "title": "Examples A",
+  "body": " Examples A   Coulomb's Law             "
+},
+{
+  "id": "example-1",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-1",
+  "type": "Example",
+  "number": "1.2.1",
+  "title": "",
+  "body": "         "
+},
+{
+  "id": "sec_first-exampleB",
+  "level": "1",
+  "url": "sec_first-exampleB.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Examples B",
+  "body": " Examples B   Coulomb's Law             "
+},
+{
+  "id": "example-2",
+  "level": "2",
+  "url": "sec_first-exampleB.html#example-2",
+  "type": "Example",
+  "number": "1.3.1",
+  "title": "",
+  "body": "         "
 },
 {
   "id": "ex_first",
   "level": "1",
   "url": "ex_first.html",
   "type": "Exercises",
-  "number": "1.3",
+  "number": "1.4",
   "title": "Exercise",
   "body": "  Exercise  "
 },
@@ -280,49 +307,13 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-37",
-  "level": "2",
-  "url": "append_math.html#p-37",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
-},
-{
-  "id": "p-38",
-  "level": "2",
-  "url": "append_math.html#p-38",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Geometric Formulae: "
-},
-{
-  "id": "p-39",
-  "level": "2",
-  "url": "append_math.html#p-39",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Trigonometric Identities: "
-},
-{
-  "id": "p-40",
-  "level": "2",
-  "url": "append_math.html#p-40",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Trigonometric Identities: "
-},
-{
   "id": "p-41",
   "level": "2",
   "url": "append_math.html#p-41",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Binomial Theorem: "
+  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
   "id": "p-42",
@@ -331,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Power Series: "
+  "body": "Geometric Formulae: "
 },
 {
   "id": "p-43",
@@ -340,12 +331,48 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Calculus: Derivatives: Integrals: "
+  "body": "Trigonometric Identities: "
 },
 {
   "id": "p-44",
   "level": "2",
   "url": "append_math.html#p-44",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Trigonometric Identities: "
+},
+{
+  "id": "p-45",
+  "level": "2",
+  "url": "append_math.html#p-45",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Binomial Theorem: "
+},
+{
+  "id": "p-46",
+  "level": "2",
+  "url": "append_math.html#p-46",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Power Series: "
+},
+{
+  "id": "p-47",
+  "level": "2",
+  "url": "append_math.html#p-47",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Calculus: Derivatives: Integrals: "
+},
+{
+  "id": "p-48",
+  "level": "2",
+  "url": "append_math.html#p-48",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -361,9 +388,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-45",
+  "id": "p-49",
   "level": "2",
-  "url": "appendix-2.html#p-45",
+  "url": "appendix-2.html#p-49",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

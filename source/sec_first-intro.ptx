@@ -122,9 +122,9 @@
     If <m>F_{12}</m> is a force acting on charge <m> q_{1}</m> due to charge <m> q_{2},</m> 
     <m>F_{21}</m> is a force acting on charge <m> q_{2}</m> due to charge <m>q_{1},</m> 
     and <m> r_{12} </m> is a distance between the two charges (<xref ref="fig4"/>) then from Coulumb's law 
-    <me>
+    <men xml:id="eqn-coulmb1">
       \vec{F}  =  k\frac{q_{1}q_{2}}{r^{2}}\hat{r} =  \frac{1}{4\pi\epsilon_{o}}\frac{q_{1}q_{2}}{r^{2}}\hat{r}
-    </me>
+    </men>
     where <m>\hat{r}</m> is unit vector along line joining the two charges, Coulomb's constant of free space, 
     <m>k  =  9.00 \times 10^{9} \,N m^{2}/C^{2}</m>;  and permittivity of free space, 
     <m>\epsilon_{o}  =  8.85 \times 10^{-12}\,C^{2}/N m^{2}.</m> 
