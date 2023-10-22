@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains all of the "backmatter" material  -->
+<!-- We show examples of how to have hints to divisional  -->
+<!-- excercies appear in a section, and then their        -->
+<!-- solutions in the next.  Then there is an appendix    -->
+<!-- with all notation generated, and finally the index.  -->
+<backmatter xml:id="meta_backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Backmatter</title>
+  
+
+      <appendix xml:id="append_math">
+        <title> Mathematical Relations  </title>
+                  
+          <ol>
+            <li>
+              <p> 
+                <term>Algebric: </term>
+                <ol marker="a.">
+                  <li>
+                    <term>Logerithmic Formulae:</term> 
+                    A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. 
+                    If <m>\log a=x,</m> then <m>a=10^{x},</m> and if <m>\ln a=x,</m> then <m>a=e^{x}</m>, also 
+                    <me>
+                      \log m+\log n = \log mn;
+                    </me>
+                    <me>
+                      \log m-\log n = \log\frac{m}{n},
+                    </me>
+                    <me>
+                      \log m^{n}= n \log m.
+                    </me>
+                    Similarly we can obtain the relations for  natural log (ln).
+                  </li>
+                  <li>
+                    <term>Quadratic Formula:</term> 
+                    If 
+                    <me>
+                      ax^{2}+bx+c=0,
+                    </me>
+                     then the root of quadratic equation is given by 
+                     <me>
+                      x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a}
+                     </me>
+                      </li>
+                    </ol>
+              </p>
+            </li>
+            <li>
+              <p>
+                <term>Geometric Formulae:</term> 
+                <ol marker="a.">
+                  <li>
+                    Circumference of a circle of circle of radius r, <m>C= 2\pi r</m>;
+                  </li>
+                  <li>
+                    Area of a circle of circle of radius r, <m>A = \pi r^{2};</m>
+                  </li>
+                  <li>
+                    Volume of a sphere of radius r, <m>V=\frac{4}{3}\pi r^{3};</m>
+                  </li>
+                  <li>
+                    Surface area of a sphere of radius r, <m>A=4\pi r^{2};</m>
+                  </li>
+                  <li>
+                    Volume area of a cylinder of radius r and height h, <m>V=\pi r^{2}h;</m>
+                  </li>
+                  <li>
+                    Cylindrical surface area of a cylinder of radius r and height h, <m>S=2\pi r h</m>
+                  </li>
+                  <li>
+                   <em> Congruent Triangles:</em> In two triangles if corresponding SAS (side angle side) 
+                   or SSS (side side side) are equal then triangles are congruent.
+                  </li>
+                  <li>
+                    <em>Similar Triangles:</em> If corresponding AAA (angle angle angle) of two triangles 
+                    are equal then the triangles are called similar triangles. 
+                    In that case the ratio of corresponding sides of these triangles are equal. 
+                  </li>
+                </ol>
+              </p>
+            </li>
+            <li>
+              <p>
+                <term>Trigonometric Identities: </term>  in right angled triangle <m> \vartriangle ABC,</m>
+                <image source="rtangl.png" width ="40%"> </image>
+                <ol marker="a.">
+                  <li>
+                  <me>
+                  h^{2}=p^{2}+b^{2}
+                  </me>
+                  </li>
+                  <li>
+                  <me>
+                  \sin\theta=\frac{p}{h} 
+                  </me>
+                  <me>
+                  \cos\theta=\frac{b}{h}
+                  </me>
+                  <me>
+                  \tan\theta=\frac{p}{b}
+                  </me>
+                  </li>
+                  <li>
+                  <me>
+                  \sin\theta \csc\theta=1;
+                  </me>
+                  <me>
+                  \cos\theta\sec\theta=1;
+                  </me>
+                  <me>
+                  \tan\theta\cot\theta=1; 
+                  </me>
+                  <me>
+                  \frac{\sin\theta}{\cos\theta}=\tan\theta
+                  </me>
+                  </li>
+                  <li>
+                  <me>
+                  \sin2\theta = 2\sin\theta\cos\theta;
+                  </me>
+                  <me>
+                  \cos2\theta = \cos^{2}\theta-\sin^{2}\theta=2\cos^{2}\theta-1=1-2\sin^{2}\theta.
+                  </me>
+                  If <m>2\theta = \alpha,</m> then 
+                  <me>
+                  \sin\alpha=2\sin\frac{\alpha}{2}\cdot\cos\frac{\alpha}{2}
+                  </me>
+                  <me>
+                  \cos\alpha=1-2\sin^{2}\frac{\alpha}{2} = 2\cos^{2}\frac{\alpha}{2}-1.
+                  </me>
+                  </li>
+                  <li>
+                  <me>
+                  \sin(-\theta) = -\sin\theta;
+                  </me>
+                  <me>
+                  \cos(-\theta) = \cos\theta;
+                  </me>
+                  <me>
+                  \sin(\theta\pm \frac{\pi}{2}) = \pm \cos\theta;
+                  </me>
+                  <me>
+                  \cos(\theta\pm \frac{\pi}{2}) = \mp \sin\theta.
+                  </me>
+                  </li> 
+                  <li>
+                  <me>
+                  \sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta;
+                  </me>
+                  <me>
+                  \cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta 
+                  </me>
+                  </li>
+                  <li>
+                  <me>
+                  2\sin \alpha\cdot\sin\beta = \cos(\alpha-\beta) - \cos(\alpha+\beta);
+                  </me>
+                  <me>
+                  2\cos \alpha\cdot\cos\beta = \cos(\alpha+\beta) + \cos(\alpha-\beta)
+                  </me>
+                  </li> 
+                  <li>
+                  <me>
+                  2\sin \alpha\cdot\cos\beta = \sin(\alpha+\beta) + \sin(\alpha-\beta)
+                  </me>
+                  <me>
+                  2\cos \alpha\cdot\sin\beta = \sin(\alpha+\beta) - \sin(\alpha-\beta)
+                  </me>
+                  </li>
+                  <li>
+                  <me>
+                  \sin\alpha+\sin\beta = 2\sin\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2};
+                  </me>
+                  <me>
+                  \cos\alpha+\cos\beta = 2\cos\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}
+                  </me>
+                  </li> 
+                  </ol>  
+              </p>
+                </li>
+                <li>
+                     <p>
+                    <term>Trigonometric Identities:</term>  in any <m>\vartriangle A' B' C'</m> with sides <m>a, \,b,</m> 
+                      and <m>c</m> and angles <m>\alpha,\,\beta,</m> and <m>\gamma</m>
+                      <image source="cosinlaw.png" width ="40%"> </image> 
+                      <ol marker="a.">
+                        <li>
+                          <em>Law of sines:</em> 
+                          <me>
+                            \frac{\sin\alpha}{a}=\frac{\sin\beta}{b}=\frac{\sin\gamma}{c}
+                          </me>
+                           </li>
+                           <li>
+                           <em> Law of cosines:</em> 
+                           <me>
+                            c^{2}=a^{2}+b^{2}-2ab\cos\gamma 
+                           </me>
+                            </li>
+                      </ol>
+                  </p>
+                  </li>
+           <li>
+              <p>
+                <term>Binomial Theorem:</term> 
+                <me>
+                (a+b)^{n} = a^{n}+na^{n-1}b+\frac{n(n-1)a^{n-2}b^{2}}{2!}+\frac{n(n-1)(n-2)a^{n-3}b^{3}}{3!}+\cdots
+                </me>
+                </p>
+            </li>
+            <li>
+              <p>
+                <term>Power Series:</term> 
+                <me>
+                  (1+x)^{n} =1+nx+\frac{n(n-1)x^{2}}{2!}+\frac{n(n-1)(n-2)x^{3}}{3!}+\cdots  \quad  (|x| \lt 1)
+                </me>
+                <me>
+                  e^{x}=1+x+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+\cdots   \quad (\forall x) 
+                </me>
+                <me>
+                  \ln(1+x)=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\cdots   \quad (|x| \lt 1)
+                </me>
+                <me>
+                  \sin x= x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots \quad (\forall x) 
+                </me>
+                <me>
+                  \cos x= 1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots \quad (\forall x) 
+                  <notation>
+                    <usage>(<m>\forall x</m>)</usage>
+                    <description>for all x</description>
+                  </notation>
+                </me>
+                <me>
+                  \tan x= x+\frac{x^{3}}{3}+\frac{2x^{5}}{15}+\frac{17x^{7}}{315}+\cdots \quad (|x| \lt \frac{\pi}{2})
+                </me>
+                </p>
+            </li>
+            <li>
+              <p>
+                <term>Calculus:</term> 
+                <me>
+                  \lim_{x \to 0} \frac{\sin x}{x} = 1;
+                </me>
+                <me>
+                  \lim_{x \to 0} \cos x = 1 
+                </me>
+               <ol marker="a.">
+                <li>
+                  <term>Derivatives:</term> 
+                  <me>
+                    \frac{\,d}{\,dx}x^{n}=nx^{n-1};
+                  </me>
+                  <me>
+                    \frac{\,d}{\,dx}\ln ax= \frac{1}{x};
+                  </me>
+                  <me>
+                    \frac{\,d}{\,dx}e^{ax}=ae^{ax};
+                  </me>
+                  <me>
+                    \frac{\,d}{\,dx}\sin ax = a\cos ax;
+                  </me>
+                  <me>
+                    \frac{\,d}{\,dx}\cos ax = -a\sin ax;
+                  </me>
+                  <me>
+                    \frac{\,d}{\,dx}\left(\tan x\right) = \sec^{2} x;
+                  </me>
+                  <me>
+                    \frac{\,d}{\,dx}\left(\cot x \right) = - \csc^{2} x
+                  </me>
+                  <me>
+                    \frac{\,d}{\,dx}\left(\sec x \right) = \sec x \tan x;
+                  </me>
+                  <me>
+                    \frac{\,d}{\,dx}\left(\csc x \right) = - \csc x \cot x
+                  </me>
+                   </li> 
+                <li>
+                  <term> Integrals:</term> 
+                  <me>
+                    \int x^{n}\,dx= \frac{x^{n+1}}{n+1}\quad (n\neq-1);
+                  </me>
+                  <me>
+                    \int \frac{1}{x}\,dx=\ln x;
+                  </me>
+                  <me>
+                    \int e^{ax}\,dx = \frac{e^{ax}}{a};
+                  </me>
+                  <me>
+                    \int \sin ax \,dx= -\frac{\cos ax}{a};
+                  </me>
+                  <me>
+                    \int \cos ax\,dx=\frac{\sin ax}{a};
+                  </me>
+                  <me>
+                    \int \frac{\,dx}{\sqrt{a^{2}-x^{2}}}=\arcsin\frac{x}{a}
+                  </me>
+                  <me>
+                    \int \frac{\,dx}{\sqrt{x^{2}+a^{2}}}=\ln(x+\sqrt{x^{2}+a^{2}});
+                  </me>
+                  <me>
+                    \int \frac{\,dx}{x^{2}+a^{2}}=\frac{1}{a}\arctan\frac{x}{a}
+                  </me>
+                  <me>
+                    \int \frac{\,dx}{\left(x^{2}+a^{2}\right)^{3/2}}=\frac{1}{a^{2}}\frac{x}{\sqrt{x^{2}+a^{2}}};
+                  </me>
+                  <me>
+                    \int \frac{x\,dx}{\left(x^{2}+a^{2}\right)^{3/2}}=-\frac{1}{\sqrt{x^{2}+a^{2}}}
+                  </me>
+                     </li>
+               </ol> 
+              </p>
+            </li>
+            <li>
+              <p>
+                <term>Vectors:</term>
+                Draw a rectangle having adjacent sides as <m>\vec{a}</m> and <m>\vec{b}.</m> 
+                Draw perpendicular on x-axis from point L as shown in figure below. 
+                The diagonal of rectangle represents resultant of the vectors <m>\vec{a}</m> and <m>\vec{b}</m>. 
+                		Now 
+                    <image source="resvect.png" width ="40%"> </image> 
+                    <me>
+                      r =\sqrt{LM^{2}+OM^{2}}=\sqrt{LM^{2}+\left(OA+AM\right)^{2}}
+                    </me>
+                    <me>
+                      \text{but,}\quad AM=AL\cos\theta;
+                    </me>
+                    and 
+                    <me>
+                      LM=AL\sin\theta
+                    </me>
+                   <me>
+                    \text{or,}\quad AM=q\cos\theta;
+                   </me>
+                   and 
+                   <me>
+                    LM=q\sin\theta
+                   </me>
+                   <me>
+                    \therefore\quad r=\sqrt{q^{2}\sin^{2}\theta+\left(p+q\cos\theta\right)^{2}} = \sqrt{p^{2}+q^{2}+2pq\cos\theta}
+                   </me>
+                   <me>
+                    \tan\phi=\frac{LM}{OM} 
+                   </me>
+                   <me>
+                    \Rightarrow \quad \phi=tan^{-1}\left( \frac{q\sin\theta}{p+q\cos\theta}\right)
+                   </me>
+                       </p>
+            </li>
+             </ol>
+        
+      </appendix>
+    
+    
+
+      <appendix>
+        <title>List of Symbols</title>
+        <notation-list/>
+
+        <p>
+          <term>Electrical Circuit Symbols:</term>
+        </p>
+        <image source="symbolselec.png" width ="80%"> </image> 
+      </appendix>
+
+      <index>
+        <title>Index</title>
+        <index-list/> 
+        </index>
+
+
+<references xml:id="refs-list">
+  <biblio> University Physics, Young, H. D. and Freedman, Roger A., Pearson, 2015. </biblio>
+  <biblio> Physics for Scientists and Engineers, Katz, D. M., Cengage Learning, 2015. </biblio>
+  <biblio> Electricity and Magnetism, Saxena, M.C. and Arora V.P. and Prakash, S., Pragati Prakashan, 2000. </biblio>
+  <biblio> Physics of Rainbow, Suzuki, M. and Suzuki I.S, researchgate.net, 2010. </biblio>
+  <biblio> Optics, Brijlal, S., S Chandn, 1992. </biblio>
+  <biblio> Lecture notes of physics, Hewett, L. D., TAMUK, 2013. </biblio>
+ 
+ </references>
+
+
+
+</backmatter>
+

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <macros>
+      \newcommand{\N}{\mathbb N}
+      \newcommand{\Z}{\mathbb Z}
+      \newcommand{\Q}{\mathbb Q}
+      \newcommand{\R}{\mathbb R}
+      \newcommand{\T}{\mathcal T}
+      \newcommand\comb[2]{^{#1}C{_{#2}}}
+    </macros>
+
+    <latex-image-preamble>
+      \usepackage{tikz, pgfplots}
+      \usepackage{tensor}
+      \usetikzlibrary{positioning, matrix, arrows}
+      \usetikzlibrary{shapes, decorations, shadows, fadings, patterns}
+      \usetikzlibrary{decorations.markings} 
+    </latex-image-preamble>
+
+  </docinfo>
+
+  <book xml:id="CalPhysII">
+    <title>General Physics</title>
+    <subtitle>Vol. II</subtitle>
+
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>Sunil Karna</personname>
+          <department>School of Health &amp; Natural Science</department>
+          <institution>Union College, Barbourville, KY</institution>
+          <email>skarna@unionky.edu</email>
+        </author>
+        <date>
+          <today />
+        </date>
+      </titlepage>
+
+      <colophon>
+
+        <website>
+          <name>
+            <c>http://my.unionky.edu</c>
+          </name>
+          <address>http://my.unionky.edu</address>
+        </website>
+
+        <copyright>
+          <year>2023<ndash />2024</year>
+          <holder>Sunil Karna</holder>
+          <shortlicense> 
+            ISBN: 9781793120298
+          </shortlicense>
+        </copyright>
+      </colophon>
+
+      <dedication>
+        <p>
+          To my spouse.
+        </p>
+      </dedication>
+
+      <acknowledgement>
+        <p>
+          I would like to thank my colleagues and students for the contributions they have 
+          made to improve this book through questionnaires, classroom discussion, and their 
+          invaluable feedback and support throughout the writing process. I am especially 
+          very grateful to John Gould and Daniel Covington for 
+          providing their critical suggestions to organize this book. Without their guidance, 
+          this book would not be what it is today. Their knowledge and expertise were instrumental 
+          in shaping my journey in writing this book. Finally, I want to express my gratitude to 
+          my family for their unwavering encouragement and patience during the many long hours 
+          I spent at my desk. Their love and support sustained me through the ups and downs 
+          of this project. Several others deserve credit for their generous help in this book.
+          </p>
+      </acknowledgement>
+      <preface xml:id="meta_frontmatter-preface">
+        <p>
+          General physics is a calculus-based introductory physics book. 
+          This book is a concise form of my lecture notes that I have been 
+          delivering in my introductory level courses for many years. 
+          This text is not a replacement of any textbook that has been recommended by the 
+          instructor but is designed to support calculus-based physics materials 
+          at a rapid and an efficient way in my personal teaching activities. 
+          Students who want to use this text assume to have prerequisite knowledge 
+          of some basic mathematical skills such as geometry, algebra, trigonometry, 
+          and some advanced mathematical tools such as a differential and integral calculus. 
+         </p>
+          <p>
+            Learning skills by memorization cannot seem to be working efficiently 
+            in learning physics. Physics is a logical and conceptual based learning 
+            hence it requires a completely different approach than simply trying to 
+            memorize lists of formulae or examples. 
+           This book is organized into two volumes that covers the syllabus 
+           of introductory physics at undergraduate level in various universities and colleges. 
+          <term>Volume I</term>  contains <em>Basics of Mechanics,  Fluid Mechanics, and Thermodynamics. </em>
+           <term>Volume II</term> contains <em>Electricity, Magnetism, Waves, Acoustics, and Optics.</em> 
+             These topics have been carefully chosen to provide an introduction to the 
+           basic concepts in physics and to give an opportunity to sharpen critical thinking 
+           and problem solving skills. The main objective of this book is to learn how to 
+           investigate and approach problems in a logical manner. This book strives to 
+           guide readers to  learn physics in a logical manner. Many examples and practice 
+           problems throughout the text may be helpful to refine physical intuition. 
+           </p>
+            <p>
+              To tackle the physical problems the book uses the 'GUESS' policy for a 
+              systematic gatheing of information and finding realistic and logistic solution. 
+              Here is what GUESS stands for </p>
+              <p>
+                <alert>G:</alert> Given, identify the given information and sketch the information if possible. 
+              </p>
+<p>
+  <alert>U:</alert> Unknown, identify the unknown that we are looking for.
+</p>
+<p>
+  <alert>E:</alert> Equation/s, set up the equation from given information.
+</p>
+
+<p>
+  <alert>S:</alert> Substitute, substitute the number/s in the equation/s.
+</p>
+
+<p>
+  <alert>S:</alert> Solve, solve the equation to obtain the answer.
+</p>
+
+<p>
+  Comments and suggestions for improvements to the text will be gratefully 
+  accepted <em>-- Author</em>
+</p>        
+ 
+        </preface>
+
+    </frontmatter>
+
+
+    <xi:include href="./ch_first.ptx" />
+    <xi:include href="./ch_second.ptx" />
+     <xi:include href="./ch_third.ptx" />  
+     <xi:include href="./ch_fourth.ptx" />
+     <xi:include href="./ch_fifth.ptx" />
+    
+
+ <xi:include href="./meta_backmatter.ptx" /> 
+   
+
+  </book>
+</pretext>

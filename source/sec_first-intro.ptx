@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_first-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Electrostatic Induction</title>
+
+  <introduction>
+    
+     <p>
+      A redistribution of charges in a neutral object when a charged object is brought 
+      near it is called an electrostatic induction. Neighboring charges which are brought 
+      near a neutral object are known as <em>inducing charges</em>, charges developed on a 
+      neutral object are known as <em>induced charges</em>. Induced charges closer to 
+      the inducing charges are known as <em>bound charges</em> and charges away from 
+      inducing charges are known as <em>free charges</em> (<xref ref="fig2"/>). 
+     </p>
+     <figure xml:id="fig2">
+      <caption></caption>
+      <image source="fig2.png" width="45%"/>
+    </figure>
+
+</introduction>
+
+
+<subsection xml:id="subsec-charg_transf">
+  <title>Methods of Transferring Charges:</title>
+ <introduction>
+  <p>
+    Charge can neither be created nor be destroyed but  it can be transferred from one 
+    object to another by the following processes. 
+    <ol>
+      <li>
+        <term>Charging by Friction:</term> In this method two neutral objects are rubbed 
+        together against each other to transfer charges from one object to another. 
+        The object which gains electrons becomes negatively charged and the one which 
+        looses electrons becomes positively charged. 
+      </li>
+      <li>
+       <term> Charging by Conduction:</term> In this method charged object are brought in 
+       contact to the other object to transfer charges. Uncharged object becomes charged 
+       after touching by the charged object. When oppositely charged object brought in contact 
+       with each other they lose their charges.	
+      </li>
+      <li>
+       <term> Charging by Induction:</term> In this method an uncharged object is brought 
+       near a charged object (no physical contact) to induce a positive and negative charge 
+       on it. When charged object is in proximity of uncharged object it produces an 
+       electrical force on electrons to move them from one part of object to another. 
+       When an insulator is brought near a charged object electrons of insulator atoms 
+       experience electrical force which stretches atoms to  displace center of gravity of
+        positive charges and negative charges. This phenomenon of separation of charges is 
+        called <em>polarization</em>. Hence in induction positive charges are separated 
+        from negative charges to produce charges on an object.   
+      </li>
+    </ol>
+  </p>
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-electroscope">
+  <title>Electrophorus:</title>
+
+  <figure xml:id="fig3">
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+      <figure>
+        <caption></caption>
+        <image source="fig3a.png"/>
+    </figure>
+        <figure>
+            <caption></caption>
+            <image source="fig3b.png"/>
+        </figure>
+        <figure>
+            <caption></caption>
+            <image source="fig3c.png"/>
+        </figure>
+     </sidebyside>
+</figure>
+  <p>
+    It is a device used to produce charges using electrostatic induction. 
+    It consists of an insulating base plate and a conducting disc (also known as electrophorus disc) 
+    with an insulated handle [<xref ref="fig3"/>]. At first insulating plate is rubbed with silk, 
+    fur, or wool which produces charges on the plate depending on the type of materials being 
+    rubbed together. In the figure above negative charges are produced on the base plate. 
+    Electrophorus disk is then brought in contact with this plate and then grounded. 
+    Grounding help free charges on disk to neutralize with the opposite charges from the 
+    earth (ground). Earth is an infinite source of charges and because electrons are lighter 
+    than the positive charges electrons can easily come from earth to the disk to neutralize 
+    free positive charges or they can leave the disc to the ground if they are free charges. 
+    After grounding, the disk contains only one kind of charges, it is then disconnected from 
+    ground before get removed from the plate. All the charges on the disk then spread around 
+    its surface which can be stored and used as needed. In this case positive charges are stored from the disk. 
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-electrscp">
+  <title>Electroscope:</title>
+  <figure xml:id="electroscope">
+    <caption></caption>
+    <image source="electroscope.png" width="40%"/>
+</figure>
+  <p>
+    It is an instrument used to detect charge on a body.  It consists of two gold 
+    (or silver or aluminum) leaves suspended from a conducting rod that leads to the 
+    outside of an insulating glass container (<xref ref="electroscope"/>). 
+    The rod has metallic ball attached at its top, when a charged object is 
+    brought near the conducting ball or make in contact with it causes the leaves 
+    to diverge because like charges repel each other. The nature of charge (positive 
+    or negative) on any object can also be determined with the help of electroscope,
+     by making its leaves charged with the known charges.
+  </p>
+ </subsubsection>
+</subsection>
+  
+
+<subsection xml:id="subsec-coulmb_law">
+  <title>Coulumb's Law</title>
+ <introduction>
+  <p>
+    The force of attraction or repulsion between any two point charges is directly proportional 
+    to the product of these charges and inversely proportional to the square of distance between them. 
+    The direction of force is always acting along the line joining these two point charges. 
+    If <m>F_{12}</m> is a force acting on charge <m> q_{1}</m> due to charge <m> q_{2},</m> 
+    <m>F_{21}</m> is a force acting on charge <m> q_{2}</m> due to charge <m>q_{1},</m> 
+    and <m> r_{12} </m> is a distance between the two charges (<xref ref="fig4"/>) then from Coulumb's law 
+    <me>
+      \vec{F}  =  k\frac{q_{1}q_{2}}{r^{2}}\hat{r} =  \frac{1}{4\pi\epsilon_{o}}\frac{q_{1}q_{2}}{r^{2}}\hat{r}
+    </me>
+    where <m>\hat{r}</m> is unit vector along line joining the two charges, Coulomb's constant of free space, 
+    <m>k  =  9.00 \times 10^{9} \,N m^{2}/C^{2}</m>;  and permittivity of free space, 
+    <m>\epsilon_{o}  =  8.85 \times 10^{-12}\,C^{2}/N m^{2}.</m> 
+    Permittivity is an ability of a medium to store electrical energy in an electric field. 
+    In other words, permittivity is the extent to which a medium permits electrical lines of force 
+    between the charges. It is a resistance of a medium in forming electric fields. It describes 
+    the effect of a material in an electrical field. The higher the permittivity, the more the 
+    material tends to reduce electrical field (due to polarization) that set up it. 
+  </p>
+  <figure xml:id="fig4">
+    <caption></caption>
+    <sidebyside widths="35% 35%">
+      <figure>
+        <caption></caption>
+        <image source="fig4a.png"/>
+    </figure>
+        <figure>
+            <caption></caption>
+            <image source="fig4b.png"/>
+        </figure>
+     </sidebyside>
+</figure>
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-1d_colmb">
+  <title>Coulumb's Law in One Dimension</title>
+  <p>
+    Coulomb's law holds good only for two point charges but if more than two charges are 
+    located in space then the force on each of them can be determined by using the principle of superposition.
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-2d_colmb">
+  <title>Coulomb's Law in Two and Three Dimensions</title>
+  <p>
+    Use principle of superposition to obtain force on any charge if the charges are distributed at different points in space. 
+  </p>
+ </subsubsection>
+</subsection>
+
+
+<subsection xml:id="subsec-superp_th">
+  <title>Principle of Superposition</title>
+  <p>
+    It states that every charge in space exerts a force on another in such a way 
+    that there are no other chrages present in that medium. Hence, the net force 
+    excerted at a point charge by two or more charges in space is a vector sum 
+    of the individual forces. 
+  </p>
+</subsection>
+  </section>
+
