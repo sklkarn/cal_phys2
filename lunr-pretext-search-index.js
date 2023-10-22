@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Examples A",
-  "body": " Examples A   Coulomb's Law             "
+  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?         "
 },
 {
   "id": "example-1",
@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.2.1",
   "title": "",
-  "body": "         "
+  "body": "  If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?       "
 },
 {
   "id": "sec_first-exampleB",
