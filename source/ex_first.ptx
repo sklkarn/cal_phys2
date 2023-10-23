@@ -4,6 +4,14 @@
   <!-- You can ommit the title and just get the default "Exercises" -->
   <title>Exercise</title>
   
- 
+ <paragraphs>
+  <title>Coulomb's Law</title>
+  <exercise>
+    <p>
+      Calculate total positive charge and total negative charge on 5 g of nickel. 
+      Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively.
+    </p>
+  </exercise>
+ </paragraphs>
  </exercises>
 

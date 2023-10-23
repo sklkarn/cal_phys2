@@ -30,9 +30,10 @@
               charge on an electron. If  Q is the total charge on a material and <m>q=e</m> 
               is the charge of an electron then, 
               <men xml:id="eqn-charge1">
-                Q=Nq
+               Q= N_{e}q_{e}
               </men>
-               where <m>N=1,2,3,\cdots</m> and <m> q=e=1.6\times10^{-19}</m> Coulombs;  
+               where <m>N_e=1,2,3,\cdots</m> is number of electrons and <m> q_e =e =1.6\times10^{-19}</m> 
+               Coulombs is charge on an electron;  
             </li>
             <li>
               Charge is conserved, i.e., in an isolated system the total charge remains unchanged. 

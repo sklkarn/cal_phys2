@@ -9,21 +9,357 @@
   <example>
     <statement>
       <p>
-        If <m>1.8\times10^{20}</m> electrons move through a cigarette lighter during its operation, 
+        If <m>3.2\times10^{20}</m> electrons move through a cigarette lighter during its operation, 
         how many coulombs of charge moved through it?
       </p>
     </statement>
     <solution>
       <p>
-        
-      </p>
+        <me>
+          Q = N_{e}q_{e}
+        </me>
+        <me>
+          = (3.2\times10^{20})\times(1.6\times10^{-19}) = 51.2 \,C
+        </me>
+         </p>
     </solution>
   </example>
 
-
-
-
+    <example>
+      <statement>
+        <p>
+          How many coulombs of positive charge are there in 1.00 kg of plutonium? 
+          Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.
+        </p>
+      </statement>
+      <solution>
+        <p> From eqn. <xref ref="eqn-charge1"/>
+          <me>
+            Q =  N_{e}q_{e}
+          </me>
+              <me>
+               or, \quad Q= (N_{atom})\times (Z) \times(q_{e}) 
+              </me>
+             where <m>N_{atom}</m> is number of atoms and <m>Z</m> is atomic number.
+              <me>
+            =  n \times N_{A} \times Z \times q_{e}
+            </me>
+            where <m>n</m> is number of moles and <m>N_{A}</m> is Avagadro's number.
+             </p> 
+             <p>
+             = [(Mass of material, m)/(Molar Mass, M)](Avagadro's number, <m>N_{A}</m>) (Atomic Number, Z) (Charge on electron, <m>q_{e}</m>)
+             </p>
+             <p>
+              <me>
+              or, \quad Q  = \frac{m}{M}\times (N_{A})\times Z\times  q_{e} 
+              </me>
+              Here <m>Q</m> is total charge in material, <m>M</m> is mass number, in case of elemental material value of 
+              mass number, A is same as molar mass, M.
+             </p> 
+             <p>
+              <me>
+                \therefore \quad Q_{+} = \frac{1000\,g}{244\,g/mol}\times (6.02\times 10^{23})(\#/mol)\times 94 \times (1.6\times 10^{-19}\,C)
+              </me>
+              <me>
+                =3.7\times10^{7}\,C
+              </me>
+                </p>
+      </solution>
+    </example>
+ 
+    <example>
+      <statement>
+        <p>
+          A hydrogen atom consists of a proton and an electron. If the radius of the atom is 
+          equal to the Bohr radius of <m>0.5292 \times 10^{-10} \,m</m>, what is 
+          <ol marker="a.">
+            <li>
+              the gravitational force between the two particles,
+            </li>
+            <li>
+              the electrical force between the particles, and 
+            </li>
+            <li>
+              the ratio of the electrical force to the gravitational force? 
+            </li>
+          </ol>
+          <em>Note:</em> Newton's gravitational constant, <m>G  =  6.67\times 10^{-11} \,N m^{2}/kg^{2};</m>  
+          Coulomb's Electrostatic constant, <m>k  =  9.00 \times 10^{9} \,N m^{2}/C^{2};</m> 
+          mass of proton, <m>m_{p}  =  1.67 \times 10^{-27} \,kg;</m> 	
+          mass of electron, <m>m_{e}  =  9.11\times 10^{-31} \,kg;</m> 
+          charge of proton, <m>q_{p}  =  1.60 \times 10^{-19} \,C;</m> 
+          and charge of electron, <m>q_{e}  =  -1.60 \times 10^{-19} \,C.</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+         Given: Radius of atom, <m>r  =  0.5292 \times 10^{-10} \,m.</m>
+         <ol marker="a.">
+          <li>
+            From Newton's law of gravity, 
+            <me>
+              F_{g}  =  G\frac{m_{p}m_{e}}{r^{2}}  = 3.6\times10^{-47} \,N 
+            </me>
+            </li>
+          <li>
+            From Coulomb's law of electrostatics, 
+            <me>
+              F_{e}  =  k\frac{q_{p}q_{e}}{r^{2}} = 8.23\times10^{-8}\,N 
+            </me>
+              </li>
+          <li>
+            Ratio of two forces,
+            <me>
+              R = \frac{F_{e}}{F_{g}}= 2.27\times 10^{39} 
+            </me>
+             </li>
+        </ol>
+        </p>
+      </solution>
+    </example>
   
+
+    <example>
+      <statement>
+        <p>
+          Three charges are located along the x-axis. The first charge of <m>+1 \,\mu C </m> is located at 
+          <m>x = 0,</m> the second of <m> - 2 \,\mu C</m> is at x = 5 cm, and the third charge of <m>+3 \,\mu C </m> 
+          is located in such way that there is no electrical force on it. 
+          <ol marker="a.">
+            <li>
+              Where is the third charge located?
+            </li>
+            <li>
+              What is the electrical force on the first charge?
+            </li>
+            <li>
+              What is the electrical force on the second charge?
+            </li>
+          </ol>
+            </p>
+      </statement>
+      <solution>
+        <p>
+          Given:	<m>q_{1}  =  1.00 \times 10^{-6} \,C;	\quad	q_{2}  =  -2.00 \times 10^{-6} \,C;</m>	
+          <m>q_{3}  =  3.00 \times10^{-6} \,C; </m> <m>k  =  9.00 \times 10^{9} \,N m^{2}/C^{2};</m>
+          <m>r_{12}  =  5 \times 10^{-2} \,m.</m>
+          <image source="fig5a.png" width ="60%"> </image>
+          <ol marker="a.">
+            <li>
+              Let the charges are located in a line as shown in figure below, 
+              then magnitude of force on <m>3^{rd}</m> charge due to <m>1^{st}</m> and <m>2^{nd}</m> charges is given by 
+              <me>
+                |\vec{F}_{31}| = k\frac{q_{1}q_{3}}{r_{13}^{2}};
+              </me>
+              and 
+              <me>
+                |\vec{F}_{32}| = k\frac{q_{2}q_{3}}{r_{23}^{2}}
+              </me>
+              Since there is not net force acting on <m>3^{rd} </m> charge, [figure (a)] hence 
+              <me>
+                \vec{F}=\vec{F}_{31} + \vec{F}_{32} = 0
+              </me>
+              <me>
+                \text{or,}\quad  k\frac{q_{1}q_{3}}{r_{13}^{2}} + k\frac{q_{2}q_{3}}{r_{23}^{2}} =0  
+              </me>
+              <me>
+                \text{or,}\quad  \frac{q_{1}}{r_{13}^{2}} = - \frac{q_{2}}{r_{23}^{2}} 
+              </me>
+              <me>
+                \text{or,}\quad \frac{ 1.00 \times 10^{-6}}{x^{2}} = \frac{ 2.00 \times 10^{-6} }{(r_{12}+ x)^{2}} 
+              </me>
+              <me>
+                \text{or,}\quad  \frac{ 1}{x^{2}} = \frac{ 2}{(5 + x)^{2}} 
+              </me>
+              <me>
+                \text{or,}\quad 2x^{2} = x^{2}+10x+25
+              </me>
+              <me>
+                \text{or,}\quad x^{2} - 10x-25 =0
+              </me>
+              <me>
+                \therefore\quad x = \frac{10 \pm \sqrt{100+4\cdot1\cdot25}}{2\cdot1}  = 12.1 \,cm, -2.1 \,cm
+              </me>
+               Here we have taken x = -2.1 cm  to obtain no net force on the <m>3^{rd}</m> charge.  
+               Hence x=<m>r_{13}</m>=-2.1 cm = -0.02 m.
+            </li>
+            <li>
+              <me>
+                \vec{F}_{1}  =  \vec{F}_{12} +  \vec{F}_{13} 
+              </me>
+              <me>
+                = k\frac{q_{1}q_{2}}{r^{2}_{12}} (\hat{i})+k\frac{q_{1}q_{3}}{r^{2}_{13}} (\hat{i})
+              </me>
+              <me>
+                = 9\times 10^{-3}(800 + 7500)(\hat{i}) = 74.7 (\hat{i}) N 
+              </me>
+               here, <m>\hat{i}</m> is a unit vector along x-axis [figure (b)]. Here only magnitude of charges 
+               are taken in calculation as the direction of forces are already determined according to nature of charges. 
+            </li>
+            <li>
+              <me>
+                \vec{F}_{2}  =  \vec{F}_{21}  +  \vec{F}_{23}  = 18.2 (-\hat{i}) N  
+              </me>
+              [figure (c)]
+             </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Consider the three charges <m>1 \,\mu C,</m> <m>2 \,\mu C</m> and <m>-3 \,\mu C</m> located 
+          at the three corners of a square. What is the magnitude and direction of the initial 
+          acceleration of the <m>4 \,\mu C</m> charge at the fourth corner if mass of all the 
+          charged objects are 2 kg each and are released from rest? Neglect gravity. 
+          </p>
+          <image source="fig5b.png" width="30%"> </image>
+      </statement>
+      <solution>
+          <p>
+          Given:	<m>q_{1}  =  1 \times 10^{-6} \,C;	\quad k  =  9.00\times 10^{9} \,N m^{2}/C^{2};</m>   
+          <m> q_{2}  =  2 \times 10^{-6}\,C; \quad r_{2} =  0.1 \,m;</m> <m>q_{3}  =  -3 \times 10^{-6}\,C;</m>
+          <m>r_{3} =  0.1 \,m;\quad q_{4}  =  4 \times 10^{-6}\,C;\quad m =  2 \,kg;</m>
+        </p>
+        <image source="fig5c.png" width="30%"> </image>
+        <p>
+          The direction of force <m>F_{41}</m> can be determined by 
+          <me>
+            \tan\theta  =  \frac{r_{24}}{r_{12}} \Rightarrow  \quad \theta= 45\,^{o}
+          </me>
+         <me>
+          \text{Now,}\quad  r_{14}  =  \sqrt{r^{2}_{12}+r^{2}_{24}} = 0.1414\, m 
+         </me>
+         <me>
+          \therefore\quad F_{41}  =  k\frac{q_{1}q_{4}}{r^{2}_{14}} =1.80 \,N;
+         </me>
+         <me>
+          F_{42}  =  k\frac{q_{2}q_{4}}{r^{2}_{24}} =7.20 \,N;
+         </me>
+         <me>
+          \text{and}\quad F_{43} = k\frac{q_{3}q_{4}}{r^{2}_{34}}= -10.80 \,N
+         </me>
+         Therefore force along x-axis on charge <m>q_{4}</m> is given by 
+         <me>
+          \sum F_{x} =  F_{41}\cos\theta -F_{43} = ma_{x} \Rightarrow \quad a_{x} = -4.76 \,m/s^{2}
+         </me>
+         and along y-axis is
+         <me>
+          \sum F_{y} =  F_{42} + F_{41}\sin\theta =ma_{y} \Rightarrow \quad a_{y} = 4.235 \,m/s^{2} 
+         </me>
+         <me>
+          \text{Hence}\quad a  =  \sqrt{a^{2}_{x}+a^{2}_{y}} =6.45  \,m/s^{2}
+         </me>
+         <me>
+          \text{and}\quad \tan\phi  =  \frac{a_{y}}{a_{x}} 
+         </me>
+         Therefore, <m>\phi =41^{o} </m> or, <m>139^{o} </m> from +ve x-axis.
+          </p>
+          <image source="fig5d.png" width="30%"> </image>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          A thin ring of charge Q and radius a is centered on the  x-axis in the y, z plane as shown in figure. 
+          A point charge q is located a distance x from the center of the ring. 
+          <image source="fig4.png" width="30%"> </image>
+          <ol marker="a.">
+            <li>
+              What is the electrical force exerted by the ring on the point charge? 
+            </li>
+            <li>
+              What is this force equal to when the point charge is at the center of the ring? 
+            </li>
+            <li>
+              What is this force equal to when x is much greater than a?
+            </li>
+            <li>
+              What is this force when <m>Q = 10 \,\mu C, \quad q = -5 \,\mu C, </m> a = 0.1 m, and x = 0.2 m? 
+            </li>
+          </ol>
+           </p>
+      </statement>
+      <solution>
+        <p>
+          Given: <m>\epsilon_{o}=8.85\times 10^{-12}\,C^{2}/Nm^{2};</m> <m>Q=10\times 10^{-6}\,C;</m>  
+          <m>q= -5\times 10^{-6}\,C;</m>   a = 0.1 m, x = 0.2 m.
+        </p>
+        <image source="fig6.png" width="30%"> </image>
+        <p>
+          Consider a differential charge <m> \,dQ</m> at the top of a ring of 
+          length <m>\,ds</m>  so that it behaves like a point charge to obtain 
+          a force acting on charge  q  at a distance  x  from the ring. 
+          Hence, 
+          <me>
+            \frac{\,dQ}{Q}  = \frac{\,ds}{2\pi a}
+          </me>
+          as the charges are distributed uniformly on a ring. 
+          <me>
+            \therefore  \quad \,dQ = \frac{Q}{2\pi a}\,ds
+          </me>
+          where <m>2\pi a</m> = length of a ring.
+            <me>
+              \text{Now,}\quad \,dF=k\frac{\,dQ q}{r^{2}},
+            </me>
+            <me>
+              \text{where}\quad r=\sqrt{a^{2}+x^{2}}
+            </me>
+            <me>
+              \therefore\quad dF_{x} =  dF\cos\theta = k\frac{\,dQ q}{r^{2}}\left(\frac{x}{r}\right) 
+            </me>
+            <me>
+              = k\frac{\,dQ q}{r^{3}}x = k\frac{dQ q x}{(a^{2}+x^{2})^{3/2}}
+            </me>
+            <me>
+              \text{also,}\quad dF_{y} =  dF\sin\theta = k\frac{\,dQ q}{r^{2}}\left( \frac{a}{r}\right) 
+            </me>
+            <me>
+              = k\frac{\,dQ q}{r^{3}}a = k\frac{dQ q a}{(a^{2}+x^{2})^{3/2}} 
+            </me>
+            <me>
+              \therefore\quad F_{x}=\int dF_{x} 
+            </me>
+            <me>
+              = k\frac{q x}{(a^{2}+x^{2})^{3/2}} \int \,dQ =k\frac{Q q x}{(a^{2}+x^{2})^{3/2}}
+            </me>
+         If we consider a differential charge <m>\,dQ </m> at the bottom, then y-component 
+         of force cancels out each other at a charge q and hence similarly all the 
+         y-components cancel out each other if we consider a differential charge at 
+         any portion of the ring because of the charge symmetry, i.e., 
+         <me>
+          F_{y}=\int dF_{y}= 0
+         </me>
+         by charge symmetry.
+        </p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <me>
+                \vec{F}=F_{x}\hat{i}+F_{y}\hat{j}  = k\frac{Q q x}{(a^{2}+x^{2})^{3/2}}\hat{i}
+              </me>
+                 </li>
+            <li>
+              <m>\text{For} \quad x=0, \quad  F = 0</m>
+            </li>
+            <li>
+              <m> \text{For}\quad x \gt \gt a,</m>
+             we have <m>\quad 1 \gt \gt \frac{a}{x},</m>
+             <me>
+              \therefore\quad  \vec{F}= k\frac{Q q x}{x^{3}(\frac{a^{2}}{x^{2}}+1)^{3/2}} \hat{i}= k\frac{Q q}{x^{2}}\hat{i} 
+             </me>
+             which is Coulomb's law for point charges.
+                </li>
+            <li>
+            <m>F=-8.05 \,N\hat{i}</m>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
 </paragraphs>
 
 </section>
