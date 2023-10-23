@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Examples A",
-  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?         "
+  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?            How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.          A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,         Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]        Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.        A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.          "
 },
 {
   "id": "example-1",
@@ -124,7 +124,52 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.2.1",
   "title": "",
-  "body": "  If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?       "
+  "body": "  If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?         "
+},
+{
+  "id": "example-2",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-2",
+  "type": "Example",
+  "number": "1.2.2",
+  "title": "",
+  "body": "  How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.       "
+},
+{
+  "id": "example-3",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-3",
+  "type": "Example",
+  "number": "1.2.3",
+  "title": "",
+  "body": "  A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,      "
+},
+{
+  "id": "example-4",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-4",
+  "type": "Example",
+  "number": "1.2.4",
+  "title": "",
+  "body": "  Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]     "
+},
+{
+  "id": "example-5",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-5",
+  "type": "Example",
+  "number": "1.2.5",
+  "title": "",
+  "body": "  Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.     "
+},
+{
+  "id": "example-6",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-6",
+  "type": "Example",
+  "number": "1.2.6",
+  "title": "",
+  "body": "  A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.        "
 },
 {
   "id": "sec_first-exampleB",
@@ -136,9 +181,9 @@ var ptx_lunr_docs = [
   "body": " Examples B   Coulomb's Law             "
 },
 {
-  "id": "example-2",
+  "id": "example-7",
   "level": "2",
-  "url": "sec_first-exampleB.html#example-2",
+  "url": "sec_first-exampleB.html#example-7",
   "type": "Example",
   "number": "1.3.1",
   "title": "",
@@ -151,7 +196,16 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "1.4",
   "title": "Exercise",
-  "body": "  Exercise  "
+  "body": "  Exercise   Coulomb's Law  Calculate total positive charge and total negative charge on 5 g of nickel. Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively.   "
+},
+{
+  "id": "exercise-1",
+  "level": "2",
+  "url": "ex_first.html#exercise-1",
+  "type": "Exercise",
+  "number": "1.4.1",
+  "title": "",
+  "body": "Calculate total positive charge and total negative charge on 5 g of nickel. Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively. "
 },
 {
   "id": "sec_second-intro",
@@ -181,9 +235,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-1",
+  "id": "exercise-2",
   "level": "2",
-  "url": "ex_second.html#exercise-1",
+  "url": "ex_second.html#exercise-2",
   "type": "Exercise",
   "number": "2.3.1",
   "title": "",
@@ -217,9 +271,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-2",
+  "id": "exercise-3",
   "level": "2",
-  "url": "ex_third.html#exercise-2",
+  "url": "ex_third.html#exercise-3",
   "type": "Exercise",
   "number": "3.3.1",
   "title": "",
@@ -253,9 +307,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-3",
+  "id": "exercise-4",
   "level": "2",
-  "url": "ex_fourth.html#exercise-3",
+  "url": "ex_fourth.html#exercise-4",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -289,9 +343,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-4",
+  "id": "exercise-5",
   "level": "2",
-  "url": "ex_fifth.html#exercise-4",
+  "url": "ex_fifth.html#exercise-5",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -307,72 +361,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-41",
+  "id": "p-58",
   "level": "2",
-  "url": "append_math.html#p-41",
+  "url": "append_math.html#p-58",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-42",
+  "id": "p-59",
   "level": "2",
-  "url": "append_math.html#p-42",
+  "url": "append_math.html#p-59",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-43",
+  "id": "p-60",
   "level": "2",
-  "url": "append_math.html#p-43",
+  "url": "append_math.html#p-60",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-44",
+  "id": "p-61",
   "level": "2",
-  "url": "append_math.html#p-44",
+  "url": "append_math.html#p-61",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-45",
+  "id": "p-62",
   "level": "2",
-  "url": "append_math.html#p-45",
+  "url": "append_math.html#p-62",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-46",
+  "id": "p-63",
   "level": "2",
-  "url": "append_math.html#p-46",
+  "url": "append_math.html#p-63",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-47",
+  "id": "p-64",
   "level": "2",
-  "url": "append_math.html#p-47",
+  "url": "append_math.html#p-64",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-48",
+  "id": "p-65",
   "level": "2",
-  "url": "append_math.html#p-48",
+  "url": "append_math.html#p-65",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -388,9 +442,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-49",
+  "id": "p-66",
   "level": "2",
-  "url": "appendix-2.html#p-49",
+  "url": "appendix-2.html#p-66",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
