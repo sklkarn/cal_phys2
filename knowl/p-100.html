@@ -13,14 +13,33 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">The figure below shows an electric dipole located in an electric field directed to the right. The magnitude of the charge on each particle of the dipole is 2 nC, the distance between the particles is 10 cm, the angle <span class="process-math">\(\theta = 60^{o},\)</span> and the magnitude of the electric field is 50 N/C.   <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/fig10.png" class="contained"></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{\,dA}=dydz\hat{i}
+\end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">What is the dipole moment of the dipole?</div></li>
-<li><div class="para">What is the torque on the dipole?</div></li>
-<li><div class="para">What is the potential energy of the dipole?</div></li>
-</ol>
+<div class="para">
+<span class="process-math">\(\because\)</span> surface is in the y,z plane.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{E}=\int\vec{E}\cdot\vec{\,dA}=\int E_{x}\,dA_{yz} =\iint 2yz \,dy \,dz = \int\limits_{0}^{2}\left(\int\limits_{0}^{1}2yz\,dy\right)\,dz 
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_first.html#p-100" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+= \int\limits_{0}^{2}z\left(\int\limits_{0}^{1}2y\,dy\right)\,dz  
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(\because z \)</span> is independent of <span class="process-math">\(y.\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\int\limits_{0}^{2}z\left.\left(y^{2}\right\vert_{0}^{1} \right)\,dz  =  \int\limits_{0}^{2}z \,dz 
+= \left.\frac{z^{2}}{2}\right\vert_{0}^{2} =2 Nm^{2}/C
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="sec_first-exampleB.html#p-100" class="internal">in-context</a></span>
 </body>
 </html>
