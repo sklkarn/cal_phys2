@@ -293,7 +293,142 @@
     </p>
     <image source="qsquare.png" width="30%"> </image>
   </exercise>
+
+
+  <exercise>
+    <p>
+      A ring of charge <m>Q</m> and radius <m>a</m> lies in the y, z -plane and is centered on the origin. 
+      <ol marker="a.">
+        <li>
+          Use calculus to show that the electric field at any point along the x-axis is given by 
+          <me>
+            \vec{E}  =k\frac{Qx}{(x^{2}+a^{2})^{3/2}}\hat{i}.
+          </me>
+              </li>
+        <li>
+          What does this become when <m>x \gt \gt a</m>?
+        </li>
+        <li>
+          When <m>x \lt \lt a?</m>
+        </li>
+      </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A ring of charge <m>Q</m> and radius <m>a</m> lies in the y, z -plane and is centered on the origin. 
+      Its electric field at any point along the x-axis is given by 
+      <me>
+        E  =k\frac{Qx}{(x^{2}+a^{2})^{3/2}}\hat{i}
+      </me>
+      <ol marker="a.">
+        <li>
+          Use calculus to show that the electric field at a distance <m>x</m> perpendicular to the center of a uniformly 
+          charged disk of radius <m>R</m>is 
+          <me>
+            \vec{E}  =\frac{\sigma}{2\epsilon_{o}}\left(1-\frac{x}{\sqrt{R^{2}+x^{2}}}\right)\hat{i}
+          </me>
+           where <m>\sigma = Q/\pi R^{2}</m> is the charge per unit area. 
+              </li>
+        <li>
+          What does this become when <m>x \gt \gt R?</m>
+        </li>
+        <li>
+          When <m>x \lt \lt R?</m>
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An electric dipole is centered on the y -axis with the positive charge <m>q</m> located at 
+      <m>y = -d/2.</m> 
+      <ol marker="a.">
+        <li>
+          What is the electric field at a distance x along the x-axis? 
+              </li>
+        <li>
+          What does this become for <m>x \gt\gt d?</m> 
+        </li>
+        <li>
+          For <m>x \lt \lt d?</m>
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An electric dipole is centered on the y-axis with the positive charge <m>q</m> located at 
+      <m>y = -d/2.</m> 
+      <ol marker="a.">
+        <li>
+          What is the electric field at a distance <m>y</m> along the y-axis?
+              </li>
+        <li>
+          What does this become for <m>y \gt \gt d?</m>
+        </li>
+        <li>
+          For <m>y \lt \lt d?</m>
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      At what distance from a negative charge of  5.5 nC would the electric field strength be <m>1.90 \times 10^{5} \,N/C</m>? 
+    </p>
+  </exercise>
+  <exercise>
+    <p>
+      Two positive charges <m>q</m> are located along the y -axis at <m>y = +a</m> and <m>y = -a,</m> 
+      respectively. 
+      <ol marker="a.">
+        <li>
+          What is the electric field at a distance x along the x-axis?
+              </li>
+        <li>
+          What does this become for <m>x \gt \gt a?</m> 
+        </li>
+        <li>
+          For <m>x \lt \lt a?</m>
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the electric field inside and outside of a sphere of radius <m>R</m>, which 
+      carries a uniform volume charge density <m> \rho</m>. 
+    </p>
+  </exercise>
 </paragraphs>
 
+
+<paragraphs>
+  <title>Electric Flux</title>
+  <exercise>
+    <p>
+      A uniform electric field of strength <m>E = 100 \,N/C</m> is in the x, y - plane and directed 
+      above the +x - axis at an angle of <m>30^{o}.</m> 
+      <ol marker="a.">
+        <li>
+          What is the electric flux through a surface of area <m>10 \,m^{2}</m> whose normal is in the x-direction?
+        </li>
+        <li>
+          What is the electric flux through the surface area <m>\vec{A} = 5 m^{2} (\hat{i} + \hat{j} + \hat{k})?</m> 
+        </li>
+        <li>
+          What is the electric flux through a circle of radius 0.10 m located in the y, z plane? 
+          Is this last answer positive or negative? Why?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+</paragraphs>
  </exercises>
 

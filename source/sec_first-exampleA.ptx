@@ -264,7 +264,7 @@
     <example>
       <statement>
         <p>
-          A thin ring of charge Q and radius a is centered on the  x-axis in the y, z plane as shown in figure. 
+          A thin ring of charge <m>Q</m> and radius <m>a</m> is centered on the  x-axis in the y, z plane as shown in figure. 
           A point charge q is located a distance x from the center of the ring. 
           <image source="fig4.png" width="30%"> </image>
           <ol marker="a.">
@@ -303,30 +303,20 @@
           </me>
           where <m>2\pi a</m> = length of a ring.
             <me>
-              \text{Now,}\quad \,dF=k\frac{\,dQ q}{r^{2}},
+              \text{Now,}\quad \,dF=k\frac{\,dQ q}{r^{2}}, \quad  \text{where}\quad r=\sqrt{a^{2}+x^{2}}
             </me>
-            <me>
-              \text{where}\quad r=\sqrt{a^{2}+x^{2}}
-            </me>
-            <me>
+             <me>
               \therefore\quad \,dF_{x} =  dF\cos\theta = k\frac{\,dQ \,q}{r^{2}}\left(\frac{x}{r}\right) 
+              = k\frac{\,dQ \,q}{r^{3}}x   = k\frac{\,dQ \,q x}{(a^{2}+x^{2})^{3/2}}
             </me>
-            <me>
-              = k\frac{\,dQ \,q}{r^{3}}x = k\frac{\,dQ \,q x}{(a^{2}+x^{2})^{3/2}}
-            </me>
-            <me>
+              <me>
               \text{also,}\quad \,dF_{y} =  dF\sin\theta = k\frac{\,dQ \,q}{r^{2}}\left( \frac{a}{r}\right) 
-            </me>
-            <me>
               = k\frac{\,dQ \,q}{r^{3}}a = k\frac{\,dQ \,q a}{(a^{2}+x^{2})^{3/2}} 
             </me>
-            <me>
-              \therefore\quad F_{x}=\int \,dF_{x} 
+               <me>
+              \therefore\quad F_{x}=\int \,dF_{x}   = k\frac{q x}{(a^{2}+x^{2})^{3/2}} \int \,dQ =k\frac{Q \,q \,x}{(a^{2}+x^{2})^{3/2}}
             </me>
-            <me>
-              = k\frac{q x}{(a^{2}+x^{2})^{3/2}} \int \,dQ =k\frac{Q \,q \,x}{(a^{2}+x^{2})^{3/2}}
-            </me>
-         If we consider a differential charge <m>\,dQ </m> at the bottom, then y-component 
+            If we consider a differential charge <m>\,dQ </m> at the bottom, then y-component 
          of force cancels out each other at a charge q and hence similarly all the 
          y-components cancel out each other if we consider a differential charge at 
          any portion of the ring because of the charge symmetry, i.e., 
@@ -551,7 +541,7 @@
   <example>
     <statement>
       <p>
-        A thin rod of charge Q and length 2a is centrally located along the y-axis. 
+        A thin rod of charge <m>Q</m> and length <m>2a</m> is centrally located along the y-axis. 
         <ol marker="a.">
           <li>
             Use calculus to show that the electric field at a point x along the x-axis is given by 
@@ -580,12 +570,10 @@
        Due to charge symmetry the  y  components of field cancel out each other and only  x  
        components of field survived. Hence, 
        <me>
-        \,dE_{x}=\,dE\cos\theta= \frac{k\,dq}{r^{2}}\frac{x}{r}
+        \,dE_{x}=\,dE\cos\theta= \frac{k\,dq}{r^{2}}\frac{x}{r}  = \frac{kx\lambda\,dy}{r^{3}} 
+        =\frac{kx\lambda\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
        </me>
-       <me>
-        = \frac{kx\lambda\,dy}{r^{3}} =\frac{kx\lambda\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
-       </me>
-       <me>
+          <me>
         \therefore\quad E=E_{x}=kx\lambda\int\limits_{-a}^{a}\frac{\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
        </me>
       Now solve this integrand first then substitute the limits. Let 
@@ -600,19 +588,18 @@
        \text{or,} \quad \,dy=x\sec^{2}\theta\,d\theta 
       </me>
              <me>
-            \therefore\quad \mathscr{I} = \int\frac{x\sec^{2}\theta\,d\theta}{(x^{2}+x^{2}\tan^{2}\theta)^3/2}
+            \therefore\quad \mathscr{I} = \int\frac{x\sec^{2}\theta\,d\theta}{(x^{2}+x^{2}\tan^{2}\theta)^{3/2}} 
+            = \int \frac{1}{x^{2}}\cos\theta\,d\theta   = \frac{1}{x^{2}}\sin\theta=\frac{1}{x^{2}}\frac{y}{r}
           </me>
           <me>
-            = \int \frac{1}{x^{2}}\cos\theta\,d\theta = \frac{1}{x^{2}}\sin\theta=\frac{1}{x^{2}}\frac{y}{r}
+         = \frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}
           </me>
-          <me>
-            = \frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}
-          </me>
-          <me>
+                   <me>
             \therefore\quad  E= kx\lambda \left[\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}\right]_{-a}^{a} 
+             = kx\lambda\frac{2a}{x^{2}\sqrt{x^{2}+a^{2}}}   = \frac{2k\lambda a}{x \sqrt{x^{2}+a^{2}}} 
           </me>
           <me>
-            = kx\lambda\frac{2a}{x^{2}\sqrt{x^{2}+a^{2}}}= \frac{2k\lambda a}{x \sqrt{x^{2}+a^{2}}}  = \frac{kQ}{x \sqrt{x^{2}+a^{2}}}
+          = \frac{kQ}{x \sqrt{x^{2}+a^{2}}}
           </me>
              As total charge on a rod is Q. If  <m>x\gt \gt a,</m>  then  
           <me>
@@ -643,15 +630,15 @@
            \text{or,} \quad \frac{\,dq}{Q}=\frac{\,dy}{2a}; 
           </me>
          <me>
-          \therefore, \quad \vec{E}=\int\vec{dE}; 
-         </me>
-         and <m>r=\sqrt{x^{2}+y^{2}}</m>
+          \therefore, \quad \vec{E}=\int\vec{dE}; \quad \text{and} \quad r=\sqrt{x^{2}+y^{2}}
+         </me>   
               </p>
               <p>
                 <ol marker="a.">
                   <li>
                     <me>
-                      \vec{E}=\int k\frac{dq}{r^{2}}(\frac{x}{r}\hat{i}-\frac{y}{r}\hat{j})  = \int k \frac{Q}{2a}\frac{dy}{r^{3}}(x\hat{i}-y\hat{j})
+                      \vec{E}=\int k\frac{dq}{r^{2}}(\frac{x}{r}\hat{i}-\frac{y}{r}\hat{j})  
+                      = \int k \frac{Q}{2a}\frac{dy}{r^{3}}(x\hat{i}-y\hat{j})
                     </me>
                                        <me>
                       = k\frac{Qx}{2a} \int\limits_{-a}^{a} \frac{dy}{(x^{2}+y^{2})^{3/2}}\hat{i}-k\frac{Q}{2a} \int\limits_{-a}^{a} \frac{ydy}{(x^{2}+y^{2})^{3/2}}\hat{j}
@@ -700,7 +687,8 @@
           \,dE_{x} = \,dE \cos\theta
         </me>
         <me>
-          \therefore\quad E  = \int\,dE_{x} =\int\limits_{-\theta_{o}}^{\theta_{o}} \,dE \cos\theta   = \int\limits_{-\theta_{o}}^{\theta_{o}}\frac{k\,dq}{r^{2}}\cos\theta
+          \therefore\quad E  = \int\,dE_{x} =\int\limits_{-\theta_{o}}^{\theta_{o}} \,dE \cos\theta 
+           = \int\limits_{-\theta_{o}}^{\theta_{o}}\frac{k\,dq}{r^{2}}\cos\theta
         </me>
                <me>
           \text{or,}\quad E = \int\limits_{-\theta_{o}}^{\theta_{o}} \frac{k \lambda r \,d\theta}{r^{2}}\cos\theta 
@@ -709,16 +697,208 @@
           [\because \quad \,dq=\lambda\,dl\quad and \quad\,dl=r\,d\theta  ]
         </me>
         <me>
-          \text{or,}\quad E  = \frac{k\lambda}{r}\int\limits_{-\theta_{o}}^{\theta_{o}}\cos\theta\,d\theta
+          \text{or,}\quad E  = \frac{k\lambda}{r}\int\limits_{-\theta_{o}}^{\theta_{o}}\cos\theta\,d\theta 
+          =\frac{k\lambda}{r} \{\sin\theta\}_{-\theta_{o}}^{\theta_{o}}  = \frac{k\lambda}{r} \{2\sin\theta_{o}\} 
         </me>
-        <me>
-          =\frac{k\lambda}{r} \{\sin\theta\}_{-\theta_{o}}^{\theta_{o}} = \frac{k\lambda}{r} \{2\sin\theta_{o}\} 
-        </me>
-        along x-axis.  If <m>\theta_{o}\rightarrow \pi </m> then arc becomes a circular ring and field at the center of ring is zero. 
+         along x-axis.  If <m>\theta_{o}\rightarrow \pi </m> then arc becomes a circular ring and field at the center of ring is zero. 
            </p>
     </solution>
   </example>
 
+
+  <example>
+    <statement>
+      <p>
+        Find the electric field at a point due to a uniformly charged ring.
+      </p>
+    </statement>
+    <solution>
+      <image source="ring.png" width="35%"> </image>
+      <p>
+        Consider a ring of radius  a  having total charge  Q.   To find the field at point  P  
+        consider an elementary charge  <m>\,dq </m> then field at  P  is given by 
+        <me>
+          \,dE=\frac{k\,dq}{r^{2}}
+        </me>
+         Because of the charge symmetry,  y  components of field cancel out each other and 
+         only  x  components survived. Hence,
+<me>
+  \,dE_{x} =\,dE\cos\theta=\frac{k\,dq}{r^{2}}\cos\theta = \frac{k\,dq}{r^{2}} \frac{x}{r}
+</me>
+<me>
+  = \frac{k\,dq}{r^{3}} = \frac{k x \,dq}{(x^{2}+a^{2})^3/2}
+</me>
+<men xml:id="eqn-elf_ring1">
+  \therefore \quad E= \int\,dE_{x} =\int \frac{k x \,dq}{(x^{2}+a^{2})^3/2} = \frac{k x Q}{(x^{2}+a^{2})^3/2} 
+</men>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Find the  electric field at a point due to a uniformly charged disc.
+      </p>
+    </statement>
+    <solution>
+      <image source="disc.png" width="35%"> </image>
+      <p>
+        Consider a disc of radius <m>R</m> having total charge <m>Q</m> and uniform surface 
+        charge density <m> \sigma. </m> To find the field at point <m>P</m> consider an 
+        elementary charged ring of radius <m>r,</m> and thickness <m>\,dr </m> having charge 
+        <m> \,dq </m> then the field at point <m>P</m> due to a ring is given by the eqn. <xref ref="eqn-elf_ring1"/>, i.e.,
+        <me>
+          \,dE = \,dE_{x}= \frac{k x \,dq}{(x^{2}+r^{2})^3/2}\quad \text{(along x-axis)}.
+        </me>
+        <me>
+          \therefore\quad E = E_{x} =\int \,dE_{x} =\int\limits_{0}^{R}\frac{k x (\sigma 2\pi r\,dr)}{(x^{2}+r^{2})^3/2} 
+        </me>
+        <m>[\because \,dq = \sigma </m> (area of the ring)].
+        <me>
+          \text{or,}\quad E = 2\pi\sigma k x \int\limits_{0}^{R}\frac{r\,dr}{(x^{2}+r^{2})^3/2}
+        </me>
+        <me>
+          \text{Now let}\quad \mathscr{I}= \int \frac{r\,dr}{(x^{2}+r^{2})^{3/2}} 
+        </me>
+        From geometry of the figure 
+       <m> x^{2}+r^{2}=t^{2}</m>
+        <me>
+          \text{or,}\quad 2r\,dr=2t\,dt \quad \text{or,} \quad r\,dr=t\,dt
+        </me>
+        <me>
+          \therefore\quad \mathscr{I}= \int \frac{t\,dt}{t^{3}} = \int t^{-2}\,dt = -\frac{1}{t} = \left(-\frac{1}{\sqrt{x^{2}+r^{2}}}\right)
+        </me>
+        <me>
+          \therefore\quad E = 2\pi\sigma k x \left(-\frac{1}{\sqrt{x^{2}+r^{2}}}\right)_{0}^{R} 
+          = -2\pi\sigma k x \left[ \frac{1}{\sqrt{x^{2}+R^{2}}}-\frac{1}{\sqrt{x^{2}+0}}\right]
+        </me>
+        <me>
+         =2\pi\sigma k x \left[\frac{1}{x}-\frac{1}{\sqrt{x^{2}+R^{2}}}\right]
+        </me>
+        <me>
+          \therefore\quad E=2\pi\sigma k \left[1-\frac{x}{\sqrt{x^{2}+R^{2}}}\right]
+        </me>
+        If <m> x=0</m> the field at the center of the disc (or, field near charged surface, <m>E=\frac{\sigma}{2\epsilon_{o}}</m>)
+        <image source="gr1.png" width="35%"> </image>
+        <me>
+          or,\quad E =2\pi\sigma k = \frac{kQ}{R^{2}}\quad \text{(along x-axis).} 
+        </me>
+        <m>[\sigma=\frac{Q}{\pi R^{2}}]</m>
+       
+          If <m>x \lt \lt R,</m>
+          <me>
+            E=2\pi\sigma k [1-\frac{x}{R}]= 2\pi\sigma k
+          </me>
+          If <m>x \gt \gt R,</m> 
+       <me>
+        E=2\pi\sigma k [1-\frac{x}{x}]= 0 
+       </me>
+         </p>
+         </solution>
+  </example>
+
+
+  <conclusion>
+    <p>
+      <term>Summary:</term> 
+       <ol marker="i.">
+          <li>
+            Electric field due to point charge, 
+            <men xml:id="eqn-disc1">
+              E = \frac{kQ}{r^{2}}
+            </men>
+             along radial direction, i.e., <m>E\propto\frac{1}{r^{2}}.</m>
+          </li>
+          <li>
+            Electric field due to charged rod, 
+            <men xml:id="eqn-disc2">
+              E = \frac{2k\lambda}{x}
+            </men>
+             along perpendicular to the rod  ie., <m>E\propto\frac{1}{x}.</m>
+          </li>
+          <li>
+            Electric field due to charged plane, 
+            <men xml:id="eqn-disc3">
+              E = 2\pi\sigma k = \frac{2\pi\sigma}{4\pi\epsilon_{o}}= \frac{\sigma}{2\epsilon_{o}}  = constant  
+            </men>
+            and directed along perpendicular to the disc, ie., <m>E</m> is independent of the distance 
+            between the disc and point of consideration as long as the point is near to the plane.
+          </li>
+        </ol>
+       </p>   
+  </conclusion>
+ 
+   
+  <example>
+    <statement>
+      <p>
+        Find the electric field at a point due to two oppositely charged infinite sheets.
+      </p>
+    </statement>
+    <solution>
+      <image source="fig13.png" width="35%"> </image>
+      <p>
+        The electric field outside a uniformly charged infinite sheet is 
+        <me>
+          E = \sigma/2\epsilon_{o}
+        </me>
+         where <m> \sigma </m> is the charge density <xref ref="eqn-disc3"/>. 
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            Outside the two sheets, the electric field contributions due to the two sheets are equal 
+            and opposite as shown in the figure. Therefore, they cancel one another producing 
+            <m>E = 0.</m> 
+          </li>
+          <li>
+            Between the two sheets, the electric field contributions due to the two sheets are equal 
+            and parallel as shown in the figure. Therefore, they add to one another producing 
+            <me>
+              E=\sigma/\epsilon_{o}
+            </me>
+             directed away from the positive sheet and toward the negative sheet.
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        What is the electric field at the center of the hollow hemisphere bounded by <m>r=a,</m>
+         <m>0 \lt \theta \lt \frac{\pi}{2}, </m>  and <m>0 \lt \phi \lt 2\pi</m> that carries 
+         a constant surface charge density <m>\sigma</m> and radius <m>R</m>.
+      </p>
+    </statement>
+    <solution>
+      <image source="hemiselec.png" width="35%"> </image>
+      <p>
+        Consider a strip on the hemisphere of radius <m>r=R\sin\theta </m> and 
+        thickness <m>R\,d\theta.</m> The charge on the strip is given by
+<me>
+  \,dq=\sigma \,dA = \sigma 2\pi r \,dr = \sigma 2\pi R\sin\theta R\,d\theta 
+</me>     
+       Electric filed at the center <m>o</m> of the hemisphere  due to this strip is given by 
+       <me>
+        \,dE = \,dE_{z}=\,dE\cos\theta = \frac{\sigma k\,dq z}{(z^{2}+r^{2})^{3/2}}
+       </me>
+       <me>
+        =\frac{\sigma k\,dq R\cos\theta}{(R^{2}\cos^{2}\theta+R^{2}\sin^{2}\theta)^{3/2}}
+        = \frac{\sigma 2\pi k R^{3}\sin\theta\cos\theta\,d\theta}{R^{3}} 
+       </me>
+       <me>
+     = \frac{\sigma}{2\epsilon_{o}}\sin\theta\cos\theta\,d\theta 
+       </me>
+       <me>
+        \therefore E = \int \,dE = \frac{\sigma}{2\epsilon_{o}}\int\limits_{0}^{\frac{\pi}{2}}\frac{\sin 2\theta}{2}\,d\theta 
+        =\frac{\sigma}{4\epsilon_{o}} \quad\text{along -ve z-axis}
+       </me>
+            </p>
+    </solution>
+  </example>
 </paragraphs>
 
 </section>

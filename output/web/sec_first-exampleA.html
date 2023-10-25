@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-chrg_dist.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_first.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_first-exampleB.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-chrg_dist.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_first.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_first-flux.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -230,8 +230,9 @@ window.MathJax = {
 <ul class="structural"><li><div class="toc-item"><a href="subsec-chrg_dist.html" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Electric Field of a Continuous Charge Distribution</span></a></div></li></ul>
 </li>
 <li class="active"><div class="toc-item"><a href="sec_first-exampleA.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Examples A</span></a></div></li>
-<li><div class="toc-item"><a href="sec_first-exampleB.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Examples B</span></a></div></li>
-<li><div class="toc-item"><a href="ex_first.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Exercise</span></a></div></li>
+<li><div class="toc-item"><a href="sec_first-flux.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Electric Flux</span></a></div></li>
+<li><div class="toc-item"><a href="sec_first-exampleB.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_first.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li>
@@ -532,7 +533,7 @@ F_{42}  =  k\frac{q_{2}q_{4}}{r^{2}_{24}} =7.20 \,N;
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="p-52">
-<div class="para">A thin ring of charge Q and radius a is centered on the  x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring. <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/fig4.png" class="contained"></div>
+<div class="para">A thin ring of charge <span class="process-math">\(Q\)</span> and radius <span class="process-math">\(a\)</span> is centered on the  x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring. <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/fig4.png" class="contained"></div>
 </div>
 <ol class="lower-alpha">
 <li id="li-27"><div class="para" id="p-derived-li-27">What is the electrical force exerted by the ring on the point charge?</div></li>
@@ -559,42 +560,24 @@ F_{42}  =  k\frac{q_{2}q_{4}}{r^{2}_{24}} =7.20 \,N;
 <div class="para">where <span class="process-math">\(2\pi a\)</span> = length of a ring.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{Now,}\quad \,dF=k\frac{\,dQ q}{r^{2}},
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{where}\quad r=\sqrt{a^{2}+x^{2}}
+\text{Now,}\quad \,dF=k\frac{\,dQ q}{r^{2}}, \quad  \text{where}\quad r=\sqrt{a^{2}+x^{2}}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
 \therefore\quad \,dF_{x} =  dF\cos\theta = k\frac{\,dQ \,q}{r^{2}}\left(\frac{x}{r}\right) 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-= k\frac{\,dQ \,q}{r^{3}}x = k\frac{\,dQ \,q x}{(a^{2}+x^{2})^{3/2}}
+= k\frac{\,dQ \,q}{r^{3}}x   = k\frac{\,dQ \,q x}{(a^{2}+x^{2})^{3/2}}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
 \text{also,}\quad \,dF_{y} =  dF\sin\theta = k\frac{\,dQ \,q}{r^{2}}\left( \frac{a}{r}\right) 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
 = k\frac{\,dQ \,q}{r^{3}}a = k\frac{\,dQ \,q a}{(a^{2}+x^{2})^{3/2}} 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad F_{x}=\int \,dF_{x} 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-= k\frac{q x}{(a^{2}+x^{2})^{3/2}} \int \,dQ =k\frac{Q \,q \,x}{(a^{2}+x^{2})^{3/2}}
+\therefore\quad F_{x}=\int \,dF_{x}   = k\frac{q x}{(a^{2}+x^{2})^{3/2}} \int \,dQ =k\frac{Q \,q \,x}{(a^{2}+x^{2})^{3/2}}
 \end{equation*}
 </div>
 <div class="para">If we consider a differential charge <span class="process-math">\(\,dQ \)</span> at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e.,</div>
@@ -843,7 +826,7 @@ U = -\vec{p}\cdot\vec{E} = -pE = -4.53\times 10^{-28} \,J
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.9</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="p-60">
-<div class="para">A thin rod of charge Q and length 2a is centrally located along the y-axis.</div>
+<div class="para">A thin rod of charge <span class="process-math">\(Q\)</span> and length <span class="process-math">\(2a\)</span> is centrally located along the y-axis.</div>
 <ol class="lower-alpha">
 <li id="li-53"><div class="para" id="p-derived-li-53">Use calculus to show that the electric field at a point x along the x-axis is given by<div class="displaymath process-math">
 \begin{equation*}
@@ -869,12 +852,8 @@ E  = k\left(\frac{Q}{x\sqrt{x^{2}+a^{2}}}\right)\hat{i}.
 <div class="para">Due to charge symmetry the  y  components of field cancel out each other and only  x components of field survived. Hence,</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\,dE_{x}=\,dE\cos\theta= \frac{k\,dq}{r^{2}}\frac{x}{r}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-= \frac{kx\lambda\,dy}{r^{3}} =\frac{kx\lambda\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
+\,dE_{x}=\,dE\cos\theta= \frac{k\,dq}{r^{2}}\frac{x}{r}  = \frac{kx\lambda\,dy}{r^{3}} 
+=\frac{kx\lambda\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
@@ -901,12 +880,8 @@ y=x\tan\theta
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad \mathscr{I} = \int\frac{x\sec^{2}\theta\,d\theta}{(x^{2}+x^{2}\tan^{2}\theta)^3/2}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-= \int \frac{1}{x^{2}}\cos\theta\,d\theta = \frac{1}{x^{2}}\sin\theta=\frac{1}{x^{2}}\frac{y}{r}
+\therefore\quad \mathscr{I} = \int\frac{x\sec^{2}\theta\,d\theta}{(x^{2}+x^{2}\tan^{2}\theta)^{3/2}} 
+= \int \frac{1}{x^{2}}\cos\theta\,d\theta   = \frac{1}{x^{2}}\sin\theta=\frac{1}{x^{2}}\frac{y}{r}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
@@ -917,11 +892,12 @@ y=x\tan\theta
 <div class="displaymath process-math">
 \begin{equation*}
 \therefore\quad  E= kx\lambda \left[\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}\right]_{-a}^{a} 
+= kx\lambda\frac{2a}{x^{2}\sqrt{x^{2}+a^{2}}}   = \frac{2k\lambda a}{x \sqrt{x^{2}+a^{2}}} 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-= kx\lambda\frac{2a}{x^{2}\sqrt{x^{2}+a^{2}}}= \frac{2k\lambda a}{x \sqrt{x^{2}+a^{2}}}  = \frac{kQ}{x \sqrt{x^{2}+a^{2}}}
+= \frac{kQ}{x \sqrt{x^{2}+a^{2}}}
 \end{equation*}
 </div>
 <div class="para">As total charge on a rod is Q. If  <span class="process-math">\(x\gt \gt a,\)</span>  then</div>
@@ -964,16 +940,15 @@ also, \quad \lambda=\frac{charge}{length}=\frac{\,dq}{\,dy}=\frac{Q}{2a}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore, \quad \vec{E}=\int\vec{dE}; 
+\therefore, \quad \vec{E}=\int\vec{dE}; \quad \text{and} \quad r=\sqrt{x^{2}+y^{2}}
 \end{equation*}
-</div>
-<div class="para">and <span class="process-math">\(r=\sqrt{x^{2}+y^{2}}\)</span>
 </div>
 </div> <div class="para logical" id="p-64"><ol class="lower-alpha">
 <li id="li-56"><div class="para" id="p-derived-li-56">
 <div class="displaymath process-math">
 \begin{equation*}
-\vec{E}=\int k\frac{dq}{r^{2}}(\frac{x}{r}\hat{i}-\frac{y}{r}\hat{j})  = \int k \frac{Q}{2a}\frac{dy}{r^{3}}(x\hat{i}-y\hat{j})
+\vec{E}=\int k\frac{dq}{r^{2}}(\frac{x}{r}\hat{i}-\frac{y}{r}\hat{j})  
+= \int k \frac{Q}{2a}\frac{dy}{r^{3}}(x\hat{i}-y\hat{j})
 \end{equation*}
 </div>
 <div class="displaymath process-math">
@@ -1026,7 +1001,8 @@ also, \quad \lambda=\frac{charge}{length}=\frac{\,dq}{\,dy}=\frac{Q}{2a}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad E  = \int\,dE_{x} =\int\limits_{-\theta_{o}}^{\theta_{o}} \,dE \cos\theta   = \int\limits_{-\theta_{o}}^{\theta_{o}}\frac{k\,dq}{r^{2}}\cos\theta
+\therefore\quad E  = \int\,dE_{x} =\int\limits_{-\theta_{o}}^{\theta_{o}} \,dE \cos\theta 
+= \int\limits_{-\theta_{o}}^{\theta_{o}}\frac{k\,dq}{r^{2}}\cos\theta
 \end{equation*}
 </div>
 <div class="displaymath process-math">
@@ -1041,20 +1017,213 @@ also, \quad \lambda=\frac{charge}{length}=\frac{\,dq}{\,dy}=\frac{Q}{2a}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad E  = \frac{k\lambda}{r}\int\limits_{-\theta_{o}}^{\theta_{o}}\cos\theta\,d\theta
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-=\frac{k\lambda}{r} \{\sin\theta\}_{-\theta_{o}}^{\theta_{o}} = \frac{k\lambda}{r} \{2\sin\theta_{o}\} 
+\text{or,}\quad E  = \frac{k\lambda}{r}\int\limits_{-\theta_{o}}^{\theta_{o}}\cos\theta\,d\theta 
+=\frac{k\lambda}{r} \{\sin\theta\}_{-\theta_{o}}^{\theta_{o}}  = \frac{k\lambda}{r} \{2\sin\theta_{o}\} 
 \end{equation*}
 </div>
 <div class="para">along x-axis.  If <span class="process-math">\(\theta_{o}\rightarrow \pi \)</span> then arc becomes a circular ring and field at the center of ring is zero.</div>
 </div>
 </div></div>
+</div></article> <article class="example example-like" id="example-11"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.11</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-67">Find the electric field at a point due to a uniformly charged ring.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-11" id="solution-11"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-11"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/ring.png" class="contained"></div> <div class="para logical" id="p-68">
+<div class="para">Consider a ring of radius  a  having total charge  Q.   To find the field at point  P consider an elementary charge  <span class="process-math">\(\,dq \)</span> then field at  P  is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE=\frac{k\,dq}{r^{2}}
+\end{equation*}
+</div>
+<div class="para">Because of the charge symmetry,  y  components of field cancel out each other and only  x  components survived. Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE_{x} =\,dE\cos\theta=\frac{k\,dq}{r^{2}}\cos\theta = \frac{k\,dq}{r^{2}} \frac{x}{r}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{k\,dq}{r^{3}} = \frac{k x \,dq}{(x^{2}+a^{2})^3/2}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="eqn-elf_ring1">
+\begin{equation}
+\therefore \quad E= \int\,dE_{x} =\int \frac{k x \,dq}{(x^{2}+a^{2})^3/2} = \frac{k x Q}{(x^{2}+a^{2})^3/2} \tag{1.3.1}
+\end{equation}
+</div>
+</div>
+</div></div>
+</div></article> <article class="example example-like" id="example-12"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.12</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-69">Find the  electric field at a point due to a uniformly charged disc.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-12" id="solution-12"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-12"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/disc.png" class="contained"></div> <div class="para logical" id="p-70">
+<div class="para">Consider a disc of radius <span class="process-math">\(R\)</span> having total charge <span class="process-math">\(Q\)</span> and uniform surface charge density <span class="process-math">\(\sigma. \)</span> To find the field at point <span class="process-math">\(P\)</span> consider an elementary charged ring of radius <span class="process-math">\(r,\)</span> and thickness <span class="process-math">\(\,dr \)</span> having charge <span class="process-math">\(\,dq \)</span> then the field at point <span class="process-math">\(P\)</span> due to a ring is given by the eqn. <a href="" class="xref" data-knowl="./knowl/eqn-elf_ring1.html" title="Equation 1.3.1">(1.3.1)</a>, i.e.,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+\,dE = \,dE_{x}= \frac{k x \,dq}{(x^{2}+r^{2})^3/2}\quad \text{(along x-axis)}.
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+\therefore\quad E = E_{x} =\int \,dE_{x} =\int\limits_{0}^{R}\frac{k x (\sigma 2\pi r\,dr)}{(x^{2}+r^{2})^3/2} 
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\([\because \,dq = \sigma \)</span> (area of the ring)].</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+\text{or,}\quad E = 2\pi\sigma k x \int\limits_{0}^{R}\frac{r\,dr}{(x^{2}+r^{2})^3/2}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+\text{Now let}\quad \mathscr{I}= \int \frac{r\,dr}{(x^{2}+r^{2})^{3/2}} 
+\end{equation*}
+</div>
+<div class="para">From geometry of the figure <span class="process-math">\(x^{2}+r^{2}=t^{2}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+\text{or,}\quad 2r\,dr=2t\,dt \quad \text{or,} \quad r\,dr=t\,dt
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+\therefore\quad \mathscr{I}= \int \frac{t\,dt}{t^{3}} = \int t^{-2}\,dt = -\frac{1}{t} = \left(-\frac{1}{\sqrt{x^{2}+r^{2}}}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+\therefore\quad E = 2\pi\sigma k x \left(-\frac{1}{\sqrt{x^{2}+r^{2}}}\right)_{0}^{R} 
+= -2\pi\sigma k x \left[ \frac{1}{\sqrt{x^{2}+R^{2}}}-\frac{1}{\sqrt{x^{2}+0}}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+=2\pi\sigma k x \left[\frac{1}{x}-\frac{1}{\sqrt{x^{2}+R^{2}}}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+\therefore\quad E=2\pi\sigma k \left[1-\frac{x}{\sqrt{x^{2}+R^{2}}}\right]
+\end{equation*}
+</div>
+<div class="para">If <span class="process-math">\(x=0\)</span> the field at the center of the disc (or, field near charged surface, <span class="process-math">\(E=\frac{\sigma}{2\epsilon_{o}}\)</span>) <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/gr1.png" class="contained"></div>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+or,\quad E =2\pi\sigma k = \frac{kQ}{R^{2}}\quad \text{(along x-axis).} 
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\([\sigma=\frac{Q}{\pi R^{2}}]\)</span> If <span class="process-math">\(x \lt \lt R,\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+E=2\pi\sigma k [1-\frac{x}{R}]= 2\pi\sigma k
+\end{equation*}
+</div>
+<div class="para">If <span class="process-math">\(x \gt \gt R,\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-elf_ring1.html">
+\begin{equation*}
+E=2\pi\sigma k [1-\frac{x}{x}]= 0 
+\end{equation*}
+</div>
+</div>
+</div></div>
+</div></article> <div class="conclusion" id="conclusion-1"><div class="para logical" id="p-71">
+<div class="para"><dfn class="terminology">Summary:</dfn></div>
+<ol class="lower-roman">
+<li id="li-59"><div class="para" id="p-derived-li-59">Electric field due to point charge,<div class="displaymath process-math" id="eqn-disc1">
+\begin{equation}
+E = \frac{kQ}{r^{2}}\tag{1.3.2}
+\end{equation}
+</div>along radial direction, i.e., <span class="process-math">\(E\propto\frac{1}{r^{2}}.\)</span>
+</div></li>
+<li id="li-60"><div class="para" id="p-derived-li-60">Electric field due to charged rod,<div class="displaymath process-math" id="eqn-disc2">
+\begin{equation}
+E = \frac{2k\lambda}{x}\tag{1.3.3}
+\end{equation}
+</div>along perpendicular to the rod  ie., <span class="process-math">\(E\propto\frac{1}{x}.\)</span>
+</div></li>
+<li id="li-61"><div class="para" id="p-derived-li-61">Electric field due to charged plane,<div class="displaymath process-math" id="eqn-disc3">
+\begin{equation}
+E = 2\pi\sigma k = \frac{2\pi\sigma}{4\pi\epsilon_{o}}= \frac{\sigma}{2\epsilon_{o}}  = constant  \tag{1.3.4}
+\end{equation}
+</div>and directed along perpendicular to the disc, ie., <span class="process-math">\(E\)</span> is independent of the distance between the disc and point of consideration as long as the point is near to the plane.</div></li>
+</ol>
+</div></div> <article class="example example-like" id="example-13"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.13</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-72">Find the electric field at a point due to two oppositely charged infinite sheets.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-13" id="solution-13"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-13"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig13.png" class="contained"></div> <div class="para logical" id="p-73">
+<div class="para">The electric field outside a uniformly charged infinite sheet is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-disc3.html">
+\begin{equation*}
+E = \sigma/2\epsilon_{o}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\sigma \)</span> is the charge density <a href="" class="xref" data-knowl="./knowl/eqn-disc3.html" title="Equation 1.3.4">(1.3.4)</a>.</div>
+</div> <div class="para logical" id="p-74"><ol class="lower-alpha">
+<li id="li-62"><div class="para" id="p-derived-li-62">Outside the two sheets, the electric field contributions due to the two sheets are equal and opposite as shown in the figure. Therefore, they cancel one another producing <span class="process-math">\(E = 0.\)</span>
+</div></li>
+<li id="li-63"><div class="para" id="p-derived-li-63">Between the two sheets, the electric field contributions due to the two sheets are equal and parallel as shown in the figure. Therefore, they add to one another producing<div class="displaymath process-math">
+\begin{equation*}
+E=\sigma/\epsilon_{o}
+\end{equation*}
+</div>directed away from the positive sheet and toward the negative sheet.</div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-14"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.14</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-75">What is the electric field at the center of the hollow hemisphere bounded by <span class="process-math">\(r=a,\)</span> <span class="process-math">\(0 \lt \theta \lt \frac{\pi}{2}, \)</span>  and <span class="process-math">\(0 \lt \phi \lt 2\pi\)</span> that carries a constant surface charge density <span class="process-math">\(\sigma\)</span> and radius <span class="process-math">\(R\text{.}\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-14" id="solution-14"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-14"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hemiselec.png" class="contained"></div> <div class="para logical" id="p-76">
+<div class="para">Consider a strip on the hemisphere of radius <span class="process-math">\(r=R\sin\theta \)</span> and thickness <span class="process-math">\(R\,d\theta.\)</span> The charge on the strip is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dq=\sigma \,dA = \sigma 2\pi r \,dr = \sigma 2\pi R\sin\theta R\,d\theta 
+\end{equation*}
+</div>
+<div class="para">Electric filed at the center <span class="process-math">\(o\)</span> of the hemisphere  due to this strip is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE = \,dE_{z}=\,dE\cos\theta = \frac{\sigma k\,dq z}{(z^{2}+r^{2})^{3/2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{\sigma k\,dq R\cos\theta}{(R^{2}\cos^{2}\theta+R^{2}\sin^{2}\theta)^{3/2}}
+= \frac{\sigma 2\pi k R^{3}\sin\theta\cos\theta\,d\theta}{R^{3}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{\sigma}{2\epsilon_{o}}\sin\theta\cos\theta\,d\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore E = \int \,dE = \frac{\sigma}{2\epsilon_{o}}\int\limits_{0}^{\frac{\pi}{2}}\frac{\sin 2\theta}{2}\,d\theta 
+=\frac{\sigma}{4\epsilon_{o}} \quad\text{along -ve z-axis}
+\end{equation*}
+</div>
+</div>
+</div></div>
 </div></article></section></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="subsec-chrg_dist.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-exampleB.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="subsec-chrg_dist.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-flux.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">

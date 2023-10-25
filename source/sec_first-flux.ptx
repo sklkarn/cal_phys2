@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_first-flux" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Electric Flux</title>
+  
+<introduction>
+  <p>
+    Flux is the rate of flow of field normally through an imaginary surface. 
+    If <m>\,dV</m> is the volume of water that is flowing through a tube of cross-section <m>A</m> 
+    normally in time <m>\,dt,</m> then the flux of water through this tube is given by 
+    <me>
+      \phi=\frac{\,dV}{\,dt}= \frac{A\,dx}{\,dt} = \vec{v}\cdot \vec{A}
+    </me>
+    \Where <m>v</m> is the velocity of flow of water in the tube. 
+    <em>Electric flux</em> can also be defined as number of electric field lines 
+    passing through any surface perpendicularly.  Electric flux passes through an 
+    elementary surface area, <m>\,dA</m> is given by  
+    <me>
+      \Phi_{E}= \int\vec{E}\cdot\vec{\,dA} 	= \int E\cos\phi \,dA = \int E_{x}\,dA_{yz}+\int E_{y}\,dA_{xz}+\int E_{z}\,dA_{xy}
+    </me>
+     </p>
+</introduction>
+  </section>
+
