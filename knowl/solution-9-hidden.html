@@ -10,5 +10,151 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="robots" content="noindex, nofollow">
 </head>
-<body class="ignore-math"><div class="solution solution-like"><div class="para"></div></div></body>
+<body class="ignore-math"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig12.png" class="contained"></div> <div class="para logical">
+<div class="para">Consider a charged rod of length 2a having linear charge density <span class="process-math">\(\lambda.\)</span> To find field at a point  P  from the center of the rod consider a small charge element <span class="process-math">\(\,dy\)</span> which behaves as a point charge <span class="process-math">\(\,dq\)</span> then the field at  P  is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE=\frac{k\,dq}{r^{2}}
+\end{equation*}
+</div>
+<div class="para">Due to charge symmetry the  y  components of field cancel out each other and only  x components of field survived. Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE_{x}=\,dE\cos\theta= \frac{k\,dq}{r^{2}}\frac{x}{r}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{kx\lambda\,dy}{r^{3}} =\frac{kx\lambda\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad E=E_{x}=kx\lambda\int\limits_{-a}^{a}\frac{\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
+\end{equation*}
+</div>
+<div class="para">Now solve this integrand first then substitute the limits. Let</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mathscr{I} = \int\frac{\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
+\end{equation*}
+</div>
+<div class="para">From geometry of the figure</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y=x\tan\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad \,dy=x\sec^{2}\theta\,d\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \mathscr{I} = \int\frac{x\sec^{2}\theta\,d\theta}{(x^{2}+x^{2}\tan^{2}\theta)^3/2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \int \frac{1}{x^{2}}\cos\theta\,d\theta = \frac{1}{x^{2}}\sin\theta=\frac{1}{x^{2}}\frac{y}{r}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad  E= kx\lambda \left[\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}\right]_{-a}^{a} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= kx\lambda\frac{2a}{x^{2}\sqrt{x^{2}+a^{2}}}= \frac{2k\lambda a}{x \sqrt{x^{2}+a^{2}}}  = \frac{kQ}{x \sqrt{x^{2}+a^{2}}}
+\end{equation*}
+</div>
+<div class="para">As total charge on a rod is Q. If  <span class="process-math">\(x\gt \gt a,\)</span>  then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E= \frac{kQ}{x^{2}},
+\end{equation*}
+</div>
+<div class="para">i.e., rod behaves as a point charge.</div>
+</div> <div class="para logical">
+<div class="para">If <span class="process-math">\(a \gt \gt x \)</span> then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E=\frac{kQ}{ax}=\frac{2k\lambda}{x}
+\end{equation*}
+</div>
+<div class="para">If rod is infinitely long then <span class="process-math">\(E\propto\frac{1}{x}\)</span> as  k and <span class="process-math">\(\lambda\)</span> are constant.</div>
+</div> <div class="para logical">
+<div class="para"><dfn class="terminology">Alternative in vector form:</dfn></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{dE}= k\frac{dq}{r^{2}}(\cos\theta\hat{i}-\sin\theta\hat{j});
+\end{equation*}
+</div>
+<div class="para">Here,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left[\cos\theta=\frac{x}{r}\right] \quad \text{ and } \quad  \left[ \sin\theta=\frac{y}{r}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+also, \quad \lambda=\frac{charge}{length}=\frac{\,dq}{\,dy}=\frac{Q}{2a}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad \frac{\,dq}{Q}=\frac{\,dy}{2a}; 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore, \quad \vec{E}=\int\vec{dE}; 
+\end{equation*}
+</div>
+<div class="para">and <span class="process-math">\(r=\sqrt{x^{2}+y^{2}}\)</span>
+</div>
+</div> <div class="para logical"><ol class="lower-alpha">
+<li><div class="para">
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{E}=\int k\frac{dq}{r^{2}}(\frac{x}{r}\hat{i}-\frac{y}{r}\hat{j})  = \int k \frac{Q}{2a}\frac{dy}{r^{3}}(x\hat{i}-y\hat{j})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= k\frac{Qx}{2a} \int\limits_{-a}^{a} \frac{dy}{(x^{2}+y^{2})^{3/2}}\hat{i}-k\frac{Q}{2a} \int\limits_{-a}^{a} \frac{ydy}{(x^{2}+y^{2})^{3/2}}\hat{j}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= k\frac{Qx}{2a} 2 \int\limits_{0}^{a} \frac{dy}{(x^{2}+y^{2})^{3/2}}\hat{i}-0 \cdot\hat{j} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=  \left. k\frac{Qx}{a}\left(\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}\right)\right\vert_{0}^{a}\hat{i}   = k \left(\frac{Q}{x\sqrt{x^{2}+a^{2}}}\right)\hat{i} 
+\end{equation*}
+</div>
+</div></li>
+<li><div class="para">
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{E}=k\frac{Q}{x^{2}}\hat{i} 
+\end{equation*}
+</div>Field due to a point charge.</div></li>
+<li><div class="para"><div class="displaymath process-math">
+\begin{equation*}
+\vec{E}=k\frac{Q}{ax}\hat{i} = \frac{1}{2\pi \epsilon_{o}}\frac{\lambda}{x}\hat{i}
+\end{equation*}
+</div></div></li>
+</ol></div>
+</div></body>
 </html>

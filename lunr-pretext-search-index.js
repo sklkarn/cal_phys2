@@ -109,76 +109,22 @@ var ptx_lunr_docs = [
   "body": " Principle of Superposition  It states that every charge in space exerts a force on another in such a way that there are no other chrages present in that medium. Hence, the net force excerted at a point charge by two or more charges in space is a vector sum of the individual forces.  "
 },
 {
-  "id": "sec_first-el_field",
+  "id": "subsec-chrg_dist",
   "level": "1",
-  "url": "sec_first-el_field.html",
-  "type": "Section",
-  "number": "1.2",
-  "title": "Electric Field",
-  "body": " Electric Field   The space around a charge where force of attraction or repulsion can be experienced by any other charged particle is called an electric field of the charge. Electric field is also known as electrostatic field intensity.      It is an inherent property of a charge. An electric field is produced by one charge and is experienced by another one. It is an electric field of a charge which tells another charge how to move in the space if it is free to do so. Electric field is defined as a force per unit charge and is a vector quantity. It is directed along the direction of force on a unit positive charge, i.e., electric field of a point charge or, where is a direction of electric field which is along the line joining the two charges.   Electric Field Lines: It is an imaginary path along which a unit positive test charge can move in any electric field if it is free to do so. It is always in the direction of electric field vectors leaving from positive charges and ending on negative charges. Density of lines indicates field strength. Electric lines of force diverge from positive charge and converge in a negative charge as shown in .                    Test Charge: It is an imaginary unit positive charge that can not distort the electric field of any other charge. It is used to determine the direction of electric field vector. Its magnitude is 1 C and is denoted by .   Electric Dipole:  dipole It is a small displacement between two equal and opposite charges. It acquires rotational effect if exposed in an external field and hence it is also known as electric dipole moment, i.e., where d is a distance between two equal charges and is unit vector along the line joining from -ve charge to +ve charge. Dipole moment is a vector quantity whose direction is pointed along negative to positive charge. When a dipole is placed in an external electric field it shows a rotating effect. Torque on a dipole in an electric field is given as and potential energy of dipole in an electric field is given as            Electric field inside the conductor: When a cube is placed in a uniform electric field, , as shown in then flux (electric lines of force normal to the surface) coming into the cube is equal to the flux going out of the cube through top and bottom faces, while there is no flux through any other faces as field is perpendicular to these faces. Hence total flux, through a closed cube. If a conducting plate is placed in an external field then it induces the charge on its surface or even a dielectric inside a field polarizes charges as shown in which ultimately reduces the effective electric field. The field inside the dielectrics is called polarized field which is opposite to the external field. Hence the resultant (effective) field is                            In case of a conductor separation of charges makes total electric field zero inside it because of its sufficient free charges neutralize the external electric field. In case of dielectrics separation of charges inside it reduces the field because of its bonded electrons can only nullify the external field to a limited extent. For a conductor electric field is only out side of the conductor but within it electric field is zero. In charged conductors the excess charges have distributed themselves optimally further away from one another so as to reduce the total amount of repulsive forces. Once a charged conductor has reached the state of electrostatic equilibrium, there is no further motion of charge about the surface ( ) and hence no electric field inside the conductor. If hole is made on a charged conductor still there is no field inside the hole or within the conductor ( ). If a charge Q is placed inside the hole of a charged (or uncharged) conductor it induces opposite charges at the inner surface and similar charges on the outer surface of the conductor but field within the conductor still remains zero ( ).   "
-},
-{
-  "id": "fig6c",
-  "level": "2",
-  "url": "sec_first-el_field.html#fig6c",
-  "type": "Figure",
+  "url": "subsec-chrg_dist.html",
+  "type": "Subsection",
   "number": "1.2.1",
-  "title": "",
-  "body": "   "
+  "title": "Electric Field of a Continuous Charge Distribution",
+  "body": " Electric Field of a Continuous Charge Distribution   Coulomb's law only work for two point charges, if we are dealing with more than two discrete charges then we have to use principle of superposition to find the field at a point using Coulomb's law. Most often charges are distributed on the material in such a rigourous way that applying Coulomb's low is very difficult, e.g. charges are distributed on a sphere, a plane surface, a rod or on some weird surface like pyramid. In that case it would be easier to find an electric field at point by breaking the charge distribution in small elements and treat them like a point charge. Write the equation of electric field for one single element of the charge and integrate them for the entire charge. In order to break these charge distribution in small elements we need to discuss charge density.   Charge Density: Depend upon the surface where charges are distributed uniformly we can have three different types of charge density.   Linear charge density, : If the charges are distributed uniformly in a linear shape then the charge density is called a linear charge density. It is defined as the amount of charge per unit length. Let say the charge Q be distributed smoothly on a wire of length L, then It's unit is Now if a small length contains a charge then    Surface charge density, If the charges are distributed uniformly on a surface area then the charge density is called a surface charge density. It is defined as the amount of charge per unit area. Let say the charge Q be distributed smoothly on a plane of area A, then It's unit is Now if a small area of that surface contains a charge then    Volume charge density, If the charges are distributed uniformly in a volume of any material then the charge density is called a volume charge density. It is defined as the amount of charge per unit volume. Let say the charge Q bw distributed smoothly in a volume V, then It's unit is Now if a small volume of that material contains a charge then      "
 },
 {
-  "id": "p-31",
+  "id": "p-37",
   "level": "2",
-  "url": "sec_first-el_field.html#p-31",
+  "url": "subsec-chrg_dist.html#p-37",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Electric Field Lines: "
-},
-{
-  "id": "fig6",
-  "level": "2",
-  "url": "sec_first-el_field.html#fig6",
-  "type": "Figure",
-  "number": "1.2.2",
-  "title": "",
-  "body": "                "
-},
-{
-  "id": "p-32",
-  "level": "2",
-  "url": "sec_first-el_field.html#p-32",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Test Charge: "
-},
-{
-  "id": "fig10a",
-  "level": "2",
-  "url": "sec_first-el_field.html#fig10a",
-  "type": "Figure",
-  "number": "1.2.3",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "p-34",
-  "level": "2",
-  "url": "sec_first-el_field.html#p-34",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Electric field inside the conductor: "
-},
-{
-  "id": "figure-17",
-  "level": "2",
-  "url": "sec_first-el_field.html#figure-17",
-  "type": "Figure",
-  "number": "1.2.4",
-  "title": "",
-  "body": "                        "
+  "body": "Charge Density: Linear charge density, : Surface charge density, Volume charge density, "
 },
 {
   "id": "sec_first-exampleA",
@@ -187,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Examples A",
-  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?            How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.          A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,         Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]        Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.        A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.           Electric Field    An electric dipole has a negative charge of -10 nC at point (-1.0 m, 0) and a positive charge of +10 nC at point (+1.0 m, 0). What is its electric field at points  (0,0),  (2 m,0)  (0,1 m),  (2 m,-1 m)  What is the dipole moment of this dipole?        Given:                                       A water molecule has an oxygen ion of charge -2 e at the origin of a coordinate system and two hydrogen ions of charge +1 e at a distance of making angles of as shown in the figure below. The molecule is in an external electric field of strength 100 N\/C directed above the x-axis at an angle of     What is the dipole moment of the molecule?  What is the electrical force on the oxygen molecule due to the external field.  What is the torque on the molecule?  What is the potential energy due to the dipole moment of the molecule?        Given:                             "
+  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?            How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.          A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,         Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]        Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.        A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.           Electric Field    An electric dipole has a negative charge of -10 nC at point (-1.0 m, 0) and a positive charge of +10 nC at point (+1.0 m, 0). What is its electric field at points  (0,0),  (2 m,0)  (0,1 m),  (2 m,-1 m)  What is the dipole moment of this dipole?        Given:                                       A water molecule has an oxygen ion of charge -2 e at the origin of a coordinate system and two hydrogen ions of charge +1 e at a distance of making angles of as shown in the figure below. The molecule is in an external electric field of strength 100 N\/C directed above the x-axis at an angle of     What is the dipole moment of the molecule?  What is the electrical force on the oxygen molecule due to the external field.  What is the torque on the molecule?  What is the potential energy due to the dipole moment of the molecule?        Given:                              A thin rod of charge Q and length 2a is centrally located along the y-axis.  Use calculus to show that the electric field at a point x along the x-axis is given by   What does this become when   When         Consider a charged rod of length 2a having linear charge density To find field at a point P from the center of the rod consider a small charge element which behaves as a point charge then the field at P is given by Due to charge symmetry the y components of field cancel out each other and only x components of field survived. Hence,   Now solve this integrand first then substitute the limits. Let From geometry of the figure       As total charge on a rod is Q. If then i.e., rod behaves as a point charge.  If then If rod is infinitely long then as k and are constant.   Alternative in vector form:  Here,    and            Field due to a point charge.           Find the electric field at a point due to a uniformly charged Arc.      Consider an arc of radius r and linear charge density To find the field at a point O consider a small charged element which behaves as a point charge then field at O is given by Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,      along x-axis. If then arc becomes a circular ring and field at the center of ring is zero.     "
 },
 {
   "id": "example-1",
@@ -262,6 +208,24 @@ var ptx_lunr_docs = [
   "body": "  A water molecule has an oxygen ion of charge -2 e at the origin of a coordinate system and two hydrogen ions of charge +1 e at a distance of making angles of as shown in the figure below. The molecule is in an external electric field of strength 100 N\/C directed above the x-axis at an angle of     What is the dipole moment of the molecule?  What is the electrical force on the oxygen molecule due to the external field.  What is the torque on the molecule?  What is the potential energy due to the dipole moment of the molecule?        Given:                           "
 },
 {
+  "id": "example-9",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-9",
+  "type": "Example",
+  "number": "1.3.9",
+  "title": "",
+  "body": "  A thin rod of charge Q and length 2a is centrally located along the y-axis.  Use calculus to show that the electric field at a point x along the x-axis is given by   What does this become when   When         Consider a charged rod of length 2a having linear charge density To find field at a point P from the center of the rod consider a small charge element which behaves as a point charge then the field at P is given by Due to charge symmetry the y components of field cancel out each other and only x components of field survived. Hence,   Now solve this integrand first then substitute the limits. Let From geometry of the figure       As total charge on a rod is Q. If then i.e., rod behaves as a point charge.  If then If rod is infinitely long then as k and are constant.   Alternative in vector form:  Here,    and            Field due to a point charge.        "
+},
+{
+  "id": "example-10",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-10",
+  "type": "Example",
+  "number": "1.3.10",
+  "title": "",
+  "body": "  Find the electric field at a point due to a uniformly charged Arc.      Consider an arc of radius r and linear charge density To find the field at a point O consider a small charged element which behaves as a point charge then field at O is given by Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,      along x-axis. If then arc becomes a circular ring and field at the center of ring is zero.   "
+},
+{
   "id": "sec_first-exampleB",
   "level": "1",
   "url": "sec_first-exampleB.html",
@@ -271,9 +235,9 @@ var ptx_lunr_docs = [
   "body": " Examples B   Coulomb's Law             "
 },
 {
-  "id": "example-9",
+  "id": "example-11",
   "level": "2",
-  "url": "sec_first-exampleB.html#example-9",
+  "url": "sec_first-exampleB.html#example-11",
   "type": "Example",
   "number": "1.4.1",
   "title": "",
@@ -622,72 +586,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-89",
+  "id": "p-98",
   "level": "2",
-  "url": "append_math.html#p-89",
+  "url": "append_math.html#p-98",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-90",
+  "id": "p-99",
   "level": "2",
-  "url": "append_math.html#p-90",
+  "url": "append_math.html#p-99",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-91",
+  "id": "p-100",
   "level": "2",
-  "url": "append_math.html#p-91",
+  "url": "append_math.html#p-100",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-92",
+  "id": "p-101",
   "level": "2",
-  "url": "append_math.html#p-92",
+  "url": "append_math.html#p-101",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-93",
+  "id": "p-102",
   "level": "2",
-  "url": "append_math.html#p-93",
+  "url": "append_math.html#p-102",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-94",
+  "id": "p-103",
   "level": "2",
-  "url": "append_math.html#p-94",
+  "url": "append_math.html#p-103",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-95",
+  "id": "p-104",
   "level": "2",
-  "url": "append_math.html#p-95",
+  "url": "append_math.html#p-104",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-96",
+  "id": "p-105",
   "level": "2",
-  "url": "append_math.html#p-96",
+  "url": "append_math.html#p-105",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -703,9 +667,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-97",
+  "id": "p-106",
   "level": "2",
-  "url": "appendix-2.html#p-97",
+  "url": "appendix-2.html#p-106",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

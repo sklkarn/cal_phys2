@@ -13,14 +13,45 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Two small copper spheres, each having a mass of 50 g, are separated by 2.00 m.</div>
-<ol class="lower-alpha">
-<li><div class="para">How many electrons does each sphere contain? (The atomic mass of copper is 63.5 g/mole, and its atomic number is 29.)</div></li>
-<li><div class="para">How many electrons would have to be removed from one sphere and added to the other to cause an attractive force between the spheres of magnitude <span class="process-math">\(1.00\times 10^{4}\, N \text{?}\)</span>
-</div></li>
-<li><div class="para">What fraction of all the electrons in each sphere does this represent?</div></li>
-</ol>
+<div class="para">Consider an arc of radius r and linear charge density <span class="process-math">\(\lambda.\)</span> To find the field at a point  O  consider a small charged element <span class="process-math">\(\,dl \)</span> which behaves as a point charge <span class="process-math">\(\,dq\)</span> then field at  O is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE=\frac{k\,dq}{r^{2}}
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_first.html#p-66" class="internal">in-context</a></span>
+<div class="para">Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE_{x} = \,dE \cos\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad E  = \int\,dE_{x} =\int\limits_{-\theta_{o}}^{\theta_{o}} \,dE \cos\theta   = \int\limits_{-\theta_{o}}^{\theta_{o}}\frac{k\,dq}{r^{2}}\cos\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E = \int\limits_{-\theta_{o}}^{\theta_{o}} \frac{k \lambda r \,d\theta}{r^{2}}\cos\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+[\because \quad \,dq=\lambda\,dl\quad and \quad\,dl=r\,d\theta  ]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E  = \frac{k\lambda}{r}\int\limits_{-\theta_{o}}^{\theta_{o}}\cos\theta\,d\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{k\lambda}{r} \{\sin\theta\}_{-\theta_{o}}^{\theta_{o}} = \frac{k\lambda}{r} \{2\sin\theta_{o}\} 
+\end{equation*}
+</div>
+<div class="para">along x-axis.  If <span class="process-math">\(\theta_{o}\rightarrow \pi \)</span> then arc becomes a circular ring and field at the center of ring is zero.</div>
+</div>
+<span class="incontext"><a href="sec_first-exampleA.html#p-66" class="internal">in-context</a></span>
 </body>
 </html>
