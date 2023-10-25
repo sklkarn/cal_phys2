@@ -12,8 +12,37 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para">Two point charges are located on the y-axis as follows: charge <span class="process-math">\(q_{1} = +3.00 \,\mu C\)</span> at y = 50 cm, and charge <span class="process-math">\(q_{2}= -2.00 \,\mu C\)</span> at y = 0. What is the total force, magnitude, and direction exerted by these two charges on a third charge <span class="process-math">\(q_{3} = 5 \,\mu C\)</span> located at <span class="process-math">\(y = -40 \,cm\text{?}\)</span>
+<div class="para logical">
+<div class="para">Consider a strip on the hemisphere of radius <span class="process-math">\(r=R\sin\theta \)</span> and thickness <span class="process-math">\(R\,d\theta.\)</span> The charge on the strip is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dq=\sigma \,dA = \sigma 2\pi r \,dr = \sigma 2\pi R\sin\theta R\,d\theta 
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_first.html#p-76" class="internal">in-context</a></span>
+<div class="para">Electric filed at the center <span class="process-math">\(o\)</span> of the hemisphere  due to this strip is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE = \,dE_{z}=\,dE\cos\theta = \frac{\sigma k\,dq z}{(z^{2}+r^{2})^{3/2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{\sigma k\,dq R\cos\theta}{(R^{2}\cos^{2}\theta+R^{2}\sin^{2}\theta)^{3/2}}
+= \frac{\sigma 2\pi k R^{3}\sin\theta\cos\theta\,d\theta}{R^{3}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{\sigma}{2\epsilon_{o}}\sin\theta\cos\theta\,d\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore E = \int \,dE = \frac{\sigma}{2\epsilon_{o}}\int\limits_{0}^{\frac{\pi}{2}}\frac{\sin 2\theta}{2}\,d\theta 
+=\frac{\sigma}{4\epsilon_{o}} \quad\text{along -ve z-axis}
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="sec_first-exampleA.html#p-76" class="internal">in-context</a></span>
 </body>
 </html>

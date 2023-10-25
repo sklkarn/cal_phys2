@@ -13,12 +13,28 @@
 <body class="ignore-math"><div class="solution solution-like"><div class="para logical">
 <div class="displaymath process-math">
 \begin{equation*}
-60\frac{miles}{hour}\times \frac{1 hour}{60 minutes}\times \frac{1 minute}{60 seconds}\times\frac{1609 m}{1 mile}
+\vec{\,dA}=dydz\hat{i}
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(\because\)</span> surface is in the y,z plane.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{E}=\int\vec{E}\cdot\vec{\,dA}=\int E_{x}\,dA_{yz} =\iint 2yz \,dy \,dz = \int\limits_{0}^{2}\left(\int\limits_{0}^{1}2yz\,dy\right)\,dz 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-= 26.8 \frac{m}{s}\approx 27 m/s 
+= \int\limits_{0}^{2}z\left(\int\limits_{0}^{1}2y\,dy\right)\,dz  
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(\because z \)</span> is independent of <span class="process-math">\(y.\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\int\limits_{0}^{2}z\left.\left(y^{2}\right\vert_{0}^{1} \right)\,dz  =  \int\limits_{0}^{2}z \,dz 
+= \left.\frac{z^{2}}{2}\right\vert_{0}^{2} =2 Nm^{2}/C
 \end{equation*}
 </div>
 </div></div></body>

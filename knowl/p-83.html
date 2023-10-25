@@ -13,15 +13,33 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">A thin disk of radius R and uniform surface charge density (charge per unit area) s is centered on the origin in the y, z plane.</div>
-<ol class="lower-alpha">
-<li><div class="para">Use calculus to find the electric field at an arbitrary point along the x-axis.</div></li>
-<li><div class="para">What is the electric field when <span class="process-math">\(x \lt \lt R?\)</span>
-</div></li>
-<li><div class="para">When <span class="process-math">\(x \gt \gt R?\)</span>
-</div></li>
-</ol>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{\,dA}=dydz\hat{i}
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_first.html#p-83" class="internal">in-context</a></span>
+<div class="para">
+<span class="process-math">\(\because\)</span> surface is in the y,z plane.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{E}=\int\vec{E}\cdot\vec{\,dA}=\int E_{x}\,dA_{yz} =\iint 2yz \,dy \,dz = \int\limits_{0}^{2}\left(\int\limits_{0}^{1}2yz\,dy\right)\,dz 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \int\limits_{0}^{2}z\left(\int\limits_{0}^{1}2y\,dy\right)\,dz  
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(\because z \)</span> is independent of <span class="process-math">\(y.\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\int\limits_{0}^{2}z\left.\left(y^{2}\right\vert_{0}^{1} \right)\,dz  =  \int\limits_{0}^{2}z \,dz 
+= \left.\frac{z^{2}}{2}\right\vert_{0}^{2} =2 Nm^{2}/C
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="sec_first-exampleB.html#p-83" class="internal">in-context</a></span>
 </body>
 </html>

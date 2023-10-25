@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Examples A",
-  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?            How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.          A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,         Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]        Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.        A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.           Electric Field    An electric dipole has a negative charge of -10 nC at point (-1.0 m, 0) and a positive charge of +10 nC at point (+1.0 m, 0). What is its electric field at points  (0,0),  (2 m,0)  (0,1 m),  (2 m,-1 m)  What is the dipole moment of this dipole?        Given:                                       A water molecule has an oxygen ion of charge -2 e at the origin of a coordinate system and two hydrogen ions of charge +1 e at a distance of making angles of as shown in the figure below. The molecule is in an external electric field of strength 100 N\/C directed above the x-axis at an angle of     What is the dipole moment of the molecule?  What is the electrical force on the oxygen molecule due to the external field.  What is the torque on the molecule?  What is the potential energy due to the dipole moment of the molecule?        Given:                              A thin rod of charge Q and length 2a is centrally located along the y-axis.  Use calculus to show that the electric field at a point x along the x-axis is given by   What does this become when   When         Consider a charged rod of length 2a having linear charge density To find field at a point P from the center of the rod consider a small charge element which behaves as a point charge then the field at P is given by Due to charge symmetry the y components of field cancel out each other and only x components of field survived. Hence,   Now solve this integrand first then substitute the limits. Let From geometry of the figure       As total charge on a rod is Q. If then i.e., rod behaves as a point charge.  If then If rod is infinitely long then as k and are constant.   Alternative in vector form:  Here,    and            Field due to a point charge.           Find the electric field at a point due to a uniformly charged Arc.      Consider an arc of radius r and linear charge density To find the field at a point O consider a small charged element which behaves as a point charge then field at O is given by Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,      along x-axis. If then arc becomes a circular ring and field at the center of ring is zero.     "
+  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?            How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.          A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,         Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]        Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.        A thin ring of charge and radius is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.    If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.           Electric Field    An electric dipole has a negative charge of -10 nC at point (-1.0 m, 0) and a positive charge of +10 nC at point (+1.0 m, 0). What is its electric field at points  (0,0),  (2 m,0)  (0,1 m),  (2 m,-1 m)  What is the dipole moment of this dipole?        Given:                                       A water molecule has an oxygen ion of charge -2 e at the origin of a coordinate system and two hydrogen ions of charge +1 e at a distance of making angles of as shown in the figure below. The molecule is in an external electric field of strength 100 N\/C directed above the x-axis at an angle of     What is the dipole moment of the molecule?  What is the electrical force on the oxygen molecule due to the external field.  What is the torque on the molecule?  What is the potential energy due to the dipole moment of the molecule?        Given:                              A thin rod of charge and length is centrally located along the y-axis.  Use calculus to show that the electric field at a point x along the x-axis is given by   What does this become when   When         Consider a charged rod of length 2a having linear charge density To find field at a point P from the center of the rod consider a small charge element which behaves as a point charge then the field at P is given by Due to charge symmetry the y components of field cancel out each other and only x components of field survived. Hence,  Now solve this integrand first then substitute the limits. Let From geometry of the figure      As total charge on a rod is Q. If then i.e., rod behaves as a point charge.  If then If rod is infinitely long then as k and are constant.   Alternative in vector form:  Here,               Field due to a point charge.           Find the electric field at a point due to a uniformly charged Arc.      Consider an arc of radius r and linear charge density To find the field at a point O consider a small charged element which behaves as a point charge then field at O is given by Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,     along x-axis. If then arc becomes a circular ring and field at the center of ring is zero.      Find the electric field at a point due to a uniformly charged ring.      Consider a ring of radius a having total charge Q. To find the field at point P consider an elementary charge then field at P is given by Because of the charge symmetry, y components of field cancel out each other and only x components survived. Hence,         Find the electric field at a point due to a uniformly charged disc.      Consider a disc of radius having total charge and uniform surface charge density To find the field at point consider an elementary charged ring of radius and thickness having charge then the field at point due to a ring is given by the eqn. , i.e.,   (area of the ring)].  From geometry of the figure      If the field at the center of the disc (or, field near charged surface, )    If  If        Summary:   Electric field due to point charge, along radial direction, i.e.,   Electric field due to charged rod, along perpendicular to the rod ie.,   Electric field due to charged plane, and directed along perpendicular to the disc, ie., is independent of the distance between the disc and point of consideration as long as the point is near to the plane.       Find the electric field at a point due to two oppositely charged infinite sheets.      The electric field outside a uniformly charged infinite sheet is where is the charge density .    Outside the two sheets, the electric field contributions due to the two sheets are equal and opposite as shown in the figure. Therefore, they cancel one another producing   Between the two sheets, the electric field contributions due to the two sheets are equal and parallel as shown in the figure. Therefore, they add to one another producing directed away from the positive sheet and toward the negative sheet.        What is the electric field at the center of the hollow hemisphere bounded by  and that carries a constant surface charge density and radius .      Consider a strip on the hemisphere of radius and thickness The charge on the strip is given by Electric filed at the center of the hemisphere due to this strip is given by         "
 },
 {
   "id": "example-1",
@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.3.6",
   "title": "",
-  "body": "  A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.        "
+  "body": "  A thin ring of charge and radius is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.    If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.        "
 },
 {
   "id": "example-7",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.3.9",
   "title": "",
-  "body": "  A thin rod of charge Q and length 2a is centrally located along the y-axis.  Use calculus to show that the electric field at a point x along the x-axis is given by   What does this become when   When         Consider a charged rod of length 2a having linear charge density To find field at a point P from the center of the rod consider a small charge element which behaves as a point charge then the field at P is given by Due to charge symmetry the y components of field cancel out each other and only x components of field survived. Hence,   Now solve this integrand first then substitute the limits. Let From geometry of the figure       As total charge on a rod is Q. If then i.e., rod behaves as a point charge.  If then If rod is infinitely long then as k and are constant.   Alternative in vector form:  Here,    and            Field due to a point charge.        "
+  "body": "  A thin rod of charge and length is centrally located along the y-axis.  Use calculus to show that the electric field at a point x along the x-axis is given by   What does this become when   When         Consider a charged rod of length 2a having linear charge density To find field at a point P from the center of the rod consider a small charge element which behaves as a point charge then the field at P is given by Due to charge symmetry the y components of field cancel out each other and only x components of field survived. Hence,  Now solve this integrand first then substitute the limits. Let From geometry of the figure      As total charge on a rod is Q. If then i.e., rod behaves as a point charge.  If then If rod is infinitely long then as k and are constant.   Alternative in vector form:  Here,               Field due to a point charge.        "
 },
 {
   "id": "example-10",
@@ -223,41 +223,113 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.3.10",
   "title": "",
-  "body": "  Find the electric field at a point due to a uniformly charged Arc.      Consider an arc of radius r and linear charge density To find the field at a point O consider a small charged element which behaves as a point charge then field at O is given by Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,      along x-axis. If then arc becomes a circular ring and field at the center of ring is zero.   "
+  "body": "  Find the electric field at a point due to a uniformly charged Arc.      Consider an arc of radius r and linear charge density To find the field at a point O consider a small charged element which behaves as a point charge then field at O is given by Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,     along x-axis. If then arc becomes a circular ring and field at the center of ring is zero.   "
+},
+{
+  "id": "example-11",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-11",
+  "type": "Example",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  Find the electric field at a point due to a uniformly charged ring.      Consider a ring of radius a having total charge Q. To find the field at point P consider an elementary charge then field at P is given by Because of the charge symmetry, y components of field cancel out each other and only x components survived. Hence,      "
+},
+{
+  "id": "example-12",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-12",
+  "type": "Example",
+  "number": "1.3.12",
+  "title": "",
+  "body": "  Find the electric field at a point due to a uniformly charged disc.      Consider a disc of radius having total charge and uniform surface charge density To find the field at point consider an elementary charged ring of radius and thickness having charge then the field at point due to a ring is given by the eqn. , i.e.,   (area of the ring)].  From geometry of the figure      If the field at the center of the disc (or, field near charged surface, )    If  If     "
+},
+{
+  "id": "p-71",
+  "level": "2",
+  "url": "sec_first-exampleA.html#p-71",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Summary: "
+},
+{
+  "id": "example-13",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-13",
+  "type": "Example",
+  "number": "1.3.13",
+  "title": "",
+  "body": "  Find the electric field at a point due to two oppositely charged infinite sheets.      The electric field outside a uniformly charged infinite sheet is where is the charge density .    Outside the two sheets, the electric field contributions due to the two sheets are equal and opposite as shown in the figure. Therefore, they cancel one another producing   Between the two sheets, the electric field contributions due to the two sheets are equal and parallel as shown in the figure. Therefore, they add to one another producing directed away from the positive sheet and toward the negative sheet.     "
+},
+{
+  "id": "example-14",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-14",
+  "type": "Example",
+  "number": "1.3.14",
+  "title": "",
+  "body": "  What is the electric field at the center of the hollow hemisphere bounded by  and that carries a constant surface charge density and radius .      Consider a strip on the hemisphere of radius and thickness The charge on the strip is given by Electric filed at the center of the hemisphere due to this strip is given by       "
+},
+{
+  "id": "sec_first-flux",
+  "level": "1",
+  "url": "sec_first-flux.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "Electric Flux",
+  "body": " Electric Flux   Flux is the rate of flow of field normally through an imaginary surface. If is the volume of water that is flowing through a tube of cross-section normally in time then the flux of water through this tube is given by \\Where is the velocity of flow of water in the tube. Electric flux can also be defined as number of electric field lines passing through any surface perpendicularly. Electric flux passes through an elementary surface area, is given by    "
 },
 {
   "id": "sec_first-exampleB",
   "level": "1",
   "url": "sec_first-exampleB.html",
   "type": "Section",
-  "number": "1.4",
+  "number": "1.5",
   "title": "Examples B",
-  "body": " Examples B   Coulomb's Law             "
+  "body": " Examples B   Electric Flux    A uniform electric field of strength is directed along the +x - axis through a cylinder of length 1 m and radius 0.2 m. If the cylinder is aligned along the x -axis what is the electric flux through each of its three surfaces? What is the total flux through the surface of the cylinder?      Given:             A uniform electric field is directed through a rectangular object of length 3 m along the x-axis, of height 2 m along the y-axis, and of width 1 m along the z-axis. What are the electric fluxes through the surfaces located at                Given:                   An electric field is given by the equation in the MKS system. What is the electric flux through a surface whose corners are at (0,0,0), (0,1,0), (0,1,2), and (0,0,2)?      surface is in the y,z plane.   is independent of       "
 },
 {
-  "id": "example-11",
+  "id": "example-15",
   "level": "2",
-  "url": "sec_first-exampleB.html#example-11",
+  "url": "sec_first-exampleB.html#example-15",
   "type": "Example",
-  "number": "1.4.1",
+  "number": "1.5.1",
   "title": "",
-  "body": "         "
+  "body": "  A uniform electric field of strength is directed along the +x - axis through a cylinder of length 1 m and radius 0.2 m. If the cylinder is aligned along the x -axis what is the electric flux through each of its three surfaces? What is the total flux through the surface of the cylinder?      Given:          "
+},
+{
+  "id": "example-16",
+  "level": "2",
+  "url": "sec_first-exampleB.html#example-16",
+  "type": "Example",
+  "number": "1.5.2",
+  "title": "",
+  "body": "  A uniform electric field is directed through a rectangular object of length 3 m along the x-axis, of height 2 m along the y-axis, and of width 1 m along the z-axis. What are the electric fluxes through the surfaces located at                Given:                "
+},
+{
+  "id": "example-17",
+  "level": "2",
+  "url": "sec_first-exampleB.html#example-17",
+  "type": "Example",
+  "number": "1.5.3",
+  "title": "",
+  "body": "  An electric field is given by the equation in the MKS system. What is the electric flux through a surface whose corners are at (0,0,0), (0,1,0), (0,1,2), and (0,0,2)?      surface is in the y,z plane.   is independent of     "
 },
 {
   "id": "ex_first",
   "level": "1",
   "url": "ex_first.html",
   "type": "Exercises",
-  "number": "1.5",
+  "number": "1.6",
   "title": "Exercise",
-  "body": "  Exercise   Coulomb's Law  Calculate total positive charge and total negative charge on 5 g of nickel. Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively.  Write the process to determine the sign of a charged object using electroscope if the electroscope is positively charged initially?  Three electrical charges are arranged along the x-axis. The first charge is located at ; the second charge is located at ; and the third charge is located at a point where it experiences no electrical force.  Where is the third charge located?  What is the electrical force on each of the other two charges?  What is the total electrical force on the system of three charges? Could this arrangement of charges be used to propel a spaceship through space? Why?    Two electrical charges are arranged along the x-axis. The first charge is located at the second charge is located at If an electron is released from rest at the origin, what will be the magnitude and direction of its initial acceleration?  Two point charges are located on the positive x-axis of a coordinate system. Charge is located at and charge is located at . What is the total force exerted by these two charges on a third charge located at the origin? Neglect gravitational force.  If all the electrons in one gram of hydrogen were placed at the south pole of the earth and all the protons at the north pole, what would be the electrical force between them? Express your answer in Newtons, then convert the answer to pounds. (The atomic mass of hydrogen is 1.00794, the radius of the earth is and 1 N = 0.2248 lb.)  Two small copper spheres, each having a mass of 50 g, are separated by 2.00 m.  How many electrons does each sphere contain? (The atomic mass of copper is 63.5 g\/mole, and its atomic number is 29.)  How many electrons would have to be removed from one sphere and added to the other to cause an attractive force between the spheres of magnitude ?  What fraction of all the electrons in each sphere does this represent?    Two point charges are located on the y-axis as follows: charge at y = 50 cm, and charge at y = 0. What is the total force, magnitude, and direction exerted by these two charges on a third charge located at ?  Four electrical charges are located at the corners of a square. The first charge is at (0,0), the second is at (1m,0), the third is at (1 m, 1 m), and the fourth is at (0, 1 m).  What is the magnitude and direction of the electrical force on the charge?  If gravity acts in the -y-direction and the first charge has a mass of 100 g, what is the magnitude and direction of the initial acceleration of the first mass if released from rest and allowed to move under the influence of gravitational and electrical forces.    Three equal charges of are located at the corners of an equilateral triangle whose sides are 10 cm long. What is the magnitude of the force experienced by each charge due to the others?  A positive charge q is placed on the +y axis at y = a, and a negative charge -q is placed at y = -a. A point charge Q is located along the x-axis.  What is the magnitude and direction of the net electrical force on charge Q?  What does this become for x = 0?  Graph the x-component of this force versus x for   Graph the y-component of this force versus x for the same interval.  Use your graph to estimate when the magnitude of F becomes a maximum. Approximately what is that maximum and for what value of x does it occur?    A rod of length 2a is symmetrically located on the y-axis as shown in the figure below. It has a total positive charge of Q. A point charge q is located along the x-axis at a distance x.  Use calculus to find the force (magnitude and direction) on q due to Q.  What does this force become when   When   What is the magnitude of F when Q = 10 nC, q = 2 nC, and x = a = 10 cm?     A thin but large flat sheet of material has a uniform charge Q per unit area A on its surface equal to Use calculus to find the force on a charge q located at a distance x from that surface.  Set up a coordinate system with the x-axis perpendicular to the charged surface and use polar coordinates to specify the location of an arbitrary charge element dq inside the surface. Use the results of Example 2 to express the element of electric field dF at x due to a ring of charge dq as Then express in terms of a and and integrate over a to obtain the final result.      Electric Field  A thin disk of radius R and uniform surface charge density (charge per unit area) s is centered on the origin in the y, z plane.  Use calculus to find the electric field at an arbitrary point along the x-axis.  What is the electric field when   When     Draw approximate electric field lines for the charge distribution shown at right.   The figure below shows an electric dipole located in an electric field directed to the right. The magnitude of the charge on each particle of the dipole is 2 nC, the distance between the particles is 10 cm, the angle and the magnitude of the electric field is 50 N\/C.    What is the dipole moment of the dipole?  What is the torque on the dipole?  What is the potential energy of the dipole?    What is the electric field at point P due to the charges in the diagram at right if the length of the edges of the square is a = 0.1 m?   A point charge is located at the point (2 m, 1 m), and a second point charge is located at the point (-2 m, -2 m). What are  the magnitude and  the direction of the electric field at the origin?  What would be the force on a third charge if it were placed at the origin?    A uniform electric field of 1000 N\/C is directed downward. An electron moving horizontally to the right enters the field with a speed of   How long does it take for the electron to move 2 cm across the field?  How far will it move vertically during this time interval?  What direction will it be traveling at the end of that time interval?    Find the electric field at the center of a square in a figure given aside, if and a = 5.0 cm.    "
+  "body": "  Exercise   Coulomb's Law  Calculate total positive charge and total negative charge on 5 g of nickel. Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively.  Write the process to determine the sign of a charged object using electroscope if the electroscope is positively charged initially?  Three electrical charges are arranged along the x-axis. The first charge is located at ; the second charge is located at ; and the third charge is located at a point where it experiences no electrical force.  Where is the third charge located?  What is the electrical force on each of the other two charges?  What is the total electrical force on the system of three charges? Could this arrangement of charges be used to propel a spaceship through space? Why?    Two electrical charges are arranged along the x-axis. The first charge is located at the second charge is located at If an electron is released from rest at the origin, what will be the magnitude and direction of its initial acceleration?  Two point charges are located on the positive x-axis of a coordinate system. Charge is located at and charge is located at . What is the total force exerted by these two charges on a third charge located at the origin? Neglect gravitational force.  If all the electrons in one gram of hydrogen were placed at the south pole of the earth and all the protons at the north pole, what would be the electrical force between them? Express your answer in Newtons, then convert the answer to pounds. (The atomic mass of hydrogen is 1.00794, the radius of the earth is and 1 N = 0.2248 lb.)  Two small copper spheres, each having a mass of 50 g, are separated by 2.00 m.  How many electrons does each sphere contain? (The atomic mass of copper is 63.5 g\/mole, and its atomic number is 29.)  How many electrons would have to be removed from one sphere and added to the other to cause an attractive force between the spheres of magnitude ?  What fraction of all the electrons in each sphere does this represent?    Two point charges are located on the y-axis as follows: charge at y = 50 cm, and charge at y = 0. What is the total force, magnitude, and direction exerted by these two charges on a third charge located at ?  Four electrical charges are located at the corners of a square. The first charge is at (0,0), the second is at (1m,0), the third is at (1 m, 1 m), and the fourth is at (0, 1 m).  What is the magnitude and direction of the electrical force on the charge?  If gravity acts in the -y-direction and the first charge has a mass of 100 g, what is the magnitude and direction of the initial acceleration of the first mass if released from rest and allowed to move under the influence of gravitational and electrical forces.    Three equal charges of are located at the corners of an equilateral triangle whose sides are 10 cm long. What is the magnitude of the force experienced by each charge due to the others?  A positive charge q is placed on the +y axis at y = a, and a negative charge -q is placed at y = -a. A point charge Q is located along the x-axis.  What is the magnitude and direction of the net electrical force on charge Q?  What does this become for x = 0?  Graph the x-component of this force versus x for   Graph the y-component of this force versus x for the same interval.  Use your graph to estimate when the magnitude of F becomes a maximum. Approximately what is that maximum and for what value of x does it occur?    A rod of length 2a is symmetrically located on the y-axis as shown in the figure below. It has a total positive charge of Q. A point charge q is located along the x-axis at a distance x.  Use calculus to find the force (magnitude and direction) on q due to Q.  What does this force become when   When   What is the magnitude of F when Q = 10 nC, q = 2 nC, and x = a = 10 cm?     A thin but large flat sheet of material has a uniform charge Q per unit area A on its surface equal to Use calculus to find the force on a charge q located at a distance x from that surface.  Set up a coordinate system with the x-axis perpendicular to the charged surface and use polar coordinates to specify the location of an arbitrary charge element dq inside the surface. Use the results of Example 2 to express the element of electric field dF at x due to a ring of charge dq as Then express in terms of a and and integrate over a to obtain the final result.      Electric Field  A thin disk of radius R and uniform surface charge density (charge per unit area) s is centered on the origin in the y, z plane.  Use calculus to find the electric field at an arbitrary point along the x-axis.  What is the electric field when   When     Draw approximate electric field lines for the charge distribution shown at right.   The figure below shows an electric dipole located in an electric field directed to the right. The magnitude of the charge on each particle of the dipole is 2 nC, the distance between the particles is 10 cm, the angle and the magnitude of the electric field is 50 N\/C.    What is the dipole moment of the dipole?  What is the torque on the dipole?  What is the potential energy of the dipole?    What is the electric field at point P due to the charges in the diagram at right if the length of the edges of the square is a = 0.1 m?   A point charge is located at the point (2 m, 1 m), and a second point charge is located at the point (-2 m, -2 m). What are  the magnitude and  the direction of the electric field at the origin?  What would be the force on a third charge if it were placed at the origin?    A uniform electric field of 1000 N\/C is directed downward. An electron moving horizontally to the right enters the field with a speed of   How long does it take for the electron to move 2 cm across the field?  How far will it move vertically during this time interval?  What direction will it be traveling at the end of that time interval?    Find the electric field at the center of a square in a figure given aside, if and a = 5.0 cm.   A ring of charge and radius lies in the y, z -plane and is centered on the origin.  Use calculus to show that the electric field at any point along the x-axis is given by   What does this become when ?  When     A ring of charge and radius lies in the y, z -plane and is centered on the origin. Its electric field at any point along the x-axis is given by   Use calculus to show that the electric field at a distance perpendicular to the center of a uniformly charged disk of radius is where is the charge per unit area.  What does this become when   When     An electric dipole is centered on the y -axis with the positive charge located at   What is the electric field at a distance x along the x-axis?  What does this become for   For     An electric dipole is centered on the y-axis with the positive charge located at   What is the electric field at a distance along the y-axis?  What does this become for   For     At what distance from a negative charge of 5.5 nC would the electric field strength be ?  Two positive charges are located along the y -axis at and respectively.  What is the electric field at a distance x along the x-axis?  What does this become for   For     Find the electric field inside and outside of a sphere of radius , which carries a uniform volume charge density .    Electric Flux  A uniform electric field of strength is in the x, y - plane and directed above the +x - axis at an angle of   What is the electric flux through a surface of area whose normal is in the x-direction?  What is the electric flux through the surface area   What is the electric flux through a circle of radius 0.10 m located in the y, z plane? Is this last answer positive or negative? Why?     "
 },
 {
   "id": "exercise-1",
   "level": "2",
   "url": "ex_first.html#exercise-1",
   "type": "Exercise",
-  "number": "1.5.1",
+  "number": "1.6.1",
   "title": "",
   "body": "Calculate total positive charge and total negative charge on 5 g of nickel. Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively. "
 },
@@ -266,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-2",
   "type": "Exercise",
-  "number": "1.5.2",
+  "number": "1.6.2",
   "title": "",
   "body": "Write the process to determine the sign of a charged object using electroscope if the electroscope is positively charged initially? "
 },
@@ -275,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-3",
   "type": "Exercise",
-  "number": "1.5.3",
+  "number": "1.6.3",
   "title": "",
   "body": "Three electrical charges are arranged along the x-axis. The first charge is located at ; the second charge is located at ; and the third charge is located at a point where it experiences no electrical force.  Where is the third charge located?  What is the electrical force on each of the other two charges?  What is the total electrical force on the system of three charges? Could this arrangement of charges be used to propel a spaceship through space? Why?   "
 },
@@ -284,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-4",
   "type": "Exercise",
-  "number": "1.5.4",
+  "number": "1.6.4",
   "title": "",
   "body": "Two electrical charges are arranged along the x-axis. The first charge is located at the second charge is located at If an electron is released from rest at the origin, what will be the magnitude and direction of its initial acceleration? "
 },
@@ -293,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-5",
   "type": "Exercise",
-  "number": "1.5.5",
+  "number": "1.6.5",
   "title": "",
   "body": "Two point charges are located on the positive x-axis of a coordinate system. Charge is located at and charge is located at . What is the total force exerted by these two charges on a third charge located at the origin? Neglect gravitational force. "
 },
@@ -302,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-6",
   "type": "Exercise",
-  "number": "1.5.6",
+  "number": "1.6.6",
   "title": "",
   "body": "If all the electrons in one gram of hydrogen were placed at the south pole of the earth and all the protons at the north pole, what would be the electrical force between them? Express your answer in Newtons, then convert the answer to pounds. (The atomic mass of hydrogen is 1.00794, the radius of the earth is and 1 N = 0.2248 lb.) "
 },
@@ -311,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-7",
   "type": "Exercise",
-  "number": "1.5.7",
+  "number": "1.6.7",
   "title": "",
   "body": "Two small copper spheres, each having a mass of 50 g, are separated by 2.00 m.  How many electrons does each sphere contain? (The atomic mass of copper is 63.5 g\/mole, and its atomic number is 29.)  How many electrons would have to be removed from one sphere and added to the other to cause an attractive force between the spheres of magnitude ?  What fraction of all the electrons in each sphere does this represent?   "
 },
@@ -320,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-8",
   "type": "Exercise",
-  "number": "1.5.8",
+  "number": "1.6.8",
   "title": "",
   "body": "Two point charges are located on the y-axis as follows: charge at y = 50 cm, and charge at y = 0. What is the total force, magnitude, and direction exerted by these two charges on a third charge located at ? "
 },
@@ -329,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-9",
   "type": "Exercise",
-  "number": "1.5.9",
+  "number": "1.6.9",
   "title": "",
   "body": "Four electrical charges are located at the corners of a square. The first charge is at (0,0), the second is at (1m,0), the third is at (1 m, 1 m), and the fourth is at (0, 1 m).  What is the magnitude and direction of the electrical force on the charge?  If gravity acts in the -y-direction and the first charge has a mass of 100 g, what is the magnitude and direction of the initial acceleration of the first mass if released from rest and allowed to move under the influence of gravitational and electrical forces.   "
 },
@@ -338,7 +410,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-10",
   "type": "Exercise",
-  "number": "1.5.10",
+  "number": "1.6.10",
   "title": "",
   "body": "Three equal charges of are located at the corners of an equilateral triangle whose sides are 10 cm long. What is the magnitude of the force experienced by each charge due to the others? "
 },
@@ -347,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-11",
   "type": "Exercise",
-  "number": "1.5.11",
+  "number": "1.6.11",
   "title": "",
   "body": "A positive charge q is placed on the +y axis at y = a, and a negative charge -q is placed at y = -a. A point charge Q is located along the x-axis.  What is the magnitude and direction of the net electrical force on charge Q?  What does this become for x = 0?  Graph the x-component of this force versus x for   Graph the y-component of this force versus x for the same interval.  Use your graph to estimate when the magnitude of F becomes a maximum. Approximately what is that maximum and for what value of x does it occur?   "
 },
@@ -356,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-12",
   "type": "Exercise",
-  "number": "1.5.12",
+  "number": "1.6.12",
   "title": "",
   "body": "A rod of length 2a is symmetrically located on the y-axis as shown in the figure below. It has a total positive charge of Q. A point charge q is located along the x-axis at a distance x.  Use calculus to find the force (magnitude and direction) on q due to Q.  What does this force become when   When   What is the magnitude of F when Q = 10 nC, q = 2 nC, and x = a = 10 cm?    "
 },
@@ -365,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-13",
   "type": "Exercise",
-  "number": "1.5.13",
+  "number": "1.6.13",
   "title": "",
   "body": "A thin but large flat sheet of material has a uniform charge Q per unit area A on its surface equal to Use calculus to find the force on a charge q located at a distance x from that surface.  Set up a coordinate system with the x-axis perpendicular to the charged surface and use polar coordinates to specify the location of an arbitrary charge element dq inside the surface. Use the results of Example 2 to express the element of electric field dF at x due to a ring of charge dq as Then express in terms of a and and integrate over a to obtain the final result.   "
 },
@@ -374,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-14",
   "type": "Exercise",
-  "number": "1.5.14",
+  "number": "1.6.14",
   "title": "",
   "body": "A thin disk of radius R and uniform surface charge density (charge per unit area) s is centered on the origin in the y, z plane.  Use calculus to find the electric field at an arbitrary point along the x-axis.  What is the electric field when   When    "
 },
@@ -383,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-15",
   "type": "Exercise",
-  "number": "1.5.15",
+  "number": "1.6.15",
   "title": "",
   "body": "Draw approximate electric field lines for the charge distribution shown at right.  "
 },
@@ -392,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-16",
   "type": "Exercise",
-  "number": "1.5.16",
+  "number": "1.6.16",
   "title": "",
   "body": "The figure below shows an electric dipole located in an electric field directed to the right. The magnitude of the charge on each particle of the dipole is 2 nC, the distance between the particles is 10 cm, the angle and the magnitude of the electric field is 50 N\/C.    What is the dipole moment of the dipole?  What is the torque on the dipole?  What is the potential energy of the dipole?   "
 },
@@ -401,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-17",
   "type": "Exercise",
-  "number": "1.5.17",
+  "number": "1.6.17",
   "title": "",
   "body": "What is the electric field at point P due to the charges in the diagram at right if the length of the edges of the square is a = 0.1 m?  "
 },
@@ -410,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-18",
   "type": "Exercise",
-  "number": "1.5.18",
+  "number": "1.6.18",
   "title": "",
   "body": "A point charge is located at the point (2 m, 1 m), and a second point charge is located at the point (-2 m, -2 m). What are  the magnitude and  the direction of the electric field at the origin?  What would be the force on a third charge if it were placed at the origin?   "
 },
@@ -419,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-19",
   "type": "Exercise",
-  "number": "1.5.19",
+  "number": "1.6.19",
   "title": "",
   "body": "A uniform electric field of 1000 N\/C is directed downward. An electron moving horizontally to the right enters the field with a speed of   How long does it take for the electron to move 2 cm across the field?  How far will it move vertically during this time interval?  What direction will it be traveling at the end of that time interval?   "
 },
@@ -428,9 +500,81 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#exercise-20",
   "type": "Exercise",
-  "number": "1.5.20",
+  "number": "1.6.20",
   "title": "",
   "body": "Find the electric field at the center of a square in a figure given aside, if and a = 5.0 cm.  "
+},
+{
+  "id": "exercise-21",
+  "level": "2",
+  "url": "ex_first.html#exercise-21",
+  "type": "Exercise",
+  "number": "1.6.21",
+  "title": "",
+  "body": "A ring of charge and radius lies in the y, z -plane and is centered on the origin.  Use calculus to show that the electric field at any point along the x-axis is given by   What does this become when ?  When    "
+},
+{
+  "id": "exercise-22",
+  "level": "2",
+  "url": "ex_first.html#exercise-22",
+  "type": "Exercise",
+  "number": "1.6.22",
+  "title": "",
+  "body": "A ring of charge and radius lies in the y, z -plane and is centered on the origin. Its electric field at any point along the x-axis is given by   Use calculus to show that the electric field at a distance perpendicular to the center of a uniformly charged disk of radius is where is the charge per unit area.  What does this become when   When    "
+},
+{
+  "id": "exercise-23",
+  "level": "2",
+  "url": "ex_first.html#exercise-23",
+  "type": "Exercise",
+  "number": "1.6.23",
+  "title": "",
+  "body": "An electric dipole is centered on the y -axis with the positive charge located at   What is the electric field at a distance x along the x-axis?  What does this become for   For    "
+},
+{
+  "id": "exercise-24",
+  "level": "2",
+  "url": "ex_first.html#exercise-24",
+  "type": "Exercise",
+  "number": "1.6.24",
+  "title": "",
+  "body": "An electric dipole is centered on the y-axis with the positive charge located at   What is the electric field at a distance along the y-axis?  What does this become for   For    "
+},
+{
+  "id": "exercise-25",
+  "level": "2",
+  "url": "ex_first.html#exercise-25",
+  "type": "Exercise",
+  "number": "1.6.25",
+  "title": "",
+  "body": "At what distance from a negative charge of 5.5 nC would the electric field strength be ? "
+},
+{
+  "id": "exercise-26",
+  "level": "2",
+  "url": "ex_first.html#exercise-26",
+  "type": "Exercise",
+  "number": "1.6.26",
+  "title": "",
+  "body": "Two positive charges are located along the y -axis at and respectively.  What is the electric field at a distance x along the x-axis?  What does this become for   For    "
+},
+{
+  "id": "exercise-27",
+  "level": "2",
+  "url": "ex_first.html#exercise-27",
+  "type": "Exercise",
+  "number": "1.6.27",
+  "title": "",
+  "body": "Find the electric field inside and outside of a sphere of radius , which carries a uniform volume charge density . "
+},
+{
+  "id": "exercise-28",
+  "level": "2",
+  "url": "ex_first.html#exercise-28",
+  "type": "Exercise",
+  "number": "1.6.28",
+  "title": "",
+  "body": "A uniform electric field of strength is in the x, y - plane and directed above the +x - axis at an angle of   What is the electric flux through a surface of area whose normal is in the x-direction?  What is the electric flux through the surface area   What is the electric flux through a circle of radius 0.10 m located in the y, z plane? Is this last answer positive or negative? Why?   "
 },
 {
   "id": "sec_second-intro",
@@ -460,9 +604,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-21",
+  "id": "exercise-29",
   "level": "2",
-  "url": "ex_second.html#exercise-21",
+  "url": "ex_second.html#exercise-29",
   "type": "Exercise",
   "number": "2.3.1",
   "title": "",
@@ -496,9 +640,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-22",
+  "id": "exercise-30",
   "level": "2",
-  "url": "ex_third.html#exercise-22",
+  "url": "ex_third.html#exercise-30",
   "type": "Exercise",
   "number": "3.3.1",
   "title": "",
@@ -532,9 +676,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-23",
+  "id": "exercise-31",
   "level": "2",
-  "url": "ex_fourth.html#exercise-23",
+  "url": "ex_fourth.html#exercise-31",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -568,9 +712,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-24",
+  "id": "exercise-32",
   "level": "2",
-  "url": "ex_fifth.html#exercise-24",
+  "url": "ex_fifth.html#exercise-32",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -586,72 +730,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-98",
+  "id": "p-121",
   "level": "2",
-  "url": "append_math.html#p-98",
+  "url": "append_math.html#p-121",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-99",
+  "id": "p-122",
   "level": "2",
-  "url": "append_math.html#p-99",
+  "url": "append_math.html#p-122",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-100",
+  "id": "p-123",
   "level": "2",
-  "url": "append_math.html#p-100",
+  "url": "append_math.html#p-123",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-101",
+  "id": "p-124",
   "level": "2",
-  "url": "append_math.html#p-101",
+  "url": "append_math.html#p-124",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-102",
+  "id": "p-125",
   "level": "2",
-  "url": "append_math.html#p-102",
+  "url": "append_math.html#p-125",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-103",
+  "id": "p-126",
   "level": "2",
-  "url": "append_math.html#p-103",
+  "url": "append_math.html#p-126",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-104",
+  "id": "p-127",
   "level": "2",
-  "url": "append_math.html#p-104",
+  "url": "append_math.html#p-127",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-105",
+  "id": "p-128",
   "level": "2",
-  "url": "append_math.html#p-105",
+  "url": "append_math.html#p-128",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -667,9 +811,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-106",
+  "id": "p-129",
   "level": "2",
-  "url": "appendix-2.html#p-106",
+  "url": "appendix-2.html#p-129",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
