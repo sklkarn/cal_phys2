@@ -10,16 +10,82 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="robots" content="noindex, nofollow">
 </head>
-<body class="ignore-math"><div class="solution solution-like"><div class="para logical">
+<body class="ignore-math"><div class="solution solution-like">
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/fig8b.png" class="contained"></div> <div class="para logical">
+<div class="para">Given: <span class="process-math">\(q = 2 e; \quad  e = 1.60\times 10^{-19} \,C; \quad d = 4.00\times 10^{-11} \,m; \)</span> <span class="process-math">\(\theta = 60^{o};  \quad \phi = 45^{o}; \quad  E= 100 (N/C).\)</span>
+</div>
+<ol class="lower-alpha">
+<li><div class="para">
 <div class="displaymath process-math">
 \begin{equation*}
-60\frac{miles}{hour}\times \frac{1 hour}{60 minutes}\times \frac{1 minute}{60 seconds}\times\frac{1609 m}{1 mile}
+\vec{p}=\vec{p_{1}}+\vec{p_{2}}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-= 26.8 \frac{m}{s}\approx 27 m/s 
+\vec{p_{1}} =  e d(\cos\theta\hat{i}+\sin\theta \hat{j});
 \end{equation*}
 </div>
-</div></div></body>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{p_{2}} =  e d(\cos\theta\hat{i}-\sin\theta \hat{j});
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{p}=2e d\cos\theta \hat{i}=6.40\times 10^{-30}\,Cm \hat{i}
+\end{equation*}
+</div>
+</div></li>
+<li><div class="para">
+<div class="displaymath process-math">
+\begin{equation*}
+F = q\vec{E} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{E} =  E(\cos\phi\hat{i}+\sin\phi \hat{j});
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{F} = 2.26\times 10^{-17}\,N(\hat{i}+ \hat{j}) 
+\end{equation*}
+</div>
+</div></li>
+<li><div class="para">
+<div class="displaymath process-math">
+\begin{equation*}
+\tau=\vec{p}\times\vec{E} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{p}=p\hat{i}; 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{E}=E\cos\phi\hat{i}+E\sin\phi \hat{j};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tau= \begin{bmatrix}
+\hat{i} &amp; \hat{j} &amp; \hat{k}\\
+p &amp; 0 &amp; 0 \\
+E \cos \phi &amp; E\sin \phi &amp; 0
+\end{bmatrix} = pE\sin\phi \hat{k}=4.53\times 10^{-28} \,Nm\hat{k}
+\end{equation*}
+</div>
+</div></li>
+<li><div class="para"><div class="displaymath process-math">
+\begin{equation*}
+U = -\vec{p}\cdot\vec{E} = -pE = -4.53\times 10^{-28} \,J
+\end{equation*}
+</div></div></li>
+</ol>
+</div>
+</div></body>
 </html>
