@@ -547,6 +547,178 @@
     </solution>
   </example>
 
+
+  <example>
+    <statement>
+      <p>
+        A thin rod of charge Q and length 2a is centrally located along the y-axis. 
+        <ol marker="a.">
+          <li>
+            Use calculus to show that the electric field at a point x along the x-axis is given by 
+            <me>
+              E  = k\left(\frac{Q}{x\sqrt{x^{2}+a^{2}}}\right)\hat{i}.
+            </me>
+              </li>
+              <li>
+                What does this become when <m>x \gt\gt a?</m>
+              </li>
+              <li>
+                When <m>x \lt\lt a?</m>
+              </li>
+        </ol>
+           </p>
+    </statement>
+    <solution>
+      <image source="fig12.png" width="35%"> </image>
+      <p>
+        Consider a charged rod of length 2a having linear charge density <m>\lambda.</m> 
+        To find field at a point  P  from the center of the rod consider a small charge element 
+        <m>\,dy</m> which behaves as a point charge <m>\,dq</m> then the field at  P  is given by 
+         <me>
+          \,dE=\frac{k\,dq}{r^{2}}
+        </me>
+       Due to charge symmetry the  y  components of field cancel out each other and only  x  
+       components of field survived. Hence, 
+       <me>
+        \,dE_{x}=\,dE\cos\theta= \frac{k\,dq}{r^{2}}\frac{x}{r}
+       </me>
+       <me>
+        = \frac{kx\lambda\,dy}{r^{3}} =\frac{kx\lambda\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
+       </me>
+       <me>
+        \therefore\quad E=E_{x}=kx\lambda\int\limits_{-a}^{a}\frac{\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
+       </me>
+      Now solve this integrand first then substitute the limits. Let 
+      <me>
+        \mathscr{I} = \int\frac{\,dy}{\left(x^{2}+y^{2}\right)^{3/2}}
+      </me>
+      From geometry of the figure 
+      <me>
+        y=x\tan\theta
+      </me>
+           <me>
+       \text{or,} \quad \,dy=x\sec^{2}\theta\,d\theta 
+      </me>
+             <me>
+            \therefore\quad \mathscr{I} = \int\frac{x\sec^{2}\theta\,d\theta}{(x^{2}+x^{2}\tan^{2}\theta)^3/2}
+          </me>
+          <me>
+            = \int \frac{1}{x^{2}}\cos\theta\,d\theta = \frac{1}{x^{2}}\sin\theta=\frac{1}{x^{2}}\frac{y}{r}
+          </me>
+          <me>
+            = \frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}
+          </me>
+          <me>
+            \therefore\quad  E= kx\lambda \left[\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}\right]_{-a}^{a} 
+          </me>
+          <me>
+            = kx\lambda\frac{2a}{x^{2}\sqrt{x^{2}+a^{2}}}= \frac{2k\lambda a}{x \sqrt{x^{2}+a^{2}}}  = \frac{kQ}{x \sqrt{x^{2}+a^{2}}}
+          </me>
+             As total charge on a rod is Q. If  <m>x\gt \gt a,</m>  then  
+          <me>
+            E= \frac{kQ}{x^{2}},
+          </me>
+           i.e., rod behaves as a point charge. 
+         </p>
+         <p>
+          If <m> a \gt \gt x </m> then 
+          <me>
+            E=\frac{kQ}{ax}=\frac{2k\lambda}{x}
+          </me>
+          If rod is infinitely long then <m> E\propto\frac{1}{x}</m> as  k and <m>\lambda</m> are constant.
+         </p>
+         <p>
+          <term>Alternative in vector form:</term>
+          <me>
+            \vec{dE}= k\frac{dq}{r^{2}}(\cos\theta\hat{i}-\sin\theta\hat{j});
+          </me>
+          Here, 
+          <me>
+            \left[\cos\theta=\frac{x}{r}\right] \quad \text{ and } \quad  \left[ \sin\theta=\frac{y}{r}\right]
+          </me>
+        <me>
+           also, \quad \lambda=\frac{charge}{length}=\frac{\,dq}{\,dy}=\frac{Q}{2a}
+          </me>
+           <me>
+           \text{or,} \quad \frac{\,dq}{Q}=\frac{\,dy}{2a}; 
+          </me>
+         <me>
+          \therefore, \quad \vec{E}=\int\vec{dE}; 
+         </me>
+         and <m>r=\sqrt{x^{2}+y^{2}}</m>
+              </p>
+              <p>
+                <ol marker="a.">
+                  <li>
+                    <me>
+                      \vec{E}=\int k\frac{dq}{r^{2}}(\frac{x}{r}\hat{i}-\frac{y}{r}\hat{j})  = \int k \frac{Q}{2a}\frac{dy}{r^{3}}(x\hat{i}-y\hat{j})
+                    </me>
+                                       <me>
+                      = k\frac{Qx}{2a} \int\limits_{-a}^{a} \frac{dy}{(x^{2}+y^{2})^{3/2}}\hat{i}-k\frac{Q}{2a} \int\limits_{-a}^{a} \frac{ydy}{(x^{2}+y^{2})^{3/2}}\hat{j}
+                    </me>
+                    <me>
+                      = k\frac{Qx}{2a} 2 \int\limits_{0}^{a} \frac{dy}{(x^{2}+y^{2})^{3/2}}\hat{i}-0 \cdot\hat{j} 
+                    </me>
+                    <me>
+                      =  \left. k\frac{Qx}{a}\left(\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}\right)\right\vert_{0}^{a}\hat{i}   = k \left(\frac{Q}{x\sqrt{x^{2}+a^{2}}}\right)\hat{i} 
+                    </me>
+                      </li>
+                      <li>
+                        <me>
+                          \vec{E}=k\frac{Q}{x^{2}}\hat{i} 
+                        </me>
+                        Field due to a point charge.
+                                 </li>
+                      <li>
+                        <me>
+                          \vec{E}=k\frac{Q}{ax}\hat{i} = \frac{1}{2\pi \epsilon_{o}}\frac{\lambda}{x}\hat{i}
+                        </me>
+                               </li>
+                </ol>
+              </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Find the electric field at a point due to a uniformly charged Arc.
+      </p>
+    </statement>
+    <solution>
+      <image source="arc.png" width="35%"> </image>
+      <p>
+        Consider an arc of radius r and linear charge density <m> \lambda.</m>  
+        To find the field at a point  O  consider a small charged element <m>\,dl </m> 
+        which behaves as a point charge <m> \,dq</m> then field at  O is given by 
+        <me>
+          \,dE=\frac{k\,dq}{r^{2}}
+        </me>
+        Now due to charge symmetry components of field along y - axis cancels out each 
+        other and only x-components are survived. Hence, 
+        <me>
+          \,dE_{x} = \,dE \cos\theta
+        </me>
+        <me>
+          \therefore\quad E  = \int\,dE_{x} =\int\limits_{-\theta_{o}}^{\theta_{o}} \,dE \cos\theta   = \int\limits_{-\theta_{o}}^{\theta_{o}}\frac{k\,dq}{r^{2}}\cos\theta
+        </me>
+               <me>
+          \text{or,}\quad E = \int\limits_{-\theta_{o}}^{\theta_{o}} \frac{k \lambda r \,d\theta}{r^{2}}\cos\theta 
+        </me>
+        <me>
+          [\because \quad \,dq=\lambda\,dl\quad and \quad\,dl=r\,d\theta  ]
+        </me>
+        <me>
+          \text{or,}\quad E  = \frac{k\lambda}{r}\int\limits_{-\theta_{o}}^{\theta_{o}}\cos\theta\,d\theta
+        </me>
+        <me>
+          =\frac{k\lambda}{r} \{\sin\theta\}_{-\theta_{o}}^{\theta_{o}} = \frac{k\lambda}{r} \{2\sin\theta_{o}\} 
+        </me>
+        along x-axis.  If <m>\theta_{o}\rightarrow \pi </m> then arc becomes a circular ring and field at the center of ring is zero. 
+           </p>
+    </solution>
+  </example>
+
 </paragraphs>
 
 </section>

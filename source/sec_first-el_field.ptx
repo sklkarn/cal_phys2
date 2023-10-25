@@ -151,6 +151,68 @@ field	is given as <me>
 </p>
 </introduction>
 
-
+<subsection xml:id="subsec-chrg_dist">
+  <title>Electric Field of a Continuous Charge Distribution</title>
+  <introduction>
+    <p>
+      Coulomb's law only work for two point charges, if we are dealing with more than two 
+      discrete charges then we have to use principle of superposition to find the field at 
+      a point using Coulomb's law. Most often charges are distributed on the material in such 
+      a rigourous way that applying Coulomb's low is very difficult, e.g. charges are distributed 
+      on a sphere, a plane surface, a rod or on some weird surface like pyramid. In that case it 
+      would be easier to find an electric field at point by breaking the charge distribution in 
+      small elements and treat them like a point charge. Write the equation of electric field 
+      for one single element of the charge  and integrate them for the entire charge. In order 
+      to break these charge distribution in small elements we need to discuss charge density.
+    </p>
+    <p>
+      <term>Charge Density:</term> Depend upon the surface where charges are distributed uniformly 
+      we can have three different types of charge density. 
+      <ol marker="i.">
+        <li>
+          <term>Linear charge density, <m>\lambda</m>: </term> If the charges are distributed uniformly 
+          in a linear shape then the charge density is called a linear charge density.  It is defined 
+          as the amount of charge per unit length. Let say the charge  Q  be distributed smoothly on 
+          a wire of length  L, then 
+          <me>
+            \lambda = \frac{Q}{L}
+          </me>
+          It's unit is <m>C/m.</m> Now if a small length <m>\,dl</m> contains a charge <m>\,dq </m> then 
+          <me>
+            \,dq = \lambda \,dl
+          </me>
+            </li>
+            <li>
+             <term> Surface charge density, <m>\sigma:</m></term> If the charges are distributed uniformly 
+             on a surface area then the charge density is called a surface charge density.  It is defined 
+             as the amount of charge per unit area. Let say the charge  Q  be distributed smoothly on a 
+             plane of area  A, then 
+             <me>
+              \sigma = \frac{Q}{A}
+             </me> 
+              It's unit is <m>C/m^{2}.</m> Now if a small area of that surface <m> \,da</m> contains 
+              a charge <m>\,dq </m> then 
+              <me>
+                \,dq = \sigma \,da
+              </me>
+               </li>
+               <li>
+               <term> Volume charge density, <m>\rho:</m></term> If the charges are distributed uniformly 
+               in a volume of any material then the charge density is called a volume charge density.  
+               It is defined as the amount of charge per unit volume. Let say the charge Q  bw 
+               distributed smoothly in a volume  V, then 
+               <me>
+                \rho = \frac{Q}{V}
+               </me>
+               It's unit is <m>C/m^{3}.</m> Now if a small volume of that material <m>\,dv</m> 
+               contains a charge <m>\,dq </m> then 
+               <me>
+                \,dq = \rho \,dv
+               </me>
+                 </li>
+      </ol>
+    </p>
+  </introduction>
+</subsection>
   </section>
 

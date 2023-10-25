@@ -12,38 +12,50 @@
 </head>
 <body class="ignore-math">
 <div class="solution solution-like">
-<h2 class="heading">
-<span class="type">Solution</span><span class="space"> </span><span class="codenumber">2.2.1.1</span><span class="period">.</span>
-</h2>
-<ol class="lower-alpha">
-<li><div class="para logical">
-<div class="para">We have <span class="process-math">\(180^{o} = \pi\)</span> rad</div>
+<h3 class="heading">
+<span class="type">Solution</span><span class="space"> </span><span class="codenumber">1.3.10.1</span><span class="period">.</span>
+</h3>
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/arc.png" class="contained"></div> <div class="para logical">
+<div class="para">Consider an arc of radius r and linear charge density <span class="process-math">\(\lambda.\)</span> To find the field at a point  O  consider a small charged element <span class="process-math">\(\,dl \)</span> which behaves as a point charge <span class="process-math">\(\,dq\)</span> then field at  O is given by</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore 1^{o} = \frac{\pi}{180}\quad rad = 1.745\times 10^{-2} \quad rad.
+\,dE=\frac{k\,dq}{r^{2}}
 \end{equation*}
 </div>
-</div></li>
-<li><div class="para logical">
-<div class="para">
-<span class="process-math">\(1^{o} = 60' = 1.745\times 10^{-2} \)</span>  rad</div>
+<div class="para">Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore 1' = 2.908\times 10^{-4} \quad rad  = 2.91\times 10^{-4}\quad rad.
+\,dE_{x} = \,dE \cos\theta
 \end{equation*}
 </div>
-</div></li>
-<li><div class="para logical">
-<div class="para">
-<span class="process-math">\(1' = 60'' = 2.908\times 10^{-4} \)</span> rad</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore 1'' = 4.847\times 10^{-4} \quad rad = 4.85\times 10^{-6} \quad rad.  
+\therefore\quad E  = \int\,dE_{x} =\int\limits_{-\theta_{o}}^{\theta_{o}} \,dE \cos\theta   = \int\limits_{-\theta_{o}}^{\theta_{o}}\frac{k\,dq}{r^{2}}\cos\theta
 \end{equation*}
 </div>
-</div></li>
-</ol>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E = \int\limits_{-\theta_{o}}^{\theta_{o}} \frac{k \lambda r \,d\theta}{r^{2}}\cos\theta 
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_second-examplesA.html#solution-10" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+[\because \quad \,dq=\lambda\,dl\quad and \quad\,dl=r\,d\theta  ]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E  = \frac{k\lambda}{r}\int\limits_{-\theta_{o}}^{\theta_{o}}\cos\theta\,d\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{k\lambda}{r} \{\sin\theta\}_{-\theta_{o}}^{\theta_{o}} = \frac{k\lambda}{r} \{2\sin\theta_{o}\} 
+\end{equation*}
+</div>
+<div class="para">along x-axis.  If <span class="process-math">\(\theta_{o}\rightarrow \pi \)</span> then arc becomes a circular ring and field at the center of ring is zero.</div>
+</div>
+</div>
+<span class="incontext"><a href="sec_first-exampleA.html#solution-10" class="internal">in-context</a></span>
 </body>
 </html>
