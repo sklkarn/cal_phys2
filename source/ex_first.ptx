@@ -429,6 +429,43 @@
       </ol>
         </p>
   </exercise>
+
+  <exercise>
+    <p>
+      A uniform electric field 
+      <me>
+        \vec{E} = 100 \,N/C \hat{i}+ 200 \,N/C \hat{k} 
+      </me>
+       is directed through a cube whose sides are of length 20 cm along the x, y, and z - axes. 
+       What is the electric flux through each of its faces?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The electric flux through a surface in the x, y - plane is <m>-100 \,N.m^{2}/C.</m> 
+      If the electric field is <m>100\, N/C</m> and in the direction <m>\hat{i} - \hat{j} + 2\hat{k},</m> 
+      <ol marker="a.">
+        <li>
+          what is the area of the surface? 
+        </li>
+        <li>
+          What is the direction of the normal to the surface? 
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An electric field is given by the equation 
+      <me>
+        \vec{E} = ax\hat{i} + by\hat{j},
+      </me>
+       where <m>a = 10 \,Nm/C </m> and <m>b = 20 \,Nm/C.</m> What is the electric flux 
+       through a surface whose corners are at (0,0,0), (0,1m,0),  (0,1m,2), and (0,0,2m)? 
+    </p>
+  </exercise>
 </paragraphs>
  </exercises>
 

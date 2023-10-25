@@ -10,11 +10,11 @@
       \newcommand{\R}{\mathbb R}
       \newcommand{\T}{\mathcal T}
       \newcommand\comb[2]{^{#1}C{_{#2}}}
-    </macros>
+      </macros>
 
     <latex-image-preamble>
       \usepackage{tikz, pgfplots}
-      \usepackage{tensor}
+     \usepackage{tensor}
       \usetikzlibrary{positioning, matrix, arrows}
       \usetikzlibrary{shapes, decorations, shadows, fadings, patterns}
       \usetikzlibrary{decorations.markings} 

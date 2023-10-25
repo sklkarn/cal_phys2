@@ -11,7 +11,7 @@
     <me>
       \phi=\frac{\,dV}{\,dt}= \frac{A\,dx}{\,dt} = \vec{v}\cdot \vec{A}
     </me>
-    \Where <m>v</m> is the velocity of flow of water in the tube. 
+    Where <m>v</m> is the velocity of flow of water in the tube. 
     <em>Electric flux</em> can also be defined as number of electric field lines 
     passing through any surface perpendicularly.  Electric flux passes through an 
     elementary surface area, <m>\,dA</m> is given by  
@@ -20,5 +20,223 @@
     </me>
      </p>
 </introduction>
+
+<subsection xml:id="subsec-gauss">
+  <title>Gauss'ss Law</title>
+  <introduction>
+    <p>
+      It states that the total electric flux through any closed surface is proportional to the 
+      total electric charge enclosed by this surface., i.e., 
+      <men xml:id="eqn-gauss_law1">
+        \Phi_{E} =  \oint\vec{E}\cdot\vec{\,dA}  = \frac{q_{enc}}{\epsilon_{o}}
+      </men>
+    </p>
+    <proof>
+      <p>
+          Suppose a charge <m>q</m> is enclosed by the two closed surfaces <m>S</m> and <m>S'</m> then 
+          number of lines crossing the surface <m>S</m> = number of lines crossing the surface <m>S'.</m>  But, 
+          the number of lines per unit area through a surface perpendicular to the lines is proportional to the 
+          strength of the electric field at a given region, i.e., 
+          line density is proportional to the electric field, <m>E(r)</m>. 
+      </p> 
+      <figure xml:id="gausslaw">
+        <caption></caption>
+        <image source="gausslaw.png" width ="35%"/>
+    </figure>
+      <p> 
+        where, line density = <m>= \frac{\text{No. of lines}}{Area_{\bot}}</m>
+      </p> 
+      <p>         
+          or, No. of lines = line density. <m>Area_{\bot}</m>
+           </p>
+           <p>
+           or, line crossing the surface S =<m>\Phi_{s}</m> =<m> K\cdot E(r) \cdot Area_{\bot}</m>
+            where K is a proportionality constant. Hence, 
+            <men xml:id="eqn-gauss_law2">
+              \Phi_{s}= K.E(r). 4\pi r^{2} 
+            </men>
+            and for surface S', the flux
+            <men xml:id="eqn-gauss_law3">
+              \Phi_{s'} = \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}   
+            </men>
+              </p>
+              <p>
+                From eqns. <xref ref="eqn-gauss_law2"/> and <xref ref="eqn-gauss_law3"/> we get- 
+                <me>
+                  K.E(r).4\pi\, r^{2} = \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}
+                </me>
+                <me>
+                  \text{or,}\quad K\left(\frac{q}{4\pi\epsilon_{o}r^{2}}\right).4\pi \,r^{2} \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}
+                </me>
+                In SI unit, set constant, K = 1, 
+                <me>
+                  \therefore \quad \frac{q}{\epsilon_{o}}= \iint\limits_{surface}\vec{E}\cdot\vec{\,dA}  = \Phi_{E}
+                </me> <fn>all integrals used here are closed surface integrals.</fn>
+                Which is a Gauss's law. Gauss's law is applicable for any surface as long as the charge distribution 
+                is symmetrical for the surface. It can be used to find the electric field due to a point charge, 
+                a spherically symmetric charge distribution, a uniform rod of charge, and a uniform sheet of charge. 
+                It is not applicable for a charge distribution in pyramid type surface or a finite disc or rod. 
+                An imaginary surface symmetrical to charge distribution considered at any point where electric field 
+                is to be determined is called <term>Gaussian Surface</term>.
+              </p>
+    </proof>
+  </introduction>
+
+
+<subsubsection xml:id="subsubsec-appl_gauss">
+  <title>Applications of Gauss's Law</title>
+  <p>
+    Using Gauss's law to find the electric field:  
+    <ol marker="i.">
+      <li>
+        Use the symmetry of the charge distribution to determine the direction of the 
+        resulting electric field and to determine where that field is constant in magnitude.
+      </li>
+      <li>
+        Pick part of your Gaussian surface to be perpendicular to the electric field where 
+        its magnitude, E is constant. The flux through this surface is then simply E 
+        times the area of that surface. 
+      </li>
+      <li>
+        If possible, pick another part of your Gaussian surface to be inside a conductor so that E = 0. 
+        The flux through this surface is then simply zero. 
+      </li>
+      <li>
+        Pick the rest of your Gaussian surface to be parallel to the electric field where E 
+        is not constant. The flux through this surface is then simply zero. 
+      </li>
+      <li>
+        Set the total flux through your Gaussian surface equal to the total charge enclosed divided by <m>\epsilon_{o}.</m> 
+      </li>
+      <li>
+        Solve the resulting equation for the magnitude of the electric field. 
+        Combine this with the direction determined earlier to obtain the vector electric field.
+      </li>
+    </ol>
+  </p>
+  <p>
+    <term>Special Cases:</term> 
+  </p>
+   <p>
+    Inside Conductor	E = 0.
+   </p>
+    <p>
+      Outside Spherical Charge	<m>E = k\frac{q}{r^{2}}.</m>
+    </p>
+   <p>
+    Outside Cylindrical Charge	<m>E = k\frac{2\lambda}{r},</m> where <m>\lambda =\frac{Q}{L} .</m>
+   </p>
+   <p>
+    Outside Surface Charge	<m>E = \frac{\sigma}{2\epsilon_{o}}</m>,  where  <m>\sigma =\frac{Q}{A}.</m>
+   </p>
+</subsubsection>
+
+</subsection>
+
+<subsection xml:id="subsec-sph_symmtr">
+  <title>Cases of spherical symmetry:</title>
+ <introduction>
+  <p>
+    
+  </p>
+ </introduction>
+
+
+ <subsubsection xml:id="subsubsec-point_chrg">
+  <title>Electric field due to a point charge</title>
+  <p>
+    Consider a point charge <m>q</m> placed at point <m>O</m> then to find an electric 
+    field at a point <m>P</m> at distance <m>r</m> from it can be determined by considering 
+    a spherical Gaussian surface around a charge so that the magnitude of electric field 
+    at any point on the surface is same and directed radially outwards. 
+    </p>
+    <figure xml:id="pointcharge">
+      <caption></caption>
+      <image source="pointcharge.png" width ="35%"/>
+  </figure>
+    <p>
+      According to Gauss's law 
+      <me>
+        \phi=\oint\vec{E}\cdot\vec{\,ds}=\frac{q_{enc}}{\epsilon_{o}}
+      </me>
+      <me>
+        \text{or,}\quad E (4\pi r^{2}) = \frac{q}{\epsilon_{o}}
+      </me>
+      <me>
+        \therefore \quad E = \left(\frac{1}{4\pi \epsilon_{o}}\right) \frac{q}{r^{2}} =k\frac{q}{r^{2}} 
+      </me>
+      In vector form 
+      <me>
+        \vec{E}= k\frac{q}{r^{2}}\hat{r}
+      </me>
+    </p>
+ </subsubsection> 
+
+ <subsubsection xml:id="subsubsec-sph_chrg">
+  <title>Electric field due to a  spherical symmetric charged distribution</title>
+  <p>
+    In a spherical charge distribution the charge density <m>\rho</m> depends only on 
+    a distance of the point from the center and not on the direction.  
+    Let <m>Q</m> be the charge distributed uniformly over a sphere of radius <m>R</m>. 
+    To find the field at any point, <m>P</m> a distance, <m>r</m> from the center.
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="40% 25% 35%">
+      <figure xml:id="sphcharge1">
+        <caption></caption>
+        <image source="sphcharge1.png"/>
+    </figure>
+        <figure xml:id="sphcharge2">
+            <caption></caption>
+            <image source="sphcharge2.png"/>
+        </figure>
+        <figure xml:id="gr8">
+          <caption></caption>
+          <image source="gr8.png"/>
+      </figure>
+       </sidebyside>
+  </figure>
+<p>
+  <ol marker="i.">
+    <li>
+      Point <m>P</m> lies outside the charge distribution, ie., <m>r \gt R</m> as shwon in <xref ref="sphcharge1"/>. 
+      <me>
+        \phi=\oint\vec{E}\cdot\vec{\,ds}= E_{o}4\pi r^{2} =\frac{Q_{enc}}{\epsilon_{o}}
+      </me>
+      <me>
+        \therefore\quad E_{o} = \left(\frac{1}{4\pi\epsilon_{o}}\right) \frac{Q}{r^{2}}= k\frac{Q}{r^{2}}
+      </me>
+      Hence the electric field at any point outside the spherical charge distribution is same as 
+      though the entire charge is concentrated at the center.
+    </li>
+    <li>
+      Point <m>P</m> lies on the surface of charge distribution, ie., <m>r = R.</m> 
+      <me>
+        E_{s} = k\frac{Q}{R^{2}}
+      </me>
+       </li> 
+       <li>
+        Point <m>P</m> lies inside the charge distribution, ie., <m>r \lt R</m> as shown in <xref ref="sphcharge2"/>.
+        <me>
+          \text{charge density,}\quad \rho= \frac{Q}{V_{sphere}}=\frac{Q}{\frac{4}{3}\pi R^{3}} 
+        </me>
+        <me>
+          \oint\vec{E_{i}}\cdot\vec{\,ds}= \frac{Q_{enc}}{\epsilon_{o}} = \frac{1}{\epsilon_{o}}\int\rho\,dV
+        </me>
+        <me>
+          E_{i}(4\pi r^{2})= \frac{1}{\epsilon_{o}}\rho (\frac{4}{3}\pi r^{3}) = \frac{1}{\epsilon_{o}}(\frac{Q}{\frac{4}{3}\pi R^{3}}) (\frac{4}{3}\pi r^{3})
+        </me>
+        <me>
+          \therefore\quad E_{i} = \frac{1}{4\pi \epsilon_{o}}\frac{Q r}{R^{3}} = k \frac{Q r}{R^{3}}
+        </me>
+                Thus the electric field inside a spherical charge distribution is directly proportional 
+                to the distance of the point from the center of spherical charge. The variation of field 
+                with the distance from the center of spherical charge distribution is shown in <xref ref="gr8"/>.
+       </li>
+  </ol>
+</p>
+ </subsubsection>
+</subsection>
   </section>
 
