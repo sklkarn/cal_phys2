@@ -169,6 +169,7 @@
 
       
   <xi:include href="./sec_first-intro.ptx" />
+  <xi:include href="./sec_first-el_field.ptx" />
 
   <xi:include href="./sec_first-exampleA.ptx" />  
 

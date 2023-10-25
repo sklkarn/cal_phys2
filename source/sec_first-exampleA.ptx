@@ -309,29 +309,29 @@
               \text{where}\quad r=\sqrt{a^{2}+x^{2}}
             </me>
             <me>
-              \therefore\quad dF_{x} =  dF\cos\theta = k\frac{\,dQ q}{r^{2}}\left(\frac{x}{r}\right) 
+              \therefore\quad \,dF_{x} =  dF\cos\theta = k\frac{\,dQ \,q}{r^{2}}\left(\frac{x}{r}\right) 
             </me>
             <me>
-              = k\frac{\,dQ q}{r^{3}}x = k\frac{dQ q x}{(a^{2}+x^{2})^{3/2}}
+              = k\frac{\,dQ \,q}{r^{3}}x = k\frac{\,dQ \,q x}{(a^{2}+x^{2})^{3/2}}
             </me>
             <me>
-              \text{also,}\quad dF_{y} =  dF\sin\theta = k\frac{\,dQ q}{r^{2}}\left( \frac{a}{r}\right) 
+              \text{also,}\quad \,dF_{y} =  dF\sin\theta = k\frac{\,dQ \,q}{r^{2}}\left( \frac{a}{r}\right) 
             </me>
             <me>
-              = k\frac{\,dQ q}{r^{3}}a = k\frac{dQ q a}{(a^{2}+x^{2})^{3/2}} 
+              = k\frac{\,dQ \,q}{r^{3}}a = k\frac{\,dQ \,q a}{(a^{2}+x^{2})^{3/2}} 
             </me>
             <me>
-              \therefore\quad F_{x}=\int dF_{x} 
+              \therefore\quad F_{x}=\int \,dF_{x} 
             </me>
             <me>
-              = k\frac{q x}{(a^{2}+x^{2})^{3/2}} \int \,dQ =k\frac{Q q x}{(a^{2}+x^{2})^{3/2}}
+              = k\frac{q x}{(a^{2}+x^{2})^{3/2}} \int \,dQ =k\frac{Q \,q \,x}{(a^{2}+x^{2})^{3/2}}
             </me>
          If we consider a differential charge <m>\,dQ </m> at the bottom, then y-component 
          of force cancels out each other at a charge q and hence similarly all the 
          y-components cancel out each other if we consider a differential charge at 
          any portion of the ring because of the charge symmetry, i.e., 
          <me>
-          F_{y}=\int dF_{y}= 0
+          F_{y}=\int \,dF_{y}= 0
          </me>
          by charge symmetry.
         </p>
@@ -339,7 +339,7 @@
           <ol marker="a.">
             <li>
               <me>
-                \vec{F}=F_{x}\hat{i}+F_{y}\hat{j}  = k\frac{Q q x}{(a^{2}+x^{2})^{3/2}}\hat{i}
+                \vec{F}=F_{x}\hat{i}+F_{y}\hat{j}  = k\frac{Q \,q x}{(a^{2}+x^{2})^{3/2}}\hat{i}
               </me>
                  </li>
             <li>
@@ -349,7 +349,7 @@
               <m> \text{For}\quad x \gt \gt a,</m>
              we have <m>\quad 1 \gt \gt \frac{a}{x},</m>
              <me>
-              \therefore\quad  \vec{F}= k\frac{Q q x}{x^{3}(\frac{a^{2}}{x^{2}}+1)^{3/2}} \hat{i}= k\frac{Q q}{x^{2}}\hat{i} 
+              \therefore\quad  \vec{F}= k\frac{Q \,q \,x}{x^{3}(\frac{a^{2}}{x^{2}}+1)^{3/2}} \hat{i}= k\frac{Q \,q}{x^{2}}\hat{i} 
              </me>
              which is Coulomb's law for point charges.
                 </li>
@@ -360,6 +360,193 @@
         </p>
       </solution>
     </example>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Electric Field</title>
+  <example>
+    <statement>
+      <p>
+        An electric dipole has a negative charge of -10 nC  at point (-1.0 m, 0) and a positive 
+        charge of  +10 nC  at point (+1.0 m, 0). What is its electric field at points 
+        <ol marker="a.">
+          <li>
+            (0,0),
+          </li>
+          <li>
+            (2 m,0)
+          </li>
+          <li>
+            (0,1 m),
+          </li>
+          <li>(2 m,-1 m)</li>
+          <li>What is the dipole moment of this dipole?</li>
+        </ol>
+         </p>
+    </statement>
+    <solution>
+      <image source="fig7.png" width="40%"> </image>
+      <p>
+        Given:	<m>q  =  10.0\times 10^{-9} \,C; \quad d  =  2.0 \,m; </m>	
+        <m>k = 9.0\times10^{9} \,N.m^{2}/C^{2}</m>
+        <ol marker="a.">
+          <li>
+            <me>
+              \vec{E_{a}}=\vec{E_{1a}}+\vec{E_{2a}}
+            </me>
+            <me>
+              \vec{E_{1a}} =k\frac{q}{r^{2}_{1a}}(-\hat{i}),\quad r_{1a} =1\,m; 
+            </me>
+            <me>
+              \vec{E_{2a}} =k\frac{-q}{r^{2}_{2a}}(\hat{i}),\quad r_{2a} =1\,m 
+            </me>
+            <me>
+              \therefore\quad \vec{E_{a}}=-180  (N/C) \hat{i}
+            </me>
+               </li>
+          <li>
+            <me>
+              \vec{E_{b}}=\vec{E_{1b}}+\vec{E_{2b}}
+            </me>
+            <me>
+              \vec{E_{1b}} =k\frac{q}{r^{2}_{1b}}\hat{i},\quad r_{1a} =1\,m;
+            </me>
+            <me>
+              \vec{E_{2b}} =k\frac{-q}{r^{2}_{2b}}\hat{i},\quad r_{2b} =3\,m 
+            </me>
+            <me>
+              \therefore\quad \vec{E_{b}}=8  (N/C) \hat{i} 
+            </me>
+               </li>
+          <li>
+            <me>
+              \vec{E_{c}}=\vec{E_{1c}}+\vec{E_{2c}}
+            </me>
+            <me>
+              \vec{E_{1c}} =k\frac{q}{r^{2}_{1c}}\left(\frac{-\hat{i}+\hat{j}}{\sqrt{2}}\right), \quad r_{1c} =\sqrt{2}\,m;
+            </me>
+            <me>
+              \vec{E_{2c}} =k\frac{-q}{r^{2}_{2c}}\left(\frac{\hat{i}+\hat{j}}{\sqrt{2}}\right), \quad r_{2c} =\sqrt{2}\,m
+            </me>
+            <me>
+              \therefore\quad \vec{E_{c}}=-63.6 (N/C)  \hat{i}
+            </me>
+               </li>
+          <li>
+            <me>
+              \vec{E_{d}}=\vec{E_{1d}}+\vec{E_{2d}}
+            </me>
+            <me>
+              \vec{E_{1c}} =k\frac{q}{r^{2}_{1d}}\left(\frac{\hat{i}-\hat{j}}{\sqrt{1^{2}+1^{2}}}\right), \quad r_{1d} = \sqrt{2}\,m;
+            </me>
+            <me>
+              \vec{E_{2d}} =k\frac{-q}{r^{2}_{2d}}\left(\frac{3\hat{i}-\hat{j}}{\sqrt{3^{2}+1^{2}}}\right), \quad r_{2d} =\sqrt{10}\,m
+            </me>
+            <me>
+              \therefore\quad \vec{E_{d}}=23.3 (N/C)  \hat{i} -29.0 (N/C) \hat{j} 
+            </me>
+            <me>
+              = 37.2 (N/C) \left(\frac{23.3\hat{i}-29.0\hat{j}}{37.2}\right)
+            </me>
+               </li>
+          <li>
+            <me>
+              \vec{p}=qd\hat{i}
+            </me>
+            <me>
+              \therefore\quad  \vec{p}=2.0\times 10^{-8}(Cm) \hat{i}
+            </me>
+               </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A water molecule has an oxygen ion of charge -2 e  at  the origin of a coordinate system and 
+        two hydrogen ions of charge +1 e at a distance of <m>4.00\times 10^{-11} \,m</m>  
+        making angles of <m>\pm 60^{o}</m> as shown in the figure below. The molecule is in an 
+        external electric field of strength 100 N/C  directed above the x-axis at an angle of
+         <m>45^{o}.</m> 
+         <image source="fig8a.png" width="30%"> </image>
+         <ol marker="a.">
+          <li>
+            What is the dipole moment of the molecule? 
+          </li>
+          <li>
+            What is the electrical force on the oxygen molecule due to the external field. 
+          </li>
+          <li>
+            What is the torque on the molecule? 
+          </li>
+          <li>
+            What is the potential energy due to the dipole moment of the molecule? 
+          </li>
+             </ol>
+              </p>
+    </statement>
+    <solution>
+      <image source="fig8b.png" width="30%"> </image>
+      <p>
+        Given: <m> q = 2 e; \quad  e = 1.60\times 10^{-19} \,C; \quad d = 4.00\times 10^{-11} \,m; </m>	
+        <m>\theta = 60^{o};  \quad \phi = 45^{o}; \quad  E= 100 (N/C).</m>
+        <ol marker="a.">
+          <li>
+            <me>
+              \vec{p}=\vec{p_{1}}+\vec{p_{2}}
+            </me>
+            <me>
+              \vec{p_{1}} =  e d(\cos\theta\hat{i}+\sin\theta \hat{j});
+            </me>
+            <me>
+              \vec{p_{2}} =  e d(\cos\theta\hat{i}-\sin\theta \hat{j});
+            </me>
+            <me>
+              \vec{p}=2e d\cos\theta \hat{i}=6.40\times 10^{-30}\,Cm \hat{i}
+            </me>
+             </li>
+          <li>
+            <me>
+              F = q\vec{E} 
+            </me>
+            <me>
+              \vec{E} =  E(\cos\phi\hat{i}+\sin\phi \hat{j});
+            </me>
+            <me>
+              \vec{F} = 2.26\times 10^{-17}\,N(\hat{i}+ \hat{j}) 
+            </me>
+              </li>
+          <li>
+            <me>
+              \tau=\vec{p}\times\vec{E} 
+            </me>
+            <me>
+              \vec{p}=p\hat{i}; 
+            </me>
+            <me>
+              \vec{E}=E\cos\phi\hat{i}+E\sin\phi \hat{j};
+            </me>
+            <me>
+              \tau= \begin{bmatrix}
+       \hat{i} &amp; \hat{j} &amp; \hat{k}\\
+       p &amp; 0 &amp; 0 \\
+       E \cos \phi &amp; E\sin \phi &amp; 0
+       \end{bmatrix} = pE\sin\phi \hat{k}=4.53\times 10^{-28} \,Nm\hat{k}
+            </me>
+               </li>
+          <li>
+           <me>
+            U = -\vec{p}\cdot\vec{E} = -pE = -4.53\times 10^{-28} \,J
+           </me>
+              </li>
+             </ol>	
+      </p>
+    </solution>
+  </example>
+
 </paragraphs>
 
 </section>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_first-el_field" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Electric Field</title>
+  
+<introduction>
+  <p>
+    The space around a charge where force of attraction or repulsion can be experienced by any 
+    other charged particle is called an <em>electric field</em> of the charge. 
+    Electric field is also known as electrostatic field intensity.
+  </p>
+  <figure xml:id="fig6c">
+    <caption></caption>
+    <image source="fig6c.png" width="30%"/>
+</figure>
+  <p>
+    It is an inherent property of a charge. An electric field is produced by one charge 
+    and is experienced by another one. It is an electric field of a charge which tells 
+    another charge how to move in the space if it is free to do so.  Electric field is 
+    defined as a <em>force per unit charge</em> and is a vector quantity. It is directed 
+    along the direction of force on a unit positive charge, i.e., electric field of a point charge 
+    <me>
+      \vec{E}  =  \frac{\vec{F}}{q}
+    </me>
+    or, 
+    <me>
+      \vec{E}  =k\frac{q}{r^{2}}\hat{r}  
+    </me>
+     where <m>\hat{r}</m> is a direction of electric field which is along the line joining the two charges.
+  </p>
+ 
+    <p>
+      <term>Electric Field Lines:</term>
+    It is an imaginary path along which a unit positive test charge can move in any electric field 
+    if it is free to do so. It is always in the direction of  electric field vectors leaving from 
+    positive charges and ending on negative charges. Density of lines indicates field strength. 
+    Electric lines of force diverge from positive charge and converge in a negative charge as shown in <xref ref="fig6"/>.
+     </p>
+     <figure xml:id="fig6">
+      <caption></caption>
+      <sidebyside widths="40% 25% 25%">
+        <figure>
+          <caption></caption>
+          <image source="fig6d.png"/>
+      </figure>
+          <figure>
+              <caption></caption>
+              <image source="fig6a.png"/>
+          </figure>
+          <figure>
+            <caption></caption>
+            <image source="fig6b.png"/>
+        </figure>
+       </sidebyside>
+  </figure>
+  
+  <p>
+    <term>Test Charge:</term> It is an imaginary unit positive charge that can not distort the electric 
+    field of any other charge. It is used to determine the direction of electric field vector. 
+    Its magnitude is 1 C and is denoted by <m>q_{o}</m>.
+  </p>
+
+  <p>
+    <alert>Electric Dipole:</alert> <idx><h>dipole</h></idx>
+It is a small displacement between two equal and opposite charges. It acquires rotational effect if 
+exposed in an external field and hence it is also known as electric dipole moment, i.e., 
+<me>
+  \vec{p}  =  q d (\hat{u}), 
+</me>
+where d  is a distance between two equal charges and <m>\hat{u}</m> is unit vector along the line 
+joining from -ve charge to +ve charge. Dipole moment is a vector quantity whose direction 
+is pointed along negative to positive charge. When a dipole is placed in an external electric 
+field it shows a rotating effect. Torque on a dipole in an electric field is given as 
+<m>\vec{\tau}  = \vec{p} \times \vec{E}</m> and potential energy of dipole in an electric 
+field	is given as <me>
+  U  =  – \vec{p}\cdot \vec{E}.
+</me>
+<me>
+  \vec{\tau} = \vec{d} \times \vec{F}
+</me>
+<me>
+  =d F \sin\theta\hat{n}=\left(r q E\sin\theta+r q E\sin\theta \right)\hat{n} 
+</me>
+<me>
+  = q (2r) E\sin\theta \hat{n}= qd\hat{r} \times \vec{E} = \vec{ p} \times \vec{E} 
+</me>
+<me>
+  \text{and}\quad \left[U=\vec{F}\cdot\vec{d} = q\vec{E}\cdot\vec{d} =q\vec{d}\cdot\vec{E}  = \vec{p}\cdot\vec{E} \right] 
+</me>
+  </p>
+  <figure xml:id="fig10a">
+    <caption></caption>
+    <image source="fig10a.png" width="30%"/>
+</figure>
+
+
+<p>
+ <term> Electric field inside the conductor:</term> 
+ When a cube is placed in a uniform electric field, <m>\vec{E}</m>, as shown in <xref ref="fieldinside"/> 
+ then flux (electric lines of force normal to the surface) coming into the cube is equal to 
+ the flux going out of the cube through top and bottom faces, while there is no flux through 
+ any other faces as field is perpendicular to these faces. Hence total flux, <m>\phi =0 </m> 
+ through a closed cube. If a conducting plate is placed in an external field  then it induces the 
+ charge on its surface or even a dielectric inside a field polarizes charges as shown in <xref ref="fieldinsideb"/> 
+ which ultimately reduces the effective electric field. The field inside the dielectrics is 
+ called polarized field which is opposite to the external field. Hence the resultant (effective) 
+ field is 
+ <me>
+  \vec{E_{r}}= \vec{E}-\vec{E'}
+ </me>
+</p>
+<figure>
+  <caption></caption>
+  <sidebyside widths="20% 20% 20% 20% 20%">
+    <figure xml:id="fieldinside">
+      <caption></caption>
+      <image source="fieldinside.png"/>
+  </figure>
+      <figure xml:id="fieldinsideb">
+          <caption></caption>
+          <image source="fieldinsideb.png"/>
+      </figure>
+      <figure xml:id="fieldinsidec">
+        <caption></caption>
+        <image source="fieldinsidec.png"/>
+    </figure>
+    <figure xml:id="fieldinsided">
+      <caption></caption>
+      <image source="fieldinsided.png"/>
+  </figure>
+  <figure xml:id="fieldinsidee">
+    <caption></caption>
+    <image source="fieldinsidee.png"/>
+</figure>
+   </sidebyside>
+</figure>
+<p>
+ In case of a conductor separation of charges makes total electric field zero inside it because 
+ of its sufficient free charges neutralize the external electric field. In case of dielectrics 
+ separation of charges inside it reduces the field because of its bonded electrons can only nullify 
+ the external field to a limited extent. For a conductor electric field is only out side of 
+ the conductor but within it electric field is zero. In charged conductors the excess charges 
+ have distributed themselves optimally further away from one another so as to reduce the total 
+ amount of repulsive forces. Once a charged conductor has reached the state of electrostatic 
+ equilibrium, there is no further motion of charge about the surface (<xref ref="fieldinsidec"/>) and hence no 
+ electric field inside the conductor. If hole is made on a charged conductor still there is 
+ no field inside the hole or within the conductor (<xref ref="fieldinsided"/>). If a charge Q is placed inside 
+ the hole of a charged (or uncharged) conductor it induces opposite charges at the inner surface 
+ and similar charges on the outer surface of the conductor but field within the conductor still 
+ remains zero (<xref ref="fieldinsidee"/>). 
+</p>
+</introduction>
+
+
+  </section>
+

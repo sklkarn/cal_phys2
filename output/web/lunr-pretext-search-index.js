@@ -109,20 +109,92 @@ var ptx_lunr_docs = [
   "body": " Principle of Superposition  It states that every charge in space exerts a force on another in such a way that there are no other chrages present in that medium. Hence, the net force excerted at a point charge by two or more charges in space is a vector sum of the individual forces.  "
 },
 {
+  "id": "sec_first-el_field",
+  "level": "1",
+  "url": "sec_first-el_field.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Electric Field",
+  "body": " Electric Field   The space around a charge where force of attraction or repulsion can be experienced by any other charged particle is called an electric field of the charge. Electric field is also known as electrostatic field intensity.      It is an inherent property of a charge. An electric field is produced by one charge and is experienced by another one. It is an electric field of a charge which tells another charge how to move in the space if it is free to do so. Electric field is defined as a force per unit charge and is a vector quantity. It is directed along the direction of force on a unit positive charge, i.e., electric field of a point charge or, where is a direction of electric field which is along the line joining the two charges.   Electric Field Lines: It is an imaginary path along which a unit positive test charge can move in any electric field if it is free to do so. It is always in the direction of electric field vectors leaving from positive charges and ending on negative charges. Density of lines indicates field strength. Electric lines of force diverge from positive charge and converge in a negative charge as shown in .                    Test Charge: It is an imaginary unit positive charge that can not distort the electric field of any other charge. It is used to determine the direction of electric field vector. Its magnitude is 1 C and is denoted by .   Electric Dipole:  dipole It is a small displacement between two equal and opposite charges. It acquires rotational effect if exposed in an external field and hence it is also known as electric dipole moment, i.e., where d is a distance between two equal charges and is unit vector along the line joining from -ve charge to +ve charge. Dipole moment is a vector quantity whose direction is pointed along negative to positive charge. When a dipole is placed in an external electric field it shows a rotating effect. Torque on a dipole in an electric field is given as and potential energy of dipole in an electric field is given as            Electric field inside the conductor: When a cube is placed in a uniform electric field, , as shown in then flux (electric lines of force normal to the surface) coming into the cube is equal to the flux going out of the cube through top and bottom faces, while there is no flux through any other faces as field is perpendicular to these faces. Hence total flux, through a closed cube. If a conducting plate is placed in an external field then it induces the charge on its surface or even a dielectric inside a field polarizes charges as shown in which ultimately reduces the effective electric field. The field inside the dielectrics is called polarized field which is opposite to the external field. Hence the resultant (effective) field is                            In case of a conductor separation of charges makes total electric field zero inside it because of its sufficient free charges neutralize the external electric field. In case of dielectrics separation of charges inside it reduces the field because of its bonded electrons can only nullify the external field to a limited extent. For a conductor electric field is only out side of the conductor but within it electric field is zero. In charged conductors the excess charges have distributed themselves optimally further away from one another so as to reduce the total amount of repulsive forces. Once a charged conductor has reached the state of electrostatic equilibrium, there is no further motion of charge about the surface ( ) and hence no electric field inside the conductor. If hole is made on a charged conductor still there is no field inside the hole or within the conductor ( ). If a charge Q is placed inside the hole of a charged (or uncharged) conductor it induces opposite charges at the inner surface and similar charges on the outer surface of the conductor but field within the conductor still remains zero ( ).   "
+},
+{
+  "id": "fig6c",
+  "level": "2",
+  "url": "sec_first-el_field.html#fig6c",
+  "type": "Figure",
+  "number": "1.2.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-31",
+  "level": "2",
+  "url": "sec_first-el_field.html#p-31",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Electric Field Lines: "
+},
+{
+  "id": "fig6",
+  "level": "2",
+  "url": "sec_first-el_field.html#fig6",
+  "type": "Figure",
+  "number": "1.2.2",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-32",
+  "level": "2",
+  "url": "sec_first-el_field.html#p-32",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Test Charge: "
+},
+{
+  "id": "fig10a",
+  "level": "2",
+  "url": "sec_first-el_field.html#fig10a",
+  "type": "Figure",
+  "number": "1.2.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-34",
+  "level": "2",
+  "url": "sec_first-el_field.html#p-34",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Electric field inside the conductor: "
+},
+{
+  "id": "figure-17",
+  "level": "2",
+  "url": "sec_first-el_field.html#figure-17",
+  "type": "Figure",
+  "number": "1.2.4",
+  "title": "",
+  "body": "                        "
+},
+{
   "id": "sec_first-exampleA",
   "level": "1",
   "url": "sec_first-exampleA.html",
   "type": "Section",
-  "number": "1.2",
+  "number": "1.3",
   "title": "Examples A",
-  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?            How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.          A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,         Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]        Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.        A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.          "
+  "body": " Examples A   Coulomb's Law    If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?            How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.          A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,         Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]        Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.        A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.           Electric Field    An electric dipole has a negative charge of -10 nC at point (-1.0 m, 0) and a positive charge of +10 nC at point (+1.0 m, 0). What is its electric field at points  (0,0),  (2 m,0)  (0,1 m),  (2 m,-1 m)  What is the dipole moment of this dipole?        Given:                                       A water molecule has an oxygen ion of charge -2 e at the origin of a coordinate system and two hydrogen ions of charge +1 e at a distance of making angles of as shown in the figure below. The molecule is in an external electric field of strength 100 N\/C directed above the x-axis at an angle of     What is the dipole moment of the molecule?  What is the electrical force on the oxygen molecule due to the external field.  What is the torque on the molecule?  What is the potential energy due to the dipole moment of the molecule?        Given:                             "
 },
 {
   "id": "example-1",
   "level": "2",
   "url": "sec_first-exampleA.html#example-1",
   "type": "Example",
-  "number": "1.2.1",
+  "number": "1.3.1",
   "title": "",
   "body": "  If electrons move through a cigarette lighter during its operation, how many coulombs of charge moved through it?         "
 },
@@ -131,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-exampleA.html#example-2",
   "type": "Example",
-  "number": "1.2.2",
+  "number": "1.3.2",
   "title": "",
   "body": "  How many coulombs of positive charge are there in 1.00 kg of plutonium? Given: atomic mass of plutonium atom is 244 and each plutonium atom has 94 protons.    From eqn.   where is number of atoms and is atomic number. where is number of moles and is Avagadro's number.  = [(Mass of material, m)\/(Molar Mass, M)](Avagadro's number, ) (Atomic Number, Z) (Charge on electron, )   Here is total charge in material, is mass number, in case of elemental material value of mass number, A is same as molar mass, M.       "
 },
@@ -140,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-exampleA.html#example-3",
   "type": "Example",
-  "number": "1.2.3",
+  "number": "1.3.3",
   "title": "",
   "body": "  A hydrogen atom consists of a proton and an electron. If the radius of the atom is equal to the Bohr radius of , what is  the gravitational force between the two particles,  the electrical force between the particles, and  the ratio of the electrical force to the gravitational force?   Note: Newton's gravitational constant, Coulomb's Electrostatic constant, mass of proton, mass of electron, charge of proton, and charge of electron,     Given: Radius of atom,   From Newton's law of gravity,   From Coulomb's law of electrostatics,   Ratio of two forces,      "
 },
@@ -149,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-exampleA.html#example-4",
   "type": "Example",
-  "number": "1.2.4",
+  "number": "1.3.4",
   "title": "",
   "body": "  Three charges are located along the x-axis. The first charge of is located at the second of is at x = 5 cm, and the third charge of is located in such way that there is no electrical force on it.  Where is the third charge located?  What is the electrical force on the first charge?  What is the electrical force on the second charge?      Given:        Let the charges are located in a line as shown in figure below, then magnitude of force on charge due to and charges is given by and Since there is not net force acting on charge, [figure (a)] hence        Here we have taken x = -2.1 cm to obtain no net force on the charge. Hence x= =-2.1 cm = -0.02 m.     here, is a unit vector along x-axis [figure (b)]. Here only magnitude of charges are taken in calculation as the direction of forces are already determined according to nature of charges.   [figure (c)]     "
 },
@@ -158,7 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-exampleA.html#example-5",
   "type": "Example",
-  "number": "1.2.5",
+  "number": "1.3.5",
   "title": "",
   "body": "  Consider the three charges  and located at the three corners of a square. What is the magnitude and direction of the initial acceleration of the charge at the fourth corner if mass of all the charged objects are 2 kg each and are released from rest? Neglect gravity.      Given:        The direction of force can be determined by     Therefore force along x-axis on charge is given by and along y-axis is   Therefore, or, from +ve x-axis.     "
 },
@@ -167,25 +239,43 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-exampleA.html#example-6",
   "type": "Example",
-  "number": "1.2.6",
+  "number": "1.3.6",
   "title": "",
   "body": "  A thin ring of charge Q and radius a is centered on the x-axis in the y, z plane as shown in figure. A point charge q is located a distance x from the center of the ring.    What is the electrical force exerted by the ring on the point charge?  What is this force equal to when the point charge is at the center of the ring?  What is this force equal to when x is much greater than a?  What is this force when a = 0.1 m, and x = 0.2 m?      Given:   a = 0.1 m, x = 0.2 m.    Consider a differential charge at the top of a ring of length so that it behaves like a point charge to obtain a force acting on charge q at a distance x from the ring. Hence, as the charges are distributed uniformly on a ring. where = length of a ring.        If we consider a differential charge at the bottom, then y-component of force cancels out each other at a charge q and hence similarly all the y-components cancel out each other if we consider a differential charge at any portion of the ring because of the charge symmetry, i.e., by charge symmetry.           we have  which is Coulomb's law for point charges.        "
+},
+{
+  "id": "example-7",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-7",
+  "type": "Example",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  An electric dipole has a negative charge of -10 nC at point (-1.0 m, 0) and a positive charge of +10 nC at point (+1.0 m, 0). What is its electric field at points  (0,0),  (2 m,0)  (0,1 m),  (2 m,-1 m)  What is the dipole moment of this dipole?        Given:                                    "
+},
+{
+  "id": "example-8",
+  "level": "2",
+  "url": "sec_first-exampleA.html#example-8",
+  "type": "Example",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  A water molecule has an oxygen ion of charge -2 e at the origin of a coordinate system and two hydrogen ions of charge +1 e at a distance of making angles of as shown in the figure below. The molecule is in an external electric field of strength 100 N\/C directed above the x-axis at an angle of     What is the dipole moment of the molecule?  What is the electrical force on the oxygen molecule due to the external field.  What is the torque on the molecule?  What is the potential energy due to the dipole moment of the molecule?        Given:                           "
 },
 {
   "id": "sec_first-exampleB",
   "level": "1",
   "url": "sec_first-exampleB.html",
   "type": "Section",
-  "number": "1.3",
+  "number": "1.4",
   "title": "Examples B",
   "body": " Examples B   Coulomb's Law             "
 },
 {
-  "id": "example-7",
+  "id": "example-9",
   "level": "2",
-  "url": "sec_first-exampleB.html#example-7",
+  "url": "sec_first-exampleB.html#example-9",
   "type": "Example",
-  "number": "1.3.1",
+  "number": "1.4.1",
   "title": "",
   "body": "         "
 },
@@ -194,18 +284,189 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ex_first.html",
   "type": "Exercises",
-  "number": "1.4",
+  "number": "1.5",
   "title": "Exercise",
-  "body": "  Exercise   Coulomb's Law  Calculate total positive charge and total negative charge on 5 g of nickel. Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively.   "
+  "body": "  Exercise   Coulomb's Law  Calculate total positive charge and total negative charge on 5 g of nickel. Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively.  Write the process to determine the sign of a charged object using electroscope if the electroscope is positively charged initially?  Three electrical charges are arranged along the x-axis. The first charge is located at ; the second charge is located at ; and the third charge is located at a point where it experiences no electrical force.  Where is the third charge located?  What is the electrical force on each of the other two charges?  What is the total electrical force on the system of three charges? Could this arrangement of charges be used to propel a spaceship through space? Why?    Two electrical charges are arranged along the x-axis. The first charge is located at the second charge is located at If an electron is released from rest at the origin, what will be the magnitude and direction of its initial acceleration?  Two point charges are located on the positive x-axis of a coordinate system. Charge is located at and charge is located at . What is the total force exerted by these two charges on a third charge located at the origin? Neglect gravitational force.  If all the electrons in one gram of hydrogen were placed at the south pole of the earth and all the protons at the north pole, what would be the electrical force between them? Express your answer in Newtons, then convert the answer to pounds. (The atomic mass of hydrogen is 1.00794, the radius of the earth is and 1 N = 0.2248 lb.)  Two small copper spheres, each having a mass of 50 g, are separated by 2.00 m.  How many electrons does each sphere contain? (The atomic mass of copper is 63.5 g\/mole, and its atomic number is 29.)  How many electrons would have to be removed from one sphere and added to the other to cause an attractive force between the spheres of magnitude ?  What fraction of all the electrons in each sphere does this represent?    Two point charges are located on the y-axis as follows: charge at y = 50 cm, and charge at y = 0. What is the total force, magnitude, and direction exerted by these two charges on a third charge located at ?  Four electrical charges are located at the corners of a square. The first charge is at (0,0), the second is at (1m,0), the third is at (1 m, 1 m), and the fourth is at (0, 1 m).  What is the magnitude and direction of the electrical force on the charge?  If gravity acts in the -y-direction and the first charge has a mass of 100 g, what is the magnitude and direction of the initial acceleration of the first mass if released from rest and allowed to move under the influence of gravitational and electrical forces.    Three equal charges of are located at the corners of an equilateral triangle whose sides are 10 cm long. What is the magnitude of the force experienced by each charge due to the others?  A positive charge q is placed on the +y axis at y = a, and a negative charge -q is placed at y = -a. A point charge Q is located along the x-axis.  What is the magnitude and direction of the net electrical force on charge Q?  What does this become for x = 0?  Graph the x-component of this force versus x for   Graph the y-component of this force versus x for the same interval.  Use your graph to estimate when the magnitude of F becomes a maximum. Approximately what is that maximum and for what value of x does it occur?    A rod of length 2a is symmetrically located on the y-axis as shown in the figure below. It has a total positive charge of Q. A point charge q is located along the x-axis at a distance x.  Use calculus to find the force (magnitude and direction) on q due to Q.  What does this force become when   When   What is the magnitude of F when Q = 10 nC, q = 2 nC, and x = a = 10 cm?     A thin but large flat sheet of material has a uniform charge Q per unit area A on its surface equal to Use calculus to find the force on a charge q located at a distance x from that surface.  Set up a coordinate system with the x-axis perpendicular to the charged surface and use polar coordinates to specify the location of an arbitrary charge element dq inside the surface. Use the results of Example 2 to express the element of electric field dF at x due to a ring of charge dq as Then express in terms of a and and integrate over a to obtain the final result.      Electric Field  A thin disk of radius R and uniform surface charge density (charge per unit area) s is centered on the origin in the y, z plane.  Use calculus to find the electric field at an arbitrary point along the x-axis.  What is the electric field when   When     Draw approximate electric field lines for the charge distribution shown at right.   The figure below shows an electric dipole located in an electric field directed to the right. The magnitude of the charge on each particle of the dipole is 2 nC, the distance between the particles is 10 cm, the angle and the magnitude of the electric field is 50 N\/C.    What is the dipole moment of the dipole?  What is the torque on the dipole?  What is the potential energy of the dipole?    What is the electric field at point P due to the charges in the diagram at right if the length of the edges of the square is a = 0.1 m?   A point charge is located at the point (2 m, 1 m), and a second point charge is located at the point (-2 m, -2 m). What are  the magnitude and  the direction of the electric field at the origin?  What would be the force on a third charge if it were placed at the origin?    A uniform electric field of 1000 N\/C is directed downward. An electron moving horizontally to the right enters the field with a speed of   How long does it take for the electron to move 2 cm across the field?  How far will it move vertically during this time interval?  What direction will it be traveling at the end of that time interval?    Find the electric field at the center of a square in a figure given aside, if and a = 5.0 cm.    "
 },
 {
   "id": "exercise-1",
   "level": "2",
   "url": "ex_first.html#exercise-1",
   "type": "Exercise",
-  "number": "1.4.1",
+  "number": "1.5.1",
   "title": "",
   "body": "Calculate total positive charge and total negative charge on 5 g of nickel. Given: atomic mass and atomic number of Nickel are 58.69 amu and 28 amu, respectively. "
+},
+{
+  "id": "exercise-2",
+  "level": "2",
+  "url": "ex_first.html#exercise-2",
+  "type": "Exercise",
+  "number": "1.5.2",
+  "title": "",
+  "body": "Write the process to determine the sign of a charged object using electroscope if the electroscope is positively charged initially? "
+},
+{
+  "id": "exercise-3",
+  "level": "2",
+  "url": "ex_first.html#exercise-3",
+  "type": "Exercise",
+  "number": "1.5.3",
+  "title": "",
+  "body": "Three electrical charges are arranged along the x-axis. The first charge is located at ; the second charge is located at ; and the third charge is located at a point where it experiences no electrical force.  Where is the third charge located?  What is the electrical force on each of the other two charges?  What is the total electrical force on the system of three charges? Could this arrangement of charges be used to propel a spaceship through space? Why?   "
+},
+{
+  "id": "exercise-4",
+  "level": "2",
+  "url": "ex_first.html#exercise-4",
+  "type": "Exercise",
+  "number": "1.5.4",
+  "title": "",
+  "body": "Two electrical charges are arranged along the x-axis. The first charge is located at the second charge is located at If an electron is released from rest at the origin, what will be the magnitude and direction of its initial acceleration? "
+},
+{
+  "id": "exercise-5",
+  "level": "2",
+  "url": "ex_first.html#exercise-5",
+  "type": "Exercise",
+  "number": "1.5.5",
+  "title": "",
+  "body": "Two point charges are located on the positive x-axis of a coordinate system. Charge is located at and charge is located at . What is the total force exerted by these two charges on a third charge located at the origin? Neglect gravitational force. "
+},
+{
+  "id": "exercise-6",
+  "level": "2",
+  "url": "ex_first.html#exercise-6",
+  "type": "Exercise",
+  "number": "1.5.6",
+  "title": "",
+  "body": "If all the electrons in one gram of hydrogen were placed at the south pole of the earth and all the protons at the north pole, what would be the electrical force between them? Express your answer in Newtons, then convert the answer to pounds. (The atomic mass of hydrogen is 1.00794, the radius of the earth is and 1 N = 0.2248 lb.) "
+},
+{
+  "id": "exercise-7",
+  "level": "2",
+  "url": "ex_first.html#exercise-7",
+  "type": "Exercise",
+  "number": "1.5.7",
+  "title": "",
+  "body": "Two small copper spheres, each having a mass of 50 g, are separated by 2.00 m.  How many electrons does each sphere contain? (The atomic mass of copper is 63.5 g\/mole, and its atomic number is 29.)  How many electrons would have to be removed from one sphere and added to the other to cause an attractive force between the spheres of magnitude ?  What fraction of all the electrons in each sphere does this represent?   "
+},
+{
+  "id": "exercise-8",
+  "level": "2",
+  "url": "ex_first.html#exercise-8",
+  "type": "Exercise",
+  "number": "1.5.8",
+  "title": "",
+  "body": "Two point charges are located on the y-axis as follows: charge at y = 50 cm, and charge at y = 0. What is the total force, magnitude, and direction exerted by these two charges on a third charge located at ? "
+},
+{
+  "id": "exercise-9",
+  "level": "2",
+  "url": "ex_first.html#exercise-9",
+  "type": "Exercise",
+  "number": "1.5.9",
+  "title": "",
+  "body": "Four electrical charges are located at the corners of a square. The first charge is at (0,0), the second is at (1m,0), the third is at (1 m, 1 m), and the fourth is at (0, 1 m).  What is the magnitude and direction of the electrical force on the charge?  If gravity acts in the -y-direction and the first charge has a mass of 100 g, what is the magnitude and direction of the initial acceleration of the first mass if released from rest and allowed to move under the influence of gravitational and electrical forces.   "
+},
+{
+  "id": "exercise-10",
+  "level": "2",
+  "url": "ex_first.html#exercise-10",
+  "type": "Exercise",
+  "number": "1.5.10",
+  "title": "",
+  "body": "Three equal charges of are located at the corners of an equilateral triangle whose sides are 10 cm long. What is the magnitude of the force experienced by each charge due to the others? "
+},
+{
+  "id": "exercise-11",
+  "level": "2",
+  "url": "ex_first.html#exercise-11",
+  "type": "Exercise",
+  "number": "1.5.11",
+  "title": "",
+  "body": "A positive charge q is placed on the +y axis at y = a, and a negative charge -q is placed at y = -a. A point charge Q is located along the x-axis.  What is the magnitude and direction of the net electrical force on charge Q?  What does this become for x = 0?  Graph the x-component of this force versus x for   Graph the y-component of this force versus x for the same interval.  Use your graph to estimate when the magnitude of F becomes a maximum. Approximately what is that maximum and for what value of x does it occur?   "
+},
+{
+  "id": "exercise-12",
+  "level": "2",
+  "url": "ex_first.html#exercise-12",
+  "type": "Exercise",
+  "number": "1.5.12",
+  "title": "",
+  "body": "A rod of length 2a is symmetrically located on the y-axis as shown in the figure below. It has a total positive charge of Q. A point charge q is located along the x-axis at a distance x.  Use calculus to find the force (magnitude and direction) on q due to Q.  What does this force become when   When   What is the magnitude of F when Q = 10 nC, q = 2 nC, and x = a = 10 cm?    "
+},
+{
+  "id": "exercise-13",
+  "level": "2",
+  "url": "ex_first.html#exercise-13",
+  "type": "Exercise",
+  "number": "1.5.13",
+  "title": "",
+  "body": "A thin but large flat sheet of material has a uniform charge Q per unit area A on its surface equal to Use calculus to find the force on a charge q located at a distance x from that surface.  Set up a coordinate system with the x-axis perpendicular to the charged surface and use polar coordinates to specify the location of an arbitrary charge element dq inside the surface. Use the results of Example 2 to express the element of electric field dF at x due to a ring of charge dq as Then express in terms of a and and integrate over a to obtain the final result.   "
+},
+{
+  "id": "exercise-14",
+  "level": "2",
+  "url": "ex_first.html#exercise-14",
+  "type": "Exercise",
+  "number": "1.5.14",
+  "title": "",
+  "body": "A thin disk of radius R and uniform surface charge density (charge per unit area) s is centered on the origin in the y, z plane.  Use calculus to find the electric field at an arbitrary point along the x-axis.  What is the electric field when   When    "
+},
+{
+  "id": "exercise-15",
+  "level": "2",
+  "url": "ex_first.html#exercise-15",
+  "type": "Exercise",
+  "number": "1.5.15",
+  "title": "",
+  "body": "Draw approximate electric field lines for the charge distribution shown at right.  "
+},
+{
+  "id": "exercise-16",
+  "level": "2",
+  "url": "ex_first.html#exercise-16",
+  "type": "Exercise",
+  "number": "1.5.16",
+  "title": "",
+  "body": "The figure below shows an electric dipole located in an electric field directed to the right. The magnitude of the charge on each particle of the dipole is 2 nC, the distance between the particles is 10 cm, the angle and the magnitude of the electric field is 50 N\/C.    What is the dipole moment of the dipole?  What is the torque on the dipole?  What is the potential energy of the dipole?   "
+},
+{
+  "id": "exercise-17",
+  "level": "2",
+  "url": "ex_first.html#exercise-17",
+  "type": "Exercise",
+  "number": "1.5.17",
+  "title": "",
+  "body": "What is the electric field at point P due to the charges in the diagram at right if the length of the edges of the square is a = 0.1 m?  "
+},
+{
+  "id": "exercise-18",
+  "level": "2",
+  "url": "ex_first.html#exercise-18",
+  "type": "Exercise",
+  "number": "1.5.18",
+  "title": "",
+  "body": "A point charge is located at the point (2 m, 1 m), and a second point charge is located at the point (-2 m, -2 m). What are  the magnitude and  the direction of the electric field at the origin?  What would be the force on a third charge if it were placed at the origin?   "
+},
+{
+  "id": "exercise-19",
+  "level": "2",
+  "url": "ex_first.html#exercise-19",
+  "type": "Exercise",
+  "number": "1.5.19",
+  "title": "",
+  "body": "A uniform electric field of 1000 N\/C is directed downward. An electron moving horizontally to the right enters the field with a speed of   How long does it take for the electron to move 2 cm across the field?  How far will it move vertically during this time interval?  What direction will it be traveling at the end of that time interval?   "
+},
+{
+  "id": "exercise-20",
+  "level": "2",
+  "url": "ex_first.html#exercise-20",
+  "type": "Exercise",
+  "number": "1.5.20",
+  "title": "",
+  "body": "Find the electric field at the center of a square in a figure given aside, if and a = 5.0 cm.  "
 },
 {
   "id": "sec_second-intro",
@@ -235,9 +496,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-2",
+  "id": "exercise-21",
   "level": "2",
-  "url": "ex_second.html#exercise-2",
+  "url": "ex_second.html#exercise-21",
   "type": "Exercise",
   "number": "2.3.1",
   "title": "",
@@ -271,9 +532,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-3",
+  "id": "exercise-22",
   "level": "2",
-  "url": "ex_third.html#exercise-3",
+  "url": "ex_third.html#exercise-22",
   "type": "Exercise",
   "number": "3.3.1",
   "title": "",
@@ -307,9 +568,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-4",
+  "id": "exercise-23",
   "level": "2",
-  "url": "ex_fourth.html#exercise-4",
+  "url": "ex_fourth.html#exercise-23",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -343,9 +604,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-5",
+  "id": "exercise-24",
   "level": "2",
-  "url": "ex_fifth.html#exercise-5",
+  "url": "ex_fifth.html#exercise-24",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -361,72 +622,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-58",
+  "id": "p-89",
   "level": "2",
-  "url": "append_math.html#p-58",
+  "url": "append_math.html#p-89",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-59",
+  "id": "p-90",
   "level": "2",
-  "url": "append_math.html#p-59",
+  "url": "append_math.html#p-90",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-60",
+  "id": "p-91",
   "level": "2",
-  "url": "append_math.html#p-60",
+  "url": "append_math.html#p-91",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-61",
+  "id": "p-92",
   "level": "2",
-  "url": "append_math.html#p-61",
+  "url": "append_math.html#p-92",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-62",
+  "id": "p-93",
   "level": "2",
-  "url": "append_math.html#p-62",
+  "url": "append_math.html#p-93",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-63",
+  "id": "p-94",
   "level": "2",
-  "url": "append_math.html#p-63",
+  "url": "append_math.html#p-94",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-64",
+  "id": "p-95",
   "level": "2",
-  "url": "append_math.html#p-64",
+  "url": "append_math.html#p-95",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-65",
+  "id": "p-96",
   "level": "2",
-  "url": "append_math.html#p-65",
+  "url": "append_math.html#p-96",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -442,9 +703,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-66",
+  "id": "p-97",
   "level": "2",
-  "url": "appendix-2.html#p-66",
+  "url": "appendix-2.html#p-97",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
