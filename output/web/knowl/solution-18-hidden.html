@@ -11,31 +11,31 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math"><div class="solution solution-like"><div class="para logical">
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{\,dA}=dydz\hat{i}
+\end{equation*}
+</div>
 <div class="para">
-<span class="process-math">\(\because A=(1.0\pm0.2)m\text{,}\)</span> and <span class="process-math">\(B=(2.0\pm0.2)m \)</span>
-</div>
+<span class="process-math">\(\because\)</span> surface is in the y,z plane.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\Rightarrow \sqrt{AB} = z = \sqrt{(1.0)(2.0)} = 1.414 m
-\end{equation*}
-</div>
-<div class="para">Rounding this number to 2 sig.fig., we have <span class="process-math">\(z=1.4m\text{.}\)</span> Now, the relative error</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\Delta z}{z} = \frac{1}{2}\frac{\Delta A}{A}  + \frac{1}{2}\frac{\Delta B}{B} = \frac{1}{2}\left(\frac{0.2}{1.0}\right)  + \frac{1}{2}\left(\frac{0.2}{2.0}\right) 
+\Phi_{E}=\int\vec{E}\cdot\vec{\,dA}=\int E_{x}\,dA_{yz} =\iint 2yz \,dy \,dz = \int\limits_{0}^{2}\left(\int\limits_{0}^{1}2yz\,dy\right)\,dz 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-= \frac{1}{10}+\frac{1}{20}=0.15
+= \int\limits_{0}^{2}z\left(\int\limits_{0}^{1}2y\,dy\right)\,dz  
 \end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(\because z \)</span> is independent of <span class="process-math">\(y.\)</span>
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore \Delta z = z\frac{\Delta z}{z} = (1.4m)(0.15) = 0.212m = 0.2
+=\int\limits_{0}^{2}z\left.\left(y^{2}\right\vert_{0}^{1} \right)\,dz  =  \int\limits_{0}^{2}z \,dz 
+= \left.\frac{z^{2}}{2}\right\vert_{0}^{2} =2 Nm^{2}/C
 \end{equation*}
-</div>
-<div class="para">After round off to one significant figure for error. Hence, the correct value for <span class="process-math">\(\sqrt{AB} = (1.4\pm0.2)m.\)</span>
 </div>
 </div></div></body>
 </html>

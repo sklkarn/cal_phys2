@@ -13,20 +13,75 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">A ring of charge <span class="process-math">\(Q\)</span> and radius <span class="process-math">\(a\)</span> lies in the y, z -plane and is centered on the origin.</div>
-<ol class="lower-alpha">
-<li><div class="para">Use calculus to show that the electric field at any point along the x-axis is given by<div class="displaymath process-math">
+<div class="displaymath process-math">
 \begin{equation*}
-\vec{E}  =k\frac{Qx}{(x^{2}+a^{2})^{3/2}}\hat{i}.
+\,d\phi =  \vec{E}\cdot\vec{\,ds}= E\,ds \cos\theta = \frac{kq}{\left(r^{2}+\frac{l^{2}}{4}\right)}(2\pi r\,dr)\cos\theta
 \end{equation*}
 </div>
-</div></li>
-<li><div class="para">What does this become when <span class="process-math">\(x \gt \gt a\text{?}\)</span>
-</div></li>
-<li><div class="para">When <span class="process-math">\(x \lt \lt a?\)</span>
-</div></li>
-</ol>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \phi_{top\hspace{2pt} cap} =\int\,d\phi=\int\limits_{0}^{\alpha}\frac{kq}{\left(r^{2}+\frac{l^{2}}{4}\right)}(2\pi r\,dr)\cos\theta
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_first.html#p-122" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{but}\quad r=\frac{l}{2}\tan\theta \quad \text{or,}\quad \,dr=\frac{l}{2}\sec^{2}\theta\,d\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \phi_{top\hspace{2pt} cap} = \int\limits_{0}^{\alpha}\frac{kq}{\left(\frac{l^{2}}{4}\tan^{2}\theta+\frac{l^{2}}{4}\right)}(2\pi \frac{l}{2}\tan\theta \frac{l}{2}\sec^{2}\theta\,d\theta)\cos\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=2\pi kq \int\limits_{0}^{\alpha}\sin\theta \,d\theta =2\pi kq\left[-\cos\theta\right]_{0}^{\alpha} = 2\pi kq\left[1-\cos\alpha\right]
+\end{equation*}
+</div>
+<div class="para">But, from the geometry of cylinder,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos\alpha=\frac{\frac{l}{2}}{\sqrt{\frac{l^{2}}{4}+R^{2}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \phi_{top\hspace{2pt} cap} = 2\pi kq\left[1-\frac{l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right]\
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{similarly,}\quad \phi_{bottom\hspace{2pt} cap} = 2\pi kq\left[1-\frac{l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right];
+\end{equation*}
+</div>
+<div class="para">But, from Gauss’s law</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\phi_{total} = \frac{q}{\epsilon_{o}}
+\end{equation*}
+</div>
+<div class="para">Therefore, the flux through the curved surface =</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\phi_{curved} = \phi_{total} - \left( \phi_{top\hspace{2pt} cap} + \phi_{bottom\hspace{2pt} cap}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\phi_{curved} = \frac{q}{\epsilon_{o}}-4\pi kq \left[1-\frac{l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{q}{\epsilon_{o}}-\frac{4\pi q}{4\pi \epsilon_{o}} \left[\frac{2\sqrt{R^{2}+\frac{l^{2}}{4}}-l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \phi_{curved} = \frac{q}{\epsilon_{o}}\left[1-1+\frac{l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right] = \frac{ql}{2\epsilon_{o}\sqrt{R^{2}+\frac{l^{2}}{4}}}
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="sec_first-examplesB.html#p-122" class="internal">in-context</a></span>
 </body>
 </html>

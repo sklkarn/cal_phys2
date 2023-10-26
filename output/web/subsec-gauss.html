@@ -8,7 +8,7 @@
 <html lang="en-US">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Gauss’ss Law</title>
+<title>Gauss’s Law</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -229,12 +229,12 @@ window.MathJax = {
 <div class="toc-item"><a href="sec_first-el_field.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Electric Field</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="subsec-chrg_dist.html" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Electric Field of a Continuous Charge Distribution</span></a></div></li></ul>
 </li>
-<li><div class="toc-item"><a href="sec_first-exampleA.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="sec_first-examplesA.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Examples A</span></a></div></li>
 <li>
 <div class="toc-item"><a href="sec_first-flux.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Electric Flux</span></a></div>
 <ul class="structural">
 <li class="active">
-<div class="toc-item"><a href="subsec-gauss.html" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Gauss’ss Law</span></a></div>
+<div class="toc-item"><a href="subsec-gauss.html" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Gauss’s Law</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="subsec-gauss.html#subsubsec-appl_gauss" class="internal"><span class="codenumber">1.4.1.1</span> <span class="title">Applications of Gauss’s Law</span></a></div></li></ul>
 </li>
 <li>
@@ -242,12 +242,25 @@ window.MathJax = {
 <ul class="structural">
 <li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-point_chrg" class="internal"><span class="codenumber">1.4.2.1</span> <span class="title">Electric field due to a point charge</span></a></div></li>
 <li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-sph_chrg" class="internal"><span class="codenumber">1.4.2.2</span> <span class="title">Electric field due to a  spherical symmetric charged distribution</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-hsph_chrg" class="internal"><span class="codenumber">1.4.2.3</span> <span class="title">Electric field due to a uniformly charged non-conducting hollow sphere</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-cyl_symtr.html" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Cases of cylindrical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_wire" class="internal"><span class="codenumber">1.4.3.1</span> <span class="title">Electric field due to infinitely long charged conductor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_cyl" class="internal"><span class="codenumber">1.4.3.2</span> <span class="title">Electric field due to a uniform infinite cylindrical charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-chrgd_sheet" class="internal"><span class="codenumber">1.4.3.3</span> <span class="title">Electric field due to infinite sheet of charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-out_cond" class="internal"><span class="codenumber">1.4.3.4</span> <span class="title">Electric field just outside a charged conductor</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="sec_first-exampleB.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Examples B</span></a></div></li>
-<li><div class="toc-item"><a href="ex_first.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercise</span></a></div></li>
+<li><div class="toc-item"><a href="sec_first-examplesB.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstA.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercise A</span></a></div></li>
+<li><div class="toc-item"><a href="sec_first-pot.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Electric Potential</span></a></div></li>
+<li><div class="toc-item"><a href="sec_first-examplesC.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstB.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Exercise B</span></a></div></li>
 </ul>
 </li>
 <li>
@@ -294,20 +307,20 @@ window.MathJax = {
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <section class="subsection" id="subsec-gauss"><h2 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.4.1</span> <span class="title">Gauss’ss Law</span>
+<span class="type">Subsection</span> <span class="codenumber">1.4.1</span> <span class="title">Gauss’s Law</span>
 </h2>
-<section class="introduction" id="introduction-8"><div class="para logical" id="p-78">
+<section class="introduction" id="introduction-8"><div class="para logical" id="p-81">
 <div class="para">It states that the total electric flux through any closed surface is proportional to the total electric charge enclosed by this surface., i.e.,</div>
 <div class="displaymath process-math" id="eqn-gauss_law1">
 \begin{equation}
 \Phi_{E} =  \oint\vec{E}\cdot\vec{\,dA}  = \frac{q_{enc}}{\epsilon_{o}}\tag{1.4.1}
 \end{equation}
 </div>
-</div> <article class="hiddenproof" id="proof-1"><a href="" data-knowl="" class="id-ref proof-knowl original has-image" data-refid="hk-proof-1"><h3 class="heading"><span class="type">Proof<span class="period">.</span></span></h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-1"><article class="hiddenproof"><div class="para" id="p-79">Suppose a charge <span class="process-math">\(q\)</span> is enclosed by the two closed surfaces <span class="process-math">\(S\)</span> and <span class="process-math">\(S'\)</span> then number of lines crossing the surface <span class="process-math">\(S\)</span> = number of lines crossing the surface <span class="process-math">\(S'.\)</span>  But, the number of lines per unit area through a surface perpendicular to the lines is proportional to the strength of the electric field at a given region, i.e., line density is proportional to the electric field, <span class="process-math">\(E(r)\text{.}\)</span>
+</div> <article class="hiddenproof" id="proof-1"><a href="" data-knowl="" class="id-ref proof-knowl original has-image" data-refid="hk-proof-1"><h3 class="heading"><span class="type">Proof<span class="period">.</span></span></h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-1"><article class="hiddenproof"><div class="para" id="p-82">Suppose a charge <span class="process-math">\(q\)</span> is enclosed by the two closed surfaces <span class="process-math">\(S\)</span> and <span class="process-math">\(S'\)</span> then number of lines crossing the surface <span class="process-math">\(S\)</span> = number of lines crossing the surface <span class="process-math">\(S'.\)</span>  But, the number of lines per unit area through a surface perpendicular to the lines is proportional to the strength of the electric field at a given region, i.e., line density is proportional to the electric field, <span class="process-math">\(E(r)\text{.}\)</span>
 </div> <figure class="figure figure-like" id="gausslaw"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/gausslaw.png" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-80">where, line density = <span class="process-math">\(= \frac{\text{No. of lines}}{Area_{\bot}}\)</span>
-</div> <div class="para" id="p-81">or, No. of lines = line density. <span class="process-math">\(Area_{\bot}\)</span>
-</div> <div class="para logical" id="p-82">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-83">where, line density = <span class="process-math">\(= \frac{\text{No. of lines}}{Area_{\bot}}\)</span>
+</div> <div class="para" id="p-84">or, No. of lines = line density. <span class="process-math">\(Area_{\bot}\)</span>
+</div> <div class="para logical" id="p-85">
 <div class="para">or, line crossing the surface S =<span class="process-math">\(\Phi_{s}\)</span> =<span class="process-math">\(K\cdot E(r) \cdot Area_{\bot}\)</span> where K is a proportionality constant. Hence,</div>
 <div class="displaymath process-math" id="eqn-gauss_law2">
 \begin{equation}
@@ -320,7 +333,7 @@ window.MathJax = {
 \Phi_{s'} = \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}   \tag{1.4.3}
 \end{equation}
 </div>
-</div> <div class="para logical" id="p-83">
+</div> <div class="para logical" id="p-86">
 <div class="para">From eqns. <a href="" class="xref" data-knowl="./knowl/eqn-gauss_law2.html" title="Equation 1.4.2">(1.4.2)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-gauss_law3.html" title="Equation 1.4.3">(1.4.3)</a> we get-</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-gauss_law2.html ./knowl/eqn-gauss_law3.html">
 \begin{equation*}
@@ -343,7 +356,7 @@ K.E(r).4\pi\, r^{2} = \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}
 </div></article></div></section><section class="subsubsection" id="subsubsec-appl_gauss"><h3 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.4.1.1</span> <span class="title">Applications of Gauss’s Law</span>
 </h3>
-<div class="para logical" id="p-84">
+<div class="para logical" id="p-87">
 <div class="para">Using Gauss’s law to find the electric field:</div>
 <ol class="lower-roman">
 <li id="li-64"><div class="para" id="p-derived-li-64">Use the symmetry of the charge distribution to determine the direction of the resulting electric field and to determine where that field is constant in magnitude.</div></li>
@@ -355,13 +368,13 @@ K.E(r).4\pi\, r^{2} = \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}
 <li id="li-69"><div class="para" id="p-derived-li-69">Solve the resulting equation for the magnitude of the electric field. Combine this with the direction determined earlier to obtain the vector electric field.</div></li>
 </ol>
 </div>
-<div class="para" id="p-85"><dfn class="terminology">Special Cases:</dfn></div>
-<div class="para" id="p-86">Inside Conductor	E = 0.</div>
-<div class="para" id="p-87">Outside Spherical Charge	<span class="process-math">\(E = k\frac{q}{r^{2}}.\)</span>
+<div class="para" id="p-88"><dfn class="terminology">Special Cases:</dfn></div>
+<div class="para" id="p-89">Inside Conductor	E = 0.</div>
+<div class="para" id="p-90">Outside Spherical Charge	<span class="process-math">\(E = k\frac{q}{r^{2}}.\)</span>
 </div>
-<div class="para" id="p-88">Outside Cylindrical Charge	<span class="process-math">\(E = k\frac{2\lambda}{r},\)</span> where <span class="process-math">\(\lambda =\frac{Q}{L} .\)</span>
+<div class="para" id="p-91">Outside Cylindrical Charge	<span class="process-math">\(E = k\frac{2\lambda}{r},\)</span> where <span class="process-math">\(\lambda =\frac{Q}{L} .\)</span>
 </div>
-<div class="para" id="p-89">Outside Surface Charge	<span class="process-math">\(E = \frac{\sigma}{2\epsilon_{o}}\text{,}\)</span>  where  <span class="process-math">\(\sigma =\frac{Q}{A}.\)</span>
+<div class="para" id="p-92">Outside Surface Charge	<span class="process-math">\(E = \frac{\sigma}{2\epsilon_{o}}\text{,}\)</span>  where  <span class="process-math">\(\sigma =\frac{Q}{A}.\)</span>
 </div></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-1"><div class="fn">all integrals used here are closed surface integrals.</div></div>
 </div>
 <div class="ptx-content-footer">

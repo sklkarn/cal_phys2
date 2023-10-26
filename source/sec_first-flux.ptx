@@ -22,7 +22,7 @@
 </introduction>
 
 <subsection xml:id="subsec-gauss">
-  <title>Gauss'ss Law</title>
+  <title>Gauss's Law</title>
   <introduction>
     <p>
       It states that the total electric flux through any closed surface is proportional to the 
@@ -182,7 +182,7 @@
   </p>
   <figure>
     <caption></caption>
-    <sidebyside widths="40% 25% 35%">
+    <sidebyside widths="35% 30% 35%">
       <figure xml:id="sphcharge1">
         <caption></caption>
         <image source="sphcharge1.png"/>
@@ -237,6 +237,275 @@
   </ol>
 </p>
  </subsubsection>
+
+ <subsubsection xml:id="subsubsec-hsph_chrg">
+  <title>Electric field due to a uniformly charged non-conducting hollow sphere</title>
+  <p>
+    Consider a uniformly charged non-conducting hollow sphere of radius R, total charge  Q, 
+     and volume charge density <m>\rho.</m> 
+     Now consider a thin shell inside a hollow sphere of radius  <m>x</m>  and thickness <m>\,dx</m> 
+     so that volume of thin shell 
+  </p> 
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 35%">
+      <figure xml:id="hollowsp">
+        <caption></caption>
+        <image source="hollowsp.png"/>
+    </figure>
+        <figure xml:id="hollowsp2">
+            <caption></caption>
+            <image source="hollowsp2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+
+  <p>
+     <me>
+      \,dV= \,dV_{shell} = 4\pi x^{2}\,dx
+     </me>
+    <me>
+      \therefore\quad Q = \int\,dq=\int\rho\,dV = \rho \int\limits_{r}^{R}4\pi x^{2}\,dx
+    </me>
+    <me>
+      = 4\pi\rho\left(\frac{x^{3}}{3}\right)_{r}^{R} = \frac{4\pi\rho}{3}(R^{3}-r^{3})
+    </me>
+    It is not possible to find electric field at any point in this case using Coulomb's law 
+    so electric field inside the shell at any point  P  at a distance  <m>a</m>  from 
+    the center of hollow sphere can be found by using Gauss's law 
+    <me>
+      \phi=\iint\vec{E}\cdot\vec{\,dA}= \frac{q_{enc}}{\epsilon_{o}}
+    </me>
+    <me>
+      E 4\pi a^{2}=\frac{1}{\epsilon_{o}}\int\limits_{0}^{a}\rho 4\pi x^{2}\,dx
+    </me>
+    here <m>a</m> is radius of Gaussian surface and <m>\rho (4\pi x^{2}\,dx)</m> is 
+    the charge enclosed in Gaussian surface.
+    <me>
+      \text{or,}\quad E = \frac{1}{\epsilon_{o}}\left[4\pi \left(\frac{x^{3}}{3}\right)_{0}^{a}\right]
+    </me>
+    <me>
+      \text{or,}\quad E(4\pi a^{2})= \frac{1}{\epsilon_{o}}\frac{4\pi}{3}a^{3} 
+    </me>
+    <me>
+      \therefore\quad E= \frac{a}{3\epsilon_{o}}
+    </me>
+      </p>
+ </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-cyl_symtr">
+  <title>Cases of cylindrical symmetry:</title>
+  <introduction>
+    <p>
+      
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-long_wire">
+    <title>Electric field due to infinitely long charged conductor</title>
+    <p>
+      Electric field is normal to the length of a charged wire except at the edges 
+      where it is emitting radially out ward in all possible directions. Hence Coulomb's
+      law can not be applied to determined field at a point for a finite charged conductor.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="25% 35%">
+        <figure xml:id="longwire">
+          <caption></caption>
+          <image source="longwire.png"/>
+      </figure>
+          <figure xml:id="pline">
+              <caption></caption>
+              <image source="pline.png"/>
+          </figure>
+           </sidebyside>
+    </figure>
+  
+    <p>
+      Consider a symmterical cylindrical Gaussian surface around the charge on an infinitly 
+      charged wire of linear charge density is <m>\lambda</m> as shown in <xref ref="longwire"/>. 
+      Now electric flux, <m>\phi </m> through the surfaces <m>S_{1}, \quad S_{2},</m> and <m>S_{3}</m> is given by 
+      <me>
+        \phi=\phi_{1}+\phi_{2}+\phi_{3}
+      </me>
+      <me>
+        \text{or,}\quad \phi=\iint \vec{E}\cdot\vec{\,ds}_{1}+\iint \vec{E}\cdot\vec{\,ds}_{2}+\iint \vec{E}\cdot\vec{\,ds}_{3}
+      </me>
+      <me>
+        \text{or,}\quad \phi= 0+0+\iint \vec{E}\cdot\vec{\,ds}_{3} = \iint E \,ds = E(2\pi rl)
+      </me>
+       From Gauss's law 
+       <me>
+        \phi = \frac{\,dq}{\epsilon_{o}} = \frac{\lambda l}{\epsilon_{o}}
+       </me>
+       <m>\,dq </m> is the charge enclosed in the Gaussian surface. Hence, 
+       <me>
+        \phi= \frac{\lambda l}{\epsilon_{o}}=E(2\pi rl)
+       </me>
+       <me>
+        \therefore \quad E=\frac{\lambda}{2\pi\epsilon_{o}r}
+       </me>
+       ie., Electric field is inversely proportional to distance of the point from a charged rod [<xref ref="pline"/>].
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-long_cyl">
+    <title>Electric field due to a uniform infinite cylindrical charge</title>
+    <p>
+      Consider an infinitely long cylinder of radius R on which electric charge is 
+      distributed uniformly. If <m>\lambda</m> is charge per unit length and  <m>\rho</m> is 
+      a volume charge density then 
+      <me>
+        \rho (\pi R^{2}l)= \lambda l
+      </me>
+      <me>
+        \therefore\quad \rho = \frac{\lambda}{\pi R^{2}}
+      </me>
+      </p>
+     
+      <figure xml:id="cyldist">
+            <caption></caption>
+            <image source="cyldist.png" width="35%"/>
+        </figure>
+           
+      <p>
+        <ol marker="i.">
+          <li>
+            Electric field at any point <m>P_{1}</m>  [<xref ref="cyldist"/>] outside the cylindrical charge distribution i.e., <m>r \gt R</m>: 
+            Consider a Gaussian surface of radius <m>r</m> and length <m>l</m> symmetric to the charge distribution. 
+            Due to symmetry the field <m> E_{o}</m> is everywhere normal to the curved surface and has the same 
+            magnitude at all points of it. There is no contribution in fluxes due to flat bases of the Gaussian 
+            surface as <m>E_{o}</m> is parallel to them. Hence 
+            <me>
+              \phi = \oint\vec{E}\cdot\vec{\,ds}= \oint E_{o}\,ds = E_{o}(2\pi rl)
+            </me>
+            <me>
+              or, \quad \frac{q_{enc}}{\epsilon_{o}} = E_{o}(2\pi rl) 
+            </me>
+            
+            <me>
+             or, \quad   E_{o} = \frac{q_{enc}}{2\pi rl\epsilon_{o}}= \frac{\lambda l}{2\pi \epsilon_{o} rl}
+            </me>
+            <me>
+              \therefore, \quad   E_{o} = \frac{\lambda}{2\pi \epsilon_{o} r}
+             </me>
+            Thus the electric field at outside of a uniform infinite cylindrical charge distribution is 
+            same as that due to infinite line charge.
+          </li>
+          <li>
+            Electric field at the point <m>P_{2}</m> [<xref ref="cyldist"/>] on the surface of cylindrical charge distribution i.e., <m>r = R:</m> 
+            <me>
+              \phi = \oint\vec{E}\cdot\vec{\,ds}= \oint E_{s}\,ds = E_{s}(2\pi R l) = \frac{q_{enc}}{\epsilon_{o}} = \frac{\lambda l}{\epsilon_{o}} 
+            </me>
+            <me>
+              \therefore\quad   E_{s} = \frac{\lambda}{2\pi \epsilon_{o}R}
+            </me>
+                </li>
+                <li>
+                  Electric field at the point <m>P_{3}</m> [<xref ref="cyldist"/>] inside the cylindrical charge distribution i.e., <m>r \lt R:</m> 
+                  <me>
+                    \phi = \oint\vec{E}\cdot\vec{\,ds}= \oint E_{i}\,ds = E_{i}(2\pi r l) = \frac{q_{enc}}{\epsilon_{o}} = \frac{\rho \pi r^{2} l}{\epsilon_{o}}
+                  </me>
+                  <me>
+                    \therefore\quad   E_{i} = \frac{\rho r}{2 \epsilon_{o}  } = \frac{\lambda r}{2 \pi \epsilon_{o} R^{2}}
+                  </me>
+                  Thus the electric field inside the cylindrical charge distribution is proportional to the 
+                  distance of the point from the axis and is directed radially away from the axis. 
+                  The variation of field with distance <m>r</m> from the axis of a cylindrical charge is shown in <xref ref="gr8"/>.
+                </li>
+        </ol>
+      </p>
+  </subsubsection>
+
+
+  <subsubsection xml:id="subsubsec-chrgd_sheet">
+    <title>Electric field due to infinite sheet of charge</title>
+
+    <figure xml:id="fig21">
+      <caption></caption>
+      <image source="fig21.png" width="35%"/>
+  </figure>
+
+    <p>
+      Consider a symmetrical cylindrical Gaussian surface around the charge on an 
+      infinitely charged sheet of surface charge density is <m>\sigma </m> as shown in <xref ref="fig21"/>. 
+      Now electric flux, <m>\phi </m> through the surfaces <m>S_{1}, \quad S_{2},</m> and <m>S_{3}</m> is given by 
+      <me>
+        \phi=\phi_{1}+\phi_{2}+\phi_{3}
+      </me>
+      <me>
+        \text{or,}\quad \phi=\int \vec{E}_{1}\cdot\vec{\,ds}_{1}+\int \vec{E}_{2}\cdot\vec{\,ds}_{2}+\int \vec{E}_{3}\cdot\vec{\,ds}_{3}
+      </me>
+      <me>
+        \text{or,}\quad \phi = E_{1}A +E_{2}A + 0
+      </me>
+      <me>
+        \text{or,}\quad \phi = (E_{1} +E_{2})A 
+      </me>
+       But from Gauss's law,
+       <me>
+        \phi=\frac{\,dq}{\epsilon_{o}} = \frac{\sigma A}{\epsilon_{o}}
+       </me>
+        <me>
+          \therefore \quad (E_{1} +E_{2})A = \frac{\sigma A}{\epsilon_{o}}
+        </me>
+        <me>
+          \text{or,}\quad (E_{1} +E_{2})=\frac{\sigma }{\epsilon_{o}}
+        </me>
+        Now because of surface symmetry around the charge 
+        <me>
+          E_{1}=E_{2} =E
+        </me>
+       <me>
+        \therefore \quad E = \frac{\sigma}{2\epsilon_{o}}
+       </me>
+         That is, field is independent upon the distance of the point as long as the point is 
+         not significantly far away.  Electric field is normal to the charged sheet except at 
+         the edges where it is emitting radially out ward in all possible directions. 
+         Hence, Gaussian law can not be applied to determined field at a point for a finite charged conductor.
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-out_cond">
+    <title>Electric field just outside a charged conductor</title>
+    <p>
+      Consider a conductor of any shape AB has given a charge q. This charge will redistribute under 
+      electrostatic equilibrium on a conductor in such a way that the field inside the conductor is 
+      zero i.e., <m>E_{in}=0.</m> Now consider a point P just outside of the conductor and <m>\sigma</m> 
+      be the surface charge density of the conductor.
+    </p>
+    <figure xml:id="conout">
+      <caption></caption>
+      <image source="conout.png" width="35%"/>
+  </figure>
+    <p>
+      Now consider a small cylindrical Gaussian surface CD having the base C passing through P, 
+      the other side D lying inside the conductor and the curved surface being perpendicular to 
+      the surface of the conductor.  The flux through the curved surface is zero since there 
+      is no component of electric field normal to the curved surface. Also the flux through the 
+      base D is zero as electric field inside the conductor is zero. Therefore the resultant 
+      flux of the entire surface of the Gaussian cylinder is the same as the flux through the 
+      face C which is equal to  
+      <me>
+        \phi=\vec{E}\cdot\vec{\,ds} =E\,ds=\frac{q_{enc}}{\epsilon_{o}}
+      </me>
+     <me>
+      \text{or,}\quad E\,ds =  \frac{\sigma\,ds}{\epsilon_{o}}; 
+     </me>
+     <me>
+      \therefore\quad E = \frac{\sigma}{\epsilon_{o}}
+     </me>
+        </p>
+        <p>
+          Thus the electric field at any point close to the surface of a charged conductor of any shape 
+          is equal to <m>\frac{1}{\epsilon_{o}}</m> times the surface charge density <m>\sigma</m>. 
+          If <m>\sigma</m> is positive, electric field is directed away from the conductor and if 
+          it is negative, then field is directed towards the conductor. Obviously field near a plane 
+          conductor is twice of the field in front of a non-conducting thin sheet of charge.
+        </p>
+  </subsubsection>
 </subsection>
   </section>
 

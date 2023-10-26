@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<exercises xml:id="ex_first" xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xml:id="ex_firstA" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- You can ommit the title and just get the default "Exercises" -->
-  <title>Exercise</title>
+  <title>Exercise A</title>
   
  <paragraphs>
   <title>Coulomb's Law</title>
@@ -467,5 +467,221 @@
     </p>
   </exercise>
 </paragraphs>
+
+  <paragraphs>
+    <title>Gauss's Law</title>
+     
+  <exercise>
+    <p>
+      The electrical field within a continuous distribution of charge is given by the equation 
+      <me>
+        \vec{E} = cx\hat{i} + cy\hat{j} + cz\hat{k},
+      </me>
+       where <m>c = 1\,N/C.m</m> is a constant, (x,y,z) are Cartesian coordinates, and (i,j,k) 
+       are the Cartesian unit vectors. 
+       <ol marker="a.">
+        <li>
+          Write the equation for <m>\vec{E}</m> in terms of the position vector <m>\vec{r}</m>. 
+          What kind of symmetry is associated with this function?
+        </li>
+        <li>
+          What is the electric flux through a spherical surface of radius 1 m centered at the origin of the coordinates? 
+          How much electrical charge is located inside this sphere?
+        </li>
+        <li>
+          What is the electric flux through a cube 1 m on a side centered at the origin of the coordinates?  
+          How much electrical charge is located inside this cube? 
+        </li>
+       </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Prove that the electric field at a distance r from a point charge  q as derived from 
+      Coulomb's law is the same as that derived from Gauss's law.
+    </p>
+  </exercise>
+
+  <exercise>
+        <p>
+      Three charged objects carry the charges <m>q_{1} = 10 \,nC,\quad q_{2} = -20 \,nC,</m> 
+and <m>q_{3} = 40 \,nC</m>, respectively and are located as shown in the figure below. 
+What is the net electrical flux through each of the surfaces? 
+<image source="fig18.png" width="30%"> </image>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol marker="a.">
+        <li>
+          Use Gauss's Law to calculate the electric field outside a single, isolated, large, 
+          flat sheet of charge whose surface charge density is <m>\sigma</m>.  
+          Suppose two such charged sheets are placed side by side, parallel to one another. 
+        </li>
+        <li>
+          What is the electric field between the two sheets? 
+        </li>
+        <li>
+          What is the electric field outside the two sheets?
+        </li>
+        <li>
+          How does this result compare to that of a single, isolated, large conducting 
+          plate with a charge per unit area <m>\sigma </m> on its surface? 
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A long straight coaxial cable consists of an inner conducting cylinder of radius an 
+      insulated from an outer coaxial cylinder of inner radius b and outer radius c. 
+      The inner cylinder has a uniform charge per unit length <m>\lambda</m> and the outer 
+      cylinder has no net charge. Find 
+      <ol marker="a.">
+        <li>
+          the electric field at a point between the cylinders a distance r from the axis,
+        </li>
+        <li>
+          the electric field at a point outside the cylinders,
+        </li>
+        <li>
+          the charge per unit length on the inner surface of the outer cylinder, and 
+        </li>
+        <li>
+          the charge per unit area on the outer surface of the outer cylinder. 
+        </li>
+        <li>
+          Make a plot of E versus r for <m>0 \lt r \lt 2c.</m>
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A point charge of mass 10 g and charge 1 <m>\mu C</m> is attached to a string 1 m long 
+      suspended from a vertical wall of uniform charge density <m>\sigma = 100 \,\mu C/m^{2}.</m> 
+      What angle does the string make with the vertical wall?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      In the given figure the electric field is everywhere in the x-direction and independent 
+      of y and z. However, it does depend on <m>x</m> and in the plane <m>x = 0</m> it has the value 
+      <m>E = 500 \,N/C.</m> 
+      <image source="fig19.png" width="30%"> </image>
+      <ol marker="a.">
+        <li>
+          What is the electric flux through the surface I?
+        </li>
+        <li>
+          Through surface II? 
+        </li>
+        <li>
+          Through surface opposite I if there is a total positive charge of 
+          36.6 nC within the volume of the rectangular solid shown? 
+        </li>
+        <li>
+          Is the electric field produced only by charges within the slab, or is it also 
+          due to charges outside the slab?  How do you know?  
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A conducting shell of inner radius a and outer radius b contains a total electrical charge of <m>Q</m>. 
+      At its center is a negative point charge <m>-2Q</m> as shown in figure below. 
+      <image source="fig20.png" width="30%"> </image>
+      <ol marker="a.">
+        <li>
+          What is the electrical field at a distance <m>r </m> from the center of the shell when <m>r \lt a?</m>
+        </li>
+        <li>
+          When <m>a \lt r \lt b?</m>
+        </li>
+        <li>
+          When <m>r \gt b?</m> 
+        </li>
+        <li>
+          What is the charge on the inner surface of the shell? 
+        </li>
+        <li>
+          On the outer surface? 
+        </li>
+        <li>
+          Plot a graph of the field strength as a function of <m>r.</m>   
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two parallel wires are 100 m long and 10 cm apart and carry opposite charges of <m>100 \,\mu C.</m> 
+      <ol marker="a.">
+        <li>
+          What is the electrical force between the wires? 
+        </li>
+        <li>
+          How would this answer have changed if the wires had both been positively charged? Negatively charged? 
+        </li>
+        <li>
+          How would this answer have changed if the wires had been point charges located 10 cm apart?
+        </li>
+        <li>
+          How would this answer have changed if the wires had been parallel sheets of metal 100 m 
+          long, 200 m wide, and 10 cm apart?
+        </li>
+          </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A small conducting spherical conducting shell of inner radius a and outer radius <m>b</m> is 
+      concentric with a larger conducting shell of inner radius <m>c </m> and outer radius <m>d </m> as shown 
+      in the figure below. The total charge on the inner shell is <m>+q</m> and the charge on the 
+      outer shell is <m>+2q.</m> Find the electric field at a distance <m>r</m> from the center for each 
+      of the cases: 
+      <image source="fig23.png" width="30%"> </image>
+      <ol marker="a.">
+        <li>
+         <m>r \lt a,</m>
+        </li>
+        <li>
+         <m>a \lt r \lt b,</m>
+        </li>
+        <li>
+         <m>b \lt r \lt c,</m>
+        </li>
+        <li>
+         <m>c \lt r \lt d,</m>
+        </li>
+        <li>
+          <m>r \gt d.</m>
+        </li>
+        <li>
+          Make a plot of E versus r for  <m>0 \lt r \lt 2d.</m>
+        </li>
+        <li>
+          What is the charge on each of the four surfaces.
+        </li>
+        <li>
+          What is the charge density on each surface?
+        </li>
+          </ol>
+       </p>
+  </exercise>
+
+</paragraphs>
+
+
+
  </exercises>
 

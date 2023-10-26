@@ -171,11 +171,16 @@
   <xi:include href="./sec_first-intro.ptx" />
   <xi:include href="./sec_first-el_field.ptx" />
 
-  <xi:include href="./sec_first-exampleA.ptx" />  
+  <xi:include href="./sec_first-examplesA.ptx" />  
   <xi:include href="./sec_first-flux.ptx" />
 
-  <xi:include href="./sec_first-exampleB.ptx" /> 
+  <xi:include href="./sec_first-examplesB.ptx" /> 
+  <xi:include href="./ex_firstA.ptx"/>
 
-  <!-- One or more of the sections of a chapter might be exercises-->
-  <xi:include href="./ex_first.ptx"/>
+  <xi:include href="./sec_first-pot.ptx" />
+
+  <xi:include href="./sec_first-examplesC.ptx" /> 
+
+ 
+  <xi:include href="./ex_firstB.ptx"/>
 </chapter>

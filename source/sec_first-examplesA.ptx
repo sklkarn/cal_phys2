@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec_first-exampleA" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec_first-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Examples A</title>
  
 <paragraphs>
@@ -897,6 +897,50 @@
         =\frac{\sigma}{4\epsilon_{o}} \quad\text{along -ve z-axis}
        </me>
             </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A charge  q = +200 nC  is located on a small object attached to a light string of length 1 m 
+        attached to the top of a thin vertical rod of length 2 m as shown in figure below. 
+        A charge  Q = +100 nC  is distributed uniformly throughout the rod. Due to electrostatic repulsion 
+        the string makes an angle <m>\theta = 5^{o}.</m> What is the mass of the hanging object?
+      </p>
+      <image source="fig22.png" width="30%"> </image>
+    </statement>
+    <solution>
+         <p>
+          Given: <m> q = 2.00\times 10^{-7} \,C; \quad L = 1 \,m; </m> 
+          <m>Q = 1.00\times 10^{-7} \,C; \quad \theta = 5^{o};</m> <m>\epsilon_{o} =  8.85 \times 10^{-12} \,C^{2}/N.m^{2}</m>
+      </p>
+      <p>
+        <me>
+          F_{x} = F-T\sin\theta =0
+        </me>
+        <me>
+          F_{y} = T\cos\theta - W = 0
+        </me>
+        <me>
+          \lambda=\frac{Q}{2L} =5.00\times10^{-8} \,C/m
+        </me>
+        <me>
+          r=L\sin\theta =0.08716 \,m 
+        </me>
+        <me>
+          E=\frac{2k\lambda}{r} =1.032\times 10^{4} \,N/C
+        </me>
+        <me>
+          F=qE =2.063\times 10^{-3} \,N
+        </me>
+        <me>
+          T=2.367\times10^{-2}\,N
+        </me>
+        <me>
+          \therefore\quad m =2.406\times10^{-3}\,kg
+        </me>
+           </p>
     </solution>
   </example>
 </paragraphs>

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Electric Potential</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="General Physics II">
+<meta property="book:author" content="Sunil Karna">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.98,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="calPhysII.html"><span class="title">General Physics II:</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="ex_firstA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_first.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_first-examplesC.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\T}{\mathcal T}
+\newcommand\comb[2]{^{#1}C{_{#2}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth3"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Electrostatics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Electrostatic Induction</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-charg_transf.html" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Methods of Transferring Charges:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-charg_transf.html#subsubsec-electroscope" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Electrophorus:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-charg_transf.html#subsubsec-electrscp" class="internal"><span class="codenumber">1.1.1.2</span> <span class="title">Electroscope:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-coulmb_law.html" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Coulumb’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-coulmb_law.html#subsubsec-1d_colmb" class="internal"><span class="codenumber">1.1.2.1</span> <span class="title">Coulumb’s Law in One Dimension</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-coulmb_law.html#subsubsec-2d_colmb" class="internal"><span class="codenumber">1.1.2.2</span> <span class="title">Coulomb’s Law in Two and Three Dimensions</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-superp_th.html" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Principle of Superposition</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_first-el_field.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Electric Field</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-chrg_dist.html" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Electric Field of a Continuous Charge Distribution</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesA.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_first-flux.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Electric Flux</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-gauss.html" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Gauss’s Law</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-gauss.html#subsubsec-appl_gauss" class="internal"><span class="codenumber">1.4.1.1</span> <span class="title">Applications of Gauss’s Law</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-sph_symmtr.html" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Cases of spherical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-point_chrg" class="internal"><span class="codenumber">1.4.2.1</span> <span class="title">Electric field due to a point charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-sph_chrg" class="internal"><span class="codenumber">1.4.2.2</span> <span class="title">Electric field due to a  spherical symmetric charged distribution</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-hsph_chrg" class="internal"><span class="codenumber">1.4.2.3</span> <span class="title">Electric field due to a uniformly charged non-conducting hollow sphere</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-cyl_symtr.html" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Cases of cylindrical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_wire" class="internal"><span class="codenumber">1.4.3.1</span> <span class="title">Electric field due to infinitely long charged conductor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_cyl" class="internal"><span class="codenumber">1.4.3.2</span> <span class="title">Electric field due to a uniform infinite cylindrical charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-chrgd_sheet" class="internal"><span class="codenumber">1.4.3.3</span> <span class="title">Electric field due to infinite sheet of charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-out_cond" class="internal"><span class="codenumber">1.4.3.4</span> <span class="title">Electric field just outside a charged conductor</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesB.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstA.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercise A</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec_first-pot.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Electric Potential</span></a></div></li>
+<li><div class="toc-item"><a href="sec_first-examplesC.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstB.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Exercise B</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Electricity</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Magnetism</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="ex_third.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Waves and Acoustics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Optics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec_first-pot"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.7</span> <span class="title">Electric Potential</span>
+</h2>
+<section class="introduction" id="introduction-11"><div class="para logical" id="p-173">
+<div class="para">
+<dfn class="terminology">Electrical Work:</dfn> When an electric force displaces a charged particle an electrical work is said to done. Since charge experience electric force only in an electric field such work is stored on a charged particle as an electric potential energy at that point. In other words, electrical work is an electrical potential energy, i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W=F_{e}d
+\end{equation*}
+</div>
+<div class="para">here, <span class="process-math">\(F_{e}\)</span> stands for electrostatic force.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad W_{ab} = \int\limits_{a}^{b}\vec{F_{a}}\cdot\vec{dl} = -\int\limits_{a}^{b}\vec{F_{e}}\cdot\vec{dl} 
+\end{equation*}
+</div>
+<div class="para">Here <span class="process-math">\(F_{a}\)</span> is an applied force, which moves the charged particle in an electric field without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).</div>
+</div> <div class="para logical" id="p-174">
+<div class="para">
+<dfn class="terminology">Electric Potential Energy:</dfn> The energy stored on a charged particle due its position in an electric field of other charge or charges. It is denoted by <span class="process-math">\(U\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta U = U_{b} - U_{a} =  - W_{ab}
+\end{equation*}
+</div>
+<div class="para">(i.e., Potential energy of b with respect to a).</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta U  =-q_{o} \int\limits_{a}^{b}\vec{E}\cdot\vec{dl} = - q_{o} E d
+\end{equation*}
+</div>
+<div class="para">(for Uniform Electric Field).</div>
+</div> <div class="para" id="p-175">Electrical force is a conservative force and when conservative force does negative work, the system gains potential energy. When conservative force does positive work, the system loses potential energy. Therefore if <span class="process-math">\(\Delta U \lt 0,\)</span> charge moves along the direction of electric field. Unit of electric potential energy is Joule.</div> <div class="para" id="p-176">
+<dfn class="terminology">Electric Potential:</dfn> It is a work done on a unit positive charge to bring it from infinity to any point in an electrical field of other charge/s. In other words, electric potential is an electric potential energy of a unit positive charge at a point in any field, i.e., electric potential energy per unit charge is known as electric potential at a point in any field.</div> <div class="para logical" id="p-177">
+<div class="para">Let <span class="process-math">\(q\)</span> is any charge and its electric potential energy at that point in a field is <span class="process-math">\(U\)</span> then electric potential at that point is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V = \frac{U}{q},
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad U = W = qV.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{But}\quad \Delta V  = \frac{\Delta U }{q_{o}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= -\int\limits_{a}^{b}\vec{E}\cdot\vec{dl} = -\int\limits_{a}^{b}\frac{kq}{r^{2}}\,dr= k\frac{q}{r}
+\end{equation*}
+</div>
+<div class="para">(for a point charge).</div>
+</div> <div class="para logical" id="p-178">
+<div class="para">Where</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\hat{r}\cdot\vec{\,dr}=\,dr,
+\end{equation*}
+</div>
+<div class="para">point <span class="process-math">\(b\)</span> is taken at <span class="process-math">\(\infty\)</span> and point <span class="process-math">\(a\)</span> is at any point in the electric field. Unit of electric potential is Volt (V) = Joule/Coulomb (J/C). Remember that we can only define the potential <span class="process-math">\(V\)</span> at a point if the force is conservative. <a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-2" id="fn-2"><sup> 1 </sup></a>
+</div>
+</div> <div class="para logical" id="p-179">
+<div class="para">
+<dfn class="terminology">Potential Difference:</dfn> It is a work done on a unit positive charge to bring it from one point to another point in a field, e.g., if a unit positive charge is brought from a point of electric potential <span class="process-math">\(V_{a}\)</span> to another point of potential <span class="process-math">\(V_{b}\)</span> then potential difference between the points is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{ba} = \Delta V  =  V_{b} - V_{a} 
+\end{equation*}
+</div>
+<div class="para">(Potential of b with respect to a).</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{ba} = -\int\limits_{a}^{b}\vec{E}\cdot\vec{dl}
+\end{equation*}
+</div>
+<div class="para">(Two Point Charges).</div>
+</div> <div class="para" id="p-180">-ve sign indicates that charge is brought against an electric field, i.e., direction of force is opposite to the displacement. The work is a negative change in potential energy. If work done by a force is positive then potential energy is decreasing and vice a versa. Unit of potential difference is <em class="emphasis">Volt</em>.</div> <div class="para logical" id="p-181">
+<div class="para">
+<dfn class="terminology">Gradient:</dfn>  It is a change in scalar field <a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-3" id="fn-3"><sup> 2 </sup></a> with respect to space and is a vector quantity whose direction is acting along the greatest change in that field. The gradient of a scalar field <span class="process-math">\(\phi\)</span> is defined as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{grad}\phi =  \hat{i}\frac{\partial \phi}{\partial x} + \hat{j}\frac{\partial \phi}{\partial y} + \hat{k}\frac{\partial \phi}{\partial z} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \left(\hat{i}\frac{\partial}{\partial x} + \hat{j}\frac{\partial}{\partial y} + \hat{k}\frac{\partial}{\partial z}\right)\phi = \vec{\nabla\phi}
+\end{equation*}
+</div>
+<div class="para">where an operator</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\nabla = \hat{i}\frac{\partial}{\partial x} + \hat{j}\frac{\partial}{\partial y} + \hat{k}\frac{\partial}{\partial z}
+\end{equation*}
+</div>
+<div class="para">is known as <span class="process-math">\('Del'\)</span> operator and read as a gradient or a grad, which is a vector quantity.</div>
+</div> <div class="para logical" id="p-182">
+<div class="para"><dfn class="terminology">Potential Gradient:</dfn></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta V  = -\frac{W}{q}= -\frac{F\Delta l}{q}=-\frac{qE\Delta l}{q} = -E\Delta l
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad E = -\frac{\Delta V }{\Delta l}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \vec{E}  =  - \vec{\nabla} V
+\end{equation*}
+</div>
+<div class="para">Unit of potential gradient is V/m or N/C.</div>
+</div> <div class="para" id="p-183">
+<dfn class="terminology">Equipotential Surfaces:</dfn> The portion of an electric field upon which the electrical potential has a fixed value is called a equipotential surfaces. Thus, <span class="process-math">\(\Delta V= 0\)</span> between any two points on the equipotential surface, i.e., no work is required to move any charge on an equipotential surface. For a positive point charge equipotential surfaces are concentric spherical surfaces around charge at center as shown in <a href="" class="xref" data-knowl="./knowl/equipot.html" title="Figure 1.7.1.(a)">Figure 1.7.1.(a)</a>. Equipotential surfaces for a positive and negative charges are shown in <a href="" class="xref" data-knowl="./knowl/elect.html" title="Figure 1.7.1.(b)">Figure 1.7.1.(b)</a>, and that for two similar charges are shown in <a href="" class="xref" data-knowl="./knowl/elect2.html" title="Figure 1.7.1.(c)">Figure 1.7.1.(c)</a>.</div> <figure class="figure figure-like" id="figure-38"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="equipot"><img src="external/equipot.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="elect"><img src="external/elect.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="elect2"><img src="external/elect2.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para logical" id="p-184">
+<div class="para"><dfn class="terminology">Relationship between equipotential surface and electric field:</dfn></div>
+<ol class="lower-alpha">
+<li id="li-184"><div class="para" id="p-derived-li-184">Electric field is perpendicular to equipotential lines (surfaces) and pointed along the decresing potential.</div></li>
+<li id="li-185"><div class="para" id="p-derived-li-185">Electric filed is stronger where equipotential lines (surfaces) are closer to each other.</div></li>
+</ol>
+</div> <div class="para" id="p-185">
+<dfn class="terminology">Corona Discharge:</dfn>  It is an electrical discharge appearing on and around the surface of a conductor by ionization of the surrounding fluid molecules. when a conductor of very large curvature is exposed in a very high electric field  corona discharge occurs. The phenomenon of corona discharge can be understood by the following concept.</div> <figure class="figure figure-like" id="egg"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/egg.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para logical" id="p-186">
+<div class="para">Consider two conducting spherical sells of radius <span class="process-math">\(r_{1}\)</span> and <span class="process-math">\(r_{2}\)</span> containing charges <span class="process-math">\(q_{1} \)</span> and <span class="process-math">\(q_{2}\text{.}\)</span> The potential on the surface of these sells are</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
+\begin{equation*}
+V_{1} = \frac{kq_{1}}{r_{1}}
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
+\begin{equation*}
+V_{2} = \frac{kq_{2}}{r_{2}},
+\end{equation*}
+</div>
+<div class="para">respectively. Suppose they are so designed that they have same potential on the surface, i.e.,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
+\begin{equation*}
+V_{1}= V_{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
+\begin{equation*}
+\text{or,}\quad \frac{kq_{1}}{r_{1}} = \frac{kq_{2}}{r_{2}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
+\begin{equation*}
+\text{or,}\quad \frac{q_{1}}{q_{2}} = \frac{r_{1}}{r_{2}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
+\begin{equation*}
+\text{or,}\quad  \frac{\frac{q_{1}}{4\pi r^{2}_{1}}}{\frac{q_{2}}{4\pi r^{2}_{2}}}  = \frac{\frac{r_{1}}{4\pi r^{2}_{1}}}{\frac{r_{2}}{4\pi r^{2}_{2}}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
+\begin{equation*}
+\text{or,}\quad  \frac{\sigma_{1}}{\sigma_{2}}   = \frac{r_{2}}{r_{1}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
+\begin{equation*}
+i.e., \quad \sigma  \varpropto \frac{1}{r} 
+\end{equation*}
+</div>
+<div class="para">or, surface charge density is inversely proportional to radius of curvature. Hence, as the radius of curvature of a conductor decreases  (or, its  curvature increases) surface charge density increases. The surface charge density increases enormously at the pointed end of the conductor because of high curvature [<a href="" class="xref" data-knowl="./knowl/egg.html" title="Figure 1.7.2">Figure 1.7.2</a>]. Pointed end produces such a high field that the nearby air molecules stretch as the displacement of center of gravity of their negative and positive charges.  Since opposite charge attracts each other the charges on the conductors start neutralizing with the opposite charge of air molecules by producing bluish light surrounding the conductor without a spark such phenomenon is called a corona discharge. In this case no electrical breakdown occurs in air molecules.</div>
+</div> <div class="para" id="p-187"><dfn class="terminology">Van de Graff generator:</dfn></div> <figure class="figure figure-like" id="fig1d"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig1d.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-188">It is a device designed by Van de Graaff in 1929 to generate very high potential differences. It consists of two combs, a conveyor rubber belt (which is mounted on two motorized rollers), and a large conducting dome. Charges are spread on belt with the help of charged comb as comb discharges its charge on air molecules which later stick onto the belt and carried over near the upper comb which then neutralizes these charges on air molecule because of electrostatic induction.  Hence the similar kind of charges are getting collected on a big spherical dome connected with the upper comb (<a href="" class="xref" data-knowl="./knowl/fig1d.html" title="Figure 1.7.3">Figure 1.7.3</a>).</div></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn">
+<dfn class="terminology">Conservative Force:</dfn> It is a force which is directed along a certain fixed point. Workdone by these force around a closed path is always zero. Gravitational force, electric force, elastic spring force, are some examples of conservative forces. <dfn class="terminology">Non-conservative force:</dfn> It is a force which change its direction depends upon the object motion. Workdone by these force around a closed path is always non-zero. Frictional force, viscous force, air drag force or any kind of resistive forces are non-conservative forces.</div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-3"><div class="fn">
+<em class="emphasis">Fields:</em> A field is a region of space whose every point defines some kind of physical quantities. Depending upon the nature of physical quantity there are two types of field, scalar field and vector field. A force field defines a force vector at every location in space. A magnetic field defines a magnetic field vector at every location in space. A potential energy field defines a potential energy at every location in space. The gravitational field is a vector field which expresses the value of gravitational force, and Higg’s field is a scalar field which defines the mass or energy of a particle. If <span class="process-math">\(\phi (x,y,z)\)</span> is a scalar function associated with every point (x,y,z) of any region in space, then the region is defined as a scalar field. Again, if <span class="process-math">\(\vec{V}(x,y,z)\)</span> is a vector associated with every point (x,y,z) of any region in space, then the region is defined as a vector field.</div></div>
+</div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ex_firstA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-examplesC.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

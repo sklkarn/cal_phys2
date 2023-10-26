@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_first-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+ 
+<paragraphs>
+  <title>Electric Flux</title>
+  
+  <example>
+    <statement>
+      <p>
+        A uniform electric field of strength <m>E = 100 \,N/C</m> is directed along the 
+        +x - axis through a cylinder of length 1 m and radius 0.2 m. If the cylinder is aligned 
+        along the x -axis what is the electric flux through each of its three surfaces?  
+        What is the total flux through the surface of the cylinder?
+      </p>
+    </statement>
+    <solution>
+      <image source="fig14.png" width="35%"> </image>
+           <p>
+        Given: <m>E  =  100 \,N/C;\quad L  =  1 \,m; \quad r  =  0.2 \,m. </m> 
+        <me>
+          \text{Area of the caps}\quad A_{1}=\pi r^{2} =  A_{2} =0.1257 \,m^{2} 
+        </me>
+        <me>
+          \text{Area of the cylindrical surface}\quad  A_{3} =2 \pi r L =1.257 \,m^{2}  
+        </me>
+        <me>
+          \text{Now,}\quad \Phi_{1} = \int\vec{E}\cdot\vec{dA} = EA_{1}  =12.5 \,Nm^{2}/C
+        </me>
+        <me>
+          \Phi_{2} = \int \vec{E}\cdot \vec{\,dA}= - \int E \,dA =  -EA_{2} = -12.5 \,Nm^{2}/C
+        </me>
+        <me>
+          \Phi_{3} = \vec{E}\cdot \vec{A_{3}} = 0 
+        </me>
+        <me>
+          \therefore\quad \Phi_{T} =\Phi_{1}+\Phi_{2}+\Phi_{3}=0
+        </me>
+            </p>
+    </solution>
+  </example>
+
+
+<example>
+  <statement>
+    <p>
+      A uniform electric field <me>E = 30 N/C \hat{i}+ 40 N/C \hat{j}</me> is directed through a rectangular 
+      object of length 3 m along the x-axis, of height 2 m along the y-axis, and of width 1 m along the z-axis. 
+      What are the electric fluxes through the surfaces located at 
+      <ol marker="a.">
+        <li>
+          <m>x = 3 \,m,</m>
+        </li>
+        <li><m>x = 0,</m></li>
+        <li><m>y = 2 \,m,</m></li>
+        <li><m>y = 0,</m></li>
+        <li><m>z = 1 \,m,</m></li>
+        <li><m>z = 0? </m></li>
+      </ol>
+       </p>
+  </statement>
+  <solution>
+    <image source="fig15.png" width="35%"> </image>
+    <p>
+      Given: <me>
+        E = 30 N/C \hat{i}+ 40 N/C \hat{j};
+      </me>
+      <m> L  =  3 \,m; \quad W  =  1 \,m;\quad H  =  2 \,m. </m>
+<me>
+  \Phi = \int\vec{E}\cdot\vec{dA} = \int E\,dA\cos\theta
+</me>
+<ol marker="a.">
+  <li>
+    <m> A_{x}=WH\hat{i};\quad \Phi_{1}=EA_{x}= 60 \,N m^{2}/C</m>
+  </li>
+  <li><m> A_{-x}=WH(-\hat{i});\quad \Phi_{2}=EA_{-x}= -60 \,N m^{2}/C</m></li>
+  <li><m> A_{y}=LW\hat{j}; \quad \Phi_{3}= EA_{y}= 120  \,Nm^{2}/C </m></li>
+  <li><m>A_{-y}=LW(-\hat{j}); \quad \Phi_{4}= EA_{-y}= - 120 \, Nm^{2}/C</m></li>
+  <li><m> A_{z}=KH\hat{k}; \quad \Phi_{5}= EA_{z}= 0 </m></li>
+  <li><m> A_{-z}=LH(-\hat{k}); \quad \Phi_{6}= EA_{-z}=  0 </m></li>
+</ol>
+   </p>
+  </solution>
+</example>
+
+  <example>
+    <statement>
+      <p>
+        An electric field is given by the equation 
+        <me>
+          \vec{E} = 2yz\hat{i} + 3xz\hat{j} - 4xy\hat{k},
+        </me>
+         in the MKS system. What is the electric flux through a surface whose corners 
+         are at (0,0,0), (0,1,0), (0,1,2), and (0,0,2)?  
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <me>
+          \vec{\,dA}=dydz\hat{i}
+        </me>
+        <m>\because</m> surface is in the y,z plane.
+        <me>
+          \Phi_{E}=\int\vec{E}\cdot\vec{\,dA}=\int E_{x}\,dA_{yz} =\iint 2yz \,dy \,dz = \int\limits_{0}^{2}\left(\int\limits_{0}^{1}2yz\,dy\right)\,dz 
+        </me>
+        <me>
+          = \int\limits_{0}^{2}z\left(\int\limits_{0}^{1}2y\,dy\right)\,dz  
+        </me>
+        <m>\because z </m> is independent of <m>y.</m>
+        <me>
+          =\int\limits_{0}^{2}z\left.\left(y^{2}\right\vert_{0}^{1} \right)\,dz  =  \int\limits_{0}^{2}z \,dz 
+          = \left.\frac{z^{2}}{2}\right\vert_{0}^{2} =2 Nm^{2}/C
+        </me>
+              </p>
+    </solution>
+  </example>
+</paragraphs>
+
+<paragraphs>
+  <title>Gauss's Law</title>
+ <example>
+  <statement>
+    <p>
+      In a certain region of space the electric field is given by 
+      <me>
+        \vec{E}  =  (b+cx) \hat{i},
+      </me>
+       where b = 2 N/C and c = 10 N/C.m. How much electrical charge is enclosed inside a 
+       cube 20 cm on a side centered at the origin? 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>a=0.2\,m; \quad b=2\,N/C; \quad c=10 \,N/Cm;</m> <m>\epsilon_{o}=8.85\times 10^{-12}\,C^{2}/(Nm^{2})</m>
+    </p>
+    <image source="fig16.png" width="35%"> </image>
+    <p>
+      <me>
+        \vec{E_{x}} = (b+cx)\hat{i};
+      </me>
+      <me>
+        \Phi_{E}=\int \vec{E} \cdot \vec{dA} =\frac{q}{\epsilon_{o}} 
+      </me>
+      <me>
+        A_{1} = a^{2} = A_{2}=A_{3}=A_{4}=A_{5}=A_{6}
+      </me>
+      <me>
+        x_{1}=a/2; \quad x_{2}=-a/2
+      </me>
+      <me>
+        \Phi_{1}=E_{x_{1}}A_{1}=0.12 \,N m^{2}/C;
+      </me>
+      <me>
+        \Phi_{2}=-E_{x_{2}}A_{2}=-0.04 \,N m^{2}/C;
+      </me>
+      <me>
+        \Phi_{3}=\Phi_{4}=\Phi_{5}=\Phi_{6}=0
+      </me>
+      <me>
+        \Phi_{E} = \Phi_{1}+\Phi_{2}+\Phi_{3}+\Phi_{4}+\Phi_{5}+\Phi_{6} = 0.08 \,Nm^{2}/C
+      </me>
+      <me>
+        \therefore\quad q=\epsilon_{o}\Phi_{E} =7.08\times10^{-13}\,C
+      </me>
+        </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      <ol marker="a.">
+        <li>
+          Prove that in the electrostatic case the electric field inside a conductor must be zero.
+        </li>
+        <li>
+          Prove that any excess charge on a solid conductor must reside on the outside surface of the conductor.
+        </li>
+        <li>
+          Prove that if a hollow conductor surrounds a charge q, an equal but opposite charge -q resides 
+          on the inside surface of the conductor and all excess charge on the outside surface.
+        </li>
+      </ol>
+        </p>
+  </statement>
+  <solution>
+       <p>
+      <ol marker="a.">
+        <li>
+          In the electrostatic case, charges do not move. Therefore, the charge carriers inside a 
+          conductor cannot experience an electrical force. Therefore, the electric field must be zero.
+          <image source="fig17a.png" width="35%"> </image>
+        </li>
+        <li>
+          Since the electric field inside a conductor must be zero, the flux through a Gaussian 
+          surface inside the conductor must be zero. Therefore, the total charge inside the Gaussian 
+          surface must be zero. If the Gaussian surface is constructed immediately below the surface 
+          of the conductor, the charge inside the surface must still be zero. Since the charge on a 
+          conductor cannot reside inside the surface of the conductor, it must reside on the surface. 
+          <image source="fig17b.png" width="35%"> </image>
+        </li>
+        <li>
+          Since the electric field inside a conductor must be zero, the flux through a Gaussian 
+          surface inside the conductor must be zero. Therefore, the total charge inside the Gaussian 
+          surface must be zero. Therefore the combined charge inside the hole and on the inner surface 
+          of the conductor must be zero. Therefore, the inner surface of the conductor must contain a 
+          charge equal and opposite to the charge surrounded by the conductor. Therefore, any remaining 
+          charge must reside on the outer surface of the conductor.
+          <image source="fig17c.png" width="35%"> </image>
+        </li>
+      </ol>
+    </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A charge  q  is placed at the center of a cylinder of radius  R  and length  l.  Calculate the flux through 
+      <ol marker="i.">
+        <li>
+          each of the bases and
+        </li>
+        <li>
+          through the curved surface.
+        </li>
+        </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      Consider a charged  q  at the geometric center of a cylinder of radius  R  and length  l. 
+       An enclosed charge emits fluxes outward through all of its surfaces. To find the flux through 
+       the top and bottom caps of the cylinder let us consider an elementary ring of radius  r  and thickness  
+       <m>\,dr</m> then flux is given by
+    </p>
+    <image source="qcyl.png" width="35%"> </image>
+    <p>
+      <me>
+        \,d\phi =  \vec{E}\cdot\vec{\,ds}= E\,ds \cos\theta = \frac{kq}{\left(r^{2}+\frac{l^{2}}{4}\right)}(2\pi r\,dr)\cos\theta
+      </me>
+      <me>
+        \therefore\quad \phi_{top\hspace{2pt} cap} =\int\,d\phi=\int\limits_{0}^{\alpha}\frac{kq}{\left(r^{2}+\frac{l^{2}}{4}\right)}(2\pi r\,dr)\cos\theta
+      </me>
+      <me>
+        \text{but}\quad r=\frac{l}{2}\tan\theta \quad \text{or,}\quad \,dr=\frac{l}{2}\sec^{2}\theta\,d\theta
+      </me>
+      <me>
+        \therefore\quad \phi_{top\hspace{2pt} cap} = \int\limits_{0}^{\alpha}\frac{kq}{\left(\frac{l^{2}}{4}\tan^{2}\theta+\frac{l^{2}}{4}\right)}(2\pi \frac{l}{2}\tan\theta \frac{l}{2}\sec^{2}\theta\,d\theta)\cos\theta 
+      </me>
+      <me>
+        =2\pi kq \int\limits_{0}^{\alpha}\sin\theta \,d\theta =2\pi kq\left[-\cos\theta\right]_{0}^{\alpha} = 2\pi kq\left[1-\cos\alpha\right]
+      </me>
+      But, from the geometry of cylinder, 
+      <me>
+        \cos\alpha=\frac{\frac{l}{2}}{\sqrt{\frac{l^{2}}{4}+R^{2}}}
+      </me>
+      <me>
+        \therefore\quad \phi_{top\hspace{2pt} cap} = 2\pi kq\left[1-\frac{l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right]\
+      </me>
+      <me>
+        \text{similarly,}\quad \phi_{bottom\hspace{2pt} cap} = 2\pi kq\left[1-\frac{l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right];
+      </me>
+          But, from Gauss's law 
+          <me>
+            \phi_{total} = \frac{q}{\epsilon_{o}}
+          </me>
+          Therefore, the flux through the curved surface = 
+          <me>
+            \phi_{curved} = \phi_{total} - \left( \phi_{top\hspace{2pt} cap} + \phi_{bottom\hspace{2pt} cap}\right)
+          </me>
+         <me>
+          \phi_{curved} = \frac{q}{\epsilon_{o}}-4\pi kq \left[1-\frac{l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right]
+         </me>
+         <me>
+          = \frac{q}{\epsilon_{o}}-\frac{4\pi q}{4\pi \epsilon_{o}} \left[\frac{2\sqrt{R^{2}+\frac{l^{2}}{4}}-l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right]
+         </me>
+         <me>
+          \therefore\quad \phi_{curved} = \frac{q}{\epsilon_{o}}\left[1-1+\frac{l}{2\sqrt{R^{2}+\frac{l^{2}}{4}}}\right] = \frac{ql}{2\epsilon_{o}\sqrt{R^{2}+\frac{l^{2}}{4}}}
+         </me>
+           </p>
+  </solution>
+ </example>
+
+
+ <example>
+  <statement>
+    <p>
+      Prove that the electrical field just outside the surface of a conductor is perpendicular to the surface 
+      and of magnitude 
+      <me>
+        E = \frac{\sigma}{\epsilon_{o}},
+      </me>
+       where <m>\sigma</m> is the surface charge density (charge per unit area).
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol>
+        <li>
+         <p>
+          If the electric field at the surface of a conductor has a component parallel to the surface, 
+          the charges on the surface will move in that direction. Since they do not move in the electrostatic 
+          situation, the electric field must be everywhere perpendicular to the surface of the conductor.
+         </p>
+        </li>
+        <li>
+        <p>
+          Pick a Gaussian surface surrounding a small enough region of the conductor's surface so the charge 
+          density is constant. Let <m>\,dq</m> be the charge enclosed by the Gaussian surface and <m>\,dA</m> 
+          the area of the surface of the conductor enclosed by the Gaussian surface. Then the charge per 
+          unit area of the conductor in that region of space is <m>\sigma = \,dq/\,dA.</m>
+        </p>
+        </li>
+        <li>
+         <p>
+          Because <m>\sigma</m> is constant in this small region of space, due to symmetry the electric 
+          field must be perpendicular to the surface of the conductor and constant at a distance d 
+          from the surface. Consider a cylindrical Gaussian surface as shown in given figures. 
+          Surfaces <m>S_{1}</m> and <m>S_{2}</m> are parallel to the conducting plane and surface 
+          <m>S_{3}</m> is cylindrical surface  perpendicular to the conductor's surface and 
+          parallel to electric field as shown in figure below.
+         </p>
+          <image source="fig21b.png" width="35%"> </image>
+         <p>
+          For a conductor electric field is only out side of the conductor but within it electric 
+          field is zero as shown in figure at right. In charged conductors the excess charges have 
+          distributed themselves optimally further away from one another so as to reduce the total 
+          amount of repulsive forces. Once a charged conductor has reached the state of electrostatic 
+          equilibrium, there is no further motion of charge about the surface as shown in figure below.
+         </p>
+          <image source="fig21c.png" width="35%"> </image>
+        </li>
+        <li>
+          <p>
+            The following equations then apply: 
+            <me>
+              \Phi_{S_{1}} = E dA;
+            </me>
+            <me>
+              \Phi_{S_{2}} = 0;
+            </me>
+                <me>
+              \Phi_{S_{3}} = 0; 
+            </me>
+            <me>
+              \Phi =\Phi_{S_{1}}+\Phi_{S_{2}}+\Phi_{S_{3}}
+            </me>
+            <me>
+              \Phi = \frac{dq}{\epsilon_{o}};
+            </me>
+            <me>
+              \sigma = \,dq/\,dA
+            </me>
+          </p>
+        </li>
+        <li>
+          <p>
+            Solving these equations simultaneously for E gives: 
+            <me>
+              E=\frac{\sigma}{\epsilon_{o}} 
+            </me>
+              </p>
+        </li>
+      </ol>
+    </p>
+  </solution>
+ </example>
+</paragraphs>
+
+</section>
