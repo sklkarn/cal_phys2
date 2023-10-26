@@ -13,14 +13,33 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Set up a coordinate system with the x-axis perpendicular to the charged surface and use polar coordinates <span class="process-math">\((r,\theta)\)</span> to specify the location of an arbitrary charge element dq inside the surface. Use the results of Example 2 to express the element of electric field dF at x due to a ring of charge dq as</div>
 <div class="displaymath process-math">
 \begin{equation*}
-dF = \frac{Q \,dq x}{4 \pi \epsilon_{o} (a^{2}+x^{2})^{3/2}} \hat{i}.
+\vec{\,dA}=dydz\hat{i}
 \end{equation*}
 </div>
-<div class="para">Then express <span class="process-math">\(\,dq\)</span> in terms of a  and <span class="process-math">\(\,da\)</span> and integrate over a to obtain the final result.</div>
+<div class="para">
+<span class="process-math">\(\because\)</span> surface is in the y,z plane.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{E}=\int\vec{E}\cdot\vec{\,dA}=\int E_{x}\,dA_{yz} =\iint 2yz \,dy \,dz = \int\limits_{0}^{2}\left(\int\limits_{0}^{1}2yz\,dy\right)\,dz 
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_first.html#p-114" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+= \int\limits_{0}^{2}z\left(\int\limits_{0}^{1}2y\,dy\right)\,dz  
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(\because z \)</span> is independent of <span class="process-math">\(y.\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\int\limits_{0}^{2}z\left.\left(y^{2}\right\vert_{0}^{1} \right)\,dz  =  \int\limits_{0}^{2}z \,dz 
+= \left.\frac{z^{2}}{2}\right\vert_{0}^{2} =2 Nm^{2}/C
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="sec_first-examplesB.html#p-114" class="internal">in-context</a></span>
 </body>
 </html>

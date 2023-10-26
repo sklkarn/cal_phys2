@@ -12,23 +12,44 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para logical">
-<div class="para">A uniform electric field</div>
-<div class="displaymath process-math">
+<div class="para logical"><ol class="lower-roman">
+<li><div class="para">Point <span class="process-math">\(P\)</span> lies outside the charge distribution, ie., <span class="process-math">\(r \gt R\)</span> as shwon in <a href="" class="xref" data-knowl="./knowl/sphcharge1.html" title="Figure 1.4.3.(a)">Figure 1.4.3.(a)</a>.<div class="displaymath process-math" data-contains-math-knowls="./knowl/sphcharge1.html">
 \begin{equation*}
-E = 30 N/C \hat{i}+ 40 N/C \hat{j}
+\phi=\oint\vec{E}\cdot\vec{\,ds}= E_{o}4\pi r^{2} =\frac{Q_{enc}}{\epsilon_{o}}
 \end{equation*}
 </div>
-<div class="para">is directed through a rectangular object of length 3 m along the x-axis, of height 2 m along the y-axis, and of width 1 m along the z-axis. What are the electric fluxes through the surfaces located at</div>
-<ol class="lower-alpha">
-<li><div class="para"><span class="process-math">\(\displaystyle x = 3 \,m,\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle x = 0,\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle y = 2 \,m,\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle y = 0,\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle z = 1 \,m,\)</span></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle z = 0? \)</span></div></li>
-</ol>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/sphcharge1.html">
+\begin{equation*}
+\therefore\quad E_{o} = \left(\frac{1}{4\pi\epsilon_{o}}\right) \frac{Q}{r^{2}}= k\frac{Q}{r^{2}}
+\end{equation*}
+</div>Hence the electric field at any point outside the spherical charge distribution is same as though the entire charge is concentrated at the center.</div></li>
+<li><div class="para">Point <span class="process-math">\(P\)</span> lies on the surface of charge distribution, ie., <span class="process-math">\(r = R.\)</span><div class="displaymath process-math">
+\begin{equation*}
+E_{s} = k\frac{Q}{R^{2}}
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_first-exampleB.html#p-97" class="internal">in-context</a></span>
+</div></li>
+<li><div class="para">Point <span class="process-math">\(P\)</span> lies inside the charge distribution, ie., <span class="process-math">\(r \lt R\)</span> as shown in <a href="" class="xref" data-knowl="./knowl/sphcharge2.html" title="Figure 1.4.3.(b)">Figure 1.4.3.(b)</a>.<div class="displaymath process-math" data-contains-math-knowls="./knowl/sphcharge2.html ./knowl/gr8.html">
+\begin{equation*}
+\text{charge density,}\quad \rho= \frac{Q}{V_{sphere}}=\frac{Q}{\frac{4}{3}\pi R^{3}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/sphcharge2.html ./knowl/gr8.html">
+\begin{equation*}
+\oint\vec{E_{i}}\cdot\vec{\,ds}= \frac{Q_{enc}}{\epsilon_{o}} = \frac{1}{\epsilon_{o}}\int\rho\,dV
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/sphcharge2.html ./knowl/gr8.html">
+\begin{equation*}
+E_{i}(4\pi r^{2})= \frac{1}{\epsilon_{o}}\rho (\frac{4}{3}\pi r^{3}) = \frac{1}{\epsilon_{o}}(\frac{Q}{\frac{4}{3}\pi R^{3}}) (\frac{4}{3}\pi r^{3})
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/sphcharge2.html ./knowl/gr8.html">
+\begin{equation*}
+\therefore\quad E_{i} = \frac{1}{4\pi \epsilon_{o}}\frac{Q r}{R^{3}} = k \frac{Q r}{R^{3}}
+\end{equation*}
+</div>Thus the electric field inside a spherical charge distribution is directly proportional to the distance of the point from the center of spherical charge. The variation of field with the distance from the center of spherical charge distribution is shown in <a href="" class="xref" data-knowl="./knowl/gr8.html" title="Figure 1.4.3.(c)">Figure 1.4.3.(c)</a>.</div></li>
+</ol></div>
+<span class="incontext"><a href="subsec-sph_symmtr.html#p-97" class="internal">in-context</a></span>
 </body>
 </html>
