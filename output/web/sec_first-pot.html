@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="ex_firstA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_first.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_first-examplesC.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="ex_firstA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_first.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="subsec-capctrs.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -258,7 +258,24 @@ window.MathJax = {
 </li>
 <li><div class="toc-item"><a href="sec_first-examplesB.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Examples B</span></a></div></li>
 <li><div class="toc-item"><a href="ex_firstA.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercise A</span></a></div></li>
-<li class="active"><div class="toc-item"><a href="sec_first-pot.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Electric Potential</span></a></div></li>
+<li class="active">
+<div class="toc-item"><a href="sec_first-pot.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Electric Potential</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-capctrs.html" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Capacitors</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-cap_comb" class="internal"><span class="codenumber">1.7.1.1</span> <span class="title">Combination of Capacitors</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-paralle_cap" class="internal"><span class="codenumber">1.7.1.2</span> <span class="title">Parallel-Plate Capacitor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-spher_cap" class="internal"><span class="codenumber">1.7.1.3</span> <span class="title">Spherical Capacitor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-cyl_cap" class="internal"><span class="codenumber">1.7.1.4</span> <span class="title">Cylindrical Capacitor</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-enrgy_cap.html" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Energy Stored in a Capacitor</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-enrgy_cap.html#subsubsec-elf_enrgdenst" class="internal"><span class="codenumber">1.7.2.1</span> <span class="title">Electric Field Energy Density</span></a></div></li></ul>
+</li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec_first-examplesC.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Examples C</span></a></div></li>
 <li><div class="toc-item"><a href="ex_firstB.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Exercise B</span></a></div></li>
 </ul>
@@ -341,7 +358,7 @@ W=F_{e}d
 </div>
 <div class="para">(for Uniform Electric Field).</div>
 </div> <div class="para" id="p-175">Electrical force is a conservative force and when conservative force does negative work, the system gains potential energy. When conservative force does positive work, the system loses potential energy. Therefore if <span class="process-math">\(\Delta U \lt 0,\)</span> charge moves along the direction of electric field. Unit of electric potential energy is Joule.</div> <div class="para" id="p-176">
-<dfn class="terminology">Electric Potential:</dfn> It is a work done on a unit positive charge to bring it from infinity to any point in an electrical field of other charge/s. In other words, electric potential is an electric potential energy of a unit positive charge at a point in any field, i.e., electric potential energy per unit charge is known as electric potential at a point in any field.</div> <div class="para logical" id="p-177">
+<dfn class="terminology">Electric Potential:</dfn> It is a work done on a unit positive charge to bring it from infinity to any point in an electrical field of other charge/s. In other words, electric potential is an electric potential energy of a unit positive charge at a point in any field, i.e., electric potential energy per unit charge is known as electric potential at a point in any field.  It is a scalar physical quantity.</div> <div class="para logical" id="p-177">
 <div class="para">Let <span class="process-math">\(q\)</span> is any charge and its electric potential energy at that point in a field is <span class="process-math">\(U\)</span> then electric potential at that point is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -393,12 +410,14 @@ V_{ba} = -\int\limits_{a}^{b}\vec{E}\cdot\vec{dl}
 <dfn class="terminology">Gradient:</dfn>  It is a change in scalar field <a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-3" id="fn-3"><sup> 2 </sup></a> with respect to space and is a vector quantity whose direction is acting along the greatest change in that field. The gradient of a scalar field <span class="process-math">\(\phi\)</span> is defined as</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{grad}\phi =  \hat{i}\frac{\partial \phi}{\partial x} + \hat{j}\frac{\partial \phi}{\partial y} + \hat{k}\frac{\partial \phi}{\partial z} 
+\text{grad}\phi =  \hat{i}\frac{\partial \phi}{\partial x} + \hat{j}\frac{\partial \phi}{\partial y} 
++ \hat{k}\frac{\partial \phi}{\partial z} 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-= \left(\hat{i}\frac{\partial}{\partial x} + \hat{j}\frac{\partial}{\partial y} + \hat{k}\frac{\partial}{\partial z}\right)\phi = \vec{\nabla\phi}
+= \left(\hat{i}\frac{\partial}{\partial x} + \hat{j}\frac{\partial}{\partial y} 
++ \hat{k}\frac{\partial}{\partial z}\right)\phi = \vec{\nabla\phi}
 \end{equation*}
 </div>
 <div class="para">where an operator</div>
@@ -471,7 +490,8 @@ V_{1}= V_{2}
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
 \begin{equation*}
-\text{or,}\quad  \frac{\frac{q_{1}}{4\pi r^{2}_{1}}}{\frac{q_{2}}{4\pi r^{2}_{2}}}  = \frac{\frac{r_{1}}{4\pi r^{2}_{1}}}{\frac{r_{2}}{4\pi r^{2}_{2}}} 
+\text{or,}\quad  \frac{\frac{q_{1}}{4\pi r^{2}_{1}}}{\frac{q_{2}}{4\pi r^{2}_{2}}} 
+= \frac{\frac{r_{1}}{4\pi r^{2}_{1}}}{\frac{r_{2}}{4\pi r^{2}_{2}}} 
 \end{equation*}
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/egg.html">
@@ -486,13 +506,16 @@ i.e., \quad \sigma  \varpropto \frac{1}{r}
 </div>
 <div class="para">or, surface charge density is inversely proportional to radius of curvature. Hence, as the radius of curvature of a conductor decreases  (or, its  curvature increases) surface charge density increases. The surface charge density increases enormously at the pointed end of the conductor because of high curvature [<a href="" class="xref" data-knowl="./knowl/egg.html" title="Figure 1.7.2">Figure 1.7.2</a>]. Pointed end produces such a high field that the nearby air molecules stretch as the displacement of center of gravity of their negative and positive charges.  Since opposite charge attracts each other the charges on the conductors start neutralizing with the opposite charge of air molecules by producing bluish light surrounding the conductor without a spark such phenomenon is called a corona discharge. In this case no electrical breakdown occurs in air molecules.</div>
 </div> <div class="para" id="p-187"><dfn class="terminology">Van de Graff generator:</dfn></div> <figure class="figure figure-like" id="fig1d"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig1d.png" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-188">It is a device designed by Van de Graaff in 1929 to generate very high potential differences. It consists of two combs, a conveyor rubber belt (which is mounted on two motorized rollers), and a large conducting dome. Charges are spread on belt with the help of charged comb as comb discharges its charge on air molecules which later stick onto the belt and carried over near the upper comb which then neutralizes these charges on air molecule because of electrostatic induction.  Hence the similar kind of charges are getting collected on a big spherical dome connected with the upper comb (<a href="" class="xref" data-knowl="./knowl/fig1d.html" title="Figure 1.7.3">Figure 1.7.3</a>).</div></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-188">It is a device designed by Van de Graaff in 1929 to generate very high potential differences. It consists of two combs, a conveyor rubber belt (which is mounted on two motorized rollers), and a large conducting dome. Charges are spread on belt with the help of charged comb as comb discharges its charge on air molecules which later stick onto the belt and carried over near the upper comb which then neutralizes these charges on air molecule because of electrostatic induction.  Hence the similar kind of charges are getting collected on a big spherical dome connected with the upper comb (<a href="" class="xref" data-knowl="./knowl/fig1d.html" title="Figure 1.7.3">Figure 1.7.3</a>).</div></section><nav class="summary-links"><ul>
+<li><a href="subsec-capctrs.html" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Capacitors</span></a></li>
+<li><a href="subsec-enrgy_cap.html" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Energy Stored in a Capacitor</span></a></li>
+</ul></nav></section><div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn">
 <dfn class="terminology">Conservative Force:</dfn> It is a force which is directed along a certain fixed point. Workdone by these force around a closed path is always zero. Gravitational force, electric force, elastic spring force, are some examples of conservative forces. <dfn class="terminology">Non-conservative force:</dfn> It is a force which change its direction depends upon the object motion. Workdone by these force around a closed path is always non-zero. Frictional force, viscous force, air drag force or any kind of resistive forces are non-conservative forces.</div></div>
 <div class="hidden-content tex2jax_ignore" id="hk-fn-3"><div class="fn">
 <em class="emphasis">Fields:</em> A field is a region of space whose every point defines some kind of physical quantities. Depending upon the nature of physical quantity there are two types of field, scalar field and vector field. A force field defines a force vector at every location in space. A magnetic field defines a magnetic field vector at every location in space. A potential energy field defines a potential energy at every location in space. The gravitational field is a vector field which expresses the value of gravitational force, and Higg’s field is a scalar field which defines the mass or energy of a particle. If <span class="process-math">\(\phi (x,y,z)\)</span> is a scalar function associated with every point (x,y,z) of any region in space, then the region is defined as a scalar field. Again, if <span class="process-math">\(\vec{V}(x,y,z)\)</span> is a vector associated with every point (x,y,z) of any region in space, then the region is defined as a vector field.</div></div>
 </div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="ex_firstA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-examplesC.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="ex_firstA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="subsec-capctrs.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">

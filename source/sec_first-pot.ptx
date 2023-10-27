@@ -44,7 +44,7 @@ without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).
     from infinity to any point in an electrical field of other charge/s. In other words, 
     electric potential is an electric potential energy of a unit positive charge at a point 
     in any field, i.e., electric potential energy per unit charge is known as electric potential 
-    at a point in any field.  
+    at a point in any field.  It is a scalar physical quantity. 
   </p> 
   <p>
     Let <m>q</m> is any charge and its electric potential energy at that point in a field is 
@@ -112,10 +112,12 @@ without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).
    whose direction is acting along the greatest change in that field. The gradient of a scalar 
    field <m>\phi</m> is defined as  
    <me>
-    \text{grad}\phi =  \hat{i}\frac{\partial \phi}{\partial x} + \hat{j}\frac{\partial \phi}{\partial y} + \hat{k}\frac{\partial \phi}{\partial z} 
+    \text{grad}\phi =  \hat{i}\frac{\partial \phi}{\partial x} + \hat{j}\frac{\partial \phi}{\partial y} 
+    + \hat{k}\frac{\partial \phi}{\partial z} 
    </me>
    <me>
-    = \left(\hat{i}\frac{\partial}{\partial x} + \hat{j}\frac{\partial}{\partial y} + \hat{k}\frac{\partial}{\partial z}\right)\phi = \vec{\nabla\phi}
+    = \left(\hat{i}\frac{\partial}{\partial x} + \hat{j}\frac{\partial}{\partial y} 
+    + \hat{k}\frac{\partial}{\partial z}\right)\phi = \vec{\nabla\phi}
    </me>
    where an operator <me>
     \nabla = \hat{i}\frac{\partial}{\partial x} + \hat{j}\frac{\partial}{\partial y} + \hat{k}\frac{\partial}{\partial z}
@@ -209,7 +211,8 @@ without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).
       \text{or,}\quad \frac{q_{1}}{q_{2}} = \frac{r_{1}}{r_{2}} 
      </me>
      <me>
-      \text{or,}\quad  \frac{\frac{q_{1}}{4\pi r^{2}_{1}}}{\frac{q_{2}}{4\pi r^{2}_{2}}}  = \frac{\frac{r_{1}}{4\pi r^{2}_{1}}}{\frac{r_{2}}{4\pi r^{2}_{2}}} 
+      \text{or,}\quad  \frac{\frac{q_{1}}{4\pi r^{2}_{1}}}{\frac{q_{2}}{4\pi r^{2}_{2}}} 
+       = \frac{\frac{r_{1}}{4\pi r^{2}_{1}}}{\frac{r_{2}}{4\pi r^{2}_{2}}} 
      </me>
      <me>
       \text{or,}\quad  \frac{\sigma_{1}}{\sigma_{2}}   = \frac{r_{2}}{r_{1}}
@@ -244,8 +247,62 @@ without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).
           the upper comb which then neutralizes these charges on air molecule because of electrostatic 
           induction.  Hence the similar kind of charges are getting collected on a big spherical 
           dome connected with the upper comb (<xref ref="fig1d"/>).
-            </p>
-           
+        </p>       
 </introduction>
+
+<subsection xml:id="subsec-capctrs">
+  <title>Capacitors</title>
+  <introduction>
+    <p>
+      
+    </p>
+  </introduction>
+
+
+  <subsubsection xml:id="subsubsec-cap_comb">
+    <title>Combination of Capacitors</title>
+    <p>
+
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-paralle_cap">
+    <title>Parallel-Plate Capacitor</title>
+    <p>
+
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-spher_cap">
+    <title>Spherical Capacitor</title>
+    <p>
+
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-cyl_cap">
+    <title>Cylindrical Capacitor</title>
+    <p>
+
+    </p>
+  </subsubsection>
+</subsection>
+
+
+<subsection xml:id="subsec-enrgy_cap">
+  <title>Energy Stored in a Capacitor</title>
+  <introduction>
+    <p>
+      
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-elf_enrgdenst">
+    <title>Electric Field Energy Density</title>
+    <p>
+      
+    </p>
+  </subsubsection>
+</subsection>
   </section>
 
