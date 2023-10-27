@@ -838,139 +838,22 @@ var ptx_lunr_docs = [
   "body": "A small conducting spherical conducting shell of inner radius a and outer radius is concentric with a larger conducting shell of inner radius and outer radius as shown in the figure below. The total charge on the inner shell is and the charge on the outer shell is Find the electric field at a distance from the center for each of the cases:                   Make a plot of E versus r for   What is the charge on each of the four surfaces.  What is the charge density on each surface?   "
 },
 {
-  "id": "sec_first-pot",
+  "id": "subsec-capctrs",
   "level": "1",
-  "url": "sec_first-pot.html",
-  "type": "Section",
-  "number": "1.7",
-  "title": "Electric Potential",
-  "body": " Electric Potential    Electrical Work: When an electric force displaces a charged particle an electrical work is said to done. Since charge experience electric force only in an electric field such work is stored on a charged particle as an electric potential energy at that point. In other words, electrical work is an electrical potential energy, i.e., here, stands for electrostatic force. Here is an applied force, which moves the charged particle in an electric field without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).   Electric Potential Energy: The energy stored on a charged particle due its position in an electric field of other charge or charges. It is denoted by . (i.e., Potential energy of b with respect to a). (for Uniform Electric Field).  Electrical force is a conservative force and when conservative force does negative work, the system gains potential energy. When conservative force does positive work, the system loses potential energy. Therefore if charge moves along the direction of electric field. Unit of electric potential energy is Joule.   Electric Potential: It is a work done on a unit positive charge to bring it from infinity to any point in an electrical field of other charge\/s. In other words, electric potential is an electric potential energy of a unit positive charge at a point in any field, i.e., electric potential energy per unit charge is known as electric potential at a point in any field.  Let is any charge and its electric potential energy at that point in a field is then electric potential at that point is    (for a point charge).  Where point is taken at and point is at any point in the electric field. Unit of electric potential is Volt (V) = Joule\/Coulomb (J\/C). Remember that we can only define the potential at a point if the force is conservative. Conservative Force: It is a force which is directed along a certain fixed point. Workdone by these force around a closed path is always zero. Gravitational force, electric force, elastic spring force, are some examples of conservative forces. Non-conservative force: It is a force which change its direction depends upon the object motion. Workdone by these force around a closed path is always non-zero. Frictional force, viscous force, air drag force or any kind of resistive forces are non-conservative forces.    Potential Difference: It is a work done on a unit positive charge to bring it from one point to another point in a field, e.g., if a unit positive charge is brought from a point of electric potential to another point of potential then potential difference between the points is (Potential of b with respect to a). (Two Point Charges).  -ve sign indicates that charge is brought against an electric field, i.e., direction of force is opposite to the displacement. The work is a negative change in potential energy. If work done by a force is positive then potential energy is decreasing and vice a versa. Unit of potential difference is Volt .   Gradient:  gradient It is a change in scalar field Fields: A field is a region of space whose every point defines some kind of physical quantities. Depending upon the nature of physical quantity there are two types of field, scalar field and vector field. A force field defines a force vector at every location in space. A magnetic field defines a magnetic field vector at every location in space. A potential energy field defines a potential energy at every location in space. The gravitational field is a vector field which expresses the value of gravitational force, and Higg's field is a scalar field which defines the mass or energy of a particle. If is a scalar function associated with every point (x,y,z) of any region in space, then the region is defined as a scalar field. Again, if is a vector associated with every point (x,y,z) of any region in space, then the region is defined as a vector field. with respect to space and is a vector quantity whose direction is acting along the greatest change in that field. The gradient of a scalar field is defined as  where an operator is known as operator and read as a gradient or a grad, which is a vector quantity.   Potential Gradient:    Unit of potential gradient is V\/m or N\/C.   Equipotential Surfaces: The portion of an electric field upon which the electrical potential has a fixed value is called a equipotential surfaces. Thus, between any two points on the equipotential surface, i.e., no work is required to move any charge on an equipotential surface. For a positive point charge equipotential surfaces are concentric spherical surfaces around charge at center as shown in . Equipotential surfaces for a positive and negative charges are shown in , and that for two similar charges are shown in .                    Relationship between equipotential surface and electric field:   Electric field is perpendicular to equipotential lines (surfaces) and pointed along the decresing potential.  Electric filed is stronger where equipotential lines (surfaces) are closer to each other.     Corona Discharge:  corona discharge It is an electrical discharge appearing on and around the surface of a conductor by ionization of the surrounding fluid molecules. when a conductor of very large curvature is exposed in a very high electric field corona discharge occurs. The phenomenon of corona discharge can be understood by the following concept.      Consider two conducting spherical sells of radius and containing charges and . The potential on the surface of these sells are and respectively. Suppose they are so designed that they have same potential on the surface, i.e.,      or, surface charge density is inversely proportional to radius of curvature. Hence, as the radius of curvature of a conductor decreases (or, its curvature increases) surface charge density increases. The surface charge density increases enormously at the pointed end of the conductor because of high curvature [ ]. Pointed end produces such a high field that the nearby air molecules stretch as the displacement of center of gravity of their negative and positive charges. Since opposite charge attracts each other the charges on the conductors start neutralizing with the opposite charge of air molecules by producing bluish light surrounding the conductor without a spark such phenomenon is called a corona discharge. In this case no electrical breakdown occurs in air molecules.   Van de Graff generator:       It is a device designed by Van de Graaff in 1929 to generate very high potential differences. It consists of two combs, a conveyor rubber belt (which is mounted on two motorized rollers), and a large conducting dome. Charges are spread on belt with the help of charged comb as comb discharges its charge on air molecules which later stick onto the belt and carried over near the upper comb which then neutralizes these charges on air molecule because of electrostatic induction. Hence the similar kind of charges are getting collected on a big spherical dome connected with the upper comb ( ).   "
-},
-{
-  "id": "p-173",
-  "level": "2",
-  "url": "sec_first-pot.html#p-173",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Electrical Work: "
-},
-{
-  "id": "p-174",
-  "level": "2",
-  "url": "sec_first-pot.html#p-174",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Electric Potential Energy: "
-},
-{
-  "id": "p-176",
-  "level": "2",
-  "url": "sec_first-pot.html#p-176",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Electric Potential: "
-},
-{
-  "id": "p-178",
-  "level": "2",
-  "url": "sec_first-pot.html#p-178",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Conservative Force: Non-conservative force: "
-},
-{
-  "id": "p-179",
-  "level": "2",
-  "url": "sec_first-pot.html#p-179",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Potential Difference: "
-},
-{
-  "id": "p-181",
-  "level": "2",
-  "url": "sec_first-pot.html#p-181",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Gradient: "
-},
-{
-  "id": "p-182",
-  "level": "2",
-  "url": "sec_first-pot.html#p-182",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Potential Gradient: "
-},
-{
-  "id": "p-183",
-  "level": "2",
-  "url": "sec_first-pot.html#p-183",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Equipotential Surfaces: "
-},
-{
-  "id": "figure-38",
-  "level": "2",
-  "url": "sec_first-pot.html#figure-38",
-  "type": "Figure",
+  "url": "subsec-capctrs.html",
+  "type": "Subsection",
   "number": "1.7.1",
-  "title": "",
-  "body": "                "
+  "title": "Capacitors",
+  "body": " Capacitors       Combination of Capacitors      Parallel-Plate Capacitor      Spherical Capacitor      Cylindrical Capacitor     "
 },
 {
-  "id": "p-184",
-  "level": "2",
-  "url": "sec_first-pot.html#p-184",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Relationship between equipotential surface and electric field: "
-},
-{
-  "id": "p-185",
-  "level": "2",
-  "url": "sec_first-pot.html#p-185",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Corona Discharge: "
-},
-{
-  "id": "egg",
-  "level": "2",
-  "url": "sec_first-pot.html#egg",
-  "type": "Figure",
+  "id": "subsec-enrgy_cap",
+  "level": "1",
+  "url": "subsec-enrgy_cap.html",
+  "type": "Subsection",
   "number": "1.7.2",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "p-187",
-  "level": "2",
-  "url": "sec_first-pot.html#p-187",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Van de Graff generator: "
-},
-{
-  "id": "fig1d",
-  "level": "2",
-  "url": "sec_first-pot.html#fig1d",
-  "type": "Figure",
-  "number": "1.7.3",
-  "title": "",
-  "body": "   "
+  "title": "Energy Stored in a Capacitor",
+  "body": " Energy Stored in a Capacitor       Electric Field Energy Density     "
 },
 {
   "id": "sec_first-examplesC",
@@ -1306,72 +1189,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-230",
+  "id": "p-237",
   "level": "2",
-  "url": "append_math.html#p-230",
+  "url": "append_math.html#p-237",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-231",
+  "id": "p-238",
   "level": "2",
-  "url": "append_math.html#p-231",
+  "url": "append_math.html#p-238",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-232",
+  "id": "p-239",
   "level": "2",
-  "url": "append_math.html#p-232",
+  "url": "append_math.html#p-239",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-233",
+  "id": "p-240",
   "level": "2",
-  "url": "append_math.html#p-233",
+  "url": "append_math.html#p-240",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-234",
+  "id": "p-241",
   "level": "2",
-  "url": "append_math.html#p-234",
+  "url": "append_math.html#p-241",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-235",
+  "id": "p-242",
   "level": "2",
-  "url": "append_math.html#p-235",
+  "url": "append_math.html#p-242",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-236",
+  "id": "p-243",
   "level": "2",
-  "url": "append_math.html#p-236",
+  "url": "append_math.html#p-243",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-237",
+  "id": "p-244",
   "level": "2",
-  "url": "append_math.html#p-237",
+  "url": "append_math.html#p-244",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1387,9 +1270,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-238",
+  "id": "p-245",
   "level": "2",
-  "url": "appendix-2.html#p-238",
+  "url": "appendix-2.html#p-245",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
