@@ -307,7 +307,590 @@ window.MathJax = {
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_first-examplesC"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">1.8</span> <span class="title">Examples C</span>
-</h2></section></div>
+</h2>
+<section class="paragraphs" id="paragraphs-9"><h2 class="heading"><span class="title">Electric Potential.</span></h2> <article class="example example-like" id="example-23"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.1</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-189">
+<div class="para">An electric charge <span class="process-math">\(q_{1} = 10 \,\mu C\)</span> remains located at the origin of a coordinate system. A second electrical charge <span class="process-math">\(q_{2} = 20 \,\mu C\)</span> is moved from point to point.</div>
+<ol class="lower-alpha">
+<li id="li-186"><div class="para" id="p-derived-li-186">How much work is required by an external force to move the second charge along the x-axis from point (1 m, 0) to  (2m, 0)?</div></li>
+<li id="li-187"><div class="para" id="p-derived-li-187">What is the electric potential at the point (1 m, 0) due to the charge at the origin?</div></li>
+<li id="li-188"><div class="para" id="p-derived-li-188">What is the potential difference between the points (1 m, 0) and (2 m, 0)?</div></li>
+<li id="li-189"><div class="para" id="p-derived-li-189">What is the potential difference between points (1 m, 0) and (0, 1 m)?</div></li>
+<li id="li-190"><div class="para" id="p-derived-li-190">How much work is required by an external force to move the second charge from point (1 m, 0) to (0, 1 m)?</div></li>
+<li id="li-191"><div class="para" id="p-derived-li-191">What is the integral <span class="process-math">\(\int\limits_{a}^{b}\vec{E}\cdot\vec{\,dl}\)</span> along a circle from point (1 m, 0) to (0, 1 m)?</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-23" id="solution-23"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-23"><div class="solution solution-like">
+<div class="para" id="p-190">Given:	<span class="process-math">\(q_{1}  =  1.00 \times 10^{-5} \,C; \)</span> <span class="process-math">\(q_{2}  =  2.00 \times 10^{-5} \,C;\)</span> <span class="process-math">\(\epsilon_{o}  = 8.85\times 10^{-12} \,C^{2}/N.m^{2}\)</span>
+</div> <div class="para logical" id="p-191"><ol class="lower-alpha">
+<li id="li-192"><div class="para" id="p-derived-li-192">
+<div class="displaymath process-math" id="md-1">
+\begin{align*}
+\vec{F}_{elect} \amp   =k\frac{q_{1}q_{2}}{r^{2}}\hat{r}\\
+\vec{F}_{ext}  \amp =-\vec{F}_{elect}; 
+\end{align*}
+</div>
+<span class="process-math">\(r =x;\quad  \hat{r}=\hat{i};\quad \vec{\,dl}=\,dx(\hat{i})\)</span><div class="displaymath process-math" id="md-2">
+\begin{align*}
+W_{ab}\amp    =\int\limits_{a}^{b}\vec{F}_{ext}\cdot \vec{\,dl} = -\int\limits_{1}^{2}F_{elect}\,dx \\
+\amp =-k\int\limits_{1}^{2}\frac{q_{1}q_{2}}{x^{2}}\,dx  =-k \left[-\frac{q_{1}q_{2}}{x}\right]_{1}^{2} \\
+\amp = kq_{1}q_{2}\left(\frac{1}{2}-\frac{1}{1}\right)  =-0.90 \,J
+\end{align*}
+</div>
+</div></li>
+<li id="li-193"><div class="para" id="p-derived-li-193"><div class="displaymath process-math">
+\begin{equation*}
+V_{b}=k\frac{q_{1}}{r_{b}}=9.0\times 10^{4} \,V,\quad [r_{b}= 1\,m ]
+\end{equation*}
+</div></div></li>
+<li id="li-194"><div class="para" id="p-derived-li-194"><div class="displaymath process-math" id="md-3">
+\begin{align*}
+V_{c}\amp =k\frac{q_{1}}{r_{c}}=4.5\times 10^{4} \,V,\quad [r_{c}= 2\,m] \\
+V_{bc}\amp   =V_{b}-V_{c} = 4.5\times 10^{4} \,V 
+\end{align*}
+</div></div></li>
+<li id="li-195"><div class="para" id="p-derived-li-195"><div class="displaymath process-math" id="md-4">
+\begin{align*}
+V_{d}\amp  =k\frac{q_{1}}{r_{d}}=9.0\times 10^{4} \,V,\quad [r_{d}= 1\,m]\\
+V_{bd}=V_{b}-V_{d}  \amp  =0
+\end{align*}
+</div></div></li>
+<li id="li-196"><div class="para" id="p-derived-li-196"><div class="displaymath process-math">
+\begin{equation*}
+W_{bd}=q_{2}(V_{d}-V_{b}) = 0
+\end{equation*}
+</div></div></li>
+<li id="li-197"><div class="para" id="p-derived-li-197">
+<div class="displaymath process-math">
+\begin{equation*}
+\int\limits_{b}^{d}\vec{E}\cdot \vec{dl}=-V_{bd} =0
+\end{equation*}
+</div>The same result is obtained by taking <span class="process-math">\(\vec{E}\)</span> is always perpendicular to <span class="process-math">\(\vec{\,dl}\)</span> along the circular path of integration, so<div class="displaymath process-math" id="md-5">
+\begin{align*}
+\vec{E}\cdot\vec{dl} \amp = 0 \\
+\text{and} \quad \int\limits_{b}^{d}\vec{E}\cdot \vec{dl} \amp =0.
+\end{align*}
+</div>
+</div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-24"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.2</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-192">
+<div class="para">The electric field is given by the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{E} = c y2 \hat{i} + 2c xy \hat{j},
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(c = 1000 \,V/m^{3}.\)</span>
+</div>
+<ol class="lower-alpha">
+<li id="li-198"><div class="para" id="p-derived-li-198">How much work does the electrical field do on a charge of <span class="process-math">\(-2 \,\mu C\)</span> taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?</div></li>
+<li id="li-199"><div class="para" id="p-derived-li-199">How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?</div></li>
+<li id="li-200"><div class="para" id="p-derived-li-200">What is the equation for the electric potential of this field assuming the origin has a potential of zero?</div></li>
+<li id="li-201"><div class="para" id="p-derived-li-201">What is the electric potential at point (1 m, 2 m)?</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-24" id="solution-24"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-24"><div class="solution solution-like">
+<div class="para logical" id="p-193">
+<div class="para">Given: <span class="process-math">\(q=-2.00\times10^{-6} \,C; \quad c=1000 \,V/m^{3};\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{E}=c y^2 \hat{i} + 2c xy \hat{j}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="md-6">
+\begin{align*}
+W \amp =  q \int\vec{E}\cdot\vec{\,dl} \\
+\amp =  q \left(\int E_{x}\,dx+\int E_{y}\,dy \right) \\
+\amp   = qc\left(\int y^{2}\,dx+\int 2xy \,dy \right)
+\end{align*}
+</div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig24.png" class="contained"></div> <div class="para logical" id="p-194"><ol class="lower-alpha">
+<li id="li-202">
+<div class="para logical" id="p-195">
+<div class="para">For path AB: <span class="process-math">\(y = 0, \quad\,dy = 0,\)</span> and x goes from 0 to 1 m, so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W_{AB} = 0.
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="p-196">
+<div class="para">For path BC: <span class="process-math">\(x = 1 m, \quad \,dx = 0,\)</span> and y goes from 0 to 2 m, so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W_{BC} = xqc\int\limits_{0}^{2} 2y \,dy =  xqc \left[y^{2}\right]_{0}^{2} = 8.00\times 10^{-3}\,J
+\end{equation*}
+</div>
+<div class="para">For total path</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W_{ABC} = W_{AB} + W_{BC} =  8.00 \times 10^{-3} \,J
+\end{equation*}
+</div>
+</div>
+</li>
+<li id="li-203"><div class="para" id="p-derived-li-203">For path AC: <span class="process-math">\(y = 2x,\quad \,dy = 2 \,dx,\)</span> and x goes from 0 to 1 m, so<div class="displaymath process-math" id="md-7">
+\begin{align*}
+W_{AC} \amp =  qc\left(\int\limits_{0}^{1} (2x)^{2} \,dx+\int\limits_{0}^{1} (2x)(2x)2\,dx \right)  \\
+\amp  =  qc \left[\frac{4x^{3}}{3}+\frac{8x^{3}}{3}\right]_{0}^{1}=  8.00\times 10^{-3} \,J 
+\end{align*}
+</div>
+</div></li>
+<li id="li-204"><div class="para" id="p-derived-li-204">
+<div class="displaymath process-math" id="md-8">
+\begin{align*}
+V  \amp = -\int\vec{E}\cdot\vec{\,dl}\\
+\amp =-\left(\int E_{x}\,dx+\int E_{y}\,dy\right) \\
+\amp   = -c\left(\int y^{2}\,dx+\int 2xy\,dy\right) 
+\end{align*}
+</div>This must be true along any path, so choose the path <span class="process-math">\(y = 0, \quad \,dy = 0,\)</span> while x goes from 0 to x; then hold x constant with <span class="process-math">\(\,dx = 0\)</span> while y goes from 0 to y. For the first part of this path, <span class="process-math">\(V = 0,\)</span> and for the second part<div class="displaymath process-math">
+\begin{equation*}
+V(x,y) = -c\int\limits_{0}^{y} 2xy\,dy  =  -c x \left[y^{2}\right]_{0}^{y}= -c x y^2 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-205"><div class="para" id="p-derived-li-205"><div class="displaymath process-math">
+\begin{equation*}
+V(1 \,m, \, 2 \,m) =  - 4000 \,V
+\end{equation*}
+</div></div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-25"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-197">A charge <span class="process-math">\(q_{1} = -1 \,\mu C\)</span> is located at (-1 m, 1 m). A second charge <span class="process-math">\(q_{2} = +2 \,\mu C\)</span> is located at (2 m, -1 m). How much work is done by the electrical field of these two charges when a third charge <span class="process-math">\(q_{3} = +3 \,\mu C\)</span> is moved from the origin to the point (1 m, 1 m)?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-25" id="solution-25"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-25"><div class="solution solution-like">
+<div class="para" id="p-198">Given: <span class="process-math">\(q_{1} = -1.00 \times 10^{-6} \,C;\quad q_{1} = 2.00 \times 10^{-6} \,C; \quad	q_{3} = 3.00 \times 10^{-6} \,C. \)</span>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig25.png" class="contained"></div> <div class="para logical" id="p-199"><div class="displaymath process-math" id="md-9">
+\begin{align*}
+V_{o} \amp  =  k\frac{q_{1}}{r_{o1}}+  k\frac{q_{2}}{r_{o2}};\\
+r_{o1}\amp = \sqrt{1^{2}+1^{2}} \,m; \\
+r_{o2} \amp  = \sqrt{2^{2}+1^{2}} \,m;	 \\
+V_{o}\amp   = 1.685\times 10^{3} \,V\\
+V_{p} \amp =  k\frac{q_{1}}{r_{p1}} +  k\frac{q_{2}}{r_{p2}};\\
+r_{p1}\amp = 2 \,m;\\
+r_{p2} \amp  = \sqrt{1^{2}+2^{2}} \,m;\\
+V_{p}\amp  = 3.550\times 10^{3} \,V \\
+W_{op}(field)\amp  = -W_{op}(external) =  q_{3} (V_{p} - V_{o});\\
+W_{op}(field)\amp= 5.59\times10^{-3} \,J 
+\end{align*}
+</div></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-26"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.4</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-200">
+<div class="para">The electric potential near the origin is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V(r) = \frac{1}{2}k r^{2},
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(k = 10^{4} \,V/m^{2}\)</span> and <span class="process-math">\(r\)</span> is the magnitude of the position vector</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{r} = x \hat{i}+ y \hat{j} + z\hat{ k}.
+\end{equation*}
+</div>
+<div class="para">Find</div>
+<ol class="lower-alpha">
+<li id="li-206"><div class="para" id="p-derived-li-206"><span class="process-math">\(\displaystyle V(x,y,z),\)</span></div></li>
+<li id="li-207"><div class="para" id="p-derived-li-207"><span class="process-math">\(\displaystyle \vec{E}(x,y,z),\)</span></div></li>
+<li id="li-208"><div class="para" id="p-derived-li-208"><span class="process-math">\(\displaystyle \vec{E}( \vec{r} ),\)</span></div></li>
+<li id="li-209"><div class="para" id="p-derived-li-209">
+<span class="process-math">\(V \)</span> at (0.3m, 0.4m, 0),</div></li>
+<li id="li-210"><div class="para" id="p-derived-li-210">
+<span class="process-math">\(E\)</span> at (0.3m, 0.4m, 0),</div></li>
+<li id="li-211"><div class="para" id="p-derived-li-211">the speed of a particle of mass <span class="process-math">\(m = 1 \,g\)</span> and charge <span class="process-math">\(q = 10 \,\mu C\)</span> when passing through the origin after being released from rest at point (0.3 m, 0.4 m, 0). Note: Ignore gravity in this problem.</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-26" id="solution-26"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-26"><div class="solution solution-like"><div class="para logical" id="p-201"><ol class="lower-alpha">
+<li id="li-212"><div class="para" id="p-derived-li-212"><div class="displaymath process-math" id="md-10">
+\begin{align*}
+V(r)\amp =\frac{1}{2}k r^{2};\\
+k\amp =10^{4}\,V/m^{2},\\
+m\amp =10^{-3}\,kg,\\
+q\amp=10^{-5}C \\
+\therefore\quad V  \amp =\frac{1}{2} k (x^{2}+y^{2}+z^{2}) \\
+r^{2}\amp = x^{2}+y^{2}+z^{2}]
+\end{align*}
+</div></div></li>
+<li id="li-213"><div class="para" id="p-derived-li-213"><div class="displaymath process-math">
+\begin{equation*}
+\vec{E}=-\vec{\nabla} V =-kx \hat{i}-ky \hat{j}-kz \hat{k}
+\end{equation*}
+</div></div></li>
+<li id="li-214"><div class="para" id="p-derived-li-214"><span class="process-math">\(\displaystyle \vec{E}=-k\vec{r}\)</span></div></li>
+<li id="li-215"><div class="para" id="p-derived-li-215">
+<span class="process-math">\(\vec{E}=-\vec{\nabla} V =1250 \,V; \)</span> [ V(0.3 m,0.4 m,0)]</div></li>
+<li id="li-216"><div class="para" id="p-derived-li-216"><span class="process-math">\(\displaystyle \vec{E}(0.3\,m,0.4\,m,0) = -3000\, N/C \hat{i}-4000 \,N/C \hat{j}\)</span></div></li>
+<li id="li-217"><div class="para" id="p-derived-li-217">
+<div class="displaymath process-math">
+\begin{equation*}
+U=qV;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+U=\frac{1}{2}mv^{2};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v=\sqrt{\frac{2qV}{m}}=5 \,m/s
+\end{equation*}
+</div>
+</div></li>
+</ol></div></div></div>
+</div></article> <article class="example example-like" id="example-27"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-202">If a charged conducting sphere (A) of radius <span class="process-math">\(r_{1}\)</span> and charge <span class="process-math">\(q_{1}\)</span> is connected to an uncharged conducting sphere (B) of radius <span class="process-math">\(r_{2}\)</span> with a very thin and long wire such that <span class="process-math">\(l \gt \gt (r_{1}+r_{2})\text{.}\)</span> Find the charge on sphere (B). Where <span class="process-math">\(l\)</span> is the distance between the conductors.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-27" id="solution-27"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-27"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/elpotspheres.png" class="contained"></div> <div class="para logical" id="p-203">
+<div class="para">Since sphere (B) is placed at very far away from sphere (A) the potential of sphere (B) must be zero initially. Potential at sphere (A) is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{1}=\frac{kq_{1}}{r_{1}}.
+\end{equation*}
+</div>
+<div class="para">Potential at sphere (B) is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{2} = 0,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+i.e., \quad V_{1} \gt V_{2}
+\end{equation*}
+</div>
+<div class="para">Hence charge starts flowing from sphere (A) to sphere (B) till they acquire the same potential, i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V'_{1}=V'_{2}.
+\end{equation*}
+</div>
+<div class="para">Now, once they reaches at the same potential then charge left on sphere (A) is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+q'=q_{1}-q_{2},
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(q_{2}\)</span> is the final charge transferred onto sphere (B). Therefore final potential of sphere (A) is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V'_{1} = \frac{kq'}{r_{1}}
+\end{equation*}
+</div>
+<div class="para">and final potential at sphere (B) is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V'_{2} = \frac{kq_{2}}{r_{2}}.
+\end{equation*}
+</div>
+<div class="para">But</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V'_{1} = V'_{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{kq'}{r_{1}}=\frac{kq_{2}}{r_{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad q' r_{2} = q_{2}r_{1}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad (q_{1}-q_{2})r_{2} = q_{2}r_{1}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad q_{2} = \frac{q_{1}r_{2}}{r_{1}+r_{2}} 
+\end{equation*}
+</div>
+</div>
+</div></div>
+</div></article> <article class="example example-like" id="example-28"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.6</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-204">
+<div class="para">The vertical deflection plates of a Cathode-Ray Tube (CRT) are each L = 10 cm square plates spaced d = 2 cm apart and located D = 20 cm in front of the fluorescent screen as shown below. An electron beam enters the region between plates and just misses the upper plate when it exits. The voltage between the plates is 100 V.</div>
+<ol class="lower-alpha">
+<li id="li-218"><div class="para" id="p-derived-li-218">What is the magnitude and direction of the electric field between the plates?</div></li>
+<li id="li-219"><div class="para" id="p-derived-li-219">What is the electric charge on the upper plate?</div></li>
+<li id="li-220"><div class="para" id="p-derived-li-220">What is the force on an electron when between plates?</div></li>
+<li id="li-221"><div class="para" id="p-derived-li-221">How much time does an electron spend between the plates?</div></li>
+<li id="li-222"><div class="para" id="p-derived-li-222">What is the speed of the electron when it enters the electric field?</div></li>
+<li id="li-223"><div class="para" id="p-derived-li-223">What was the potential difference in the electron gun that accelerated the electron up to this speed?</div></li>
+<li id="li-224"><div class="para" id="p-derived-li-224">What is the electron\rq s speed when it leaves the plates?</div></li>
+<li id="li-225"><div class="para" id="p-derived-li-225">How far is the electron deflected when it hits the screen?</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-28" id="solution-28"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-28"><div class="solution solution-like">
+<div class="para logical" id="p-205">
+<div class="para">Given: <span class="process-math">\(L  =  0.1 \,m;\quad d  =  0.02 \,m; \quad D  =  0.2 \,m;\)</span> <span class="process-math">\(V_{o} = 100 \,V; \epsilon_{o} = 8.85\times10^{-12} \,C^{2}/N.m^{2};\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+e  =  1.60\times10^{-19} \,C; \quad m = 9.11\times10^{-31} \,kg
+\end{equation*}
+</div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig26.png" class="contained"></div> <div class="para logical" id="p-206"><ol class="lower-alpha">
+<li id="li-226"><div class="para" id="p-derived-li-226">
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{E}= -\vec{\nabla V} = -\frac{\partial V}{\partial r};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad V_{o}=\vec{E} \cdot\vec{d};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E= -\frac{V_{o}}{d}y
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E=5\times 10^{3}V/m \,(down);
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{E}=-\frac{V_{o}}{d} \hat{j} =-5\times 10^{3}\,V/m \hat{j} 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-227"><div class="para" id="p-derived-li-227">
+<div class="displaymath process-math">
+\begin{equation*}
+\sigma=\epsilon_{o}E = 4.425\times 10^{-8} \,C/m^{2};\quad  q=0.4425 \,nC
+\end{equation*}
+</div>
+<span class="process-math">\([\because E=\frac{\sigma}{\epsilon_{o}}; \quad \sigma=\frac{q}{A};\quad  A=L^{2}]\)</span>
+</div></li>
+<li id="li-228"><div class="para" id="p-derived-li-228"><div class="displaymath process-math">
+\begin{equation*}
+\vec{F}=-e\vec{E};\quad \vec{F} =8\times 10^{-16}N\hat{j}
+\end{equation*}
+</div></div></li>
+<li id="li-229"><div class="para" id="p-derived-li-229">
+<div class="displaymath process-math">
+\begin{equation*}
+a = \frac{F}{m}= 8.782 \times 10^{14}m/s^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F = ma;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+also,\quad  \frac{d}{2}=\frac{1}{2}at^{2};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad t=\sqrt{\frac{d}{a}}=4.772 \times 10^{-9} s
+\end{equation*}
+</div>
+</div></li>
+<li id="li-230"><div class="para" id="p-derived-li-230">
+<div class="displaymath process-math">
+\begin{equation*}
+L=v_{o}t;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad  v_{o}=\frac{L}{t}=2.095 \times 10^{7} \,m/s 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-231"><div class="para" id="p-derived-li-231"><div class="displaymath process-math">
+\begin{equation*}
+eV  =\frac{1}{2}m v_{o}^{2};\quad V= 1.25\times 10^{3} \,V 
+\end{equation*}
+</div></div></li>
+<li id="li-232"><div class="para" id="p-derived-li-232">
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta U =e(\frac{V_{o}}{2});
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta K =\frac{1}{2}m v^{2}-\frac{1}{2}m v_{o}^{2};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta U =\Delta K 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta U = 8\times 10^{-18}\,J;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v =\sqrt{v^{2}_{o}+\frac{2\Delta U}{m}}= 2.137\times 10^{7} \,m/s 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-233"><div class="para" id="p-derived-li-233">
+<div class="displaymath process-math">
+\begin{equation*}
+v_{x} = v_{o};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \tan\theta = \frac{v_{y}}{v_{x}};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{y}=at=4.19\times 10^{6} \,m/s;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan\theta =\frac{y-d/2}{D}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\theta=11.4^{o};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\quad y=D\tan\theta= 0.04 \,m
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-29"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.7</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-207">Find the electrical potential at a point due to a non-uniform linear charge density such that <span class="process-math">\(\lambda=a|y|\)</span> of a rod of length <span class="process-math">\(2a\text{.}\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-29" id="solution-29"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-29"><div class="solution solution-like">
+<div class="para logical" id="p-208">
+<div class="para">Consider a rod of length <span class="process-math">\(2a\)</span> having non-linear charge density <span class="process-math">\(\lambda=a|y|\)</span> so that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{cases}
+|y| = +y \quad \text{for +ve  y-axis} \\
+\quad	= -y \quad \text{for -ve  y-axis.} 
+\end{cases}
+\end{equation*}
+</div>
+<div class="para">Potential at point P  due to charge element <span class="process-math">\(\,dq\)</span> is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dV = \frac{k\,dq}{r}\quad \text{where}\quad r=\sqrt{x^{2}+y^{2}}.
+\end{equation*}
+</div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/nonlinden.png" class="contained"></div> <div class="para logical" id="p-209">
+<div class="para">Therefore potential at P  due to entire rod,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V=\int\,dV=\int\limits_{-a}^{a}\frac{k\lambda\,dy}{\sqrt{x^{2}+y^{2}}} \quad [\because\lambda=\frac{\,dq}{\,dy}]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad V=\int\,dV=\int\limits_{-a}^{a}\frac{k a|y|\,dy}{\sqrt{x^{2}+y^{2}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \int\limits_{-a}^{0}\frac{-k a y\,dy}{\sqrt{x^{2}+y^{2}}} + \int\limits_{0}^{a}\frac{k a y\,dy}{\sqrt{x^{2}+y^{2}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad V = -k a \left[\int\limits_{-a}^{0}\frac{ y\,dy}{\sqrt{x^{2}+y^{2}}} - \int\limits_{0}^{a}\frac{ y\,dy}{\sqrt{x^{2}+y^{2}}}\right]
+\end{equation*}
+</div>
+<div class="para">Lets solve</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mathscr{I} = \frac{ y\,dy}{\sqrt{x^{2}+y^{2}}}
+\end{equation*}
+</div>
+<div class="para">From figure,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x^{2}+y^{2}=r^{2} 
+\end{equation*}
+</div>
+<div class="para">so that  <span class="process-math">\(2y\,dy=2r\,dr\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad  y\,dy=r\,dr 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad I = \int \frac{r\,dr}{r}=\int \,dr=r=\sqrt{x^{2}+y^{2}}
+\end{equation*}
+</div>
+<div class="para">Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V=-ka\left[\left(\sqrt{x^{2}+y^{2}}\right)_{-a}^{0}-\left(\sqrt{x^{2}+y^{2}}\right)_{0}^{a}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=-ka\left[\left(\sqrt{x^{2}}-\sqrt{x^{2}+a^{2}}\right)-\left(\sqrt{x^{2}+a^{2}}-\sqrt{x^{2}}\right)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=-ka\left[\left(|x|-\sqrt{x^{2}+a^{2}}\right)-\left(\sqrt{x^{2}+a^{2}}-|x|\right)\right]
+\end{equation*}
+</div>
+<div class="para">since <span class="process-math">\(-a\)</span> to  <span class="process-math">\(0\)</span>  <span class="process-math">\(|x|\)</span> is -ve hence first term is -ve, ie.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad V=2ka\left[|x|-\sqrt{x^{2}+y^{2}}\right]
+\end{equation*}
+</div>
+</div>
+</div></div>
+</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_first-pot.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="ex_firstB.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>

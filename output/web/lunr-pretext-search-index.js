@@ -979,7 +979,70 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Examples C",
-  "body": " Examples C  "
+  "body": " Examples C   Electric Potential    An electric charge remains located at the origin of a coordinate system. A second electrical charge is moved from point to point.  How much work is required by an external force to move the second charge along the x-axis from point (1 m, 0) to (2m, 0)?  What is the electric potential at the point (1 m, 0) due to the charge at the origin?  What is the potential difference between the points (1 m, 0) and (2 m, 0)?  What is the potential difference between points (1 m, 0) and (0, 1 m)?  How much work is required by an external force to move the second charge from point (1 m, 0) to (0, 1 m)?  What is the integral along a circle from point (1 m, 0) to (0, 1 m)?      Given:                         The same result is obtained by taking is always perpendicular to along the circular path of integration, so         The electric field is given by the equation where   How much work does the electrical field do on a charge of taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?  How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?  What is the equation for the electric potential of this field assuming the origin has a potential of zero?  What is the electric potential at point (1 m, 2 m)?      Given:          For path AB: and x goes from 0 to 1 m, so   For path BC: and y goes from 0 to 2 m, so For total path    For path AC: and x goes from 0 to 1 m, so    This must be true along any path, so choose the path while x goes from 0 to x; then hold x constant with while y goes from 0 to y. For the first part of this path, and for the second part            A charge is located at (-1 m, 1 m). A second charge is located at (2 m, -1 m). How much work is done by the electrical field of these two charges when a third charge is moved from the origin to the point (1 m, 1 m)?    Given:            The electric potential near the origin is given by where and is the magnitude of the position vector Find         at (0.3m, 0.4m, 0),  at (0.3m, 0.4m, 0),  the speed of a particle of mass and charge when passing through the origin after being released from rest at point (0.3 m, 0.4 m, 0). Note: Ignore gravity in this problem.                [ V(0.3 m,0.4 m,0)]              If a charged conducting sphere (A) of radius and charge is connected to an uncharged conducting sphere (B) of radius with a very thin and long wire such that . Find the charge on sphere (B). Where is the distance between the conductors.      Since sphere (B) is placed at very far away from sphere (A) the potential of sphere (B) must be zero initially. Potential at sphere (A) is Potential at sphere (B) is  Hence charge starts flowing from sphere (A) to sphere (B) till they acquire the same potential, i.e., Now, once they reaches at the same potential then charge left on sphere (A) is where is the final charge transferred onto sphere (B). Therefore final potential of sphere (A) is and final potential at sphere (B) is But           The vertical deflection plates of a Cathode-Ray Tube (CRT) are each L = 10 cm square plates spaced d = 2 cm apart and located D = 20 cm in front of the fluorescent screen as shown below. An electron beam enters the region between plates and just misses the upper plate when it exits. The voltage between the plates is 100 V.  What is the magnitude and direction of the electric field between the plates?  What is the electric charge on the upper plate?  What is the force on an electron when between plates?  How much time does an electron spend between the plates?  What is the speed of the electron when it enters the electric field?  What was the potential difference in the electron gun that accelerated the electron up to this speed?  What is the electron\\rq s speed when it leaves the plates?  How far is the electron deflected when it hits the screen?      Given:                                                         Find the electrical potential at a point due to a non-uniform linear charge density such that of a rod of length .    Consider a rod of length having non-linear charge density so that Potential at point P due to charge element is     Therefore potential at P due to entire rod,    Lets solve From figure, so that   Hence,   since to  is -ve hence first term is -ve, ie.,      "
+},
+{
+  "id": "example-23",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-23",
+  "type": "Example",
+  "number": "1.8.1",
+  "title": "",
+  "body": "  An electric charge remains located at the origin of a coordinate system. A second electrical charge is moved from point to point.  How much work is required by an external force to move the second charge along the x-axis from point (1 m, 0) to (2m, 0)?  What is the electric potential at the point (1 m, 0) due to the charge at the origin?  What is the potential difference between the points (1 m, 0) and (2 m, 0)?  What is the potential difference between points (1 m, 0) and (0, 1 m)?  How much work is required by an external force to move the second charge from point (1 m, 0) to (0, 1 m)?  What is the integral along a circle from point (1 m, 0) to (0, 1 m)?      Given:                         The same result is obtained by taking is always perpendicular to along the circular path of integration, so      "
+},
+{
+  "id": "example-24",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-24",
+  "type": "Example",
+  "number": "1.8.2",
+  "title": "",
+  "body": "  The electric field is given by the equation where   How much work does the electrical field do on a charge of taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?  How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?  What is the equation for the electric potential of this field assuming the origin has a potential of zero?  What is the electric potential at point (1 m, 2 m)?      Given:          For path AB: and x goes from 0 to 1 m, so   For path BC: and y goes from 0 to 2 m, so For total path    For path AC: and x goes from 0 to 1 m, so    This must be true along any path, so choose the path while x goes from 0 to x; then hold x constant with while y goes from 0 to y. For the first part of this path, and for the second part         "
+},
+{
+  "id": "example-25",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-25",
+  "type": "Example",
+  "number": "1.8.3",
+  "title": "",
+  "body": "  A charge is located at (-1 m, 1 m). A second charge is located at (2 m, -1 m). How much work is done by the electrical field of these two charges when a third charge is moved from the origin to the point (1 m, 1 m)?    Given:         "
+},
+{
+  "id": "example-26",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-26",
+  "type": "Example",
+  "number": "1.8.4",
+  "title": "",
+  "body": "  The electric potential near the origin is given by where and is the magnitude of the position vector Find         at (0.3m, 0.4m, 0),  at (0.3m, 0.4m, 0),  the speed of a particle of mass and charge when passing through the origin after being released from rest at point (0.3 m, 0.4 m, 0). Note: Ignore gravity in this problem.                [ V(0.3 m,0.4 m,0)]           "
+},
+{
+  "id": "example-27",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-27",
+  "type": "Example",
+  "number": "1.8.5",
+  "title": "",
+  "body": "  If a charged conducting sphere (A) of radius and charge is connected to an uncharged conducting sphere (B) of radius with a very thin and long wire such that . Find the charge on sphere (B). Where is the distance between the conductors.      Since sphere (B) is placed at very far away from sphere (A) the potential of sphere (B) must be zero initially. Potential at sphere (A) is Potential at sphere (B) is  Hence charge starts flowing from sphere (A) to sphere (B) till they acquire the same potential, i.e., Now, once they reaches at the same potential then charge left on sphere (A) is where is the final charge transferred onto sphere (B). Therefore final potential of sphere (A) is and final potential at sphere (B) is But        "
+},
+{
+  "id": "example-28",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-28",
+  "type": "Example",
+  "number": "1.8.6",
+  "title": "",
+  "body": "  The vertical deflection plates of a Cathode-Ray Tube (CRT) are each L = 10 cm square plates spaced d = 2 cm apart and located D = 20 cm in front of the fluorescent screen as shown below. An electron beam enters the region between plates and just misses the upper plate when it exits. The voltage between the plates is 100 V.  What is the magnitude and direction of the electric field between the plates?  What is the electric charge on the upper plate?  What is the force on an electron when between plates?  How much time does an electron spend between the plates?  What is the speed of the electron when it enters the electric field?  What was the potential difference in the electron gun that accelerated the electron up to this speed?  What is the electron\\rq s speed when it leaves the plates?  How far is the electron deflected when it hits the screen?      Given:                                                      "
+},
+{
+  "id": "example-29",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-29",
+  "type": "Example",
+  "number": "1.8.7",
+  "title": "",
+  "body": "  Find the electrical potential at a point due to a non-uniform linear charge density such that of a rod of length .    Consider a rod of length having non-linear charge density so that Potential at point P due to charge element is     Therefore potential at P due to entire rod,    Lets solve From figure, so that   Hence,   since to  is -ve hence first term is -ve, ie.,    "
 },
 {
   "id": "ex_firstB",
@@ -988,7 +1051,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "1.9",
   "title": "Exercise B",
-  "body": "  Exercise B    "
+  "body": "  Exercise B  An electron is accelerated through a potential difference of over a distance of 20 cm.  If the electric field is uniform, what is its magnitude?  How much work is done on the electron?  What is the force on the electron?  If the mass of the electron is what is the speed of the electron? How does this compare to the speed of light     An electric dipole of strength has its positive charge at point (0, 1 m) and its negative charge at (0, -1 m).  What is the electric potential at point (2 m, 3 m)?  At (1 m, -2 m)?  How much work is required to move a charge of from the first point to the second point?    A charge of 100 nC is located at the origin of a coordinate system. A second charge of 200 nC is slowly brought from a large distance to within 10 cm of the first charge.  How much work is required?  What is the electrical potential energy of the second charge?  What was its potential energy before being moved?    The electric field is given by the equation where and   How much work does the electrical field do when a charge of is taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?  How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?  What is the equation for the electric potential of this field assuming the origin has a potential of zero?  What is the electric potential at point (-1 m, 2 m)?    Three point charges, which initially are infinitely far apart, are placed at the corners of an equilateral triangle of side a. Two of the point charges are identical and have charge q. What must be the value of the third charge if the net work in placing them at the corners of the triangle is zero?  Two stationary point charges 10 nC and -20 nC are located 10 cm apart. An electron is released from rest between them at a distance of 3 cm from the negative charge. What is the speed of the electron when it reaches a point 3 cm from the positive charge?  The electric potential is given by where Find     V at (1 m, 2 m, 3 m),  at (1 m, 2 m,3 m).    The electrical potential is given by where  and   What is the electric field at an arbitrary point (x,y,z)?  At what point is the electric field equal to zero?  At what point is the electric potential zero?    Rutherford was able to show that alpha particles of energy 7.7 MeV could be stopped by the electrical repulsion of an aluminum nucleus.  What is the minimum distance of approach of the center of the alpha particle to the center of the aluminum nucleus (i.e. the approximate radius of the aluminum nucleus)?  What was the original velocity of the alpha particle?          A potential difference of 4000 V is applied to the plates of a parallel plate capacitor.  If the air between the plates ionizes when the electric field exceeds 3 MV\/m, what is the minimum separation between the plates?  What is the surface charge density on the plates at that time?    A pair of charged parallel conducting plates produces a uniform field of directed to the right, between the plates. The separation of the plates is 50 mm. An electron is projected from plate A, directly toward plate B, with an initial velocity of . What is the velocity of electron just before it hits plate B.  "
 },
 {
   "id": "exercise-42",
@@ -997,7 +1060,97 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.9.1",
   "title": "",
-  "body": " "
+  "body": "An electron is accelerated through a potential difference of over a distance of 20 cm.  If the electric field is uniform, what is its magnitude?  How much work is done on the electron?  What is the force on the electron?  If the mass of the electron is what is the speed of the electron? How does this compare to the speed of light    "
+},
+{
+  "id": "exercise-43",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-43",
+  "type": "Exercise",
+  "number": "1.9.2",
+  "title": "",
+  "body": "An electric dipole of strength has its positive charge at point (0, 1 m) and its negative charge at (0, -1 m).  What is the electric potential at point (2 m, 3 m)?  At (1 m, -2 m)?  How much work is required to move a charge of from the first point to the second point?   "
+},
+{
+  "id": "exercise-44",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-44",
+  "type": "Exercise",
+  "number": "1.9.3",
+  "title": "",
+  "body": "A charge of 100 nC is located at the origin of a coordinate system. A second charge of 200 nC is slowly brought from a large distance to within 10 cm of the first charge.  How much work is required?  What is the electrical potential energy of the second charge?  What was its potential energy before being moved?   "
+},
+{
+  "id": "exercise-45",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-45",
+  "type": "Exercise",
+  "number": "1.9.4",
+  "title": "",
+  "body": "The electric field is given by the equation where and   How much work does the electrical field do when a charge of is taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?  How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?  What is the equation for the electric potential of this field assuming the origin has a potential of zero?  What is the electric potential at point (-1 m, 2 m)?   "
+},
+{
+  "id": "exercise-46",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-46",
+  "type": "Exercise",
+  "number": "1.9.5",
+  "title": "",
+  "body": "Three point charges, which initially are infinitely far apart, are placed at the corners of an equilateral triangle of side a. Two of the point charges are identical and have charge q. What must be the value of the third charge if the net work in placing them at the corners of the triangle is zero? "
+},
+{
+  "id": "exercise-47",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-47",
+  "type": "Exercise",
+  "number": "1.9.6",
+  "title": "",
+  "body": "Two stationary point charges 10 nC and -20 nC are located 10 cm apart. An electron is released from rest between them at a distance of 3 cm from the negative charge. What is the speed of the electron when it reaches a point 3 cm from the positive charge? "
+},
+{
+  "id": "exercise-48",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-48",
+  "type": "Exercise",
+  "number": "1.9.7",
+  "title": "",
+  "body": "The electric potential is given by where Find     V at (1 m, 2 m, 3 m),  at (1 m, 2 m,3 m).   "
+},
+{
+  "id": "exercise-49",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-49",
+  "type": "Exercise",
+  "number": "1.9.8",
+  "title": "",
+  "body": "The electrical potential is given by where  and   What is the electric field at an arbitrary point (x,y,z)?  At what point is the electric field equal to zero?  At what point is the electric potential zero?   "
+},
+{
+  "id": "exercise-50",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-50",
+  "type": "Exercise",
+  "number": "1.9.9",
+  "title": "",
+  "body": "Rutherford was able to show that alpha particles of energy 7.7 MeV could be stopped by the electrical repulsion of an aluminum nucleus.  What is the minimum distance of approach of the center of the alpha particle to the center of the aluminum nucleus (i.e. the approximate radius of the aluminum nucleus)?  What was the original velocity of the alpha particle?         "
+},
+{
+  "id": "exercise-51",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-51",
+  "type": "Exercise",
+  "number": "1.9.10",
+  "title": "",
+  "body": "A potential difference of 4000 V is applied to the plates of a parallel plate capacitor.  If the air between the plates ionizes when the electric field exceeds 3 MV\/m, what is the minimum separation between the plates?  What is the surface charge density on the plates at that time?   "
+},
+{
+  "id": "exercise-52",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-52",
+  "type": "Exercise",
+  "number": "1.9.11",
+  "title": "",
+  "body": "A pair of charged parallel conducting plates produces a uniform field of directed to the right, between the plates. The separation of the plates is 50 mm. An electron is projected from plate A, directly toward plate B, with an initial velocity of . What is the velocity of electron just before it hits plate B. "
 },
 {
   "id": "sec_second-intro",
@@ -1027,9 +1180,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-43",
+  "id": "exercise-53",
   "level": "2",
-  "url": "ex_second.html#exercise-43",
+  "url": "ex_second.html#exercise-53",
   "type": "Exercise",
   "number": "2.3.1",
   "title": "",
@@ -1063,9 +1216,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-44",
+  "id": "exercise-54",
   "level": "2",
-  "url": "ex_third.html#exercise-44",
+  "url": "ex_third.html#exercise-54",
   "type": "Exercise",
   "number": "3.3.1",
   "title": "",
@@ -1099,9 +1252,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-45",
+  "id": "exercise-55",
   "level": "2",
-  "url": "ex_fourth.html#exercise-45",
+  "url": "ex_fourth.html#exercise-55",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -1135,9 +1288,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-46",
+  "id": "exercise-56",
   "level": "2",
-  "url": "ex_fifth.html#exercise-46",
+  "url": "ex_fifth.html#exercise-56",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -1153,72 +1306,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-198",
+  "id": "p-230",
   "level": "2",
-  "url": "append_math.html#p-198",
+  "url": "append_math.html#p-230",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-199",
+  "id": "p-231",
   "level": "2",
-  "url": "append_math.html#p-199",
+  "url": "append_math.html#p-231",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-200",
+  "id": "p-232",
   "level": "2",
-  "url": "append_math.html#p-200",
+  "url": "append_math.html#p-232",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-201",
+  "id": "p-233",
   "level": "2",
-  "url": "append_math.html#p-201",
+  "url": "append_math.html#p-233",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-202",
+  "id": "p-234",
   "level": "2",
-  "url": "append_math.html#p-202",
+  "url": "append_math.html#p-234",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-203",
+  "id": "p-235",
   "level": "2",
-  "url": "append_math.html#p-203",
+  "url": "append_math.html#p-235",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-204",
+  "id": "p-236",
   "level": "2",
-  "url": "append_math.html#p-204",
+  "url": "append_math.html#p-236",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-205",
+  "id": "p-237",
   "level": "2",
-  "url": "append_math.html#p-205",
+  "url": "append_math.html#p-237",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1234,9 +1387,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-206",
+  "id": "p-238",
   "level": "2",
-  "url": "appendix-2.html#p-206",
+  "url": "appendix-2.html#p-238",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

@@ -6,9 +6,187 @@
   
   <exercise>
   <p>
-    
-  </p>
+    An electron <m>(q = -1.602\times10^{-19} \,C)</m> is accelerated through a potential difference of 
+    <m>2.00\times10^{5} \,V</m> over a distance of 20 cm. 
+    <ol marker="a.">
+      <li>
+        If the electric field is uniform, what is its magnitude?
+      </li>
+      <li>
+        How much work is done on the electron?
+      </li>
+      <li>
+        What is the force on the electron? 
+      </li>
+      <li>
+        If the mass of the electron is <m>9.1\times 10^{-31} \,kg,</m> what is the speed of the electron? 
+        How does this compare to the speed of light <m>(c = 3\times 10^{8} \,m/s)?</m>
+      </li>
+    </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An electric dipole of strength <m>p = 2\times 10^{-6} \,C.m</m> has its positive charge at point 
+      (0, 1 m) and its negative charge at (0, -1 m). 
+      <ol marker="a.">
+        <li>
+          What is the electric potential at point (2 m, 3 m)?
+        </li>
+        <li>
+          At (1 m, -2 m)? 
+        </li>
+        <li>
+          How much work is required to move a charge of <m>3 \,\mu C</m> from the first point to the second point? 
+        </li>
+          </ol>
+        </p>
   </exercise>
  
+
+  <exercise>
+    <p>
+      A charge of 100 nC is located at the origin of a coordinate system. 
+      A second charge of 200 nC is slowly brought from a large distance to within 
+      10 cm of the first charge. 
+      <ol marker="a.">
+        <li>
+          How much work is required? 
+        </li>
+        <li>
+          What is the electrical potential energy of the second charge?
+        </li>
+        <li>
+          What was its potential energy before being moved?
+        </li>
+          </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The electric field is given by the equation 
+      <me>
+        \vec{E} = 2Ax \hat{i} + B \hat{j},
+      </me>
+       where <m>A = 10^{4} \,V/m^{2}</m> and <m>B = 10^{4} \,V/m.</m> 
+       <ol marker="a.">
+        <li>
+          How much work does the electrical field do when a charge of <m>2 \mu C</m> is 
+          taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?
+        </li>
+        <li>
+          How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)? 
+        </li>
+        <li>
+          What is the equation for the electric potential of this field assuming the origin has a potential of zero? 
+        </li>
+        <li>
+          What is the electric potential at point (-1 m, 2 m)?
+        </li>
+          </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Three point charges, which initially are infinitely far apart, are placed at 
+      the corners of an equilateral triangle of side a. Two of the point charges are 
+      identical and have charge q. What must be the value of the third charge if the net 
+      work in placing them at the corners of the triangle is zero?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two stationary point charges 10 nC and -20 nC are located 10 cm apart. 
+      An electron is released from rest between them at a distance of 3 cm from the negative charge. 
+      What is the speed of the electron when it reaches a point 3 cm from the positive charge? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The electric potential is given by <m>V = Cxy^{2},</m> where <m>C = 10^{4} \,V/m^{3}.</m> Find 
+      <ol marker="a.">
+        <li>
+         <m>\vec{E(x,y,z)},</m>
+        </li>
+        <li>
+          V at (1 m, 2 m, 3 m),
+        </li>
+        <li>
+          at (1 m, 2 m,3 m).
+        </li>
+         </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The electrical potential is given by <m>V = axy + by^{2} + cy,</m> 
+      where <m>a = 3 \,V/m^{2},</m> <m>b = -2 \,V/m^{2},</m> and <m>c = 5 \,V/m.</m> 
+      <ol marker="a.">
+        <li>
+          What is the electric field at an arbitrary point (x,y,z)?
+        </li>
+        <li>
+          At what point is the electric field equal to zero?
+        </li>
+        <li>
+          At what point is the electric potential zero?
+        </li>
+         </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Rutherford was able to show that alpha particles of energy 7.7 MeV could be 
+      stopped by the electrical repulsion of an aluminum nucleus. 
+      <ol marker="a.">
+        <li>
+          What is the minimum distance of approach of the center of the alpha particle 
+          to the center of the aluminum nucleus (i.e. the approximate radius of the aluminum nucleus)? 
+        </li>
+        <li>
+          What was the original velocity of the alpha particle? 
+        </li>
+         </ol>
+        </p>
+        <hint>
+          <p>
+            <m>M_{\alpha} = 4.0026 \,amu, \quad M_{al} = 26.98154 \,amu,</m>
+            <m> q_{\alpha} = 2 e, \quad q_{al} = 13 e,</m>
+            <m>amu = 1.6606\times10^{-27} \,kg, \quad e = 1.602\times10^{-19} \,C.</m>
+          </p>
+        </hint>
+  </exercise>
+
+  <exercise>
+    <p>
+      A potential difference of 4000 V is applied to the plates of a parallel plate capacitor. 
+      <ol marker="a.">
+        <li>
+          If the air between the plates ionizes when the electric field exceeds 3 MV/m, 
+          what is the minimum separation between the plates?
+        </li>
+        <li>
+          What is the surface charge density on the plates at that time?
+        </li>
+         </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A pair of charged parallel conducting plates produces a uniform field of 
+      <m>2\times 10^{4} \,N/C,</m> directed to the right, between the plates. 
+      The separation of the plates is 50 mm. An electron is projected from plate A, 
+      directly toward plate B, with an initial velocity of <m>v_{o} = 2.0 \times 10^{7} \,m/s,</m>. 
+      What is the velocity of electron just before it hits plate B.
+    </p>
+  </exercise>
  </exercises>
 

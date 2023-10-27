@@ -3,5 +3,545 @@
 <section xml:id="sec_first-examplesC" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Examples C</title>
   
+<paragraphs>
+  <title>Electric Potential</title>
+  
+  <example>
+    <statement>
+      <p>
+        An electric charge <m>q_{1} = 10 \,\mu C</m> remains located at the origin of a coordinate system. 
+        A second electrical charge <m>q_{2} = 20 \,\mu C</m> is moved from point to point.
+        <ol marker="a.">
+          <li>
+            How much work is required by an external force to move the second charge along the 
+            x-axis from point (1 m, 0) to  (2m, 0)?
+          </li>
+          <li>
+            What is the electric potential at the point (1 m, 0) due to the charge at the origin? 
+          </li>
+          <li>
+            What is the potential difference between the points (1 m, 0) and (2 m, 0)?  
+          </li>
+          <li>
+            What is the potential difference between points (1 m, 0) and (0, 1 m)? 
+          </li>
+          <li>
+            How much work is required by an external force to move the second charge from point (1 m, 0) to (0, 1 m)? 
+          </li>
+          <li>
+            What is the integral <m>\int\limits_{a}^{b}\vec{E}\cdot\vec{\,dl}</m> along a circle from point (1 m, 0) to (0, 1 m)?
+          </li>
+        </ol> 
+            </p>
+    </statement>
+    <solution>
+      <p>
+        Given:	<m>q_{1}  =  1.00 \times 10^{-5} \,C; </m> <m>q_{2}  =  2.00 \times 10^{-5} \,C;</m> 
+        <m>\epsilon_{o}  = 8.85\times 10^{-12} \,C^{2}/N.m^{2}</m> 	
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <md>
+              <mrow>  \vec{F}_{elect} \amp   =k\frac{q_{1}q_{2}}{r^{2}}\hat{r}</mrow>
+              <mrow>  \vec{F}_{ext}  \amp =-\vec{F}_{elect}; </mrow>
+            </md>
+             <m>   r =x;\quad  \hat{r}=\hat{i};\quad \vec{\,dl}=\,dx(\hat{i})</m>
+             <md>
+              <mrow>   W_{ab}\amp    =\int\limits_{a}^{b}\vec{F}_{ext}\cdot \vec{\,dl} = -\int\limits_{1}^{2}F_{elect}\,dx </mrow>
+              <mrow> \amp =-k\int\limits_{1}^{2}\frac{q_{1}q_{2}}{x^{2}}\,dx  =-k \left[-\frac{q_{1}q_{2}}{x}\right]_{1}^{2} </mrow> 
+             <mrow> \amp = kq_{1}q_{2}\left(\frac{1}{2}-\frac{1}{1}\right)  =-0.90 \,J</mrow>
+             </md>
+              </li>
+          <li>
+           <me>
+            V_{b}=k\frac{q_{1}}{r_{b}}=9.0\times 10^{4} \,V,\quad [r_{b}= 1\,m ]
+           </me>
+              </li>
+          <li>
+            <md>
+              <mrow>  V_{c}\amp =k\frac{q_{1}}{r_{c}}=4.5\times 10^{4} \,V,\quad [r_{c}= 2\,m] </mrow>
+              <mrow>  V_{bc}\amp   =V_{b}-V_{c} = 4.5\times 10^{4} \,V </mrow>
+            </md>
+              </li>
+          <li>
+            <md>
+              <mrow>  V_{d}\amp  =k\frac{q_{1}}{r_{d}}=9.0\times 10^{4} \,V,\quad [r_{d}= 1\,m]</mrow> 
+              <mrow> V_{bd}=V_{b}-V_{d}  \amp  =0</mrow>
+            </md>
+                </li>
+          <li>
+            <me>
+              W_{bd}=q_{2}(V_{d}-V_{b}) = 0
+            </me>
+               </li>
+          <li>
+           <me>
+            \int\limits_{b}^{d}\vec{E}\cdot \vec{dl}=-V_{bd} =0
+           </me>
+           The same result is obtained by taking <m>\vec{E}</m> is always perpendicular 
+           to <m>\vec{\,dl}</m> along the circular path of integration, so 
+           <md>
+            <mrow>\vec{E}\cdot\vec{dl} \amp = 0 </mrow>
+            <mrow>\text{and} \quad \int\limits_{b}^{d}\vec{E}\cdot \vec{dl} \amp =0.</mrow>
+           </md>
+             </li>
+        </ol> 
+         </p>
+    </solution>
+  </example>
 
+  <example>
+    <statement>
+      <p>
+        The electric field is given by the equation 
+        <me>
+          \vec{E} = c y2 \hat{i} + 2c xy \hat{j},
+        </me>
+         where <m>c = 1000 \,V/m^{3}.</m> 
+         <ol marker="a.">
+          <li>
+            How much work does the electrical field do on a charge of <m>-2 \,\mu C</m> 
+            taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?
+          </li>
+          <li>
+            How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)? 
+          </li>
+          <li>
+            What is the equation for the electric potential of this field assuming the origin has a potential of zero? 
+          </li>
+          <li>
+            What is the electric potential at point (1 m, 2 m)?
+          </li>
+         </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>q=-2.00\times10^{-6} \,C; \quad c=1000 \,V/m^{3};</m>
+        <me>
+          \vec{E}=c y^2 \hat{i} + 2c xy \hat{j}
+        </me>
+        <md>
+          <mrow>W \amp =  q \int\vec{E}\cdot\vec{\,dl} </mrow>
+          <mrow> \amp =  q \left(\int E_{x}\,dx+\int E_{y}\,dy \right) </mrow>
+          <mrow> \amp   = qc\left(\int y^{2}\,dx+\int 2xy \,dy \right)</mrow>
+        </md>
+          </p>
+          <image source="fig24.png" width="35%"> </image>
+          <p>
+            <ol marker="a.">
+              <li>
+                <p>
+                  For path AB: <m>y = 0, \quad\,dy = 0,</m> and x goes from 0 to 1 m, so 
+                  <me>W_{AB} = 0.</me> 
+                </p>
+                  <p>
+                    For path BC: <m>x = 1 m, \quad \,dx = 0,</m> and y goes from 0 to 2 m, so 
+                    <me>
+                      W_{BC} = xqc\int\limits_{0}^{2} 2y \,dy =  xqc \left[y^{2}\right]_{0}^{2} = 8.00\times 10^{-3}\,J
+                    </me>
+                    For total path 
+                    <me>
+                      W_{ABC} = W_{AB} + W_{BC} =  8.00 \times 10^{-3} \,J
+                    </me>
+                        </p>
+              </li>
+              <li>
+                For path AC: <m>y = 2x,\quad \,dy = 2 \,dx,</m> and x goes from 0 to 1 m, so 
+                <md>
+                  <mrow> W_{AC} \amp =  qc\left(\int\limits_{0}^{1} (2x)^{2} \,dx+\int\limits_{0}^{1} (2x)(2x)2\,dx \right)  </mrow>
+                  <mrow> \amp  =  qc \left[\frac{4x^{3}}{3}+\frac{8x^{3}}{3}\right]_{0}^{1}=  8.00\times 10^{-3} \,J </mrow>
+                </md>
+                 </li>
+              <li>
+                <md>
+                  <mrow>   V  \amp = -\int\vec{E}\cdot\vec{\,dl}</mrow>
+                  <mrow> \amp =-\left(\int E_{x}\,dx+\int E_{y}\,dy\right) </mrow>
+                  <mrow> \amp   = -c\left(\int y^{2}\,dx+\int 2xy\,dy\right) </mrow>
+                </md>
+               This must be true along any path, so choose the path <m> y = 0, \quad \,dy = 0,</m> 
+               while x goes from 0 to x; then hold x constant with <m>\,dx = 0</m> while y goes from 0 to y. 
+               For the first part of this path, <m>V = 0,</m> and for the second part  
+               <me>
+                V(x,y) = -c\int\limits_{0}^{y} 2xy\,dy  =  -c x \left[y^{2}\right]_{0}^{y}= -c x y^2 
+               </me>
+                     </li>
+              <li>
+                <me>
+                  V(1 \,m, \, 2 \,m) =  - 4000 \,V
+                </me>
+                   </li>
+             </ol>
+          </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A charge <m>q_{1} = -1 \,\mu C</m> is located at (-1 m, 1 m). 
+        A second charge <m>q_{2} = +2 \,\mu C</m> is located at (2 m, -1 m). 
+        How much work is done by the electrical field of these two charges when 
+        a third charge <m>q_{3} = +3 \,\mu C</m> is moved from the origin to the point (1 m, 1 m)? 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>q_{1} = -1.00 \times 10^{-6} \,C;\quad q_{1} = 2.00 \times 10^{-6} \,C; \quad	q_{3} = 3.00 \times 10^{-6} \,C. </m>
+      </p>
+      <image source="fig25.png" width="35%"> </image>
+      <p>
+       <md>
+        <mrow>V_{o} \amp  =  k\frac{q_{1}}{r_{o1}}+  k\frac{q_{2}}{r_{o2}};</mrow>
+        <mrow> r_{o1}\amp = \sqrt{1^{2}+1^{2}} \,m; </mrow>
+        <mrow>r_{o2} \amp  = \sqrt{2^{2}+1^{2}} \,m;	 </mrow>
+        <mrow> V_{o}\amp   = 1.685\times 10^{3} \,V</mrow> 
+        <mrow> V_{p} \amp =  k\frac{q_{1}}{r_{p1}} +  k\frac{q_{2}}{r_{p2}};</mrow>
+        <mrow>  r_{p1}\amp = 2 \,m;</mrow>
+        <mrow>r_{p2} \amp  = \sqrt{1^{2}+2^{2}} \,m;</mrow>
+        <mrow> V_{p}\amp  = 3.550\times 10^{3} \,V </mrow>
+        <mrow>  W_{op}(field)\amp  = -W_{op}(external) =  q_{3} (V_{p} - V_{o});</mrow>
+        <mrow> W_{op}(field)\amp= 5.59\times10^{-3} \,J </mrow>
+       </md>
+        </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The electric potential near the origin is given by 
+        <me>
+          V(r) = \frac{1}{2}k r^{2},
+        </me>
+         where <m>k = 10^{4} \,V/m^{2}</m> and <m>r</m> is the magnitude of the position vector 
+         <me>
+          \vec{r} = x \hat{i}+ y \hat{j} + z\hat{ k}.
+         </me>
+         Find 
+         <ol marker="a.">
+          <li>
+           <m>V(x,y,z),</m>
+          </li>
+          <li>
+            <m>\vec{E}(x,y,z),</m>
+          </li>
+          <li><m>\vec{E}( \vec{r} ),</m></li>
+          <li><m>V </m> at (0.3m, 0.4m, 0),</li>
+          <li><m>E</m> at (0.3m, 0.4m, 0),</li>
+          <li>the speed of a particle of mass <m>m = 1 \,g</m> and charge <m>q = 10 \,\mu C</m> 
+            when passing through the origin after being released from rest at point (0.3 m, 0.4 m, 0). 
+            Note: Ignore gravity in this problem.</li>
+         </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker="a.">
+          <li>
+            <md>
+              <mrow> V(r)\amp =\frac{1}{2}k r^{2};</mrow>
+              <mrow>  k\amp =10^{4}\,V/m^{2},</mrow>
+              <mrow> m\amp =10^{-3}\,kg,</mrow>
+              <mrow> q\amp=10^{-5}C </mrow>
+              <mrow>\therefore\quad V  \amp =\frac{1}{2} k (x^{2}+y^{2}+z^{2}) </mrow>
+              <mrow> r^{2}\amp = x^{2}+y^{2}+z^{2}]</mrow>
+            </md>
+             </li>
+          <li>
+           <me>
+            \vec{E}=-\vec{\nabla} V =-kx \hat{i}-ky \hat{j}-kz \hat{k}
+           </me>
+             </li>
+          <li><m>\vec{E}=-k\vec{r}</m> </li> 
+          <li><m>\vec{E}=-\vec{\nabla} V =1250 \,V; </m> [ V(0.3 m,0.4 m,0)] </li>
+          <li><m>\vec{E}(0.3\,m,0.4\,m,0) = -3000\, N/C \hat{i}-4000 \,N/C \hat{j}</m> </li>
+          <li><me>
+            U=qV;
+          </me>
+           <me>
+            U=\frac{1}{2}mv^{2};
+          </me>
+          <me>
+            v=\sqrt{\frac{2qV}{m}}=5 \,m/s
+          </me>
+             </li>
+         </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        If a charged conducting sphere (A) of radius <m>r_{1}</m> and charge <m>q_{1}</m> 
+        is connected to an uncharged conducting sphere (B) of radius <m>r_{2}</m> with a very 
+        thin and long wire such that <m>l \gt \gt (r_{1}+r_{2})</m>. Find the charge on sphere (B). 
+        Where <m>l</m> is the distance between the conductors.
+      </p>
+    </statement>
+    <solution>
+      <image source="elpotspheres.png" width="35%"> </image>
+      <p>
+        Since sphere (B) is placed at very far away from sphere (A) the potential of sphere (B) must be zero initially. 
+        Potential at sphere (A) is <me>
+          V_{1}=\frac{kq_{1}}{r_{1}}.
+        </me>
+          Potential at sphere (B) is <me>
+            V_{2} = 0,
+          </me>
+                 <me>
+                  i.e., \quad V_{1} \gt V_{2}
+                 </me>
+                  Hence charge starts flowing from sphere (A) to sphere (B) till they acquire the same potential, i.e., 
+                  <me>
+                    V'_{1}=V'_{2}.
+                  </me>
+                 Now, once they reaches at the same potential then charge left on sphere (A) is 
+                 <me>
+                  q'=q_{1}-q_{2},
+                 </me>
+                 where <m>q_{2}</m> is the final charge transferred onto sphere (B). 
+                 Therefore final potential of sphere (A) is <me>
+                  V'_{1} = \frac{kq'}{r_{1}}
+                 </me>
+                  and final potential at sphere (B) is <me>
+                    V'_{2} = \frac{kq_{2}}{r_{2}}.
+                  </me>
+                  But 
+                  <me>
+                    V'_{1} = V'_{2}
+                  </me>
+                  <me>
+                    \text{or,}\quad \frac{kq'}{r_{1}}=\frac{kq_{2}}{r_{2}}
+                  </me>
+                  <me>
+                    \text{or,}\quad q' r_{2} = q_{2}r_{1}
+                  </me>
+                  <me>
+                    \text{or,}\quad (q_{1}-q_{2})r_{2} = q_{2}r_{1}
+                  </me>
+                  <me>
+                    \therefore\quad q_{2} = \frac{q_{1}r_{2}}{r_{1}+r_{2}} 
+                  </me>
+                         </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The vertical deflection plates of a Cathode-Ray Tube (CRT) are each L = 10 cm square plates 
+        spaced d = 2 cm apart and located D = 20 cm in front of the fluorescent screen as shown below. 
+        An electron beam enters the region between plates and just misses the upper plate when it exits. 
+        The voltage between the plates is 100 V. 
+        <ol marker="a.">
+          <li>
+            What is the magnitude and direction of the electric field between the plates? 
+          </li>
+          <li>
+            What is the electric charge on the upper plate?
+          </li>
+          <li>
+            What is the force on an electron when between plates?
+          </li>
+          <li>
+            How much time does an electron spend between the plates? 
+          </li>
+          <li>
+            What is the speed of the electron when it enters the electric field?
+          </li>
+          <li>
+            What was the potential difference in the electron gun that accelerated the electron up to this speed?
+          </li>
+          <li>
+            What is the electron\rq s speed when it leaves the plates?
+          </li>
+          <li>
+            How far is the electron deflected when it hits the screen?
+          </li>
+        </ol>
+         </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m> L  =  0.1 \,m;\quad d  =  0.02 \,m; \quad D  =  0.2 \,m;</m> 
+        <m>V_{o} = 100 \,V; \epsilon_{o} = 8.85\times10^{-12} \,C^{2}/N.m^{2};</m>
+        <me>
+          e  =  1.60\times10^{-19} \,C; \quad m = 9.11\times10^{-31} \,kg
+        </me>
+      </p>
+      <image source="fig26.png" width="35%"> </image>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              \vec{E}= -\vec{\nabla V} = -\frac{\partial V}{\partial r};
+            </me>
+            <me>
+              \text{or,}\quad V_{o}=\vec{E} \cdot\vec{d};
+            </me>
+            <me>
+              \text{or,}\quad E= -\frac{V_{o}}{d}y
+            </me>
+            <me>
+              E=5\times 10^{3}V/m \,(down);
+            </me>
+            <me>
+              \vec{E}=-\frac{V_{o}}{d} \hat{j} =-5\times 10^{3}\,V/m \hat{j} 
+            </me>
+             </li>
+          <li>
+            <me>
+              \sigma=\epsilon_{o}E = 4.425\times 10^{-8} \,C/m^{2};\quad  q=0.4425 \,nC
+            </me>
+            <m>[\because E=\frac{\sigma}{\epsilon_{o}}; \quad \sigma=\frac{q}{A};\quad  A=L^{2}]</m>
+              </li>
+          <li>
+           <me>
+            \vec{F}=-e\vec{E};\quad \vec{F} =8\times 10^{-16}N\hat{j}
+           </me>
+            </li>
+            <li>
+            <me>
+              a = \frac{F}{m}= 8.782 \times 10^{14}m/s^{2}
+            </me>
+            <me>
+              F = ma;
+            </me>
+            <me>
+             also,\quad  \frac{d}{2}=\frac{1}{2}at^{2};
+            </me>
+            
+            <me>
+              \therefore \quad t=\sqrt{\frac{d}{a}}=4.772 \times 10^{-9} s
+            </me>
+          </li>
+          <li>
+            <me>
+              L=v_{o}t;
+            </me>
+            <me>
+             or,\quad  v_{o}=\frac{L}{t}=2.095 \times 10^{7} \,m/s 
+            </me>
+              </li>
+          <li>
+            <me>
+              eV  =\frac{1}{2}m v_{o}^{2};\quad V= 1.25\times 10^{3} \,V 
+            </me>
+               </li>
+          <li>
+            <me>
+              \Delta U =e(\frac{V_{o}}{2});
+            </me>
+            <me>
+              \Delta K =\frac{1}{2}m v^{2}-\frac{1}{2}m v_{o}^{2};
+            </me>
+            <me>
+              \Delta U =\Delta K 
+            </me>
+            <me>
+              \Delta U = 8\times 10^{-18}\,J;
+            </me>
+            <me>
+              v =\sqrt{v^{2}_{o}+\frac{2\Delta U}{m}}= 2.137\times 10^{7} \,m/s 
+            </me>
+               </li>
+          <li>
+            <me>
+              v_{x} = v_{o};
+            </me>
+            <me>
+              \text{or,}\quad \tan\theta = \frac{v_{y}}{v_{x}};
+            </me>
+            <me>
+              v_{y}=at=4.19\times 10^{6} \,m/s;
+            </me>
+            <me>
+              \tan\theta =\frac{y-d/2}{D}
+            </me>
+            <me>
+              \theta=11.4^{o};
+            </me>
+            <me>
+              \quad y=D\tan\theta= 0.04 \,m
+            </me>
+              </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Find the electrical potential at a point due to a non-uniform linear charge density such that 
+        <m>\lambda=a|y|</m> of a rod of length <m>2a</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Consider a rod of length <m>2a</m> having non-linear charge density <m>\lambda=a|y|</m> 
+        so that 
+        <me>
+          \begin{cases}
+ |y| = +y \quad \text{for +ve  y-axis} \\
+ \quad	= -y \quad \text{for -ve  y-axis.} 
+\end{cases}
+        </me>
+       Potential at point P  due to charge element <m>\,dq</m> is 
+       <me>
+        \,dV = \frac{k\,dq}{r}\quad \text{where}\quad r=\sqrt{x^{2}+y^{2}}.
+       </me>
+            </p>
+            <image source="nonlinden.png" width="35%"> </image>
+            <p>
+              Therefore potential at P  due to entire rod,
+              <me>
+                V=\int\,dV=\int\limits_{-a}^{a}\frac{k\lambda\,dy}{\sqrt{x^{2}+y^{2}}} \quad [\because\lambda=\frac{\,dq}{\,dy}]
+              </me>
+              
+              <me>
+                \text{or,}\quad V=\int\,dV=\int\limits_{-a}^{a}\frac{k a|y|\,dy}{\sqrt{x^{2}+y^{2}}}
+              </me>
+              <me>
+                = \int\limits_{-a}^{0}\frac{-k a y\,dy}{\sqrt{x^{2}+y^{2}}} + \int\limits_{0}^{a}\frac{k a y\,dy}{\sqrt{x^{2}+y^{2}}}
+              </me>
+              <me>
+                \text{or,}\quad V = -k a \left[\int\limits_{-a}^{0}\frac{ y\,dy}{\sqrt{x^{2}+y^{2}}} - \int\limits_{0}^{a}\frac{ y\,dy}{\sqrt{x^{2}+y^{2}}}\right]
+              </me>
+                Lets solve 
+                <me>
+                  \mathscr{I} = \frac{ y\,dy}{\sqrt{x^{2}+y^{2}}}
+                </me>
+                  From figure,
+                  <me>
+                    x^{2}+y^{2}=r^{2} 
+                  </me>
+                  so that  <m>2y\,dy=2r\,dr</m>  
+                  <me>
+                   or,\quad  y\,dy=r\,dr 
+                  </me>
+                  <me>
+                    \therefore\quad I = \int \frac{r\,dr}{r}=\int \,dr=r=\sqrt{x^{2}+y^{2}}
+                  </me>
+                 Hence,
+                 <me>
+                  V=-ka\left[\left(\sqrt{x^{2}+y^{2}}\right)_{-a}^{0}-\left(\sqrt{x^{2}+y^{2}}\right)_{0}^{a}\right]
+                 </me>
+                 <me>
+                  =-ka\left[\left(\sqrt{x^{2}}-\sqrt{x^{2}+a^{2}}\right)-\left(\sqrt{x^{2}+a^{2}}-\sqrt{x^{2}}\right)\right]
+                 </me>
+                 <me>
+                  =-ka\left[\left(|x|-\sqrt{x^{2}+a^{2}}\right)-\left(\sqrt{x^{2}+a^{2}}-|x|\right)\right]
+                 </me>
+                 since <m>-a</m> to  <m>0</m>  <m>|x|</m> is -ve hence first term is -ve, ie., 
+                 <me>
+                  \therefore\quad V=2ka\left[|x|-\sqrt{x^{2}+y^{2}}\right]
+                 </me>
+                    </p>
+    </solution>
+  </example>
+</paragraphs>
 </section>
