@@ -88,7 +88,16 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.1.2",
   "title": "Coulumb’s Law",
-  "body": " Coulumb's Law   The force of attraction or repulsion between any two point charges is directly proportional to the product of these charges and inversely proportional to the square of distance between them. The direction of force is always acting along the line joining these two point charges. If is a force acting on charge due to charge  is a force acting on charge due to charge and is a distance between the two charges ( ) then from Coulumb's law where is unit vector along line joining the two charges, Coulomb's constant of free space, ; and permittivity of free space, Permittivity is an ability of a medium to store electrical energy in an electric field. In other words, permittivity is the extent to which a medium permits electrical lines of force between the charges. It is a resistance of a medium in forming electric fields. It describes the effect of a material in an electrical field. The higher the permittivity, the more the material tends to reduce electrical field (due to polarization) that set up it.                 Coulumb's Law in One Dimension  Coulomb's law holds good only for two point charges but if more than two charges are located in space then the force on each of them can be determined by using the principle of superposition.    Coulomb's Law in Two and Three Dimensions  Use principle of superposition to obtain force on any charge if the charges are distributed at different points in space.   "
+  "body": " Coulumb's Law   The force of attraction or repulsion between any two point charges is directly proportional to the product of these charges and inversely proportional to the square of distance between them. The direction of force is always acting along the line joining these two point charges. If is a force acting on charge due to charge  is a force acting on charge due to charge and is a distance between the two charges ( ) then from Coulumb's law where is unit vector along line joining the two charges, Coulomb's constant of free space, ; and permittivity of free space,  Permittivity is an ability of a medium to store electrical energy in an electric field. In other words, permittivity is the extent to which a medium permits electrical lines of force between the charges. It is a resistance of a medium in forming electric fields. It describes the effect of a material in an electrical field. The higher the permittivity, the more the material tends to reduce electrical field (due to polarization) that set up it.                 Coulumb's Law in One Dimension  Coulomb's law holds good only for two point charges but if more than two charges are located in space then the force on each of them can be determined by using the principle of superposition.    Coulomb's Law in Two and Three Dimensions  Use principle of superposition to obtain force on any charge if the charges are distributed at different points in space.   "
+},
+{
+  "id": "p-25",
+  "level": "2",
+  "url": "subsec-coulmb_law.html#p-25",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Permittivity "
 },
 {
   "id": "fig4",
@@ -844,7 +853,115 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.7.1",
   "title": "Capacitors",
-  "body": " Capacitors       Combination of Capacitors      Parallel-Plate Capacitor      Spherical Capacitor      Cylindrical Capacitor     "
+  "body": " Capacitors       In any electronic circuit we can see some of these types of devices [ ]. They are known as condenser or capacitor .   Capacitor: It is a charge storing device. It can store electrical energy in the form of electrical charge that produces potential difference across its plates. Since we can also store charge on a conductor it can also be considered as capacitor but it can store a very limited amount of charge for a short duration only. A capacity of storing charge on a conductor can be increased by arranging two or more parallel conducting surfaces that are placed close to each other with insulating material\/s between them, e.g. air and\/or any dielectrics. If these surfaces are plane we call it a parallel plate capacitor, if they are cylindrical it is a cylindrical capacitor, and if they are spherical it is a spherical capacitor.                Capacitance: The capacity of storing charge on a capacitor is termed as capacitance. when an isolated conductor is given a charge it acquires a certain potential. If is found that the potential V acquired by the conductor is proportional to the charge Q given to it i.e.   Here C is a proportionality constant known as capacitance of that conductor (or capacitor). Hence capacitance is defined as the charge required to raise the potential of the conductor by unity. Its unit is Farad . If one coulomb of charge stored in a capacitor of potential difference across the plates is one volt then its capacitance is one Farad. Farad is a very large number. The entire earth as a spherical capacitor has a capacitance of only 0.0007 Farad.  The increase of capacitance of a conductor can be understood by the following arrangement. Let A be an isolated conductor which is charged to a maximum potential V volts. [ Note: Potential refers to a potential difference of a conductor with respect to ground.]  Suppose we want to store some more charge on it then we have to reduce its potential somehow before putting any charge. So another isolated conductor B is brought near A then A induces negative charges on the inner surface of B and positive charges on the outer surface as shown in . The negative charge on B tends to reduce the potential of A and positive charge on B tends to increase potential of A. Since negative charges of B are closer to A than the positive charges of B the net potential of A is reduced by some amount. This slight decrees in potential of A results increase of capacitance of A because of relation remaining Q constant. Hence a more charge can be stored on the same conductor till the potential again reaches to V. The capacitance can be considerably high if the conductors are placed very close to each other and a conductor B is grounded ( ). The relation explains that the increase in permitivity of the dielectric medium between conducting plates also increases the capacitance.   Absolute Permittivity, : [ ] It is a permittivity of a medium and defines how difficult it is for a medium to form an electric field.     Combination of Capacitors  The two or more than two capacitors can be grouped in an electrical circuit to achieve certain task. These group may be series or parallel or in combination of both.                      Series Combination of Capacitors When capacitors are connected in such a way that same charge is seemed to be passing through each capacitor then the combination is called a series combination of capacitors. In this case positive terminal of one capacitor is connected to the negative terminal of another capacitor as shown in . If charge Q is sent in the circuit by a battery of emf, V [ ], then  Now replace these capacitors with such a single capacitor that draws a same amount of charge Q from the same battery as shown in , then this new capacitor is called an equivalent capacitor of all these previous capacitors in series. Hence, from eqns. and , we get -    Parallel Combination of Capacitors When capacitors are connected in such a way that charges are distributed among capacitors then the combination is called a parallel combination of capacitors. In this case similar terminals of capacitors are connected together as shown in . If q is the charge sent in the circuit by a battery of emf, V then  Now if these capacitors are replaced by a single capacitor, such that circuit draws the same amount of charge from the same battery ( ), then Hence from eqns. and , we get -       Parallel-Plate Capacitor  A parallel plate capacitor [ ] consists of two metal plates of large surface area placed close to each other parallely with one of the plates grounded. Let be the surface area of the plates and they are separated by a distance apart. If surface charge density of the plates are and space between the plates is filled with dielectric of permittivity Then the electric field between the plates is given by   pointed along -ve plate.  where is the potential difference between the plates and the angle between and is  If the space between the plates is filled with dielectric with permitivity then capacitance of a parallel plate capacitor is given by        Dielectric constant, (or Relative Permitivity, ): It is a measure of insulating ability of a medium. It is a ratio of the permitivity of the medium to the permitivity of a free space i.e., It is an ability of a medium to store electrical energy in presence of electric field.     Spherical Capacitor  A spherical capacitor consists of two concentric conducting spherical shells [ ] of inner radius and outer radius such that and space between them is filled with dielectric of permittivity . If a charge is given to the inner shell then amount of charge is induced on the inner surface of outer shell and charge on the outer surface of outer shell. As the outer surface is grounded charge neutralizes with the negative charge coming from the earth. Now using Gauss's law the electric field at any point between the shells is given        where is the radius of Gaussian surface and is the charge enclosed by it. The potential difference between the shells is then,   Hence the capacitance of the spherical capacitor is given by If , then Which is the capacitance of an isolated spherical conductor of radius .    Cylindrical Capacitor      A cylindrical capacitor consists of two concentric conducting cylindrical shells of inner radius and outer radius [ ] such that and space between them is filled with dielectric of permittivity . If a charge is given to the inner shell then the charge is induced on the inner surface of outer shell and charge on the outer surface of outer shell. As the outer cylinder is grounded charge neutralizes with the negative charge coming from the earth. Now using Gauss's law the electric field at any point between the shells is given by  where is the radius of Gaussian surface and is the surface charge density of the inner cylinder. The potential difference between the shells is then,   Hence the capacitance of the cylindrical capacitor of length is given by    "
+},
+{
+  "id": "capacitors",
+  "level": "2",
+  "url": "subsec-capctrs.html#capacitors",
+  "type": "Figure",
+  "number": "1.7.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-189",
+  "level": "2",
+  "url": "subsec-capctrs.html#p-189",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "capacitor "
+},
+{
+  "id": "p-190",
+  "level": "2",
+  "url": "subsec-capctrs.html#p-190",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Capacitor: "
+},
+{
+  "id": "figure-45",
+  "level": "2",
+  "url": "subsec-capctrs.html#figure-45",
+  "type": "Figure",
+  "number": "1.7.5",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-191",
+  "level": "2",
+  "url": "subsec-capctrs.html#p-191",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Capacitance: Farad "
+},
+{
+  "id": "p-194",
+  "level": "2",
+  "url": "subsec-capctrs.html#p-194",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Absolute Permittivity, : "
+},
+{
+  "id": "figure-48",
+  "level": "2",
+  "url": "subsec-capctrs.html#figure-48",
+  "type": "Figure",
+  "number": "1.7.6",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-196",
+  "level": "2",
+  "url": "subsec-capctrs.html#p-196",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Series Combination of Capacitors Parallel Combination of Capacitors "
+},
+{
+  "id": "paraplatecap1",
+  "level": "2",
+  "url": "subsec-capctrs.html#paraplatecap1",
+  "type": "Figure",
+  "number": "1.7.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-198",
+  "level": "2",
+  "url": "subsec-capctrs.html#p-198",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Dielectric constant, "
+},
+{
+  "id": "sphcap",
+  "level": "2",
+  "url": "subsec-capctrs.html#sphcap",
+  "type": "Figure",
+  "number": "1.7.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "cylcap2",
+  "level": "2",
+  "url": "subsec-capctrs.html#cylcap2",
+  "type": "Figure",
+  "number": "1.7.9",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "subsec-enrgy_cap",
@@ -853,7 +970,25 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.7.2",
   "title": "Energy Stored in a Capacitor",
-  "body": " Energy Stored in a Capacitor       Electric Field Energy Density     "
+  "body": " Energy Stored in a Capacitor   Let us consider a capacitor of capacitance has a charge stored on it when the potential difference across its plates is then If a further charge is given to the capacitor, then work needs to be done against the potential difference. Hence the work done is, Therefore total work done in charging the capacitor from to is given by      Electric Field Energy Density      Energy stored per unit volume in a capacitor is called energy density, i.e., Consider a charged conductor of surface charge density is placed in free space. Let a small element of area on the surface of the conductor and a point just outside of it [ ]. Hence electric field just outside the charged conductor is given by where and are electric field at point due to an element and rest of the conductor. If point is just inside the conductor then electric field inside the conductor is zero, i.e.,    Therefore from eqn. we have - Now force acting on an element due to the conductor is given by  from eqns. and   This is an outward mechanical force acting on a small elementary area If this small element is displayed normally by a distance against this force then work done is given by Therefore energy per unit volume is This work done is stored in an electric field in the form of electric potential energy, i.e., the energy per unit volume of the medium or volume density of electrical energy in the region of an electric field is    Alternative     Hence    "
+},
+{
+  "id": "fieldenergy",
+  "level": "2",
+  "url": "subsec-enrgy_cap.html#fieldenergy",
+  "type": "Figure",
+  "number": "1.7.10",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-cap_enrgloss",
+  "level": "1",
+  "url": "subsec-cap_enrgloss.html",
+  "type": "Subsection",
+  "number": "1.7.3",
+  "title": "Loss of Energy in Combining two Capacitors",
+  "body": " Loss of Energy in Combining two Capacitors  When two charged capacitors are connected together then charge start sharing from one capacitor to another till they acquire a common potential. During sharing the charge capacitors loss energy in the form of heat. The loss of energy can be calculated as follows.  Let us consider two capacitors of capacitance and have potentials and respectively. Hence total charge on the capacitors is When connected charge from one capacitor transfers to another till they obtain common potential i.e.    Electrical energy of the capacitors before and after connection  Hence energy loss after the connection is given by      Since , there must be energy loss when connecting two capacitors.  "
 },
 {
   "id": "sec_first-examplesC",
@@ -862,7 +997,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Examples C",
-  "body": " Examples C   Electric Potential    An electric charge remains located at the origin of a coordinate system. A second electrical charge is moved from point to point.  How much work is required by an external force to move the second charge along the x-axis from point (1 m, 0) to (2m, 0)?  What is the electric potential at the point (1 m, 0) due to the charge at the origin?  What is the potential difference between the points (1 m, 0) and (2 m, 0)?  What is the potential difference between points (1 m, 0) and (0, 1 m)?  How much work is required by an external force to move the second charge from point (1 m, 0) to (0, 1 m)?  What is the integral along a circle from point (1 m, 0) to (0, 1 m)?      Given:                         The same result is obtained by taking is always perpendicular to along the circular path of integration, so         The electric field is given by the equation where   How much work does the electrical field do on a charge of taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?  How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?  What is the equation for the electric potential of this field assuming the origin has a potential of zero?  What is the electric potential at point (1 m, 2 m)?      Given:          For path AB: and x goes from 0 to 1 m, so   For path BC: and y goes from 0 to 2 m, so For total path    For path AC: and x goes from 0 to 1 m, so    This must be true along any path, so choose the path while x goes from 0 to x; then hold x constant with while y goes from 0 to y. For the first part of this path, and for the second part            A charge is located at (-1 m, 1 m). A second charge is located at (2 m, -1 m). How much work is done by the electrical field of these two charges when a third charge is moved from the origin to the point (1 m, 1 m)?    Given:            The electric potential near the origin is given by where and is the magnitude of the position vector Find         at (0.3m, 0.4m, 0),  at (0.3m, 0.4m, 0),  the speed of a particle of mass and charge when passing through the origin after being released from rest at point (0.3 m, 0.4 m, 0). Note: Ignore gravity in this problem.                [ V(0.3 m,0.4 m,0)]              If a charged conducting sphere (A) of radius and charge is connected to an uncharged conducting sphere (B) of radius with a very thin and long wire such that . Find the charge on sphere (B). Where is the distance between the conductors.      Since sphere (B) is placed at very far away from sphere (A) the potential of sphere (B) must be zero initially. Potential at sphere (A) is Potential at sphere (B) is  Hence charge starts flowing from sphere (A) to sphere (B) till they acquire the same potential, i.e., Now, once they reaches at the same potential then charge left on sphere (A) is where is the final charge transferred onto sphere (B). Therefore final potential of sphere (A) is and final potential at sphere (B) is But           The vertical deflection plates of a Cathode-Ray Tube (CRT) are each L = 10 cm square plates spaced d = 2 cm apart and located D = 20 cm in front of the fluorescent screen as shown below. An electron beam enters the region between plates and just misses the upper plate when it exits. The voltage between the plates is 100 V.  What is the magnitude and direction of the electric field between the plates?  What is the electric charge on the upper plate?  What is the force on an electron when between plates?  How much time does an electron spend between the plates?  What is the speed of the electron when it enters the electric field?  What was the potential difference in the electron gun that accelerated the electron up to this speed?  What is the electron\\rq s speed when it leaves the plates?  How far is the electron deflected when it hits the screen?      Given:                                                         Find the electrical potential at a point due to a non-uniform linear charge density such that of a rod of length .    Consider a rod of length having non-linear charge density so that Potential at point P due to charge element is     Therefore potential at P due to entire rod,    Lets solve From figure, so that   Hence,   since to  is -ve hence first term is -ve, ie.,      "
+  "body": " Examples C   Electric Potential    An electric charge remains located at the origin of a coordinate system. A second electrical charge is moved from point to point.  How much work is required by an external force to move the second charge along the x-axis from point (1 m, 0) to (2m, 0)?  What is the electric potential at the point (1 m, 0) due to the charge at the origin?  What is the potential difference between the points (1 m, 0) and (2 m, 0)?  What is the potential difference between points (1 m, 0) and (0, 1 m)?  How much work is required by an external force to move the second charge from point (1 m, 0) to (0, 1 m)?  What is the integral along a circle from point (1 m, 0) to (0, 1 m)?      Given:                         The same result is obtained by taking is always perpendicular to along the circular path of integration, so         The electric field is given by the equation where   How much work does the electrical field do on a charge of taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?  How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?  What is the equation for the electric potential of this field assuming the origin has a potential of zero?  What is the electric potential at point (1 m, 2 m)?      Given:          For path AB: and x goes from 0 to 1 m, so   For path BC: and y goes from 0 to 2 m, so For total path    For path AC: and x goes from 0 to 1 m, so    This must be true along any path, so choose the path while x goes from 0 to x; then hold x constant with while y goes from 0 to y. For the first part of this path, and for the second part            A charge is located at (-1 m, 1 m). A second charge is located at (2 m, -1 m). How much work is done by the electrical field of these two charges when a third charge is moved from the origin to the point (1 m, 1 m)?    Given:            The electric potential near the origin is given by where and is the magnitude of the position vector Find         at (0.3m, 0.4m, 0),  at (0.3m, 0.4m, 0),  the speed of a particle of mass and charge when passing through the origin after being released from rest at point (0.3 m, 0.4 m, 0). Note: Ignore gravity in this problem.                [ V(0.3 m,0.4 m,0)]              If a charged conducting sphere (A) of radius and charge is connected to an uncharged conducting sphere (B) of radius with a very thin and long wire such that . Find the charge on sphere (B). Where is the distance between the conductors.      Since sphere (B) is placed at very far away from sphere (A) the potential of sphere (B) must be zero initially. Potential at sphere (A) is Potential at sphere (B) is  Hence charge starts flowing from sphere (A) to sphere (B) till they acquire the same potential, i.e., Now, once they reaches at the same potential then charge left on sphere (A) is where is the final charge transferred onto sphere (B). Therefore final potential of sphere (A) is and final potential at sphere (B) is But           The vertical deflection plates of a Cathode-Ray Tube (CRT) are each L = 10 cm square plates spaced d = 2 cm apart and located D = 20 cm in front of the fluorescent screen as shown below. An electron beam enters the region between plates and just misses the upper plate when it exits. The voltage between the plates is 100 V.  What is the magnitude and direction of the electric field between the plates?  What is the electric charge on the upper plate?  What is the force on an electron when between plates?  How much time does an electron spend between the plates?  What is the speed of the electron when it enters the electric field?  What was the potential difference in the electron gun that accelerated the electron up to this speed?  What is the electron\\rq s speed when it leaves the plates?  How far is the electron deflected when it hits the screen?      Given:                                                         Find the electrical potential at a point due to a non-uniform linear charge density such that of a rod of length .    Consider a rod of length having non-linear charge density so that Potential at point P due to charge element is     Therefore potential at P due to entire rod,    Lets solve From figure, so that   Hence,   since to  is -ve hence first term is -ve, ie.,       Capacitors    A parallel-plate capacitor is made from two square sheets of metal each 2 mm thick and 20 cm on a side. The distance between the plates is 1 mm and the voltage between them is 1000 V. Find  the capacitance of the capacitor,  the charge on each plate,  the charge density (charge per unit area),  the electric field between the plates,  the energy stored in the capacitor,  the energy density of the electric field.      Given:                                 A spherical capacitor consists of two concentric conducting shells. A charge of resides on the outer surface of the inner shell of radius and a charge on the inner surface of the outer shell of radius as shown in the given figure.    What is the charge per unit area on the inner shell?  On the outer shell?  What is the electric field between the shells?  What is the potential difference between the shells?  What is the capacitance of the spherical capacitor?  Which of the previous the results would have been different if the charges had been reversed.                              Replace in the above equations with The sign on every answer would change except for the last. The capacitance would be the same.        Three identical parallel plate capacitors (a, b, and c) have the following arrangement.  Capacitor (a) is filled with air in between the plates,    Capacitors (b) is half filled with dielectric of dielectric constant and    Capacitors (c) is half filled with dielectric of dielectric constant     Find the capacitance of each of these capacitors.         It is consider as a combination of two capacitors in series.     It is consider as a combination of two capacitors in parallel.           Four capacitors are arranged as shown in figure  The potential at point is 10 V above ground and point is grounded.  Find the voltage across and the charge on each capacitor.  What is the voltage at point with respect to the ground?      ( Find equivalent capacitance and work backward to get voltage and charge. ) Given:      and are in series, we have       and are in parallel, we have      and are in series, we have      Now move bnackward from the last figure to previous one.  from figure (d)    from figure (c)     also     from figure (b)     also     from figure (a)     also                 Note:          A capacitor is made by sandwiching two thin sheets of aluminum between two layers of neoprene rubber and then rolled into a cylinder. Each of the sheets are 50 cm wide and 50 m long. The layers of rubber are 0.5 mm thick and have a dielectric constant of 6.7.  What is the permittivity of neoprene?  What is the capacitance of the capacitor?  If 12 volts are applied across the capacitor, what is the electric field between the sheets?  What is the charge density on the surface of the aluminum sheets?  How much energy is stored in the capacitor?      If the sheets were kept flat instead of being rolled up, we would have a flat-plate capacitor with only one side of each sheet charged (the one nearest the other sheet). But because of the rolling, the results is the same as if many sheets of alternating charge were stacked on top of one another. Therefore, electrical charge resides on both sides of each sheet (except for the outermost sheets which can be neglected). This doubles the effective area of the sheets making the area A of the capacitor twice the area of one sheet. Otherwise, the rolled up capacitor is the same as a regular flat-plate capacitor.  Given:                          "
 },
 {
   "id": "example-23",
@@ -928,13 +1063,58 @@ var ptx_lunr_docs = [
   "body": "  Find the electrical potential at a point due to a non-uniform linear charge density such that of a rod of length .    Consider a rod of length having non-linear charge density so that Potential at point P due to charge element is     Therefore potential at P due to entire rod,    Lets solve From figure, so that   Hence,   since to  is -ve hence first term is -ve, ie.,    "
 },
 {
+  "id": "example-30",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-30",
+  "type": "Example",
+  "number": "1.8.8",
+  "title": "",
+  "body": "  A parallel-plate capacitor is made from two square sheets of metal each 2 mm thick and 20 cm on a side. The distance between the plates is 1 mm and the voltage between them is 1000 V. Find  the capacitance of the capacitor,  the charge on each plate,  the charge density (charge per unit area),  the electric field between the plates,  the energy stored in the capacitor,  the energy density of the electric field.      Given:                              "
+},
+{
+  "id": "example-31",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-31",
+  "type": "Example",
+  "number": "1.8.9",
+  "title": "",
+  "body": "  A spherical capacitor consists of two concentric conducting shells. A charge of resides on the outer surface of the inner shell of radius and a charge on the inner surface of the outer shell of radius as shown in the given figure.    What is the charge per unit area on the inner shell?  On the outer shell?  What is the electric field between the shells?  What is the potential difference between the shells?  What is the capacitance of the spherical capacitor?  Which of the previous the results would have been different if the charges had been reversed.                              Replace in the above equations with The sign on every answer would change except for the last. The capacitance would be the same.     "
+},
+{
+  "id": "example-32",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-32",
+  "type": "Example",
+  "number": "1.8.10",
+  "title": "",
+  "body": "  Three identical parallel plate capacitors (a, b, and c) have the following arrangement.  Capacitor (a) is filled with air in between the plates,    Capacitors (b) is half filled with dielectric of dielectric constant and    Capacitors (c) is half filled with dielectric of dielectric constant     Find the capacitance of each of these capacitors.         It is consider as a combination of two capacitors in series.     It is consider as a combination of two capacitors in parallel.        "
+},
+{
+  "id": "example-33",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-33",
+  "type": "Example",
+  "number": "1.8.11",
+  "title": "",
+  "body": "  Four capacitors are arranged as shown in figure  The potential at point is 10 V above ground and point is grounded.  Find the voltage across and the charge on each capacitor.  What is the voltage at point with respect to the ground?      ( Find equivalent capacitance and work backward to get voltage and charge. ) Given:      and are in series, we have       and are in parallel, we have      and are in series, we have      Now move bnackward from the last figure to previous one.  from figure (d)    from figure (c)     also     from figure (b)     also     from figure (a)     also                 Note:       "
+},
+{
+  "id": "example-34",
+  "level": "2",
+  "url": "sec_first-examplesC.html#example-34",
+  "type": "Example",
+  "number": "1.8.12",
+  "title": "",
+  "body": "  A capacitor is made by sandwiching two thin sheets of aluminum between two layers of neoprene rubber and then rolled into a cylinder. Each of the sheets are 50 cm wide and 50 m long. The layers of rubber are 0.5 mm thick and have a dielectric constant of 6.7.  What is the permittivity of neoprene?  What is the capacitance of the capacitor?  If 12 volts are applied across the capacitor, what is the electric field between the sheets?  What is the charge density on the surface of the aluminum sheets?  How much energy is stored in the capacitor?      If the sheets were kept flat instead of being rolled up, we would have a flat-plate capacitor with only one side of each sheet charged (the one nearest the other sheet). But because of the rolling, the results is the same as if many sheets of alternating charge were stacked on top of one another. Therefore, electrical charge resides on both sides of each sheet (except for the outermost sheets which can be neglected). This doubles the effective area of the sheets making the area A of the capacitor twice the area of one sheet. Otherwise, the rolled up capacitor is the same as a regular flat-plate capacitor.  Given:                        "
+},
+{
   "id": "ex_firstB",
   "level": "1",
   "url": "ex_firstB.html",
   "type": "Exercises",
   "number": "1.9",
   "title": "Exercise B",
-  "body": "  Exercise B  An electron is accelerated through a potential difference of over a distance of 20 cm.  If the electric field is uniform, what is its magnitude?  How much work is done on the electron?  What is the force on the electron?  If the mass of the electron is what is the speed of the electron? How does this compare to the speed of light     An electric dipole of strength has its positive charge at point (0, 1 m) and its negative charge at (0, -1 m).  What is the electric potential at point (2 m, 3 m)?  At (1 m, -2 m)?  How much work is required to move a charge of from the first point to the second point?    A charge of 100 nC is located at the origin of a coordinate system. A second charge of 200 nC is slowly brought from a large distance to within 10 cm of the first charge.  How much work is required?  What is the electrical potential energy of the second charge?  What was its potential energy before being moved?    The electric field is given by the equation where and   How much work does the electrical field do when a charge of is taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?  How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?  What is the equation for the electric potential of this field assuming the origin has a potential of zero?  What is the electric potential at point (-1 m, 2 m)?    Three point charges, which initially are infinitely far apart, are placed at the corners of an equilateral triangle of side a. Two of the point charges are identical and have charge q. What must be the value of the third charge if the net work in placing them at the corners of the triangle is zero?  Two stationary point charges 10 nC and -20 nC are located 10 cm apart. An electron is released from rest between them at a distance of 3 cm from the negative charge. What is the speed of the electron when it reaches a point 3 cm from the positive charge?  The electric potential is given by where Find     V at (1 m, 2 m, 3 m),  at (1 m, 2 m,3 m).    The electrical potential is given by where  and   What is the electric field at an arbitrary point (x,y,z)?  At what point is the electric field equal to zero?  At what point is the electric potential zero?    Rutherford was able to show that alpha particles of energy 7.7 MeV could be stopped by the electrical repulsion of an aluminum nucleus.  What is the minimum distance of approach of the center of the alpha particle to the center of the aluminum nucleus (i.e. the approximate radius of the aluminum nucleus)?  What was the original velocity of the alpha particle?          A potential difference of 4000 V is applied to the plates of a parallel plate capacitor.  If the air between the plates ionizes when the electric field exceeds 3 MV\/m, what is the minimum separation between the plates?  What is the surface charge density on the plates at that time?    A pair of charged parallel conducting plates produces a uniform field of directed to the right, between the plates. The separation of the plates is 50 mm. An electron is projected from plate A, directly toward plate B, with an initial velocity of . What is the velocity of electron just before it hits plate B.  "
+  "body": "  Exercise B   Electrical Potential  An electron is accelerated through a potential difference of over a distance of 20 cm.  If the electric field is uniform, what is its magnitude?  How much work is done on the electron?  What is the force on the electron?  If the mass of the electron is what is the speed of the electron? How does this compare to the speed of light     An electric dipole of strength has its positive charge at point (0, 1 m) and its negative charge at (0, -1 m).  What is the electric potential at point (2 m, 3 m)?  At (1 m, -2 m)?  How much work is required to move a charge of from the first point to the second point?    A charge of 100 nC is located at the origin of a coordinate system. A second charge of 200 nC is slowly brought from a large distance to within 10 cm of the first charge.  How much work is required?  What is the electrical potential energy of the second charge?  What was its potential energy before being moved?    The electric field is given by the equation where and   How much work does the electrical field do when a charge of is taken from point (0, 0) along the x-axis to (1 m, 0) and then parallel to the y-axis to (1 m, 2 m)?  How much electrical work is done when the charge is moved along a straight line from (0, 0) to (1 m, 2 m)?  What is the equation for the electric potential of this field assuming the origin has a potential of zero?  What is the electric potential at point (-1 m, 2 m)?    Three point charges, which initially are infinitely far apart, are placed at the corners of an equilateral triangle of side a. Two of the point charges are identical and have charge q. What must be the value of the third charge if the net work in placing them at the corners of the triangle is zero?  Two stationary point charges 10 nC and -20 nC are located 10 cm apart. An electron is released from rest between them at a distance of 3 cm from the negative charge. What is the speed of the electron when it reaches a point 3 cm from the positive charge?  The electric potential is given by where Find     V at (1 m, 2 m, 3 m),  at (1 m, 2 m,3 m).    The electrical potential is given by where  and   What is the electric field at an arbitrary point (x,y,z)?  At what point is the electric field equal to zero?  At what point is the electric potential zero?    Rutherford was able to show that alpha particles of energy 7.7 MeV could be stopped by the electrical repulsion of an aluminum nucleus.  What is the minimum distance of approach of the center of the alpha particle to the center of the aluminum nucleus (i.e. the approximate radius of the aluminum nucleus)?  What was the original velocity of the alpha particle?          A potential difference of 4000 V is applied to the plates of a parallel plate capacitor.  If the air between the plates ionizes when the electric field exceeds 3 MV\/m, what is the minimum separation between the plates?  What is the surface charge density on the plates at that time?    A pair of charged parallel conducting plates produces a uniform field of directed to the right, between the plates. The separation of the plates is 50 mm. An electron is projected from plate A, directly toward plate B, with an initial velocity of . What is the velocity of electron just before it hits plate B.    Capacitors  A parallel-plate capacitor has a capacitance of 500 pF and a voltage of 100 V. If the separation between the plates is 0.5 mm, find  the charge on the capacitor,  area of the capacitor,  the electric field between the plates,  the energy stored in the capacitor,  the charge density on the surface of the plates,  the energy density of the electric field between the plates.    A spherical capacitor has a capacitance of 1 nF and a charge of If the inner sphere has an outer radius of 10 cm, find  the spacing between the two spheres,  the potential difference between the two spheres,  the energy stored in the capacitor,  the charge density on the inner sphere,  the charge density on the outer sphere,  the electric field mid-way between the spheres,  the average energy density between the two spheres.    A cylindrical capacitor has an inner radius of 1 mm, an outer radius of 2 mm, and a length of 4 m. If the voltage across the capacitor is 10 V, find  the capacitance of the capacitor,  the charge per unit length on the capacitor,  the energy stored in the capacitor,  the electric field mid-way between the cylinders,  the energy density of the electric field mid-way between the capacitors,  the average energy density of the electric field inside the capacitor.    A parallel-plate capacitor has a capacitance of 100 pF and a voltage of 100 V. Find  charge on the capacitor,  the energy stored in the capacitor.  If the charge on the capacitor is kept constant while the distance between the plates is doubled, what happens to the electric field between the plates?  What is the energy stored in the new capacitor?  How much work must be done to separate the plates?  What is the new capacitance when the separation is doubled?  If the area of the plates is what is the force between the two plates?    A cylindrical capacitor of length 20 m stores 10 nJ of energy when the voltage is 5 V. Find  the charge on each conductor,  the ratio of the radii of the conductors.    A spherical capacitor of inner radius 10 cm stores 10 nC of charge when charged with 10 V. Find  its capacitance,  its outer radius,  the energy stored,  the volume between the two spheres,  the average energy density of the electric field between the spheres.    A capacitor of 12 mF is connected in series to a capacitor of 24 mF.  What is the equivalent capacitance?  If 8 volts are applied across the combination, what is the charge on each capacitor?  What is the voltage across each capacitor?  What would be the charge and voltage on each capacitor if they had been connected in parallel?    Find the charge on and voltage across each of the capacitors shown at right.   The capacitors in the figure below are initially uncharged and connected with the switch S open. If the applied voltage is Vab = 36 V,    what is the potential difference ?  What is the voltage on each capacitor after the switch S is closed?  How much charge flowed through the switch when it was closed?    A flat-plate capacitor of length 20 cm, width 10 cm, and spacing 1 mm, is connected to a 24 V battery. Find  the charge on the capacitor,  the surface charge density on the plates,  the energy stored in the capacitor.  If strontium titanate of dielectric constant 310 occupies the space between the capacitors, find the permittivity of the dielectric,  the capacitance of the capacitor,  the energy density of the electric field inside the dielectric.     "
 },
 {
   "id": "exercise-42",
@@ -1036,13 +1216,103 @@ var ptx_lunr_docs = [
   "body": "A pair of charged parallel conducting plates produces a uniform field of directed to the right, between the plates. The separation of the plates is 50 mm. An electron is projected from plate A, directly toward plate B, with an initial velocity of . What is the velocity of electron just before it hits plate B. "
 },
 {
+  "id": "exercise-53",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-53",
+  "type": "Exercise",
+  "number": "1.9.12",
+  "title": "",
+  "body": "A parallel-plate capacitor has a capacitance of 500 pF and a voltage of 100 V. If the separation between the plates is 0.5 mm, find  the charge on the capacitor,  area of the capacitor,  the electric field between the plates,  the energy stored in the capacitor,  the charge density on the surface of the plates,  the energy density of the electric field between the plates.   "
+},
+{
+  "id": "exercise-54",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-54",
+  "type": "Exercise",
+  "number": "1.9.13",
+  "title": "",
+  "body": "A spherical capacitor has a capacitance of 1 nF and a charge of If the inner sphere has an outer radius of 10 cm, find  the spacing between the two spheres,  the potential difference between the two spheres,  the energy stored in the capacitor,  the charge density on the inner sphere,  the charge density on the outer sphere,  the electric field mid-way between the spheres,  the average energy density between the two spheres.   "
+},
+{
+  "id": "exercise-55",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-55",
+  "type": "Exercise",
+  "number": "1.9.14",
+  "title": "",
+  "body": "A cylindrical capacitor has an inner radius of 1 mm, an outer radius of 2 mm, and a length of 4 m. If the voltage across the capacitor is 10 V, find  the capacitance of the capacitor,  the charge per unit length on the capacitor,  the energy stored in the capacitor,  the electric field mid-way between the cylinders,  the energy density of the electric field mid-way between the capacitors,  the average energy density of the electric field inside the capacitor.   "
+},
+{
+  "id": "exercise-56",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-56",
+  "type": "Exercise",
+  "number": "1.9.15",
+  "title": "",
+  "body": "A parallel-plate capacitor has a capacitance of 100 pF and a voltage of 100 V. Find  charge on the capacitor,  the energy stored in the capacitor.  If the charge on the capacitor is kept constant while the distance between the plates is doubled, what happens to the electric field between the plates?  What is the energy stored in the new capacitor?  How much work must be done to separate the plates?  What is the new capacitance when the separation is doubled?  If the area of the plates is what is the force between the two plates?   "
+},
+{
+  "id": "exercise-57",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-57",
+  "type": "Exercise",
+  "number": "1.9.16",
+  "title": "",
+  "body": "A cylindrical capacitor of length 20 m stores 10 nJ of energy when the voltage is 5 V. Find  the charge on each conductor,  the ratio of the radii of the conductors.   "
+},
+{
+  "id": "exercise-58",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-58",
+  "type": "Exercise",
+  "number": "1.9.17",
+  "title": "",
+  "body": "A spherical capacitor of inner radius 10 cm stores 10 nC of charge when charged with 10 V. Find  its capacitance,  its outer radius,  the energy stored,  the volume between the two spheres,  the average energy density of the electric field between the spheres.   "
+},
+{
+  "id": "exercise-59",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-59",
+  "type": "Exercise",
+  "number": "1.9.18",
+  "title": "",
+  "body": "A capacitor of 12 mF is connected in series to a capacitor of 24 mF.  What is the equivalent capacitance?  If 8 volts are applied across the combination, what is the charge on each capacitor?  What is the voltage across each capacitor?  What would be the charge and voltage on each capacitor if they had been connected in parallel?   "
+},
+{
+  "id": "exercise-60",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-60",
+  "type": "Exercise",
+  "number": "1.9.19",
+  "title": "",
+  "body": "Find the charge on and voltage across each of the capacitors shown at right.  "
+},
+{
+  "id": "exercise-61",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-61",
+  "type": "Exercise",
+  "number": "1.9.20",
+  "title": "",
+  "body": "The capacitors in the figure below are initially uncharged and connected with the switch S open. If the applied voltage is Vab = 36 V,    what is the potential difference ?  What is the voltage on each capacitor after the switch S is closed?  How much charge flowed through the switch when it was closed?   "
+},
+{
+  "id": "exercise-62",
+  "level": "2",
+  "url": "ex_firstB.html#exercise-62",
+  "type": "Exercise",
+  "number": "1.9.21",
+  "title": "",
+  "body": "A flat-plate capacitor of length 20 cm, width 10 cm, and spacing 1 mm, is connected to a 24 V battery. Find  the charge on the capacitor,  the surface charge density on the plates,  the energy stored in the capacitor.  If strontium titanate of dielectric constant 310 occupies the space between the capacitors, find the permittivity of the dielectric,  the capacitance of the capacitor,  the energy density of the electric field inside the dielectric.   "
+},
+{
   "id": "sec_second-intro",
   "level": "1",
   "url": "sec_second-intro.html",
   "type": "Section",
   "number": "2.1",
-  "title": "Algebra of Vectors",
-  "body": " Algebra of Vectors  "
+  "title": "Electrical Circuits",
+  "body": " Electrical Circuits      "
 },
 {
   "id": "sec_second-examplesA",
@@ -1063,9 +1333,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-53",
+  "id": "exercise-63",
   "level": "2",
-  "url": "ex_second.html#exercise-53",
+  "url": "ex_second.html#exercise-63",
   "type": "Exercise",
   "number": "2.3.1",
   "title": "",
@@ -1099,9 +1369,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-54",
+  "id": "exercise-64",
   "level": "2",
-  "url": "ex_third.html#exercise-54",
+  "url": "ex_third.html#exercise-64",
   "type": "Exercise",
   "number": "3.3.1",
   "title": "",
@@ -1135,9 +1405,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-55",
+  "id": "exercise-65",
   "level": "2",
-  "url": "ex_fourth.html#exercise-55",
+  "url": "ex_fourth.html#exercise-65",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -1171,9 +1441,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-56",
+  "id": "exercise-66",
   "level": "2",
-  "url": "ex_fifth.html#exercise-56",
+  "url": "ex_fifth.html#exercise-66",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -1189,72 +1459,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-237",
+  "id": "p-285",
   "level": "2",
-  "url": "append_math.html#p-237",
+  "url": "append_math.html#p-285",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-238",
+  "id": "p-286",
   "level": "2",
-  "url": "append_math.html#p-238",
+  "url": "append_math.html#p-286",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-239",
+  "id": "p-287",
   "level": "2",
-  "url": "append_math.html#p-239",
+  "url": "append_math.html#p-287",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-240",
+  "id": "p-288",
   "level": "2",
-  "url": "append_math.html#p-240",
+  "url": "append_math.html#p-288",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-241",
+  "id": "p-289",
   "level": "2",
-  "url": "append_math.html#p-241",
+  "url": "append_math.html#p-289",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-242",
+  "id": "p-290",
   "level": "2",
-  "url": "append_math.html#p-242",
+  "url": "append_math.html#p-290",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-243",
+  "id": "p-291",
   "level": "2",
-  "url": "append_math.html#p-243",
+  "url": "append_math.html#p-291",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-244",
+  "id": "p-292",
   "level": "2",
-  "url": "append_math.html#p-244",
+  "url": "append_math.html#p-292",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1270,9 +1540,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-245",
+  "id": "p-293",
   "level": "2",
-  "url": "appendix-2.html#p-245",
+  "url": "appendix-2.html#p-293",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

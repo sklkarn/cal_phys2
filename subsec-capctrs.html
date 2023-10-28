@@ -274,6 +274,7 @@ window.MathJax = {
 <div class="toc-item"><a href="subsec-enrgy_cap.html" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Energy Stored in a Capacitor</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="subsec-enrgy_cap.html#subsubsec-elf_enrgdenst" class="internal"><span class="codenumber">1.7.2.1</span> <span class="title">Electric Field Energy Density</span></a></div></li></ul>
 </li>
+<li><div class="toc-item"><a href="subsec-cap_enrgloss.html" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Loss of Energy in Combining two Capacitors</span></a></div></li>
 </ul>
 </li>
 <li><div class="toc-item"><a href="sec_first-examplesC.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Examples C</span></a></div></li>
@@ -283,7 +284,7 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Electricity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Electrical Circuits</span></a></div></li>
 <li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
 <li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
 </ul>
@@ -325,19 +326,261 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-capctrs"><h2 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.7.1</span> <span class="title">Capacitors</span>
 </h2>
-<section class="introduction" id="introduction-12"><div class="para" id="p-189"></div></section><section class="subsubsection" id="subsubsec-cap_comb"><h3 class="heading hide-type">
+<section class="introduction" id="introduction-12"><figure class="figure figure-like" id="capacitors"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/capacitors.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.4<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-189">In any electronic circuit we can see some of these types of devices [<a href="" class="xref" data-knowl="./knowl/capacitors.html" title="Figure 1.7.4">Figure 1.7.4</a>]. They are known as <em class="emphasis">condenser</em> or <dfn class="terminology">capacitor</dfn>.</div> <div class="para" id="p-190">
+<dfn class="terminology">Capacitor:</dfn> It is a charge storing device. It can store electrical energy in the form of electrical charge that produces potential difference across its plates. Since we can also store charge on a conductor it can also be considered as capacitor but it can store a very limited amount of charge for a short duration only. A capacity of storing charge on a conductor can be increased by arranging two or more parallel conducting surfaces that are placed close to each other with insulating material/s between them, e.g. air and/or any dielectrics. If these surfaces are plane we call it a parallel plate capacitor, if they are cylindrical it is a cylindrical capacitor, and if they are spherical it is a spherical capacitor.</div> <figure class="figure figure-like" id="figure-45"><div class="sidebyside"><div class="sbsrow" style="margin-left:8.75%;margin-right:8.75%;">
+<div class="sbspanel top" style="width:30.3030303030303%;"><figure class="figure figure-like" id="paralleplate1"><img src="external/paralleplate1.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:48.4848484848485%;"><figure class="figure figure-like" id="paralleplate"><img src="external/paralleplate.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.5<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para logical" id="p-191">
+<div class="para">
+<dfn class="terminology">Capacitance:</dfn> The capacity of storing charge on a capacitor is termed as capacitance. when an isolated conductor is given a charge it acquires a certain potential. If is found that the potential  V  acquired by the conductor is proportional to the charge  Q  given to it i.e.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q \propto V 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  Q = CV; 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad C  = \frac{Q}{V}.
+\end{equation*}
+</div>
+<div class="para">Here C is a proportionality constant known as capacitance of that conductor (or capacitor). Hence capacitance is defined as the charge required to raise the potential of the conductor by unity. Its unit is <dfn class="terminology">Farad</dfn>. If one coulomb of charge stored in a capacitor of potential difference across the plates is one volt then its capacitance is one Farad. Farad is a very large number. The entire earth as a spherical capacitor has a capacitance of only 0.0007  Farad.</div>
+</div> <div class="para" id="p-192">The increase of capacitance of a conductor can be understood by the following arrangement. Let A be an isolated conductor which is charged to a maximum potential V  volts. [<em class="emphasis">Note:</em> Potential refers to a potential difference of a conductor with respect to ground.]</div> <div class="para logical" id="p-193">
+<div class="para">Suppose we want to store some more charge on it then we have to reduce its potential somehow before putting any charge. So another isolated conductor B is brought near A then A induces negative charges on the inner surface of B and positive charges on the outer surface as shown in <a href="" class="xref" data-knowl="./knowl/paralleplate1.html" title="Figure 1.7.5.(a)">Figure 1.7.5.(a)</a>. The negative charge on B tends to reduce the potential of A and positive charge on B tends to increase potential of A. Since negative charges of B are closer to A than the positive charges of B the net potential of A is reduced by some amount. This slight decrees in potential of A results increase of capacitance of A because of relation</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paralleplate1.html ./knowl/paralleplate.html">
+\begin{equation*}
+C  = \frac{Q}{V}
+\end{equation*}
+</div>
+<div class="para">remaining Q constant. Hence a more charge can be stored on the same conductor till the potential again reaches to  V.  The capacitance can be considerably high if the conductors are placed very close to each other and a conductor B is grounded (<a href="" class="xref" data-knowl="./knowl/paralleplate.html" title="Figure 1.7.5.(b)">Figure 1.7.5.(b)</a>). The relation</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paralleplate1.html ./knowl/paralleplate.html">
+\begin{equation*}
+V = k\frac{Q}{r}= \frac{1}{4\pi \epsilon}\frac{Q}{r}, 
+\end{equation*}
+</div>
+<div class="para">explains that the increase in permitivity of the dielectric medium between conducting plates also increases the capacitance.</div>
+</div> <div class="para logical" id="p-194">
+<div class="para">
+<dfn class="terminology">Absolute Permittivity, <span class="process-math">\(\epsilon\text{:}\)</span></dfn> [<a href="subsec-coulmb_law.html" class="internal" title="Subsection 1.1.2: Coulumb’s Law">Subsection 1.1.2</a>] It is a permittivity of a medium and defines how difficult it is for a medium to form an electric field.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/subsec-coulmb_law.html">
+\begin{equation*}
+\epsilon	=\kappa\epsilon_{o}
+\end{equation*}
+</div>
+</div></section><section class="subsubsection" id="subsubsec-cap_comb"><h3 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.7.1.1</span> <span class="title">Combination of Capacitors</span>
 </h3>
-<div class="para" id="p-190"></div></section><section class="subsubsection" id="subsubsec-paralle_cap"><h3 class="heading hide-type">
+<div class="para" id="p-195">The two or more than two capacitors can be grouped in an electrical circuit to achieve certain task. These group may be series or parallel or in combination of both.</div>
+<figure class="figure figure-like" id="figure-48"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="seriescap"><img src="external/seriescap.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="parallelcap"><img src="external/parallelcap.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="eqcap"><img src="external/eqcap.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-196"><ol class="upper-roman">
+<li id="li-186"><div class="para" id="p-derived-li-186">
+<dfn class="terminology">Series Combination of Capacitors</dfn> When capacitors are connected in such a way that same charge is seemed to be passing through each capacitor then the combination is called a series combination of capacitors. In this case positive terminal of one capacitor is connected to the negative terminal of another capacitor as shown in <a href="" class="xref" data-knowl="./knowl/seriescap.html" title="Figure 1.7.6.(a)">Figure 1.7.6.(a)</a>. If charge Q is sent in the circuit by a battery of <em class="emphasis">emf, V</em> [<a href="sec_second-intro.html" class="internal" title="Section 2.1: Electrical Circuits">Section 2.1</a>], then<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html">
+\begin{equation*}
+V=V_{1} +V_{2}= \frac{Q}{C_{1}}+\frac{Q}{C_{2}} = Q\left[\frac{1}{C_{1}}+\frac{1}{C_{2}}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html" id="eqn-srs_cap1">
+\begin{equation}
+\frac{V}{Q}= \left[\frac{1}{C_{1}}+\frac{1}{C_{2}}\right]\tag{1.7.1}
+\end{equation}
+</div>Now replace these capacitors with such a single capacitor that draws a same amount of charge Q from the same battery as shown in <a href="" class="xref" data-knowl="./knowl/eqcap.html" title="Figure 1.7.6.(c)">Figure 1.7.6.(c)</a>, then this new capacitor is called an equivalent capacitor <span class="process-math">\(C_{eq}\)</span> of all these previous capacitors in series.<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html" id="eqn-srs_cap2">
+\begin{equation}
+V= \frac{Q}{C_{eq}};\quad \text{or,}\quad \frac{V}{Q}=\frac{1}{C_{eq}} \tag{1.7.2}
+\end{equation}
+</div>Hence, from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-srs_cap1.html" title="Equation 1.7.1">(1.7.1)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-srs_cap2.html" title="Equation 1.7.2">(1.7.2)</a>, we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html" id="eqn-srs_cap3">
+\begin{equation}
+\frac{1}{C_{eq}}= \frac{1}{C_{1}}+ \frac{1}{C_{2}} \tag{1.7.3}
+\end{equation}
+</div>
+</div></li>
+<li id="li-187"><div class="para" id="p-derived-li-187">
+<dfn class="terminology">Parallel Combination of Capacitors</dfn> When capacitors are connected in such a way that charges are distributed among capacitors then the combination is called a parallel combination of capacitors. In this case similar terminals of capacitors are connected together as shown in <a href="" class="xref" data-knowl="./knowl/parallelcap.html" title="Figure 1.7.6.(b)">Figure 1.7.6.(b)</a>. If q is the charge sent in the circuit by a battery of emf, V then<div class="displaymath process-math" data-contains-math-knowls="./knowl/parallelcap.html ./knowl/eqcap.html ./knowl/eqn-prl_cap1.html ./knowl/eqn-prl_cap2.html">
+\begin{equation*}
+q=q_{1}+q_{2}=C_{1}V+C_{2}V = V\left[C_{1}+C_{2}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/parallelcap.html ./knowl/eqcap.html ./knowl/eqn-prl_cap1.html ./knowl/eqn-prl_cap2.html" id="eqn-prl_cap1">
+\begin{equation}
+\therefore\quad \frac{q}{V} = \left[C_{1}+C_{2}\right] \tag{1.7.4}
+\end{equation}
+</div>Now if these capacitors are replaced by a single capacitor, <span class="process-math">\(C_{eq}\)</span> such that circuit draws the same amount of charge from the same battery (<a href="" class="xref" data-knowl="./knowl/eqcap.html" title="Figure 1.7.6.(c)">Figure 1.7.6.(c)</a>), then<div class="displaymath process-math" data-contains-math-knowls="./knowl/parallelcap.html ./knowl/eqcap.html ./knowl/eqn-prl_cap1.html ./knowl/eqn-prl_cap2.html" id="eqn-prl_cap2">
+\begin{equation}
+q = C_{eq}V \quad \text{or,}\quad \frac{q}{V}=C_{eq}  \tag{1.7.5}
+\end{equation}
+</div>Hence from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-prl_cap1.html" title="Equation 1.7.4">(1.7.4)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-prl_cap2.html" title="Equation 1.7.5">(1.7.5)</a>, we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/parallelcap.html ./knowl/eqcap.html ./knowl/eqn-prl_cap1.html ./knowl/eqn-prl_cap2.html" id="eqn-prl_cap3">
+\begin{equation}
+C_{eq}  =  C_{1} + C_{2}  \tag{1.7.6}
+\end{equation}
+</div>
+</div></li>
+</ol></div></section><section class="subsubsection" id="subsubsec-paralle_cap"><h3 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.7.1.2</span> <span class="title">Parallel-Plate Capacitor</span>
 </h3>
-<div class="para" id="p-191"></div></section><section class="subsubsection" id="subsubsec-spher_cap"><h3 class="heading hide-type">
+<div class="para logical" id="p-197">
+<div class="para">A parallel plate capacitor [<a href="" class="xref" data-knowl="./knowl/paraplatecap1.html" title="Figure 1.7.7">Figure 1.7.7</a>] consists of two metal plates of large surface area placed close to each other parallely with one of the plates grounded. Let <span class="process-math">\(A\)</span> be the surface area of the plates and they are separated by a distance <span class="process-math">\(d\)</span> apart. If surface charge density of the plates are <span class="process-math">\(\sigma\)</span> and space between the plates is filled with dielectric of permittivity <span class="process-math">\(\epsilon_{o}.\)</span> Then the electric field between the plates is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html">
+\begin{equation*}
+E=E_{1}+E_{2}=  \frac{\sigma}{\epsilon_{o}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html">
+\begin{equation*}
+\text{where,}\quad E_{1}= \frac{\sigma}{2\epsilon_{o}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html">
+\begin{equation*}
+\text{and}\quad E_{2}= \frac{\sigma}{2\epsilon_{o}}
+\end{equation*}
+</div>
+<div class="para">pointed along -ve plate.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html">
+\begin{equation*}
+\text{But,}\quad V = -\int\vec{E}\cdot\vec{\,dr} = Ed =\frac{\sigma}{\epsilon_{o}}d 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html">
+\begin{equation*}
+\text{and}\quad \sigma = \frac{Q}{A}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(V\)</span> is the potential difference between the plates and the angle between <span class="process-math">\(\vec{\,dr}\)</span> and <span class="process-math">\(\vec{E}\)</span> is <span class="process-math">\(180^{o}.\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html">
+\begin{equation*}
+C_{o}  = \frac{Q}{V}= \frac{\sigma A}{Ed} = \frac{\sigma A}{\frac{\sigma}{\epsilon_{o}}d}=\frac{A \epsilon_{o}}{d}
+\end{equation*}
+</div>
+<div class="para">If the space between the plates is filled with dielectric with permitivity <span class="process-math">\(\epsilon\)</span> then capacitance of a parallel plate capacitor is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html" id="eqn-diel_cap1">
+\begin{equation}
+C=\frac{A \epsilon}{d}\tag{1.7.7}
+\end{equation}
+</div>
+</div>
+<figure class="figure figure-like" id="paraplatecap1"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/paraplatecap1.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.7<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-198">
+<div class="para">
+<dfn class="terminology">Dielectric constant, <span class="process-math">\(\kappa\)</span></dfn> (or Relative Permitivity, <span class="process-math">\(\epsilon_{r}\)</span>): It is a measure of insulating ability of a medium. It is a ratio of the permitivity of the medium <span class="process-math">\((\epsilon)\)</span> to the permitivity of a free space <span class="process-math">\((\epsilon_{o})\)</span> i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\kappa=\epsilon_{r} =\frac{\epsilon}{\epsilon_{o}}.
+\end{equation*}
+</div>
+<div class="para">It is an ability of a medium to store electrical energy in presence of electric field.</div>
+<div class="displaymath process-math" id="eqn-diel_cap2">
+\begin{equation}
+\kappa  = \frac{\epsilon}{\epsilon_{o}}= \frac{C}{C_{o}}\tag{1.7.8}
+\end{equation}
+</div>
+</div></section><section class="subsubsection" id="subsubsec-spher_cap"><h3 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.7.1.3</span> <span class="title">Spherical Capacitor</span>
 </h3>
-<div class="para" id="p-192"></div></section><section class="subsubsection" id="subsubsec-cyl_cap"><h3 class="heading hide-type">
+<div class="para" id="p-199">A spherical capacitor consists of two concentric conducting spherical shells [<a href="" class="xref" data-knowl="./knowl/sphcap.html" title="Figure 1.7.8">Figure 1.7.8</a>] of inner radius <span class="process-math">\(a\)</span> and outer radius <span class="process-math">\(b\)</span> such that <span class="process-math">\(b \gt a\)</span> and space between them is filled with dielectric of permittivity <span class="process-math">\(\epsilon_{o}\text{.}\)</span> If a charge <span class="process-math">\(+Q\)</span> is given to the inner shell then  <span class="process-math">\(-Q\)</span> amount of charge is induced on the inner surface of outer shell and charge <span class="process-math">\(+Q\)</span> on the outer surface of outer shell. As the outer surface is grounded charge <span class="process-math">\(+Q\)</span> neutralizes with the negative charge coming from the earth. Now using Gauss’s law the electric field at any point between the shells is given</div>
+<figure class="figure figure-like" id="sphcap"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/sphcap.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.8<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-200">
+<div class="displaymath process-math">
+\begin{equation*}
+\phi = \int\vec{E}\cdot\vec{\,dA}  = \frac{q_{enc}}{\epsilon_{o}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \int E\,dA = E(4\pi r^{2})  = \frac{Q}{\epsilon_{o}}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(r\)</span> is the radius of Gaussian surface and <span class="process-math">\(q\)</span> is the charge enclosed by it.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad E = \frac{Q}{4\pi \epsilon_{o}r^{2}}=\frac{kQ}{r^{2}}
+\end{equation*}
+</div>
+<div class="para">The potential difference between the shells is then,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V=V_{b}-V_{a} = -\int\limits_{b}^{a}\vec{E}\cdot\vec{\,dr} = -\int\limits_{b}^{a}E\,dr
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad V = -\int\limits_{b}^{a}\frac{kQ}{r^{2}}\,dr 
+= kQ\left(\frac{1}{r}\right)_{b}^{a}= kQ\left(\frac{1}{a}-\frac{1}{b}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{V}{Q} = k\left(\frac{b-a}{ab}\right)
+\end{equation*}
+</div>
+<div class="para">Hence the capacitance of the spherical capacitor is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C=\frac{Q}{V} = \frac{1}{k}\left(\frac{ab}{b-a}\right)= 4\pi\epsilon_{o}\left(\frac{ab}{b-a}\right)
+\end{equation*}
+</div>
+<div class="para">If <span class="process-math">\(b \rightarrow\infty\text{,}\)</span> then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C=4\pi\epsilon_{o}\left(\frac{a}{1-\frac{a}{b}}\right)= 4\pi\epsilon_{o} a
+\end{equation*}
+</div>
+<div class="para">Which is the capacitance of an isolated spherical conductor of radius <span class="process-math">\(a\text{.}\)</span>
+</div>
+</div></section><section class="subsubsection" id="subsubsec-cyl_cap"><h3 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.7.1.4</span> <span class="title">Cylindrical Capacitor</span>
 </h3>
-<div class="para" id="p-193"></div></section></section></div>
+<figure class="figure figure-like" id="cylcap2"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/cylcap2.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.9<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-201">
+<div class="para">A cylindrical capacitor consists of two concentric conducting cylindrical shells of inner radius <span class="process-math">\(a\)</span> and outer radius <span class="process-math">\(b\)</span> [<a href="" class="xref" data-knowl="./knowl/cylcap2.html" title="Figure 1.7.9">Figure 1.7.9</a>] such that <span class="process-math">\(b \gt a\)</span> and space between them is filled with dielectric of permittivity <span class="process-math">\(\epsilon_{o}\text{.}\)</span> If a charge <span class="process-math">\(+Q\)</span> is given to the inner shell then the charge <span class="process-math">\(-Q\)</span> is induced on the inner surface of outer shell and charge <span class="process-math">\(+Q\)</span> on the outer surface of outer shell. As the outer cylinder is grounded charge <span class="process-math">\(+Q\)</span> neutralizes with the negative charge coming from the earth. Now using Gauss’s law the electric field at any point between the shells is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/cylcap2.html">
+\begin{equation*}
+\phi = \int\vec{E}\cdot\vec{\,dA}  = \frac{q_{enc}}{\epsilon_{o}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/cylcap2.html">
+\begin{equation*}
+\text{or,}\quad \int E\,dA = E(2\pi rl)  = \frac{\sigma 2\pi a l}{\epsilon_{o}}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(r\)</span> is the radius of Gaussian surface and <span class="process-math">\(\sigma\)</span> is the surface charge density of the inner cylinder.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/cylcap2.html">
+\begin{equation*}
+\therefore\quad E = \frac{\sigma a}{r \epsilon_{o}}
+\end{equation*}
+</div>
+<div class="para">The potential difference between the shells is then,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/cylcap2.html">
+\begin{equation*}
+V=V_{b}-V_{a} = -\int\limits_{b}^{a}\vec{E}\cdot\vec{\,dr} = -\int\limits_{b}^{a}E\,dr
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/cylcap2.html">
+\begin{equation*}
+\text{or,}\quad V= -\int\limits_{b}^{a}\frac{\sigma a}{r \epsilon_{o}}\,dr =-\frac{\sigma a}{\epsilon_{o}}\left(\ln r\right)_{b}^{a}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/cylcap2.html">
+\begin{equation*}
+\text{or,}\quad V= \frac{\sigma a}{\epsilon_{o}}\left(\ln b-\ln a\right) = \frac{Q a}{2\pi a L \epsilon_{o}}\ln\frac{b}{a}
+\end{equation*}
+</div>
+<div class="para">Hence the capacitance of the cylindrical capacitor of length <span class="process-math">\(L\)</span> is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/cylcap2.html">
+\begin{equation*}
+C =\frac{Q}{V} = \frac{2\pi \epsilon_{o}L}{\ln\frac{b}{a}} 
+\end{equation*}
+</div>
+</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_first-pot.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="subsec-enrgy_cap.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
