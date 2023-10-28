@@ -253,38 +253,311 @@ without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).
 <subsection xml:id="subsec-capctrs">
   <title>Capacitors</title>
   <introduction>
+    <figure xml:id="capacitors">
+      <caption></caption>
+      <image source="capacitors.png"/>
+  </figure>
+  <p>
+    In any electronic circuit we can see some of these types of devices [<xref ref="capacitors"/>]. 
+    They are known as <em>condenser</em> or <term>capacitor</term>.
+  </p>
     <p>
-      
+      <term>Capacitor:</term> It is a charge storing device. It can store electrical energy in the form 
+      of electrical charge that produces potential difference across its plates. Since we can also 
+      store charge on a conductor it can also be considered as capacitor but it can store a very 
+      limited amount of charge for a short duration only. A capacity of storing charge on a conductor 
+      can be increased by arranging two or more parallel conducting surfaces that are placed close 
+      to each other with insulating material/s between them, e.g. air and/or any dielectrics. 
+      If these surfaces are plane we call it a parallel plate capacitor, if they are cylindrical 
+      it is a cylindrical capacitor, and if they are spherical it is a spherical capacitor. 
     </p>
-  </introduction>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="25% 40%">
+        <figure xml:id="paralleplate1">
+          <caption></caption>
+          <image source="paralleplate1.png"/>
+      </figure>
+          <figure xml:id="paralleplate">
+              <caption></caption>
+              <image source="paralleplate.png"/>
+          </figure>
+       </sidebyside>
+    </figure>
+    <p>
+      <term>Capacitance:</term> The capacity of storing charge on a capacitor is termed as capacitance. 
+      when an isolated conductor is given a charge it acquires a certain potential. If is found that 
+      the potential  V  acquired by the conductor is proportional to the charge  Q  given to it i.e. 
+      <me>
+        Q \propto V 
+      </me>
+     <me>
+      \text{or,}\quad  Q = CV; 
+     </me>
+     <me>
+       \therefore\quad C  = \frac{Q}{V}.
+     </me>
+     Here C is a proportionality constant known as capacitance of that conductor (or capacitor). 
+     Hence capacitance is defined as the charge required to raise the potential of the conductor 
+     by unity. Its unit is <term>Farad</term>. If one coulomb of charge stored in a capacitor of 
+     potential difference across the plates is one volt then its capacitance is one Farad. 
+     Farad is a very large number. The entire earth as a spherical capacitor has a capacitance of only
+     0.0007  Farad. 	
+    </p>
+    <p>
+      The increase of capacitance of a conductor can be understood by the following arrangement. 
+      Let A be an isolated conductor which is charged to a maximum potential V  volts. 
+      [<em>Note:</em> Potential refers to a potential difference of a conductor with respect to ground.] 
+        </p>
+       <p>
+        Suppose we want to store some more charge on it then we have to reduce its potential 
+        somehow before putting any charge. So another isolated conductor B is brought near A 
+        then A induces negative charges on the inner surface of B and positive charges on the outer 
+        surface as shown in <xref ref="paralleplate1"/>. The negative charge on B tends to reduce the potential 
+        of A and positive charge on B tends to increase potential of A. Since negative charges 
+        of B are closer to A than the positive charges of B the net potential of A is reduced 
+        by some amount. This slight decrees in potential of A results increase of capacitance of A 
+        because of relation <me>
+          C  = \frac{Q}{V}
+        </me>
+         remaining Q constant. Hence a more charge can be stored on the same conductor 
+         till the potential again reaches to  V.  The capacitance can be considerably high if 
+         the conductors are placed very close to each other and a conductor B is grounded (<xref ref="paralleplate"/>).	
+         The relation <me>
+          V = k\frac{Q}{r}= \frac{1}{4\pi \epsilon}\frac{Q}{r}, 
+         </me>
+          explains that the increase in permitivity of the dielectric medium between conducting 
+          plates also increases the capacitance. 
+       </p>
+       <p>
+        <term>Absolute Permittivity, <m>\epsilon</m>:</term> [<xref ref="subsec-coulmb_law"/>] It is a permittivity of a medium and 
+        defines how difficult it is for a medium to form an electric field. 
+        <me>
+          \epsilon	=\kappa\epsilon_{o}
+        </me>
+           </p>
+    </introduction>
 
 
   <subsubsection xml:id="subsubsec-cap_comb">
     <title>Combination of Capacitors</title>
     <p>
-
-    </p>
+      The two or more than two capacitors can be grouped in an electrical circuit to achieve certain task. 
+        These group may be series or parallel or in combination of both.
+      </p>
+      <figure>
+        <caption></caption>
+        <sidebyside widths="30% 30% 30%">
+          <figure xml:id="seriescap">
+            <caption></caption>
+            <image source="seriescap.png"/>
+        </figure>
+          <figure xml:id="parallelcap">
+            <caption></caption>
+            <image source="parallelcap.png"/>
+        </figure>
+            <figure xml:id="eqcap">
+                <caption></caption>
+                <image source="eqcap.png"/>
+            </figure>
+         </sidebyside>
+      </figure>
+      <p>
+        <ol marker="I.">
+          <li>
+            <term>Series Combination of Capacitors</term> 
+            When capacitors are connected in such a way that same charge is seemed to be 
+            passing through each capacitor then the combination is called a series combination 
+            of capacitors. In this case positive terminal of one capacitor is connected to the 
+            negative terminal of another capacitor as shown in <xref ref="seriescap"/>. If charge Q is 
+            sent in the circuit by a battery of <em>emf, V</em> [<xref ref="sec_second-intro"/>], then 
+            <me>
+              V=V_{1} +V_{2}= \frac{Q}{C_{1}}+\frac{Q}{C_{2}} = Q\left[\frac{1}{C_{1}}+\frac{1}{C_{2}}\right]
+            </me>
+            <men xml:id="eqn-srs_cap1">
+              \frac{V}{Q}= \left[\frac{1}{C_{1}}+\frac{1}{C_{2}}\right]
+            </men>
+           Now replace these capacitors with such a single capacitor that draws a same amount of charge Q 
+           from the same battery as shown in <xref ref="eqcap"/>, then this new capacitor is called 
+           an equivalent capacitor <m>C_{eq}</m> of all these previous capacitors in series. 
+           <men xml:id="eqn-srs_cap2">
+            V= \frac{Q}{C_{eq}};\quad \text{or,}\quad \frac{V}{Q}=\frac{1}{C_{eq}} 
+           </men>
+         Hence, from eqns. <xref ref="eqn-srs_cap1"/> and <xref ref="eqn-srs_cap2"/>, we get - 
+         <men xml:id="eqn-srs_cap3">
+          \frac{1}{C_{eq}}= \frac{1}{C_{1}}+ \frac{1}{C_{2}} 
+         </men>
+           </li>
+           <li>
+            <term>Parallel Combination of Capacitors</term> 
+            When capacitors are connected in such a way that charges are distributed among capacitors 
+            then the combination is called a parallel combination of capacitors. In this case similar 
+            terminals of capacitors are connected together as shown in <xref ref="parallelcap"/>. 
+            If q is the charge sent in the circuit by a battery of emf, V then 
+            <me>
+              q=q_{1}+q_{2}=C_{1}V+C_{2}V = V\left[C_{1}+C_{2}\right]
+            </me>
+            <men xml:id="eqn-prl_cap1">
+              \therefore\quad \frac{q}{V} = \left[C_{1}+C_{2}\right] 
+            </men>
+              Now if these capacitors are replaced by a single capacitor, <m>C_{eq}</m> such that circuit 
+              draws the same amount of charge from the same battery (<xref ref="eqcap"/>), then 
+              <men xml:id="eqn-prl_cap2">
+                q = C_{eq}V \quad \text{or,}\quad \frac{q}{V}=C_{eq}  
+              </men>
+               Hence from eqns. <xref ref="eqn-prl_cap1"/> and <xref ref="eqn-prl_cap2"/>, we get -
+               <men xml:id="eqn-prl_cap3">
+                C_{eq}  =  C_{1} + C_{2}  
+               </men>
+                </li>
+        </ol>
+      </p>
   </subsubsection>
 
   <subsubsection xml:id="subsubsec-paralle_cap">
     <title>Parallel-Plate Capacitor</title>
     <p>
-
-    </p>
+      A parallel plate capacitor [<xref ref="paraplatecap1"/>] consists of two metal plates of large surface area placed close 
+      to each other parallely with one of the plates grounded. Let <m>A</m> be the surface area of the 
+      plates and they are separated by a distance <m>d</m> apart. If surface charge density of the plates 
+      are <m>\sigma</m> and space between the plates is filled with dielectric of permittivity <m>\epsilon_{o}.</m>  
+      Then the electric field between the plates is given by 
+      <me>
+        E=E_{1}+E_{2}=  \frac{\sigma}{\epsilon_{o}}
+      </me>
+      <me>
+        \text{where,}\quad E_{1}= \frac{\sigma}{2\epsilon_{o}} 
+      </me>
+      <me>
+        \text{and}\quad E_{2}= \frac{\sigma}{2\epsilon_{o}}
+      </me>
+      pointed along -ve plate. 
+     <me>
+      \text{But,}\quad V = -\int\vec{E}\cdot\vec{\,dr} = Ed =\frac{\sigma}{\epsilon_{o}}d 
+     </me>
+     <me>
+      \text{and}\quad \sigma = \frac{Q}{A}
+     </me>
+     where <m>V</m> is the potential difference between the plates and the angle between 
+     <m>\vec{\,dr}</m> and <m>\vec{E}</m> is <m>180^{o}.</m>
+     <me>
+      C_{o}  = \frac{Q}{V}= \frac{\sigma A}{Ed} = \frac{\sigma A}{\frac{\sigma}{\epsilon_{o}}d}=\frac{A \epsilon_{o}}{d}
+     </me>
+      	If the space between the plates is filled with dielectric with permitivity <m>\epsilon</m> 
+        then capacitance of a parallel plate capacitor is given by  
+        <men xml:id="eqn-diel_cap1">
+          C=\frac{A \epsilon}{d}
+        </men>
+        </p>
+        <figure xml:id="paraplatecap1">
+          <caption></caption>
+          <image source="paraplatecap1.png" width="40%"/>
+      </figure>
+        <p>
+          <term>Dielectric constant, <m>\kappa</m></term> (or Relative Permitivity, <m>\epsilon_{r}</m>): 
+          It is a measure of insulating ability of a medium. It is a ratio of the permitivity of the 
+          medium <m>(\epsilon)</m> to the permitivity of a free space <m>(\epsilon_{o})</m> i.e., 
+          <me>
+            \kappa=\epsilon_{r} =\frac{\epsilon}{\epsilon_{o}}.
+          </me>
+           It is an ability of a medium to store electrical energy in presence of electric field. 
+           <men xml:id="eqn-diel_cap2">
+            \kappa  = \frac{\epsilon}{\epsilon_{o}}= \frac{C}{C_{o}}
+           </men>
+            </p>
   </subsubsection>
 
   <subsubsection xml:id="subsubsec-spher_cap">
     <title>Spherical Capacitor</title>
     <p>
-
+      A spherical capacitor consists of two concentric conducting spherical shells [<xref ref="sphcap"/>] of 
+      inner radius <m>a</m> and outer radius <m>b</m> such that <m>b \gt a</m> and space 
+      between them is filled with dielectric of permittivity <m>\epsilon_{o}</m>. 
+      If a charge <m>+Q</m> is given to the inner shell then  <m>-Q</m> amount of charge is induced 
+      on the inner surface of outer shell and charge <m>+Q</m> on the outer surface of outer shell. 
+      As the outer surface is grounded charge <m>+Q</m> neutralizes with the negative charge coming 
+      from the earth. Now using Gauss's law the electric field at any point between the shells is given 
     </p>
+    <figure xml:id="sphcap">
+      <caption></caption>
+      <image source="sphcap.png" width="40%"/>
+  </figure>
+    <p>
+      <me>
+        \phi = \int\vec{E}\cdot\vec{\,dA}  = \frac{q_{enc}}{\epsilon_{o}}
+      </me>
+      <me>
+        \text{or,}\quad \int E\,dA = E(4\pi r^{2})  = \frac{Q}{\epsilon_{o}}
+      </me>
+      where <m>r</m> is the radius of Gaussian surface and <m>q</m> is the charge 
+      enclosed by it. 
+      <me>
+        \therefore\quad E = \frac{Q}{4\pi \epsilon_{o}r^{2}}=\frac{kQ}{r^{2}}
+      </me>
+      The potential difference between the shells is then, 
+      <me>
+        V=V_{b}-V_{a} = -\int\limits_{b}^{a}\vec{E}\cdot\vec{\,dr} = -\int\limits_{b}^{a}E\,dr
+      </me>
+      <me>
+      or, \quad V = -\int\limits_{b}^{a}\frac{kQ}{r^{2}}\,dr 
+        = kQ\left(\frac{1}{r}\right)_{b}^{a}= kQ\left(\frac{1}{a}-\frac{1}{b}\right)
+      </me>
+<me>
+  \text{or,}\quad \frac{V}{Q} = k\left(\frac{b-a}{ab}\right)
+</me>
+Hence the capacitance of the spherical capacitor is given by 
+<me>
+  C=\frac{Q}{V} = \frac{1}{k}\left(\frac{ab}{b-a}\right)= 4\pi\epsilon_{o}\left(\frac{ab}{b-a}\right)
+</me>
+	If <m>b \rightarrow\infty</m>, then 
+  <me>
+    C=4\pi\epsilon_{o}\left(\frac{a}{1-\frac{a}{b}}\right)= 4\pi\epsilon_{o} a
+  </me>
+  Which is the capacitance of an isolated spherical conductor of radius <m>a</m>.
+          </p>
   </subsubsection>
 
   <subsubsection xml:id="subsubsec-cyl_cap">
     <title>Cylindrical Capacitor</title>
+    <figure xml:id="cylcap2">
+      <caption></caption>
+      <image source="cylcap2.png" width="30%"/>
+  </figure>
     <p>
-
-    </p>
+      A cylindrical capacitor consists of two concentric conducting cylindrical shells 
+      of inner radius <m>a</m> and outer radius <m>b</m> [<xref ref="cylcap2"/>] such that <m>b \gt a</m> and 
+      space between them is filled with dielectric of permittivity <m>\epsilon_{o}</m>. 
+      If a charge <m>+Q</m> is given to the inner shell then the charge <m>-Q</m> is induced on 
+      the inner surface of outer shell and charge <m>+Q</m> on the outer surface of outer shell. 
+      As the outer cylinder is grounded charge <m>+Q</m> neutralizes with the negative charge 
+      coming from the earth. Now using Gauss's law the electric field at any point 
+      between the shells is given by 
+      <me>
+        \phi = \int\vec{E}\cdot\vec{\,dA}  = \frac{q_{enc}}{\epsilon_{o}} 
+      </me>
+      <me>
+        \text{or,}\quad \int E\,dA = E(2\pi rl)  = \frac{\sigma 2\pi a l}{\epsilon_{o}}
+      </me>
+            where <m>r</m> is the radius of Gaussian surface and <m>\sigma</m> is 
+            the surface charge density of the inner cylinder.
+            <me>
+              \therefore\quad E = \frac{\sigma a}{r \epsilon_{o}}
+            </me>
+                The potential difference between the shells is then,  
+                <me>
+                  V=V_{b}-V_{a} = -\int\limits_{b}^{a}\vec{E}\cdot\vec{\,dr} = -\int\limits_{b}^{a}E\,dr
+                </me>
+                <me>
+                  \text{or,}\quad V= -\int\limits_{b}^{a}\frac{\sigma a}{r \epsilon_{o}}\,dr =-\frac{\sigma a}{\epsilon_{o}}\left(\ln r\right)_{b}^{a}
+                </me>
+                <me>
+                  \text{or,}\quad V= \frac{\sigma a}{\epsilon_{o}}\left(\ln b-\ln a\right) = \frac{Q a}{2\pi a L \epsilon_{o}}\ln\frac{b}{a}
+                </me>
+                Hence the capacitance of the cylindrical capacitor of length <m>L</m> is given by 
+                <me>
+                  C =\frac{Q}{V} = \frac{2\pi \epsilon_{o}L}{\ln\frac{b}{a}} 
+                </me>
+              </p>
   </subsubsection>
 </subsection>
 
@@ -293,16 +566,166 @@ without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).
   <title>Energy Stored in a Capacitor</title>
   <introduction>
     <p>
-      
-    </p>
+      Let us consider a capacitor of capacitance <m>C</m> has a charge <m>q</m> 
+      stored on it when the potential difference across its plates is <m>V </m> then
+      <me>
+        V=\frac{q}{C}.
+      </me>
+       If a further charge <m>\,dq </m> is given to the capacitor, then work needs 
+       to be done against the potential difference. Hence the work done is, 
+       <me>
+        \,dw=V\,dq = \frac{q}{C}\,dq 
+       </me>
+        Therefore total work done in charging the capacitor from <m>0</m> to <m>Q</m> is given by 
+        <men xml:id="eqn-energ_cap1">
+          W = \int\limits_{0}^{Q} \frac{q}{C}\,dq = \frac{1}{C}\left[\frac{q^{2}}{2}\right]_{0}^{Q} = \frac{Q^{2}}{2C}
+        </men>
+        <men xml:id="eqn-energ_cap2">
+          \text{or,}\quad W = U =  \frac{1}{2}QV = \frac{1}{2}CV^{2}
+        </men>
+          </p>
   </introduction>
 
   <subsubsection xml:id="subsubsec-elf_enrgdenst">
     <title>Electric Field Energy Density</title>
+    <figure xml:id="fieldenergy">
+      <caption></caption>
+      <image source="fieldenergy.png" width="30%"/>
+  </figure>
     <p>
-      
-    </p>
+      Energy stored  per unit volume in a capacitor is called energy density, i.e., 
+      <me>
+        u=\frac{U}{\text{Volume}}.
+      </me>
+      	 Consider a charged conductor <m>XY</m> of surface charge density <m>\sigma</m> 
+         is placed in free space. Let a small element <m>ab</m> of area <m>\,dA</m> 
+         on the surface of the conductor and a point <m>P</m> just outside of it [<xref ref="fieldenergy"/>]. 
+         Hence  electric field just outside the charged conductor  is given by 
+         <men xml:id="eqn-energ_cap3">
+          \vec{E}=\vec{E_{1}}+\vec{E_{2}}  = \frac{\sigma}{\epsilon_{o}}   
+         </men>
+          where <m>\vec{E_{1}} </m> and <m> \vec{E_{2}} </m> are electric field at point 
+          <m>P</m> due to an element <m>ab</m> and rest of the conductor. 
+          If point <m>P'</m> is just inside the conductor then electric field inside 
+          the conductor is zero, i.e., 
+          <me>
+            \vec{E}=\vec{E_{1}}-\vec{E_{2}} =0
+          </me>
+           </p>
+           <p>
+            <men xml:id="eqn-energ_cap4">
+              \text{or,}\quad \vec{E_{1}}=\vec{E_{2}} 
+            </men>
+            Therefore from eqn. <xref ref="eqn-energ_cap3"/> we have - 
+            <men xml:id="eqn-energ_cap5">
+              E_{1} = E_{2} = \frac{\sigma}{2\epsilon_{o}}  
+            </men>
+             Now force acting on an element <m>ab</m> due to the conductor is given by 
+             <me>
+              F=qE_{2}= \sigma\,dA E_{2}
+             </me>
+             <me>
+              \text{or,}\quad F=\frac{\sigma^{2}}{2\epsilon_{o}}\,dA =\frac{1}{2}\epsilon_{o}E^{2}\,dA 
+             </me>
+             from eqns.<xref ref="eqn-energ_cap3"/> and <xref ref="eqn-energ_cap5"/>
+           </p>
+           <p>
+            This is an outward mechanical force acting on a small elementary area <m>\,dA.</m> 
+            If this small element is displayed normally by a distance <m>\,dy</m> 
+            against this force then work done is given by 
+            <me>
+              \,dW=F\,dy=\frac{1}{2}\epsilon_{o}E^{2}\,dA\,dy =\frac{1}{2}\epsilon_{o}E^{2} \,dV
+            </me>
+            Therefore energy per unit volume is 
+            <me>
+              \frac{\,dW}{\,dV}=\frac{\,dU}{\,dV}=\frac{1}{2}\epsilon_{o}E^{2} (J/m^{3})
+            </me>
+            This work done is stored in an electric field in the form of electric potential energy, 
+            i.e., the energy per unit volume of the medium or volume density of electrical energy 
+            in the region of an electric field is 
+            <men xml:id="eqn-energ_cap6">
+              \therefore\quad u = \frac{1}{2}\epsilon_{o} E^{2}  
+            </men>
+              </p>
+              <p>
+                <alert>Alternative</alert>
+                <me>
+                  U=\frac{1}{2}CV^{2}
+                </me>
+                <me>
+                  \text{but}\quad C=\frac{A\epsilon_{o}}{d}
+                </me>
+                <me>
+                  \text{and}\quad E=\frac{V}{d}
+                </me>
+                <me>
+                  \therefore\quad U=\frac{1}{2}\left(\frac{A\epsilon_{o}}{d}\right)E^{2}d^{2} = \frac{1}{2}\epsilon_{o}E^{2}Ad 
+                  = \frac{1}{2}\epsilon_{o}E^{2} \text{(Vol)}
+                </me>
+                Hence 
+                <men xml:id="eqn-energ_cap7">
+                  u=\frac{U}{\text{(Vol)}}=\frac{1}{2}\epsilon_{o}E^{2}
+                </men>
+                  </p>
   </subsubsection>
 </subsection>
+
+<subsection xml:id="subsec-cap_enrgloss">
+  <title>Loss of Energy in Combining two Capacitors</title>
+  <p>
+    When two charged capacitors are connected together then charge start sharing from one 
+    capacitor to another till they acquire a common potential. During sharing the 
+    charge capacitors loss energy in the form of heat. The loss of energy can be calculated as follows.
+  </p>
+  <p>
+    Let us consider two capacitors of capacitance <m>C_{1}, \quad C_{2}</m> and have 
+    potentials <m> V_{1}</m> and <m>V_{2},</m> respectively. Hence total charge on the capacitors is 
+    <men xml:id="eqn-cap_enrgloss1">
+      q=q_{1}+q_{2} 
+    </men>
+      When connected charge from one capacitor transfers to another till they obtain common potential <m>V, </m> i.e. 
+      <men xml:id="eqn-cap_enrgloss2">
+        q=q'_{1} + q'_{2} 
+      </men>
+      <me>
+        \text{or,} \quad q_{1}+q_{2} = q'_{1} + q'_{2}
+      </me>
+      <me>
+        C_{1}V_{1}+C_{2}V_{2} = C_{1}V + C_{2}V =V(C_{1} + C_{2})
+      </me>
+      <men xml:id="eqn-cap_enrgloss3">
+        \text{or,} \quad V= \frac{C_{1}V_{1}+C_{2}V_{2}}{C_{1} + C_{2}}  
+      </men>
+          Electrical energy of the capacitors before and after connection 
+          <me>
+            U=\frac{1}{2} C_{1}V^{2}_{1}+\frac{1}{2} C_{2}V^{2}_{2}
+          </me>
+          <me>
+            \text{and} \quad U' =\frac{1}{2} C_{1}V^{2}+\frac{1}{2} C_{2}V^{2} = \frac{1}{2} \left(C_{1}+C_{1}\right)V^{2}
+          </me>
+           Hence energy loss after the connection is given by 
+           <me>
+            \Delta U = U-U' =\frac{1}{2} C_{1}V^{2}_{1}+\frac{1}{2} C_{2}V^{2}_{2} -\frac{1}{2} \left(C_{1}+C_{2}\right)V^{2} 
+           </me>
+           <me>
+            =\frac{1}{2} C_{1}V^{2}_{1}+\frac{1}{2} C_{2}V^{2}_{2} -\frac{1}{2} \left(C_{1}+C_{2}\right)\left[ \frac{C_{1}V_{1}+C_{2}V_{2}}{C_{1} + C_{2}}\right]^{2} 
+           </me>
+           <me>
+            =\frac{1}{2} C_{1}V^{2}_{1}+\frac{1}{2} C_{2}V^{2}_{2} -\frac{1}{2} \left(\frac{1}{C_{1}+C_{2}}\right)\left[ C_{1}V_{1}+C_{2}V_{2}\right]^{2}
+           </me>
+            <me>
+            =\frac{1}{2} \left(\frac{1}{C_{1}+C_{2}}\right)\left[C^{2}_{1}V^{2}_{1}+ C_{1}C_{2}V^{2}_{1}+C_{1}C_{2}V^{2}_{2}+C^{2}_{2}V^{2}_{2}-C^{2}_{1}V^{2}_{1}-C^{2}_{2}V^{2}_{2}-2C_{1}C_{2}V_{1}V_{2}\right]
+           </me>
+           <me>
+            =\frac{1}{2} \left(\frac{1}{C_{1}+C_{2}}\right)\left[C_{1}C_{2}\left(V^{2}_{1}+V^{2}_{2}-2V_{1}V_{2}\right)\right] 
+           </me>
+           <me>
+            = \frac{C_{1}C_{2}}{2\left(C_{1}+C_{2}\right)}\left(V_{1}-V_{2}\right)^{2}
+           </me>
+               Since <m>\left(V_{1}-V_{2}\right)^{2} \gt 0</m>, 
+               there must be energy loss when connecting two capacitors.
+  </p>
+</subsection>
+
   </section>
 

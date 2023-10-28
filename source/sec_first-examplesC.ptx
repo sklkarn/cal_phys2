@@ -544,4 +544,412 @@
     </solution>
   </example>
 </paragraphs>
+
+<paragraphs>
+  <title>Capacitors</title>
+  <example>
+    <statement>
+      <p>
+        A parallel-plate capacitor is made from two square sheets of metal each 2 mm 
+        thick and 20 cm on a side. The distance between the plates is 1 mm and the voltage 
+        between them is 1000 V. Find 
+        <ol marker="a.">
+          <li>
+            the capacitance of the capacitor,
+          </li>
+          <li>
+            the charge on each plate,
+          </li>
+          <li>
+            the charge density (charge per unit area),
+          </li>
+          <li>
+            the electric field between the plates, 
+          </li>
+          <li>
+            the energy stored in the capacitor,
+          </li>
+          <li>
+            the energy density of the electric field.
+          </li>
+        </ol>
+        </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>L = 0.2 \,m;\quad \epsilon_{o} = 8.85\times10^{-12} \,F/m; </m> 
+        <m>d = 1.0\times10^{-3} \,m;\quad V = 10^{3} \,V </m>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              C=\epsilon_{o}\frac{A}{d};
+            </me>
+            <me>
+              \text{or,}\quad  A= L^{2}
+            </me>
+            <me>
+              A=0.04 \,m^{2};\quad C=35.4 \,nF
+            </me>
+               </li>
+          <li>
+           <me>
+            Q = CV =0.354 \,\mu C
+           </me>
+             </li>
+          <li>
+           <me>
+            \sigma=\frac{Q}{A}= 8.85\times10^{-6} \,C/m^{2}
+           </me>
+                  </li>
+          <li>
+            <me>
+              V = ED;\quad  E = \frac{\sigma}{\epsilon_{o}}
+            </me>
+            <me>
+              E= \frac{V}{d}= 1.0\times10^{6} \,V/m
+            </me>
+                   </li>
+          <li>
+           <me>
+            U=\frac{1}{2}QV =  1.77\times 10^{-4} \,J
+           </me>
+                </li>
+          <li>
+          <me>
+            u=\frac{U}{Ad};\quad  u=\frac{1}{2}\epsilon_{o}E^{2} = 4.425 \,J/m^{3}
+          </me>
+             </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A spherical capacitor consists of two concentric conducting shells. A charge of <m>-Q</m> 
+        resides on the outer surface of the inner shell of radius <m>r_{a}</m> and a charge 
+        <m>+Q</m> on the inner surface of the outer shell of radius <m>r_{b}</m> as shown in the given figure. 
+        <image source="fig27.png" width="35%"> </image>
+        <ol marker="a.">
+          <li>
+            What is the charge per unit area on the inner shell?
+          </li>
+          <li>
+            On the outer shell? 
+          </li>
+          <li>
+            What is the electric field between the shells?
+          </li>
+          <li>
+            What is the potential difference between the shells?
+          </li>
+          <li>
+            What is the capacitance of the spherical capacitor? 
+          </li>
+          <li>
+            Which of the previous the results would have been different if the charges had been reversed.
+          </li>
+        </ol>
+           </p>
+    </statement>
+    <solution>
+            <p>
+         <ol marker="a.">
+          <li>
+            <me>
+              \sigma_{a}=\frac{Q}{A_{a}};
+            </me>
+            <me>
+              \text{or,}\quad A_{a}= \pi r^{2}_{a};
+            </me>
+          <me>
+            \therefore\quad \sigma_{a}=-\frac{Q}{4\pi r^{2}_{a}}
+          </me>
+            </li>
+          <li>
+            <me>
+              \sigma_{b}=\frac{Q}{A_{b}};
+            </me>
+            <me>
+              \text{or,}\quad A_{b}= \pi r^{2}_{b} 
+            </me>
+            <me>
+              \therefore\quad \sigma_{b}=-\frac{Q}{4\pi r^{2}_{b}}
+            </me>
+               </li>
+          <li>
+           <me>
+            \text{spherical charge} \quad E=-k\frac{Q}{ r^{2}}
+           </me>
+            </li>
+          <li>
+            <me>
+              V_{a}=-k \frac{Q}{r_{a}};
+            </me>
+            <me>
+              V_{b}=-k \frac{Q}{r_{b}};
+            </me>
+            <me>
+              V=V_{ba} =V_{b}-V_{a}
+            </me>
+            <me>
+              V= kQ\left[\frac{1}{r_{a}}-\frac{1}{r_{b}}\right]
+            </me>
+              </li>
+          <li>
+          <me>
+            C = \frac{Q}{V}  = 4\pi\epsilon_{o}\frac{r_{a}r_{b}}{r_{b}-r_{a}}
+          </me>
+              </li>
+          <li>
+            Replace <m>Q</m> in the above equations with <m>-Q.</m> The sign on every 
+            answer would change except for the last. The capacitance would be the same.
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Three identical parallel plate capacitors (a, b, and c) have the following arrangement. 
+        <ol marker ="a.">
+          <li>
+            Capacitor (a) is filled with air in between the plates,
+            <image source="pplatecap.png" width="30%"> </image>
+          </li>
+          <li>
+            Capacitors (b) is half filled with dielectric of dielectric constant <m>\kappa</m> and 
+            <image source="paraplatecap2.png" width="30%"> </image>
+          </li>
+          <li>
+            Capacitors (c) is half filled with dielectric of dielectric constant <m>\kappa.</m>
+            <image source="paraplatecap.png" width="30%"> </image>
+          </li>
+        </ol>
+         Find the capacitance of each of these capacitors. 
+      </p>
+      </statement>
+    <solution>
+      <p>
+        <ol marker ="a.">
+          <li>
+           <me>
+            C=\frac{Q}{V}=\frac{A\epsilon_{o}}{d}
+           </me>
+              </li>
+          <li>
+            It is consider as a combination of two capacitors in series. 
+            <me>
+              \frac{1}{C}=\frac{1}{C_{1}}+\frac{1}{C_{2}}
+            </me>
+            <me>
+              \text{where} \quad C_{1}= \frac{A\epsilon}{d/2} 
+            </me>
+            <me>
+              \text{and} \quad  C_{2}= \frac{A\epsilon_{o}}{d/2}
+            </me>
+                </li>
+          <li>
+            It is consider as a combination of two capacitors in parallel. 
+            <me>
+              C=C_{1}+C_{2}
+            </me>
+            <me>
+              \text{where} \quad C_{1}= \frac{(A/2)\epsilon_{o}}{d}
+            </me>
+            <me>
+              \text{and} \quad  C_{2}= \frac{(A/2)\epsilon}{d}
+            </me>
+              </li>
+        </ol> 
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Four capacitors are arranged as shown in figure 
+        <image source="fig28a.png" width="30%"> </image>
+        The potential at point <m>a</m> is 10 V above ground and point <m>b</m> is grounded. 
+         <ol marker ="a.">
+          <li>
+            Find the voltage across and the charge on each capacitor. 
+          </li>
+          <li>
+            What is the voltage at point <m>c</m> with respect to the ground? 
+          </li>
+            </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        (<em>Find equivalent capacitance and work backward to get voltage and charge.</em>)
+      Given: <m>C_{1}=12 \,nF; \quad C_{2}=24 \,nF;\quad C_{3}=22 \,nF; \quad C_{4}=15 \,nF;\quad E=10 \,V </m>  
+      </p>
+      <image source="fig28a.png" width="30%"> </image>
+      <p>
+        <m>\because \quad C_{1} </m> and <m>C_{2}</m> are in series, we have 
+        <me>
+          \frac{1}{C_{12}} = \frac{1}{C_{1}}+\frac{1}{C_{2}}; 
+        </me>
+        <me>
+          \therefore \quad C_{12} = 8 \,nF
+        </me>
+          </p>
+          <image source="fig28b.png" width="30%"> </image>
+          <p>
+            <m>\because \quad C_{12}</m> and <m> C_{3}</m>  are in parallel, we have 
+            <me>
+              C_{123}= C_{12} + C_{3} = 30 \,nF
+            </me>
+               </p>
+               <image source="fig28c.png" width="30%"> </image>
+               <p>
+                <m>\because \quad C_{123}</m> and <m>C_{4}</m>  are in series, we have 
+                <me>
+                  \frac{1}{C_{1234}}= \frac{1}{C_{123}} + \frac{1}{C_{4}};
+                </me>
+                <me>
+                  \therefore \quad  C_{1234} = 10 \,nF
+                </me>
+                  </p>
+                  <image source="fig28d.png" width="15%"> </image>
+                  <p>
+                    Now move bnackward from the last figure to previous one.
+                  </p>
+                  <p>
+                    from figure (d) <m>\because \quad V_{a} = 10\,V;</m> <m> Q_{1234} = V_{a}C_{1234} = 100 \,nC</m> 
+                  </p>
+                  <p>
+                    from figure (c) <m>\because \quad  Q_{123} = Q_{1234};</m>  <m>Q_{123}=V_{123}C_{123};</m>  
+                    <m>\therefore \quad V_{123}= 3.33 \,V</m> 
+                  </p>
+                  <p>
+                    also <m>\because \quad  Q_{4} = Q_{1234};</m> <m>Q_{4}=V_{4}C_{4}; </m> <m>\therefore \quad V_{4}= 6.67 \,V</m> 
+                  </p>
+                  <p>
+                    from figure (b) <m>\because \quad  V_{3} = V_{123};</m>  <m>Q_{3}=V_{3}C_{3};</m> <m>\therefore \quad Q_{3}= 73.33 \,nC</m> 
+                  </p>
+                  <p>
+                    also <m>\because \quad  V_{12} = V_{123};</m> <m>Q_{12}=V_{12}C_{12};</m> <m>\therefore \quad Q_{12}= 26.67 \,nC</m> 
+                  </p>
+                  <p>
+                    from figure (a) <m>\because \quad  Q_{2} = Q_{12};</m> <m>Q_{2}=V_{2}C_{2};</m> <m>\therefore \quad V_{2}= 1.22 \,V</m>
+                  </p>
+                  <p>
+                    also <m>\because \quad  Q_{1} = Q_{12};</m> <m>Q_{1}=V_{1}C_{1};</m> <m>\therefore \quad V_{1}= 2.22 \,V</m>
+                  </p>
+      <p>
+        <ol marker ="a.">
+          <li>
+            <me>
+              V_{1} = 2.22 \,V; \quad Q_{1} = 26.7 \,nC;
+            </me>
+            <me>
+              V_{2} = 1.11 \,V;  \quad Q_{2} = 26.7 \,nC;
+            </me>
+            <me>
+              V_{3} = 3.33 \,V; \quad Q_{3} = 73.33 \,nC;
+            </me>
+            <me>
+              V_{4} = 6.67 \,V; \quad Q_{4} = 100 \,nC 
+            </me>
+              </li>
+          <li>
+           <me>
+            V_{C} = V_{2} + V_{4}; \quad Q_{3} = 73.33 \,nC
+           </me>
+             </li>
+            </ol>
+           <term> Note:</term>  <me>
+            V= V_{4} +V_{123} =10\,V; 
+           </me>
+           <me>
+            Q_{123} =Q_{3}+ Q_{12} = 100 \,nC;
+           </me>
+           <me>
+            V_{12} =V_{1}+V_{2} = 3.33 \,V
+           </me>
+              </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A capacitor is made by sandwiching two thin sheets of aluminum between two layers of 
+        neoprene rubber and then rolled into a cylinder. Each of the sheets are 50 cm wide 
+        and 50 m long. The layers of rubber are 0.5 mm thick and have a dielectric constant of 6.7. 
+        <ol marker ="a.">
+          <li>
+            What is the permittivity of neoprene? 
+          </li>
+          <li>
+            What is the capacitance of the capacitor?
+          </li>
+          <li>
+            If 12 volts are applied across the capacitor, what is the electric field between the sheets?
+          </li>
+          <li>
+            What is the charge density on the surface of the aluminum sheets? 
+          </li>
+          <li>
+            How much energy is stored in the capacitor?
+          </li>
+            </ol>
+            </p>
+    </statement>
+    <solution>
+      <p>
+        If the sheets were kept flat instead of being rolled up, we would have a flat-plate capacitor 
+        with only one side of each sheet charged (the one nearest the other sheet). But because of 
+        the rolling, the results is the same as if many sheets of alternating charge were stacked 
+        on top of one another. Therefore, electrical charge resides on both sides of each sheet 
+        (except for the outermost sheets which can be neglected). This doubles the effective area 
+        of the sheets making the area A of the capacitor twice the area <m>A_{1}</m> of one sheet. 
+        Otherwise, the rolled up capacitor is the same as a regular flat-plate capacitor.
+      </p>
+      <p>
+        Given: <m>W = 0.5 \,m; \quad L = 50 \,m;  </m>   <m>d=5.0\times10^{-4} \,m;\quad K =6.7:\quad V=12\,V; </m> 
+        <m>\epsilon_{o}=8.85\times10^{-12} \,F/m	</m>
+        <ol marker ="a.">
+          <li>
+            <me>
+              \epsilon = K\epsilon_{o} =5.93 \times 10^{-11} \,F/m
+            </me>
+              </li>
+          <li>
+           <me>
+            A= 2LW = 50 \,m^{2};\qquad C= \epsilon \frac{A}{d} =5.93 \times 10^{-6} \,F
+           </me>
+             </li>
+          <li>
+           <me>
+            E =\frac{V}{d}= 2.4 \times 10^{4} \,V/m
+           </me>
+             </li>
+          <li>
+           <me>
+            E = \frac{\sigma}{\epsilon};\quad \sigma = \epsilon E =  1.42 \times 10^{-6} \,C/m^{2}
+           </me>
+               </li>
+          <li>
+           <me>
+            Q =CV; \quad U = \frac{1}{2} QV;
+           </me>
+           <me>
+            \quad Q = 7.12 \times 10^{-5} \,C; \quad U=4.27 \times 10^{-4} \,J 
+           </me>
+               </li>
+            </ol>
+      </p>
+    </solution>
+  </example>
+</paragraphs>
 </section>

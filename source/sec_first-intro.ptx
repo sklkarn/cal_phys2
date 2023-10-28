@@ -128,7 +128,7 @@
     where <m>\hat{r}</m> is unit vector along line joining the two charges, Coulomb's constant of free space, 
     <m>k  =  9.00 \times 10^{9} \,N m^{2}/C^{2}</m>;  and permittivity of free space, 
     <m>\epsilon_{o}  =  8.85 \times 10^{-12}\,C^{2}/N m^{2}.</m> 
-    Permittivity is an ability of a medium to store electrical energy in an electric field. 
+    <term>Permittivity</term> is an ability of a medium to store electrical energy in an electric field. 
     In other words, permittivity is the extent to which a medium permits electrical lines of force 
     between the charges. It is a resistance of a medium in forming electric fields. It describes 
     the effect of a material in an electrical field. The higher the permittivity, the more the 

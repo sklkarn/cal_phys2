@@ -11,45 +11,79 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para logical"><ol class="lower-alpha">
-<li><div class="para"><div class="displaymath process-math">
-\begin{align*}
-V(r)\amp =\frac{1}{2}k r^{2};\\
-k\amp =10^{4}\,V/m^{2},\\
-m\amp =10^{-3}\,kg,\\
-q\amp=10^{-5}C \\
-\therefore\quad V  \amp =\frac{1}{2} k (x^{2}+y^{2}+z^{2}) \\
-r^{2}\amp = x^{2}+y^{2}+z^{2}]
-\end{align*}
-</div></div></li>
-<li><div class="para"><div class="displaymath process-math">
-\begin{equation*}
-\vec{E}=-\vec{\nabla} V =-kx \hat{i}-ky \hat{j}-kz \hat{k}
-\end{equation*}
-</div></div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \vec{E}=-k\vec{r}\)</span></div></li>
-<li><div class="para">
-<span class="process-math">\(\vec{E}=-\vec{\nabla} V =1250 \,V; \)</span> [ V(0.3 m,0.4 m,0)]</div></li>
-<li><div class="para"><span class="process-math">\(\displaystyle \vec{E}(0.3\,m,0.4\,m,0) = -3000\, N/C \hat{i}-4000 \,N/C \hat{j}\)</span></div></li>
-<li><div class="para">
+<h3 class="heading"><span class="type">Paragraph</span></h3>
+<div class="para logical">
+<div class="para">Let us consider two capacitors of capacitance <span class="process-math">\(C_{1}, \quad C_{2}\)</span> and have potentials <span class="process-math">\(V_{1}\)</span> and <span class="process-math">\(V_{2},\)</span> respectively. Hence total charge on the capacitors is</div>
+<div class="displaymath process-math">
+\begin{equation}
+q=q_{1}+q_{2} \tag{1.7.16}
+\end{equation}
+</div>
+<div class="para">When connected charge from one capacitor transfers to another till they obtain common potential <span class="process-math">\(V, \)</span> i.e.</div>
+<div class="displaymath process-math">
+\begin{equation}
+q=q'_{1} + q'_{2} \tag{1.7.17}
+\end{equation}
+</div>
 <div class="displaymath process-math">
 \begin{equation*}
-U=qV;
+\text{or,} \quad q_{1}+q_{2} = q'_{1} + q'_{2}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-U=\frac{1}{2}mv^{2};
+C_{1}V_{1}+C_{2}V_{2} = C_{1}V + C_{2}V =V(C_{1} + C_{2})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+\text{or,} \quad V= \frac{C_{1}V_{1}+C_{2}V_{2}}{C_{1} + C_{2}}  \tag{1.7.18}
+\end{equation}
+</div>
+<div class="para">Electrical energy of the capacitors before and after connection</div>
+<div class="displaymath process-math">
+\begin{equation*}
+U=\frac{1}{2} C_{1}V^{2}_{1}+\frac{1}{2} C_{2}V^{2}_{2}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-v=\sqrt{\frac{2qV}{m}}=5 \,m/s
+\text{and} \quad U' =\frac{1}{2} C_{1}V^{2}+\frac{1}{2} C_{2}V^{2} = \frac{1}{2} \left(C_{1}+C_{1}\right)V^{2}
 \end{equation*}
 </div>
-</div></li>
-</ol></div>
-<span class="incontext"><a href="sec_first-examplesC.html#p-208" class="internal">in-context</a></span>
+<div class="para">Hence energy loss after the connection is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta U = U-U' =\frac{1}{2} C_{1}V^{2}_{1}+\frac{1}{2} C_{2}V^{2}_{2} -\frac{1}{2} \left(C_{1}+C_{2}\right)V^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{2} C_{1}V^{2}_{1}+\frac{1}{2} C_{2}V^{2}_{2} -\frac{1}{2} \left(C_{1}+C_{2}\right)\left[ \frac{C_{1}V_{1}+C_{2}V_{2}}{C_{1} + C_{2}}\right]^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{2} C_{1}V^{2}_{1}+\frac{1}{2} C_{2}V^{2}_{2} -\frac{1}{2} \left(\frac{1}{C_{1}+C_{2}}\right)\left[ C_{1}V_{1}+C_{2}V_{2}\right]^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{2} \left(\frac{1}{C_{1}+C_{2}}\right)\left[C^{2}_{1}V^{2}_{1}+ C_{1}C_{2}V^{2}_{1}+C_{1}C_{2}V^{2}_{2}+C^{2}_{2}V^{2}_{2}-C^{2}_{1}V^{2}_{1}-C^{2}_{2}V^{2}_{2}-2C_{1}C_{2}V_{1}V_{2}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{2} \left(\frac{1}{C_{1}+C_{2}}\right)\left[C_{1}C_{2}\left(V^{2}_{1}+V^{2}_{2}-2V_{1}V_{2}\right)\right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{C_{1}C_{2}}{2\left(C_{1}+C_{2}\right)}\left(V_{1}-V_{2}\right)^{2}
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(\left(V_{1}-V_{2}\right)^{2} \gt 0\text{,}\)</span> there must be energy loss when connecting two capacitors.</div>
+</div>
+<span class="incontext"><a href="subsec-cap_enrgloss.html#p-208" class="internal">in-context</a></span>
 </body>
 </html>

@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-capctrs.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_first-pot.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_first-examplesC.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-capctrs.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_first-pot.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="subsec-cap_enrgloss.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -274,6 +274,7 @@ window.MathJax = {
 <div class="toc-item"><a href="subsec-enrgy_cap.html" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Energy Stored in a Capacitor</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="subsec-enrgy_cap.html#subsubsec-elf_enrgdenst" class="internal"><span class="codenumber">1.7.2.1</span> <span class="title">Electric Field Energy Density</span></a></div></li></ul>
 </li>
+<li><div class="toc-item"><a href="subsec-cap_enrgloss.html" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Loss of Energy in Combining two Capacitors</span></a></div></li>
 </ul>
 </li>
 <li><div class="toc-item"><a href="sec_first-examplesC.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Examples C</span></a></div></li>
@@ -283,7 +284,7 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Electricity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Electrical Circuits</span></a></div></li>
 <li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
 <li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
 </ul>
@@ -325,12 +326,132 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-enrgy_cap"><h2 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.7.2</span> <span class="title">Energy Stored in a Capacitor</span>
 </h2>
-<section class="introduction" id="introduction-13"><div class="para" id="p-194"></div></section><section class="subsubsection" id="subsubsec-elf_enrgdenst"><h3 class="heading hide-type">
+<section class="introduction" id="introduction-13"><div class="para logical" id="p-202">
+<div class="para">Let us consider a capacitor of capacitance <span class="process-math">\(C\)</span> has a charge <span class="process-math">\(q\)</span> stored on it when the potential difference across its plates is <span class="process-math">\(V \)</span> then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V=\frac{q}{C}.
+\end{equation*}
+</div>
+<div class="para">If a further charge <span class="process-math">\(\,dq \)</span> is given to the capacitor, then work needs to be done against the potential difference. Hence the work done is,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dw=V\,dq = \frac{q}{C}\,dq 
+\end{equation*}
+</div>
+<div class="para">Therefore total work done in charging the capacitor from <span class="process-math">\(0\)</span> to <span class="process-math">\(Q\)</span> is given by</div>
+<div class="displaymath process-math" id="eqn-energ_cap1">
+\begin{equation}
+W = \int\limits_{0}^{Q} \frac{q}{C}\,dq = \frac{1}{C}\left[\frac{q^{2}}{2}\right]_{0}^{Q} = \frac{Q^{2}}{2C}\tag{1.7.9}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-energ_cap2">
+\begin{equation}
+\text{or,}\quad W = U =  \frac{1}{2}QV = \frac{1}{2}CV^{2}\tag{1.7.10}
+\end{equation}
+</div>
+</div></section><section class="subsubsection" id="subsubsec-elf_enrgdenst"><h3 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.7.2.1</span> <span class="title">Electric Field Energy Density</span>
 </h3>
-<div class="para" id="p-195"></div></section></section></div>
+<figure class="figure figure-like" id="fieldenergy"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/fieldenergy.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.10<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-203">
+<div class="para">Energy stored  per unit volume in a capacitor is called energy density, i.e.,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/fieldenergy.html">
+\begin{equation*}
+u=\frac{U}{\text{Volume}}.
+\end{equation*}
+</div>
+<div class="para">Consider a charged conductor <span class="process-math">\(XY\)</span> of surface charge density <span class="process-math">\(\sigma\)</span> is placed in free space. Let a small element <span class="process-math">\(ab\)</span> of area <span class="process-math">\(\,dA\)</span> on the surface of the conductor and a point <span class="process-math">\(P\)</span> just outside of it [<a href="" class="xref" data-knowl="./knowl/fieldenergy.html" title="Figure 1.7.10">Figure 1.7.10</a>]. Hence  electric field just outside the charged conductor  is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/fieldenergy.html" id="eqn-energ_cap3">
+\begin{equation}
+\vec{E}=\vec{E_{1}}+\vec{E_{2}}  = \frac{\sigma}{\epsilon_{o}}   \tag{1.7.11}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(\vec{E_{1}} \)</span> and <span class="process-math">\(\vec{E_{2}} \)</span> are electric field at point <span class="process-math">\(P\)</span> due to an element <span class="process-math">\(ab\)</span> and rest of the conductor. If point <span class="process-math">\(P'\)</span> is just inside the conductor then electric field inside the conductor is zero, i.e.,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/fieldenergy.html">
+\begin{equation*}
+\vec{E}=\vec{E_{1}}-\vec{E_{2}} =0
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="p-204">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap5.html" id="eqn-energ_cap4">
+\begin{equation}
+\text{or,}\quad \vec{E_{1}}=\vec{E_{2}} \tag{1.7.12}
+\end{equation}
+</div>
+<div class="para">Therefore from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-energ_cap3.html" title="Equation 1.7.11">(1.7.11)</a> we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap5.html" id="eqn-energ_cap5">
+\begin{equation}
+E_{1} = E_{2} = \frac{\sigma}{2\epsilon_{o}}  \tag{1.7.13}
+\end{equation}
+</div>
+<div class="para">Now force acting on an element <span class="process-math">\(ab\)</span> due to the conductor is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap5.html">
+\begin{equation*}
+F=qE_{2}= \sigma\,dA E_{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap5.html">
+\begin{equation*}
+\text{or,}\quad F=\frac{\sigma^{2}}{2\epsilon_{o}}\,dA =\frac{1}{2}\epsilon_{o}E^{2}\,dA 
+\end{equation*}
+</div>
+<div class="para">from eqns.<a href="" class="xref" data-knowl="./knowl/eqn-energ_cap3.html" title="Equation 1.7.11">(1.7.11)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-energ_cap5.html" title="Equation 1.7.13">(1.7.13)</a>
+</div>
+</div>
+<div class="para logical" id="p-205">
+<div class="para">This is an outward mechanical force acting on a small elementary area <span class="process-math">\(\,dA.\)</span> If this small element is displayed normally by a distance <span class="process-math">\(\,dy\)</span> against this force then work done is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dW=F\,dy=\frac{1}{2}\epsilon_{o}E^{2}\,dA\,dy =\frac{1}{2}\epsilon_{o}E^{2} \,dV
+\end{equation*}
+</div>
+<div class="para">Therefore energy per unit volume is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\,dW}{\,dV}=\frac{\,dU}{\,dV}=\frac{1}{2}\epsilon_{o}E^{2} (J/m^{3})
+\end{equation*}
+</div>
+<div class="para">This work done is stored in an electric field in the form of electric potential energy, i.e., the energy per unit volume of the medium or volume density of electrical energy in the region of an electric field is</div>
+<div class="displaymath process-math" id="eqn-energ_cap6">
+\begin{equation}
+\therefore\quad u = \frac{1}{2}\epsilon_{o} E^{2}  \tag{1.7.14}
+\end{equation}
+</div>
+</div>
+<div class="para logical" id="p-206">
+<div class="para"><em class="alert">Alternative</em></div>
+<div class="displaymath process-math">
+\begin{equation*}
+U=\frac{1}{2}CV^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{but}\quad C=\frac{A\epsilon_{o}}{d}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{and}\quad E=\frac{V}{d}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad U=\frac{1}{2}\left(\frac{A\epsilon_{o}}{d}\right)E^{2}d^{2} = \frac{1}{2}\epsilon_{o}E^{2}Ad 
+= \frac{1}{2}\epsilon_{o}E^{2} \text{(Vol)}
+\end{equation*}
+</div>
+<div class="para">Hence</div>
+<div class="displaymath process-math" id="eqn-energ_cap7">
+\begin{equation}
+u=\frac{U}{\text{(Vol)}}=\frac{1}{2}\epsilon_{o}E^{2}\tag{1.7.15}
+\end{equation}
+</div>
+</div></section></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="subsec-capctrs.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-examplesC.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="subsec-capctrs.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="subsec-cap_enrgloss.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">

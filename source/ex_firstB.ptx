@@ -4,6 +4,10 @@
   <!-- You can ommit the title and just get the default "Exercises" -->
   <title>Exercise B</title>
   
+  <paragraphs>
+    <title>Electrical Potential</title>
+    
+
   <exercise>
   <p>
     An electron <m>(q = -1.602\times10^{-19} \,C)</m> is accelerated through a potential difference of 
@@ -188,5 +192,239 @@
       What is the velocity of electron just before it hits plate B.
     </p>
   </exercise>
+
+</paragraphs>
+
+
+<paragraphs>
+  <title>Capacitors</title>
+  <exercise>
+    <p>
+      A parallel-plate capacitor has a capacitance of 500 pF and a voltage of 100 V. 
+      If the separation between the plates is 0.5 mm, find 
+      <ol marker="a.">
+        <li>
+          the charge on the capacitor,
+        </li>
+        <li>
+          area of the capacitor,
+        </li>
+        <li>
+          the electric field between the plates,
+        </li>
+        <li>
+          the energy stored in the capacitor,
+        </li>
+        <li>
+          the charge density on the surface of the plates, 
+        </li>
+        <li>
+          the energy density of the electric field between the plates.
+        </li>
+         </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A spherical capacitor has a capacitance of 1 nF and a charge of <m>10 \,\mu C.</m> 
+      If the inner sphere has an outer radius of 10 cm, find 
+      <ol marker="a.">
+        <li>
+          the spacing between the two spheres,
+        </li>
+        <li>
+          the potential difference between the two spheres,
+        </li>
+        <li>
+          the energy stored in the capacitor,
+        </li>
+        <li>
+          the charge density on the inner sphere,
+        </li>
+        <li>
+          the charge density on the outer sphere,
+        </li>
+        <li>
+          the electric field mid-way between the spheres,
+        </li>
+        <li>
+          the average energy density between the two spheres.
+        </li>
+         </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A cylindrical capacitor has an inner radius of 1 mm, an outer radius of 2 mm, and 
+      a length of 4 m. If the voltage across the capacitor is 10 V, find 
+      <ol marker="a.">
+        <li>
+          the capacitance of the capacitor,
+        </li>
+        <li>
+          the charge per unit length on the capacitor, 
+        </li>
+        <li>
+          the energy stored in the capacitor,
+        </li>
+        <li>
+          the electric field mid-way between the cylinders, 
+        </li>
+        <li>
+          the energy density of the electric field mid-way between the capacitors,
+        </li>
+        <li>
+          the average energy density of the electric field inside the capacitor.
+        </li>
+           </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A parallel-plate capacitor has a capacitance of 100 pF and a voltage of 100 V. 
+      Find 
+      <ol marker="a.">
+        <li>
+          charge on the capacitor,
+        </li>
+        <li>
+          the energy stored in the capacitor.
+        </li>
+        <li>
+          If the charge on the capacitor is kept constant while the distance between the plates is doubled, 
+          what happens to the electric field between the plates?
+        </li>
+        <li>
+          What is the energy stored in the new capacitor?
+        </li>
+        <li>
+          How much work must be done to separate the plates?
+        </li>
+        <li>
+          What is the new capacitance when the separation is doubled? 
+        </li>
+        <li>
+          If the area of the plates is <m>0.2 m^{2},</m> what is the force between the two plates? 
+        </li>
+           </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A cylindrical capacitor of length 20 m stores 10 nJ of energy when the voltage 
+      is 5 V. Find 
+      <ol marker="a.">
+        <li>
+          the charge on each conductor,
+        </li>
+        <li>
+          the ratio of the radii of the conductors.
+        </li>
+           </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A spherical capacitor of inner radius 10 cm stores 10 nC of charge when charged 
+      with 10 V. Find 
+      <ol marker="a.">
+        <li>
+          its capacitance,
+        </li>
+        <li>
+          its outer radius, 
+        </li>
+        <li>
+          the energy stored,
+        </li>
+        <li>
+          the volume between the two spheres,
+        </li>
+        <li>
+          the average energy density of the electric field between the spheres. 
+        </li>
+          </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A capacitor of 12 mF is connected in series to a capacitor of 24 mF. 
+      <ol marker="a.">
+        <li>
+          What is the equivalent capacitance? 
+        </li>
+        <li>
+          If 8 volts are applied across the combination, what is the charge on each capacitor?
+        </li>
+        <li>
+          What is the voltage across each capacitor?
+        </li>
+        <li>
+          What would be the charge and voltage on each capacitor if they had been connected in parallel?
+        </li>
+           </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the charge on and voltage across each of the capacitors shown at right.
+    </p>
+    <image source="fig29.png" width="35%"> </image>
+  </exercise>
+
+  <exercise>
+    <p>
+      The capacitors in the figure below are initially uncharged and connected with the 
+      switch S open. If the applied voltage is Vab = 36 V, 
+      <image source="fig30.png" width="35%"> </image>
+      <ol marker="a.">
+        <li>
+          what is the potential difference <m>V_{cd}</m>?
+        </li>
+        <li>
+          What is the voltage on each capacitor after the switch S is closed? 
+        </li>
+        <li>
+          How much charge flowed through the switch when it was closed?
+        </li>
+         </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A flat-plate capacitor of length 20 cm, width 10 cm, and spacing 1 mm, is connected 
+      to a 24 V battery. Find 
+      <ol marker="a.">
+        <li>
+          the charge on the capacitor, 
+        </li>
+        <li>
+          the surface charge density on the plates,
+        </li>
+        <li>
+          the energy stored in the capacitor. 
+        </li>
+          <li>
+        If strontium titanate of dielectric constant 310 occupies the space between the capacitors, 
+      find the permittivity of the dielectric,  
+      </li>
+      <li>
+        the capacitance of the capacitor, 
+      </li>
+      <li>
+        the energy density of the electric field inside the dielectric.
+      </li>
+      </ol>
+    </p>
+  </exercise>
+</paragraphs>
  </exercises>
 
