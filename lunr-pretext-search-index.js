@@ -1306,13 +1306,22 @@ var ptx_lunr_docs = [
   "body": "A flat-plate capacitor of length 20 cm, width 10 cm, and spacing 1 mm, is connected to a 24 V battery. Find  the charge on the capacitor,  the surface charge density on the plates,  the energy stored in the capacitor.  If strontium titanate of dielectric constant 310 occupies the space between the capacitors, find the permittivity of the dielectric,  the capacitance of the capacitor,  the energy density of the electric field inside the dielectric.   "
 },
 {
-  "id": "sec_second-intro",
+  "id": "subsec-ohm_law",
   "level": "1",
-  "url": "sec_second-intro.html",
-  "type": "Section",
-  "number": "2.1",
-  "title": "Electrical Circuits",
-  "body": " Electrical Circuits      "
+  "url": "subsec-ohm_law.html",
+  "type": "Subsection",
+  "number": "2.1.1",
+  "title": "Ohm’s Law:",
+  "body": " Ohm's Law:   In 1827, George Simon Ohm studied that the current flowing through a conductor is directly proportional to the potential difference applied between its two ends at constant physical conditions ( Temperature, light, electric, or magnetic field. ) i.e.  where is a proportionality constant and known as a conductance of a conductor. Usually , being resistance of the conductor. Hence      Resistivity or Specific Resistance, :  We know that if a conductor of length has a potential difference across its ends is then electric field can be given as [ ] and if current, is flowing in this conductor of area of cross-section , then current density is . Now using Ohm's law, we have In this expression resistance of the conductor of the given length and area of cross-section are all constant. Hence we can write electrical field as where is known as a specific resistance or resistivity of the conductor. It is a property of the material. Different material has a different resistivity. If a conductor of length has a cross-section area then i.e., resistivity of a conductor is a resistance of a unit length of the conductor of unit area cross-section. It's unit is  The reciprocal of resistivty is known as conductivity , Such expression allows us to compare electrical field with current density such as      Temperature Coefficient of Resistivity  The resistivity of a conductor varies with temperature such that where are resistivity at temperature and and are constants whose value depend on material. If temperature is not sufficiently large then higher order terms are neglected hence,  Here the constant is called temperature coefficient of resistivity of a conductor. It defines the material property. Now as resistance is proportional to the resistivity, we can write i.e., a resistance or resistivity of metallic conductors increases with temperature.    Electrical Power:  It is a measure of energy transferred or consumed by an electrical component per unit time i.e.,  it's unit is Watts (= J\/s).   "
+},
+{
+  "id": "p-286",
+  "level": "2",
+  "url": "subsec-ohm_law.html#p-286",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "conductivity "
 },
 {
   "id": "sec_second-examplesA",
@@ -1321,25 +1330,313 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Examples A",
-  "body": " Examples A  "
+  "body": " Examples A    A copper wire of diameter 1 mm is 100 m long and has a potential difference of 12 V between its ends. Find  the resistance of the wire,  the current in the wire,  the current density in the wire,  the electric field in the wire,  the concentration of free electrons (assuming one electron per copper atom),  the drift velocity of the electrons in the wire, and  the amount of electrical charge flowing through the wire in one minute.   Note:    atom\/mole.    Given:                                           A 100 W light bulb is connected to a 110 V supply.  What is the current?  What is the resistance of the bulb?  At 10 cents per kilowatt-hour, how much would it cost to illuminate such a bulb continuously for one year?  How many such bulbs could be connected to a 15 A circuit breaker?  How much electrical power would be consumed by all these bulbs?  If the temperature of the filament in the bulb is 4500 K and if it is made of tungsten what is the resistance of the bulb at a room temperature of 300 K?      Given:                            "
+},
+{
+  "id": "example-35",
+  "level": "2",
+  "url": "sec_second-examplesA.html#example-35",
+  "type": "Example",
+  "number": "2.2.1",
+  "title": "",
+  "body": "  A copper wire of diameter 1 mm is 100 m long and has a potential difference of 12 V between its ends. Find  the resistance of the wire,  the current in the wire,  the current density in the wire,  the electric field in the wire,  the concentration of free electrons (assuming one electron per copper atom),  the drift velocity of the electrons in the wire, and  the amount of electrical charge flowing through the wire in one minute.   Note:    atom\/mole.    Given:                                        "
+},
+{
+  "id": "example-36",
+  "level": "2",
+  "url": "sec_second-examplesA.html#example-36",
+  "type": "Example",
+  "number": "2.2.2",
+  "title": "",
+  "body": "  A 100 W light bulb is connected to a 110 V supply.  What is the current?  What is the resistance of the bulb?  At 10 cents per kilowatt-hour, how much would it cost to illuminate such a bulb continuously for one year?  How many such bulbs could be connected to a 15 A circuit breaker?  How much electrical power would be consumed by all these bulbs?  If the temperature of the filament in the bulb is 4500 K and if it is made of tungsten what is the resistance of the bulb at a room temperature of 300 K?      Given:                           "
+},
+{
+  "id": "subsec-emf",
+  "level": "1",
+  "url": "subsec-emf.html",
+  "type": "Subsection",
+  "number": "2.3.1",
+  "title": "A summary on internal resistance, emf, and terminal potential difference:",
+  "body": " A summary on internal resistance, emf, and terminal potential difference:                    To understand internal resistance and emf lets consider a lead-acid cell. However, the similar senario could be applied for any other alkaline cells. In lead - acid cell dilute has been used as an electrolyte which gets dissociated in ions and ions in aquous environment as shown in . Now ion migrates towards electrode, captures electron from the electrode and becomes nacent hydrogen atom. Nacent then reacts with and forms and . instantly reacts with molecule and converted into . As charges start accumulating on electrode, we call it a plate of the cell.  On the otherhand, ion attracts towards electrode, dumps its negative charges on it and becomes radical which instantly reacts with to form . In this case electrode starts accumulating charges and becomes a plate of the cell. This process continues till sufficient charges accumulate on these electrodes and it is difficult for the other ions to migrate towards these electrodes because of electrostatic repulsion between the same charges. When transferring of charges by the ions to their respective electrodes stop then electrode has accumated maximum positive charge and electrode has accumulated maximum negative charge. This condition builds up maximum potential difference between the electrodes which is known as electromottife force, emf . The name emf is misleading but it came from its founder, \" Alessandro Volta \" who had used this term as the real reason behind the motion of these charges in the external circuit was not known. The chemical reactions on the electrodes are summarized as follows.  At plate:  At plate:  Remember: Anode is the electrode where oxidation occurs and cathode is where reduction occurs. OILRIG:  O xydation I s L ossing of electron and R eduction I s G aining of electron.   If a load, R is applied between the electrodes then accumulated negative charges begin to flow from cathode to anode via load as shown in . Due to which other +ve and -ve ions again start migrating towards electrodes to perform chemical reaction. Hence accumulation of charges on the electrodes in a solution and discharging via load are continuous by maintaing the equilibrium condition. The voltage at this time between the electrodes is known as terminal voltage or terminal potential difference as shown in . The difference is called the lost voltage. Lost voltage is proportional to the current or disacharging rate of the electrodes. The straight line shows the ideal case of rate of accumulation of charges on the electrodes. The straight line shows the rate of discharging of electrodes or current through the load. If higher load is applied current decreases on the load depicting line in the graph. The projection of intersection point between rate of charging and rate of discharging on x axis gives the value of terminal potential difference (voltage). The terminal voltage increases with increasing load thus decreases the lost voltage on the internal resistance. Lost voltage occurs due to drop of voltage on internal resistance. See the equation above .   "
+},
+{
+  "id": "figure-59",
+  "level": "2",
+  "url": "subsec-emf.html#figure-59",
+  "type": "Figure",
+  "number": "2.3.2",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-302",
+  "level": "2",
+  "url": "subsec-emf.html#p-302",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "OILRIG: O I L R I G "
+},
+{
+  "id": "subsec-res_circt",
+  "level": "1",
+  "url": "subsec-res_circt.html",
+  "type": "Subsection",
+  "number": "2.3.2",
+  "title": "Resistance Circuits:",
+  "body": " Resistance Circuits:   It is an arrangement of resistances where current can flow in a certain closed path if it is allowed to do so.    Combination of Resistances  There are two important arrangements of grouping the resistances in electrical circuits. They are series and parallel arrangements.                      Series Combination of Resistances:  If the same current passes through each of the resistances in a combination then the combination is called a series combination of resistances as shown in .  Let and are three resistances connected in series and their terminals are connected to the cell of emf . If a circuit draws current I from a cell then the same current I will also pass through each of the resistances. Hence from Ohm's law  Now lets replace all of these resistances with such a single resistance that the circuit still draws the same amount of current I from the same cell of emf as shown in . Hence from Ohm's law  Equating eqns. and , we get- Hence in series combination of resistances equivalent resistance can be found by     Parallel Combination of Resistances:  If the current of a circuit gets distributed while passing through the resistances in combination then the combination is called a parallel combination of resistances as shown in .  Let and are three resistances connected in parallel and their terminals are connected to the cell of emf . If a circuit draws current I from a cell and the current I splitted into and before passing through the resistances then from Ohm's law   Now lets replace all these resistances with such a single resistance that the circuit still draws the same amount of current I from the same cell of emf as shown in . Hence from Ohm's law  Equating eqns. and , we get- Hence in parallel combination of resistances equivalent resistance can be found by       Current in Parallel Resistances:       we have        "
+},
+{
+  "id": "figure-63",
+  "level": "2",
+  "url": "subsec-res_circt.html#figure-63",
+  "type": "Figure",
+  "number": "2.3.3",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "figparallel",
+  "level": "2",
+  "url": "subsec-res_circt.html#figparallel",
+  "type": "Figure",
+  "number": "2.3.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-maxptr",
+  "level": "1",
+  "url": "subsec-maxptr.html",
+  "type": "Subsection",
+  "number": "2.3.3",
+  "title": "Maximum Power Transfer Theorem",
+  "body": " Maximum Power Transfer Theorem  In an electric circuit emf of a source generates power to the circuit and load dissipates that power. Some of this power is also dissipated at the internal resistance of the source and hence the power transferred to the load is less than the power generated.      Lets calculate the maximum power transfer to the load. Consider a simple circuit as shown in . Now, power generated by the source is given by and power transfered to the load can be From Ohm's law, we have  Hence, from eqns. and we get-   That is, power transfer depends upon the load resistance. Hence, maximum power transfer can be obtained by   Thus the source can transfer maximum power to the load only when load resistance is equal to the internal resistance of the source.  "
+},
+{
+  "id": "maxptr",
+  "level": "2",
+  "url": "subsec-maxptr.html#maxptr",
+  "type": "Figure",
+  "number": "2.3.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-el_instrmnt",
+  "level": "1",
+  "url": "subsec-el_instrmnt.html",
+  "type": "Subsection",
+  "number": "2.3.4",
+  "title": "Electrical Instruments:",
+  "body": " Electrical Instruments:  Instruments used to analyze or measure electrical entities are called electrical instruments .   Galvanometer, Ammeter, Voltmeter, Ohmmeter, Potentiometer, and Multimeter from top left to bottom right, respectively.     Galvanometer: It is an instrument used to detect electrical current in a circuit. It deflects its needle either right or left if there is a current in a circuit. See [examples B question number 2] to know how galvanometer can be converted into ammeter or voltmeter.   Ammeter: It is an instrument used to measure electrical current in a circuit. It is connected series in a circuit where current to be measured. It has a very low internal resistance.   Voltmeter: It is an instrument used to measure potential difference across electrical components in a circuit. It is connected in a parallel to the component where potential drop is to be measured. It has a very high internal resistance.   Ohmmeter: It is an instrument used to measure resistance of a component in a circuit.  Potentiometer: It is a variable resistance normally used to controll potential in a circuit. It has three terminals.   Multimeter: It is a device composed of many electrical instruments and has multi-function capacity. It can be used as a voltmeter, ammeter, ohmmeter, and so on.  "
+},
+{
+  "id": "instruments",
+  "level": "2",
+  "url": "subsec-el_instrmnt.html#instruments",
+  "type": "Figure",
+  "number": "2.3.6",
+  "title": "",
+  "body": " Galvanometer, Ammeter, Voltmeter, Ohmmeter, Potentiometer, and Multimeter from top left to bottom right, respectively.   "
+},
+{
+  "id": "p-316",
+  "level": "2",
+  "url": "subsec-el_instrmnt.html#p-316",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Galvanometer: "
+},
+{
+  "id": "p-317",
+  "level": "2",
+  "url": "subsec-el_instrmnt.html#p-317",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Ammeter: "
+},
+{
+  "id": "p-318",
+  "level": "2",
+  "url": "subsec-el_instrmnt.html#p-318",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Voltmeter: "
+},
+{
+  "id": "p-319",
+  "level": "2",
+  "url": "subsec-el_instrmnt.html#p-319",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Ohmmeter: "
+},
+{
+  "id": "p-320",
+  "level": "2",
+  "url": "subsec-el_instrmnt.html#p-320",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Potentiometer: "
+},
+{
+  "id": "p-321",
+  "level": "2",
+  "url": "subsec-el_instrmnt.html#p-321",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Multimeter: "
+},
+{
+  "id": "subsec-cir_anals",
+  "level": "1",
+  "url": "subsec-cir_anals.html",
+  "type": "Subsection",
+  "number": "2.4.1",
+  "title": "Analysis of DC Electric Circuit",
+  "body": " Analysis of DC Electric Circuit    "
+},
+{
+  "id": "subsec-wheat_stone",
+  "level": "1",
+  "url": "subsec-wheat_stone.html",
+  "type": "Subsection",
+  "number": "2.4.2",
+  "title": "Wheat-Stone’s Bridge Circuit",
+  "body": " Wheat-Stone's Bridge Circuit    "
+},
+{
+  "id": "sec_second-examplesB",
+  "level": "1",
+  "url": "sec_second-examplesB.html",
+  "type": "Section",
+  "number": "2.5",
+  "title": "Examples B",
+  "body": " Examples B    A 12 V battery with an internal resistance of 1 ohm is connected to four other resistors as shown in figure below. Find    the voltage across and the current through each resistor.  the voltage across the battery, and  the the electrical potential at point c.  Provided:  and     ( Find equivalent resistance and work backward to get voltage and current. )  Given:    Since and are in series, we have     Since and are in parallel, we have      Since and are in series, we have     Now, from figure below, we have       Moving backward: from figure       from figure        from figure                                In figures below the emf of the battery is 6 V, the internal resistance is and the load resistance is Find the readings of the ammeter and the voltmeter in each of the three cases.              For first figure      Hence, Ammeter reads 1.496 mA. Hence, Voltmeter reads 5.985 V.  For second figure [ ] No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.  For third figure No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.     Note:  Ammeter is a negligibly low internal resistance device. It could not appreciably affect any current that is flowing in the sircuit. Hence it is always used as a series connection in the circuit.   Voltmeter is an infinitely high internal resistance device. It could not allow any current flows through it from the circuit. Hence it is always used as a parallel connection in the circuit element at which we are measuring the voltage.    "
+},
+{
+  "id": "example-37",
+  "level": "2",
+  "url": "sec_second-examplesB.html#example-37",
+  "type": "Example",
+  "number": "2.5.1",
+  "title": "",
+  "body": "  A 12 V battery with an internal resistance of 1 ohm is connected to four other resistors as shown in figure below. Find    the voltage across and the current through each resistor.  the voltage across the battery, and  the the electrical potential at point c.  Provided:  and     ( Find equivalent resistance and work backward to get voltage and current. )  Given:    Since and are in series, we have     Since and are in parallel, we have      Since and are in series, we have     Now, from figure below, we have       Moving backward: from figure       from figure        from figure                             "
+},
+{
+  "id": "example-38",
+  "level": "2",
+  "url": "sec_second-examplesB.html#example-38",
+  "type": "Example",
+  "number": "2.5.2",
+  "title": "",
+  "body": "  In figures below the emf of the battery is 6 V, the internal resistance is and the load resistance is Find the readings of the ammeter and the voltmeter in each of the three cases.              For first figure      Hence, Ammeter reads 1.496 mA. Hence, Voltmeter reads 5.985 V.  For second figure [ ] No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.  For third figure No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.     Note:  Ammeter is a negligibly low internal resistance device. It could not appreciably affect any current that is flowing in the sircuit. Hence it is always used as a series connection in the circuit.   Voltmeter is an infinitely high internal resistance device. It could not allow any current flows through it from the circuit. Hence it is always used as a parallel connection in the circuit element at which we are measuring the voltage.   "
 },
 {
   "id": "ex_second",
   "level": "1",
   "url": "ex_second.html",
   "type": "Exercises",
-  "number": "2.3",
+  "number": "2.6",
   "title": "Exercise",
-  "body": "  Exercise    "
+  "body": "  Exercise   Ohm's Law  Current passes through a solution of sodium chloride. In two seconds, ions arrive at the negative electrode, and arrive at the positive electrode.  What is the current passing through the electrodes?  If the voltage across the electrodes is 3 V, what is the effective resistance of the solution?  How much electrical power is converted to heat during one minute of operation?    An aluminum wire is 10 m long, 0.4 mm in radius, and contains an electric field of 0.5 V\/m. Find  the current in the wire,  the resistance of the wire,  the power dissipated by the wire,  the potential difference between the ends of the wire, and  the current density in the wire.   NOTE:     The potential difference between points in a wire 10 m apart is 12 V when the current density is If the wire has a radius of find  the electric field in the wire,  the resistivity of the material in the wire,  the resistance of the wire,  the current in the wire, and  the power dissipated in the wire.      What is the resistance of a copper wire of radius and length   How much energy is converted into heat when this wire is connected to a 12 V battery for 60 s?  What is the mass of the wire?  How much does the temperature of the wire increase (assuming no heat loss to the surroundings)?  How much does the resistance of the wire increase due to this heat?   NOTE: For copper  and   A carbon resistor is to be used as a thermometer. On a winter day when the temperature is freezing, its resistance is   What is the temperature on a hot summer day when the resistance is   What current flows through the resistor in the winter if the ohmmeter uses a 1.5 V battery?  How much power does the resistor dissipate in the winter if it takes 5 seconds to measure its resistance?   NOTE: For carbon ,      Electrical Circuits  When the switch S in the give figure is open, the voltmeter reads 3.15 V. When the switch S is closed, the voltmeter reads 2.95 V and the ammeter reads 2.5 A. Find    the emf of the battery,  the internal resistance of the battery, and  the value of the resistor R.    Given the circuit as shown below,  where the resistors are and respectively, and the emf is 6 V. Find the voltage across and the current through each resistor.  Given the circuit shown below with     If the switch is open, find   If the switch is closed, find     A 12 V battery with the negative terminal grounded is connected to four resistors as shown in circuit below. Find    the voltage across and the current through each resistor.  the electrical potential at point c,  the power drain on the battery.    Given the circuit shown in the figure below. Find    the current through the resistor.  the voltage ,  the voltage , and  the power dissipated in the resistor.     "
 },
 {
   "id": "exercise-63",
   "level": "2",
   "url": "ex_second.html#exercise-63",
   "type": "Exercise",
-  "number": "2.3.1",
+  "number": "2.6.1",
   "title": "",
-  "body": " "
+  "body": "Current passes through a solution of sodium chloride. In two seconds, ions arrive at the negative electrode, and arrive at the positive electrode.  What is the current passing through the electrodes?  If the voltage across the electrodes is 3 V, what is the effective resistance of the solution?  How much electrical power is converted to heat during one minute of operation?   "
+},
+{
+  "id": "exercise-64",
+  "level": "2",
+  "url": "ex_second.html#exercise-64",
+  "type": "Exercise",
+  "number": "2.6.2",
+  "title": "",
+  "body": "An aluminum wire is 10 m long, 0.4 mm in radius, and contains an electric field of 0.5 V\/m. Find  the current in the wire,  the resistance of the wire,  the power dissipated by the wire,  the potential difference between the ends of the wire, and  the current density in the wire.   NOTE:    "
+},
+{
+  "id": "exercise-65",
+  "level": "2",
+  "url": "ex_second.html#exercise-65",
+  "type": "Exercise",
+  "number": "2.6.3",
+  "title": "",
+  "body": "The potential difference between points in a wire 10 m apart is 12 V when the current density is If the wire has a radius of find  the electric field in the wire,  the resistivity of the material in the wire,  the resistance of the wire,  the current in the wire, and  the power dissipated in the wire.   "
+},
+{
+  "id": "exercise-66",
+  "level": "2",
+  "url": "ex_second.html#exercise-66",
+  "type": "Exercise",
+  "number": "2.6.4",
+  "title": "",
+  "body": "  What is the resistance of a copper wire of radius and length   How much energy is converted into heat when this wire is connected to a 12 V battery for 60 s?  What is the mass of the wire?  How much does the temperature of the wire increase (assuming no heat loss to the surroundings)?  How much does the resistance of the wire increase due to this heat?   NOTE: For copper  and  "
+},
+{
+  "id": "exercise-67",
+  "level": "2",
+  "url": "ex_second.html#exercise-67",
+  "type": "Exercise",
+  "number": "2.6.5",
+  "title": "",
+  "body": "A carbon resistor is to be used as a thermometer. On a winter day when the temperature is freezing, its resistance is   What is the temperature on a hot summer day when the resistance is   What current flows through the resistor in the winter if the ohmmeter uses a 1.5 V battery?  How much power does the resistor dissipate in the winter if it takes 5 seconds to measure its resistance?   NOTE: For carbon ,   "
+},
+{
+  "id": "exercise-68",
+  "level": "2",
+  "url": "ex_second.html#exercise-68",
+  "type": "Exercise",
+  "number": "2.6.6",
+  "title": "",
+  "body": "When the switch S in the give figure is open, the voltmeter reads 3.15 V. When the switch S is closed, the voltmeter reads 2.95 V and the ammeter reads 2.5 A. Find    the emf of the battery,  the internal resistance of the battery, and  the value of the resistor R.   "
+},
+{
+  "id": "exercise-69",
+  "level": "2",
+  "url": "ex_second.html#exercise-69",
+  "type": "Exercise",
+  "number": "2.6.7",
+  "title": "",
+  "body": "Given the circuit as shown below,  where the resistors are and respectively, and the emf is 6 V. Find the voltage across and the current through each resistor. "
+},
+{
+  "id": "exercise-70",
+  "level": "2",
+  "url": "ex_second.html#exercise-70",
+  "type": "Exercise",
+  "number": "2.6.8",
+  "title": "",
+  "body": "Given the circuit shown below with     If the switch is open, find   If the switch is closed, find    "
+},
+{
+  "id": "exercise-71",
+  "level": "2",
+  "url": "ex_second.html#exercise-71",
+  "type": "Exercise",
+  "number": "2.6.9",
+  "title": "",
+  "body": "A 12 V battery with the negative terminal grounded is connected to four resistors as shown in circuit below. Find    the voltage across and the current through each resistor.  the electrical potential at point c,  the power drain on the battery.   "
+},
+{
+  "id": "exercise-72",
+  "level": "2",
+  "url": "ex_second.html#exercise-72",
+  "type": "Exercise",
+  "number": "2.6.10",
+  "title": "",
+  "body": "Given the circuit shown in the figure below. Find    the current through the resistor.  the voltage ,  the voltage , and  the power dissipated in the resistor.   "
 },
 {
   "id": "sec_third-intro",
@@ -1369,9 +1666,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-64",
+  "id": "exercise-73",
   "level": "2",
-  "url": "ex_third.html#exercise-64",
+  "url": "ex_third.html#exercise-73",
   "type": "Exercise",
   "number": "3.3.1",
   "title": "",
@@ -1405,9 +1702,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-65",
+  "id": "exercise-74",
   "level": "2",
-  "url": "ex_fourth.html#exercise-65",
+  "url": "ex_fourth.html#exercise-74",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -1441,9 +1738,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-66",
+  "id": "exercise-75",
   "level": "2",
-  "url": "ex_fifth.html#exercise-66",
+  "url": "ex_fifth.html#exercise-75",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -1459,72 +1756,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-285",
+  "id": "p-360",
   "level": "2",
-  "url": "append_math.html#p-285",
+  "url": "append_math.html#p-360",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-286",
+  "id": "p-361",
   "level": "2",
-  "url": "append_math.html#p-286",
+  "url": "append_math.html#p-361",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-287",
+  "id": "p-362",
   "level": "2",
-  "url": "append_math.html#p-287",
+  "url": "append_math.html#p-362",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-288",
+  "id": "p-363",
   "level": "2",
-  "url": "append_math.html#p-288",
+  "url": "append_math.html#p-363",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-289",
+  "id": "p-364",
   "level": "2",
-  "url": "append_math.html#p-289",
+  "url": "append_math.html#p-364",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-290",
+  "id": "p-365",
   "level": "2",
-  "url": "append_math.html#p-290",
+  "url": "append_math.html#p-365",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-291",
+  "id": "p-366",
   "level": "2",
-  "url": "append_math.html#p-291",
+  "url": "append_math.html#p-366",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-292",
+  "id": "p-367",
   "level": "2",
-  "url": "append_math.html#p-292",
+  "url": "append_math.html#p-367",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1540,9 +1837,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-293",
+  "id": "p-368",
   "level": "2",
-  "url": "appendix-2.html#p-293",
+  "url": "appendix-2.html#p-368",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
