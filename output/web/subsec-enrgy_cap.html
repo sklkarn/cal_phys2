@@ -284,9 +284,39 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Electricity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Electrical Circuits</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Conduction Mechanism of Current in a Metal</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-ohm_law.html" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Ohm’s Law:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-restvty" class="internal"><span class="codenumber">2.1.1.1</span> <span class="title">Resistivity or Specific Resistance, <span class="process-math">\(\rho\text{:}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-temp_restvty" class="internal"><span class="codenumber">2.1.1.2</span> <span class="title">Temperature Coefficient of Resistivity</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-el_power" class="internal"><span class="codenumber">2.1.1.3</span> <span class="title">Electrical Power:</span></a></div></li>
+</ul>
+</li></ul>
+</li>
 <li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
-<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_second-elcircuits.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Electrical Circuits</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-emf.html" class="internal"><span class="codenumber">2.3.1</span> <span class="title">A summary on internal resistance, emf, and terminal potential difference:</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-res_circt.html" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Resistance Circuits:</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-res_circt.html#subsubsec-res_comb" class="internal"><span class="codenumber">2.3.2.1</span> <span class="title">Combination of Resistances</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-maxptr.html" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Maximum Power Transfer Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-el_instrmnt.html" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Electrical Instruments:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_second-kirchhf.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Kirchhoff’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cir_anals.html" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Analysis of DC Electric Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-wheat_stone.html" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Wheat-Stone’s Bridge Circuit</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li>
@@ -342,12 +372,12 @@ V=\frac{q}{C}.
 <div class="para">Therefore total work done in charging the capacitor from <span class="process-math">\(0\)</span> to <span class="process-math">\(Q\)</span> is given by</div>
 <div class="displaymath process-math" id="eqn-energ_cap1">
 \begin{equation}
-W = \int\limits_{0}^{Q} \frac{q}{C}\,dq = \frac{1}{C}\left[\frac{q^{2}}{2}\right]_{0}^{Q} = \frac{Q^{2}}{2C}\tag{1.7.9}
+W = \int\limits_{0}^{Q} \frac{q}{C}\,dq = \frac{1}{C}\left[\frac{q^{2}}{2}\right]_{0}^{Q} = \frac{Q^{2}}{2C}\tag{1.7.10}
 \end{equation}
 </div>
 <div class="displaymath process-math" id="eqn-energ_cap2">
 \begin{equation}
-\text{or,}\quad W = U =  \frac{1}{2}QV = \frac{1}{2}CV^{2}\tag{1.7.10}
+\text{or,}\quad W = U =  \frac{1}{2}QV = \frac{1}{2}CV^{2}\tag{1.7.11}
 \end{equation}
 </div>
 </div></section><section class="subsubsection" id="subsubsec-elf_enrgdenst"><h3 class="heading hide-type">
@@ -364,7 +394,7 @@ u=\frac{U}{\text{Volume}}.
 <div class="para">Consider a charged conductor <span class="process-math">\(XY\)</span> of surface charge density <span class="process-math">\(\sigma\)</span> is placed in free space. Let a small element <span class="process-math">\(ab\)</span> of area <span class="process-math">\(\,dA\)</span> on the surface of the conductor and a point <span class="process-math">\(P\)</span> just outside of it [<a href="" class="xref" data-knowl="./knowl/fieldenergy.html" title="Figure 1.7.10">Figure 1.7.10</a>]. Hence  electric field just outside the charged conductor  is given by</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/fieldenergy.html" id="eqn-energ_cap3">
 \begin{equation}
-\vec{E}=\vec{E_{1}}+\vec{E_{2}}  = \frac{\sigma}{\epsilon_{o}}   \tag{1.7.11}
+\vec{E}=\vec{E_{1}}+\vec{E_{2}}  = \frac{\sigma}{\epsilon_{o}}   \tag{1.7.12}
 \end{equation}
 </div>
 <div class="para">where <span class="process-math">\(\vec{E_{1}} \)</span> and <span class="process-math">\(\vec{E_{2}} \)</span> are electric field at point <span class="process-math">\(P\)</span> due to an element <span class="process-math">\(ab\)</span> and rest of the conductor. If point <span class="process-math">\(P'\)</span> is just inside the conductor then electric field inside the conductor is zero, i.e.,</div>
@@ -377,13 +407,13 @@ u=\frac{U}{\text{Volume}}.
 <div class="para logical" id="p-204">
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap5.html" id="eqn-energ_cap4">
 \begin{equation}
-\text{or,}\quad \vec{E_{1}}=\vec{E_{2}} \tag{1.7.12}
+\text{or,}\quad \vec{E_{1}}=\vec{E_{2}} \tag{1.7.13}
 \end{equation}
 </div>
-<div class="para">Therefore from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-energ_cap3.html" title="Equation 1.7.11">(1.7.11)</a> we have -</div>
+<div class="para">Therefore from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-energ_cap3.html" title="Equation 1.7.12">(1.7.12)</a> we have -</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap3.html ./knowl/eqn-energ_cap5.html" id="eqn-energ_cap5">
 \begin{equation}
-E_{1} = E_{2} = \frac{\sigma}{2\epsilon_{o}}  \tag{1.7.13}
+E_{1} = E_{2} = \frac{\sigma}{2\epsilon_{o}}  \tag{1.7.14}
 \end{equation}
 </div>
 <div class="para">Now force acting on an element <span class="process-math">\(ab\)</span> due to the conductor is given by</div>
@@ -397,7 +427,7 @@ F=qE_{2}= \sigma\,dA E_{2}
 \text{or,}\quad F=\frac{\sigma^{2}}{2\epsilon_{o}}\,dA =\frac{1}{2}\epsilon_{o}E^{2}\,dA 
 \end{equation*}
 </div>
-<div class="para">from eqns.<a href="" class="xref" data-knowl="./knowl/eqn-energ_cap3.html" title="Equation 1.7.11">(1.7.11)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-energ_cap5.html" title="Equation 1.7.13">(1.7.13)</a>
+<div class="para">from eqns.<a href="" class="xref" data-knowl="./knowl/eqn-energ_cap3.html" title="Equation 1.7.12">(1.7.12)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-energ_cap5.html" title="Equation 1.7.14">(1.7.14)</a>
 </div>
 </div>
 <div class="para logical" id="p-205">
@@ -416,7 +446,7 @@ F=qE_{2}= \sigma\,dA E_{2}
 <div class="para">This work done is stored in an electric field in the form of electric potential energy, i.e., the energy per unit volume of the medium or volume density of electrical energy in the region of an electric field is</div>
 <div class="displaymath process-math" id="eqn-energ_cap6">
 \begin{equation}
-\therefore\quad u = \frac{1}{2}\epsilon_{o} E^{2}  \tag{1.7.14}
+\therefore\quad u = \frac{1}{2}\epsilon_{o} E^{2}  \tag{1.7.15}
 \end{equation}
 </div>
 </div>
@@ -446,7 +476,7 @@ U=\frac{1}{2}CV^{2}
 <div class="para">Hence</div>
 <div class="displaymath process-math" id="eqn-energ_cap7">
 \begin{equation}
-u=\frac{U}{\text{(Vol)}}=\frac{1}{2}\epsilon_{o}E^{2}\tag{1.7.15}
+u=\frac{U}{\text{(Vol)}}=\frac{1}{2}\epsilon_{o}E^{2}\tag{1.7.16}
 \end{equation}
 </div>
 </div></section></section></div>

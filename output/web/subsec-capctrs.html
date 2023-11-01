@@ -284,9 +284,39 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Electricity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Electrical Circuits</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Conduction Mechanism of Current in a Metal</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-ohm_law.html" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Ohm’s Law:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-restvty" class="internal"><span class="codenumber">2.1.1.1</span> <span class="title">Resistivity or Specific Resistance, <span class="process-math">\(\rho\text{:}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-temp_restvty" class="internal"><span class="codenumber">2.1.1.2</span> <span class="title">Temperature Coefficient of Resistivity</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-el_power" class="internal"><span class="codenumber">2.1.1.3</span> <span class="title">Electrical Power:</span></a></div></li>
+</ul>
+</li></ul>
+</li>
 <li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
-<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_second-elcircuits.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Electrical Circuits</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-emf.html" class="internal"><span class="codenumber">2.3.1</span> <span class="title">A summary on internal resistance, emf, and terminal potential difference:</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-res_circt.html" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Resistance Circuits:</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-res_circt.html#subsubsec-res_comb" class="internal"><span class="codenumber">2.3.2.1</span> <span class="title">Combination of Resistances</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-maxptr.html" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Maximum Power Transfer Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-el_instrmnt.html" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Electrical Instruments:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_second-kirchhf.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Kirchhoff’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cir_anals.html" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Analysis of DC Electric Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-wheat_stone.html" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Wheat-Stone’s Bridge Circuit</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li>
@@ -384,22 +414,22 @@ V = k\frac{Q}{r}= \frac{1}{4\pi \epsilon}\frac{Q}{r},
 </div></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.7.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-196"><ol class="upper-roman">
 <li id="li-186"><div class="para" id="p-derived-li-186">
-<dfn class="terminology">Series Combination of Capacitors</dfn> When capacitors are connected in such a way that same charge is seemed to be passing through each capacitor then the combination is called a series combination of capacitors. In this case positive terminal of one capacitor is connected to the negative terminal of another capacitor as shown in <a href="" class="xref" data-knowl="./knowl/seriescap.html" title="Figure 1.7.6.(a)">Figure 1.7.6.(a)</a>. If charge Q is sent in the circuit by a battery of <em class="emphasis">emf, V</em> [<a href="sec_second-intro.html" class="internal" title="Section 2.1: Electrical Circuits">Section 2.1</a>], then<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html">
+<dfn class="terminology">Series Combination of Capacitors</dfn> When capacitors are connected in such a way that same charge is seemed to be passing through each capacitor then the combination is called a series combination of capacitors. In this case positive terminal of one capacitor is connected to the negative terminal of another capacitor as shown in <a href="" class="xref" data-knowl="./knowl/seriescap.html" title="Figure 1.7.6.(a)">Figure 1.7.6.(a)</a>. If charge Q is sent in the circuit by a battery of <em class="emphasis">emf, V</em> [<a href="sec_second-intro.html" class="internal" title="Section 2.1: Conduction Mechanism of Current in a Metal">Section 2.1</a>], then<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html">
 \begin{equation*}
 V=V_{1} +V_{2}= \frac{Q}{C_{1}}+\frac{Q}{C_{2}} = Q\left[\frac{1}{C_{1}}+\frac{1}{C_{2}}\right]
 \end{equation*}
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html" id="eqn-srs_cap1">
 \begin{equation}
-\frac{V}{Q}= \left[\frac{1}{C_{1}}+\frac{1}{C_{2}}\right]\tag{1.7.1}
+\frac{V}{Q}= \left[\frac{1}{C_{1}}+\frac{1}{C_{2}}\right]\tag{1.7.2}
 \end{equation}
 </div>Now replace these capacitors with such a single capacitor that draws a same amount of charge Q from the same battery as shown in <a href="" class="xref" data-knowl="./knowl/eqcap.html" title="Figure 1.7.6.(c)">Figure 1.7.6.(c)</a>, then this new capacitor is called an equivalent capacitor <span class="process-math">\(C_{eq}\)</span> of all these previous capacitors in series.<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html" id="eqn-srs_cap2">
 \begin{equation}
-V= \frac{Q}{C_{eq}};\quad \text{or,}\quad \frac{V}{Q}=\frac{1}{C_{eq}} \tag{1.7.2}
+V= \frac{Q}{C_{eq}};\quad \text{or,}\quad \frac{V}{Q}=\frac{1}{C_{eq}} \tag{1.7.3}
 \end{equation}
-</div>Hence, from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-srs_cap1.html" title="Equation 1.7.1">(1.7.1)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-srs_cap2.html" title="Equation 1.7.2">(1.7.2)</a>, we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html" id="eqn-srs_cap3">
+</div>Hence, from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-srs_cap1.html" title="Equation 1.7.2">(1.7.2)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-srs_cap2.html" title="Equation 1.7.3">(1.7.3)</a>, we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/seriescap.html ./knowl/sec_second-intro.html ./knowl/eqcap.html ./knowl/eqn-srs_cap1.html ./knowl/eqn-srs_cap2.html" id="eqn-srs_cap3">
 \begin{equation}
-\frac{1}{C_{eq}}= \frac{1}{C_{1}}+ \frac{1}{C_{2}} \tag{1.7.3}
+\frac{1}{C_{eq}}= \frac{1}{C_{1}}+ \frac{1}{C_{2}} \tag{1.7.4}
 \end{equation}
 </div>
 </div></li>
@@ -411,15 +441,15 @@ q=q_{1}+q_{2}=C_{1}V+C_{2}V = V\left[C_{1}+C_{2}\right]
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/parallelcap.html ./knowl/eqcap.html ./knowl/eqn-prl_cap1.html ./knowl/eqn-prl_cap2.html" id="eqn-prl_cap1">
 \begin{equation}
-\therefore\quad \frac{q}{V} = \left[C_{1}+C_{2}\right] \tag{1.7.4}
+\therefore\quad \frac{q}{V} = \left[C_{1}+C_{2}\right] \tag{1.7.5}
 \end{equation}
 </div>Now if these capacitors are replaced by a single capacitor, <span class="process-math">\(C_{eq}\)</span> such that circuit draws the same amount of charge from the same battery (<a href="" class="xref" data-knowl="./knowl/eqcap.html" title="Figure 1.7.6.(c)">Figure 1.7.6.(c)</a>), then<div class="displaymath process-math" data-contains-math-knowls="./knowl/parallelcap.html ./knowl/eqcap.html ./knowl/eqn-prl_cap1.html ./knowl/eqn-prl_cap2.html" id="eqn-prl_cap2">
 \begin{equation}
-q = C_{eq}V \quad \text{or,}\quad \frac{q}{V}=C_{eq}  \tag{1.7.5}
+q = C_{eq}V \quad \text{or,}\quad \frac{q}{V}=C_{eq}  \tag{1.7.6}
 \end{equation}
-</div>Hence from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-prl_cap1.html" title="Equation 1.7.4">(1.7.4)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-prl_cap2.html" title="Equation 1.7.5">(1.7.5)</a>, we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/parallelcap.html ./knowl/eqcap.html ./knowl/eqn-prl_cap1.html ./knowl/eqn-prl_cap2.html" id="eqn-prl_cap3">
+</div>Hence from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-prl_cap1.html" title="Equation 1.7.5">(1.7.5)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-prl_cap2.html" title="Equation 1.7.6">(1.7.6)</a>, we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/parallelcap.html ./knowl/eqcap.html ./knowl/eqn-prl_cap1.html ./knowl/eqn-prl_cap2.html" id="eqn-prl_cap3">
 \begin{equation}
-C_{eq}  =  C_{1} + C_{2}  \tag{1.7.6}
+C_{eq}  =  C_{1} + C_{2}  \tag{1.7.7}
 \end{equation}
 </div>
 </div></li>
@@ -446,7 +476,7 @@ E=E_{1}+E_{2}=  \frac{\sigma}{\epsilon_{o}}
 <div class="para">pointed along -ve plate.</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html">
 \begin{equation*}
-\text{But,}\quad V = -\int\vec{E}\cdot\vec{\,dr} = Ed =\frac{\sigma}{\epsilon_{o}}d 
+\text{But,}\quad V = -\int\vec{E}\cdot\vec{\,dr} = E\,d =\frac{\sigma}{\epsilon_{o}}d 
 \end{equation*}
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html">
@@ -464,7 +494,7 @@ C_{o}  = \frac{Q}{V}= \frac{\sigma A}{Ed} = \frac{\sigma A}{\frac{\sigma}{\epsil
 <div class="para">If the space between the plates is filled with dielectric with permitivity <span class="process-math">\(\epsilon\)</span> then capacitance of a parallel plate capacitor is given by</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/paraplatecap1.html" id="eqn-diel_cap1">
 \begin{equation}
-C=\frac{A \epsilon}{d}\tag{1.7.7}
+C=\frac{A \epsilon}{d}\tag{1.7.8}
 \end{equation}
 </div>
 </div>
@@ -480,7 +510,7 @@ C=\frac{A \epsilon}{d}\tag{1.7.7}
 <div class="para">It is an ability of a medium to store electrical energy in presence of electric field.</div>
 <div class="displaymath process-math" id="eqn-diel_cap2">
 \begin{equation}
-\kappa  = \frac{\epsilon}{\epsilon_{o}}= \frac{C}{C_{o}}\tag{1.7.8}
+\kappa  = \frac{\epsilon}{\epsilon_{o}}= \frac{C}{C_{o}}\tag{1.7.9}
 \end{equation}
 </div>
 </div></section><section class="subsubsection" id="subsubsec-spher_cap"><h3 class="heading hide-type">

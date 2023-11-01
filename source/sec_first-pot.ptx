@@ -133,9 +133,9 @@ without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).
      		<me>
           \text{or,} \quad E = -\frac{\Delta V }{\Delta l}
         </me>
-        <me>
+        <men xml:id="eqn-elpotgrd1">
           \therefore\quad \vec{E}  =  - \vec{\nabla} V
-        </me>
+        </men>
         Unit of potential gradient is V/m or N/C.
   </p>
 
@@ -433,7 +433,7 @@ without acceleration. Unit of electrical work is Joule,J = Nm (Newton.meter).
       </me>
       pointed along -ve plate. 
      <me>
-      \text{But,}\quad V = -\int\vec{E}\cdot\vec{\,dr} = Ed =\frac{\sigma}{\epsilon_{o}}d 
+      \text{But,}\quad V = -\int\vec{E}\cdot\vec{\,dr} = E\,d =\frac{\sigma}{\epsilon_{o}}d 
      </me>
      <me>
       \text{and}\quad \sigma = \frac{Q}{A}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_second-kirchhf" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Kirchhoff's Law</title>
+  
+<introduction>
+  <p>
+    On the basis of conservation principle Gustav Kirchhoff established two laws 
+    to solve the complicated electrical circuits (or networks of conductors). 
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="35% 35%">
+      <figure xml:id="currentlaw">
+        <caption></caption>
+        <image source="currentlaw.png"/>
+    </figure>
+        <figure xml:id="voltlaw">
+            <caption></caption>
+            <image source="voltlaw.png"/>
+        </figure>
+     </sidebyside>
+  </figure>
+  <p>
+    <ol marker="I.">
+      <li>
+        <p>
+        <term>I Law:</term> It is also called a <em>current law</em>. This law is based on the principle 
+        of conservation of charge. It states that in an electrical circuit the algebraic sum of 
+        currents at a point is zero, i.e., the currents entering to a point is equal to currents 
+        going out of the point as shown in <xref ref="currentlaw"/>. Mathematically, 
+        <men xml:id="eqn-kirch1">
+          \sum I=0
+        </men>
+      <me>
+        \text{or,}\quad I_{5}+I_{6}-I_{1}-I_{2}-I_{3}-I_{4}=0
+      </me>
+      <me>
+        i.e., \quad I_{1}+I_{2}+I_{3}+I_{4}=I_{5}+I_{6}
+      </me>
+      Thus in an electrical circuit, there is no accumulation of charge at any point or junction.
+      </p>
+  <p>
+    <term>Junction or Node:</term> It is a point in a network where two or more than two 
+    circuit elements meet together as points <m>A,\, B, \,P,</m> or <m>Q</m> in <xref ref="voltlaw"/>. 
+    Points A, H, and D are the same point or the same junction. It is a shared point between 
+    electrical components. The voltage at any point on the junction is same.
+  </p>
+  <p>
+    <term>Loop:</term> It is a closed circuit along which a current can flow. 
+    The closed circuit ABCDA is one loop, ABGHA is another loop, and DCGHD is 
+    the other loop as shown in <xref ref="voltlaw"/>.
+  </p>
+      </li>
+      <li>
+       <term> II Law:</term> It is also called a <em>voltage law</em>. 
+       It states that in a closed loop of electrical circuit total voltage is equal to zero, 
+       i.e., in a closed loop of an electrical circuit the algebraic sum of electromotive forces 
+       is equal to the potential drop at circuit elements (resistances) as shown in <xref ref="voltlaw"/>.  
+       Mathematically, 
+      <men xml:id="eqn-kirch2">
+        \sum V = 0
+      </men>
+      <me>
+        \text{or,} \quad \sum E = \sum IR
+      </me>
+               For a closed loop ABGHA, 
+               <me>
+                E_{1}-E_{2}=I_{1}R_{1} - I_{2}R_{2}
+               </me>
+               For a closed loop ABCDA, 
+               <me>
+                E_{2}=(I_{1}+I_{2})R_{3} + I_{2}R_{2}
+               </me>
+             For a closed loop HGCDH,
+             <me>
+              E_{1} =  (I_{1}+I_{2})R_{3}+I_{1}R_{1}
+             </me>
+         Remember, the voltage drop or emf will be added up if 
+         all currents flow in the loop are in same direction.
+        </li>
+    </ol>
+  </p>
+</introduction>
+
+<subsection xml:id="subsec-cir_anals">
+  <title>Analysis of DC Electric Circuit</title>
+  <p>
+
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-wheat_stone">
+  <title>Wheat-Stone's Bridge Circuit</title>
+  <p>
+    
+  </p>
+</subsection>
+
+  </section>
+

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_second-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+  
+<example>
+  <statement>
+    <p>
+      A 12 V battery with an internal resistance of 1 ohm is connected to four other resistors 
+      as shown in figure below.  Find 
+      <image source="fig31a.png" width="35%"> </image>
+      <ol marker="a.">
+        <li>
+          the voltage across and the current through each resistor.
+        </li>
+        <li>
+          the voltage <m>V_{ab}</m> across the battery, and
+        </li>
+        <li>
+          the the electrical potential at point c.
+        </li>
+      </ol>
+      Provided: <m>R_{1} =1 \,\Omega; \quad R_{2}= 2\,\Omega;</m> 
+      <m> R_{3}= 3\,\Omega; \quad R_{4}= 6\,\Omega; </m> and <m>E = 12\,V</m>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      (<em>Find equivalent resistance and work backward to get voltage and current.</em>)
+    </p>
+    <p>
+      Given: <m> r= 1\,\Omega;\quad R_{1} =1 \,\Omega; \quad R_{2}= 2\Omega;</m>	
+      <m>R_{3}= 6\,\Omega;\quad R_{4}= 3\,\Omega;\quad E = 12\,V</m>	
+    </p>
+   
+    <p>  
+      Since <m>R_{1}</m> and <m>R_{2}</m> are in series, we have 
+      <image source="fig31a.png" width="35%"> </image>
+      <me>
+        R_{12} = R_{1}+R_{2} = 3 \,\Omega;
+      </me>
+    </p>
+    <p>
+      Since <m>R_{12}</m> and <m>R_{3}</m> are in parallel, we have
+       <image source="fig31b.png" width="35%"> </image> 
+      <me>
+        \frac{1}{R_{123}}= \frac{1}{R_{12}} + \frac{1}{R_{3}};
+      </me>
+      <me>
+        \therefore R_{123} = 2 \,\Omega 
+      </me>
+       </p>
+       <p>
+        Since <m>r, \quad R_{123},</m> and <m>R_{4}</m> are in series, we have 
+      <image source="fig31c.png" width="35%"> </image> 
+        <me>
+        R_{1234}= r + R_{123} +  R_{4} = 6 \,\Omega 
+      </me>
+       </p>
+       <p>
+        Now, from  figure below, we have 
+        <image source="fig31d.png" width="35%"> </image> 
+        <me>
+         \left[ V = I R \right];
+        </me>
+        <me>
+         or, \quad  I = \frac{V}{R} = \frac{E}{R_{1234}} = 12/6 = 2\,A
+        </me>
+         </p>
+      <p>
+        <em>Moving backward: </em>
+        from  figure <image source="fig31c.png" width="35%"> </image> 
+        <me>
+          V_{o} = I r =2\,A\cdot1\,\Omega = 2\,V;
+        </me>
+        <me>
+          \text{ also,} \quad V_{4} = I R_{4}= 2\,A\cdot3\,\Omega = 6\,V 
+        </me>
+        <me>
+          \text{and} \quad  V_{123} = I R_{123}= 2\,A\cdot2\,\Omega = 4\,V 
+        </me>
+         </p>
+ <p>
+  from  figure <image source="fig31b.png" width="35%"> </image> 
+  <me>
+    \because \quad  V_{12} = I_{12} R_{12}; 
+  </me>
+  <me>
+    \therefore I_{12} =  \frac{V_{12}}{R_{12}} = \frac{V_{123}}{R_{12}} = 1.33 \,A
+  </me>
+  <me>
+    \text{also,} \quad \because \quad  V_{3} = I_{3} R_{3};
+  </me>
+  <me>
+    \therefore I_{3} =  \frac{V_{3}}{R_{3}} = \frac{V_{123}}{R_{3}} = 0.67 \,A
+  </me>
+  </p>
+ <p>
+  from  figure <image source="fig31a.png" width="35%"> </image> 
+  <me>
+    \because \quad  V_{1} = I_{1} R_{1} = I_{12} R_{1}  = 1.33\,A\cdot 1\,\Omega = 1.33 \,V
+  </me>
+  <me>
+    \text{also,}\quad \because \quad  V_{2} = I_{12} R_{2}=1.33\,A\cdot 2\,\Omega  = 2.67\, V
+  </me>
+  </p>
+ 
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            V_{o}=2\,V;
+          </me>
+          <me>
+            I_{o}=2\,A;
+          </me>
+          <me>
+            V_{1}=1.33\,V;
+          </me>
+          <me>
+            I_{1}=1.33\,A;
+          </me>
+          <me>
+            V_{2}=2.67\,V;
+          </me>
+          <me>
+            I_{2}=1.33\,A; 
+          </me>
+          <me>
+            V_{4}=6\,V;
+          </me>
+          <me>
+            I_{4}=2\,A;
+          </me>
+          <me>
+            V_{3}=4\,V;
+          </me>
+          <me>
+            I_{3}=0.67\,A
+          </me>         
+        </li>
+        <li>
+          <me>
+            V_{ab}=E - V_{o}= 10\,V
+          </me>   
+        </li>
+        <li>
+          <me>
+            V_{c}= V_{cb}=V_{2}+V_{4} = 8.67\,V
+          </me>
+           </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      In figures below the emf of the battery is 6 V, the internal resistance is <m>10 \,\Omega,</m> 
+      and the load resistance is <m>4 \,k\Omega.</m>  Find the readings of the ammeter and the voltmeter 
+      in each of the three cases. 
+    </p>
+    <sidebyside widths="30% 30% 30%">
+      <image source="fig32a.png"> </image> 
+      <image source="fig32b.png" > </image> 
+      <image source="fig32c.png" > </image> 
+    </sidebyside>
+     </statement>
+  <solution>
+    <p>
+      <ol marker="i.">
+        <li>
+          For first figure
+          <me>
+            E = 6 \,V;\quad r = 10 \,\Omega;\quad  R= 4000 \,\Omega 
+          </me>
+          <me>
+            R_{T} = r +R;
+          </me>
+          <me>
+            V_{T} = I R_{T};
+          </me>
+          <me>
+            V = I R
+          </me>
+          <me>
+            R_{T} = 4010 \,\Omega;
+          </me>
+          <me>
+            I = 1.496 \,mA;
+          </me>
+          Hence, Ammeter  reads  1.496 mA.
+          <me>
+            V = 5.985 \,V; 
+          </me>
+          Hence, Voltmeter reads 5.985 V.
+            </li>
+            <li>
+              For second figure [<xref ref="subsec-el_instrmnt"/>]
+              No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.
+               </li>
+               <li>
+                For third figure
+                No current flows. Hence,  Ammeter  reads 0 current and Voltmeter reads 6 V.
+               </li>
+      </ol>
+    </p>
+    <p>
+     <term> Note:</term> <em>Ammeter</em> is a negligibly low internal resistance device. 
+     It could not appreciably affect any current that is flowing in the sircuit. 
+     Hence it is always used as a series connection in the circuit.
+    </p>
+    <p>
+      <em>Voltmeter</em> is an infinitely high internal resistance device. 
+     It could not allow any current flows through it from the circuit. 
+     Hence it is always used as a parallel connection in the circuit element at which we are measuring the voltage.
+    </p>
+  </solution>
+</example>
+</section>

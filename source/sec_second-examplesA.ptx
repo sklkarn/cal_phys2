@@ -4,4 +4,179 @@
   <title>Examples A</title>
   
 
+  <example>
+    <statement>
+      <p>
+        A copper wire of diameter 1 mm is 100 m  long and has a potential difference of 
+        12 V between its ends. Find 
+        <ol marker="a.">
+          <li>
+            the resistance of the wire, 
+          </li>
+          <li>
+            the current in the wire,
+          </li>
+          <li>
+            the current density in the wire,
+          </li>
+          <li>
+            the electric field in the wire,
+          </li>
+          <li>
+            the concentration of free electrons (assuming one electron per copper atom),
+          </li>
+          <li>
+            the drift velocity of the electrons in the wire, and
+          </li>
+          <li>
+            the amount of electrical charge flowing through the wire in one minute.
+          </li>
+        </ol>
+        <term>Note: </term> <m>\rho_{cu} = 1.72\times10^{-8} \,\Omega.m,</m> 
+        <m>D_{cu} = 8.9 \,g/cm^{3},\quad M_{cu} = 63.546 \,g/mole, </m> 
+        <m>N_{A} = 6.022\times10^{23}</m> atom/mole.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given:	<m>\rho_{cu} = 1.72\times10^{-8} \,\Omega.m,\quad D_{cu} = 8.9\times10^{3}\,kg/m^{3},</m>
+        <m>M_{cu} = 63.546 \,g/mol, \quad N_{A} = 6.022\times10^{23} \,atom/mole</m> 
+        <m>V = 12 \,V; \quad	r = 5\times10^{-4}\, m; \quad	e  =  1.60\times10^{-19} \,C; </m>
+        <m>L = 100 \,m; \quad t = 60 \,s </m>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              R = \frac{\rho L}{A};\quad A =\pi r^{2}
+            </me>
+            <me>
+              A=7.854 \times 10^{-7} \,m^{2};\quad R=2.19 \,\Omega
+            </me>
+               </li>
+          <li>
+            <me>
+              V= IR
+            </me>
+            <me>
+              I = \frac{V}{R}=5.480 \,A
+            </me>
+               </li>
+          <li>
+            <me>
+              J =\frac{I}{A}
+            </me>
+            <me>
+              J= 6.977 \times 10^{6} \,A/m^{2}
+            </me>
+                </li>
+          <li>
+            <me>
+              E = \rho J=\frac{V}{l}
+            </me>
+            <me>
+              E =  0.12 \,V/m
+            </me>
+               </li>
+          <li>
+            <me>
+              n= \frac{N}{Volume} =\frac{\text{(Number of moles)}N_{A}}{Volume} 
+            </me>
+            <me>
+              =\frac{mass}{\text{Molar mass}}\left(\frac{N_{A}}{Volume}\right)=\frac{D}{M}N_{A} 
+            </me>
+               <me>
+              n = 8.434 \times 10^{28} \,m^{-3}
+            </me>
+               </li>
+          <li>
+            <me>
+              I = n e v A
+            </me>
+            <me>
+              v =\frac{I}{neA} = 5.17 \times 10^{-4} \,m/s
+            </me>
+              </li>
+          <li>
+            <me>
+              I=\frac{dQ}{dt}
+            </me>
+            <me>
+              Q = It =329 \,C
+            </me>
+             </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A 100 W  light bulb is connected to a 110 V  supply. 
+        <ol marker="a.">
+          <li>
+            What is the current? 
+          </li>
+          <li>
+            What is the resistance of the bulb?
+          </li>
+          <li>
+            At 10 cents per kilowatt-hour, how much would it cost to illuminate such a bulb continuously for one year? 
+          </li>
+          <li>
+            How many such bulbs could be connected to a 15 A circuit breaker?
+          </li>
+          <li>
+            How much electrical power would be consumed by all these bulbs? 
+          </li>
+          <li>
+            If the temperature of the filament in the bulb is 4500 K and if it is made of tungsten <m>(\alpha = 0.0038\,/K),</m> 
+            what is the resistance of the bulb at a room temperature of 300 K?
+          </li>
+        </ol>
+            </p>
+    </statement>
+    <solution>
+      <p>
+        Given:  <m>P = 100\, W;	c = 0.10 \,\$/kW.h;\quad \alpha = 0.0038\,/K;</m>
+        <m>V = 110 \,V;\quad	T = 4500 \,K; \quad I_{max} = 15 \,A;	\quad T_{o} = 300\, K </m>
+         </p>
+         <p>
+          <ol marker="a.">
+            <li>
+            <me>
+              P=VI;\quad \Rightarrow \quad I = P/V = 0.909 \,A
+            </me>
+                  </li>
+            <li>
+              <me>
+                V= IR;\quad  R = V/I =121 \,\Omega
+              </me>
+                 </li>
+            <li>
+             <me>
+              \text{cost}\quad =(\$ 0.10\,/kWh)(0.10\,kW)(24\,h/d)(365 \,d/y)(1\,y) = \$ 87.6 
+             </me>
+                </li>
+            <li>
+              <me>
+                I_{max} \gt N_{max}I; \quad N_{max}=16
+              </me>
+                   </li>
+            <li>
+             <me>
+              P_{max}= N_{max}P;\quad P_{max} = 1600 \,W
+             </me>
+                  </li>
+            <li>
+             <me>
+              R = R_{o}[1+\alpha(T-T_{o})];\quad R_{o}= 7.13 \,\Omega 
+             </me>
+                   </li>
+          </ol>
+         </p>
+        </solution>
+  </example>
+
 </section>

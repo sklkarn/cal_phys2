@@ -9,18 +9,75 @@
   
   <introduction>
     <p>
-    
-   
+      It is a branch of physics which deals with the motion of charges in a conductor. 
+      [<em>The study of motion of electric charges in vacuum or semiconducting materials is known in electronics.</em>]
      </p>
-    
+
+     <p>
+      <term>Current, <m>I</m>:</term> An electric current is defined as the transfer of charge through 
+      any area of cross-section per unit time. If a net charge <m>q</m> passes through any cross-sectional 
+      area of a conductor in time <m>t,</m> then electric current is given by 
+      <men xml:id="eqn-current1">
+        I=\frac{q}{t}.
+      </men>
+       It's unit is Ampere, i.e. one ampere of current represents one coulomb of charge passes through 
+       a conductor in one second. It is a scalar quantity but it's conventional direction of motion 
+       is taken as the direction of flow of positive charges. In a conductor current flows solely 
+       due to the motion of electrons, hence the direction of current is opposite to electron-flow. 
+       From the law of conservation of charges current remains constant in a conductor irrespective of 
+       the local area of cross-section. When the direction of motion of charge does not change with time, 
+       the current is said to be a <term>direct current, or DC</term>, but when the direction of charge 
+       motion reverses periodically, the current is known as <term>alternating current, or AC</term>.
+     </p>
+     <p>
+      If <m>\,dq </m> amount of charges passes through any cross section, <m>s</m> of a conductor in time <m>\,dt</m> 
+      then electric current <m>\,dI</m> through that conductor is given by  
+      <me>
+        I=\frac{\,dq}{\,dt}
+      </me>
+       and current <m>\,dI</m> passes through an infinitesimal area  <m>\,dA</m> normally is 
+       called a <term>current density, <m>J</m></term>, 
+       <men xml:id="eqn-current2">
+        J=\frac{\,dI}{\,dA} 
+       </men>
+       <me>
+        \text{or,}\quad \,dI=J.\,dA
+       </me>
+        </p>
+        <p>
+          The total current density through a given cross-section <m>A</m> of a conductor is then writen as 
+          <me>
+           I = \int\limits_{s} J.\,dA
+          </me>
+        Hence current can also be defined as the flux of current density over a given area [<xref ref="curdensity"/>]. 
+        It is vector quantity. It's direction is along the direction of flow of current and 
+        it's unit is  <m>\frac{Ampere}{meter^2}</m> or <m>(A/m^2)</m>. 
+        </p>
+     <figure xml:id="curdensity">
+      <caption></caption>
+      <image source="curdensity.png" width="30%"/> 
+  </figure>
+  <p>
+    <term>Drift Velocity, <m>v_d</m>:</term> In a metallic conductor electrons are moving randomly 
+    in a pool of positive and negative charges in all possible directions which constitute no net current. 
+    When an electric field is applied across a conductor these electrons (or charge carriers) begin to 
+    flow in one particular direction giving rise to current in a conductor. During the motion 
+    these electrons interact with residual positively charged atoms and other electrons which 
+    change their motion in a zig-zag path resulting a longer time to reach at the other end of 
+    the conductor. The  average velocity with which these electrons can move inside the conductor 
+    in presence of electric field is called a <em>drift velocity</em>. We will know latter that 
+    the drift velocity does not depend on length or area of cross-section of a conductor. 
+  </p>
       </introduction>
 
   <xi:include href="./sec_second-intro.ptx" />
 
   <xi:include href="./sec_second-examplesA.ptx" />  
 
+  <xi:include href="./sec_second-elcircuits.ptx" />
+  <xi:include href="./sec_second-kirchhf.ptx" />
 
-
+  <xi:include href="./sec_second-examplesB.ptx" />  
   
   <xi:include href="./ex_second.ptx"/>
 

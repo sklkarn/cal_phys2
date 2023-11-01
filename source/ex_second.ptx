@@ -4,11 +4,211 @@
   <!-- You can ommit the title and just get the default "Exercises" -->
   <title>Exercise</title>
   
+
+  <paragraphs>
+    <title>Ohm's Law</title>
+    
   <exercise>
   <p>
-    
-  </p>
+    Current passes through a solution of sodium chloride. In two seconds, 
+    <m>4.60\times10^{16} \,Na^{+} </m> ions arrive at the negative electrode, 
+    and <m>3.00\times10^{16} \,Cl^{-}</m>  arrive at the positive electrode. 
+    <ol marker="a.">
+      <li>
+        What is the current passing through the electrodes?
+      </li>
+      <li>
+        If the voltage across the electrodes is 3 V, what is the effective resistance of the solution?
+      </li>
+      <li>
+        How much electrical power is converted to heat during one minute of operation? 
+      </li>
+    </ol>
+    </p>
   </exercise>
  
+
+  <exercise>
+    <p>
+      An aluminum wire is 10 m long, 0.4 mm in radius, and contains an electric field of 0.5 V/m. Find 
+      <ol marker="a.">
+        <li>
+          the current in the wire, 
+        </li>
+        <li>
+          the resistance of the wire,
+        </li>
+        <li>
+          the power dissipated by the wire, 
+        </li>
+        <li>
+          the potential difference between the ends of the wire, and 
+        </li>
+        <li>
+          the current density in the wire. 
+        </li>
+      </ol>
+      <em>NOTE: </em> <m>\rho_{al} = 2.75\times10^{-8} \,\Omega.m, \quad D_{al} = 2.7 \,g/cm^{3}, </m> <m>M_{al} = 26.98 \,g/mole.</m>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The potential difference between points in a wire 10 m apart is 12 V when the current density 
+      is <m>4\times10^{7} \,A/m^{2}.</m>  If the wire has a radius of <m>2.0\times10^{-5} \,m,</m> find 
+      <ol marker="a.">
+        <li>
+          the electric field in the wire, 
+        </li>
+        <li>
+          the resistivity of the material in the wire, 
+        </li>
+        <li>
+          the resistance of the wire, 
+        </li>
+        <li>
+          the current in the wire, and
+        </li>
+        <li>
+          the power dissipated in the wire.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol marker="a.">
+        <li>
+          What is the resistance of a copper wire of radius <m>1.0\times 10^{-4} \,m </m> and length <m>2.0\times 10^{3} \,m?</m> 
+        </li>
+        <li>
+          How much energy is converted into heat when this wire is connected to a 12 V battery for 60 s? 
+        </li>
+        <li>
+          What is the mass of the wire? 
+        </li>
+        <li>
+          How much does the temperature of the wire increase (assuming no heat loss to the surroundings)? 
+        </li>
+        <li>
+          How much does the resistance of the wire increase due to this heat?
+        </li>
+      </ol>
+     <em> NOTE:</em> For copper <m>\alpha = 0.00393 \,/^{o}C, \quad \rho = 1.72\times10^{-8} \,\Omega.m, </m> 
+     <m>D = 8.9 \,g/cm^3, </m> and <m>c = 390 \,J/kg.K.</m>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A carbon resistor is to be used as a thermometer. On a winter day when the temperature is 
+      freezing, its resistance is <m>237.5 \,\Omega.</m> 
+      <ol marker="a.">
+        <li>
+          What is the temperature on a hot summer day when the resistance is <m>233.9 \,\Omega?</m> 
+        </li>
+        <li>
+          What current flows through the resistor in the winter if the ohmmeter uses a 1.5 V battery?
+        </li>
+        <li>
+          How much power does the resistor dissipate in the winter if it takes 5 seconds to measure its resistance?
+        </li>
+         </ol>
+         <em>NOTE:</em> For carbon <m>\alpha = -0.0005 \,/^{o}C</m>, <m>\rho = 3.5\times10^{-5} \,\Omega.m, </m> 
+         <m>D = 2.25 \,g/cm^{3}.</m>
+    </p>
+  </exercise>
+
+</paragraphs>
+
+<paragraphs>
+  <title>Electrical Circuits</title>
+  
+  <exercise>
+    <p>
+      When the switch S in the give figure is open, the voltmeter reads 3.15 V. 
+      When the switch S is closed, the voltmeter reads 2.95 V and the ammeter reads 2.5 A. Find 
+      <image source="fig33.png" width="35%"> </image> 
+        <ol marker="a.">
+        <li>
+          the emf of the battery,
+        </li>
+        <li>
+          the internal resistance of the battery, and 
+        </li>
+        <li>
+          the value of the resistor R.
+        </li>
+      </ol>
+    </p>
+     </exercise>
+
+  <exercise>
+    <p>
+      Given the circuit as shown below, 
+      <image source="fig34.png" width="35%"> </image> 
+      where the resistors are 
+      <m>1 \,k\Omega,\quad 2 \,k\Omega,\quad 3 \,k\Omega,</m> and <m>4 \,k\Omega,</m> respectively, 
+      and the emf is 6 V. Find the voltage across and the current through each resistor.
+    </p>
+     </exercise>
+
+  <exercise>
+    <p>
+     Given the circuit shown below with <m>V_{ab} = 9 \,V.</m> 
+     <image source="fig35.png" width="35%"> </image> 
+     <ol marker="a.">
+      <li>
+        If the switch is open, find <m>V_{cd}.</m>
+      </li>
+      <li>
+        If the switch is closed, find <m>V_{cb}.</m> 
+      </li>
+     </ol>
+      </p>
+    </exercise>
+
+<exercise>
+  <p>
+    A 12 V battery with the negative terminal grounded is connected to four resistors 
+    as shown in circuit below.  Find 
+    <image source="fig36.png" width="35%"> </image> 
+    <ol marker="a.">
+      <li>
+        the voltage across and the current through each resistor. 
+      </li>
+      <li>
+        the electrical potential at point c, 
+      </li>
+      <li>
+        the power drain on the battery.
+      </li>
+    </ol> 
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Given the circuit shown in the figure below. Find 
+    <image source="fig37.png" width="35%"> </image> 
+    <ol marker="a.">
+      <li>
+        the current through the <m>3 \,\Omega</m> resistor. 
+      </li>
+      <li>
+        the voltage <m>V_{ab}</m>,
+      </li>
+      <li>
+        the voltage <m>V_{cd}</m>, and 
+      </li>
+      <li>
+        the power dissipated in the <m>6 \,\Omega</m> resistor.
+      </li>
+    </ol> 
+  
+  </p>
+</exercise>
+</paragraphs>
  </exercises>
 

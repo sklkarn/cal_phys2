@@ -11,122 +11,50 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<article class="li"><h1 class="heading">
-<span class="type">Item</span><span class="space"> </span><span class="codenumber">7</span><span class="period">.</span>
-</h1>
+<article class="li"><h4 class="heading">
+<span class="type">Item</span><span class="space"> </span><span class="codenumber">II</span><span class="period">.</span><span class="space"> </span><span class="title">Parallel Combination of Resistances:.</span>
+</h4>
+<div class="para">If the current of a circuit gets distributed while passing through the resistances in combination then the combination is called a parallel combination of resistances as shown in <a href="" class="xref" data-knowl="./knowl/parallelcir.html" title="Figure 2.3.3.(b)">Figure 2.3.3.(b)</a>.</div>
 <div class="para logical">
-<div class="para"><dfn class="terminology">Calculus:</dfn></div>
-<div class="displaymath process-math">
+<div class="para">Let <span class="process-math">\(R_{1}, \quad R_{2},\)</span> and <span class="process-math">\(R_{3}\)</span> are three resistances connected in parallel and their terminals are connected to the cell of emf <span class="process-math">\(E\text{.}\)</span> If a circuit draws current I from a cell and the current I splitted into <span class="process-math">\(I_{1},\quad I_{2}, \)</span> and <span class="process-math">\(I_{3}\)</span> before passing through the resistances then from Ohm’s law</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-par_cir1.html ./knowl/eqn-par_cir2.html">
 \begin{equation*}
-\lim_{x \to 0} \frac{\sin x}{x} = 1;
+I=I_{1} + I_{2} +I_{3}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-par_cir1.html ./knowl/eqn-par_cir2.html">
 \begin{equation*}
-\lim_{x \to 0} \cos x = 1 
+\text{or,}\quad I=\frac{E}{R_{1}}+\frac{E}{R_{2}}+\frac{E}{R_{3}} = E\left(\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}\right)
 \end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">
-<dfn class="terminology">Derivatives:</dfn><div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-par_cir1.html ./knowl/eqn-par_cir2.html">
+\begin{equation}
+\text{or,}\quad \frac{I}{E}= \left(\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}\right)  \tag{2.3.6}
+\end{equation}
+</div>
+<div class="para">Now lets replace all these resistances with such a single resistance <span class="process-math">\(R_{eq}\)</span> that the circuit still draws the same amount of current I from the same cell of emf <span class="process-math">\(E \)</span> as shown in <a href="" class="xref" data-knowl="./knowl/serieseq.html" title="Figure 2.3.3.(c)">Figure 2.3.3.(c)</a>. Hence from Ohm’s law</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-par_cir1.html ./knowl/eqn-par_cir2.html">
 \begin{equation*}
-\frac{\,d}{\,dx}x^{n}=nx^{n-1};
+E=IR_{eq} 
 \end{equation*}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\,d}{\,dx}\ln ax= \frac{1}{x};
-\end{equation*}
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-par_cir1.html ./knowl/eqn-par_cir2.html">
+\begin{equation}
+\text{or,}\quad \frac{1}{R_{eq}}=\frac{I}{E} \tag{2.3.7}
+\end{equation}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\,d}{\,dx}e^{ax}=ae^{ax};
-\end{equation*}
+<div class="para">Equating eqns. <a href="" class="xref" data-knowl="./knowl/eqn-par_cir1.html" title="Equation 2.3.6">(2.3.6)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-par_cir2.html" title="Equation 2.3.7">(2.3.7)</a>, we get-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-par_cir1.html ./knowl/eqn-par_cir2.html">
+\begin{equation}
+\frac{1}{R_{eq}}=\frac{1}{R_{1}}+ \frac{1}{R_{2}}+\frac{1}{R_{3}}  \tag{2.3.8}
+\end{equation}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\,d}{\,dx}\sin ax = a\cos ax;
-\end{equation*}
+<div class="para">Hence in parallel combination of resistances equivalent resistance can be found by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-par_cir1.html ./knowl/eqn-par_cir2.html">
+\begin{equation}
+\frac{1}{R_{eq}}=\frac{1}{R_{1}}+ \frac{1}{R_{2}}+\frac{1}{R_{3}}+\cdots  \tag{2.3.9}
+\end{equation}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\,d}{\,dx}\cos ax = -a\sin ax;
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\,d}{\,dx}\left(\tan x\right) = \sec^{2} x;
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\,d}{\,dx}\left(\cot x \right) = - \csc^{2} x
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\,d}{\,dx}\left(\sec x \right) = \sec x \tan x;
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{\,d}{\,dx}\left(\csc x \right) = - \csc x \cot x
-\end{equation*}
-</div>
-</div></li>
-<li><div class="para">
-<dfn class="terminology">Integrals:</dfn><div class="displaymath process-math">
-\begin{equation*}
-\int x^{n}\,dx= \frac{x^{n+1}}{n+1}\quad (n\neq-1);
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int \frac{1}{x}\,dx=\ln x;
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int e^{ax}\,dx = \frac{e^{ax}}{a};
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int \sin ax \,dx= -\frac{\cos ax}{a};
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int \cos ax\,dx=\frac{\sin ax}{a};
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int \frac{\,dx}{\sqrt{a^{2}-x^{2}}}=\arcsin\frac{x}{a}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int \frac{\,dx}{\sqrt{x^{2}+a^{2}}}=\ln(x+\sqrt{x^{2}+a^{2}});
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int \frac{\,dx}{x^{2}+a^{2}}=\frac{1}{a}\arctan\frac{x}{a}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int \frac{\,dx}{\left(x^{2}+a^{2}\right)^{3/2}}=\frac{1}{a^{2}}\frac{x}{\sqrt{x^{2}+a^{2}}};
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\int \frac{x\,dx}{\left(x^{2}+a^{2}\right)^{3/2}}=-\frac{1}{\sqrt{x^{2}+a^{2}}}
-\end{equation*}
-</div>
-</div></li>
-</ol>
-</div></article><span class="incontext"><a href="append_math.html#li-377" class="internal">in-context</a></span>
+</div></article><span class="incontext"><a href="subsec-res_circt.html#li-377" class="internal">in-context</a></span>
 </body>
 </html>

@@ -11,41 +11,45 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<article class="li"><h1 class="heading">
-<span class="type">Item</span><span class="space"> </span><span class="codenumber">6</span><span class="period">.</span>
-</h1>
+<article class="li"><h4 class="heading">
+<span class="type">Item</span><span class="space"> </span><span class="codenumber">I</span><span class="period">.</span><span class="space"> </span><span class="title">Series Combination of Resistances:.</span>
+</h4>
+<div class="para">If the same current passes through each of the resistances in a combination then the combination is called a <em class="emphasis">series combination of resistances</em> as shown in <a href="" class="xref" data-knowl="./knowl/seriescir.html" title="Figure 2.3.3.(a)">Figure 2.3.3.(a)</a>.</div>
 <div class="para logical">
-<div class="para"><dfn class="terminology">Power Series:</dfn></div>
-<div class="displaymath process-math">
+<div class="para">Let <span class="process-math">\(R_{1}, \quad R_{2},\)</span> and <span class="process-math">\(R_{3}\)</span> are three resistances connected in series and their terminals are connected to the cell of emf <span class="process-math">\(E\text{.}\)</span> If a circuit draws current I  from a cell then the same current I will also pass through each of the resistances. Hence from Ohm’s law</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-ser_res1.html ./knowl/eqn-ser_res2.html">
 \begin{equation*}
-(1+x)^{n} =1+nx+\frac{n(n-1)x^{2}}{2!}+\frac{n(n-1)(n-2)x^{3}}{3!}+\cdots  \quad  (|x| \lt 1)
+E=V_{1}+V_{2}+V_{3}=IR_{1} + IR_{2} +IR_{3} = I (R_{1}+R_{2}+R_{3})
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-ser_res1.html ./knowl/eqn-ser_res2.html">
+\begin{equation}
+\text{or,}\quad R_{1}+R_{2}+R_{3}=\frac{E}{I}  \tag{2.3.2}
+\end{equation}
+</div>
+<div class="para">Now lets replace all of these resistances with such a single resistance <span class="process-math">\(R_{eq}\)</span> that the circuit still draws the same amount of current I from the same cell of emf <span class="process-math">\(E\)</span> as shown in <a href="" class="xref" data-knowl="./knowl/serieseq.html" title="Figure 2.3.3.(c)">Figure 2.3.3.(c)</a>. Hence from Ohm’s law</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-ser_res1.html ./knowl/eqn-ser_res2.html">
 \begin{equation*}
-e^{x}=1+x+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+\cdots   \quad (\forall x) 
+E=IR_{eq} 
 \end{equation*}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\ln(1+x)=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\cdots   \quad (|x| \lt 1)
-\end{equation*}
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-ser_res1.html ./knowl/eqn-ser_res2.html">
+\begin{equation}
+\text{or,}\quad R_{eq}=\frac{E}{I}  \tag{2.3.3}
+\end{equation}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\sin x= x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots \quad (\forall x) 
-\end{equation*}
+<div class="para">Equating eqns. <a href="" class="xref" data-knowl="./knowl/eqn-ser_res1.html" title="Equation 2.3.2">(2.3.2)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-ser_res2.html" title="Equation 2.3.3">(2.3.3)</a>, we get-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-ser_res1.html ./knowl/eqn-ser_res2.html">
+\begin{equation}
+R_{eq}=R_{1}+R_{2}+R_{3} \tag{2.3.4}
+\end{equation}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\cos x= 1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots \quad (\forall x) 
-\end{equation*}
+<div class="para">Hence in series combination of resistances equivalent resistance can be found by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/serieseq.html ./knowl/eqn-ser_res1.html ./knowl/eqn-ser_res2.html">
+\begin{equation}
+R_{eq}  =  R_{1} + R_{2}+R_{3} + \cdots \tag{2.3.5}
+\end{equation}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\tan x= x+\frac{x^{3}}{3}+\frac{2x^{5}}{15}+\frac{17x^{7}}{315}+\cdots \quad (|x| \lt \frac{\pi}{2})
-\end{equation*}
-</div>
-</div></article><span class="incontext"><a href="append_math.html#li-376" class="internal">in-context</a></span>
+</div></article><span class="incontext"><a href="subsec-res_circt.html#li-376" class="internal">in-context</a></span>
 </body>
 </html>

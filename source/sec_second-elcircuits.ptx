@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_second-elcircuits" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Electrical Circuits</title>
+  
+<introduction>
+  <p>
+    Electrical circuit is a network of electrical elements through which current can 
+    flow in a closed path. Here are some terminologies that are needed to understand the electrical circuit.
+  </p>
+  <p>
+   <term> Electromotive Force:</term> It is an energy required by the source to send a unit 
+   positive charge in a closed loop of electrical circuits. In other words, it is a 
+   potential difference across two terminals of a source in an open circuit. It is abbreviated 
+   by <em>emf</em> and denoted as <m>\mathscr{E}.</m>  Its unit is Volts. 
+  </p>
+  <p>
+<term>Internal Resistance:</term> It is a resistance of a source itself. 
+Most voltage source such as battery works when electrolytes dissociate into cations 
+and anions  which restrict the flow of current in a circuit and constitutes an internal 
+resistance of a source. All most every materials possess internal resistance even 
+if a good conductor except superconducting materials within their physical conditions. 
+It is denoted by <m>r.</m> 
+</p>
+<p>
+<term>Terminal Voltage: </term> It is a potential difference across the two terminals of a 
+source in a closed circuit. It is denoted by <m> V.</m> In a colosed circuit there is a 
+load in a circuit. Load is typically any resistance in the circuit and voltage drop 
+at load will be the same as voltage accross the opposite terminals of the voltage source.
+  </p>
+  <figure xml:id="battery">
+    <caption></caption>
+    <image source="battery.png" width="35%"/> 
+</figure>
+  <p>
+    In <xref ref="battery"/>, <m>R</m> is given as a load and <m>V</m> is potential difference 
+    across it. This potential difference is called a terminal potential difference. If switch <m>s</m> is 
+    closed then current <m>I</m> starts flowing in the circuit and in this case 
+    <me>
+      \mathscr{E}= IR+Ir
+    </me>
+     <me>
+      \text{or,}\quad \mathscr{E}=V+Ir
+     </me>
+     <men xml:id="eqn-emf1">
+      \text{or,}\quad \mathscr{E}-V = Ir
+     </men>
+     
+     If <m> I=0</m> then <m> V= \mathscr{E},</m> 
+     i.e., emf is a potential difference across the cell in an open circuit. 
+  </p>
+</introduction>
+  
+<subsection xml:id="subsec-emf">
+  <title>A summary on internal resistance, emf, and terminal potential difference:</title>
+  <introduction>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="PbCell">
+          <caption></caption>
+          <image source="PbCell.png"/>
+      </figure>
+          <figure xml:id="PbCell2">
+              <caption></caption>
+              <image source="PbCell2.png"/>
+          </figure>
+          <figure xml:id="grPb">
+            <caption></caption>
+            <image source="grPb.png"/>
+        </figure>
+           </sidebyside>
+    </figure>
+    <p>
+      To understand internal resistance and emf lets consider a lead-acid cell. 
+      However, the similar senario could be applied for any other alkaline cells. 
+      In lead - acid cell dilute <m>H_{2} SO_{4}</m> has been used as an electrolyte 
+      which gets dissociated in <m>H^{+}</m> ions and <m>SO_{4}^{--}</m> ions in aquous 
+      environment as shown in <xref ref="PbCell"/>. Now <m>H^{+}</m> ion migrates towards 
+      <m>PbO_{2} </m> electrode, captures electron from the electrode and becomes nacent 
+      hydrogen atom. Nacent <m>H</m> then reacts with <m>PbO_{2}</m> and forms <m>H_{2}O</m> 
+      and <m>PbO</m>.  <m>PbO</m> instantly reacts with <m>H_{2} SO_{4}</m> molecule and 
+      converted into <m>PbSO_{4}</m>. As <m>+ve</m> charges start accumulating on <m>PbO_{2} </m> electrode, 
+      we call it a <m>+ </m> plate of the cell.
+    </p>
+    <p>
+On the otherhand, <m>SO_{4}^{--}</m> ion attracts towards <m>Pb</m> electrode, dumps its 
+negative charges on it and becomes <m>SO_{4} </m> radical which instantly reacts with <m> Pb</m> 
+to form <m>PbSO_{4}</m>. In this case <m>Pb</m> electrode starts accumulating <m>-ve</m>  charges 
+and becomes a <m>- </m> plate of the cell. This process continues till sufficient charges 
+accumulate on these electrodes and it is difficult for the other ions to migrate towards 
+these electrodes because of electrostatic repulsion between the same charges. When transferring 
+of charges by the ions to their respective electrodes stop then <m>+</m> electrode has 
+accumated maximum positive <m>+ve </m> charge and <m>- </m> electrode has accumulated maximum 
+negative <m>-ve </m> charge. This condition builds up maximum potential difference between 
+the electrodes which is known as electromottife force, <em>emf</em>. The name emf is misleading 
+but it came from its founder, "<em>Alessandro Volta</em>" who had used this term as the real 
+reason behind the motion of these charges in the external circuit was not known. 
+The chemical reactions on the electrodes are summarized as follows.
+    </p>
+    <p>
+      At <m>+</m> plate:
+      <me>
+        PbO_{2}+2H \quad \longrightarrow \quad PbO + H_{2}O
+      </me>
+      <me>
+        PbO + H_{2}SO_{4} \quad \longrightarrow  \quad PbSO_{4}+H_{2}O
+      </me>
+            At <m> -</m> plate:
+            <me>
+              Pb+SO_{4} \quad \longrightarrow  \quad PbSO_{4}
+            </me>
+            <fn><em>Remember:</em> Anode is the electrode where oxidation occurs and cathode is where reduction occurs. 
+             <term> OILRIG:</term> <term>O</term>xydation <term>I</term>s <term>L</term>ossing of electron and 
+             <term>R</term>eduction <term>I</term>s <term>G</term>aining of electron.</fn>
+     </p>
+     <p>
+      If a load, R is applied between the electrodes then accumulated negative charges begin 
+      to flow from cathode to anode via load as shown in <xref ref="PbCell2"/>. Due to which other 
+      +ve and -ve ions again start migrating towards electrodes to perform chemical reaction. 
+      Hence accumulation of charges on the electrodes in a solution and discharging via load 
+      are continuous by maintaing the equilibrium condition. The voltage at this time between the 
+      electrodes is known as <em>terminal voltage</em> or terminal potential difference as shown 
+      in <xref ref="grPb"/>. The difference <m>\varepsilon -V </m> is called the lost voltage. 
+      Lost voltage is proportional to the current or disacharging rate of the electrodes. 
+      The straight line <m>A</m> shows the ideal case of rate of accumulation of charges on the electrodes. 
+      The straight line <m>1</m> shows the rate of discharging of electrodes or current through the load. 
+      If higher load is applied current decreases on the load depicting line <m>2</m> in the graph. 
+      The projection of intersection point between rate of charging and rate of discharging on x axis 
+      gives the value of terminal potential difference (voltage). The terminal voltage increases 
+      with increasing load thus decreases the lost voltage on the internal resistance. 
+      Lost voltage occurs due to drop of voltage on internal resistance. 
+      See the equation above <xref ref="eqn-emf1"/>.
+     </p>
+  </introduction>
+
+</subsection>
+
+
+<subsection xml:id="subsec-res_circt">
+  <title>Resistance Circuits:</title>
+ <introduction>
+  <p>
+    It is an arrangement of resistances where current can flow in a certain closed path if it is allowed to do so. 
+  </p>
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-res_comb">
+  <title>Combination of Resistances</title>
+  <p>
+    There are two important arrangements of grouping the resistances in electrical circuits. 
+    They are series and parallel arrangements.	
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+      <figure xml:id="seriescir">
+        <caption></caption>
+        <image source="seriescir.png"/>
+    </figure>
+        <figure xml:id="parallelcir">
+            <caption></caption>
+            <image source="parallelcir.png"/>
+        </figure>
+        <figure xml:id="serieseq">
+          <caption></caption>
+          <image source="serieseq.png"/>
+      </figure>
+         </sidebyside>
+  </figure>
+
+  <p>
+    <ol marker ="I.">
+      <li>
+        <title>Series Combination of Resistances:</title>
+       <p>
+        If the same current passes through each of the resistances in a combination 
+        then the combination is called a <em>series combination of resistances</em> 
+        as shown in <xref ref="seriescir"/>. 
+       </p>
+       <p>    
+        Let <m>R_{1}, \quad R_{2},</m> and <m>R_{3}</m> are three resistances connected in 
+        series and their terminals are connected to the cell of emf <m>E</m>. 
+        If a circuit draws current I  from a cell then the same current I will also pass 
+        through each of the resistances. Hence from Ohm's law 
+        <me>
+          E=V_{1}+V_{2}+V_{3}=IR_{1} + IR_{2} +IR_{3} = I (R_{1}+R_{2}+R_{3})
+        </me>
+        <men xml:id="eqn-ser_res1">
+          \text{or,}\quad R_{1}+R_{2}+R_{3}=\frac{E}{I}  
+        </men>
+          Now lets replace all of these resistances with such a single resistance 
+          <m>R_{eq}</m> that the circuit still draws the same amount of current I from the 
+          same cell of emf <m>E</m> as shown in <xref ref="serieseq"/>. Hence from Ohm's law
+          <me>
+            E=IR_{eq} 
+          </me>
+          <men xml:id="eqn-ser_res2">
+            \text{or,}\quad R_{eq}=\frac{E}{I}  
+          </men>
+          Equating eqns. <xref ref="eqn-ser_res1"/> and <xref ref="eqn-ser_res2"/>, we get-
+          <men xml:id="eqn-ser_res3">
+            R_{eq}=R_{1}+R_{2}+R_{3} 
+          </men>
+         Hence in series combination of resistances equivalent resistance can be found by 
+         <men xml:id="eqn-ser_res4">
+          R_{eq}  =  R_{1} + R_{2}+R_{3} + \cdots 
+         </men>
+        </p>
+            </li>
+     <li>
+      <title>Parallel Combination of Resistances:</title>
+      <p>
+        If the current of a circuit gets distributed while passing through the resistances 
+        in combination then the combination is called a parallel combination of resistances 
+        as shown in <xref ref="parallelcir"/>. 
+      </p>
+      <p>
+        Let <m> R_{1}, \quad R_{2},</m> and <m>R_{3}</m> 
+        are three resistances connected in parallel and their terminals are connected to 
+        the cell of emf <m>E</m>. If a circuit draws current I from a cell and the current 
+        I splitted into <m>I_{1},\quad I_{2}, </m> and <m>I_{3}</m> before passing through 
+        the resistances then from Ohm's law 
+        <me>
+          I=I_{1} + I_{2} +I_{3}
+        </me>
+        <me>
+          \text{or,}\quad I=\frac{E}{R_{1}}+\frac{E}{R_{2}}+\frac{E}{R_{3}} = E\left(\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}\right)
+        </me>
+         <men xml:id="eqn-par_cir1">
+          \text{or,}\quad \frac{I}{E}= \left(\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}\right)  
+        </men>
+       Now lets replace all these resistances with such a single resistance <m>R_{eq}</m> that the 
+       circuit still draws the same amount of current I from the same cell of emf <m>E </m> 
+       as shown in <xref ref="serieseq"/>. Hence from Ohm's law 
+       <me>
+        E=IR_{eq} 
+       </me>
+        <men xml:id="eqn-par_cir2">
+        \text{or,}\quad \frac{1}{R_{eq}}=\frac{I}{E} 
+       </men>
+       Equating eqns. <xref ref="eqn-par_cir1"/> and <xref ref="eqn-par_cir2"/>, we get-
+       <men xml:id="eqn-par_cir3">
+        \frac{1}{R_{eq}}=\frac{1}{R_{1}}+ \frac{1}{R_{2}}+\frac{1}{R_{3}}  
+       </men>
+       Hence in parallel combination of resistances equivalent resistance can be found by 
+       <men xml:id="eqn-par_cir4">
+        \frac{1}{R_{eq}}=\frac{1}{R_{1}}+ \frac{1}{R_{2}}+\frac{1}{R_{3}}+\cdots  
+       </men>
+      </p>
+        </li>
+    </ol>
+  </p>
+
+  <paragraphs>
+    <title>Current in Parallel Resistances:</title>
+    <figure xml:id="figparallel">
+      <caption></caption>
+      <image source="figparallel.png" width="35%"/>
+  </figure>
+    <p>
+      <me>
+        \because \quad V_{a} = V_{b} 
+      </me>
+      we have 
+      <me>
+        I_{a}R_{a} = I_{b}R_{b}
+      </me>
+      <me>
+        \text{or,}\quad 1 +\frac{I_{a}}{I_{b}} = 1+\frac{R_{b}}{R_{a}} 
+      </me>
+      <me>
+        \Rightarrow \quad \frac{I}{I_{b} } = \frac{R_{a}+R_{b}}{R_{b}}
+      </me>
+      <men xml:id="cur_paral1">
+        \therefore I_{b}= \frac{R_{b}}{R_{a}+R_{b}}I
+      </men>
+        </p>
+  </paragraphs>
+ </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-maxptr">
+  <title>Maximum Power Transfer Theorem</title>
+  <p>
+    In an electric circuit emf of a source generates power to the circuit and load dissipates 
+    that power. Some of this power is also dissipated at the internal resistance of the source 
+    and hence the power transferred to the load is less than the power generated. 
+  </p>
+  <figure xml:id="maxptr">
+    <caption></caption>
+    <image source="maxptr.png" width="35%"/>
+</figure>
+  <p>
+    Lets calculate the maximum power transfer to the load. Consider a simple circuit as shown in 
+    <xref ref="maxptr"/>. Now, power generated by the source is given by
+    <men xml:id="eqn-maxptr1">
+      P_{s}=EI   
+    </men>
+        and power transfered to the load can be
+        <men xml:id="eqn-maxptr2">
+          P_{l}=VI =I^{2}R   
+        </men>
+        From Ohm's law, we have 
+        <me>
+          E= Ir+IR=I(R+r)
+        </me>
+        <men xml:id="eqn-maxptr3">
+          \text{or,}\quad I=\frac{E}{R+r} 5 
+        </men>
+         Hence, from eqns. <xref ref="eqn-maxptr2"/> and <xref ref="eqn-maxptr3"/> we get- 
+         <men xml:id="eqn-maxptr4">
+          P=I^{2}R=\left[\frac{E}{R+r}\right]^{2}R=\frac{E^{2}R}{(R+r)^{2}} 
+         </men>
+          </p>
+          <p>
+           That is, power transfer depends upon the load resistance. Hence, maximum power transfer can be obtained by
+          <md>
+            <mrow> \frac{dP}{dR} \amp =0 </mrow>
+            <mrow> or, \quad \frac{d}{dR}\left[\frac{E^{2}R}{(R+r)^{2}}\right]\amp =0</mrow>
+            <mrow>or, \quad  \frac{E^{2}}{(R+r)^{2}}+R\left[E^{2}\left(\frac{-2}{(R+r)^{3}}\right).1\right] \amp =0</mrow>
+            <mrow>or, \quad \frac{E^{2}}{(R+r)^{2}}\left[1-\frac{2R}{R+r}\right]\amp =0 </mrow>
+          </md>
+            <me>
+            \because \frac{E}{R+r}=I \neq 0 \qquad \Rightarrow 1-\frac{2R}{R+r} = 0 
+           </me>
+           <me>
+            \therefore \quad R=r
+           </me>
+            Thus the source can transfer maximum power to the load only when load resistance is equal to the internal resistance of the source.
+          </p>
+</subsection>
+
+<subsection xml:id="subsec-el_instrmnt">
+  <title>Electrical Instruments:</title>
+   <p>
+    Instruments used to analyze or measure electrical entities are called electrical instruments <xref ref="instruments"/>. 
+  </p>
+  <figure xml:id="instruments">
+    <caption>Galvanometer, Ammeter, Voltmeter, Ohmmeter, Potentiometer, 
+      and Multimeter from top left to bottom right, respectively.</caption>
+  <image source="instruments.png" width="60%"/>
+</figure>
+  <p>
+    <term>Galvanometer:</term> It is an instrument used to detect electrical current in a circuit. 
+    It deflects its needle either right or left if there is a current in a circuit. See [examples B 
+    question number 2] to know how galvanometer can be <em>converted</em> into ammeter or voltmeter.
+  </p>
+  <p>
+    <term>Ammeter:</term> It is an instrument used to measure electrical current in a circuit. 
+    It is connected series in a circuit where current to be measured. It has a very low internal resistance.
+  </p>
+  <p>
+    <term>Voltmeter:</term> It is an instrument used to measure potential difference across 
+    electrical components in a circuit. It is connected in a parallel to the component where 
+    potential drop is to be measured. It has a very high internal resistance.
+  </p>
+  <p>
+    <term>Ohmmeter:</term> It is an instrument used to measure resistance of a component  in a circuit.
+  </p>
+  <p><term>Potentiometer:</term> It is a variable resistance normally used to controll potential in a circuit. 
+    It has three terminals.</p>
+  <p>
+   <term>Multimeter:</term> It is a device composed of many electrical instruments and has multi-function 
+   capacity. It  can be used as a voltmeter, ammeter, ohmmeter, and so on.
+  </p>
+</subsection>
+  </section>
+
