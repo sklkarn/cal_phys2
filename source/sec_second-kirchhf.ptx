@@ -86,16 +86,264 @@
 <subsection xml:id="subsec-cir_anals">
   <title>Analysis of DC Electric Circuit</title>
   <p>
-
+    To analyze an electric circuit by using Kirchhoff's law the following sign convention 
+    is adopted for current to find the total emf and voltage drop at arm in a loop. 
+  </p>
+  <p>
+    Consider a hypothetical current flowing in a loop in any direction, if the real current 
+    of the battery or any other current from neighboring loop is opposing this hypothetical 
+    current give - ve sign for the emf of a battery or neighboring current otherwise give + ve sign. 
+    Remember battery emits current only from its positive terminal. See the following circuit analysis as an example - 
+  </p>
+  <figure xml:id="kircha">
+    <caption></caption>
+    <image source="kircha.png" width="45%"/>
+</figure>
+  <p>
+    Using Kirchhoff's voltage law, 
+    <me>
+      \text{In loop I,}\quad E_1 -E_2 = I_1 R_1+I_2 R_2+I_3 R_3-I_2 R_3
+    </me>
+        In loop I [<m>I_1</m> is +ve], hence <m>I_2</m> and <m>E_2</m> are taken as -ve as they oppose the current <m>I_1</m>.
+        <me>
+          \text{In loop II,}\quad E_2 + E_3 = I_2 R_3+I_2 R_4 -I_1 R_3
+        </me>
+            In loop II [<m>I_2</m> is + ve], hence <m>I_1</m> is taken as - ve as it opposes the current <m>I_2</m>. 
+            Now solving these two simultaneous equations will provide the solution of this circuit.
   </p>
 </subsection>
 
 <subsection xml:id="subsec-wheat_stone">
   <title>Wheat-Stone's Bridge Circuit</title>
   <p>
-    
+    Wheat-stone's bridge circuit is shown in <xref ref="wheatst"/>. 
+    It has four resistances arranged in four arms of the circuit. In this bridge,
+     potential at points B and D is so arranged with the help of P, Q, and R resistances 
+     that no current will pass through the galvanometer. The bridge with zero <m> I_{g}</m> is known as balanced bridge.
   </p>
+  <figure xml:id="wheatst">
+    <caption></caption>
+    <image source="wheatst.png" width="35%"/>
+</figure>
+<p>
+  Applying Kirchhoff's I law at junction A, 
+  <me>
+    I=I_{1}+I_{2}
+  </me>
+  Applying Kirchhoff's II law to the loop ABDA,
+  <men xml:id="eqn-kirch3">
+    I_{1}P+I_{g}G-I_{2}R=0
+  </men>
+  <term>Note: </term> Here current cycle is taken along <m>I_{1},</m> so any other current 
+  following in this direction in the loop is taken as positive. Internal resistance of the galvanometer 
+  is considered as G. 
+</p>
+<p>
+  Applying Kirchhoff's II law to the loop BDCB,
+  <men xml:id="eqn-kirch4">
+    I_{g}G+(I_{2}+I_{g})X-(I_{1}-I_{g})Q=0 
+  </men>
+  When potential at junctions B and D are equal, then 
+  <me>
+    I_{g}=0.
+  </me>
+   Hence from eqns. <xref ref="eqn-kirch3"/> and <xref ref="eqn-kirch4"/>, we get-
+   <me>
+    I_{1}P-I_{2}R=0
+   </me>
+   <men xml:id="eqn-kirch5">
+    \text{or,}\quad I_{1}P=I_{2}R 
+   </men>
+   <me>
+    I_{2}X-I_{1}Q=0
+   </me>
+   <men xml:id="eqn-kirch6">
+    \text{or,}\quad I_{2}X=I_{1}Q
+   </men>
+   Dividing these equations, we get- 
+   <men xml:id="eqn-kirch7">
+    \frac{P}{Q}=\frac{R}{X}  
+   </men>
+   This is the required condition for balancing wheatstone's bridge.
+   </p>
+
+   <paragraphs>
+    <title>Alternative:</title>
+    <figure xml:id="wheatstb">
+      <caption></caption>
+      <image source="wheatstb.png" width="35%"/>
+  </figure>
+    <p>
+      Using Kirchhoff's voltage law, 
+      <me>
+        \text{In loop I,}\quad 0 = I_1 P+I_1 G +I_1 R-I_2 G-I_3 R
+      </me>
+            In loop I [<m>I_1</m> is + ve], hence <m>I_2</m> and <m>I_3</m> are taken 
+            as - ve as they oppose the current <m>I_1</m>.
+            <me>
+              \text{In loop II,}\quad 0 = I_2 Q+I_2 X +I_2 G -I_1 G-I_3 X
+            </me>
+             In loop II [<m>I_2</m> is +ve], hence <m>I_1</m> and <m>I_3</m> are 
+             taken as - ve as they oppose the current <m>I_2</m>. 
+             Since Wheat-stone bridge is used at balanced condtion no current should pass 
+             through the Galvanometer, i.e., 
+             <me>
+              I_1+I_2=0
+             </me>
+              Hence, in this case 
+              <me>
+                I_1+(-I_2)=0 
+              </me>
+              <me>
+               or, \quad I_1 = I_2
+              </me>
+               Now from above equations we have 
+              <me>
+                I_1 (P + R) = I_3 R 
+              </me>
+              <me>
+               or, \quad I_3=\frac{(P + R) }{R}I_1
+              </me>
+              <me>
+                \text{and}\quad I_2 (Q + X) = I_3 X 
+              </me>
+              <me>
+                or, \quad I_3=\frac{(Q + X) }{X}I_2 
+              </me>
+              <me>
+                \therefore\quad \frac{P}{Q} = \frac{R}{X} 
+              </me>
+              <m>[\because I_1=I_2]</m>
+                </p>
+   </paragraphs>
 </subsection>
 
+
+<subsection xml:id="subsec-chrg_dischrg">
+  <title>Charging and Discharging of a Capacitor</title>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="35% 35%">
+      <figure xml:id="chrdis">
+        <caption></caption>
+        <image source="chrdis.png"/>
+    </figure>
+        <figure xml:id="chardisgr">
+            <caption></caption>
+            <image source="chardisgr.png"/>
+        </figure>
+     </sidebyside>
+  </figure>
+  <p>
+    Charging and discharging of a capacitor circuit is shown in <xref ref="chrdis"/>. 
+    Let us consider a capacitor (c) is completely discharged at <m>t = 0</m> when 
+    swich (k) is open. Now as the switch, k is closed to point 1, current begins to 
+    flow into the capacitor via resistor, R and capacitor begins charging gradually. 
+    Here resistor, R is needed in a circuit to slow down a charging or discharging process to protect capacitor.
+  </p>
+  <p>
+    Applying Kirchhoff's Voltage law to the charging loop, we have 
+    <me>
+      E=V_{R}+V_{c} = iR+\frac{q}{C}, 
+    </me>
+    where <m>E</m> is emf of a battery, <m>V_{R}</m> is a potential drop at resistance <m>R</m>, 
+    <m> V_{c}</m> is a potential across the capacitor, <m>C</m> is capacitance of the capacitor, <m>q</m> 
+    is the charge stored in the capacitor at any time <m> t,</m> and <m>i</m> is a changing current 
+    in a circuit with time.
+    <me>
+      E=\frac{\,dq}{\,dt}R+\frac{q}{C}
+    </me>
+    <me>
+      \text{or,}\quad E-\frac{q}{C}=\frac{\,dq}{\,dt}R 
+    </me>
+    <me>
+      \text{or,}\quad \frac{EC-q}{RC}=\frac{\,dq}{\,dt}
+    </me>
+    <me>
+      \text{or,}\quad \frac{\,dq}{EC-q}=\frac{\,dt}{RC}
+    </me>
+    Integrating, we get -
+    <me>
+      \int\limits_{0}^{q}\frac{\,dq}{EC-q}=\int\limits_{0}^{t}\frac{\,dt}{RC}
+    </me>
+    <me>
+      \text{or,}\quad \left.\frac{ln(EC-q)}{-1}\right\vert_{0}^{q}=\frac{t}{RC}
+    </me>
+    <me>
+      \text{or,}\quad \ln(EC-q)-ln(EC)=-\frac{t}{RC}
+    </me>
+    <me>
+      \text{or,}\quad ln\left(\frac{EC-q}{EC}\right)=-\frac{t}{RC}
+    </me>
+    <me>
+      \text{or,}\quad \frac{EC-q}{EC}=e^{(-\frac{t}{RC})}
+    </me>
+    Here <m>EC=q_{o},</m> is the maximum charge this capacitor can hold.
+    <me>
+      \text{or,}\quad \frac{q_{o}-q}{q_{o}}=e^{(-\frac{t}{RC})} 
+    </me>
+    <men xml:id="eqn-chrg_dis1">
+      \therefore \quad q(t)= q_{o}\left[1-e^{(-\frac{t}{RC})}\right] 
+    </men>
+   This is the charge stored in a capacitor at any time t.
+  </p> 
+  <p>
+Since, <m>q(t)=CV_{c}(t)</m> and <m>q_{o}=EC</m>, we have -
+<men xml:id="eqn-chrg_dis2">
+  V_{c}(t)=E\left(1-e^{(-\frac{t}{RC})}\right)
+</men>
+Now, differentiate eqn. <xref ref="eqn-chrg_dis1"/> with respect to time t, we get- 
+<me>
+  \frac{dq}{dt}=-q_{o}e^{(-\frac{t}{RC})}\left(-\frac{1}{RC}\right) = \frac{q_{o}}{RC}e^{(-\frac{t}{RC})}
+</me>
+<men xml:id="eqn-chrg_dis3">
+  \text{Hence} \quad I  =  I_{o}e^{-\frac{t}{RC}} 
+</men>
+where <m>\frac{q_{o}}{RC}=I_{o},</m> the maximum current in a circuit. 
+</p> 
+<p>
+When switch k is connected to the point 2, capacitor statrs discharging. 
+Applying Kirchhoff's voltage law to the discharging loop, we have -
+<me>
+  iR+\frac{q}{C}=0
+</me>
+<me>
+  \text{or,}\quad \frac{q}{C} = -iR=-\frac{\,dq}{\,dt}R 
+</me>
+<me>
+  \text{or,}\quad \frac{\,dq}{q}=-\frac{\,dt}{RC}
+</me>
+Integrating, we get -
+<me>
+  \text{or,}\quad \int\limits_{q_{o}}^{q(t)}\frac{\,dq}{q}=-\int\limits_{0}^{t}\frac{\,dt}{RC}
+</me>
+<me>
+  \text{or,}\quad \left.ln q \right\vert_{q_{o}}^{q(t)} =-\frac{t}{RC}
+</me>
+<me>
+  \text{or,}\quad lnq(t)-lnq_{o}=-\frac{t}{RC}
+</me>
+<me>
+  \text{or,}\quad ln\frac{q(t)}{q_{o}}=-\frac{t}{RC}
+</me>
+<me>
+  \text{or,}\quad \frac{q(t)}{q_{o}}=e^{-(\frac{t}{RC})}
+</me>
+<men xml:id="eqn-chrg_dis4">
+  \text{or,}\quad q(t) = q_{o} e^{-(\frac{t}{RC})} 
+</men>
+<men xml:id="eqn-chrg_dis5">
+  \text{also,}\quad V_{c}(t)=Ee^{-(\frac{t}{RC})} 
+</men>
+Differentiating eqn. <xref ref="eqn-chrg_dis4"/>, we get-
+<men xml:id="eqn-chrg_dis6">
+  i(t)=-i_{o}e^{-(\frac{t}{RC})} 
+</men>
+- ve  sign indicates current is decreasing gradually during discharging of a capacitor. 
+<m>RC=\tau</m> is called a time constant. The graph of charging and discharging of a 
+capacitor is shown in <xref ref="chardisgr"/>. At one time constant potential of capacitors 
+becomes <m>63\%</m> (emf of battery) during charging and <m>36\%E</m> during discharging.
+  </p>
+</subsection>
   </section>
 

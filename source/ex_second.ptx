@@ -206,9 +206,61 @@
         the power dissipated in the <m>6 \,\Omega</m> resistor.
       </li>
     </ol> 
-  
-  </p>
+    </p>
 </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Kirchhoff's Law</title>
+  <exercise>
+    <p>
+      For the given circuit, find 
+      <image source="fig42.png" width="35%"> </image> 
+      <ol marker="a.">
+        <li>
+          the current through each resistor, and 
+        </li>
+        <li>
+          the voltage <m>V_{ab}.</m>
+        </li>
+         </ol> 
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      For the circuit shown below, find the current through each battery.
+    </p>
+    <image source="fig43.png" width="35%"> </image> 
+  </exercise>
+
+  <exercise>
+    <p>
+      For the circuit shown below, <m>C = 10 \,\mu C, \quad R = 200 \,k\Omega,</m> and 
+      <m>V = 100 \,V.</m> If the switch S is closed at time t = 0, find 
+      <image source="fig41a.png" width="35%"> </image> 
+      <ol marker="a.">
+        <li>
+          the time constant of the circuit,
+        </li>
+        <li>
+          the initial charge on the capacitor, 
+        </li>
+        <li>
+          the maximum current in the circuit,
+        </li>
+        <li>
+          the final charge on the capacitor,
+        </li>
+        <li>
+          the current through the resistor when t = 3 s, 
+        </li>
+        <li>
+          the voltage across the capacitor when t = 3 s.
+        </li>
+         </ol> 
+         </p>
+  </exercise>
 </paragraphs>
  </exercises>
 

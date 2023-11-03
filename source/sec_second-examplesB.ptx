@@ -3,6 +3,9 @@
 <section xml:id="sec_second-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Examples B</title>
   
+  <paragraphs>
+    <title>DC Circuits</title>
+    
 <example>
   <statement>
     <p>
@@ -218,4 +221,318 @@
     </p>
   </solution>
 </example>
+
+</paragraphs>
+
+
+<paragraphs>
+  <title>Kirchhoff's Law</title>
+  
+  <example>
+    <statement>
+      <p>
+        In the figure given below find 
+        <image source="fig38a.png" width="40%"> </image> 
+        <ol marker="a.">
+          <li>
+            the current through point a, 
+          </li>
+          <li>
+            the current through point b, 
+          </li>
+          <li>
+            the current through point c,
+          </li>
+          <li>
+            the voltage at point d with respect to point c.
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Use loop currents direction as <m>+ve.</m>
+        <image source="fig38b.png" width="40%"> </image> 
+        <me>
+        \text{(in loop i_1)} \quad 1 \,\Omega \, I_{1} + 2 \,\Omega \,I_{1} + 3 \,\Omega \,I_{1} - 3 \,\Omega \,I_{2}  = 5\,V
+        </me>
+        <me>
+          \text{(in loop i_2)} \quad  3\Omega \,I_{2} - 3 \,\Omega \,I_{1}+ 4 \,\Omega \,I_{2} + 5 \,\Omega \,I_{2} - 5 \,\Omega\,I_{3}  = 10 \,V
+        </me>
+        <me>
+          \text{(in loop i_3)} \quad 6\Omega \,I_{3} + 5 \,\Omega \,I_{3}- 5 \,\Omega \,I_{2}  = -5 \,V
+        </me>
+           </p>
+           <p>
+            Simplified form of the above equations:
+            <men xml:id="eqn-kch1">
+              6 \,I_{1}   - 3\, I_{2}  + 0\cdot \,I_{3} =  5 
+            </men>
+            <men xml:id="eqn-kch2">
+              - 3 \,I_{1} + 12 \,I_{2}   - 5 \,I_{3}  =  10
+            </men>
+            <men xml:id="eqn-kch3">
+              0 \cdot \,I_{1}   - 5 \,I_{2} + 11 \,I_{3} = - 5 
+            </men>
+              </p>
+              <p>
+                In matrix form: 
+                <me>
+                  \begin{bmatrix} 
+                              6 &amp; -3 &amp; 0\\
+                                    -3 &amp; 12 &amp; -5\\
+                                        0 &amp; -5 &amp; 11
+                                      \end{bmatrix} 
+                                      \begin{bmatrix}
+      I_{1}\\
+      I_{2}\\
+      I_{3}
+    \end{bmatrix} = \begin{bmatrix}
+            5\\
+              10\\
+                -5
+                \end{bmatrix}
+                </me>
+                <me>
+                  \text{or,}\quad  
+                  \begin{vmatrix}
+                  6 &amp; -3 &amp; 0 : 5\\
+                  -3 &amp; 12 &amp; -5 : 10\\
+                  0 &amp; -5 &amp; 11 : -5
+                  \end{vmatrix}
+                </me>
+                    </p>
+                    <p>
+                      The Determinant of the matrix:
+<me>
+  D =\begin{Vmatrix}
+6 &amp; -3 &amp; 0\\
+-3 &amp; 12 &amp; -5\\
+0 &amp; -5 &amp; 11
+\end{Vmatrix}  
+</me>
+<me>
+  = 6[12\times 11 -(-5)(-5)] -(-3)[-3\times 11-0]+0= 543
+</me>
+<me>
+  I_{1}=\frac{\begin{Vmatrix}
+5 &amp; -3 &amp; 0\\
+10 &amp; 12 &amp; -5\\
+-5 &amp; -5 &amp; 11
+\end{Vmatrix}}{D} 
+</me>
+<me>
+  =\frac{5[12\times11-(-5)(-5)]-(-3)[10\times11 -(-5)(-5)]+0}{D} = 1.45\,A
+</me>
+<me>
+  I_{2}=\frac{\begin{Vmatrix}
+6 &amp; 5 &amp; 0\\
+-3 &amp; 10 &amp; -5\\
+0 &amp; -5 &amp; 11
+\end{Vmatrix}}{D} 
+</me>
+<me>
+  =\frac{6[10\times11-(-5)(-5)]-5[-3\times11 -0]+0}{D} = \frac{675}{543} = 1.24\,A
+</me>
+<me>
+  I_{3}=\frac{\begin{Vmatrix}
+6 &amp; -3 &amp; 5\\
+-3 &amp;  12 &amp; 10\\
+0 &amp; -5 &amp; -5
+\end{Vmatrix}}{D} 
+</me>
+<me>
+  =\frac{6[12\times(-5)-(-5)(10)]-(-3)[-3\times(-5) -0]+5[(-3)\times(-5)-0]}{D} 
+</me>
+<me>
+  \therefore \quad I_{3}== \frac{60}{543} = 0.11\,A
+</me>
+         </p>
+         <p>
+          <ol marker="a.">
+            <li>
+              <m> I_{a} = I_{1} = 1.45\,A;</m>
+            </li>
+            <li>
+             <m>I_{b} = I_{2} = 1.24\,A;</m>
+            </li>
+            <li>
+              <m>I_{c} = I_{3} = 0.11\,A;</m>
+            </li>
+            <li>
+              <m> V_{dc} = -[1I_{1} +2I_{1}]= -4.36\,V</m>
+             <p>
+              - ve sign is taken because current is going from point a to d.
+             </p>
+            </li>
+          </ol>
+              </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A galvanometer is used as the meter in a multimeter. The galvanometer has a resistance of 
+        <m>10 \,\Omega</m> and reads full scale when <m>1 \,mA</m> is flowing through it. 
+        <ol marker="a.">
+          <li>
+            What is the minimum voltage that will cause the galvanometer to read full scale? 
+          </li>
+          <li>
+            What shunt resistance must be used in parallel with the galvanometer to make an ammeter that reads up to 0.1 A? 
+          </li>
+          <li>
+            What resistance must be placed in series with the galvanometer to make a voltmeter with a maximum range of 20 V? 
+          </li>
+          <li>
+            What is the voltage when the voltmeter reads one-quarter full scale? 
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        Given:	<m> g = 10 \,\Omega;\quad	I_{g} = 1.00\times10^{-3} \,A;</m> <m>I_{b} = 0.1 \,A; \quad	V_{c} = 20 \,V</m>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+           <me>
+            V_{a} = I_{a} \,g; \quad I_{a} = I_{g} 
+           </me>
+           <me>
+           \therefore \quad V_{a}=10 \,mV
+           </me>
+              <image source="fig39a.png" width="40%"> </image> 
+          </li>
+          <li>
+            <me>
+              V_{b} =V_{a} = I_{b} R_{b}; 
+            </me>
+            <me>
+              \quad R_{b} = 0.1\, \Omega;
+            </me>
+            <me>
+              \frac{1}{R_{b}}=\frac{1}{g}+\frac{1}{s} 
+            </me>
+            <me>
+              \therefore \quad  s=0.1 \,\Omega
+            </me>
+             <image source="fig39b.png" width="40%"> </image> 
+          </li>
+          <li>
+           <me>
+            V_{c} = V_{g} R_{c}; 
+           </me>
+           <me>
+            R_{c} = g+s=20 \,k\Omega 
+           </me>
+           <me>
+            \therefore \quad s = 19.99 \,k\Omega
+           </me>
+           <image source="fig39c.png" width="40%"> </image> 
+          </li>
+          <li>
+            <me>
+              V_{d} = \frac{1}{4}V_{c}= 5 \,V
+            </me>
+            </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The capacitor in the R-C circuit shown below contains no charge. The switch S is closed 
+        at time t = 0. If E = 6 V, <m>C = 5 \,\mu F</m> and <m>R = 2 \,M\Omega,</m> find 
+        <image source="fig41a.png" width="40%"> </image> 
+        <ol marker="a.">
+          <li>
+            the time constant of the circuit,
+          </li>
+          <li>
+            the voltage across the resistor when t = 5 s,
+          </li>
+          <li>
+            the charge on the capacitor when t = 5 s, and 
+          </li>
+          <li>
+            the current through the battery when t = 5 s.
+          </li>
+        </ol>
+            </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>E=6\,V; \quad C = 5.00\times10^{-6}\,F;</m> 
+        <m>R = 2.00\times10^{6}\,\Omega; \quad t =6\,s. </m>
+        <me>
+          E =\frac{q}{C}+IR; \quad I=\frac{\,dq}{\,dt};\quad V_{r} = IR
+        </me>
+        <me>
+          E- \frac{q}{C} =\frac{\,dq}{\,dt}R; 
+        </me>
+        <me>
+          or,\quad \frac{E}{R}- \frac{q}{RC} =\frac{\,dq}{\,dt}
+        </me>
+        
+        <me>
+         or,\quad \frac{EC-q}{RC} =\frac{\,dq}{\,dt};
+        </me>
+        <me>
+          or, \quad \frac{\,dq}{EC-q} = \frac{\,dt}{RC}
+        </me>
+        <me>
+          or, \quad  \int\limits_{0}^{Q}\frac{\,dq}{EC-q}=\int\limits_{0}^{t}\frac{\,dt}{RC}; 
+        </me>
+        <me>
+          or, \quad  \left.\frac{\ln(EC-q)}{-1}\right]_{0}^{Q} = \frac{t}{RC}
+        </me>
+        <me>
+          or, \quad   \ln(EC-Q)-\ln(EC) =-\frac{t}{RC};
+        </me>
+        <me>
+          or, \quad \ln\frac{EC-Q}{EC}=-\frac{t}{RC}
+        </me>
+        <me>
+          or, \quad   EC-Q =ECe^{-\frac{t}{RC}};
+        </me>
+        <me>
+         or, \quad Q = EC[1-e^{\frac{-t}{RC}}]
+        </me>
+        
+        <me>
+          or, \quad   Q=Q_{o}[1-e^{\frac{-t}{\tau}}]
+        </me>
+     differentiate w.r.t 't', we get-
+     <me>
+      I =I_{o}e^{-t/\tau}
+     </me>
+     <me>
+      \text{let}\quad I_{o}= \frac{E}{R} = 3.0\,\mu A; \quad \tau = RC;\quad EC = Q_{o} [\text{maximum charge}]
+     </me>
+         </p>
+         <p>
+          Now,
+          <ol marker="a.">
+            <li>
+              <m> \tau = 10\,s;\quad Q_{o}= 30 \,\mu C;\quad e^{-\frac{t}{\tau}}= 0.606 </m>
+            </li>
+            <li>
+             <m>Q=11.81 \,\mu C</m>
+            </li>
+            <li>
+              <m>V_{R}= 3.639 \,V</m>
+            </li>
+            <li>
+              <m> I = 1.82 \,\mu A</m>
+            </li>
+          </ol>
+         </p>
+       </solution>
+  </example>
+</paragraphs>
 </section>

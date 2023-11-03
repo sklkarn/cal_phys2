@@ -1,8 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_third-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Algebra of Vectors</title>
+  <title>Magnetic Field</title>
   
+  <introduction>
+    <p>
+      <term>Magnetic Field:</term>  It is a region of space around a magnet or moving charges 
+      where magnetic effects can be experienced. [<em>The changing electric field can also creates 
+      magnetic field and vise a versa.</em>] It is a vector quantity. Its magnitude depends upon 
+      the density of magnetic field lines and direction depends upon the direction of magnetic 
+      line at that particular point. The CGS unit of magnetic field is <m>Gauss</m> and SI unit is <m>Tesla</m> (T). 
+      <me>
+        1 \,Gauss = 1\times10^{-4}\,Tesla;
+      </me>
+     the other unit of magnetic field <m>\vec{B}</m> is (<m>Tesla = T = W_{b}/m^{2} = N/A.m</m>)
+       </p>
+       <figure xml:id="barmagfield">
+        <caption></caption>
+        <image source="barmagfield.png" width="30%"/> 
+    </figure>
+       <p> Magnetic field lines are an imaginary path along which a unit north pole could move 
+        freely if it is alowed to do so. Magnetic lines are always pointed away from north 
+        pole and towards a south pole of a magnet as shown in <xref ref="barmagfield"/>. 
+        The properties of magnetic field lines can be summarized as:
+      <ol>
+        <li>
+          The direction of magnetic field is tangent to the field line at any point in space. 
+      A small compass needle will point in the direction of the field line.
+        </li>
+        <li>
+          The strength of the field is proportional to the density of the lines. 
+          It is exactly proportional to the number of lines per unit area perpendicular 
+          to the lines. Hence the field is stronger near the poles and weeker at far points.
+        </li>
+        <li>
+          Magnetic field lines can never cross each other, i.e., the field has a unique 
+          direction at any point in space. 
+        </li>
+        <li>
+          Magnetic field lines are continuous, forming closed loops without beginning or end. 
+          They go from the north pole to the south pole to the north pole again.
+        </li>
+      </ol>
+      The north and south poles of a magnet can never be separated. It is a distinct difference 
+      from electric field lines, which begin on the positive and end on negative charges. 
+      </p>
+ 
 
+    <figure>
+      <caption></caption>
+      <sidebyside widths="25% 25% 25% 25%">
+        <figure xml:id="dipolemnt">
+          <caption></caption>
+          <image source="dipolemnt.png"/>
+      </figure>
+        <figure xml:id="dipolemntb">
+          <caption></caption>
+          <image source="dipolemntb.png"/>
+      </figure>
+          <figure xml:id="magpole">
+              <caption></caption>
+              <image source="magpole.png"/>
+          </figure>
+          <figure xml:id="magpoleb">
+            <caption></caption>
+            <image source="magpoleb.png"/>
+        </figure>
+       </sidebyside>
+    </figure>
+   <p>
+    <term>Magnetic Dipole:</term> When two equal but opposite magnetic poles are separated by a small distance it is called 
+   a magnetic dipole. Since magnetic monopoles do not exist it can better be defined in the 
+   form of a current loop. The orbiting or spinning electron forms a current loop which generates 
+   a magnetic field called a magnetic dipole and its strength is called a magnetic dipole moment, 
+   <m>\mu= IA,</m> where I is a current and A is area of the loop as shown in <xref ref="dipolemnt"/>. 
+   It is a vector quantity which is used to measure the tendency of an object to interact with 
+   an external magnetic field. The direction of dipole moment is described by right hand thumb rule. 
+   If four fingers of right hand are curled up in a direction of current then thumb pointed in 
+   the direction of dipole moment. When there are unpaired electrons in an orbital of an atom 
+   their spin moments do not cancel out and give rise to overall magnetic moment of the material. 
+   As the single electrons are added the spin moments are combined and the resultant spin moments 
+   of the atom increases and become maximum when the outer shell is half filled. Spin moments 
+   decreases as further electrons are added to the outer-shell until it is completely filled. 
+   The magnetic field around a current loop is shown in <xref ref="dipolemntb"/>. 
+   The direction and magnitude of field (lines) depend upon the position of point of consideration 
+   from the center of the current loop. Field is perpendicular to the plane of loop at its center. 
+   </p>
+   <p>
+    <term>Magnetic Poles:</term> In a current loop, if arrows draw on the legs of letter <term>N</term> follow the direction of current 
+    then this plane surface of the loop behaves as a <em>North Pole</em> 
+     and if it follows arrows on letter <term>S</term> then it behaves like a <em>South Pole</em> 
+     as ashown in <xref ref="magpole"/> and <xref ref="magpoleb"/>. 
+   </p>
+
+   <figure>
+    <caption></caption>
+    <sidebyside widths="55% 20%">
+      <figure xml:id="barmagnet">
+        <caption></caption>
+        <image source="barmagnet.png"/>
+    </figure>
+      <figure xml:id="barmagloop">
+        <caption></caption>
+        <image source="barmagloop.png"/>
+    </figure>
+      </sidebyside>
+  </figure>
+   <p>
+    Most of the forces a magnet exerts comes from its ends. Hence magnet possesses 
+    two poles at its two ends. If a magnet is pivoted at its center in such a way that 
+    it can swing freely, then it always comes to at rest by pointing one of its ends 
+    towards north and the other towards south direction. The north-pointing end is called a 
+    <em>North-Seeking</em> or <term>N pole</term> and the south-pointing end is called 
+    <term>S Pole</term> or <em>South-Seeking</em>. Like poles repel and unlike poles attract. 
+    North and south poles always exist in pairs (there are no magnetic monopoles in nature), 
+    so if one were to split a permanent magnet in half, two smaller magnets would be created, 
+    each with a north pole and south pole. Even if one cut a magnet into pieces all the way down 
+    to a single atom they still get a N pole and a S pole because of orbiting electron as 
+    shown in <xref ref="barmagnet"/>. There is no such thing as a single free magnetic pole. 
+   </p>
+   <p>
+    A bar magnet can be considered as composed of many tiny current loops. 
+    The currents on the loop around the periphery of a bar magnet at each cross-sectional 
+    plane survive producing a resultant current around the outer surface whereas inner currents 
+    cancel out one another  within the cross-sectional plane. Hence the cause of any magnet 
+    is intrinsic current loop around the outer surface of a magnet. Since many atoms of 
+    a bar magnet alligned in a same direction when exposed the magentic material into an 
+    external field there always exists a N-pole and a S-pole as shown in <xref ref="barmagloop"/>. 
+   </p>
+  </introduction>
+
+<subsection xml:id="subsec-mag_mater">
+  <title>Magnetic Materials</title>
+ <introduction>
+  <p>
+    The orbital and spin motion of electrons or the interaction of one electron to the other 
+    is the origin of magnetism of any materials. Hence all most all materials display magnetic behaviors. 
+    On the basis of magnetic behaviors there are three types of materials. They are 
+    <ol marker="i.">
+      <li>
+        Ferromagnetic,
+      </li>
+      <li>
+        Paramagnetic, and
+      </li>
+      <li>
+        Diamagnetic.
+      </li>
+    </ol>
+    However, there are three other types of magnetic behaviors also found in nature they 
+    are ferrimagnetic, antiferromagnetic, and superparamagnetic which are not the part of discussion here. 
+    </p>
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-ferro">
+  <title>Ferromagnetic Material:</title>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="55% 30%">
+      <figure xml:id="magnets">
+        <caption></caption>
+        <image source="magnets.png"/>
+    </figure>
+      <figure xml:id="elemag">
+        <caption></caption>
+        <image source="elemag.png"/>
+    </figure>
+      </sidebyside>
+  </figure>
+  <p>
+    It has a very strong magnetization. <term>Magnetization</term> is a physical process of being 
+    magnetized when a material is subjected to an external magnetic field. The atomic dipole 
+    moments are very strong in these type of materials. Most permanent magnets are ferromagnetic 
+    materials such as iron, cobalt, nickel, and gadolinium. Transition metals and some rare earth 
+    metals exhibits ferromagnetic behavior. Unpaired electrons spins in partially filled 
+    orbitals gives rise to a local magnetic moment. Actually, unpaired electrons containing 
+    atoms are very close to each other (and hence there is strong exchange interactions between them) 
+    which creates domains in the crystal structure that have the same direction supporting each other. 
+    In ferromagnetic materials magnetic dipoles are aligned in a specific direction in a small 
+    group within the materials called a <em>domain</em>. The direction of dipole moments vary 
+    from one domain to another which cancels the effect of one another and material does not 
+    show any intrinsic specific magnetic behavior. But as the material is exposed to an external 
+    magnetic field dipole moments of all domains aligned in the direction of external magnetic 
+    field and material behaves like a magnet. Once the dipoles aligned in one direction 
+    they retain in the same direction even after removal of external field. Hence the permanent 
+    magnets are made out of ferromagnetic materials. Bar magnet, horse shoe magnet, disc magnet, <xref ref="magnets"/>. 
+    are some examples of permanent magnets. <xref ref="elemag"/> is an electromagnet whose core 
+    is often made from ferromagnetic material. 
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-para">
+  <title>Paramagnetic Material:</title>
+  <p>
+    It has a week atomic dipole moment. Unpaired electrons in a partially filled orbitals 
+    give rise to a net magnetic moment of atoms but due to thermal agitation the resultant 
+    magnetic moment of the materials is zero and hence show no magnetic behavior on its own. 
+    Aluminum, magnesium, tungsten, and titanium are some examples of paramagnetic materials. 
+    Unpaired electrons in a paramagnetic material are relatively far away from each other 
+    hence the exchange interaction is very weak and can not creates any domain. The magnetic 
+    moments of such atoms are oriented in random direction and they cancel out each other effect. 
+    When subjected to an external magnetic field magnetic moment of the material however, 
+    align in a direction to the external filed and starts showing net magnetization. 
+    Again, magnetization becomes zero with the removal of external field.
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-dia">
+  <title>Diamagnetic Material:</title>
+  <p>
+    This type of materials are composed of atoms that do not possess any net magnetic moments i.e., 
+    all the orbitals of atoms are filled and there are no unpaired electrons. Bismuth, copper, 
+    lead, mercury, silver, gold, tin, diamond, water, and graphite are some examples of diamagnetic 
+    materials. However, when subject to an external field dipole moments induced in a material 
+    opposite to external field. Hence diamagnetic materials are deflected away from the magnetic field. 
+    The magnetization of such materials becomes zero after removal of external fields.
+  </p>
+ </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-geo_mag">
+  <title>Geomagnetism</title>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="55% 30%">
+      <figure xml:id="earthmagfield">
+        <caption></caption>
+        <image source="earthmagfield.png"/>
+    </figure>
+      <figure xml:id="diclination">
+        <caption></caption>
+        <image source="diclination.png"/>
+    </figure>
+      </sidebyside>
+  </figure>
+  <p>
+   Geomagnetism is the study of the dynamics of the Earth's magnetic field, which is produced 
+   in the inner core. The Earth's magnetic field is predominantly a geo-axial dipole, with 
+   north and south magnetic poles located near the <m>10^{o}</m> from the geographic poles 
+   that undergo periodic reversals and excursions. The Earth's magnetic field is attributed 
+   to a dynamo effect of circulating electric current, but it is not constant in direction. 
+   Rock specimens of different ages in similar locations have different directions of permanent 
+   magnetization. The circulating electric currents in the Earth's molten metallic core are 
+   the cause of the earth's magnetic field. Convection drives the outer-core fluid and it 
+   circulates relative to the earth. This means the electrically conducting material moves 
+   relative to the earth's magnetic field. If it can obtain a charge by some interaction 
+   like friction between layers, an effective current loop could be produced. The magnetic 
+   field of a current loop could sustain the magnetic dipole type field of the earth 
+   [<xref ref="earthmagfield"/>]. The  magnitude of magnetic field at the surface of the 
+   Earth is about <em>half a Gauss</em> and dips toward the Earth in the northern hemisphere. 
+   The magnitude varies over the surface of the Earth in the range 0.3  to 0.6 Gauss.
+  </p>
+  <p>
+    <ol>
+      <li>
+        <term>Magnetic Meridian: </term> 
+        An imaginary vertical plane passing through the axis of a freely suspended magnet 
+        is called a magnetic meridian. The direction of Earth's magnetic field lies in the 
+        magnetic meridian may or may not be horizontal. The vertical plane passing through 
+        the  geographical axis of Earth is called geographical meridian [<xref ref="diclination"/>]. 
+        The angle between the magnetic meridian and the geographic meridian at a place is 
+        called a <term>magnetic declination, D</term> at that place. At equator it is zero 
+        since field is parallel to the earth surface and is maximum at poles. The declination 
+        is expressed in degrees East <m>(^{o} E)</m> or degrees West <m>(^{o} W).</m> 
+        For example a declination of <m>2^{o} E</m> means the compass will point 2 degrees 
+        east of true geographical North. Thus, the knowledge of declination at a place 
+        helps in finding the true geographical directions at that place. The declination at 
+        point O is <m>D^{o}E.</m>
+      </li>
+      <li>
+        <term>Magnetic Inclination</term> or <em>magnetic dip</em> is the angle (I) 
+        between the horizontal component of earth's magnetic field (H) and the total magnetic 
+        field vector <m>\vec{B}.</m> Moving closer to magnetic poles results in one side of the 
+        compass needle pointing downwards. Between the magnetic poles there is an area called 
+        the magnetic equator where inclination or the magnetic dip angle is zero; the magnetic 
+        field vector does not have a vertical component <m>(V)</m> in this area. To the north of 
+        the magnetic equator, the north end of the compass needle points downward, both I and H are positive. 
+        To the south of the magnetic equator, the south end of the needle points downward, 
+        that is I and H are both negative.
+      </li>
+    </ol>
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-mag_force">
+  <title>Magnetic Force on a Moving Charge</title>
+  <p>
+    If a charge <m>q</m> is moving with a velocity <m>v</m> in a magnetic field <m>B</m>, 
+    then at any point of its path it experiences a magnetic force <m>F</m>, given by
+    <men xml:id="eqn-magf1">
+      \vec{F} = q (\vec{v} \times \vec{B}) = qvB\sin\theta \quad (Vector)
+    </men>
+    <me>
+      \text{or,}\quad F  = |q| v B_{\perp} \quad (Magnitude),
+    </me>
+    where <m>\theta</m> is an angle between <m>v</m> and <m>B</m>. The direction of force <m>F</m> 
+    is always perpendicular to the plane describes by <m>v</m> and <m>B</m>. If <m>\theta=90^{o}</m> 
+    the force is maximum, if <m>\theta=0^{o}</m> or <m>v = 0</m> then no force acting on a charge. 
+    The direction of force can be determined by <term>Fleming's Left hand rule</term>, 
+    by stretching thumb, forefinger, and middle finger of the left hand perpendicular to each other, 
+    where <em>forefinger</em> pointed in a direction of magnetic field, <em>middle finger</em> 
+    pointed in a direction of motion of charge then <em>thumb</em> must shows the direction of 
+    force experienced by a charge as shown in <xref ref="FLHrule"/>.
+ </p>
+      <figure xml:id="FLHrule">
+      <caption></caption>
+      <image source="FLHrule.png" width ="40%"/>
+  </figure>
+   <p>
+  Since moving charge experiences magnetic force perpendicular to its motion, 
+  magnetic force does no work on moving charge. Hence magnetic field only changes the direction 
+  of velocity of the charged particle but not the magnitude of its velocity. A particle moving in 
+  a constant force perpendicular to its motion leads to the circular motion. 
+ </p>
+</subsection>
   </section>
 

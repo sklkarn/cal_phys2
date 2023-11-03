@@ -13,19 +13,72 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Now, from  figure below, we have <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig31d.png" class="contained"></div>
-</div>
+<div class="para">Applying Kirchhoff’s Voltage law to the charging loop, we have</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\left[ V = I R \right];
+E=V_{R}+V_{c} = iR+\frac{q}{C}, 
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(E\)</span> is emf of a battery, <span class="process-math">\(V_{R}\)</span> is a potential drop at resistance <span class="process-math">\(R\text{,}\)</span> <span class="process-math">\(V_{c}\)</span> is a potential across the capacitor, <span class="process-math">\(C\)</span> is capacitance of the capacitor, <span class="process-math">\(q\)</span> is the charge stored in the capacitor at any time <span class="process-math">\(t,\)</span> and <span class="process-math">\(i\)</span> is a changing current in a circuit with time.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E=\frac{\,dq}{\,dt}R+\frac{q}{C}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-or, \quad  I = \frac{V}{R} = \frac{E}{R_{1234}} = 12/6 = 2\,A
+\text{or,}\quad E-\frac{q}{C}=\frac{\,dq}{\,dt}R 
 \end{equation*}
 </div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{EC-q}{RC}=\frac{\,dq}{\,dt}
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_second-examplesB.html#p-335" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{\,dq}{EC-q}=\frac{\,dt}{RC}
+\end{equation*}
+</div>
+<div class="para">Integrating, we get -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int\limits_{0}^{q}\frac{\,dq}{EC-q}=\int\limits_{0}^{t}\frac{\,dt}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left.\frac{ln(EC-q)}{-1}\right\vert_{0}^{q}=\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \ln(EC-q)-ln(EC)=-\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad ln\left(\frac{EC-q}{EC}\right)=-\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{EC-q}{EC}=e^{(-\frac{t}{RC})}
+\end{equation*}
+</div>
+<div class="para">Here <span class="process-math">\(EC=q_{o},\)</span> is the maximum charge this capacitor can hold.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{q_{o}-q}{q_{o}}=e^{(-\frac{t}{RC})} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+\therefore \quad q(t)= q_{o}\left[1-e^{(-\frac{t}{RC})}\right] \tag{2.4.8}
+\end{equation}
+</div>
+<div class="para">This is the charge stored in a capacitor at any time t.</div>
+</div>
+<span class="incontext"><a href="subsec-chrg_dischrg.html#p-335" class="internal">in-context</a></span>
 </body>
 </html>
