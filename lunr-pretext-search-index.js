@@ -1501,7 +1501,16 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "2.4.1",
   "title": "Analysis of DC Electric Circuit",
-  "body": " Analysis of DC Electric Circuit    "
+  "body": " Analysis of DC Electric Circuit  To analyze an electric circuit by using Kirchhoff's law the following sign convention is adopted for current to find the total emf and voltage drop at arm in a loop.  Consider a hypothetical current flowing in a loop in any direction, if the real current of the battery or any other current from neighboring loop is opposing this hypothetical current give - ve sign for the emf of a battery or neighboring current otherwise give + ve sign. Remember battery emits current only from its positive terminal. See the following circuit analysis as an example -      Using Kirchhoff's voltage law, In loop I [ is +ve], hence and are taken as -ve as they oppose the current . In loop II [ is + ve], hence is taken as - ve as it opposes the current . Now solving these two simultaneous equations will provide the solution of this circuit.  "
+},
+{
+  "id": "kircha",
+  "level": "2",
+  "url": "subsec-cir_anals.html#kircha",
+  "type": "Figure",
+  "number": "2.4.2",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "subsec-wheat_stone",
@@ -1510,7 +1519,52 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "2.4.2",
   "title": "Wheat-Stone’s Bridge Circuit",
-  "body": " Wheat-Stone's Bridge Circuit    "
+  "body": " Wheat-Stone's Bridge Circuit  Wheat-stone's bridge circuit is shown in . It has four resistances arranged in four arms of the circuit. In this bridge, potential at points B and D is so arranged with the help of P, Q, and R resistances that no current will pass through the galvanometer. The bridge with zero is known as balanced bridge.      Applying Kirchhoff's I law at junction A, Applying Kirchhoff's II law to the loop ABDA,  Note: Here current cycle is taken along so any other current following in this direction in the loop is taken as positive. Internal resistance of the galvanometer is considered as G.  Applying Kirchhoff's II law to the loop BDCB, When potential at junctions B and D are equal, then Hence from eqns. and , we get-    Dividing these equations, we get- This is the required condition for balancing wheatstone's bridge.   Alternative:      Using Kirchhoff's voltage law, In loop I [ is + ve], hence and are taken as - ve as they oppose the current . In loop II [ is +ve], hence and are taken as - ve as they oppose the current . Since Wheat-stone bridge is used at balanced condtion no current should pass through the Galvanometer, i.e., Hence, in this case  Now from above equations we have         "
+},
+{
+  "id": "wheatst",
+  "level": "2",
+  "url": "subsec-wheat_stone.html#wheatst",
+  "type": "Figure",
+  "number": "2.4.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-331",
+  "level": "2",
+  "url": "subsec-wheat_stone.html#p-331",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "wheatstb",
+  "level": "2",
+  "url": "subsec-wheat_stone.html#wheatstb",
+  "type": "Figure",
+  "number": "2.4.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-chrg_dischrg",
+  "level": "1",
+  "url": "subsec-chrg_dischrg.html",
+  "type": "Subsection",
+  "number": "2.4.3",
+  "title": "Charging and Discharging of a Capacitor",
+  "body": " Charging and Discharging of a Capacitor               Charging and discharging of a capacitor circuit is shown in . Let us consider a capacitor (c) is completely discharged at when swich (k) is open. Now as the switch, k is closed to point 1, current begins to flow into the capacitor via resistor, R and capacitor begins charging gradually. Here resistor, R is needed in a circuit to slow down a charging or discharging process to protect capacitor.  Applying Kirchhoff's Voltage law to the charging loop, we have where is emf of a battery, is a potential drop at resistance , is a potential across the capacitor, is capacitance of the capacitor, is the charge stored in the capacitor at any time and is a changing current in a circuit with time.    Integrating, we get -     Here is the maximum charge this capacitor can hold.  This is the charge stored in a capacitor at any time t.  Since, and , we have - Now, differentiate eqn. with respect to time t, we get-  where the maximum current in a circuit.  When switch k is connected to the point 2, capacitor statrs discharging. Applying Kirchhoff's voltage law to the discharging loop, we have -   Integrating, we get -       Differentiating eqn. , we get- - ve sign indicates current is decreasing gradually during discharging of a capacitor. is called a time constant. The graph of charging and discharging of a capacitor is shown in . At one time constant potential of capacitors becomes (emf of battery) during charging and during discharging.  "
+},
+{
+  "id": "figure-76",
+  "level": "2",
+  "url": "subsec-chrg_dischrg.html#figure-76",
+  "type": "Figure",
+  "number": "2.4.5",
+  "title": "",
+  "body": "            "
 },
 {
   "id": "sec_second-examplesB",
@@ -1519,7 +1573,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "Examples B",
-  "body": " Examples B    A 12 V battery with an internal resistance of 1 ohm is connected to four other resistors as shown in figure below. Find    the voltage across and the current through each resistor.  the voltage across the battery, and  the the electrical potential at point c.  Provided:  and     ( Find equivalent resistance and work backward to get voltage and current. )  Given:    Since and are in series, we have     Since and are in parallel, we have      Since and are in series, we have     Now, from figure below, we have       Moving backward: from figure       from figure        from figure                                In figures below the emf of the battery is 6 V, the internal resistance is and the load resistance is Find the readings of the ammeter and the voltmeter in each of the three cases.              For first figure      Hence, Ammeter reads 1.496 mA. Hence, Voltmeter reads 5.985 V.  For second figure [ ] No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.  For third figure No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.     Note:  Ammeter is a negligibly low internal resistance device. It could not appreciably affect any current that is flowing in the sircuit. Hence it is always used as a series connection in the circuit.   Voltmeter is an infinitely high internal resistance device. It could not allow any current flows through it from the circuit. Hence it is always used as a parallel connection in the circuit element at which we are measuring the voltage.    "
+  "body": " Examples B   DC Circuits    A 12 V battery with an internal resistance of 1 ohm is connected to four other resistors as shown in figure below. Find    the voltage across and the current through each resistor.  the voltage across the battery, and  the the electrical potential at point c.  Provided:  and     ( Find equivalent resistance and work backward to get voltage and current. )  Given:    Since and are in series, we have     Since and are in parallel, we have      Since and are in series, we have     Now, from figure below, we have       Moving backward: from figure       from figure        from figure                                In figures below the emf of the battery is 6 V, the internal resistance is and the load resistance is Find the readings of the ammeter and the voltmeter in each of the three cases.              For first figure      Hence, Ammeter reads 1.496 mA. Hence, Voltmeter reads 5.985 V.  For second figure [ ] No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.  For third figure No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.     Note:  Ammeter is a negligibly low internal resistance device. It could not appreciably affect any current that is flowing in the sircuit. Hence it is always used as a series connection in the circuit.   Voltmeter is an infinitely high internal resistance device. It could not allow any current flows through it from the circuit. Hence it is always used as a parallel connection in the circuit element at which we are measuring the voltage.      Kirchhoff's Law    In the figure given below find    the current through point a,  the current through point b,  the current through point c,  the voltage at point d with respect to point c.      Use loop currents direction as        Simplified form of the above equations:     In matrix form:    The Determinant of the matrix:                        - ve sign is taken because current is going from point a to d.         A galvanometer is used as the meter in a multimeter. The galvanometer has a resistance of and reads full scale when is flowing through it.  What is the minimum voltage that will cause the galvanometer to read full scale?  What shunt resistance must be used in parallel with the galvanometer to make an ammeter that reads up to 0.1 A?  What resistance must be placed in series with the galvanometer to make a voltmeter with a maximum range of 20 V?  What is the voltage when the voltmeter reads one-quarter full scale?      Given:                                    The capacitor in the R-C circuit shown below contains no charge. The switch S is closed at time t = 0. If E = 6 V, and find    the time constant of the circuit,  the voltage across the resistor when t = 5 s,  the charge on the capacitor when t = 5 s, and  the current through the battery when t = 5 s.      Given:              differentiate w.r.t 't', we get-    Now,                   "
 },
 {
   "id": "example-37",
@@ -1540,13 +1594,40 @@ var ptx_lunr_docs = [
   "body": "  In figures below the emf of the battery is 6 V, the internal resistance is and the load resistance is Find the readings of the ammeter and the voltmeter in each of the three cases.              For first figure      Hence, Ammeter reads 1.496 mA. Hence, Voltmeter reads 5.985 V.  For second figure [ ] No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.  For third figure No current flows. Hence, Ammeter reads 0 current and Voltmeter reads 6 V.     Note:  Ammeter is a negligibly low internal resistance device. It could not appreciably affect any current that is flowing in the sircuit. Hence it is always used as a series connection in the circuit.   Voltmeter is an infinitely high internal resistance device. It could not allow any current flows through it from the circuit. Hence it is always used as a parallel connection in the circuit element at which we are measuring the voltage.   "
 },
 {
+  "id": "example-39",
+  "level": "2",
+  "url": "sec_second-examplesB.html#example-39",
+  "type": "Example",
+  "number": "2.5.3",
+  "title": "",
+  "body": "  In the figure given below find    the current through point a,  the current through point b,  the current through point c,  the voltage at point d with respect to point c.      Use loop currents direction as        Simplified form of the above equations:     In matrix form:    The Determinant of the matrix:                        - ve sign is taken because current is going from point a to d.      "
+},
+{
+  "id": "example-40",
+  "level": "2",
+  "url": "sec_second-examplesB.html#example-40",
+  "type": "Example",
+  "number": "2.5.4",
+  "title": "",
+  "body": "  A galvanometer is used as the meter in a multimeter. The galvanometer has a resistance of and reads full scale when is flowing through it.  What is the minimum voltage that will cause the galvanometer to read full scale?  What shunt resistance must be used in parallel with the galvanometer to make an ammeter that reads up to 0.1 A?  What resistance must be placed in series with the galvanometer to make a voltmeter with a maximum range of 20 V?  What is the voltage when the voltmeter reads one-quarter full scale?      Given:                                 "
+},
+{
+  "id": "example-41",
+  "level": "2",
+  "url": "sec_second-examplesB.html#example-41",
+  "type": "Example",
+  "number": "2.5.5",
+  "title": "",
+  "body": "  The capacitor in the R-C circuit shown below contains no charge. The switch S is closed at time t = 0. If E = 6 V, and find    the time constant of the circuit,  the voltage across the resistor when t = 5 s,  the charge on the capacitor when t = 5 s, and  the current through the battery when t = 5 s.      Given:              differentiate w.r.t 't', we get-    Now,                 "
+},
+{
   "id": "ex_second",
   "level": "1",
   "url": "ex_second.html",
   "type": "Exercises",
   "number": "2.6",
   "title": "Exercise",
-  "body": "  Exercise   Ohm's Law  Current passes through a solution of sodium chloride. In two seconds, ions arrive at the negative electrode, and arrive at the positive electrode.  What is the current passing through the electrodes?  If the voltage across the electrodes is 3 V, what is the effective resistance of the solution?  How much electrical power is converted to heat during one minute of operation?    An aluminum wire is 10 m long, 0.4 mm in radius, and contains an electric field of 0.5 V\/m. Find  the current in the wire,  the resistance of the wire,  the power dissipated by the wire,  the potential difference between the ends of the wire, and  the current density in the wire.   NOTE:     The potential difference between points in a wire 10 m apart is 12 V when the current density is If the wire has a radius of find  the electric field in the wire,  the resistivity of the material in the wire,  the resistance of the wire,  the current in the wire, and  the power dissipated in the wire.      What is the resistance of a copper wire of radius and length   How much energy is converted into heat when this wire is connected to a 12 V battery for 60 s?  What is the mass of the wire?  How much does the temperature of the wire increase (assuming no heat loss to the surroundings)?  How much does the resistance of the wire increase due to this heat?   NOTE: For copper  and   A carbon resistor is to be used as a thermometer. On a winter day when the temperature is freezing, its resistance is   What is the temperature on a hot summer day when the resistance is   What current flows through the resistor in the winter if the ohmmeter uses a 1.5 V battery?  How much power does the resistor dissipate in the winter if it takes 5 seconds to measure its resistance?   NOTE: For carbon ,      Electrical Circuits  When the switch S in the give figure is open, the voltmeter reads 3.15 V. When the switch S is closed, the voltmeter reads 2.95 V and the ammeter reads 2.5 A. Find    the emf of the battery,  the internal resistance of the battery, and  the value of the resistor R.    Given the circuit as shown below,  where the resistors are and respectively, and the emf is 6 V. Find the voltage across and the current through each resistor.  Given the circuit shown below with     If the switch is open, find   If the switch is closed, find     A 12 V battery with the negative terminal grounded is connected to four resistors as shown in circuit below. Find    the voltage across and the current through each resistor.  the electrical potential at point c,  the power drain on the battery.    Given the circuit shown in the figure below. Find    the current through the resistor.  the voltage ,  the voltage , and  the power dissipated in the resistor.     "
+  "body": "  Exercise   Ohm's Law  Current passes through a solution of sodium chloride. In two seconds, ions arrive at the negative electrode, and arrive at the positive electrode.  What is the current passing through the electrodes?  If the voltage across the electrodes is 3 V, what is the effective resistance of the solution?  How much electrical power is converted to heat during one minute of operation?    An aluminum wire is 10 m long, 0.4 mm in radius, and contains an electric field of 0.5 V\/m. Find  the current in the wire,  the resistance of the wire,  the power dissipated by the wire,  the potential difference between the ends of the wire, and  the current density in the wire.   NOTE:     The potential difference between points in a wire 10 m apart is 12 V when the current density is If the wire has a radius of find  the electric field in the wire,  the resistivity of the material in the wire,  the resistance of the wire,  the current in the wire, and  the power dissipated in the wire.      What is the resistance of a copper wire of radius and length   How much energy is converted into heat when this wire is connected to a 12 V battery for 60 s?  What is the mass of the wire?  How much does the temperature of the wire increase (assuming no heat loss to the surroundings)?  How much does the resistance of the wire increase due to this heat?   NOTE: For copper  and   A carbon resistor is to be used as a thermometer. On a winter day when the temperature is freezing, its resistance is   What is the temperature on a hot summer day when the resistance is   What current flows through the resistor in the winter if the ohmmeter uses a 1.5 V battery?  How much power does the resistor dissipate in the winter if it takes 5 seconds to measure its resistance?   NOTE: For carbon ,      Electrical Circuits  When the switch S in the give figure is open, the voltmeter reads 3.15 V. When the switch S is closed, the voltmeter reads 2.95 V and the ammeter reads 2.5 A. Find    the emf of the battery,  the internal resistance of the battery, and  the value of the resistor R.    Given the circuit as shown below,  where the resistors are and respectively, and the emf is 6 V. Find the voltage across and the current through each resistor.  Given the circuit shown below with     If the switch is open, find   If the switch is closed, find     A 12 V battery with the negative terminal grounded is connected to four resistors as shown in circuit below. Find    the voltage across and the current through each resistor.  the electrical potential at point c,  the power drain on the battery.    Given the circuit shown in the figure below. Find    the current through the resistor.  the voltage ,  the voltage , and  the power dissipated in the resistor.      Kirchhoff's Law  For the given circuit, find    the current through each resistor, and  the voltage     For the circuit shown below, find the current through each battery.   For the circuit shown below, and If the switch S is closed at time t = 0, find    the time constant of the circuit,  the initial charge on the capacitor,  the maximum current in the circuit,  the final charge on the capacitor,  the current through the resistor when t = 3 s,  the voltage across the capacitor when t = 3 s.     "
 },
 {
   "id": "exercise-63",
@@ -1639,13 +1720,112 @@ var ptx_lunr_docs = [
   "body": "Given the circuit shown in the figure below. Find    the current through the resistor.  the voltage ,  the voltage , and  the power dissipated in the resistor.   "
 },
 {
-  "id": "sec_third-intro",
+  "id": "exercise-73",
+  "level": "2",
+  "url": "ex_second.html#exercise-73",
+  "type": "Exercise",
+  "number": "2.6.11",
+  "title": "",
+  "body": "For the given circuit, find    the current through each resistor, and  the voltage    "
+},
+{
+  "id": "exercise-74",
+  "level": "2",
+  "url": "ex_second.html#exercise-74",
+  "type": "Exercise",
+  "number": "2.6.12",
+  "title": "",
+  "body": "For the circuit shown below, find the current through each battery.  "
+},
+{
+  "id": "exercise-75",
+  "level": "2",
+  "url": "ex_second.html#exercise-75",
+  "type": "Exercise",
+  "number": "2.6.13",
+  "title": "",
+  "body": "For the circuit shown below, and If the switch S is closed at time t = 0, find    the time constant of the circuit,  the initial charge on the capacitor,  the maximum current in the circuit,  the final charge on the capacitor,  the current through the resistor when t = 3 s,  the voltage across the capacitor when t = 3 s.   "
+},
+{
+  "id": "subsec-mag_mater",
   "level": "1",
-  "url": "sec_third-intro.html",
-  "type": "Section",
-  "number": "3.1",
-  "title": "Algebra of Vectors",
-  "body": " Algebra of Vectors  "
+  "url": "subsec-mag_mater.html",
+  "type": "Subsection",
+  "number": "3.1.1",
+  "title": "Magnetic Materials",
+  "body": " Magnetic Materials   The orbital and spin motion of electrons or the interaction of one electron to the other is the origin of magnetism of any materials. Hence all most all materials display magnetic behaviors. On the basis of magnetic behaviors there are three types of materials. They are  Ferromagnetic,  Paramagnetic, and  Diamagnetic.  However, there are three other types of magnetic behaviors also found in nature they are ferrimagnetic, antiferromagnetic, and superparamagnetic which are not the part of discussion here.    Ferromagnetic Material:               It has a very strong magnetization. Magnetization is a physical process of being magnetized when a material is subjected to an external magnetic field. The atomic dipole moments are very strong in these type of materials. Most permanent magnets are ferromagnetic materials such as iron, cobalt, nickel, and gadolinium. Transition metals and some rare earth metals exhibits ferromagnetic behavior. Unpaired electrons spins in partially filled orbitals gives rise to a local magnetic moment. Actually, unpaired electrons containing atoms are very close to each other (and hence there is strong exchange interactions between them) which creates domains in the crystal structure that have the same direction supporting each other. In ferromagnetic materials magnetic dipoles are aligned in a specific direction in a small group within the materials called a domain . The direction of dipole moments vary from one domain to another which cancels the effect of one another and material does not show any intrinsic specific magnetic behavior. But as the material is exposed to an external magnetic field dipole moments of all domains aligned in the direction of external magnetic field and material behaves like a magnet. Once the dipoles aligned in one direction they retain in the same direction even after removal of external field. Hence the permanent magnets are made out of ferromagnetic materials. Bar magnet, horse shoe magnet, disc magnet, . are some examples of permanent magnets. is an electromagnet whose core is often made from ferromagnetic material.    Paramagnetic Material:  It has a week atomic dipole moment. Unpaired electrons in a partially filled orbitals give rise to a net magnetic moment of atoms but due to thermal agitation the resultant magnetic moment of the materials is zero and hence show no magnetic behavior on its own. Aluminum, magnesium, tungsten, and titanium are some examples of paramagnetic materials. Unpaired electrons in a paramagnetic material are relatively far away from each other hence the exchange interaction is very weak and can not creates any domain. The magnetic moments of such atoms are oriented in random direction and they cancel out each other effect. When subjected to an external magnetic field magnetic moment of the material however, align in a direction to the external filed and starts showing net magnetization. Again, magnetization becomes zero with the removal of external field.    Diamagnetic Material:  This type of materials are composed of atoms that do not possess any net magnetic moments i.e., all the orbitals of atoms are filled and there are no unpaired electrons. Bismuth, copper, lead, mercury, silver, gold, tin, diamond, water, and graphite are some examples of diamagnetic materials. However, when subject to an external field dipole moments induced in a material opposite to external field. Hence diamagnetic materials are deflected away from the magnetic field. The magnetization of such materials becomes zero after removal of external fields.   "
+},
+{
+  "id": "figure-88",
+  "level": "2",
+  "url": "subsec-mag_mater.html#figure-88",
+  "type": "Figure",
+  "number": "3.1.4",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-387",
+  "level": "2",
+  "url": "subsec-mag_mater.html#p-387",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Magnetization "
+},
+{
+  "id": "subsec-geo_mag",
+  "level": "1",
+  "url": "subsec-geo_mag.html",
+  "type": "Subsection",
+  "number": "3.1.2",
+  "title": "Geomagnetism",
+  "body": " Geomagnetism               Geomagnetism is the study of the dynamics of the Earth's magnetic field, which is produced in the inner core. The Earth's magnetic field is predominantly a geo-axial dipole, with north and south magnetic poles located near the from the geographic poles that undergo periodic reversals and excursions. The Earth's magnetic field is attributed to a dynamo effect of circulating electric current, but it is not constant in direction. Rock specimens of different ages in similar locations have different directions of permanent magnetization. The circulating electric currents in the Earth's molten metallic core are the cause of the earth's magnetic field. Convection drives the outer-core fluid and it circulates relative to the earth. This means the electrically conducting material moves relative to the earth's magnetic field. If it can obtain a charge by some interaction like friction between layers, an effective current loop could be produced. The magnetic field of a current loop could sustain the magnetic dipole type field of the earth [ ]. The magnitude of magnetic field at the surface of the Earth is about half a Gauss and dips toward the Earth in the northern hemisphere. The magnitude varies over the surface of the Earth in the range 0.3 to 0.6 Gauss.     Magnetic Meridian: An imaginary vertical plane passing through the axis of a freely suspended magnet is called a magnetic meridian. The direction of Earth's magnetic field lies in the magnetic meridian may or may not be horizontal. The vertical plane passing through the geographical axis of Earth is called geographical meridian [ ]. The angle between the magnetic meridian and the geographic meridian at a place is called a magnetic declination, D at that place. At equator it is zero since field is parallel to the earth surface and is maximum at poles. The declination is expressed in degrees East or degrees West For example a declination of means the compass will point 2 degrees east of true geographical North. Thus, the knowledge of declination at a place helps in finding the true geographical directions at that place. The declination at point O is    Magnetic Inclination or magnetic dip is the angle (I) between the horizontal component of earth's magnetic field (H) and the total magnetic field vector Moving closer to magnetic poles results in one side of the compass needle pointing downwards. Between the magnetic poles there is an area called the magnetic equator where inclination or the magnetic dip angle is zero; the magnetic field vector does not have a vertical component in this area. To the north of the magnetic equator, the north end of the compass needle points downward, both I and H are positive. To the south of the magnetic equator, the south end of the needle points downward, that is I and H are both negative.    "
+},
+{
+  "id": "figure-91",
+  "level": "2",
+  "url": "subsec-geo_mag.html#figure-91",
+  "type": "Figure",
+  "number": "3.1.5",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-391",
+  "level": "2",
+  "url": "subsec-geo_mag.html#p-391",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Magnetic Meridian: magnetic declination, D Magnetic Inclination "
+},
+{
+  "id": "subsec-mag_force",
+  "level": "1",
+  "url": "subsec-mag_force.html",
+  "type": "Subsection",
+  "number": "3.1.3",
+  "title": "Magnetic Force on a Moving Charge",
+  "body": " Magnetic Force on a Moving Charge  If a charge is moving with a velocity in a magnetic field , then at any point of its path it experiences a magnetic force , given by  where is an angle between and . The direction of force is always perpendicular to the plane describes by and . If the force is maximum, if or then no force acting on a charge. The direction of force can be determined by Fleming's Left hand rule , by stretching thumb, forefinger, and middle finger of the left hand perpendicular to each other, where forefinger pointed in a direction of magnetic field, middle finger pointed in a direction of motion of charge then thumb must shows the direction of force experienced by a charge as shown in .      Since moving charge experiences magnetic force perpendicular to its motion, magnetic force does no work on moving charge. Hence magnetic field only changes the direction of velocity of the charged particle but not the magnitude of its velocity. A particle moving in a constant force perpendicular to its motion leads to the circular motion.  "
+},
+{
+  "id": "p-392",
+  "level": "2",
+  "url": "subsec-mag_force.html#p-392",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Fleming's Left hand rule "
+},
+{
+  "id": "FLHrule",
+  "level": "2",
+  "url": "subsec-mag_force.html#FLHrule",
+  "type": "Figure",
+  "number": "3.1.6",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_third-examplesA",
@@ -1666,9 +1846,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-73",
+  "id": "exercise-76",
   "level": "2",
-  "url": "ex_third.html#exercise-73",
+  "url": "ex_third.html#exercise-76",
   "type": "Exercise",
   "number": "3.3.1",
   "title": "",
@@ -1702,9 +1882,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-74",
+  "id": "exercise-77",
   "level": "2",
-  "url": "ex_fourth.html#exercise-74",
+  "url": "ex_fourth.html#exercise-77",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -1738,9 +1918,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-75",
+  "id": "exercise-78",
   "level": "2",
-  "url": "ex_fifth.html#exercise-75",
+  "url": "ex_fifth.html#exercise-78",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -1756,72 +1936,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-360",
+  "id": "p-399",
   "level": "2",
-  "url": "append_math.html#p-360",
+  "url": "append_math.html#p-399",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-361",
+  "id": "p-400",
   "level": "2",
-  "url": "append_math.html#p-361",
+  "url": "append_math.html#p-400",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-362",
+  "id": "p-401",
   "level": "2",
-  "url": "append_math.html#p-362",
+  "url": "append_math.html#p-401",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-363",
+  "id": "p-402",
   "level": "2",
-  "url": "append_math.html#p-363",
+  "url": "append_math.html#p-402",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-364",
+  "id": "p-403",
   "level": "2",
-  "url": "append_math.html#p-364",
+  "url": "append_math.html#p-403",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-365",
+  "id": "p-404",
   "level": "2",
-  "url": "append_math.html#p-365",
+  "url": "append_math.html#p-404",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-366",
+  "id": "p-405",
   "level": "2",
-  "url": "append_math.html#p-366",
+  "url": "append_math.html#p-405",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-367",
+  "id": "p-406",
   "level": "2",
-  "url": "append_math.html#p-367",
+  "url": "append_math.html#p-406",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1837,9 +2017,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-368",
+  "id": "p-407",
   "level": "2",
-  "url": "appendix-2.html#p-368",
+  "url": "appendix-2.html#p-407",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

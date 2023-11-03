@@ -11,15 +11,82 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h1 class="heading"><span class="type">Paragraph</span></h1>
+<h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para"><dfn class="terminology">Binomial Theorem:</dfn></div>
+<div class="para">Given: <span class="process-math">\(E=6\,V; \quad C = 5.00\times10^{-6}\,F;\)</span> <span class="process-math">\(R = 2.00\times10^{6}\,\Omega; \quad t =6\,s. \)</span>
+</div>
 <div class="displaymath process-math">
 \begin{equation*}
-(a+b)^{n} = a^{n}+na^{n-1}b+\frac{n(n-1)a^{n-2}b^{2}}{2!}+\frac{n(n-1)(n-2)a^{n-3}b^{3}}{3!}+\cdots
+E =\frac{q}{C}+IR; \quad I=\frac{\,dq}{\,dt};\quad V_{r} = IR
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E- \frac{q}{C} =\frac{\,dq}{\,dt}R; 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad \frac{E}{R}- \frac{q}{RC} =\frac{\,dq}{\,dt}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad \frac{EC-q}{RC} =\frac{\,dq}{\,dt};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad \frac{\,dq}{EC-q} = \frac{\,dt}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad  \int\limits_{0}^{Q}\frac{\,dq}{EC-q}=\int\limits_{0}^{t}\frac{\,dt}{RC}; 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad  \left.\frac{\ln(EC-q)}{-1}\right]_{0}^{Q} = \frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad   \ln(EC-Q)-\ln(EC) =-\frac{t}{RC};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad \ln\frac{EC-Q}{EC}=-\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad   EC-Q =ECe^{-\frac{t}{RC}};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad Q = EC[1-e^{\frac{-t}{RC}}]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad   Q=Q_{o}[1-e^{\frac{-t}{\tau}}]
+\end{equation*}
+</div>
+<div class="para">differentiate w.r.t ’t’, we get-</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I =I_{o}e^{-t/\tau}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{let}\quad I_{o}= \frac{E}{R} = 3.0\,\mu A; \quad \tau = RC;\quad EC = Q_{o} [\text{maximum charge}]
 \end{equation*}
 </div>
 </div>
-<span class="incontext"><a href="append_math.html#p-364" class="internal">in-context</a></span>
+<span class="incontext"><a href="sec_second-examplesB.html#p-364" class="internal">in-context</a></span>
 </body>
 </html>

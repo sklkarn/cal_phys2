@@ -11,21 +11,66 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
+<h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Since <span class="process-math">\(R_{12}\)</span> and <span class="process-math">\(R_{3}\)</span> are in parallel, we have <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig31b.png" class="contained"></div>
+<div class="para">Using Kirchhoff’s voltage law,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{In loop I,}\quad 0 = I_1 P+I_1 G +I_1 R-I_2 G-I_3 R
+\end{equation*}
+</div>
+<div class="para">In loop I [<span class="process-math">\(I_1\)</span> is + ve], hence <span class="process-math">\(I_2\)</span> and <span class="process-math">\(I_3\)</span> are taken as - ve as they oppose the current <span class="process-math">\(I_1\text{.}\)</span>
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\frac{1}{R_{123}}= \frac{1}{R_{12}} + \frac{1}{R_{3}};
+\text{In loop II,}\quad 0 = I_2 Q+I_2 X +I_2 G -I_1 G-I_3 X
+\end{equation*}
+</div>
+<div class="para">In loop II [<span class="process-math">\(I_2\)</span> is +ve], hence <span class="process-math">\(I_1\)</span> and <span class="process-math">\(I_3\)</span> are taken as - ve as they oppose the current <span class="process-math">\(I_2\text{.}\)</span> Since Wheat-stone bridge is used at balanced condtion no current should pass through the Galvanometer, i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_1+I_2=0
+\end{equation*}
+</div>
+<div class="para">Hence, in this case</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_1+(-I_2)=0 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore R_{123} = 2 \,\Omega 
+or, \quad I_1 = I_2
 \end{equation*}
 </div>
+<div class="para">Now from above equations we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_1 (P + R) = I_3 R 
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_second-examplesB.html#p-333" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad I_3=\frac{(P + R) }{R}I_1
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{and}\quad I_2 (Q + X) = I_3 X 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad I_3=\frac{(Q + X) }{X}I_2 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \frac{P}{Q} = \frac{R}{X} 
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because I_1=I_2]\)</span></div>
+</div>
+<span class="incontext"><a href="subsec-wheat_stone.html#p-333" class="internal">in-context</a></span>
 </body>
 </html>

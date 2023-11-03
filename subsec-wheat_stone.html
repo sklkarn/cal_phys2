@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-cir_anals.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_second-kirchhf.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_second-examplesB.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-cir_anals.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_second-kirchhf.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="subsec-chrg_dischrg.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -313,6 +313,7 @@ window.MathJax = {
 <ul class="structural">
 <li><div class="toc-item"><a href="subsec-cir_anals.html" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Analysis of DC Electric Circuit</span></a></div></li>
 <li class="active"><div class="toc-item"><a href="subsec-wheat_stone.html" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Wheat-Stone’s Bridge Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-chrg_dischrg.html" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Charging and Discharging of a Capacitor</span></a></div></li>
 </ul>
 </li>
 <li><div class="toc-item"><a href="sec_second-examplesB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Examples B</span></a></div></li>
@@ -322,7 +323,21 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Magnetism</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Magnetic Field</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-mag_mater.html" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Magnetic Materials</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-ferro" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Ferromagnetic Material:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-para" class="internal"><span class="codenumber">3.1.1.2</span> <span class="title">Paramagnetic Material:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-dia" class="internal"><span class="codenumber">3.1.1.3</span> <span class="title">Diamagnetic Material:</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-geo_mag.html" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Geomagnetism</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_force.html" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Magnetic Force on a Moving Charge</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Examples A</span></a></div></li>
 <li><div class="toc-item"><a href="ex_third.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercise</span></a></div></li>
 </ul>
@@ -356,9 +371,128 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-wheat_stone"><h2 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">2.4.2</span> <span class="title">Wheat-Stone’s Bridge Circuit</span>
 </h2>
-<div class="para" id="p-328"></div></section></div>
+<div class="para" id="p-330">Wheat-stone’s bridge circuit is shown in <a href="" class="xref" data-knowl="./knowl/wheatst.html" title="Figure 2.4.3">Figure 2.4.3</a>. It has four resistances arranged in four arms of the circuit. In this bridge, potential at points B and D is so arranged with the help of P, Q, and R resistances that no current will pass through the galvanometer. The bridge with zero <span class="process-math">\(I_{g}\)</span> is known as balanced bridge.</div>
+<figure class="figure figure-like" id="wheatst"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/wheatst.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-331">
+<div class="para">Applying Kirchhoff’s I law at junction A,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I=I_{1}+I_{2}
+\end{equation*}
+</div>
+<div class="para">Applying Kirchhoff’s II law to the loop ABDA,</div>
+<div class="displaymath process-math" id="eqn-kirch3">
+\begin{equation}
+I_{1}P+I_{g}G-I_{2}R=0\tag{2.4.3}
+\end{equation}
+</div>
+<div class="para">
+<dfn class="terminology">Note:</dfn> Here current cycle is taken along <span class="process-math">\(I_{1},\)</span> so any other current following in this direction in the loop is taken as positive. Internal resistance of the galvanometer is considered as G.</div>
+</div>
+<div class="para logical" id="p-332">
+<div class="para">Applying Kirchhoff’s II law to the loop BDCB,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html" id="eqn-kirch4">
+\begin{equation}
+I_{g}G+(I_{2}+I_{g})X-(I_{1}-I_{g})Q=0 \tag{2.4.4}
+\end{equation}
+</div>
+<div class="para">When potential at junctions B and D are equal, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
+\begin{equation*}
+I_{g}=0.
+\end{equation*}
+</div>
+<div class="para">Hence from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-kirch3.html" title="Equation 2.4.3">(2.4.3)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-kirch4.html" title="Equation 2.4.4">(2.4.4)</a>, we get-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
+\begin{equation*}
+I_{1}P-I_{2}R=0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html" id="eqn-kirch5">
+\begin{equation}
+\text{or,}\quad I_{1}P=I_{2}R \tag{2.4.5}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
+\begin{equation*}
+I_{2}X-I_{1}Q=0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html" id="eqn-kirch6">
+\begin{equation}
+\text{or,}\quad I_{2}X=I_{1}Q\tag{2.4.6}
+\end{equation}
+</div>
+<div class="para">Dividing these equations, we get-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html" id="eqn-kirch7">
+\begin{equation}
+\frac{P}{Q}=\frac{R}{X}  \tag{2.4.7}
+\end{equation}
+</div>
+<div class="para">This is the required condition for balancing wheatstone’s bridge.</div>
+</div>
+<section class="paragraphs" id="paragraphs-14"><h3 class="heading"><span class="title">Alternative:.</span></h3> <figure class="figure figure-like" id="wheatstb"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/wheatstb.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.4<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para logical" id="p-333">
+<div class="para">Using Kirchhoff’s voltage law,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{In loop I,}\quad 0 = I_1 P+I_1 G +I_1 R-I_2 G-I_3 R
+\end{equation*}
+</div>
+<div class="para">In loop I [<span class="process-math">\(I_1\)</span> is + ve], hence <span class="process-math">\(I_2\)</span> and <span class="process-math">\(I_3\)</span> are taken as - ve as they oppose the current <span class="process-math">\(I_1\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{In loop II,}\quad 0 = I_2 Q+I_2 X +I_2 G -I_1 G-I_3 X
+\end{equation*}
+</div>
+<div class="para">In loop II [<span class="process-math">\(I_2\)</span> is +ve], hence <span class="process-math">\(I_1\)</span> and <span class="process-math">\(I_3\)</span> are taken as - ve as they oppose the current <span class="process-math">\(I_2\text{.}\)</span> Since Wheat-stone bridge is used at balanced condtion no current should pass through the Galvanometer, i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_1+I_2=0
+\end{equation*}
+</div>
+<div class="para">Hence, in this case</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_1+(-I_2)=0 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad I_1 = I_2
+\end{equation*}
+</div>
+<div class="para">Now from above equations we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_1 (P + R) = I_3 R 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad I_3=\frac{(P + R) }{R}I_1
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{and}\quad I_2 (Q + X) = I_3 X 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad I_3=\frac{(Q + X) }{X}I_2 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \frac{P}{Q} = \frac{R}{X} 
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because I_1=I_2]\)</span></div>
+</div></section></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="subsec-cir_anals.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_second-examplesB.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="subsec-cir_anals.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="subsec-chrg_dischrg.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">
