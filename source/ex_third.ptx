@@ -4,11 +4,70 @@
   <!-- You can ommit the title and just get the default "Exercises" -->
   <title>Exercise</title>
   
-  <exercise>
-  <p>
+  <paragraphs>
+    <title>Mag. Flux</title>
     
-  </p>
+
+  <exercise>
+    <p>
+      A square coil parallel to page enters a region where a uniform magnetic field is 
+      directed perpendicularly into a page, travels through the region at a constant speed, and exits. 
+      <image source="sqrloop.png" width="35%"> </image>
+       </p>
+       <p>
+        <ol marker="a.">
+          <li>
+            <p>
+            From the following plots find the one which shows the magnetic flux inside the coil as a function of time.
+            </p>
+            <p>
+              <term>(a) </term> <image source="gr3.png" width="35%"> </image>
+            </p>
+            <p>
+             <term> (b) </term> <image source="gr3b.png" width="35%"> </image>
+            </p>
+            <p>
+             <term> (c) </term> <image source="gr3c.png" width="35%"> </image>
+            </p>
+          </li>
+          <li>
+            If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. 
+            What is the maximum flux inside the coil?
+          </li>
+        </ol>
+       </p>
   </exercise>
  
+<exercise>
+  <p>
+    A square coil placed in a uniform magnetic field rotates around one of its edges as 
+    shown in figure below. 
+    <image source="magc.png" width="35%"> </image>
+  </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          <p>
+            From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle <m>\theta.</m> 
+          </p>
+          <p>
+            <term>(a) </term> <image source="gr4a.png" width="35%"> </image>
+          </p>
+          <p>
+           <term> (b) </term> <image source="gr4b.png" width="35%"> </image>
+          </p>
+          <p>
+           <term> (c) </term> <image source="gr4c.png" width="35%"> </image>
+          </p>
+        </li>
+        <li>
+          If the edge length of the coil is  a = 20 cm and the magnetic field is  B = 0.5 T. What is the maximum flux inside the coil?
+        </li>
+      </ol>
+     </p>
+</exercise>
+
+
+</paragraphs>
  </exercises>
 

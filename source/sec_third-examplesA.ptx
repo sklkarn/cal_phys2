@@ -3,5 +3,238 @@
 <section xml:id="sec_third-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Examples A</title>
   
+  <paragraphs>
+    <title>Mag. Flux</title>
+    
+
+<example>
+  <statement>
+    <p>
+      A small particle of mass 2 g and charge <m>10 \,\mu C</m> is emitted at <m>t = 0</m> 
+      from the origin with the velocity <m>\vec{v} = 3 \,m/s \hat{i}+ 4 \,m/s \hat{k}</m> 
+      in a uniform magnetic field of strength <m>100 \,T </m>in the z-direction. If there 
+      is no electrical field and no gravity, 
+      <ol marker="a.">
+        <li>
+          what is the force on the particle at t = 0? 
+        </li>
+        <li>
+          What is the magnitude and direction of the acceleration of the particle at t = 0? 
+        </li>
+        <li>
+          What is the radius of the helix about which the particle moves?
+        </li>
+        <li>
+          How long does it take the particle to complete one revolution of its motion?
+        </li>
+        <li>
+          How far along the z-direction has the particle moved during this revolution?
+        </li>
+      </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      Given: 
+     <m>m = 2.0\times10^{-3}\,kg;\quad q = 1.0\times10^{-5}\,C;</m> <m> \vec{v} = 3 \,m/s \hat{i}+ 4 \,m/s \hat{k};</m>
+     <m>\vec{B}= 100 \,T \hat{k}</m>
+    </p>
+    <p>
+      Equations:  
+      <me>
+        vec{F}  = q(\vec{E} + \vec{v} \times \vec{B});
+      </me>
+      <me>
+        \vec{F}  = m\vec{a};
+      </me>
+      <me>
+        v_{\perp} = v_{x} = \vec{v}\cdot\hat{i};
+      </me>
+      <me>
+        a=\frac{v^{2}_{\perp}}{r};
+      </me>
+      <me>
+        z = v_{z}t
+      </me>
+         </p>
+         <p>
+          <ol marker="a.">
+            <li>
+              <m>\vec{F}= -3.0\times10^{-3}N\hat{j}</m>
+            </li>
+            <li>
+             <m>a = 1.5\, m/s^{2}; \quad \hat{a}=-\hat{j}; \quad v_{\perp}= 3\,m/s</m>
+            </li>
+            <li>
+              <m>r = 6 \,m</m>
+            </li>
+            <li>
+              <m>t - 12.6 \,s</m>
+            </li>
+            <li>
+              <m> z= 50.2\, m </m>
+            </li>
+          </ol>
+         </p>
+       </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      If a proton <m>(m_{p} = 1.673 \times 10^{-27} \,kg,</m> <m>q_{p} = e = 1.602 \times 10^{-19} \,C)</m> 
+      is accelerated through a potential difference of 100 V, 
+      <ol marker="a.">
+        <li>
+          what is its velocity?
+        </li>
+        <li>
+          If it passes through a velocity selector and then into a region of space containing 
+          only a uniform magnetic field perpendicular to the velocity, what is the strength of 
+          that field if the diameter of the proton's orbit is 50 cm?
+        </li>
+        <li>
+          If the magnetic field in the velocity selector is the same as that in part b, 
+          what is the strength of the electric field in the velocity selector?
+        </li>
+        <li>
+          If a deuteron <m>(m_{d} = 2 m_{p},\quad q_{d} = q_{p})</m> is to pass through the same velocity selector, 
+          through what potential difference must it be accelerated?
+        </li>
+        <li>
+          What then is the diameter of its orbit in the uniform magnetic field region?
+        </li>
+      </ol>
+        </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>m_{p} = 1.673\times10^{-27}\,kg;\quad q_{p} = 1.602\times10^{-19}\,C;</m>
+      <m>V_{p}=100 \,V;\quad  r_{p}=0.25 \,m;\quad  m_{d}=2m_{p};\quad q_{d} =q_{p}</m> 
+    </p>
+    <p>
+      Equations: 
+         <me>
+        \frac{1}{2}m_{p}v^{2} = q_{p}V_{p};
+      </me>
+      <me>
+        F = q_{p}v B = \frac{m_{p}v^{2}}{r_{p}};
+      </me>
+      <me>
+        \vec{F}=q(\vec{E}+\vec{v}\times\vec{B})=0 
+      </me>
+      <me>
+        E = v_{p}B;
+      </me>
+      <me>
+        \frac{1}{2}m_{d}v^{2} = q_{d}V_{d};
+      </me>
+      <me>
+        F = q_{d}v B = \frac{m_{d}v^{2}}{r_{d}};
+      </me>
+      <me>
+        D_{d} = 2r_{d}
+      </me>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+           <me>
+            v = 1.38\times10^{5} \,m/s
+           </me>
+           
+          </li>
+          <li>
+            <me>
+              B =  5.78 \times10^{-3} \,T
+            </me>
+            
+          </li>
+          <li>
+           <me>
+            E = 800 \,V/m
+           </me>
+           
+          </li>
+          <li>
+            <me>
+              V_{d}= 200 \,V; \quad r_{d}= 0.5 \,m
+            </me>
+            
+          </li>
+          <li>
+            <me>
+              D_{d}= 1.0 \,m 
+            </me>
+            
+          </li>
+        </ol>
+      </p>
+      </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The plane of a circle of radius 10 cm makes an angle of <m>30^{o}</m> with a uniform magnetic field. 
+      <ol marker="a.">
+        <li>
+          If the magnetic flux through this circle is <m>50 W_{b},</m> what is the strength of the magnetic field? 
+        </li>
+        <li>
+          If a magnetic field is given in MKS units by <m>B = 2y + yz,</m> 
+          what is the magnetic flux through a square whose corners are at (0,0,0), (0,1m,0), (0,1m,1m), and (0,0,1m)?
+        </li>
+      </ol>
+         </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>r = 0.1 \,m; \quad \theta = 30^{o}; \quad  \Phi_{B}=50 W_{b};</m> <m> \quad \vec{B}= 2y\hat{i}+yz\hat{k}</m>
+         </p>
+         <p>
+          Equations:
+          <me>
+            \Phi_{B} = \int\vec{B}\cdot\vec{\,dA} = \vec{B}\cdot\vec{A} = BA\cos\theta = BA; 
+          </me>
+          <me>
+            A = \pi r^{2}
+          </me>
+         <me>
+          \vec{dA} = \,dy\,dz \hat{i};
+         </me>
+         <me>
+          \Phi_{B} = \int\vec{B}\cdot\vec{\,dA} = \iint2y\,dy\,dz = \int\limits_{0}^{1}2y\,dy  \int\limits_{0}^{1}\,dz 
+         </me>
+         <me>
+          = \left.y^{2}\right]_{0}^{1} \left.z\right|_{0}^{1} = 1
+         </me>
+          </p>
+          <p>
+            <ol marker="a.">
+              <li>
+               <me>
+                A = 0.0314 \,m^{2};
+               </me>
+               <me>
+                B = 3.18\times10^{3}\, T
+               </me>
+               
+              </li>
+              <li>
+              <me>
+                \Phi_{B}= 1.0 \,W_{b}
+              </me>
+              
+              </li>
+            </ol>
+          </p>
+        </solution>
+</example>
+
+
+
+</paragraphs>
 
 </section>
