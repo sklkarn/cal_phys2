@@ -336,6 +336,17 @@ window.MathJax = {
 </li>
 <li><div class="toc-item"><a href="subsec-geo_mag.html" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Geomagnetism</span></a></div></li>
 <li><div class="toc-item"><a href="subsec-mag_force.html" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Magnetic Force on a Moving Charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lorentz.html" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Electromagnetic Force on a Moving Charge (or Lorentz Force)</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-mag_flux.html" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Magnetic Flux, <span class="process-math">\(\Phi_{B}\)</span></span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-gauss_mag" class="internal"><span class="codenumber">3.1.5.1</span> <span class="title">Gauss’s Law for Magnetism</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-vel_select" class="internal"><span class="codenumber">3.1.5.2</span> <span class="title">Velocity Selector</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-cyclotron" class="internal"><span class="codenumber">3.1.5.3</span> <span class="title">Cyclotron Frequency</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-masspect" class="internal"><span class="codenumber">3.1.5.4</span> <span class="title">Mass Spectrometer</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-Hall_effect" class="internal"><span class="codenumber">3.1.5.5</span> <span class="title">Hall Effect</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><div class="toc-item"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Examples A</span></a></div></li>
@@ -372,10 +383,10 @@ window.MathJax = {
 <span class="type">Appendix</span> <span class="codenumber">A</span> <span class="title">Mathematical Relations</span>
 </h2>
 <ol class="decimal">
-<li id="li-463"><div class="para logical" id="p-399">
+<li id="li-494"><div class="para logical" id="p-434">
 <div class="para"><dfn class="terminology">Algebric:</dfn></div>
 <ol class="lower-alpha">
-<li id="li-464"><div class="para" id="p-derived-li-464">
+<li id="li-495"><div class="para" id="p-derived-li-495">
 <dfn class="terminology">Logerithmic Formulae:</dfn> A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If <span class="process-math">\(\log a=x,\)</span> then <span class="process-math">\(a=10^{x},\)</span> and if <span class="process-math">\(\ln a=x,\)</span> then <span class="process-math">\(a=e^{x}\text{,}\)</span> also<div class="displaymath process-math">
 \begin{equation*}
 \log m+\log n = \log mn;
@@ -391,7 +402,7 @@ window.MathJax = {
 \log m^{n}= n \log m.
 \end{equation*}
 </div>Similarly we can obtain the relations for  natural log (ln).</div></li>
-<li id="li-465"><div class="para" id="p-derived-li-465">
+<li id="li-496"><div class="para" id="p-derived-li-496">
 <dfn class="terminology">Quadratic Formula:</dfn> If<div class="displaymath process-math">
 \begin{equation*}
 ax^{2}+bx+c=0,
@@ -404,38 +415,38 @@ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a}
 </div></li>
 </ol>
 </div></li>
-<li id="li-466"><div class="para logical" id="p-400">
+<li id="li-497"><div class="para logical" id="p-435">
 <div class="para"><dfn class="terminology">Geometric Formulae:</dfn></div>
 <ol class="lower-alpha">
-<li id="li-467"><div class="para" id="p-derived-li-467">Circumference of a circle of circle of radius r, <span class="process-math">\(C= 2\pi r\text{;}\)</span>
+<li id="li-498"><div class="para" id="p-derived-li-498">Circumference of a circle of circle of radius r, <span class="process-math">\(C= 2\pi r\text{;}\)</span>
 </div></li>
-<li id="li-468"><div class="para" id="p-derived-li-468">Area of a circle of circle of radius r, <span class="process-math">\(A = \pi r^{2};\)</span>
+<li id="li-499"><div class="para" id="p-derived-li-499">Area of a circle of circle of radius r, <span class="process-math">\(A = \pi r^{2};\)</span>
 </div></li>
-<li id="li-469"><div class="para" id="p-derived-li-469">Volume of a sphere of radius r, <span class="process-math">\(V=\frac{4}{3}\pi r^{3};\)</span>
+<li id="li-500"><div class="para" id="p-derived-li-500">Volume of a sphere of radius r, <span class="process-math">\(V=\frac{4}{3}\pi r^{3};\)</span>
 </div></li>
-<li id="li-470"><div class="para" id="p-derived-li-470">Surface area of a sphere of radius r, <span class="process-math">\(A=4\pi r^{2};\)</span>
+<li id="li-501"><div class="para" id="p-derived-li-501">Surface area of a sphere of radius r, <span class="process-math">\(A=4\pi r^{2};\)</span>
 </div></li>
-<li id="li-471"><div class="para" id="p-derived-li-471">Volume area of a cylinder of radius r and height h, <span class="process-math">\(V=\pi r^{2}h;\)</span>
+<li id="li-502"><div class="para" id="p-derived-li-502">Volume area of a cylinder of radius r and height h, <span class="process-math">\(V=\pi r^{2}h;\)</span>
 </div></li>
-<li id="li-472"><div class="para" id="p-derived-li-472">Cylindrical surface area of a cylinder of radius r and height h, <span class="process-math">\(S=2\pi r h\)</span>
+<li id="li-503"><div class="para" id="p-derived-li-503">Cylindrical surface area of a cylinder of radius r and height h, <span class="process-math">\(S=2\pi r h\)</span>
 </div></li>
-<li id="li-473"><div class="para" id="p-derived-li-473">
+<li id="li-504"><div class="para" id="p-derived-li-504">
 <em class="emphasis">Congruent Triangles:</em> In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.</div></li>
-<li id="li-474"><div class="para" id="p-derived-li-474">
+<li id="li-505"><div class="para" id="p-derived-li-505">
 <em class="emphasis">Similar Triangles:</em> If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.</div></li>
 </ol>
 </div></li>
-<li id="li-475"><div class="para logical" id="p-401">
+<li id="li-506"><div class="para logical" id="p-436">
 <div class="para">
 <dfn class="terminology">Trigonometric Identities:</dfn>  in right angled triangle <span class="process-math">\(\vartriangle ABC,\)</span> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/rtangl.png" class="contained"></div>
 </div>
 <ol class="lower-alpha">
-<li id="li-476"><div class="para" id="p-derived-li-476"><div class="displaymath process-math">
+<li id="li-507"><div class="para" id="p-derived-li-507"><div class="displaymath process-math">
 \begin{equation*}
 h^{2}=p^{2}+b^{2}
 \end{equation*}
 </div></div></li>
-<li id="li-477"><div class="para" id="p-derived-li-477">
+<li id="li-508"><div class="para" id="p-derived-li-508">
 <div class="displaymath process-math">
 \begin{equation*}
 \sin\theta=\frac{p}{h} 
@@ -452,7 +463,7 @@ h^{2}=p^{2}+b^{2}
 \end{equation*}
 </div>
 </div></li>
-<li id="li-478"><div class="para" id="p-derived-li-478">
+<li id="li-509"><div class="para" id="p-derived-li-509">
 <div class="displaymath process-math">
 \begin{equation*}
 \sin\theta \csc\theta=1;
@@ -474,7 +485,7 @@ h^{2}=p^{2}+b^{2}
 \end{equation*}
 </div>
 </div></li>
-<li id="li-479"><div class="para" id="p-derived-li-479">
+<li id="li-510"><div class="para" id="p-derived-li-510">
 <div class="displaymath process-math">
 \begin{equation*}
 \sin2\theta = 2\sin\theta\cos\theta;
@@ -495,7 +506,7 @@ h^{2}=p^{2}+b^{2}
 \end{equation*}
 </div>
 </div></li>
-<li id="li-480"><div class="para" id="p-derived-li-480">
+<li id="li-511"><div class="para" id="p-derived-li-511">
 <div class="displaymath process-math">
 \begin{equation*}
 \sin(-\theta) = -\sin\theta;
@@ -517,7 +528,7 @@ h^{2}=p^{2}+b^{2}
 \end{equation*}
 </div>
 </div></li>
-<li id="li-481"><div class="para" id="p-derived-li-481">
+<li id="li-512"><div class="para" id="p-derived-li-512">
 <div class="displaymath process-math">
 \begin{equation*}
 \sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta;
@@ -529,7 +540,7 @@ h^{2}=p^{2}+b^{2}
 \end{equation*}
 </div>
 </div></li>
-<li id="li-482"><div class="para" id="p-derived-li-482">
+<li id="li-513"><div class="para" id="p-derived-li-513">
 <div class="displaymath process-math">
 \begin{equation*}
 2\sin \alpha\cdot\sin\beta = \cos(\alpha-\beta) - \cos(\alpha+\beta);
@@ -541,7 +552,7 @@ h^{2}=p^{2}+b^{2}
 \end{equation*}
 </div>
 </div></li>
-<li id="li-483"><div class="para" id="p-derived-li-483">
+<li id="li-514"><div class="para" id="p-derived-li-514">
 <div class="displaymath process-math">
 \begin{equation*}
 2\sin \alpha\cdot\cos\beta = \sin(\alpha+\beta) + \sin(\alpha-\beta)
@@ -553,7 +564,7 @@ h^{2}=p^{2}+b^{2}
 \end{equation*}
 </div>
 </div></li>
-<li id="li-484"><div class="para" id="p-derived-li-484">
+<li id="li-515"><div class="para" id="p-derived-li-515">
 <div class="displaymath process-math">
 \begin{equation*}
 \sin\alpha+\sin\beta = 2\sin\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2};
@@ -567,19 +578,19 @@ h^{2}=p^{2}+b^{2}
 </div></li>
 </ol>
 </div></li>
-<li id="li-485"><div class="para logical" id="p-402">
+<li id="li-516"><div class="para logical" id="p-437">
 <div class="para">
 <dfn class="terminology">Trigonometric Identities:</dfn>  in any <span class="process-math">\(\vartriangle A' B' C'\)</span> with sides <span class="process-math">\(a, \,b,\)</span> and <span class="process-math">\(c\)</span> and angles <span class="process-math">\(\alpha,\,\beta,\)</span> and <span class="process-math">\(\gamma\)</span> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/cosinlaw.png" class="contained"></div>
 </div>
 <ol class="lower-alpha">
-<li id="li-486"><div class="para" id="p-derived-li-486">
+<li id="li-517"><div class="para" id="p-derived-li-517">
 <em class="emphasis">Law of sines:</em><div class="displaymath process-math">
 \begin{equation*}
 \frac{\sin\alpha}{a}=\frac{\sin\beta}{b}=\frac{\sin\gamma}{c}
 \end{equation*}
 </div>
 </div></li>
-<li id="li-487"><div class="para" id="p-derived-li-487">
+<li id="li-518"><div class="para" id="p-derived-li-518">
 <em class="emphasis">Law of cosines:</em><div class="displaymath process-math">
 \begin{equation*}
 c^{2}=a^{2}+b^{2}-2ab\cos\gamma 
@@ -588,7 +599,7 @@ c^{2}=a^{2}+b^{2}-2ab\cos\gamma
 </div></li>
 </ol>
 </div></li>
-<li id="li-488"><div class="para logical" id="p-403">
+<li id="li-519"><div class="para logical" id="p-438">
 <div class="para"><dfn class="terminology">Binomial Theorem:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -596,7 +607,7 @@ c^{2}=a^{2}+b^{2}-2ab\cos\gamma
 \end{equation*}
 </div>
 </div></li>
-<li id="li-489"><div class="para logical" id="p-404">
+<li id="li-520"><div class="para logical" id="p-439">
 <div class="para"><dfn class="terminology">Power Series:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -629,7 +640,7 @@ e^{x}=1+x+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+\cdots   \quad (\forall x)
 \end{equation*}
 </div>
 </div></li>
-<li id="li-490"><div class="para logical" id="p-405">
+<li id="li-521"><div class="para logical" id="p-440">
 <div class="para"><dfn class="terminology">Calculus:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -642,7 +653,7 @@ e^{x}=1+x+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+\cdots   \quad (\forall x)
 \end{equation*}
 </div>
 <ol class="lower-alpha">
-<li id="li-491"><div class="para" id="p-derived-li-491">
+<li id="li-522"><div class="para" id="p-derived-li-522">
 <dfn class="terminology">Derivatives:</dfn><div class="displaymath process-math">
 \begin{equation*}
 \frac{\,d}{\,dx}x^{n}=nx^{n-1};
@@ -689,7 +700,7 @@ e^{x}=1+x+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+\cdots   \quad (\forall x)
 \end{equation*}
 </div>
 </div></li>
-<li id="li-492"><div class="para" id="p-derived-li-492">
+<li id="li-523"><div class="para" id="p-derived-li-523">
 <dfn class="terminology">Integrals:</dfn><div class="displaymath process-math">
 \begin{equation*}
 \int x^{n}\,dx= \frac{x^{n+1}}{n+1}\quad (n\neq-1);
@@ -743,7 +754,7 @@ e^{x}=1+x+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+\cdots   \quad (\forall x)
 </div></li>
 </ol>
 </div></li>
-<li id="li-493"><div class="para logical" id="p-406">
+<li id="li-524"><div class="para logical" id="p-441">
 <div class="para">
 <dfn class="terminology">Vectors:</dfn> Draw a rectangle having adjacent sides as <span class="process-math">\(\vec{a}\)</span> and <span class="process-math">\(\vec{b}.\)</span> Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors <span class="process-math">\(\vec{a}\)</span> and <span class="process-math">\(\vec{b}\text{.}\)</span> Now <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/resvect.png" class="contained"></div>
 </div>
