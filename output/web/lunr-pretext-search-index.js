@@ -1918,29 +1918,128 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
+  "id": "subsec-ilb",
+  "level": "1",
+  "url": "subsec-ilb.html",
+  "type": "Subsection",
+  "number": "3.2.1",
+  "title": "Magnetic Force on a Current Element",
+  "body": " Magnetic Force on a Current Element   The force on a current element when placed in a magnetic field, is  Current Element   Straight wire in Uniform Field  where is the angle between the direction of the current element and the direction of magnetic flux density. The direction of force is perpendicular to the plane subtends by and as adjacent sides. If you stretch your right hand fingers in the direction of current element and curl that up along the direction of magnetic field then thumb will pointed along the force acting on that current element.  Maximum Magnitudes.    Consider a differential charge, to be moving with a velocity, in a magnetic field, then differential force acting on a charge is given by    Here, are volume charge density, volume, length, current density, and current of a conductor.    "
+},
+{
+  "id": "p-407",
+  "level": "2",
+  "url": "subsec-ilb.html#p-407",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Current Element Straight wire in Uniform Field Maximum Magnitudes. "
+},
+{
+  "id": "proof-2",
+  "level": "2",
+  "url": "subsec-ilb.html#proof-2",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Consider a differential charge, to be moving with a velocity, in a magnetic field, then differential force acting on a charge is given by    Here, are volume charge density, volume, length, current density, and current of a conductor.  "
+},
+{
+  "id": "subsec-IA",
+  "level": "1",
+  "url": "subsec-IA.html",
+  "type": "Subsection",
+  "number": "3.2.2",
+  "title": "Magnetic Dipole Moment of a Current Loop",
+  "body": " Magnetic Dipole Moment of a Current Loop   If a current is flowing in a loop of surface area A as shown in , then the magnetic dipole moment is given by  Right hand grip rule.                It is vector quantity and its direction is given by right hand thumb (grip) rule as shown in . If there are N number of turns in a loop then Its unit is or     Solenoid      A solenoid [ ] is a tightly wound helical coil of wire whose diameter is small compared to its length. The magnetic field generated inside the current carrying solenoid is essentially uniform, and is directed along the axis of the solenoid. Outside the solenoid, the magnetic field is very weak. The winding of wire is sufficiently tight that each turn of the solenoid is well approximated as a circular wire loop, lying in the plane perpendicular to the axis of the solenoid, which carries a current I. If a solenoid of length l has total number of turns N then the magnetic field (i.e. total magnetic moments) along the axis of a solenoid is given by .   "
+},
+{
+  "id": "p-409",
+  "level": "2",
+  "url": "subsec-IA.html#p-409",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Right hand grip rule. "
+},
+{
+  "id": "figure-104",
+  "level": "2",
+  "url": "subsec-IA.html#figure-104",
+  "type": "Figure",
+  "number": "3.2.1",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "solenoid",
+  "level": "2",
+  "url": "subsec-IA.html#solenoid",
+  "type": "Figure",
+  "number": "3.2.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-mag_torq",
+  "level": "1",
+  "url": "subsec-mag_torq.html",
+  "type": "Subsection",
+  "number": "3.2.3",
+  "title": "Magnetic Torque on a Current Loop",
+  "body": " Magnetic Torque on a Current Loop  If a current loop is placed in an external magnetic field [ ], it experiences a force that tends to rotate it in such a way that the surface of the loop is perpendicular to the field, i.e., the field and area vector become parallel to each other. The torque (or moment of force) on the loop is a vector product of the force F and the lever arm r. That is,                Consider a rectangular current loop ABCDA of surface area A, side length = L, and side width = W is placed in an external magnetic field B [ ] so that xz plane is parallel to the field, then the torque acting on the loop is given by Where, the perpendicular distance of or from the axis of rotation. Force along sides EA and BD is zero as and current element is parallel to each other. Force is coming out of the page along +ve y-axis and is going into the page along -ve y-axis.   here width of the rectangular plane. Hence, Due to this torque xz-plane rotates about z-axis till it orient parallel to yz-plane.  In vector form It's direction is perpendicular to the plane made by and . Forces acting on a plane to reduce the torque. That is, the torque rotates the loop to align dipole moment and an external field in the same direction.  "
+},
+{
+  "id": "figure-108",
+  "level": "2",
+  "url": "subsec-mag_torq.html#figure-108",
+  "type": "Figure",
+  "number": "3.2.3",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-mag_potE",
+  "level": "1",
+  "url": "subsec-mag_potE.html",
+  "type": "Subsection",
+  "number": "3.2.4",
+  "title": "Potential Energy of Magnetic Dipole",
+  "body": " Potential Energy of Magnetic Dipole  When a torque is applied on a dipole which is free to rotate, work is done. The incremental work done by the field when a magnetic dipole is rotated through an angle as shown in is: where is the angle between and . The work done is equal to the decrease in potential energy of the system, i.e.,                 Where is the integration constant. When is zero at . Hence   This is potential energy of a magnetic dipole at an angle to the direction of a magnetic field . Potential energy is minimum at and provides stable equilibrium, where as is maximum at provides unstable equilibrium. Remember that the torque acts to align the dipole with parallel to   "
+},
+{
+  "id": "figure-111",
+  "level": "2",
+  "url": "subsec-mag_potE.html#figure-111",
+  "type": "Figure",
+  "number": "3.2.4",
+  "title": "",
+  "body": "            "
+},
+{
   "id": "sec_third-examplesA",
   "level": "1",
   "url": "sec_third-examplesA.html",
   "type": "Section",
-  "number": "3.2",
+  "number": "3.3",
   "title": "Examples A",
-  "body": " Examples A   Mag. Flux    A small particle of mass 2 g and charge is emitted at from the origin with the velocity in a uniform magnetic field of strength in the z-direction. If there is no electrical field and no gravity,  what is the force on the particle at t = 0?  What is the magnitude and direction of the acceleration of the particle at t = 0?  What is the radius of the helix about which the particle moves?  How long does it take the particle to complete one revolution of its motion?  How far along the z-direction has the particle moved during this revolution?      Given:     Equations:                              If a proton  is accelerated through a potential difference of 100 V,  what is its velocity?  If it passes through a velocity selector and then into a region of space containing only a uniform magnetic field perpendicular to the velocity, what is the strength of that field if the diameter of the proton's orbit is 50 cm?  If the magnetic field in the velocity selector is the same as that in part b, what is the strength of the electric field in the velocity selector?  If a deuteron is to pass through the same velocity selector, through what potential difference must it be accelerated?  What then is the diameter of its orbit in the uniform magnetic field region?      Given:    Equations:                                The plane of a circle of radius 10 cm makes an angle of with a uniform magnetic field.  If the magnetic flux through this circle is what is the strength of the magnetic field?  If a magnetic field is given in MKS units by what is the magnetic flux through a square whose corners are at (0,0,0), (0,1m,0), (0,1m,1m), and (0,0,1m)?      Given:    Equations:                     "
+  "body": " Examples A   Mag. Flux    A small particle of mass 2 g and charge is emitted at from the origin with the velocity in a uniform magnetic field of strength in the z-direction. If there is no electrical field and no gravity,  what is the force on the particle at t = 0?  What is the magnitude and direction of the acceleration of the particle at t = 0?  What is the radius of the helix about which the particle moves?  How long does it take the particle to complete one revolution of its motion?  How far along the z-direction has the particle moved during this revolution?      Given:      Equations:                                If a proton  is accelerated through a potential difference of 100 V,  what is its velocity?  If it passes through a velocity selector and then into a region of space containing only a uniform magnetic field perpendicular to the velocity, what is the strength of that field if the diameter of the proton's orbit is 50 cm?  If the magnetic field in the velocity selector is the same as that in part b, what is the strength of the electric field in the velocity selector?  If a deuteron is to pass through the same velocity selector, through what potential difference must it be accelerated?  What then is the diameter of its orbit in the uniform magnetic field region?      Given:    Equations:                                The plane of a circle of radius 10 cm makes an angle of with a uniform magnetic field.  If the magnetic flux through this circle is what is the strength of the magnetic field?  If a magnetic field is given in MKS units by what is the magnetic flux through a square whose corners are at (0,0,0), (0,1m,0), (0,1m,1m), and (0,0,1m)?      Given:    Equations:                      Mag. Force    The cube shown at below is 0.5 m on a side. The wire bent as shown carries a current of 0.2 A and the uniform magnetic field in the +x direction is 10 T. Find the magnitude and direction of the magnetic force on each segment of the wire.      Given:                                A circular coil of wire 20 cm in diameter with 100 turns of wire is centered at the origin in the x\/z plane as shown in the figure below. The coil contains a current of 100 mA in the direction shown and is located in a uniform magnetic field of magnitude 10 T pointing in the direction of above the x-axis.    What is the magnetic flux through the coil?  What is the magnetic moment of the coil?  What is the magnetic torque on the coil?  About what axis would the coil rotate if it were allowed to rotate freely?  What is the magnetic potential energy of the coil?      Given:                    z-axis  U = -1.57 Joule.       "
 },
 {
   "id": "example-42",
   "level": "2",
   "url": "sec_third-examplesA.html#example-42",
   "type": "Example",
-  "number": "3.2.1",
+  "number": "3.3.1",
   "title": "",
-  "body": "  A small particle of mass 2 g and charge is emitted at from the origin with the velocity in a uniform magnetic field of strength in the z-direction. If there is no electrical field and no gravity,  what is the force on the particle at t = 0?  What is the magnitude and direction of the acceleration of the particle at t = 0?  What is the radius of the helix about which the particle moves?  How long does it take the particle to complete one revolution of its motion?  How far along the z-direction has the particle moved during this revolution?      Given:     Equations:                           "
+  "body": "  A small particle of mass 2 g and charge is emitted at from the origin with the velocity in a uniform magnetic field of strength in the z-direction. If there is no electrical field and no gravity,  what is the force on the particle at t = 0?  What is the magnitude and direction of the acceleration of the particle at t = 0?  What is the radius of the helix about which the particle moves?  How long does it take the particle to complete one revolution of its motion?  How far along the z-direction has the particle moved during this revolution?      Given:      Equations:                             "
 },
 {
   "id": "example-43",
   "level": "2",
   "url": "sec_third-examplesA.html#example-43",
   "type": "Example",
-  "number": "3.2.2",
+  "number": "3.3.2",
   "title": "",
   "body": "  If a proton  is accelerated through a potential difference of 100 V,  what is its velocity?  If it passes through a velocity selector and then into a region of space containing only a uniform magnetic field perpendicular to the velocity, what is the strength of that field if the diameter of the proton's orbit is 50 cm?  If the magnetic field in the velocity selector is the same as that in part b, what is the strength of the electric field in the velocity selector?  If a deuteron is to pass through the same velocity selector, through what potential difference must it be accelerated?  What then is the diameter of its orbit in the uniform magnetic field region?      Given:    Equations:                             "
 },
@@ -1949,25 +2048,70 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-examplesA.html#example-44",
   "type": "Example",
-  "number": "3.2.3",
+  "number": "3.3.3",
   "title": "",
   "body": "  The plane of a circle of radius 10 cm makes an angle of with a uniform magnetic field.  If the magnetic flux through this circle is what is the strength of the magnetic field?  If a magnetic field is given in MKS units by what is the magnetic flux through a square whose corners are at (0,0,0), (0,1m,0), (0,1m,1m), and (0,0,1m)?      Given:    Equations:                   "
+},
+{
+  "id": "example-45",
+  "level": "2",
+  "url": "sec_third-examplesA.html#example-45",
+  "type": "Example",
+  "number": "3.3.4",
+  "title": "",
+  "body": "  The cube shown at below is 0.5 m on a side. The wire bent as shown carries a current of 0.2 A and the uniform magnetic field in the +x direction is 10 T. Find the magnitude and direction of the magnetic force on each segment of the wire.      Given:                             "
+},
+{
+  "id": "example-46",
+  "level": "2",
+  "url": "sec_third-examplesA.html#example-46",
+  "type": "Example",
+  "number": "3.3.5",
+  "title": "",
+  "body": "  A circular coil of wire 20 cm in diameter with 100 turns of wire is centered at the origin in the x\/z plane as shown in the figure below. The coil contains a current of 100 mA in the direction shown and is located in a uniform magnetic field of magnitude 10 T pointing in the direction of above the x-axis.    What is the magnetic flux through the coil?  What is the magnetic moment of the coil?  What is the magnetic torque on the coil?  About what axis would the coil rotate if it were allowed to rotate freely?  What is the magnetic potential energy of the coil?      Given:                    z-axis  U = -1.57 Joule.     "
+},
+{
+  "id": "subsec-magfld_movcharge",
+  "level": "1",
+  "url": "subsec-magfld_movcharge.html",
+  "type": "Subsection",
+  "number": "3.4.1",
+  "title": "Magnetic Field of a Moving Charge:",
+  "body": " Magnetic Field of a Moving Charge:         Permeability of Free Space,  The property of space which permit magnetic flux to pass through it is known as permeability. It is a measure of relative increase or decrease in the resultant magnetic field inside a material compared with the magnetizing field H in which the given material is located. It is a constant of proportionality that exists between magnetic induction (magnetic flux density) B and magnetic field intensity (magnetizing field) H. For free space   Materials may be classified magnetically on the basis of their permeabilities. Materials that cause the lines of flux to move farther apart, resulting in a decrease in magnetic flux density compared with a vacuum, are called diamagnetic . Materials that concentrate magnetic flux by a factor of more than 1 but less than or equal to 10 are called paramagnetic ; materials that concentrate the flux by a factor of more than 10 are called ferromagnetic . The permeability factors of some substances change with rising or falling temperature, or with the intensity of the applied magnetic field. Permeability is often expressed in relative, rather than in absolute, terms. If be the permeability of free space, be the permeability of the given substance, then the relative permeability, , is given by:     Magnetic Field of a Current Element (Biot Savart Law)        Magnetic Field of a straight wire                   Consider a current carrying straight conductor of length 2a. To find a magnetic field at a point P from the conductor consider a small current element on a conductor and use Biot-Savart's law, The direction of magnetic field at P is given by right hand grip rule which is going into the plane of the paper. is unit vector along and is angle between current element and line joining the current element to point P.     Now solve the integrand first with the help of geometry of the figure then substitute the value to obtain B.                When (ie., for infinitely long wire) then , hence     When then , hence       Magnetic field due to a current loop     "
+},
+{
+  "id": "p-438",
+  "level": "2",
+  "url": "subsec-magfld_movcharge.html#p-438",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "diamagnetic paramagnetic ferromagnetic "
+},
+{
+  "id": "figure-114",
+  "level": "2",
+  "url": "subsec-magfld_movcharge.html#figure-114",
+  "type": "Figure",
+  "number": "3.4.1",
+  "title": "",
+  "body": "            "
 },
 {
   "id": "ex_third",
   "level": "1",
   "url": "ex_third.html",
   "type": "Exercises",
-  "number": "3.3",
+  "number": "3.5",
   "title": "Exercise",
-  "body": "  Exercise   Mag. Flux  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into a page, travels through the region at a constant speed, and exits.      From the following plots find the one which shows the magnetic flux inside the coil as a function of time.   (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A square coil placed in a uniform magnetic field rotates around one of its edges as shown in figure below.      From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle    (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?     "
+  "body": "  Exercise   Mag. Flux  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into a page, travels through the region at a constant speed, and exits.      From the following plots find the one which shows the magnetic flux inside the coil as a function of time.   (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A square coil placed in a uniform magnetic field rotates around one of its edges as shown in figure below.      From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle    (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A small particle of mass 2 g and charge is passes through the origin with a velocity of in the +x direction into a uniform magnetic field parallel to the z-axis and a uniform gravitational field of 1 gauss in the -y direction.  If there is no electrical field and the particle continues moving in a straight line at constant speed, what is the magnetic force on the particle?  What is the magnitude and direction of the magnetic field?  If the particle attained its speed by sliding down a ramp before entering the magnetic field, what was the height of the ramp?    A electron cyclotron has a frequency of and an orbital radius of 1 m.  What is its magnetic field strength?  What is the speed of the electron?  What was the voltage on the electron gun which projected the electron into the cyclotron?        Each of the lettered points at the corners of the cube in the figure below represents a positive charge q moving with a velocity v in the direction indicated. There is a uniform magnetic field B in the +x direction as shown. Find the magnitude and direction of the magnetic force on each charge.   The magnetic field in the figure below is     What is the magnetic flux across the surface abcd?  Through cdef?  Through abfe?  Through all five surfaces enclosing the volume?    An alpha particle (nucleus of a helium atom) has a speed of and moves in a circle of radius 10 cm in the x\/y-plane due to a uniform magnetic field.  What is the magnitude and direction of the magnetic field?  What is the cyclotron frequency of the alpha particle?  Through what potential difference was it accelerated?  What is its energy in units of electron-volts?      Mag. Force  A wire 2 m long lies along the y-axis and carries a current of 2 A in the +y direction. What is the magnitude and direction of the magnetic force on the wire if it lies in a uniform magnetic field of                An electromagnetic rail gun consists of two parallel conducting rails of length X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance as shown in the figure below. A constant electrical potential V = 100 V is maintained between the rails and a constant magnetic field B = 10 T is maintained between them.    What is the magnitude and direction of the current in the sliding bar?  What is the magnitude and direction of the magnetic force on the sliding bar?  Neglecting friction, what is the acceleration of the bar?  Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?  What is the kinetic energy of the bar when it leaves the rail gun?  How long a time is the bar being accelerated?  How much electrical energy is supplied by the battery during this time interval?  Why aren't answers g and e the same?    A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, the current through the wire is 2 A, the deflection angle is and the magnetic field strength is 0.1 T, find    the magnetic moment of the loop,  the magnetic torque on the loop when it is vertical,  the magnetic torque on the loop when it is tilted,  the mass of the loop, and  the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.    A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. The wire wrapped around it makes 1000 turns and has a resistance of . The permanent magnets in the motor create a uniform magnetic field of 1000 G and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find  the current in the wire,  the magnetic moment of the solenoid,  the magnetic potential energy when the magnetic moment is opposite the field,  the change in magnetic potential energy for each half rotation,  the magnetic power delivered by the motor,  the electrical power delivered by the battery,  the electrical power dissipated by the resistor in the form of heat.  Which of these answers would change if the motor rotated faster?  Are your answers consistent with the law of conservation of energy? Explain.    A proton of mass and charge is moving in the +x direction with a constant speed of 104 m\/s in a region of space containing a constant electric field and a constant magnetic field. If the magnetic field is 10 T in the +y direction,  what is the magnitude and direction of the electric field that will keep the particle moving in a straight line at constant speed?  Describe the subsequent motion of the particle if the electric field is suddenly turned off.  What is the maximum distance the proton would deviate from its initial position when the electric field is turned off?     "
 },
 {
   "id": "exercise-76",
   "level": "2",
   "url": "ex_third.html#exercise-76",
   "type": "Exercise",
-  "number": "3.3.1",
+  "number": "3.5.1",
   "title": "",
   "body": "A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into a page, travels through the region at a constant speed, and exits.      From the following plots find the one which shows the magnetic flux inside the coil as a function of time.   (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?   "
 },
@@ -1976,9 +2120,99 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-77",
   "type": "Exercise",
-  "number": "3.3.2",
+  "number": "3.5.2",
   "title": "",
   "body": "A square coil placed in a uniform magnetic field rotates around one of its edges as shown in figure below.      From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle    (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?   "
+},
+{
+  "id": "exercise-78",
+  "level": "2",
+  "url": "ex_third.html#exercise-78",
+  "type": "Exercise",
+  "number": "3.5.3",
+  "title": "",
+  "body": "A small particle of mass 2 g and charge is passes through the origin with a velocity of in the +x direction into a uniform magnetic field parallel to the z-axis and a uniform gravitational field of 1 gauss in the -y direction.  If there is no electrical field and the particle continues moving in a straight line at constant speed, what is the magnetic force on the particle?  What is the magnitude and direction of the magnetic field?  If the particle attained its speed by sliding down a ramp before entering the magnetic field, what was the height of the ramp?   "
+},
+{
+  "id": "exercise-79",
+  "level": "2",
+  "url": "ex_third.html#exercise-79",
+  "type": "Exercise",
+  "number": "3.5.4",
+  "title": "",
+  "body": "A electron cyclotron has a frequency of and an orbital radius of 1 m.  What is its magnetic field strength?  What is the speed of the electron?  What was the voltage on the electron gun which projected the electron into the cyclotron?       "
+},
+{
+  "id": "exercise-80",
+  "level": "2",
+  "url": "ex_third.html#exercise-80",
+  "type": "Exercise",
+  "number": "3.5.5",
+  "title": "",
+  "body": "Each of the lettered points at the corners of the cube in the figure below represents a positive charge q moving with a velocity v in the direction indicated. There is a uniform magnetic field B in the +x direction as shown. Find the magnitude and direction of the magnetic force on each charge.  "
+},
+{
+  "id": "exercise-81",
+  "level": "2",
+  "url": "ex_third.html#exercise-81",
+  "type": "Exercise",
+  "number": "3.5.6",
+  "title": "",
+  "body": "The magnetic field in the figure below is     What is the magnetic flux across the surface abcd?  Through cdef?  Through abfe?  Through all five surfaces enclosing the volume?   "
+},
+{
+  "id": "exercise-82",
+  "level": "2",
+  "url": "ex_third.html#exercise-82",
+  "type": "Exercise",
+  "number": "3.5.7",
+  "title": "",
+  "body": "An alpha particle (nucleus of a helium atom) has a speed of and moves in a circle of radius 10 cm in the x\/y-plane due to a uniform magnetic field.  What is the magnitude and direction of the magnetic field?  What is the cyclotron frequency of the alpha particle?  Through what potential difference was it accelerated?  What is its energy in units of electron-volts?   "
+},
+{
+  "id": "exercise-83",
+  "level": "2",
+  "url": "ex_third.html#exercise-83",
+  "type": "Exercise",
+  "number": "3.5.8",
+  "title": "",
+  "body": "A wire 2 m long lies along the y-axis and carries a current of 2 A in the +y direction. What is the magnitude and direction of the magnetic force on the wire if it lies in a uniform magnetic field of               "
+},
+{
+  "id": "exercise-84",
+  "level": "2",
+  "url": "ex_third.html#exercise-84",
+  "type": "Exercise",
+  "number": "3.5.9",
+  "title": "",
+  "body": "An electromagnetic rail gun consists of two parallel conducting rails of length X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance as shown in the figure below. A constant electrical potential V = 100 V is maintained between the rails and a constant magnetic field B = 10 T is maintained between them.    What is the magnitude and direction of the current in the sliding bar?  What is the magnitude and direction of the magnetic force on the sliding bar?  Neglecting friction, what is the acceleration of the bar?  Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?  What is the kinetic energy of the bar when it leaves the rail gun?  How long a time is the bar being accelerated?  How much electrical energy is supplied by the battery during this time interval?  Why aren't answers g and e the same?   "
+},
+{
+  "id": "exercise-85",
+  "level": "2",
+  "url": "ex_third.html#exercise-85",
+  "type": "Exercise",
+  "number": "3.5.10",
+  "title": "",
+  "body": "A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, the current through the wire is 2 A, the deflection angle is and the magnetic field strength is 0.1 T, find    the magnetic moment of the loop,  the magnetic torque on the loop when it is vertical,  the magnetic torque on the loop when it is tilted,  the mass of the loop, and  the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.   "
+},
+{
+  "id": "exercise-86",
+  "level": "2",
+  "url": "ex_third.html#exercise-86",
+  "type": "Exercise",
+  "number": "3.5.11",
+  "title": "",
+  "body": "A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. The wire wrapped around it makes 1000 turns and has a resistance of . The permanent magnets in the motor create a uniform magnetic field of 1000 G and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find  the current in the wire,  the magnetic moment of the solenoid,  the magnetic potential energy when the magnetic moment is opposite the field,  the change in magnetic potential energy for each half rotation,  the magnetic power delivered by the motor,  the electrical power delivered by the battery,  the electrical power dissipated by the resistor in the form of heat.  Which of these answers would change if the motor rotated faster?  Are your answers consistent with the law of conservation of energy? Explain.   "
+},
+{
+  "id": "exercise-87",
+  "level": "2",
+  "url": "ex_third.html#exercise-87",
+  "type": "Exercise",
+  "number": "3.5.12",
+  "title": "",
+  "body": "A proton of mass and charge is moving in the +x direction with a constant speed of 104 m\/s in a region of space containing a constant electric field and a constant magnetic field. If the magnetic field is 10 T in the +y direction,  what is the magnitude and direction of the electric field that will keep the particle moving in a straight line at constant speed?  Describe the subsequent motion of the particle if the electric field is suddenly turned off.  What is the maximum distance the proton would deviate from its initial position when the electric field is turned off?   "
 },
 {
   "id": "sec_fourth-intro",
@@ -2008,9 +2242,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-78",
+  "id": "exercise-88",
   "level": "2",
-  "url": "ex_fourth.html#exercise-78",
+  "url": "ex_fourth.html#exercise-88",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -2044,9 +2278,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-79",
+  "id": "exercise-89",
   "level": "2",
-  "url": "ex_fifth.html#exercise-79",
+  "url": "ex_fifth.html#exercise-89",
   "type": "Exercise",
   "number": "5.3.1",
   "title": "",
@@ -2062,72 +2296,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-434",
+  "id": "p-471",
   "level": "2",
-  "url": "append_math.html#p-434",
+  "url": "append_math.html#p-471",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-435",
+  "id": "p-472",
   "level": "2",
-  "url": "append_math.html#p-435",
+  "url": "append_math.html#p-472",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-436",
+  "id": "p-473",
   "level": "2",
-  "url": "append_math.html#p-436",
+  "url": "append_math.html#p-473",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-437",
+  "id": "p-474",
   "level": "2",
-  "url": "append_math.html#p-437",
+  "url": "append_math.html#p-474",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-438",
+  "id": "p-475",
   "level": "2",
-  "url": "append_math.html#p-438",
+  "url": "append_math.html#p-475",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-439",
+  "id": "p-476",
   "level": "2",
-  "url": "append_math.html#p-439",
+  "url": "append_math.html#p-476",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-440",
+  "id": "p-477",
   "level": "2",
-  "url": "append_math.html#p-440",
+  "url": "append_math.html#p-477",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-441",
+  "id": "p-478",
   "level": "2",
-  "url": "append_math.html#p-441",
+  "url": "append_math.html#p-478",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2143,9 +2377,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-442",
+  "id": "p-479",
   "level": "2",
-  "url": "appendix-2.html#p-442",
+  "url": "appendix-2.html#p-479",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

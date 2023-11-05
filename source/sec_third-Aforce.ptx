@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-Aforce" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Magnetic Forces on Currents</title>
+  
+<introduction>
+  <p>
+    
+  </p>
+</introduction>
+
+<subsection xml:id="subsec-ilb">
+  <title>Magnetic Force on a Current Element</title>
+  <introduction>
+    <p>
+      The force on a current element when placed in a magnetic field, <m>B</m> is	
+      <me>
+        \vec{dF} = I \vec{\,dl} \times\vec{B} 
+      </me>
+      <term>Current Element</term>
+      <me>
+        \vec{F} = I \vec{l}\times\vec{B}
+      </me>
+     <term> Straight wire in Uniform Field</term>
+      <me>
+        \text{or,}\quad F = I lB \sin\theta
+      </me>
+      where <m>\theta</m> is the angle between the direction of the current 
+      element and the direction of magnetic flux density. The direction of force 
+      is perpendicular to the plane subtends by <m>\vec{B}</m> and <m>\vec{l}</m> 
+      as adjacent sides. If you stretch your right hand fingers in the direction 
+      of current element and curl that up along the direction of magnetic field 
+      then thumb will pointed along the force acting on that current element. 
+      <me>
+        F    = I l B_{\perp} 
+      </me>
+      <term>Maximum Magnitudes.</term>
+       </p>
+       
+        <proof>
+          <p>
+            Consider a differential charge, <m>\,dq</m> to be moving with a velocity, 
+            <m>\vec{v} </m> in a magnetic field, <m>\vec{B}</m> then differential 
+            force acting on a charge is given by 
+            <me>
+              \vec{\,dF} = \,dq (\vec{v}\times\vec{B})
+            </me>
+            <me>
+              \text{or,}\quad\vec{\,dF} = \rho\,dV (\vec{v}\times\vec{B}) = (\rho\vec{v}\times\vec{B})\,dV 
+            </me>
+            <me>
+              = (\vec{J}\times\vec{B})\,dV= (\vec{J}\,dV\times\vec{B}) = I\vec{\,dl}\times\vec{B}
+            </me>
+           <men xml:id="eqn-magCF1">
+            \therefore\quad \vec{F}= I\vec{l}\times\vec{B}
+           </men>
+           Here, <m>\rho, \,dV, \,l, \,\vec{J}, \,I </m> are volume charge density, 
+            volume, length, current density, and current of a conductor.
+          </p>
+        </proof>
+      
+  </introduction>
+</subsection>
+
+<subsection xml:id="subsec-IA">
+  <title>Magnetic Dipole Moment of a Current Loop</title>
+  <introduction>
+   
+  <p>
+    If a current <m>I</m> is flowing in a loop of surface area A as shown in <xref ref="magdipole"/>, 
+    then the magnetic dipole moment is given by 
+    <me>
+      \vec{\mu} = I\vec{A} 
+    </me>
+   <term> Right hand grip rule. </term> 
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30%">
+      <figure xml:id="magdipole">
+        <caption></caption>
+        <image source="magdipole.png"/>
+    </figure>
+        <figure xml:id="rtgripcurrent">
+            <caption></caption>
+            <image source="rtgripcurrent.png"/>
+        </figure>
+       </sidebyside>
+  </figure>
+  <p>
+    It is vector quantity and its direction is given by right hand thumb (grip) 
+    rule as shown in <xref ref="rtgripcurrent"/>.
+    <me>
+      \text{or,}\quad \mu = IA \quad	\text{magnitude}
+    </me>
+    If there are N number of turns in a loop then
+    <men xml:id="eqn-mag_dpl1">
+      \mu=NIA
+    </men>
+    Its unit is <m>Ampere.\,meter^{2}</m> or <m>Joule/Tesla.</m> 
+  </p>
+
+ 
+</introduction>
+<subsubsection xml:id="subsubsec-solenoid">
+  <title>Solenoid </title>
+  <figure xml:id="solenoid">
+    <caption></caption>
+    <image source="solenoid.png" width="35%"/>
+</figure>
+  <p>
+    A solenoid [<xref ref="solenoid"/>] is a tightly wound helical coil of wire whose diameter is small compared to its length. 
+    The magnetic field generated inside the current carrying solenoid is essentially uniform, 
+    and is directed along the axis of the solenoid. Outside the solenoid, the magnetic field 
+    is very weak. The winding of wire is sufficiently tight that each turn of the solenoid 
+    is well approximated as a circular wire loop, lying in the plane perpendicular to the axis 
+    of the solenoid, which carries a current I. If a solenoid of length l has total number of 
+    turns N then the magnetic field (i.e. total magnetic moments) along the axis of a 
+    solenoid is  given by <m>\mu = N I A</m>.
+  </p>
+</subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-mag_torq">
+  <title>Magnetic Torque on a Current Loop</title>
+  <p>
+    If a current loop is placed in an external magnetic field [<xref ref="torq2"/>], it experiences a force 
+    that tends to rotate it in such a way that the surface of the loop is perpendicular 
+    to the field, i.e., the field and area vector become parallel to each other. 
+    The torque <m>\tau</m> (or moment of force) on the loop is a vector product 
+    of the force F and the lever arm r. That is, 
+    <me>
+      \vec{\tau}=\vec{r}\times \vec{F}
+    </me>
+     </p>
+     <figure>
+      <caption></caption>
+      <sidebyside widths="35% 35%">
+        <figure xml:id="torq2">
+          <caption></caption>
+          <image source="torq2.png"/>
+      </figure>
+          <figure xml:id="dipoletorq">
+              <caption></caption>
+              <image source="dipoletorq.png"/>
+          </figure>
+           </sidebyside>
+    </figure>
+     <p>
+      Consider a rectangular current loop ABCDA of surface area  A,  side length = L, 
+      and side width = W is placed in an external magnetic field  B  [<xref ref="dipoletorq"/>] so that xz plane 
+      is parallel to the field, then the torque acting on the loop is given by 
+      <me>
+        \tau = r F = \frac{L}{2}F_{out} + \frac{L}{2}F_{in}
+      </me>
+     Where,  <m>r = OA= \frac{L}{2}, </m> the perpendicular distance of <m>F_{out}</m> 
+     or <m>F_{in}</m> from the axis of rotation.  Force along sides EA and BD is zero as 
+     <m>\vec{B}</m> and current element <m>Il</m> is parallel to each other. Force  <m>F_{out}</m> 
+     is coming out of the page along +ve y-axis and <m>F_{in}</m> is going into the page 
+     along -ve y-axis. 
+     <me>
+      \tau = \frac{L}{2}\left[F_{out} + F_{in}\right]
+     </me>
+     <me>
+      \text{But,}\quad F = IlB
+     </me>
+   <me>
+  \text{or,}\quad \tau = \frac{L}{2}\left[IWB + IWB\right]
+</me>
+here <m>l=W</m> width of the rectangular plane. Hence, 
+<me>
+  \tau= \frac{L}{2}\left[2IWB\right] = ILWB = IAB = \mu B
+</me>
+Due to this torque xz-plane rotates about z-axis till it orient parallel to yz-plane. 
+    </p>
+    <p>
+      In vector form 
+      <me>
+        \vec{\tau}=\vec{\mu}\times\vec{B}
+      </me>
+       It's direction is perpendicular to the plane made by <m>\vec{\mu}</m>
+       and <m>\vec{B}</m>. Forces acting on a plane to reduce the torque. 
+       That is, the torque rotates the loop to align dipole  moment and an external field in the same direction.
+    </p>
+</subsection>
+
+<subsection xml:id="subsec-mag_potE">
+  <title>Potential Energy of Magnetic Dipole</title>
+  <p>
+    When a torque is applied on a dipole which is free to rotate, work is done. 
+    The incremental work done by the field when a magnetic dipole is rotated through 
+    an angle <m>\,d\theta</m> as shown in <xref ref="torq3"/> is: 
+    <me>
+      \,dW = -\tau\cdot\,d\theta = -\mu B\sin\theta \,d\theta
+    </me>
+    where <m>\theta</m> is the angle between <m>\vec{\mu}</m> and <m>\vec{B}</m>. 
+    The work done is equal to the decrease in potential energy of the system, i.e., 
+     </p>
+     <figure>
+      <caption></caption>
+      <sidebyside widths="35% 35%">
+        <figure xml:id="torq3">
+          <caption></caption>
+          <image source="torq3.png"/>
+      </figure>
+          <figure xml:id="gr6">
+              <caption></caption>
+              <image source="gr6.png"/>
+          </figure>
+           </sidebyside>
+    </figure>
+    <p>
+      <me>
+        \,dU = -\,dW = \mu B\sin \theta\,d\theta
+      </me>
+      <me>
+        \therefore\quad U =\int\,dU= \int\mu B\sin \theta\,d\theta =- \mu B \cos\theta+C_{o}
+      </me>
+      Where <m>C_{o}</m> is the integration constant. When <m>U</m> is zero  at 
+      <m>\theta=90^{o},\quad  C_{o} = 0</m>. Hence 
+      <me>
+        U = - \mu B \cos\theta = -\vec{\mu}\cdot\vec{B}
+      </me>
+    </p>
+     <p>
+      This is potential energy of a magnetic dipole at an angle <m>\theta</m> to the direction 
+      of a magnetic field <xref ref="gr6"/>. Potential energy <m>U</m> is minimum at <m>\theta=0</m> 
+      and provides stable equilibrium, where as <m>U</m> is maximum at <m>\theta=180^{o}</m> 
+      provides unstable equilibrium. Remember that the torque acts to align the dipole 
+      with <m>\vec{\mu}</m> parallel to <m>\vec{B}.</m> 
+     </p>
+</subsection>
+
+  </section>
+

@@ -11,7 +11,7 @@
   <statement>
     <p>
       A small particle of mass 2 g and charge <m>10 \,\mu C</m> is emitted at <m>t = 0</m> 
-      from the origin with the velocity <m>\vec{v} = 3 \,m/s \hat{i}+ 4 \,m/s \hat{k}</m> 
+      from the origin with the velocity <m>\vec{v} = 3 \,(m/s) \hat{i}+ 4 \,(m/s) \hat{k}</m> 
       in a uniform magnetic field of strength <m>100 \,T </m>in the z-direction. If there 
       is no electrical field and no gravity, 
       <ol marker="a.">
@@ -36,7 +36,9 @@
   <solution>
     <p>
       Given: 
-     <m>m = 2.0\times10^{-3}\,kg;\quad q = 1.0\times10^{-5}\,C;</m> <m> \vec{v} = 3 \,m/s \hat{i}+ 4 \,m/s \hat{k};</m>
+     <m>m = 2.0\times10^{-3}\,kg;</m> 
+     <m>q = 1.0\times10^{-5}\,C;</m> 
+     <m> \vec{v} = 3 \,(m/s) \hat{i}+ 4 \,(m/s) \hat{k};</m>
      <m>\vec{B}= 100 \,T \hat{k}</m>
     </p>
     <p>
@@ -63,7 +65,9 @@
               <m>\vec{F}= -3.0\times10^{-3}N\hat{j}</m>
             </li>
             <li>
-             <m>a = 1.5\, m/s^{2}; \quad \hat{a}=-\hat{j}; \quad v_{\perp}= 3\,m/s</m>
+             <m>a = 1.5\,(m/s^{2});  </m>
+             <m>\quad \hat{a}=-\hat{j};</m>
+             <m>\quad v_{\perp}= 3\,(m/s)</m>
             </li>
             <li>
               <m>r = 6 \,m</m>
@@ -233,8 +237,152 @@
         </solution>
 </example>
 
-
-
 </paragraphs>
 
+
+<paragraphs>
+  <title>Mag. Force</title>
+  <example>
+    <statement>
+      <p>
+        The cube shown at below is 0.5 m on a side. The wire bent as shown carries a current of 0.2 A 
+        and the uniform magnetic field in the +x direction is 10 T. Find the magnitude and direction 
+        of the magnetic force on each segment of the wire.
+      </p>
+      <image source="fig46.png" width="35%"> </image>
+    </statement>
+    <solution>
+      <p>
+        Given:	<m>a = 0.5 \,m; \quad I = 0.2 \,A; \quad \vec{B}  = 10 \,T \hat{i} </m> 
+        <me>
+          \vec{F}=I\vec{l}\times\vec{B}
+        </me>
+         <me>
+          (ab) \quad \vec{l}=a\hat{k};
+         </me>
+           <me>
+            (bc) \quad \vec{l}=a\hat{i}-a\hat{k};
+           </me>
+           <me>
+            (cd) \quad \vec{l}=-a\hat{j};
+           </me>
+         <me>
+          (de) \quad \vec{l}=a\hat{j}+a\hat{k};
+         </me>
+         <me>
+          (ef) \quad \vec{l}=-a\hat{i}-a\hat{j}- a\hat{k}
+         </me>
+        </p> 
+        <p>
+          <ol marker="a.">
+            <li>
+              <me>
+                \text{Along (ab)} \quad \vec{F} = 1.00\,N \hat{j}; 
+               </me>
+            </li>
+            <li>
+              <me>
+                \text{Along (bc)}  \quad \vec{F} = 1.00\,N [-\hat{j}]
+               </me>
+            </li>
+            <li>
+              <me>
+                \text{Along (cd)}  \quad  \vec{F} = 1.00\,N \hat{k};
+              </me>
+            </li>
+            <li>
+              <me>
+                \text{Along (de)} \quad  \vec{F} = 1.41 \,N \left[\frac{\hat{j}-\hat{k}}{\sqrt{2}}\right]
+              </me>
+            </li>
+            <li>
+              <me>
+                \text{Along (ef)}\quad \vec{F} = 1.41 \,N \left[\frac{-\hat{j}+\hat{k}}{\sqrt{2}}\right] 
+              </me>
+            </li>
+          </ol>
+         </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A circular coil of wire 20 cm in diameter with 100 turns of wire is centered at 
+        the origin in the x/z plane as shown in the figure below. The coil contains a 
+        current of 100 mA in the direction shown and is located in a uniform magnetic 
+        field of magnitude 10 T pointing in the direction of <m>30^{o}</m> above the x-axis. 
+        <image source="fig47.png" width="35%"> </image>
+        <ol marker="a.">
+          <li>
+            What is the magnetic flux through the coil? 
+          </li>
+          <li>
+            What is the magnetic moment of the coil?
+          </li>
+          <li>
+            What is the magnetic torque on the coil? 
+          </li>
+          <li>
+            About what axis would the coil rotate if it were allowed to rotate freely?
+          </li>
+          <li>
+            What is the magnetic potential energy of the coil? 
+          </li>
+        </ol>
+         </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>r=0.1\,m;\quad N= 100; \quad I = 0.1\,A; \quad B=10\,T; \quad \theta=30^{o}</m>
+          <me>
+            \vec{B}=B\cos\theta\hat{i}+B\sin\theta\hat{j};
+          </me>
+          <me>
+            \vec{A}=\pi r^{2}\hat{j}
+          </me>
+          <me>
+            \Phi_{B}=\int \vec{B}\cdot\vec{dA}=\vec{B}\cdot\vec{A};
+          </me>
+          <me>
+            \vec{\mu}=NI\vec{A};
+          </me>
+          <me>
+            \vec{\tau}=\vec{\mu}\times\vec{B};
+          </me>
+          <me>
+            U = -\vec{\mu}\cdot\vec{B}
+          </me>
+           </p>
+      <p>
+        <ol marker="a.">
+          <li>
+           <me>
+            \Phi_{B}=\pi r^{2}B\sin\theta = 0.157 W_{b}
+           </me>
+           
+          </li>
+          <li>
+            <me>
+              \vec{\mu}=0.314 Am^{2}\hat{j} 
+            </me>
+            
+          </li>
+          <li>
+           <me>
+            \vec{\tau}= -2.72 Nm\hat{k} 
+           </me>
+           
+          </li>
+          <li>
+            z-axis 
+          </li>
+          <li>
+            U = -1.57 Joule.
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+</paragraphs>
 </section>

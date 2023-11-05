@@ -29,10 +29,10 @@
 
  
   <xi:include href="./sec_third-intro.ptx" />
-
+  <xi:include href="./sec_third-Aforce.ptx" />
 <xi:include href="./sec_third-examplesA.ptx" />  
 
-
+<xi:include href="./sec_third-magF.ptx" />
  
   <xi:include href="./ex_third.ptx"/> 
 

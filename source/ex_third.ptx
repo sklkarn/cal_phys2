@@ -67,7 +67,251 @@
      </p>
 </exercise>
 
+<exercise>
+  <p>
+    A small particle of mass 2 g and charge <m> 10 \,\mu C</m> is passes through the origin with 
+    a velocity of <m>2 \,m/s</m> in the +x direction into a uniform magnetic field parallel 
+    to the z-axis and a uniform gravitational field of 1 gauss in the -y direction. 
+    <ol marker="a.">
+      <li>
+        If there is no electrical field and the particle continues moving in a straight line at constant speed, 
+        what is the magnetic force on the particle?
+      </li>
+      <li>
+        What is the magnitude and direction of the magnetic field? 
+      </li>
+      <li>
+        If the particle attained its speed by sliding down a ramp before entering the magnetic field, 
+        what was the height of the ramp? 
+      </li>
+    </ol>
+     </p>
+</exercise>
 
+<exercise>
+  <p>
+    A electron cyclotron has a frequency of <m>2.4 \,MH_{z}</m> and an orbital radius of 1 m. 
+    <ol marker="a.">
+      <li>
+        What is its magnetic field strength?
+      </li>
+      <li>
+        What is the speed of the electron? 
+      </li>
+      <li>
+        What was the voltage on the electron gun which projected the electron into the cyclotron?
+      </li>
+    </ol>
+     </p>
+     <hint>
+      <p>
+        <m>m_{e} = 9.11\times10^{-31} \,kg, \quad e = 1.6\times10^{-19} \,C.</m>
+      </p>
+     </hint>
+</exercise>
+
+<exercise>
+  <p>
+    Each of the lettered points at the corners of the cube in the figure below represents 
+    a positive charge q moving with a velocity v in the direction indicated. 
+    There is a uniform magnetic field B in the +x direction as shown. Find the magnitude 
+    and direction of the magnetic force on each charge.
+  </p>
+  <image source="fig44.png" width="35%"> </image>
+</exercise>
+
+<exercise>
+  <p>
+    The magnetic field in the figure below is 
+    <image source="fig45.png" width="35%"> </image>
+    <me>
+      \vec{B} = 5 \,T \hat{i}.
+    </me>
+    <ol marker="a.">
+      <li>
+        What is the magnetic flux across the surface abcd? 
+      </li>
+      <li>
+        Through cdef?
+      </li>
+      <li>
+        Through abfe?
+      </li>
+      <li>
+        Through all five surfaces enclosing the volume?
+      </li>
+    </ol>
+      </p>
+    </exercise>
+
+<exercise>
+  <p>
+    An alpha particle (nucleus of a helium atom) has a speed of <m>3\times10^{6} \,m/s</m> 
+    and moves in a circle of radius 10 cm in the x/y-plane due to a uniform magnetic field. 
+      <ol marker="a.">
+      <li>
+        What is the magnitude and direction of the magnetic field? 
+      </li>
+      <li>
+        What is the cyclotron frequency of the alpha particle?
+      </li>
+      <li>
+        Through what potential difference was it accelerated? 
+      </li>
+      <li>
+        What is its energy in units of electron-volts? 
+      </li>
+    </ol>
+    </p>
+</exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Mag. Force</title>
+  <exercise>
+    <p>
+      A wire 2 m long lies along the y-axis and carries a current of 2 A in the +y direction. 
+      What is the magnitude and direction of the magnetic force on the wire if it lies in a 
+      uniform magnetic field of 
+      <ol marker="a.">
+        <li>
+          <m>\vec{B} = 1 \,T \hat{i},</m>
+        </li>
+        <li>
+         <m>\vec{B} = - 2 \,T \hat{j},</m>
+        </li>
+        <li>
+         <m> \vec{B} =  2 \,T \hat{j}+ 3 \,T \hat{k},  </m>
+        </li>
+        <li>
+         <m>\vec{B} = 1 \,T \hat{i}- 2\, T \hat{j}+ 3 \,T \hat{k},</m>
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An electromagnetic rail gun consists of two parallel conducting rails of length 
+      X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance 
+      <m>10\Omega </m> as shown in the figure below. A constant electrical potential 
+      V = 100 V is maintained between the rails and a constant magnetic field B = 10 T 
+      is maintained between them. 
+      <image source="fig48.png" width="35%"> </image>
+      <ol marker="a.">
+        <li>
+          What is the magnitude and direction of the current in the sliding bar? 
+        </li>
+        <li>
+          What is the magnitude and direction of the magnetic force on the sliding bar?
+        </li>
+        <li>
+          Neglecting friction, what is the acceleration of the bar?
+        </li>
+        <li>
+          Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?
+        </li>
+        <li>
+          What is the kinetic energy of the bar when it leaves the rail gun?
+        </li>
+        <li>
+          How long a time is the bar being accelerated? 
+        </li>
+        <li>
+          How much electrical energy is supplied by the battery during this time interval? 
+        </li>
+        <li>
+          Why aren't answers g and e the same?
+        </li>
+      </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. 
+      A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position 
+      until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, 
+      the current through the wire is 2 A, the deflection angle is <m>30^{o},</m> and the magnetic 
+      field strength is 0.1 T, find 
+      <image source="fig49.png" width="35%"> </image>
+      <ol marker="a.">
+        <li>
+          the magnetic moment of the loop, 
+        </li>
+        <li>
+          the magnetic torque on the loop when it is vertical,
+        </li>
+        <li>
+          the magnetic torque on the loop when it is tilted,
+        </li>
+        <li>
+          the mass of the loop, and
+        </li>
+        <li>
+          the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. 
+      The wire wrapped around it makes  1000 turns and has a resistance of <m>100 \,\Omega</m>. 
+      The permanent magnets in the motor create a uniform magnetic field of 1000 G 
+      and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find 
+      <ol marker="a.">
+        <li>
+          the current in the wire,
+        </li>
+        <li>
+          the magnetic moment of the solenoid, 
+        </li>
+        <li>
+          the magnetic potential energy when the magnetic moment is opposite the field, 
+        </li>
+        <li>
+          the change in magnetic potential energy for each half rotation,
+        </li>
+        <li>
+          the magnetic power delivered by the motor,
+        </li>
+        <li>
+          the electrical power delivered by the battery, 
+        </li>
+        <li>
+          the electrical power dissipated by the resistor in the form of heat. 
+        </li>
+        <li>
+          Which of these answers would change if the motor rotated faster? 
+        </li>
+        <li>
+          Are your answers consistent with the law of conservation of energy? Explain.
+        </li>
+      </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A proton of mass <m>1.67\times10^{-27} \,kg</m> and charge <m>1.6\times10^{-19} \,C</m> is moving in the 
+      +x direction with a constant speed of 104 m/s in a region of space containing a constant electric 
+      field and a constant magnetic field. If the magnetic field is 10 T in the +y direction, 
+      <ol marker="a.">
+        <li>
+          what is the magnitude and direction of the electric field that will keep the 
+          particle moving in a straight line at constant speed? 
+        </li>
+        <li>
+          Describe the subsequent motion of the particle if the electric field is suddenly turned off.
+        </li>
+        <li>
+          What is the maximum distance the proton would deviate from its initial position when the electric field is turned off? 
+        </li>
+      </ol>
+        </p>
+  </exercise>
 </paragraphs>
  </exercises>
 
