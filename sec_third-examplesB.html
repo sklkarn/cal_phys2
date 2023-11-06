@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Examples B</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="General Physics II">
+<meta property="book:author" content="Sunil Karna">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.98,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="calPhysII.html"><span class="title">General Physics II:</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-mag_parallelcond.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_third.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_third-elmag.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\T}{\mathcal T}
+\newcommand\comb[2]{^{#1}C{_{#2}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth3"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Electrostatics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Electrostatic Induction</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-charg_transf.html" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Methods of Transferring Charges:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-charg_transf.html#subsubsec-electroscope" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Electrophorus:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-charg_transf.html#subsubsec-electrscp" class="internal"><span class="codenumber">1.1.1.2</span> <span class="title">Electroscope:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-coulmb_law.html" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Coulumb’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-coulmb_law.html#subsubsec-1d_colmb" class="internal"><span class="codenumber">1.1.2.1</span> <span class="title">Coulumb’s Law in One Dimension</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-coulmb_law.html#subsubsec-2d_colmb" class="internal"><span class="codenumber">1.1.2.2</span> <span class="title">Coulomb’s Law in Two and Three Dimensions</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-superp_th.html" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Principle of Superposition</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_first-el_field.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Electric Field</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-chrg_dist.html" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Electric Field of a Continuous Charge Distribution</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesA.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_first-flux.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Electric Flux</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-gauss.html" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Gauss’s Law</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-gauss.html#subsubsec-appl_gauss" class="internal"><span class="codenumber">1.4.1.1</span> <span class="title">Applications of Gauss’s Law</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-sph_symmtr.html" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Cases of spherical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-point_chrg" class="internal"><span class="codenumber">1.4.2.1</span> <span class="title">Electric field due to a point charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-sph_chrg" class="internal"><span class="codenumber">1.4.2.2</span> <span class="title">Electric field due to a  spherical symmetric charged distribution</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-hsph_chrg" class="internal"><span class="codenumber">1.4.2.3</span> <span class="title">Electric field due to a uniformly charged non-conducting hollow sphere</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-cyl_symtr.html" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Cases of cylindrical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_wire" class="internal"><span class="codenumber">1.4.3.1</span> <span class="title">Electric field due to infinitely long charged conductor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_cyl" class="internal"><span class="codenumber">1.4.3.2</span> <span class="title">Electric field due to a uniform infinite cylindrical charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-chrgd_sheet" class="internal"><span class="codenumber">1.4.3.3</span> <span class="title">Electric field due to infinite sheet of charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-out_cond" class="internal"><span class="codenumber">1.4.3.4</span> <span class="title">Electric field just outside a charged conductor</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesB.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstA.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercise A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_first-pot.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Electric Potential</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-capctrs.html" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Capacitors</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-cap_comb" class="internal"><span class="codenumber">1.7.1.1</span> <span class="title">Combination of Capacitors</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-paralle_cap" class="internal"><span class="codenumber">1.7.1.2</span> <span class="title">Parallel-Plate Capacitor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-spher_cap" class="internal"><span class="codenumber">1.7.1.3</span> <span class="title">Spherical Capacitor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-cyl_cap" class="internal"><span class="codenumber">1.7.1.4</span> <span class="title">Cylindrical Capacitor</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-enrgy_cap.html" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Energy Stored in a Capacitor</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-enrgy_cap.html#subsubsec-elf_enrgdenst" class="internal"><span class="codenumber">1.7.2.1</span> <span class="title">Electric Field Energy Density</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-cap_enrgloss.html" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Loss of Energy in Combining two Capacitors</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesC.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstB.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Exercise B</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Electricity</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Conduction Mechanism of Current in a Metal</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-ohm_law.html" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Ohm’s Law:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-restvty" class="internal"><span class="codenumber">2.1.1.1</span> <span class="title">Resistivity or Specific Resistance, <span class="process-math">\(\rho\text{:}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-temp_restvty" class="internal"><span class="codenumber">2.1.1.2</span> <span class="title">Temperature Coefficient of Resistivity</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-el_power" class="internal"><span class="codenumber">2.1.1.3</span> <span class="title">Electrical Power:</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_second-elcircuits.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Electrical Circuits</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-emf.html" class="internal"><span class="codenumber">2.3.1</span> <span class="title">A summary on internal resistance, emf, and terminal potential difference:</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-res_circt.html" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Resistance Circuits:</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-res_circt.html#subsubsec-res_comb" class="internal"><span class="codenumber">2.3.2.1</span> <span class="title">Combination of Resistances</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-maxptr.html" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Maximum Power Transfer Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-el_instrmnt.html" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Electrical Instruments:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_second-kirchhf.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Kirchhoff’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cir_anals.html" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Analysis of DC Electric Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-wheat_stone.html" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Wheat-Stone’s Bridge Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-chrg_dischrg.html" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Charging and Discharging of a Capacitor</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Magnetism</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Magnetic Field</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-mag_mater.html" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Magnetic Materials</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-ferro" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Ferromagnetic Material:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-para" class="internal"><span class="codenumber">3.1.1.2</span> <span class="title">Paramagnetic Material:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-dia" class="internal"><span class="codenumber">3.1.1.3</span> <span class="title">Diamagnetic Material:</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-geo_mag.html" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Geomagnetism</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_force.html" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Magnetic Force on a Moving Charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lorentz.html" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Electromagnetic Force on a Moving Charge (or Lorentz Force)</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-mag_flux.html" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Magnetic Flux, <span class="process-math">\(\Phi_{B}\)</span></span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-gauss_mag" class="internal"><span class="codenumber">3.1.5.1</span> <span class="title">Gauss’s Law for Magnetism</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-vel_select" class="internal"><span class="codenumber">3.1.5.2</span> <span class="title">Velocity Selector</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-cyclotron" class="internal"><span class="codenumber">3.1.5.3</span> <span class="title">Cyclotron Frequency</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-masspect" class="internal"><span class="codenumber">3.1.5.4</span> <span class="title">Mass Spectrometer</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-Hall_effect" class="internal"><span class="codenumber">3.1.5.5</span> <span class="title">Hall Effect</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_third-Aforce.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Magnetic Forces on Currents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-ilb.html" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Magnetic Force on a Current Element</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-IA.html" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Magnetic Dipole Moment of a Current Loop</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-IA.html#subsubsec-solenoid" class="internal"><span class="codenumber">3.2.2.1</span> <span class="title">Solenoid</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-mag_torq.html" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Magnetic Torque on a Current Loop</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_potE.html" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Potential Energy of Magnetic Dipole</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-magS.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Sources of Magnetic Fields</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-magfld_movcharge.html" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Magnetic Field of a Moving Charge:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-free_permblt" class="internal"><span class="codenumber">3.4.1.1</span> <span class="title">Permeability of Free Space, <span class="process-math">\(\mu_{o}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-biot_savrt" class="internal"><span class="codenumber">3.4.1.2</span> <span class="title">Magnetic Field of a Current Element (Biot Savart Law)</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-stwire_magf" class="internal"><span class="codenumber">3.4.1.3</span> <span class="title">Magnetic Field of a straight wire</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-magcrnt_loop" class="internal"><span class="codenumber">3.4.1.4</span> <span class="title">Magnetic field due to a current loop</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-helmholtz" class="internal"><span class="codenumber">3.4.1.5</span> <span class="title">Magnetic field at the center of a Helmholtz coil</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-solenoid_curnt" class="internal"><span class="codenumber">3.4.1.6</span> <span class="title">Magnetic field at a point due to current carrying solenoid</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_third-ampre.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Amper’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_longcond.html" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Magnetic field  due to infinitely long current carrying  conductor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_sheetcond.html" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Magnetic field  due to infinitely long current carrying flat sheet</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_solnd.html" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Magnetic field at a point due to infinitely long solenoid</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_toroid.html" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Magnetic field at a point due to toroid</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_parallelcond.html" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Magnetic Force between Parallel Wires</span></a></div></li>
+</ul>
+</li>
+<li class="active"><div class="toc-item"><a href="sec_third-examplesB.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Examples B</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-elmag.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Electromagnetic Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-faraday.html" class="internal"><span class="codenumber">3.7.1</span> <span class="title">Faraday’s Law</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lenz.html" class="internal"><span class="codenumber">3.7.2</span> <span class="title">Lenz’s Law</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-motional_emf.html" class="internal"><span class="codenumber">3.7.3</span> <span class="title">Motional Electromotive Force</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-induced_elf.html" class="internal"><span class="codenumber">3.7.4</span> <span class="title">Induced Electric Fields</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-eddy" class="internal"><span class="codenumber">3.7.4.1</span> <span class="title">Eddy Currents</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-genertr" class="internal"><span class="codenumber">3.7.4.2</span> <span class="title">Generator</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-skineffect" class="internal"><span class="codenumber">3.7.4.3</span> <span class="title">Skin Effect</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-supercond" class="internal"><span class="codenumber">3.7.4.4</span> <span class="title">Superconductivity</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesC.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_third.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Waves and Acoustics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Optics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Algebra of Vectors</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesC.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_third-examplesB"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">3.6</span> <span class="title">Examples B</span>
+</h2>
+<section class="paragraphs" id="paragraphs-22"><h2 class="heading"><span class="title">Mag. Sources.</span></h2> <article class="example example-like" id="example-47"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.1</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-472">
+<div class="para">Two protons move together in the +x direction separated vertically by a distance r = 1 mm. If their speed is <span class="process-math">\(v = 1.00\times 10^{7} \,m/s,\)</span> find</div>
+<ol class="lower-alpha">
+<li id="li-511"><div class="para" id="p-derived-li-511">the electrical force between them (is it attractive or repulsive),</div></li>
+<li id="li-512"><div class="para" id="p-derived-li-512">the magnetic force between them (is it attractive or repulsive),</div></li>
+<li id="li-513"><div class="para" id="p-derived-li-513">the total electromagnetic force between them (is it attractive or repulsive), and</div></li>
+<li id="li-514"><div class="para" id="p-derived-li-514">the ratio of electrical force to magnetic force. What do these answers become if v = 100 m/s?</div></li>
+</ol>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig50.png" class="contained"></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-47" id="solution-47"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-47"><div class="solution solution-like">
+<div class="para" id="p-473">Given:	<span class="process-math">\(r  =  1.00\times10^{-3} m;\)</span> <span class="process-math">\(q = e = +1.6\times10^{-19} \,C; \)</span> <span class="process-math">\(m = 1.673\times10^{-27} \,kg; \)</span> <span class="process-math">\(\epsilon_{o} = 8.85\times10^{-12} \,C^{2}/N.m^{2} ;\)</span> <span class="process-math">\(\mu_{o} = 1.257\times10^{-6} \,W_{b}/A.m.\)</span>
+</div> <div class="para logical" id="p-474">
+<div class="para">For <span class="process-math">\(v=1.00\times10^{7} \,m/s\)</span>
+</div>
+<ol class="lower-alpha">
+<li id="li-515"><div class="para" id="p-derived-li-515">
+<div class="displaymath process-math">
+\begin{equation*}
+E=kq/r^{2}=1.439\times10^{-3} \,N/C;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F_{E}=qE=2.302\times10^{-22} \,N, \quad repulsive
+\end{equation*}
+</div>
+</div></li>
+<li id="li-516"><div class="para" id="p-derived-li-516">
+<div class="displaymath process-math">
+\begin{equation*}
+B=\frac{\mu_{o}}{4\pi}\frac{qv}{r^{2}} =1.6\times10^{-13} \,N/Am;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F_{B}=qv B = 2.56\times10^{-25}\,N, \quad attractive
+\end{equation*}
+</div>
+</div></li>
+<li id="li-517"><div class="para" id="p-derived-li-517"><div class="displaymath process-math">
+\begin{equation*}
+F=F_{E}-F_{B}=2.299\times10^{-22}\,N, \quad repulsive;
+\end{equation*}
+</div></div></li>
+<li id="li-518"><div class="para" id="p-derived-li-518"><div class="displaymath process-math">
+\begin{equation*}
+R=\frac{F_{E}}{F_{B}}=899;
+\end{equation*}
+</div></div></li>
+</ol>
+</div> <div class="para logical" id="p-475">
+<div class="para">For <span class="process-math">\(v=1.00\times10^{2} \,m/s\)</span>
+</div>
+<ol class="lower-alpha">
+<li id="li-519"><div class="para" id="p-derived-li-519"><div class="displaymath process-math">
+\begin{equation*}
+F_{E}=2.302\times10^{-22}\,N,\quad repulsive 
+\end{equation*}
+</div></div></li>
+<li id="li-520"><div class="para" id="p-derived-li-520">
+<div class="displaymath process-math">
+\begin{equation*}
+B=  1.6\times10^{-18}\, N/Am, 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F_{B}=2.56\times10^{-34}\,N, \quad attractive
+\end{equation*}
+</div>
+</div></li>
+<li id="li-521"><div class="para" id="p-derived-li-521"><div class="displaymath process-math">
+\begin{equation*}
+F=2.302\times10^{-22}\,N,\quad repulsive
+\end{equation*}
+</div></div></li>
+<li id="li-522"><div class="para" id="p-derived-li-522"><div class="displaymath process-math">
+\begin{equation*}
+R = 8.99\times10^{11}.
+\end{equation*}
+</div></div></li>
+</ol>
+</div>
+</div></div>
+</div></article> <article class="example example-like" id="example-48"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-476">A rectangular wire loop of width W = 10 cm and length L = 20 cm has a counter-clockwise current I = 2 A. What is the magnitude and direction of the magnetic field at the central point.</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig52.png" class="contained"></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-48" id="solution-48"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-48"><div class="solution solution-like">
+<div class="para" id="p-477">Given: <span class="process-math">\(W=0.1\,m, \quad L= 0.2\,m, \quad I = 2\,A \)</span>
+</div> <div class="para logical" id="p-478">
+<div class="displaymath process-math">
+\begin{equation*}
+B= B_{ab}+B_{bc}+B_{cd}+B_{da} = 2B_{ab} + 2B_{bc}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B_{ab} = \frac{\mu_{o}I}{4\pi}\frac{2a}{x\sqrt{(x^{2}+a^{2})}}; \quad a=W/2, \quad x=L/2 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B_{bc} = \frac{\mu_{o}I}{4\pi}\frac{2a}{x\sqrt{(x^{2}+a^{2})}}; \quad a=L/2,\quad x=W/2
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-479">
+<div class="displaymath process-math">
+\begin{equation*}
+B= \frac{\mu_{o}I}{\pi W}\sqrt{5} = 1.79\times10^{-5}\,T
+\end{equation*}
+</div>
+<div class="para">From the right hand rule, <span class="process-math">\(\vec{B}\)</span> is out of the paper.</div>
+</div>
+</div></div>
+</div></article></section><section class="paragraphs" id="paragraphs-23"><h2 class="heading"><span class="title">Ampere’s Law.</span></h2> <article class="example example-like" id="example-49"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-480">A long straight vertical wire carries an upward current of <span class="process-math">\(I_{1} = 10 \,A.\)</span> A rectangular coil of wire is located near the vertical wire as shown in the figure below. If a = 10 cm, b = 30 cm, c = 50 cm, and <span class="process-math">\(I_2 = 5 \,A\text{,}\)</span> what is the net force on the rectangular coil due to the magnetic field of the straight line?</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-49" id="solution-49"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-49"><div class="solution solution-like">
+<div class="para" id="p-481">Given:	<span class="process-math">\(I_{1} = 10 \,A; \quad a= 0.1 \,m; b=0.3\,m;\)</span> <span class="process-math">\(c=0.5\,m; I_{2} = 5 \,A.\)</span>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig54.png" class="contained"></div> <div class="para logical" id="p-482">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\vec{F_{a}}}{c}	 = \frac{\mu_{o}I_{1}I_{2} }{2\pi a}\hat{i}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\vec{F_{b}}}{c}	 = \frac{\mu_{o}I_{1}I_{2} }{2\pi b}[-\hat{i}]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{F_{top}}=-\vec{F_{bottom}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{F}=\vec{F_{a}}+ \vec{F_{b}}+\vec{F_{top}} + \vec{F_{bottom}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{F} = \frac{\mu_{o}I_{1}I_{2}c }{2\pi}\left(\frac{1}{a}-\frac{1}{b}\right)\hat{i}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{F}  = 3.33\times10^{-5} N \hat{i}
+\end{equation*}
+</div>
+</div>
+</div></div>
+</div></article> <article class="example example-like" id="example-50"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-483">Derive the magnetic field at a distance r from a long straight wire carrying current I using Ampere’s Law.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-50" id="solution-50"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-50"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig55.png" class="contained"></div> <div class="para logical" id="p-484">
+<div class="para">Pick a circle centered on the wire and perpendicular to the wire. Due to the right hand rule, the magnetic field must be tangent to the circle at every point. Therefore, the dot product</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{B}\cdot\vec{dl}   = B dl.
+\end{equation*}
+</div>
+<div class="para">Due to symmetry, B must have the same magnitude at every point, so B is constant and Ampere’s Law becomes:</div>
+</div> <div class="para logical" id="p-485">
+<div class="displaymath process-math">
+\begin{equation*}
+\oint \vec{B}\cdot\vec{dl}   = \mu_{o}I 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B\oint\,dl = B(2\pi r) = \mu_{o}I 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B=\frac{\mu_{o}I }{2\pi r}
+\end{equation*}
+</div>
+</div>
+</div></div>
+</div></article> <article class="example example-like" id="example-51"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-486">
+<div class="para">Find the magnetic field</div>
+<ol class="decimal">
+<li id="li-523"><div class="para" id="p-derived-li-523">inside and</div></li>
+<li id="li-524"><div class="para" id="p-derived-li-524">outside a tightly wound toroid of N turns.</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-51" id="solution-51"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-51"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig56a.png" class="contained"></div> <div class="para" id="p-487">The figure above shows a cross section of the toroid showing the wires carrying the current coming out of the paper on the outside of the toroid and into the paper inside the toroid. Taking the path of the line integral in Ampere’s law clockwise around a circle centered on the toroid produces a symmetry that makes the magnetic field <span class="process-math">\(\vec{B}\)</span> constant in magnitude and everywhere parallel to the path so:</div> <div class="para logical" id="p-488"><ol class="decimal">
+<li id="li-525"><div class="para" id="p-derived-li-525">
+<div class="displaymath process-math">
+\begin{equation*}
+\oint \vec{B}\cdot\vec{dl}   = \mu_{o}I
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B\oint dl  = B(2\pi r) =\mu_{o}NI
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B = \frac{\mu_{o}NI}{2\pi r} \quad \text{inside toroid}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-526"><div class="para" id="p-derived-li-526">
+<div class="displaymath process-math">
+\begin{equation*}
+\oint \vec{B}\cdot\vec{dl} = \mu_{o}I 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, B = 0 \quad \text{outside toroid} 
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-52"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.6</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-489">Two long straight wires, suspended from a common point by a length L of string, are directed into and out of the paper carrying equal but opposite currents as shown in the figure below. If the length of the string is L = 1 m, the mass per unit length of the wire is <span class="process-math">\(\mu = 1 \,g/m,\)</span> and the angle each makes with the vertical is <span class="process-math">\(\theta = 10^{o},\)</span> find I, the current in each wire.</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig57.png" class="contained"></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-52" id="solution-52"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-52"><div class="solution solution-like">
+<div class="para" id="p-490">Given: Length of the strings  L=1 m, mass per unit length <span class="process-math">\(\mu=\frac{mass}{length}=1\,g/m=0.001\,kg/m,\)</span> <span class="process-math">\(\theta=10^{o},\)</span> and <span class="process-math">\(I_{1}=I_{2}=I=?\)</span>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig57b.png" class="contained"></div> <div class="para logical" id="p-491">
+<div class="para">Force experienced by a current wire in an external magnetic field is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+F=IlB 
+\end{equation*}
+</div>
+<div class="para">here, l is length of the wire.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+B=\frac{\mu_{o}I}{2\pi r}
+\end{equation*}
+</div>
+<div class="para">r is the seperation between the wires.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+\therefore\quad F_{1}= \frac{I_{1}l_{1}\mu_{o}I_{2}}{2\pi r}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html" id="eqn-ampr1">
+\begin{equation}
+\frac{F_{1}}{l_{1}} = \frac{\mu_{o}I_{1}I_{2}}{2\pi r}  \tag{3.6.1}
+\end{equation}
+</div>
+<div class="para">From figure</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+T\cos\theta=mg = \mu l \,g
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html" id="eqn-ampr2">
+\begin{equation}
+\text{or,}\quad T=\frac{\mu l g}{\cos\theta} \tag{3.6.2}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+\text{also,}\quad \sin\theta=\frac{r/2}{L} = \frac{r}{2L}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html" id="eqn-ampr3">
+\begin{equation}
+\text{or,}\quad r=2L\sin\theta  \tag{3.6.3}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+\text{also,}\quad F_{1}=F_{2} = T\sin\theta
+\end{equation*}
+</div>
+<div class="para">Therefore from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-ampr1.html" title="Equation 3.6.1">(3.6.1)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+\frac{F_{1}}{l_{1}} =\frac{T\sin\theta}{l_{1}} =\frac{\mu_{o}I_{1}I_{2}}{2\pi r }
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+\text{or,}\quad \frac{\mu l g \sin\theta}{l\cos\theta}=\frac{\mu_{o}I^{2}}{2\pi 2\sin\theta }
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because I_{1}=I_{2}=I]\)</span></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+\text{or,}\quad I^{2}= \frac{\mu \,g \tan\theta \sin\theta 4\pi}{\mu_{o}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ampr1.html">
+\begin{equation*}
+= \frac{4\pi\times 0.001\times9.8\times\tan10^{o}\sin10^{o}}{4\pi\times10^{-7}} = 54.77 \,A
+\end{equation*}
+</div>
+</div>
+</div></div>
+</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="subsec-mag_parallelcond.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_third-elmag.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
