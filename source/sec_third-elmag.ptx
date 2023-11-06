@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-elmag" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Electromagnetic Induction</title>
+  
+<introduction>
+  <p>
+    Orsted discovered that electric currents can 
+   produce magnetic fields. Faraday discovered that magnetic fields can be used 
+   to induce electric currents. It has been seen from experiments that whenever 
+   there is a change in magnetic flux linked with the closed circuit, am emf (or current) 
+   is induced in the circuit and lasts as long as this change happen. This phenomenon 
+   is known as <term>electromagnetic induction</term>. 
+   The magnetic flux through a circuit may be changed in the following ways: 
+   <ol marker="i.">
+    <li>
+      by relative motion between a magnet and the circuit,
+    </li>
+    <li>
+      by changing current in the same circuit,
+    </li>
+    <li>
+      by changing current in the neighbouring circuit, and 
+    </li>
+    <li>
+      by rotating a coil in a magnetic field.
+    </li>
+   </ol>
+  </p>
+  <p>
+    <term>Electromagnetic induction</term> is a process of producing an emf across the conductor 
+    by making a relative motion between the conductor and magnetic field. In other word, 
+    producing an emf across the conductor by placing a conductor in a changing magnetic 
+    field or moving a conductor through a stationary magnetic field. This process causes 
+    an electrical current in a conductor known as <term>induced current</term>.
+  </p>
+  <p>
+    A moving electrical charge also generates a magnetic field just as changing magnetic 
+    field induces current in a conductor. In fact, a traditional magnet is the result of 
+    the individual motion of the electrons within the individual atoms of the magnet, 
+    aligned so that the generated magnetic field is in a uniform direction as shown in 
+    <xref ref="barmagloop"/>. (In non-magnetic materials, the electrons move in such a way that the 
+    individual magnetic fields point in different directions, so they cancel each other 
+    out and the net magnetic field generated is negligible.)
+  </p>
+  <p>
+    <term>Induced emf:</term> It is a voltage produced in a coil because of the changing magnetic 
+    flux through a coil. An EMF can be induced in two ways, i.e., when an electric conductor is 
+    kept in a moving magnetic field or when the electric conductor is constantly moving within a 
+    static magnetic field.
+  </p>
+ </introduction>
+
+<subsection xml:id="subsec-faraday">
+  <title>Faraday's Law</title>
+  <p>
+    If the magnetic field changes, or if the magnet and coil are in relative motion, 
+    there will be an induced emf (and therefore current) in the coil. The instantaneous 
+    EMF (voltage) induced in a circuit is proportional to the rate of change of magnetic 
+    flux through the circuit. If <m>\Phi</m> is magnetic flux linked with the circuit at 
+    any instant of time and <m>\varepsilon</m> is an induced emf, then 
+    <me>
+      \varepsilon \propto \frac{\,d\Phi}{\,dt}.
+    </me>
+    The direction of induced emf is such that it opposes the change in flux which produces it. Hence, 
+    <me>
+      \varepsilon = - \frac{\,d\Phi}{\,dt}.
+    </me>
+    The minus sign indicates the direction of the induced emf. If there are N number of 
+    turns in current loops, then 
+    <me>
+      \varepsilon = - N \frac{\,d\Phi}{\,dt}.
+    </me>
+     When the magnetic flux inside a closed loop of wire (coil) changes, emf is induced in the wire, 
+     <me>
+      |emf| = \frac{\phi_{f}-\phi_{i}}{t_{f}-ti_{i}} 
+     </me>
+     <ol marker="i.">
+      <li>
+        The induced emf generates a current in the wire, <m>I=\frac{emf}{R}</m>
+      </li>
+      <li>
+        The direction of the current is determined by the Lenz's law.
+      </li>
+     </ol>
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-lenz">
+  <title>Lenz's Law</title>
+  <p>
+    An induced current always flows in a direction that opposes the change that caused it. 
+    In other word, -ve sign in Faraday's law is Lenz's contribution. The changing magnetic 
+    flux generates an emf according to Faraday, the polarity of this emf is such that it 
+    induces the current in a circuit whose magnetic field opposes the change which produces it, according to Lenz.
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="25% 25% 25% 25%">
+      <figure xml:id="lenzb">
+        <caption></caption>
+        <image source="lenzb.png"/>
+    </figure>
+        <figure xml:id="lenzc">
+            <caption></caption>
+            <image source="lenzc.png"/>
+        </figure>
+        <figure xml:id="lenzd">
+          <caption></caption>
+          <image source="lenzd.png"/>
+      </figure>
+      <figure xml:id="lenze">
+        <caption></caption>
+        <image source="lenze.png"/>
+    </figure>
+       </sidebyside>
+  </figure>
+  <p>
+    Suppose a bar magnet is moving towards a coil, then an emf is induced in the coil and 
+    current starts flowing in a circuit (coil). The direction of this induced current will 
+    be such that it opposes the motion of the magnet towards the coil. 
+  </p>
+  <p>
+     The induced emf resulting from a changing magnetic flux has a polarity that leads to 
+     an induced current whose direction is such that the induced magnetic field opposes the original flux change.
+<ol>
+  <li>
+    When the magnetic flux is increasing, a magnetic field opposing to the increasing field is generated by induced current.
+  </li>
+  <li>
+    When the magnetic flux is decreasing, a magnetic field in the same direction as the decreasing 
+    field is generated by the induced current.
+  </li>
+</ol>
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-motional_emf">
+  <title>Motional Electromotive Force</title>
+  <p>
+    An emf will also be produced if a conductor moves through a magnetic field. 
+    The emf comes from the motion of charges, which are free to move in the conductor. 
+    If a rod is moving in a magnetic field positive charges collected at on edge 
+    of the conductor and negative charge at the opposite edge. 
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-induced_elf">
+  <title>Induced Electric Fields</title>
+  <introduction>
+    <p>
+    
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-eddy">
+    <title>Eddy Currents</title>
+    <p>
+      When a conductor is moved in a magnetic field, there is a force on the electrons, 
+      which then move in the metal. This movement is called an eddy current. 
+      The induced currents produce magnetic fields which tend to oppose the motion 
+      of the metal. An eddy current is a swirling current set up in a conductor in 
+      response to a changing magnetic field. According to Lenz's law the current 
+      swirls in the conductor in such a way that it opposes the changing magnetic 
+      field. To do so in a conductor, electrons swirl in a plane perpendicular 
+      to the magnetic field. As the metal enters into the magnetic field, flux 
+      starts increasing so to oppose this flux electrons of metal make loop in 
+      such a way that the induced current has magnetic field opposing the increase. 
+      As the metal plate begins leaving the magnetic field current loops on metal 
+      surface just in opposite direction to the previous loops as shown in <xref ref="eddy"/>.
+    </p>
+    <figure xml:id="eddy">
+      <caption></caption>
+      <image source="eddy.png" width="30%"/>
+  </figure>
+    <p>
+      Because of the tendency to oppose, eddy currents cause energy to be lost. 
+      Due to eddy currents kinetic energy transforms into heat energy. One of the 
+      practical applications of eddy currents is <term>magnetic braking</term>. 
+      During braking, the metal wheels are exposed to a magnetic field from an 
+      electromagnet, generating eddy currents in the wheels. The magnetic interaction 
+      between the applied field and the eddy currents acts to slow the wheels down. 
+      The faster the wheels are spinning, the stronger the effect, meaning that as 
+      the train slows the braking force is reduced, producing a smooth stopping motion. 
+    </p>
+    <p>
+      French physicist Leon Foucault in 1855 discovered eddy currents. 
+      He found that the force needed to rotate a copper disk when its rim 
+      is placed between the poles of a magnet, such as a horseshoe magnet, 
+      increases and the disk is heated by the induced eddy currents.
+    </p>
+    <p>
+      The heating effect originates from the transformation of electric energy into 
+      heat energy and is used in induction heating devices, like some cookers and welders. 
+      The resistance felt by the eddy currents in a conductor causes Joule heating and 
+      he amount of heat generated is proportional to the current squared. However, 
+      for applications like motors, generators and transformers, this heat is considered 
+      wasted energy and as such, eddy currents need to be minimized. This can be achieved by 
+      laminating the metal cores of these devices, where each core is made up of multiple 
+      insulated sheets of metal. This splits the core in many individual magnetic circuits 
+      and restricts the flow of the eddy currents through it, reducing the amount of heat 
+      generated through Joule heating.
+    </p>
+    <p>
+      Eddy currents can also be removed by cracks or slits in the conductor, 
+      which break the circuit and prevent the current loops from circulating. 
+      This means that eddy currents can be used to detect defects in materials. 
+      This is called nondestructive testing and is often used in airplanes. 
+      The magnetic field produced by the eddy currents is measured, where a 
+      change in the field reveals the presence of an irregularity; a defect 
+      will reduce the size of the eddy current, which in turn reduces the 
+       magnetic field strength.
+      </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-genertr">
+    <title>Generator</title>
+    <p>
+      A generator is a device that converts mechanical energy to electrical energy. 
+      As Faraday's law holds good for any shape of conductor moving in a magnetic field, 
+      this principle can be used to design electric dynamo or generator where a 
+      loop is rataing in a magnetic field.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="35% 35%">
+        <figure xml:id="generator">
+          <caption></caption>
+          <image source="generator.png"/>
+      </figure>
+          <figure xml:id="gr19">
+              <caption></caption>
+              <image source="gr19.png"/>
+          </figure>
+          </sidebyside>
+    </figure>
+    <p>
+      Consider a closed rectangular loop C of number of turns N, area of each loop 
+      is A rotating in a uniform magnetic field B with angular velocity <m>\omega</m>. 
+      As the loop rotates, the flux linked with the coil changes and an emf is induced 
+      in the coil. Suppose at any instant the normal to plane of loop is making an angle 
+      <m>\theta</m> with the magnetic field B, then magnetic flux linked with loop at that 
+      time is given by 
+      <me>
+        \phi = N(\vec{B}\cdot\vec{A}) = NBA\cos\theta
+      </me>
+      <me>
+        \therefore\quad \varepsilon =-N\frac{\,d\Phi}{\,dt} = -N\frac{\,d}{\,dt}(BA\cos\theta)
+      </me>
+      <me>
+        = NBA\omega\sin\omega t  = \varepsilon_{o} \sin\omega t
+      </me>
+      <m>[\because \theta = \omega t]</m>
+      where <m>\varepsilon_{o} = NBA \omega</m> =  maximum emf.
+    </p>
+    <p>
+      If this loop is part of a circuit, this emf will induce an Alternating Current (AC) in the circuit. 
+      If R is the resistance of the circuit, the induced current in the circuit is given by 
+      <me>
+        i=\frac{\varepsilon}{R}= \frac{NBA\omega}{R}\sin\omega t= i_{o}\sin\omega t
+      </me>
+      where <m>i_{o}</m> is the amplitude of the ac current.
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-skineffect">
+    <title> Skin Effect</title>
+    <p>
+     When a steady current flows through a wire, it is distributed uniformly over 
+     the entire cross-section of the wire. On the other hand, when an alternating 
+     current flows through the a wire, it is concentrated mostly near the outer surface 
+     of wire rather than the uniform distribution. This effect is called skin effect of 
+     alternating current. The skin effect increases with increasing frequency. 
+     In case of very high frequency current is almost wholly confined to the surface 
+     layer of the wire. This is the reason in ac transmission current carrier wire 
+     is made out of collection of many thin insulated stranded wires rather than one 
+     thick single wire. Electromagnetic induction is the cause of skin effect.
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-supercond">
+    <title>Superconductivity</title>
+    <p>
+      Superconductivity is a phenomenon that conduct electricity in an element, 
+      inter-metallic alloy, or compound  without resistance when it is kept below 
+      a certain temperature and magnetic field
+    </p>
+    <p>
+      <term>Emf of Moving Conductor:</term> 
+      <me>
+        \varepsilon  =  \int(\vec{v} \times \vec{B})\cdot\vec{dl}
+      </me>
+      	<me>
+          \varepsilon =  v B l
+        </me>
+        rod with everything perpendicular.
+    </p>
+    <p>
+     <term>Induced Electric Field: </term>	(non-conservative) 
+     <me>
+      \oint \vec{E}\cdot\vec{dl} = -\frac{\,d\Phi_{B}}{\,dt} 
+     </me>
+     Stationary Closed Path.
+    </p>
+    <p>
+          <term> Maxwell's Equations:</term> 	
+          <me>
+            \oint \vec{E}\cdot\vec{dA} = \frac{q_{enc}}{\epsilon_{o}} \quad \text{(Gauss's Law)}
+          </me>
+          <me>
+            \oint \vec{B}\cdot\vec{dA} = 0 \quad \text{(Gauss's Law in Magnetism)}
+          </me>
+          <me>
+            \oint \vec{E}\cdot\vec{dl}  = -\frac{\,d\Phi_{B}}{\,dt} \quad 	\text{(Faraday's Law)}
+          </me>
+          <me>
+            \oint \vec{B}\cdot\vec{dl} = \mu_{o}\left(I_{c} +\epsilon_{o}\frac{\,d\Phi_{E}}{\,dt}\right) \quad \text{(Generalized Ampere's Law)} 
+          </me>
+         </p>
+  </subsubsection>
+</subsection>
+  </section>
+

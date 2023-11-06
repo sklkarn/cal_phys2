@@ -11,21 +11,32 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. The wire wrapped around it makes  1000 turns and has a resistance of <span class="process-math">\(100 \,\Omega\text{.}\)</span> The permanent magnets in the motor create a uniform magnetic field of 1000 G and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find</div>
-<ol class="lower-alpha">
-<li><div class="para">the current in the wire,</div></li>
-<li><div class="para">the magnetic moment of the solenoid,</div></li>
-<li><div class="para">the magnetic potential energy when the magnetic moment is opposite the field,</div></li>
-<li><div class="para">the change in magnetic potential energy for each half rotation,</div></li>
-<li><div class="para">the magnetic power delivered by the motor,</div></li>
-<li><div class="para">the electrical power delivered by the battery,</div></li>
-<li><div class="para">the electrical power dissipated by the resistor in the form of heat.</div></li>
-<li><div class="para">Which of these answers would change if the motor rotated faster?</div></li>
-<li><div class="para">Are your answers consistent with the law of conservation of energy? Explain.</div></li>
-</ol>
+<div class="para">Now magnetic field <span class="process-math">\(B_{out}\)</span> at any point outside of the solenoid is zero because field due to current <span class="process-math">\(I_{in}\)</span> cancels out the field due to <span class="process-math">\(I_{out}\)</span> at that point. Hence solenoid generates uniform field only inside of it as <span class="process-math">\(B_{in}\)</span> due to these both currents enforces to each other. Use Ampere’s law for loop L2, we have -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\oint\vec{B}\cdot\vec{\,dl}=\int\limits_{a}^{b}\vec{B}\cdot\vec{\,dl}+\int\limits_{b}^{c}\vec{B}\cdot\vec{\,dl} + \int\limits_{c}^{d}\vec{B}\cdot\vec{\,dl}  + \int\limits_{d}^{a}\vec{B}\cdot\vec{\,dl}
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-465" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad\oint\vec{B}\cdot\vec{\,dl} = B_{in}\Delta x +0+B_{out}(-\Delta x) + 0 = B_{in}\Delta x
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because \quad B_{out}=0]\)</span></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad B_{in}\Delta x = \mu_{o} I_{enc} = \mu_{o} n \Delta x I
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad B_{in} = \mu_{o} n I = \frac{\mu_{o} N I}{L}
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">Right Hand Rule.</em></div>
+</div>
+<span class="incontext"><a href="subsec-mag_solnd.html#p-465" class="internal">in-context</a></span>
 </body>
 </html>

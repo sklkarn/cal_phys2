@@ -22,8 +22,7 @@
       intrinsic phenomenon of electron which constitutes magnetic dipole moment of the electron. 
       Quantum electrodynamics explains the reason of magnetic dipole moment of electron, 
       but it is not very simple to explain here.] 
-   
-     </p>
+      </p>
     
       </introduction>
 
@@ -32,8 +31,13 @@
   <xi:include href="./sec_third-Aforce.ptx" />
 <xi:include href="./sec_third-examplesA.ptx" />  
 
-<xi:include href="./sec_third-magF.ptx" />
- 
+<xi:include href="./sec_third-magS.ptx" />
+<xi:include href="./sec_third-ampre.ptx" />
+<xi:include href="./sec_third-examplesB.ptx" />  
+<xi:include href="./sec_third-elmag.ptx" />
+<xi:include href="./sec_third-examplesC.ptx" />  
+
+
   <xi:include href="./ex_third.ptx"/> 
 
 </chapter>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-ampre" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Amper's Law</title>
+  
+
+  <introduction>
+    <p>
+      Ampere's Law states that the line integral of the tangential component of a 
+      magnetic field B around a closed path is proportional to the current enclosed 
+      <m>I_{enc}</m>  by the loop. i.e.,
+      <me>
+        \oint\vec{B}\cdot\vec{dl} = \mu_{o} I_{enc}
+      </me>
+      Right Hand Rule.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30%">
+        <figure xml:id="ampere">
+          <caption></caption>
+          <image source="ampere.png"/>
+      </figure>
+          <figure xml:id="amper1">
+              <caption></caption>
+              <image source="amper1.png"/>
+          </figure>
+         </sidebyside>
+    </figure>
+    <proof>
+      <p>
+        The magnetic field at a point P on the circular path due to current carrying wire is given by 
+        <me>
+          B=\frac{\mu_{o}I}{2\pi r}
+        </me>
+        Magnetic field is parallel to the tangential direction at any point on circular path. 
+        Hence line integral of the field around the circular path centered on the current 
+        carrying wire is given by 
+        <me>
+          \oint\vec{B}\cdot\vec{\,dl} = \oint B\,dl\cos\theta = \oint B \,dl
+        </me>
+        <me>
+          =\oint \frac{\mu_{o}I}{2\pi r} (r\,d\theta)= \frac{\mu_{o}I}{2\pi} (2\pi)=\mu_{o}I
+        </me>
+         </p>
+         <p>
+          Thus we have -
+         <me>
+          \oint\vec{B}\cdot\vec{dl} = \mu_{o} I_{enc}
+         </me>
+          The sign of integral is +ve if path follwed for line integral is parallel to B 
+          and -ve if the path followed is anti-parallel. Ampere's law holds for closed path of any shape.
+         </p>
+    </proof>
+    <p>
+      Ampere's law is an anlogous to Gauss's law in electrostatics and is useful to determine 
+      magnetic field when the current distribution is symmetrical. Amperean equation always 
+      holds good whether the current distribution is symmetrical or not but we can only use 
+      the equation to determine B when symmetrical current distribution exists. Ampere's law 
+      is a special case of Biot-Savart's law. In order to apply Ampere's Law.
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          Current must be steady (ie., current is not changing with time).
+        </li>
+        <li>
+          Only currents enclosed by the loop  are taken into account.
+        </li>
+        <li>
+          Currents have to be taken with their algebraic signs using right hand's 
+          rule to determine directions and signs (currents going <em>out</em> of 
+          the surface are positive and those going <em>in</em> are negative). 
+        </li>
+      </ol>
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-mag_longcond">
+    <title>Magnetic field  due to infinitely long current carrying  conductor</title>
+  <p>
+    Consider an infinitely long straight conductor which carries current I. 
+    To find magnetic field at a point P at distance r from the conductor consider 
+    an amperean loop passing through that point and symmetrical to the current 
+    as shown in <xref ref="amper2"/>. Hence, 
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+      <figure xml:id="amper2">
+        <caption></caption>
+        <image source="amper2.png"/>
+    </figure>
+        <figure xml:id="amper2a">
+            <caption></caption>
+            <image source="amper2a.png"/>
+        </figure>
+        <figure xml:id="gr7">
+          <caption></caption>
+          <image source="gr7.png"/>
+      </figure>
+       </sidebyside>
+  </figure>
+  <p>
+    <me>
+      \oint\vec{B}\cdot\vec{dl} = \mu_{o} I_{enc};
+    </me>
+    <me>
+      \text{or,}\quad\oint B\,dl\cos\theta =  \int\limits_{0}^{2\pi r} B\,dl=\mu_{o} I
+    </me>
+    <me>
+      B\left[l\right]_{0}^{2\pi r}=\mu_{o} I;
+    </me>
+    <me>
+      B (2\pi r) = \mu_{o} I; 
+    </me>
+    <me>
+      \therefore\quad B= \frac{\mu_{o} I}{2\pi r}
+    </me>
+   The direction of magnetic field can be dtermined by right hand thumb rule and the 
+   magnetic field is inversely proportional to the distance of the point from the current carrying conductor [<xref ref="gr7"/>].
+  </p>
+  <p>
+    The magnetic field at point P' inside the conductor [<xref ref="amper2a"/>] can be determined by 
+    considering a finite thickness of current carrying rod of radius a and  
+    the point P' is at distance  b  from the axis of conductor then current 
+    enclosed by the Amperean loop passing through P' is <m>I' \lt I.</m> 
+    If <m>J=\frac{I}{\pi r^{2}}</m> is a current density then, 
+    <me>
+      I' = J\cdot\pi b^{2} = \frac{I}{\pi r^{2}}\cdot\pi b^{2}= I\frac{b^{2}}{a^{2}};
+    </me>
+   <me>
+    \therefore\quad B' = \frac{\mu_{o}I'}{2\pi b} =\frac{\mu_{o}I b^{2}}{2\pi b a^{2}} = \frac{\mu_{o}I b}{2\pi a^{2}}
+   </me>
+   Magnetic field is directly proportional to the distance of the point within the current carrying conductor [<xref ref="gr7"/>].
+    </p>
+  </subsection>
+<subsection xml:id="subsec-mag_sheetcond">
+  <title>Magnetic field  due to infinitely long current carrying flat sheet</title>
+  <p>
+    Consider a flat sheet of negligible thickness which carries current I along y-axis [<xref ref="flatsheet"/>]. 
+    Now to find the magnetic field at any point consider an amperean loop passing 
+    through that point which encloses some current. If  K  is current per unit 
+    length on flat surface then 
+    <me>
+      I_{enc} = K\Delta x
+    </me>
+    along y-axis. Since current is invariant along x and y-axes, magnetic field B 
+    varies only along z-axis. Now 
+  </p> 
+  <figure xml:id="flatsheet">
+    <caption></caption>
+    <image source="flatsheet.png" width="35%"/>
+</figure>
+  <p>
+    <me>
+      \oint \vec{B}\cdot\vec{\,dl} = \oint B\,dl\cos\theta 
+    </me>
+    <me>
+      = B_{x}(top)\Delta x + B_{x}(top)\Delta z \cos90^{o} 
+    </me>
+        <me>
+      + (-B_{x})(bottom)(-\Delta z)\cos90^{o} + (-B_{x})(bottom)(-\Delta x) 
+    </me>
+    <me>
+      + (-B_{x})(bottom)(-\Delta z)\cos90^{o} +  (B_{x})(top)(\Delta z)\cos90^{o} 
+    </me>
+    <me>
+      \therefore \quad \oint \vec{B}\cdot\vec{\,dl} = B_{x}(top)\Delta x + B_{x}(bottom)\Delta x = 2 B_{z}\Delta x =\mu_{o}I_{enc}
+    </me>
+     </p>
+     <p>
+      Here B varies along z-axis, so  <m>B_{x}</m> is replaced with <m>B_{z}</m> 
+      but its direction is along +x axis above top surface and along -x axis 
+      below bottom surface of the sheet.
+      <me>
+        \therefore\quad B_{z} = \frac{\mu_{o}I_{enc}}{2\Delta x}= \frac{\mu_{o}K}{2}
+      </me>
+      for any <m>z \gt 0.</m> Hence,
+      <me>
+        B(x,y,z)=\begin{cases}
+        +\frac{\mu_{o}K}{2}\hat{x} &amp; \text{for} \quad z \gt 0\\
+        -\frac{\mu_{o}K}{2}\hat{x} &amp; \text{for} \quad z \lt 0
+        \end{cases}
+      </me>
+      Note that the field is completely uniform above the sheet, and 
+      likewise uniform below the sheet, but across the sheet there is discontinuity.
+     </p>
+</subsection>
+
+<subsection xml:id="subsec-mag_solnd">
+  <title>Magnetic field at a point due to infinitely long solenoid</title>
+  <p>
+    Consider a solenoid [<xref ref="solenoid"/>] of number of turns per unit length is n. Now consider an 
+    amperean loop L2 such that it encloses some current in a current element <m>\,dl</m>. 
+    In Amperean loop L1 total current enclosed is <m>(I_{enc}=I_{in}-I_{out} = zero).</m>
+  </p>
+  <figure xml:id="solamp">
+    <caption></caption>
+    <image source="solamp.png" width="35%"/>
+</figure>
+  <p>
+    Now magnetic field <m>B_{out}</m> at any point outside of the solenoid 
+    is zero because field due to current <m>I_{in}</m> cancels out the field due 
+    to <m> I_{out}</m> at that point. Hence solenoid generates uniform field only inside 
+    of it as <m>B_{in}</m> due to these both currents enforces to each other. 
+    Use Ampere's law for loop L2, we have -
+    <me>
+      \oint\vec{B}\cdot\vec{\,dl}=\int\limits_{a}^{b}\vec{B}\cdot\vec{\,dl}+\int\limits_{b}^{c}\vec{B}\cdot\vec{\,dl} + \int\limits_{c}^{d}\vec{B}\cdot\vec{\,dl}  + \int\limits_{d}^{a}\vec{B}\cdot\vec{\,dl}
+    </me>
+    <me>
+      \text{or,}\quad\oint\vec{B}\cdot\vec{\,dl} = B_{in}\Delta x +0+B_{out}(-\Delta x) + 0 = B_{in}\Delta x
+    </me>
+    <m>[\because \quad B_{out}=0]</m>
+    <me>
+      \text{or,}\quad B_{in}\Delta x = \mu_{o} I_{enc} = \mu_{o} n \Delta x I
+    </me>
+    <me>
+      \therefore \quad B_{in} = \mu_{o} n I = \frac{\mu_{o} N I}{L}
+    </me>
+    <em>Right Hand Rule.</em>
+      </p>
+      <p> In vector form <me>
+        \vec{B} = \frac{\mu_{o} N I}{L} \hat{x} 
+      </me>
+       if solenoid is lying along x-axis. The magnetic field direction obeys right hand thumb rule.
+      </p>
+</subsection>
+
+<subsection xml:id="subsec-mag_toroid">
+  <title>Magnetic field at a point due to toroid</title>
+  <figure xml:id="fig56a">
+    <caption></caption>
+    <image source="fig56a.png" width="35%"/>
+</figure>
+  <p>
+    Toroid is considered as an infinitely long solenoid or an endless solenoid as shown 
+    in <xref ref="fig56a"/>. Since magnetic field outside a solenoid is zero we 
+    can have magnetic field only inside a toroid. To find magnetic field at any point 
+    inside the toroid consider an Amperean loop of radius r so that it encloses 
+    the current which is going into the page then from Ampere's law 
+    <me>
+      \oint\vec{B}\cdot\,dl= B_{in}\left.\,dl\right\vert_{0}^{2\pi r} = B(2\pi r) =\mu_{o}I_{enc} =\mu_{o}n(2\pi r)I
+    </me>
+    <me>
+      \therefore\quad B_{in}= \mu_{o} n I 
+    </me>
+     where n is number of turns per unit length and I is current following in a toroid.
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-mag_parallelcond">
+  <title>Magnetic Force between Parallel Wires</title>
+  <p>
+    Consider two straight conductors of length L  carry current <m>I_{1}</m> and <m>I_{2}</m> 
+    are lying parallel to each other at a distance r. The magnetic field exerted by the 
+    current <m>I_{1}</m> at a distance r is given by 
+    <me>
+      B_{1}=\frac{\mu_{o}I_{1}}{2\pi r}
+    </me>
+    <em>into the page.</em> The direction of field can be determined by right hand thumb rule.
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30%">
+      <figure xml:id="F2wires">
+        <caption></caption>
+        <image source="F2wires.png"/>
+    </figure>
+        <figure xml:id="F2wiresb">
+            <caption></caption>
+            <image source="F2wiresb.png"/>
+        </figure>
+       </sidebyside>
+  </figure>
+  <p>
+    Similarly magnetic field exerted by the current <m>I_{2}</m> at a distance r 
+    is given by 
+    <me>
+      B_{2}=\frac{\mu_{o}I_{2}}{2\pi r}
+    </me>
+   <em> out of the page.</em> 
+   </p>
+   <p>
+    Now if a current carrying conductor is placed in a magnetic field then it experiences 
+    some force which is given by 
+    <me>
+      F=ILB
+    </me>
+    The direction of force is given by Fleming's left hand rule. 
+   </p>
+   <p>
+    The force experienced by the conductor of current <m>I_{2}</m> is 
+    <me>
+      F_{2}= I_{2}LB_{1} = I_{2}L \frac{\mu_{o}I_{1}}{2\pi r} 
+    </me>
+     <me>
+      \frac{F_{2}}{L}  =  \frac{\mu_{o}I_{1}I_{2}}{2\pi r} 
+     </me>
+     The force experienced by the conductor of current <m> I_{1}</m> is 
+     <me>
+      \frac{F_{1}}{L}  =  \frac{\mu_{o}I_{1}I_{2}}{2\pi r} 
+     </me>
+     <me>
+      \therefore\quad  \frac{F}{L}=\frac{\mu_{o}I_{1}I_{2}}{2\pi r} 
+     </me>
+     The direction of forces are shown in <xref ref="F2wires"/>. Since the two forces are pointed 
+     along each other meaning the conductors attract each other. Hence two current carrying 
+     conductors attract each other if currents are flowing parallel to each other.	If currents 
+     are flowing anti-parallel to each other then they repel each other as shown in <xref ref="F2wiresb"/>.
+   </p>
+</subsection>
+
+
+  </section>
+

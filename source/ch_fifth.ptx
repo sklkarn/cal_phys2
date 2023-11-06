@@ -21,7 +21,8 @@
 
   <xi:include href="./sec_fifth-examplesA.ptx" /> 
   
-
+  <xi:include href="./sec_fifth-examplesB.ptx" /> 
+  <xi:include href="./sec_fifth-examplesC.ptx" /> 
  
   <xi:include href="./ex_fifth.ptx"/> 
 

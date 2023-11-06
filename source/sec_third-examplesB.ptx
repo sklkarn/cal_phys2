@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+  
+<paragraphs>
+  <title>Mag. Sources</title>
+  
+<example>
+  <statement>
+    <p>
+      Two protons move together in the +x direction separated vertically by a distance r = 1 mm. 
+      If their speed is <m>v = 1.00\times 10^{7} \,m/s,</m> find 
+      <ol marker="a.">
+        <li>
+          the electrical force between them (is it attractive or repulsive), 
+        </li>
+        <li>
+          the magnetic force between them (is it attractive or repulsive), 
+        </li>
+        <li>
+          the total electromagnetic force between them (is it attractive or repulsive), and 
+        </li>
+        <li>
+          the ratio of electrical force to magnetic force. What do these answers become if v = 100 m/s?
+        </li>
+      </ol>
+        </p>
+        <image source="fig50.png" width="35%"> </image>
+  </statement>
+  <solution>
+    <p>
+      Given:	<m>r  =  1.00\times10^{-3} m;</m> <m>q = e = +1.6\times10^{-19} \,C; </m> 
+      <m>m = 1.673\times10^{-27} \,kg; </m> <m>\epsilon_{o} = 8.85\times10^{-12} \,C^{2}/N.m^{2} ;</m>
+      <m>\mu_{o} = 1.257\times10^{-6} \,W_{b}/A.m.</m>
+    </p>
+    <p>
+     For <m> v=1.00\times10^{7} \,m/s</m>
+     <ol marker="a.">
+      <li>
+        <me>
+          E=kq/r^{2}=1.439\times10^{-3} \,N/C;
+      </me>
+      <me>
+        F_{E}=qE=2.302\times10^{-22} \,N, \quad repulsive
+      </me>
+        </li>
+      <li>
+        <me>
+          B=\frac{\mu_{o}}{4\pi}\frac{qv}{r^{2}} =1.6\times10^{-13} \,N/Am;
+        </me>
+        <me>
+          F_{B}=qv B = 2.56\times10^{-25}\,N, \quad attractive
+        </me>
+        </li>
+      <li>
+       <me>
+        F=F_{E}-F_{B}=2.299\times10^{-22}\,N, \quad repulsive;
+       </me>
+        </li>
+      <li>
+        <me>
+          R=\frac{F_{E}}{F_{B}}=899;
+        </me>
+          </li>
+    </ol>
+    </p>
+    <p>
+      For <m>v=1.00\times10^{2} \,m/s</m>
+      <ol marker="a.">
+        <li>
+         <me>
+          F_{E}=2.302\times10^{-22}\,N,\quad repulsive 
+         </me>
+         
+        </li>
+        <li>
+          <me>
+            B=  1.6\times10^{-18}\, N/Am, 
+          </me>
+          <me>
+            F_{B}=2.56\times10^{-34}\,N, \quad attractive
+          </me>
+             </li>
+        <li>
+          <me>
+            F=2.302\times10^{-22}\,N,\quad repulsive
+          </me>
+          </li>
+        <li>
+          <me>
+            R = 8.99\times10^{11}.
+          </me>
+            </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+  <example>
+    <statement>
+      <p>
+        A rectangular wire loop of width W = 10 cm and length L = 20 cm has a counter-clockwise 
+        current I = 2 A. What is the magnitude and direction of the magnetic field at the central point. 
+      </p>
+      <image source="fig52.png" width="35%"> </image>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>W=0.1\,m, \quad L= 0.2\,m, \quad I = 2\,A </m> 
+      </p>
+      <p>
+        <me>
+          B= B_{ab}+B_{bc}+B_{cd}+B_{da} = 2B_{ab} + 2B_{bc}
+        </me>
+        <me>
+          B_{ab} = \frac{\mu_{o}I}{4\pi}\frac{2a}{x\sqrt{(x^{2}+a^{2})}}; \quad a=W/2, \quad x=L/2 
+        </me>
+        <me>
+          B_{bc} = \frac{\mu_{o}I}{4\pi}\frac{2a}{x\sqrt{(x^{2}+a^{2})}}; \quad a=L/2,\quad x=W/2
+        </me>
+          </p>
+          <p>
+            <me>
+              B= \frac{\mu_{o}I}{\pi W}\sqrt{5} = 1.79\times10^{-5}\,T
+            </me>
+            From the right hand rule, <m>\vec{B}</m> is out of the paper.
+          </p>
+    </solution>
+  </example>
+</paragraphs>
+
+<paragraphs>
+  <title>Ampere's Law</title>
+  
+  <example>
+    <statement>
+      <p>
+        A long straight vertical wire carries an upward current of <m>I_{1} = 10 \,A.</m> 
+        A rectangular coil of wire is located near the vertical wire as shown in the figure below. 
+        If a = 10 cm, b = 30 cm, c = 50 cm, and <m>I_2 = 5 \,A</m>, what is the net force on the rectangular 
+        coil due to the magnetic field of the straight line? 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given:	<m> I_{1} = 10 \,A; \quad a= 0.1 \,m; b=0.3\,m;</m> <m>c=0.5\,m; I_{2} = 5 \,A.</m>
+      </p>
+      <image source="fig54.png" width="35%"> </image>
+      <p>
+        <me>
+          \frac{\vec{F_{a}}}{c}	 = \frac{\mu_{o}I_{1}I_{2} }{2\pi a}\hat{i}
+        </me>
+        <me>
+          \frac{\vec{F_{b}}}{c}	 = \frac{\mu_{o}I_{1}I_{2} }{2\pi b}[-\hat{i}]
+        </me>
+        <me>
+          \vec{F_{top}}=-\vec{F_{bottom}} 
+        </me>
+        <me>
+          \vec{F}=\vec{F_{a}}+ \vec{F_{b}}+\vec{F_{top}} + \vec{F_{bottom}}
+        </me>
+        <me>
+          \vec{F} = \frac{\mu_{o}I_{1}I_{2}c }{2\pi}\left(\frac{1}{a}-\frac{1}{b}\right)\hat{i}
+        </me>
+        <me>
+          \vec{F}  = 3.33\times10^{-5} N \hat{i}
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Derive the magnetic field at a distance r from a long straight wire carrying current I using Ampere's Law.
+      </p>
+    </statement>
+    <solution>
+      <image source="fig55.png" width="35%"> </image>
+      <p>
+        Pick a circle centered on the wire and perpendicular to the wire. Due to the right 
+        hand rule, the magnetic field must be tangent to the circle at every point. 
+        Therefore, the dot product  <me>
+          \vec{B}\cdot\vec{dl}   = B dl.
+        </me>
+         Due to symmetry, B must have the same magnitude at every point, so B is constant and Ampere's Law becomes:
+      </p>
+      <p>
+        <me>
+          \oint \vec{B}\cdot\vec{dl}   = \mu_{o}I 
+        </me>
+        <me>
+          B\oint\,dl = B(2\pi r) = \mu_{o}I 
+        </me>
+        <me>
+          B=\frac{\mu_{o}I }{2\pi r}
+        </me>
+        </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Find the magnetic field 
+        <ol>
+          <li>
+            inside and
+          </li>
+          <li>
+            outside a tightly wound toroid of N turns. 
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <image source="fig56a.png" width="35%"> </image>
+      <p>
+        The figure above shows a cross section of the toroid showing the wires carrying the 
+        current coming out of the paper on the outside of the toroid and into the paper 
+        inside the toroid. Taking the path of the line integral in Ampere's law clockwise 
+        around a circle centered on the toroid produces a symmetry that makes the magnetic 
+        field <m>\vec{B}</m> constant in magnitude and everywhere parallel to the path so:
+      </p>
+      <p>
+        <ol>
+          <li>
+           <me> 
+            \oint \vec{B}\cdot\vec{dl}   = \mu_{o}I
+          </me>
+           <me>
+            B\oint dl  = B(2\pi r) =\mu_{o}NI
+           </me>
+           <me>
+            B = \frac{\mu_{o}NI}{2\pi r} \quad \text{inside toroid}
+           </me>
+            </li>
+          <li>
+            <me>
+              \oint \vec{B}\cdot\vec{dl} = \mu_{o}I 
+            </me>
+            <me>
+              or, B = 0 \quad \text{outside toroid} 
+            </me>
+             </li>
+        </ol>
+      </p>
+      </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Two long straight wires, suspended from a common point by a length L of string, 
+        are directed into and out of the paper carrying equal but opposite currents as 
+        shown in the figure below. If the length of the string is L = 1 m, the mass per 
+        unit length of the wire is <m>\mu = 1 \,g/m,</m> and the angle each makes with 
+        the vertical is <m>\theta = 10^{o},</m> find I, the current in each wire. 
+      </p>
+      <image source="fig57.png" width="35%"> </image>
+    </statement>
+    <solution>
+      <p>
+        Given: Length of the strings  L=1 m, mass per unit length  
+        <m>\mu=\frac{mass}{length}=1\,g/m=0.001\,kg/m,</m> <m>\theta=10^{o},</m> and  
+        <m>I_{1}=I_{2}=I=?</m>
+      </p>
+      <image source="fig57b.png" width="35%"> </image>
+      <p>
+        Force experienced by a current wire in an external magnetic field is given by  
+        <me>
+          F=IlB 
+        </me>
+        here, l is length of the wire.
+        <me>
+          B=\frac{\mu_{o}I}{2\pi r}
+        </me>
+        r is the seperation between the wires.
+        <me>
+          \therefore\quad F_{1}= \frac{I_{1}l_{1}\mu_{o}I_{2}}{2\pi r}
+        </me>
+        <men xml:id="eqn-ampr1">
+          \frac{F_{1}}{l_{1}} = \frac{\mu_{o}I_{1}I_{2}}{2\pi r}  
+        </men>
+      From figure
+      <me>
+        T\cos\theta=mg = \mu l \,g
+      </me>
+      <men xml:id="eqn-ampr2">
+        \text{or,}\quad T=\frac{\mu l g}{\cos\theta} 
+      </men>
+      <me>
+        \text{also,}\quad \sin\theta=\frac{r/2}{L} = \frac{r}{2L}
+      </me>
+     <men xml:id="eqn-ampr3">
+      \text{or,}\quad r=2L\sin\theta  
+     </men>
+     <me>
+      \text{also,}\quad F_{1}=F_{2} = T\sin\theta
+     </me>
+     Therefore from eqn. <xref ref="eqn-ampr1"/>, we have - 
+     <me>
+      \frac{F_{1}}{l_{1}} =\frac{T\sin\theta}{l_{1}} =\frac{\mu_{o}I_{1}I_{2}}{2\pi r }
+     </me>
+     <me>
+      \text{or,}\quad \frac{\mu l g \sin\theta}{l\cos\theta}=\frac{\mu_{o}I^{2}}{2\pi 2\sin\theta }
+     </me>
+     <m>[\because I_{1}=I_{2}=I]</m>
+      <me>
+        \text{or,}\quad I^{2}= \frac{\mu \,g \tan\theta \sin\theta 4\pi}{\mu_{o}} 
+      </me>
+      <me>
+        = \frac{4\pi\times 0.001\times9.8\times\tan10^{o}\sin10^{o}}{4\pi\times10^{-7}} = 54.77 \,A
+      </me>
+        </p>
+    </solution>
+  </example>
+</paragraphs>
+
+
+
+</section>

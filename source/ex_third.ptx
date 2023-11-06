@@ -313,5 +313,190 @@
         </p>
   </exercise>
 </paragraphs>
+
+<paragraphs>
+  <title>Mag. Sources</title>
+  <exercise>
+    <p>
+      A wire of length 2a is symmetrically located along the y-axis and carries an upward 
+      current I. 
+      <ol marker="a.">
+        <li>
+          What is the magnetic field due to this wire at a distance x along the x-axis? 
+        </li>
+        <li>
+          What does this become when <m>x \lt \lt a?</m> 
+        </li>
+        <li>
+          When <m>x \gt \gt a?</m>  
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two charges, <m>q_{1} = 1 \,\mu C</m>  and <m>q_{2} =- 2 \,\mu C</m>, are moving as 
+      shown in the figure below with velocities <m>v_{1} = 3.0\times10^{6} \,m/s </m> and 
+      <m>v_{2} = 4.09\times10^{6} \,m/s,</m> respectively. At the instant shown in the figure,
+       x = 80 cm and y = 60 cm. Find 
+       <image source="fig53.png" width="35%"> </image>
+       <ol marker="a.">
+        <li>
+          the magnitude and direction of the electrical force on <m>q_{1}</m> by <m>q_{2},</m> 
+        </li>
+        <li>
+          the magnitude and direction of the magnetic force on <m>q_{1}</m> by <m>q_{2},</m> and  
+        </li>
+        <li>
+          the ratio of the magnitudes of these two forces. 
+        </li>
+      </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Given a circular loop of current I with a radius a. 
+      <ol marker="a.">
+        <li>
+          Show that the magnetic field at a distance x along the axis of this loop is given by 
+          <me>
+            B =  \frac{\mu_{o}Ia^{2}}{2(x^{2}+a^{2})^{3/2}}.
+          </me>
+              </li>
+        <li>
+          Use this result to determine the magnetic field along the axis of a coil of N turns.
+        </li>
+        <li>
+          Use the result of part a to determine the magnetic field at the center of a single loop of current.
+        </li>
+        <li>
+          What is the magnetic field at the center of a loop of current 10 cm in radius carrying a current of 2 A?
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A long straight wire lies along the x-axis carrying 2 A of current in the +x direction. 
+      A second, parallel wire located at y = 20 cm carries current of 5 A in the opposite direction. 
+      <ol marker="a.">
+        <li>
+          What is the magnetic field due to these currents at the point (0, 0.1 m)?
+              </li>
+        <li>
+          At the point (1m, 1m)?
+        </li>
+        <li>
+          What is the magnitude and direction of the magnetic force on a <m>10 \mu C</m> charge moving in 
+          the +z direction with a speed of <m>10^{4} \,m/s </m> if it is at the point (-0.2 m, -0.2 m)?
+        </li>
+         </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A long straight wire lies along the y-axis with the current 4 A in the -y direction. 
+      A uniform magnetic field <m>\vec{B_{o}}= 0.02 \,G \hat{i}</m> also exists in the region. 
+      Find the magnitude and direction of the total magnetic field at points 
+      <ol marker="a.">
+        <li>
+          (1m, 0, 2m),
+              </li>
+        <li>
+          (2m, 1m, 0), 
+        </li>
+        <li>
+          (0, 1m, -2m).
+        </li>
+         </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A coil of wire of radius 10 cm, current 2 A, and 100 turns is centered at the origin 
+      and lies in the x/y plane. A second coil of wire of radius 20 cm, current 4 A and 
+      200 turns is also centered at the origin but lies in the x/z plane. If the current 
+      in the small coil rotates from the x-direction to the y-direction, and if the current 
+      in the large coil rotates from the x-direction to the z-direction, then what is the 
+      magnitude and direction of the magnetic field at the origin? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Use the Biot-Savart's law to calculate the magnetic field, B at center, 
+      O of the semicircular arcs AD and HJ in the given figure. The two arcs, of radii 
+      <m>R_{2}</m> and <m>R_{1},</m> respectively, form part of the circuit ABCDA carrying current, I.
+    </p>
+    <image source="semicirbiot.png" width="35%"> </image>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Ampere's Law</title>
+  
+  <exercise>
+    <p>
+      Find the magnetic field 
+      <ol marker="a.">
+        <li>
+          inside and
+        </li>
+        <li>
+          outside a long solenoid of N turns per section of length L.
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the magnetic field 
+      <ol marker="a.">
+        <li>
+          inside and 
+        </li>
+        <li>
+          outside a long cylindrical conductor of radius R carrying a total current I 
+          from one end to the other if the current density inside the conductor is a constant everywhere.
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A cosmic ray electron moving with a velocity of <m>1.00\times10^{7} \,m/s</m> 
+      enters vertically through the top of a horizontal solenoid of radius 10 cm. 
+      If the solenoid has 100 turns of wire per centimeter, each carrying 2 A of current, 
+      how far is the electron deflected horizontally before leaving the solenoid?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Use Ampere's law to find the magnetic field at the center, O of the semicircular 
+      loop ABCDA which carries the current I=30 mA as shown in figure. 
+      The radius <m>R_{1}=2cm,</m>  and <m> R_{2}=4cm. </m>
+    </p>
+    <image source="semicirbiot.png" width="35%"> </image>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Electromagnetic Induction</title>
+  
+
+  <exercise>
+    <p>
+      
+    </p>
+  </exercise>
+</paragraphs>
  </exercises>
 
