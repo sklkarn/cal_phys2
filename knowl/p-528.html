@@ -11,10 +11,65 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para">
-<dfn class="terminology">(c)</dfn> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/gr4c.png" class="contained"></div>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
+<div class="para logical">
+<div class="displaymath process-math">
+\begin{equation*}
+E-L\frac{\,di}{\,dt}=Ri 
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-528" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad L\frac{\,di}{\,dt} =E-Ri
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{i.e.,}\quad \frac{\,di}{E-Ri} = \frac{\,dt}{L} 
+\end{equation*}
+</div>
+<div class="para">Integrating, we get -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int\limits_{0}^{i} \frac{\,di}{E-Ri} = \int\limits_{0}^{t} \frac{\,dt}{L}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or}\quad \left.-\frac{ln(E-Ri)}{R}\right]_{0}^{i} =\left. \frac{t}{L} \right]_{0}^{t} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad -\frac{ln(E-Ri)}{R} + -\frac{ln(E)}{R} = \frac{t}{L} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad  \frac{1}{R}ln\left(\frac{E-Ri}{E}\right) = -\frac{t}{L}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad \frac{E-Ri}{E} = e^{(-\frac{R}{L})t}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad -Ri=E  e^{(-\frac{R}{L})t} -E
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad i = \frac{E}{R} \left[1- e^{(-\frac{R}{L})t}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+\therefore \quad i = i_{o} \left[1- e^{-t/\tau}\right]\tag{3.7.4}
+\end{equation}
+</div>
+</div>
+<span class="incontext"><a href="subsec-rlc.html#p-528" class="internal">in-context</a></span>
 </body>
 </html>

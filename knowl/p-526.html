@@ -11,10 +11,133 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
+<div class="para logical"><ol class="upper-roman">
+<li>
 <div class="para">
-<dfn class="terminology">(a)</dfn> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/gr4a.png" class="contained"></div>
+<dfn class="terminology">Rise of current</dfn> Consider a circuit containing an inductor of self-inductance L, resistance R, and a battery of constant emf E is connected with the switch s. As soon as the switch is connected to the battery current begins to flow and magnetic flux is linked with the coil. As a result a self induced emf is set up in the coil which opposes the rise of current in the circuit. Hence the current does not attain its final steady value <span class="process-math">\(i_{o}\)</span> instantaneously.</div>
+<figure class="figure figure-like"><div class="sidebyside"><div class="sbsrow" style="margin-left:7.5%;margin-right:7.5%;">
+<div class="sbspanel top" style="width:41.1764705882353%;"><figure class="figure figure-like"><img src="external/RL.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:41.1764705882353%;"><figure class="figure figure-like"><img src="external/gr9.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.7.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical">
+<div class="displaymath process-math">
+\begin{equation*}
+E-L\frac{\,di}{\,dt}=Ri 
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-526" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad L\frac{\,di}{\,dt} =E-Ri
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{i.e.,}\quad \frac{\,di}{E-Ri} = \frac{\,dt}{L} 
+\end{equation*}
+</div>
+<div class="para">Integrating, we get -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int\limits_{0}^{i} \frac{\,di}{E-Ri} = \int\limits_{0}^{t} \frac{\,dt}{L}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or}\quad \left.-\frac{ln(E-Ri)}{R}\right]_{0}^{i} =\left. \frac{t}{L} \right]_{0}^{t} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad -\frac{ln(E-Ri)}{R} + -\frac{ln(E)}{R} = \frac{t}{L} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad  \frac{1}{R}ln\left(\frac{E-Ri}{E}\right) = -\frac{t}{L}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad \frac{E-Ri}{E} = e^{(-\frac{R}{L})t}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad -Ri=E  e^{(-\frac{R}{L})t} -E
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad i = \frac{E}{R} \left[1- e^{(-\frac{R}{L})t}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation}
+\therefore \quad i = i_{o} \left[1- e^{-t/\tau}\right]\tag{3.7.4}
+\end{equation}
+</div>
+</div>
+<div class="para logical">
+<div class="para">From this equation it is clear that the current in the circuit rises according to an exponential law. The quantity L/R is known  as the time constant <span class="process-math">\(\tau\)</span> of L-R circuit. If L is in Henry and R is in ohms then <span class="process-math">\(\tau\)</span> will be in second. If t=L/R, then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+i = i_{o} \left[1- e^{-1}\right] = 0.63  i_{o} 
+\end{equation*}
+</div>
+<div class="para">i.e., the time constant of L-R circuit is the current rises to nearly two third of its maximum steady value.</div>
+</div>
+</li>
+<li>
+<div class="para">
+<dfn class="terminology">Decay of current</dfn> When the switch is disconnected from point 1  and connected to point 2 then the current begins to decays through the resistance R from maximum its value <span class="process-math">\([i_{o}=\frac{E}{R}]\)</span> to zero. During the decay, the flux linked with the coil changes which induced an emf in the coil to oppose this decay. Hence current takes some time to reach to zero.</div>
+<div class="para logical">
+<div class="para">From the circuit, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-L\frac{\,di}{\,dt} = Ri 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{\,di}{i}= -\frac{R}{L}\,dt
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \int\limits_{i_{o}}^{i}\frac{\,di}{i}= -\frac{R}{L}\int\limits_{0}^{t}\,dt
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left.\ln \,i\right\vert_{i_{o}}^{i} = -\frac{R}{L} t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \ln i -\ln i_{o} = -\frac{R}{L} t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \ln \frac{i}{i_{o}} = -\frac{R}{L} t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad i = i_{o}e^{-(\frac{R}{L})t} = i_{o}e^{-(t/\tau)}
+\end{equation*}
+</div>
+<div class="para">i.e., current decays exponentially. After time constant L/R,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+i=i_{o}e^{-(1)}
+\end{equation*}
+</div>
+<div class="para">Hence time constant is the time in which current in the R-L circuit falls to <span class="process-math">\(1/e\)</span> of its maximum value when the emf of the circuit is removed.</div>
+</div>
+</li>
+</ol></div>
+<span class="incontext"><a href="subsec-rlc.html#p-526" class="internal">in-context</a></span>
 </body>
 </html>

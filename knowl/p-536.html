@@ -11,21 +11,507 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
+<div class="para logical"><ol class="upper-roman">
+<li>
 <div class="para logical">
-<div class="para">An electromagnetic rail gun consists of two parallel conducting rails of length X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance <span class="process-math">\(10\Omega \)</span> as shown in the figure below. A constant electrical potential V = 100 V is maintained between the rails and a constant magnetic field B = 10 T is maintained between them. <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig48.png" class="contained"></div>
+<div class="para">
+<dfn class="terminology">Charging of a capacitor</dfn> In the circuit <a href="" class="xref" data-knowl="./knowl/RLC.html" title="Figure 3.7.8">Figure 3.7.8</a>, when switch is connected to point 1, capacitor starts charging. If i is current initially draws from battery of emf E, then we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+V_{E}-V_{L}=V_{R}+V_{C}
+\end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">What is the magnitude and direction of the current in the sliding bar?</div></li>
-<li><div class="para">What is the magnitude and direction of the magnetic force on the sliding bar?</div></li>
-<li><div class="para">Neglecting friction, what is the acceleration of the bar?</div></li>
-<li><div class="para">Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?</div></li>
-<li><div class="para">What is the kinetic energy of the bar when it leaves the rail gun?</div></li>
-<li><div class="para">How long a time is the bar being accelerated?</div></li>
-<li><div class="para">How much electrical energy is supplied by the battery during this time interval?</div></li>
-<li><div class="para">Why aren’t answers g and e the same?</div></li>
-</ol>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+E-L\frac{\,di}{\,dt} =Ri+\frac{q}{C}
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-536" class="internal">in-context</a></span>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+\text{or,}\quad L\frac{\,di}{\,dt} + Ri+\frac{q}{C} = E
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+\text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}} + R\frac{\,dq}{\,dt}+\frac{q}{C} = E
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because i=\frac{\,dq}{\,dt}]\)</span></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \frac{R}{L}\frac{\,dq}{\,dt}+\frac{q}{LC} = \frac{E}{L}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + 2\lambda\frac{\,dq}{\,dt}+\omega^{2}_{o}q = \frac{E}{L}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\([\frac{R}{L} = 2\lambda]\)</span> and <span class="process-math">\([\frac{1}{LC}=\omega^{2}_{o}] \)</span>
+</div>
+</div>
+<div class="para logical">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr1.html">
+\begin{equation}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + 2\lambda\frac{\,dq}{\,dt}+\omega^{2}_{o}\left[q-\frac{E}{L\omega^{2}_{o}}\right] =0 \tag{3.7.9}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr1.html">
+\begin{equation*}
+\text{Let}\quad \left[q-\frac{E}{L\omega^{2}_{o}}\right]=x
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr1.html">
+\begin{equation*}
+\text{so that}\quad \frac{\,dq}{\,dt} =\frac{\,dx}{\,dt}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr1.html">
+\begin{equation*}
+\text{and}\quad  \frac{\,d^{2}q}{\,dt^{2}} =\frac{\,d^{2}x}{\,dt^{2}}
+\end{equation*}
+</div>
+<div class="para">Therefore from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr1.html" title="Equation 3.7.9">(3.7.9)</a> we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr1.html">
+\begin{equation}
+\frac{\,d^{2}x}{\,dt^{2}}+2\lambda\frac{\,dx}{\,dt}+\omega^{2}_{o}x =0 \tag{3.7.10}
+\end{equation}
+</div>
+<div class="para">Which is a second order linear differential equation.</div>
+</div>
+<div class="para logical">
+<div class="para">Let <span class="process-math">\(x=Ae^{\alpha t}\)</span> be the solution of this equation, so that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\frac{\,dx}{\,dt} = A\alpha e^{\alpha t}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{and}\quad \frac{\,d^{2}x}{\,dt^{2}} =  A\alpha^{2} e^{\alpha t}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\therefore\quad  A\alpha^{2} e^{\alpha t}+2\lambda A\alpha e^{\alpha t} + \omega^{2}_{o} Ae^{\alpha t} =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{or,}\quad  Ae^{\alpha t}\left( \alpha^{2} +2\lambda \alpha + \omega^{2}_{o}\right) =0
+\end{equation*}
+</div>
+<div class="para">Since, <span class="process-math">\(Ae^{\alpha t} \neq 0, \)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{we have}\quad \left( \alpha^{2} +2\lambda \alpha + \omega^{2}_{o}\right) =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{or,}\quad \alpha = \frac{-\lambda\pm\sqrt{4\lambda^{2}-4\omega^{2}_{o}}}{2} =-\lambda\pm\sqrt{\lambda^{2}-\omega^{2}_{o}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\therefore\quad \alpha = -\lambda \pm \beta,
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{where}\quad \beta = \sqrt{\lambda^{2}-\omega^{2}_{o}} 
+\end{equation*}
+</div>
+<div class="para">Hence the most general solution of eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr2.html" title="Equation 3.7.10">(3.7.10)</a> is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+x= A e^{\alpha t} + B e^{-\alpha t} =   A e^{(-\lambda + \beta) t} + B e^{(-\lambda - \beta) t}
+\end{equation*}
+</div>
+<div class="para">where A and B are constants and can be determined by initial conditions.</div>
+</div>
+<div class="para logical">
+<div class="displaymath process-math">
+\begin{equation}
+\therefore\quad q= x+\frac{E}{L\omega^{2}_{o}} = A e^{(-\lambda + \beta) t} + B e^{(-\lambda - \beta) t} + q_{o}\tag{3.7.11}
+\end{equation}
+</div>
+<div class="para">
+<span class="process-math">\([\because \quad \frac{E}{L\omega^{2}_{o}} =\frac{E}{L\frac{1}{LC}} = CE=q_{o}] \)</span> where <span class="process-math">\(q_{o}\)</span> is the final charge in the capacitor.</div>
+</div>
+<div class="para logical">
+<div class="para">Now at t=0, q =0, hence</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+0=q_{o}+A+B
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation}
+\text{or,}\quad  A+B=-q_{o}  \tag{3.7.12}
+\end{equation}
+</div>
+<div class="para">Also differentiating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr3.html" title="Equation 3.7.11">(3.7.11)</a> we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+i=\frac{\,dq}{\,dt} = A[-\lambda+\beta]e^{(-\lambda + \beta) t} +B[-\lambda-\beta]e^{(-\lambda - \beta) t}
+\end{equation*}
+</div>
+<div class="para">Now the initial condition as t=0,i=o, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+0=A[-\lambda+\beta]+B[-\lambda-\beta]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+\text{or,}\quad 0=-\lambda (A+B) +\beta (A-B) = \lambda q_{o} +\beta (A-B) 
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because A+B=-q_{o}]\)</span></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation}
+\therefore\quad A-B = \frac{-\lambda q_{o}}{\beta} \tag{3.7.13}
+\end{equation}
+</div>
+<div class="para">Solving eqns. <a href="" class="xref" data-knowl="./knowl/eqn-lcr4.html" title="Equation 3.7.12">(3.7.12)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-lcr5.html" title="Equation 3.7.13">(3.7.13)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+A = -\frac{q_{o}}{2}\left(1+\frac{\lambda}{\beta}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+\text{and}\quad B = -\frac{q_{o}}{2}\left(1-\frac{\lambda}{\beta}\right)
+\end{equation*}
+</div>
+<div class="para">Hence from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr3.html" title="Equation 3.7.11">(3.7.11)</a> we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr4.html ./knowl/eqn-lcr5.html ./knowl/eqn-lcr3.html">
+\begin{equation}
+q = q_{o} -\frac{q_{o}}{2}\left(1+\frac{\lambda}{\beta}\right) e^{(-\lambda + \beta) t} -\frac{q_{o}}{2}\left(1-\frac{\lambda}{\beta}\right) e^{(-\lambda - \beta) t} \tag{3.7.14}
+\end{equation}
+</div>
+<div class="para">Now charging of the capacitor depends upon the following  three cases of <span class="process-math">\(\lambda^{2} \gt, =, \lt \omega^{2}_{o}\text{.}\)</span>
+</div>
+</div>
+<figure class="figure figure-like"><div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel top" style="width:47.3684210526316%;"><figure class="figure figure-like"><img src="external/gr10.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:47.3684210526316%;"><figure class="figure figure-like"><img src="external/pyth.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.7.9<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para">
+<dfn class="terminology">Case I:</dfn> If <span class="process-math">\(\lambda^{2} \gt \omega^{2}_{o},\)</span> then <span class="process-math">\(\beta\)</span> is real hence both the exponential terms in eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr6.html" title="Equation 3.7.14">(3.7.14)</a> become real and the charge gradually acquires its final value <span class="process-math">\(q_{o}\)</span> as shown by <em class="emphasis">curve I</em> in the <a href="" class="xref" data-knowl="./knowl/gr10.html" title="Figure 3.7.9.(a)">Figure 3.7.9.(a)</a>.</div>
+<div class="para logical">
+<div class="para">
+<dfn class="terminology">Case II:</dfn> If <span class="process-math">\(\lambda^{2} = \omega^{2}_{o},\)</span> then <span class="process-math">\(\beta \)</span> is zero hence both the coefficients of exponential terms in eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr6.html" title="Equation 3.7.14">(3.7.14)</a> become infinite and hence from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr3.html" title="Equation 3.7.11">(3.7.11)</a> assume that <span class="process-math">\(\beta\)</span> to be very small, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+q=q_{o}+Ae^{(-\lambda+\beta)t}+Be^{(-\lambda-\beta)t}= q_{o}+e^{-\lambda t}\left[Ae^{\beta t}+Be^{-\beta t}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+\text{or,}\quad q = q_{o}+e^{-\lambda t}\left[A(1+\beta t+\cdots)+B(1-\beta t+\cdots)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+\text{or,}\quad q = q_{o}+e^{-\lambda t}\left[(A+B)+\beta (A-B)t\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html ./knowl/eqn-lcr3.html">
+\begin{equation}
+\text{or,}\quad q = q_{o}+e^{-\lambda t}\left[P+Q t\right]\tag{3.7.15}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\([P=(A+B)\)</span> and <span class="process-math">\(Q=\beta (A-B)]. \)</span>
+</div>
+</div>
+<div class="para logical">
+<div class="para">Now as q=0 at t=0, <span class="process-math">\(q_{o}=-P\)</span> from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr3.html" title="Equation 3.7.11">(3.7.11)</a>. Differentiating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr7.html" title="Equation 3.7.15">(3.7.15)</a>;</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+i=\frac{\,dq}{\,dt}=-\lambda e^{-\lambda t}\left[P+Q t\right]+e^{-\lambda t}Q
+\end{equation*}
+</div>
+<div class="para">Now i=0 at t=0, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+0=-\lambda P+Q=\lambda q_{o}+Q
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+\therefore\quad Q=-\lambda q_{o}
+\end{equation*}
+</div>
+<div class="para">Substituting these values in eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr7.html" title="Equation 3.7.15">(3.7.15)</a>, we egt -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+q=q_{o}+e^{-\lambda t}\left(-q_{o}-\lambda q_{o}t\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+\text{or,}\quad q=q_{o}-q_{o}\left(1+\lambda t\right) e^{-\lambda t}
+\end{equation*}
+</div>
+<div class="para">i.e., the charge gradually increases with time as shown by <em class="emphasis">curve II</em> in the <a href="" class="xref" data-knowl="./knowl/gr10.html" title="Figure 3.7.9.(a)">Figure 3.7.9.(a)</a>.</div>
+</div>
+<div class="para logical">
+<div class="para">
+<dfn class="terminology">Case III:</dfn> If <span class="process-math">\(\lambda^{2} \lt \omega^{2}_{o},\)</span> then <span class="process-math">\(\beta\)</span> is imaginary. Let us put</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\beta = \sqrt{(\lambda^{2}-\omega^{2}_{o})}=j\sqrt{(\omega^{2}_{o}-\lambda^{2})}=j\gamma 
+\end{equation*}
+</div>
+<div class="para">where</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\gamma = \sqrt{(\omega^{2}_{o}-\lambda^{2})}.
+\end{equation*}
+</div>
+<div class="para">Hence, from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr6.html" title="Equation 3.7.14">(3.7.14)</a>, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+q= q_{o}-\frac{q_{o}}{2}\left(1+\frac{\lambda}{j\gamma}\right) e^{(-\lambda +j\gamma)t} 
+- \frac{q_{o}}{2}\left(1-\frac{\lambda}{j\gamma}\right) e^{(-\lambda -j\gamma)t}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\text{or,}\quad q = q_{o}-\frac{q_{o}}{2}e^{-\lambda t}\left(e^{j\gamma t}
++\frac{\lambda}{j\gamma} e^{j\gamma t}+ e^{-j\gamma t}- \frac{\lambda}{j\gamma} e^{-j\gamma t}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\text{or,}\quad q = q_{o}-q_{o}e^{-\lambda t}\left(\frac{e^{j\gamma t}+e^{-j\gamma t}}{2} 
++ \frac{\lambda}{\gamma} \frac{e^{j\gamma t}-e^{-j\gamma t}}{2j} \right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\therefore\quad q = q_{o}-q_{o}e^{-\lambda t}\left(\cos\gamma t+ \frac{\lambda}{\gamma} \sin\gamma t\right)
+\end{equation*}
+</div>
+</div>
+<div class="para logical">
+<div class="para">Let us put <span class="process-math">\(\frac{\lambda}{\gamma} = \tan\theta\)</span> where <span class="process-math">\(\theta\)</span> is a new constant so that <span class="process-math">\(\sin\theta=\frac{\lambda}{\omega_{o}}\)</span> and <span class="process-math">\(\cos\theta=\frac{\gamma}{\omega_{o}}.\)</span> as shown in <a href="" class="xref" data-knowl="./knowl/pyth.html" title="Figure 3.7.9.(b)">Figure 3.7.9.(b)</a>. Hence from the above equation</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+q= q_{o}-q_{o}e^{-\lambda t}\left(\cos\gamma t+\tan\theta\sin\gamma t\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+=  q_{o}-q_{o}\frac{e^{-\lambda t}}{\cos\theta}\left(\cos\theta\cos\gamma t+\sin\theta\sin\gamma t\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\therefore\quad q= q_{o}-q_{o}\frac{\omega_{o} e^{-\lambda t}}{\gamma} \cos\left(\gamma t-\theta \right)
+\end{equation*}
+</div>
+<div class="para">Thus in this case the charge is damped oscillatory as shown by <em class="emphasis">curve III</em> in <a href="" class="xref" data-knowl="./knowl/gr10.html" title="Figure 3.7.9.(a)">Figure 3.7.9.(a)</a>. The current in this case is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+i=\frac{\,dq}{\,dt} = q_{o}\omega_{o}e^{-\lambda t}\sin(\gamma t - \theta) +q_{o}\frac{\omega_{o}\lambda e^{-\lambda t}}{\gamma} \cos\left(\gamma t-\theta \right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\text{or,}\quad i=q_{o}\frac{\omega_{o} e^{-\lambda t}}{\gamma}\left[\gamma\sin(\gamma t-\theta)+\lambda\cos(\gamma t-\theta)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\text{or,}\quad i=q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\left[\frac{\gamma}{\omega_{o}}\sin(\gamma t-\theta) 
++\frac{\lambda}{\omega_{o}}\cos(\gamma t-\theta)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\text{or,}\quad i=q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\left[\cos\theta\sin(\gamma t-\theta)
++\sin\theta\cos(\gamma t-\theta)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\therefore\quad i= q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\sin\gamma t
+\end{equation*}
+</div>
+<div class="para">i.e., current is also damped oscillatory.</div>
+</div>
+</li>
+<li>
+<div class="para logical">
+<div class="para">
+<dfn class="terminology">Discharging of a capacitor</dfn> When circuit is connected to point 2 capacitor begins discharging through the inductor and resistor. Hence</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
+\begin{equation*}
+\frac{q}{C}+L\frac{\,di}{\,dt}+Ri=0
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(i=\pm \frac{\,dq}{\,dt}\)</span> and during discharging <span class="process-math">\(\,dq \)</span> is decreasing or <span class="process-math">\(\,dq\)</span> is negative, Therefore <span class="process-math">\(i=\frac{\,dq}{\,dt}\text{.}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
+\begin{equation*}
+\text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}}+R\frac{\,dq}{\,dt}+\frac{q}{C} =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}}+\frac{R}{L}\frac{\,dq}{\,dt}+\frac{q}{LC} =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
+\begin{equation}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}}+2\lambda\frac{\,dq}{\,dt}+\omega^{2}_{o}q =0\tag{3.7.16}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\([\frac{R}{L} = 2\lambda \)</span> and <span class="process-math">\(\frac{1}{LC}=\omega^{2}_{o}] \)</span> If <span class="process-math">\(q=Ae^{\alpha t}\)</span> be the trial solution of eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr8.html" title="Equation 3.7.16">(3.7.16)</a> then this equation becomes</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
+\begin{equation*}
+\alpha^{2}+2\lambda \alpha +\omega^{2}_{o} =0
+\end{equation*}
+</div>
+</div>
+<div class="para logical">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation}
+\text{or,}\quad \alpha = -\lambda \pm \sqrt{(\lambda^{2}-\omega^{2}_{o})} = -\lambda \pm \beta  \tag{3.7.17}
+\end{equation}
+</div>
+<div class="para">The general solution of eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr9.html" title="Equation 3.7.17">(3.7.17)</a> is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation*}
+q=Ae^{(-\lambda+\beta t)}+B e^{(-\lambda-\beta t)}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation}
+q=e^{-\lambda t}\left(Ae^{\beta t}+B e^{-\beta t}\right)  \tag{3.7.18}
+\end{equation}
+</div>
+<div class="para">According to initial condition, when t=0, <span class="process-math">\(q=q_{o}\text{,}\)</span> maximum value.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation*}
+\therefore\quad A+B = q_{o}
+\end{equation*}
+</div>
+<div class="para">Differentiating eqn.<a href="" class="xref" data-knowl="./knowl/eqn-lcr10.html" title="Equation 3.7.18">(3.7.18)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation*}
+i=\frac{\,dq}{\,dt} = -\lambda e^{-\lambda t}\left(Ae^{\beta t}+B e^{-\beta t}\right)+e^{-\lambda t}\left(A\beta e^{-\beta t}
+-B \beta e^{-\beta t}\right)
+\end{equation*}
+</div>
+<div class="para">At i=0, <span class="process-math">\(\frac{\,dq}{\,dt} =0.\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation*}
+\beta(A-B)-\lambda(A+B)=0.
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation*}
+\therefore\quad A-B = \frac{\lambda(A+B)}{\beta} = \frac{\lambda q_{o}}{\beta}
+\end{equation*}
+</div>
+<div class="para">Hence</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation*}
+A = \frac{q_{o}}{2}\left[1+\frac{\lambda}{\beta}\right] 
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation*}
+B = \frac{q_{o}}{2}\left[1-\frac{\lambda}{\beta}\right]
+\end{equation*}
+</div>
+<div class="para">Therefore eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr10.html" title="Equation 3.7.18">(3.7.18)</a> becomes -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation*}
+q=\frac{q_{o}}{2}\left\{\left(1+\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\lambda+\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}
++ \left(1-\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\lambda-\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}\right\}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+\begin{equation}
+\therefore\quad q= \frac{q_{o}}{2}e^{-\lambda t}\left\{\left(1+\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{\sqrt{(\lambda^{2} 
+-\omega^{2}_{o})}t}+ \left(1-\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}\right\} \tag{3.7.19}
+\end{equation}
+</div>
+<div class="para">Depending upon the relative value of <span class="process-math">\(\lambda\text{,}\)</span> there arises three cases -</div>
+</div>
+<div class="para">
+<em class="alert">Case I:</em> When <span class="process-math">\(\lambda^{2} \gt \omega^{2}_{o}\text{,}\)</span> we get overdamped discharge. In this case exponential terms become negative and hence charge decreases exponentially with time and finally becomes zero.</div>
+<div class="para logical">
+<div class="para">
+<em class="alert">Case II:</em> When <span class="process-math">\(\lambda^{2}=\omega^{2}_{o}\text{,}\)</span> we get critically damped discharge. In this case two values of <span class="process-math">\(\alpha\)</span> become identical and after using the initial condition</div>
+<div class="displaymath process-math">
+\begin{equation*}
+q=q_{o}e^{-\lambda t}(1+\lambda t)
+\end{equation*}
+</div>
+<div class="para">Here charge becomes to zero without oscillation in least amount of time.</div>
+</div>
+<div class="para logical">
+<div class="para">
+<em class="alert">Case III:</em> When <span class="process-math">\(\lambda^{2} \lt \omega^{2}_{o}\text{,}\)</span> we get under damped discharge. Since <span class="process-math">\(\sqrt{\lambda^{2}-\omega^{2}_{o}}\)</span> is imaginary.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr11.html">
+\begin{equation*}
+\text{or,}\quad \sqrt{\lambda^{2}-\omega^{2}_{o}} =j\gamma
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr11.html">
+\begin{equation*}
+\text{where}\quad \gamma = \sqrt{\omega^{2}_{o}-\lambda^{2}}
+\end{equation*}
+</div>
+<div class="para">Hence from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr11.html" title="Equation 3.7.19">(3.7.19)</a>,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr11.html">
+\begin{equation*}
+q=\frac{q_{o}}{2}e^{-\lambda t}\left[\left(1+\frac{\lambda}{j\gamma}\right)e^{j\gamma t}+\left(1-\frac{\lambda}{j\gamma}\right)e^{-j\gamma t}\right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr11.html">
+\begin{equation*}
+\text{or,}\quad q=q_{o}e^{-\lambda t}\left[\left(\frac{e^{j\gamma t}+e^{-j\gamma t}}{2}\right)+\frac{\lambda}{\gamma}\left(\frac{e^{j\gamma t}-e^{-j\gamma t}}{2j}\right)\right]
+\end{equation*}
+</div>
+</div>
+<figure class="figure figure-like"><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/gr11.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.7.10<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html">
+\begin{equation*}
+\text{or,}\quad q= q_{o}e^{-\lambda t}\left[\cos\gamma t+\frac{\lambda}{\gamma}\sin\gamma t\right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html">
+\begin{equation*}
+\text{or,}\quad q= \frac{q_{o}\omega_{o}e^{-\lambda t}}{\gamma}\left[\frac{\gamma}{\omega_{o}}\cos\gamma t+\frac{\lambda}{\omega_{o}}\sin\gamma t\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html">
+\begin{equation*}
+\text{or,}\quad q= \frac{q_{o}\omega_{o}e^{-\lambda t}}{\gamma}\left[\cos\phi\cos\gamma t+\sin\phi\sin\gamma t\right]
+\end{equation*}
+</div>
+<div class="para">see <a href="" class="xref" data-knowl="./knowl/pyth.html" title="Figure 3.7.9.(b)">Figure 3.7.9.(b)</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html">
+\begin{equation*}
+\therefore \quad q= \frac{q_{o}\omega_{o}e^{-\lambda t}}{\gamma}\sin(\gamma t+\phi)
+\end{equation*}
+</div>
+<div class="para">This is the equation for damped oscillation, where <span class="process-math">\(\gamma\)</span> is an angular frequency of the discharge.</div>
+</div>
+</li>
+</ol></div>
+<span class="incontext"><a href="subsec-lcr.html#p-536" class="internal">in-context</a></span>
 </body>
 </html>

@@ -11,8 +11,46 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para">A coil of wire of radius 10 cm, current 2 A, and 100 turns is centered at the origin and lies in the x/y plane. A second coil of wire of radius 20 cm, current 4 A and 200 turns is also centered at the origin but lies in the x/z plane. If the current in the small coil rotates from the x-direction to the y-direction, and if the current in the large coil rotates from the x-direction to the z-direction, then what is the magnitude and direction of the magnetic field at the origin?</div>
-<span class="incontext"><a href="ex_third.html#p-545" class="internal">in-context</a></span>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
+<div class="para logical">
+<div class="para">
+<dfn class="terminology">Case III:</dfn> If <span class="process-math">\(\lambda^{2} \lt \omega^{2}_{o},\)</span> then <span class="process-math">\(\beta\)</span> is imaginary. Let us put</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\beta = \sqrt{(\lambda^{2}-\omega^{2}_{o})}=j\sqrt{(\omega^{2}_{o}-\lambda^{2})}=j\gamma 
+\end{equation*}
+</div>
+<div class="para">where</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\gamma = \sqrt{(\omega^{2}_{o}-\lambda^{2})}.
+\end{equation*}
+</div>
+<div class="para">Hence, from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr6.html" title="Equation 3.7.14">(3.7.14)</a>, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+q= q_{o}-\frac{q_{o}}{2}\left(1+\frac{\lambda}{j\gamma}\right) e^{(-\lambda +j\gamma)t} 
+- \frac{q_{o}}{2}\left(1-\frac{\lambda}{j\gamma}\right) e^{(-\lambda -j\gamma)t}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\text{or,}\quad q = q_{o}-\frac{q_{o}}{2}e^{-\lambda t}\left(e^{j\gamma t}
++\frac{\lambda}{j\gamma} e^{j\gamma t}+ e^{-j\gamma t}- \frac{\lambda}{j\gamma} e^{-j\gamma t}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\text{or,}\quad q = q_{o}-q_{o}e^{-\lambda t}\left(\frac{e^{j\gamma t}+e^{-j\gamma t}}{2} 
++ \frac{\lambda}{\gamma} \frac{e^{j\gamma t}-e^{-j\gamma t}}{2j} \right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
+\begin{equation*}
+\therefore\quad q = q_{o}-q_{o}e^{-\lambda t}\left(\cos\gamma t+ \frac{\lambda}{\gamma} \sin\gamma t\right)
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-lcr.html#p-545" class="internal">in-context</a></span>
 </body>
 </html>

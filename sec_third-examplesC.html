@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-induced_elf.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_third.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="ex_third.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-lcr.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_third.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_third-accircuits.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -402,10 +402,26 @@ window.MathJax = {
 <li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-supercond" class="internal"><span class="codenumber">3.7.4.4</span> <span class="title">Superconductivity</span></a></div></li>
 </ul>
 </li>
+<li>
+<div class="toc-item"><a href="subsec-self_induct.html" class="internal"><span class="codenumber">3.7.5</span> <span class="title">Self-Inductance:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-self_solenoid" class="internal"><span class="codenumber">3.7.5.1</span> <span class="title">Self-inductance of a solenoid:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-mutual_ind" class="internal"><span class="codenumber">3.7.5.2</span> <span class="title">Mutual Inductance:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-maf_fieldenergy" class="internal"><span class="codenumber">3.7.5.3</span> <span class="title">Magnetic-Field Energy</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-rlc.html" class="internal"><span class="codenumber">3.7.6</span> <span class="title">R-L Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lc.html" class="internal"><span class="codenumber">3.7.7</span> <span class="title">L-C Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lcr.html" class="internal"><span class="codenumber">3.7.8</span> <span class="title">L-C-R Circuit</span></a></div></li>
 </ul>
 </li>
 <li class="active"><div class="toc-item"><a href="sec_third-examplesC.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Examples C</span></a></div></li>
-<li><div class="toc-item"><a href="ex_third.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Exercise</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-accircuits.html" class="internal"><span class="codenumber">3.9</span> <span class="title">AC Circuits</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-rmsI.html" class="internal"><span class="codenumber">3.9.1</span> <span class="title">RMS value of emf or current</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesD.html" class="internal"><span class="codenumber">3.10</span> <span class="title">Examples D</span></a></div></li>
+<li><div class="toc-item"><a href="ex_third.html" class="internal"><span class="codenumber">3.11</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li>
@@ -442,12 +458,492 @@ window.MathJax = {
 <section class="paragraphs" id="paragraphs-24"><h2 class="heading"><span class="title">Electromagnetic Induction.</span></h2> <article class="example example-like" id="example-53"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.8.1</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-515"></div>
+<div class="para logical" id="p-553">
+<div class="para">A coil of wire of radius 5 cm and 100 turns is centered at the origin and lies in the x/y plane. A uniform magnetic field is in the -z direction and is increasing at the rate of 0.2 T/s. If the resistance of the coil is <span class="process-math">\(50 \Omega,\)</span> find <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig58.png" class="contained"></div>
+</div>
+<ol class="lower-alpha">
+<li id="li-539"><div class="para" id="p-derived-li-539">the emf induced in the coil,</div></li>
+<li id="li-540"><div class="para" id="p-derived-li-540">the current in the coil,</div></li>
+<li id="li-541"><div class="para" id="p-derived-li-541">the direction of the current in the coil,</div></li>
+<li id="li-542"><div class="para" id="p-derived-li-542">the direction of the magnetic field resulting from the current in the coil,</div></li>
+<li id="li-543"><div class="para" id="p-derived-li-543">the power required to keep the original magnetic field increasing at 0.2 T/s.</div></li>
+</ol>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-53" id="solution-53"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-53"><div class="solution solution-like"><div class="para" id="p-516"></div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-53" id="solution-53"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-53"><div class="solution solution-like">
+<div class="para" id="p-554">Given: <span class="process-math">\(r=0.05\,m, \quad N=100, \quad B=(0.2\,T/s)t,\)</span> <span class="process-math">\(R = 50\,\Omega\)</span>
+</div> <div class="para logical" id="p-555"><ol class="lower-alpha">
+<li id="li-544"><div class="para" id="p-derived-li-544">
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{B} = \int \vec{B}\cdot \vec{\,dA} = BA
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A=\pi r^{2} = 0.00785 \,m^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon = -N\frac{\,d\Phi_{B}}{\,dt} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{B} = (0.00157 \,W_{b}/s)t
+\end{equation*}
+</div>
+</div></li>
+<li id="li-545"><div class="para" id="p-derived-li-545"><div class="displaymath process-math">
+\begin{equation*}
+\varepsilon = IR;  \quad I = -3.14 \,mA 
+\end{equation*}
+</div></div></li>
+<li id="li-546"><div class="para" id="p-derived-li-546">Counter Clockwise</div></li>
+<li id="li-547"><div class="para" id="p-derived-li-547">+z direction (opposite increasing B).</div></li>
+<li id="li-548"><div class="para" id="p-derived-li-548"><div class="displaymath process-math">
+\begin{equation*}
+P = I\varepsilon =I^{2}R  = 0.493 \,mW.
+\end{equation*}
+</div></div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-54"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.8.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-556">A two parallel long straight wires separated by a distance L = 30 cm are connected by a third straight wire on their left end. A sliding bar, also of length L, is placed across the two long wires and slid to the right with a constant speed <span class="process-math">\(v = 2 \,m/s\)</span> in the +x direction. Everything is placed in a uniform magnetic field B = 10 T directed into the paper as shown in figure below.</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig59.png" class="contained"></div> <div class="para logical" id="p-557">
+<div class="para">If the bar has a resistance of <span class="process-math">\(10 \,\Omega\)</span> and the other wires have negligible resistance, find magnitude and direction of the</div>
+<ol class="lower-alpha">
+<li id="li-549"><div class="para" id="p-derived-li-549">emf induced across the bar,</div></li>
+<li id="li-550"><div class="para" id="p-derived-li-550">current in the bar,</div></li>
+<li id="li-551"><div class="para" id="p-derived-li-551">magnetic force on the bar.</div></li>
+<li id="li-552"><div class="para" id="p-derived-li-552">How much power is required to pull the bar through the magnetic field?</div></li>
+<li id="li-553"><div class="para" id="p-derived-li-553">How much power is dissipated in the bar in the form of heat?</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-54" id="solution-54"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-54"><div class="solution solution-like">
+<div class="para" id="p-558">Given: <span class="process-math">\(L=0.3\,m, \quad v=2\,m/s, \quad B=10\,T, \quad R = 10\,\Omega \)</span>
+</div> <div class="para logical" id="p-559"><ol class="lower-alpha">
+<li id="li-554"><div class="para" id="p-derived-li-554">
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon = -\frac{\,d\Phi_{B}}{\,dt};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{B} = \int\vec{B}\cdot\vec{\,dA}=BA;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A = L x;\quad  x = vt
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon = 6 \,V \quad \text{up}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-555"><div class="para" id="p-derived-li-555"><div class="displaymath process-math">
+\begin{equation*}
+\epsilon = I R \Rightarrow I = 0.6 \,A  \quad \text{up}
+\end{equation*}
+</div></div></li>
+<li id="li-556"><div class="para" id="p-derived-li-556"><div class="displaymath process-math">
+\begin{equation*}
+F = I L B  = 1.8 \,N \quad \text{left}
+\end{equation*}
+</div></div></li>
+<li id="li-557"><div class="para" id="p-derived-li-557"><div class="displaymath process-math">
+\begin{equation*}
+P = F v  = 3.6 \,W
+\end{equation*}
+</div></div></li>
+<li id="li-558"><div class="para" id="p-derived-li-558"><div class="displaymath process-math">
+\begin{equation*}
+P = I\varepsilon =I^{2}R = 3.6 \,W
+\end{equation*}
+</div></div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-55"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.8.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-560">A conducting wire form a semicircle ab of a radius r. The wire has negligible resistance. A resister R  connects an end of the wire, <span class="process-math">\(b\)</span> to the center of the circle, <span class="process-math">\(c\)</span> as shown in figure. A conducting rod connects the center, <span class="process-math">\(c\)</span> to the semicircle wire and sweeps around at an angular speed <span class="process-math">\(\omega\)</span> in the counterclockwise direction (see Figure). The rod has negligible resistance. A uniform magnetic field B perpendicular to the plane of the circle (into the plane). Find change in the magnetic flux during small interval of time t, Find the current induced in the loop, and is the direction of the induced current clockwise or counterclockwise?.</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/semimagflux.png" class="contained"></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-55" id="solution-55"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-55"><div class="solution solution-like">
+<div class="para" id="p-561">The area of a circle can be determined by <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/circlearea.png" class="contained"></div>
+</div> <div class="para logical" id="p-562">
+<div class="displaymath process-math">
+\begin{equation*}
+\,dA = \text{area of shaded region} = \frac{1}{2}r\,ds 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{1}{2}r (r\,d\theta) =\frac{1}{2}r^{2} \,d\theta
+\end{equation*}
+</div>
+<div class="para">Therefore change in magnetic flux,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon = emf= -\frac{\,d\Phi}{\,dt} = -B\left(\frac{-\,dA}{\,dt}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{2}r^{2}B\left(\frac{\,d\theta}{\,dt}\right) = \frac{1}{2}r^{2}B \omega
+\end{equation*}
+</div>
+<div class="para">Current induced in the loop is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I=\frac{emf}{R}
+\end{equation*}
+</div>
+<div class="para">The direction of current is clockwise as the loop opposes the flux to be decreased hence current is induced in a circuit to substitute the decreasing flux. Use Fleming’s right hand rule to determine the direction of induced current.</div>
+</div>
+</div></div>
+</div></article> <article class="example example-like" id="example-56"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.8.4</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-563">
+<div class="para">A rectangular loop of length, l  width, w  is placed at a distance, h from a current carrying wire whose current is varying as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I=a+bt
+\end{equation*}
+</div>
+<div class="para">where a  and  b  are constants. If b = 10 A/s, h = 1 cm, w = 10 cm,  and  l = 100 cm, find the magnetic flux, induced emf, and the direction of induced current in the loop.</div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-56" id="solution-56"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-56"><div class="solution solution-like">
+<div class="para logical" id="p-564">
+<div class="para">Magnetic field at a distance, x from current carrying conductor is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B= \frac{\mu_{o}I}{2\pi x}.
+\end{equation*}
+</div>
+<div class="para">Now magnetic flux through a differential area <span class="process-math">\(\,dA \)</span>  is given by</div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/rectloop.png" class="contained"></div> <div class="para logical" id="p-565">
+<div class="displaymath process-math">
+\begin{equation*}
+\,d\Phi=\vec{B}\cdot\vec{\,dA} = B\,dA = BL\,dx
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \Phi = \int\,d\Phi= \int\limits_{h}^{h+w} \frac{\mu_{o}IL\,dx}{2\pi x} = \left.\frac{\mu_{o}IL}{2\pi} \ln x\right]_{h}^{h+w}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{\mu_{o}IL}{2\pi} ln\left(\frac{h+w}{h}\right) = \frac{\mu_{o}L}{2\pi} (a+bt) ln\left(\frac{h+w}{h}\right)
+\end{equation*}
+</div>
+<div class="para">Magnetic field is in decreasing order as point P  shifts away form the current carrying conductor but flux increases on every layer in a loop with time as current increases in a wire.</div>
+</div> <div class="para logical" id="p-566">
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \varepsilon = - \frac{\,d\Phi}{\,dt}  = - \frac{\mu_{o}L}{2\pi}ln\left(\frac{h+w}{h}\right)b
+\end{equation*}
+</div>
+<div class="para">As the current changes in a wire, it changes the magnetic flux into the loop. Hence from Lenz’s law the direction of induced current in a loop must opposes this change, meaning the direction of current must be counterclockwise if current increases in a wire.</div>
+</div>
+</div></div>
+</div></article> <article class="example example-like" id="example-57"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.8.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-567">A conducting loop of mass, M resistance, R length, l and width, w  is falling into magnetic field, B pointing into the page. Find the terminal velocity <span class="process-math">\(v_{t}\)</span> attained by the loop before its top edge enters into the field.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-57" id="solution-57"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-57"><div class="solution solution-like">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fallingloop.png" class="contained"></div> <div class="para logical" id="p-568">
+<div class="para">When lower arm of the loop enters into external magnetic field flux starts increasing in the loop and hence loop induces its current in such a way that it could oppose that change. Consequently, loop induced magnetic field, <span class="process-math">\(\vec{B}_{ind} \)</span> just opposite to external magnetic field, <span class="process-math">\(\vec{B} \text{.}\)</span> Meaning if external field <span class="process-math">\(\vec{B}\)</span> is pointed into the page then induced field <span class="process-math">\(\vec{B}_{ind}\)</span> by the loop is pointed out of the page. Now from <em class="emphasis">Right Hand Thumb</em> rule the induced current, I  in the loop must be counterclockwise. As current, I is flowing in the conductor of width, w  inside the external  field  <span class="process-math">\(\vec{B}\text{,}\)</span> it starts experiencing a magetic force <span class="process-math">\(\vec{F}_{b}\)</span> upwards which can be found by Fleming’s <em class="emphasis">Left Hand Rule:</em> Forefinger along <span class="process-math">\(\vec{B} \text{,}\)</span> middlefinger along currenet I, then thumb gives the direction of force  <span class="process-math">\(\vec{F}_{b} \)</span> upward. Now, emf induced in the loop is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+e = -\frac{\,d\phi}{\,dt} = -B l \frac{\,dy}{\,dt}  = -\,B \,l\, v
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-569">
+<div class="para">As B  and  w  are constant and loop is falling into the field along width  w where we have considered <span class="process-math">\(\,dy\)</span> as small elementry width of the loop. Since R  is the resistance of the loop, we have magnitude of emf, <span class="process-math">\(e = IR.\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-fallingl1.html ./knowl/eqn-fallingl2.html" id="eqn-fallingl1">
+\begin{equation}
+\therefore\quad IR =  Blv \tag{3.8.1}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-fallingl1.html ./knowl/eqn-fallingl2.html" id="eqn-fallingl2">
+\begin{equation}
+also, \quad F_{b} = BIl \tag{3.8.2}
+\end{equation}
+</div>
+<div class="para">Using eqns. <a href="" class="xref" data-knowl="./knowl/eqn-fallingl1.html" title="Equation 3.8.1">(3.8.1)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-fallingl2.html" title="Equation 3.8.2">(3.8.2)</a>, we have-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-fallingl1.html ./knowl/eqn-fallingl2.html" id="eqn-fallingl3">
+\begin{equation}
+F_{b} = \frac{B^{2}l^{2}v }{R} \tag{3.8.3}
+\end{equation}
+</div>
+<div class="para">Note that the magnetic force on the left and right arms of the loop cancell out each other and there is no magnetic force acting on the top arm. Now before sufficient portion of the loop falls into the magnetic field the magnetidue of <span class="process-math">\(F_{b}\)</span> keeps increasing and finally gets balanced by the <span class="process-math">\(F_{g}. \)</span> At this point <span class="process-math">\(v\)</span> becomes constant called terminal velocity, <span class="process-math">\(v_{t}.\)</span> Hence,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-fallingl1.html ./knowl/eqn-fallingl2.html">
+\begin{equation*}
+F_{b} = F_{g}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-fallingl1.html ./knowl/eqn-fallingl2.html">
+\begin{equation*}
+or, \quad \frac{B^{2}l^{2}v_{t} }{R}  = mg
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-fallingl1.html ./knowl/eqn-fallingl2.html">
+\begin{equation*}
+\therefore\quad v_{t} = \frac{mgR}{B^{2}l^{2}} 
+\end{equation*}
+</div>
+<div class="para">Here, <span class="process-math">\(v_{t}\)</span> proportional to R and inversely proportional to <span class="process-math">\(B^{2}.\)</span>
+</div>
+</div>
+</div></div>
+</div></article></section><section class="paragraphs" id="paragraphs-25"><h2 class="heading"><span class="title">Inductance.</span></h2> <article class="example example-like" id="example-58"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.8.6</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-570">
+<div class="para">A Tesla coil is constructed by wrapping <span class="process-math">\(N_{1}\)</span> turns of wire along a length l of a hollow tube of cross-sectional area A and then wrapping a second coil <span class="process-math">\(N_{2}\)</span> times around the first coil.</div>
+<ol class="lower-alpha">
+<li id="li-559"><div class="para" id="p-derived-li-559">What is the mutual inductance of the two coils?</div></li>
+<li id="li-560"><div class="para" id="p-derived-li-560">If <span class="process-math">\(N_{1} = 10,000\)</span> turns, <span class="process-math">\(N_{2} = 100\)</span> turns, <span class="process-math">\(l = 1 \,m,\)</span> and the radius of the solenoid is 1 cm, what is the numerical value of the mutual inductance?</div></li>
+<li id="li-561"><div class="para" id="p-derived-li-561">If a radio frequency signal of <span class="process-math">\(1000 \,kHz\)</span> is sent through the second coil such that the current oscillates with an amplitude of <span class="process-math">\(100 \,mA,\)</span> what is the maximum average magnetic flux through each turn of the first coil?</div></li>
+<li id="li-562"><div class="para" id="p-derived-li-562">What is the maximum current through the first coil?</div></li>
+<li id="li-563"><div class="para" id="p-derived-li-563">What is the maximum induced emf in the first coil?</div></li>
+<li id="li-564"><div class="para" id="p-derived-li-564">What is the maximum induced back-emf in the first coil?</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-58" id="solution-58"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-58"><div class="solution solution-like">
+<div class="para" id="p-571">Given: <span class="process-math">\(N_{1} = 10,000;\quad N_{2} =100;\quad l=1\,m;\)</span> <span class="process-math">\(r=0.01\,m; \quad f=1.0\times10^{6} \,Hz;\quad I_{o} = 0.1\,A \)</span>
+</div> <div class="para logical" id="p-572">
+<div class="para">Equations:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+M =  \frac{N_{2}\Phi_{B2}}{I_{1}};\quad \Phi_{B2} = \Phi_{B1} =B_{1}A
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B_{1} = \mu_{o}\frac{N_{1}}{l}I_{1};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A = \pi r^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\omega = 2\pi f;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{2}  = I_{o} \sin\omega t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+M =  \frac{N_{1}\Phi_{B1}}{I_{2}};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+N_{1}I_{1} = N_{2}I_{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon_{1} = -M\frac{\,dI_{2}}{\,dt};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\varepsilon_{1}}{\varepsilon_{2}} = \frac{N_{1}}{N_{2}} 
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-573"><ol class="lower-alpha">
+<li id="li-565"><div class="para" id="p-derived-li-565"><div class="displaymath process-math">
+\begin{equation*}
+M =  \frac{\mu_{o}A N_{1}N_{2}}{l}\Rightarrow A= 0.0003142 \,m^{2}
+\end{equation*}
+</div></div></li>
+<li id="li-566"><div class="para" id="p-derived-li-566">
+<div class="displaymath process-math">
+\begin{equation*}
+M= 3.948\times10^{-4} \,H;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\omega = 6.283\times10^{6}  \,rev/s
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{B1} = \frac{MI_{o}\sin\omega t}{N_{1}}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-567"><div class="para" id="p-derived-li-567"><div class="displaymath process-math">
+\begin{equation*}
+\Phi_{B1 max} = \frac{MI_{o}}{N_{1}} =3.948\times10^{-9} \,W_{b} 
+\end{equation*}
+</div></div></li>
+<li id="li-568"><div class="para" id="p-derived-li-568">
+<div class="displaymath process-math">
+\begin{equation*}
+I_{1 max} = \frac{N_{2}I_{2 max}}{N_{1}} =1.0\times10^{-3}\, A 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon_{1} = -M\omega I_{o}\cos\omega t
+\end{equation*}
+</div>
+</div></li>
+<li id="li-569"><div class="para" id="p-derived-li-569"><div class="displaymath process-math">
+\begin{equation*}
+[\varepsilon_{1 max} = M\omega I_{o}= 248\, V
+\end{equation*}
+</div></div></li>
+<li id="li-570"><div class="para" id="p-derived-li-570"><div class="displaymath process-math">
+\begin{equation*}
+\varepsilon_{2 max} = \frac{N_{2}}{N_{1}}\varepsilon_{1 max} =  2.48\, V
+\end{equation*}
+</div></div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-59"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.8.7</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-574"><ol class="lower-alpha">
+<li id="li-571"><div class="para" id="p-derived-li-571">What is the inductance of a long solenoid of length l, cross-sectional area A, and N turns.</div></li>
+<li id="li-572"><div class="para" id="p-derived-li-572">What is the inductance of a solenoid 2.0 m long, 2.0 cm in radius, and 2000 turns?</div></li>
+<li id="li-573"><div class="para" id="p-derived-li-573">If the current in this solenoid decreases uniformly from 4 A to zero in 2.0 s, what is the magnitude and direction of the self-induced emf in the solenoid?</div></li>
+<li id="li-574"><div class="para" id="p-derived-li-574">What is the energy stored in the solenoid at the beginning of the <span class="process-math">\(2.0 \,\mu s\)</span> interval?</div></li>
+<li id="li-575"><div class="para" id="p-derived-li-575">How much electrical power is dissipated during the <span class="process-math">\(2.0 \,\mu s\)</span> interval?</div></li>
+</ol></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-59" id="solution-59"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-59"><div class="solution solution-like">
+<div class="para" id="p-575">Given: <span class="process-math">\(l=2.0\,m,\quad r=0.02\,m, \quad N=2000, \)</span> <span class="process-math">\(I_{1} = 4\,A, I_{2}=0, \Delta t =2.0\times10^{-6}\,s\)</span>
+</div> <div class="para logical" id="p-576">
+<div class="para">Equations:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+L =  \frac{N\Phi_{B}}{I};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Phi_{B} = B A
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B = \mu_{o}\frac{N}{l}I;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A = \pi r^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon = -L\frac{\,dI}{\,dt} =-L\frac{L_{2}-I_{1}}{\Delta t}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+U_{1}= \frac{1}{2}LI^{2}_{1};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P = \frac{\Delta U}{\Delta t} = \frac{U_{1}}{\Delta t}
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-577"><ol class="lower-alpha">
+<li id="li-576"><div class="para" id="p-derived-li-576"><span class="process-math">\(\displaystyle L =  \frac{\mu_{o}A N^{2}A}{l}\Rightarrow A= 0.0012566 \,m^{2}\)</span></div></li>
+<li id="li-577"><div class="para" id="p-derived-li-577"><span class="process-math">\(\displaystyle L= 3.158times10^{-3} \,H\)</span></div></li>
+<li id="li-578"><div class="para" id="p-derived-li-578"><span class="process-math">\(\displaystyle \varepsilon=6317 \,V; \text{in direction of current}\)</span></div></li>
+<li id="li-579"><div class="para" id="p-derived-li-579"><span class="process-math">\(\displaystyle U_{1} = 2.526\times10^{-2} \,J\)</span></div></li>
+<li id="li-580"><div class="para" id="p-derived-li-580"><span class="process-math">\(\displaystyle P = 1.263 \times10^{4} \,W\)</span></div></li>
+</ol></div>
+</div></div>
+</div></article> <article class="example example-like" id="example-60"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.8.8</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-578">
+<div class="para">The figure below shows an R-L circuit. Assume <span class="process-math">\(\varepsilon  = 12 \,V, \quad R = 10 \,\Omega,\)</span> and <span class="process-math">\(L = 100 \,H.\)</span> Find <span class="process-math">\(V_{ab}, \quad V_{bc},\quad  V_{cd},\quad  V_{ce},\)</span> and <span class="process-math">\(I\text{,}\)</span>
+</div>
+<ol class="lower-alpha">
+<li id="li-581"><div class="para" id="p-derived-li-581">with both switches open,</div></li>
+<li id="li-582"><div class="para" id="p-derived-li-582">immediately after switch <span class="process-math">\(S_{1}\)</span> is closed,</div></li>
+<li id="li-583"><div class="para" id="p-derived-li-583">1 hour after switch <span class="process-math">\(S_{1}\)</span> is closed</div></li>
+<li id="li-584"><div class="para" id="p-derived-li-584">4 s after switch <span class="process-math">\(S_{1}\)</span> is closed.</div></li>
+</ol>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-60" id="solution-60"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-60"><div class="solution solution-like">
+<div class="para" id="p-579">Given: <span class="process-math">\(\varepsilon = 12\,V, \, R=10\,\Omega, \,L= 100\,H \)</span>
+</div> <div class="para logical" id="p-580">
+<div class="para">Equations:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{ab} =IR;
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{bc} = L\frac{dI}{dt},
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon -IR-L\frac{dI}{dt} = 0
+\end{equation*}
+</div>
+</div> <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/fig63.png" class="contained"></div> <div class="para logical" id="p-581"><ol class="lower-alpha">
+<li id="li-585"><div class="para" id="p-derived-li-585"><span class="process-math">\(\displaystyle V_{ab} =0, \quad V_{bc} =0,\quad V_{cd}=12V,\quad V_{ce} = 0, \quad I=0\)</span></div></li>
+<li id="li-586"><div class="para" id="p-derived-li-586"><span class="process-math">\(\displaystyle V_{ab} =0, \quad V_{bc} =12\,V,\quad V_{cd}=0, \quad V_{ce} = -12\,V, \quad I=0\)</span></div></li>
+<li id="li-587"><div class="para" id="p-derived-li-587"><span class="process-math">\(\displaystyle [V_{ab} =12\,V,\quad V_{bc} =0,\quad V_{cd}=0, \quad V_{ce} = -12\,V,\quad I=1.2\,A\)</span></div></li>
+<li id="li-588"><div class="para" id="p-derived-li-588">Assume, <span class="process-math">\(I =I_{f}(1-e^{-t/\tau}),\)</span> then<div class="displaymath process-math">
+\begin{equation*}
+\frac{dI}{dt} = \frac{I_{f}}{\tau}e^{-t/\tau},
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{f} =\frac{\varepsilon}{R} = 1.2\,A
+\end{equation*}
+</div>and<div class="displaymath process-math">
+\begin{equation*}
+\tau=\frac{L}{R} = 10 \,s 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{ab} = 3.96\,V, \quad V_{bc} = 8.04\,V, \quad V_{cd} = 0,  \quad V_{ce} = -12\,V,\quad I = 0.396 \,A
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+</div></div>
 </div></article></section></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="subsec-induced_elf.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="ex_third.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="subsec-lcr.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_third-accircuits.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">

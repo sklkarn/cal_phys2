@@ -11,15 +11,33 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">A long straight wire lies along the x-axis carrying 2 A of current in the +x direction. A second, parallel wire located at y = 20 cm carries current of 5 A in the opposite direction.</div>
-<ol class="lower-alpha">
-<li><div class="para">What is the magnetic field due to these currents at the point (0, 0.1 m)?</div></li>
-<li><div class="para">At the point (1m, 1m)?</div></li>
-<li><div class="para">What is the magnitude and direction of the magnetic force on a <span class="process-math">\(10 \mu C\)</span> charge moving in the +z direction with a speed of <span class="process-math">\(10^{4} \,m/s \)</span> if it is at the point (-0.2 m, -0.2 m)?</div></li>
-</ol>
+<div class="para">
+<dfn class="terminology">Case II:</dfn> If <span class="process-math">\(\lambda^{2} = \omega^{2}_{o},\)</span> then <span class="process-math">\(\beta \)</span> is zero hence both the coefficients of exponential terms in eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr6.html" title="Equation 3.7.14">(3.7.14)</a> become infinite and hence from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr3.html" title="Equation 3.7.11">(3.7.11)</a> assume that <span class="process-math">\(\beta\)</span> to be very small, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+q=q_{o}+Ae^{(-\lambda+\beta)t}+Be^{(-\lambda-\beta)t}= q_{o}+e^{-\lambda t}\left[Ae^{\beta t}+Be^{-\beta t}\right]
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-543" class="internal">in-context</a></span>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+\text{or,}\quad q = q_{o}+e^{-\lambda t}\left[A(1+\beta t+\cdots)+B(1-\beta t+\cdots)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html ./knowl/eqn-lcr3.html">
+\begin{equation*}
+\text{or,}\quad q = q_{o}+e^{-\lambda t}\left[(A+B)+\beta (A-B)t\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html ./knowl/eqn-lcr3.html">
+\begin{equation}
+\text{or,}\quad q = q_{o}+e^{-\lambda t}\left[P+Q t\right]\tag{3.7.15}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\([P=(A+B)\)</span> and <span class="process-math">\(Q=\beta (A-B)]. \)</span>
+</div>
+</div>
+<span class="incontext"><a href="subsec-lcr.html#p-543" class="internal">in-context</a></span>
 </body>
 </html>

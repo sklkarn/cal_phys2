@@ -2377,13 +2377,103 @@ var ptx_lunr_docs = [
   "body": "Maxwell's Equations: "
 },
 {
+  "id": "subsec-self_induct",
+  "level": "1",
+  "url": "subsec-self_induct.html",
+  "type": "Subsection",
+  "number": "3.7.5",
+  "title": "Self-Inductance:",
+  "body": " Self-Inductance:   The phenomenon of the production of induced emf in a circuit itself due to the change in current through it is called self induction and induced emf is called back emf. The delayed response of changing current in a circuit like solenoid is due to a self induction. This is because the changing magnetic flux through the solenoid produces a self-induced emf to initially oppose any changes as prescribed by Lenz's Law. This effect is known as coefficient of self-induction or self-inductance of the coil. Actually all circuit elements have some self-inductance. However, only coils with many turns of wire, such as in a solenoid, have substantial self-inductance.  Let current I is flowing through a circuit C [ ]. This current will set up a magnetic field and hence a magnetic flux is linked with the circuit. As the magnetic field at any point is proportional to the current flowing through the circuit, the magnetic flux linked to the circuit at any instant is also proportional to the current I flowing through it at the same instant. For any geometry of loop, the magnetic flux through the loop, produced by the current in the loop is  The inductance L is the constant of proportionality. Its unit is henery. When the current flowing through a circuit is changed, the magnetic flux linked with the circuit also changes and induced emf is set up in the circuit.      The rate of change of flux linked with the circuit is given by Therefore from Faraday's law the emf induced in the circuit is Which is also a Self-Induced Emf in an inductor and L is its inductance. If there are N number of turns in a coil then, self inductance is given by  The unit of Self-Inductance is Henry, H = Wb\/A.    Self-inductance of a solenoid:  Consider a solenoid of length l, cross-sectional area A, number of turns per unit length n, and current I is flowing through it then,  (effective area of solenoid) = but from definition,      Mutual Inductance:  The phenomenon of inducing emf in a neighboring circuit whenever a current is flowing through a circuit near it is known as mutual inductance. The circuit in which current changes is known as primary circuit, while the neighboring circuit in which emf is induced in called the secondary circuit.  Consider a circuit is placed in a magnetic field of another circuit as shown in . The flux linked with circuit depends upon its relative position with circuit and current flowing through If is the current flowing in circuit and is the magnetic field at any point (x,y,z) in space around , then the magnetic flux linked with the coil is given by Where represents the effective surface area enclosed by the coil If the shapes, orientations and the positions of the two circuits and are fixed, then the magnetic flux linked with the circuit is proportional to the current flowing in circuit i.e.,        Where is constant of proportionality and is termed as mutual inductance of circuit with respect to circuit Now, emf induced in a circuit is Similarly, emf induced in a circuit due current flowing in circuit is If shapes, orientations, and the positions of the coils are fixed, then the mutual inductance of the two coils does not depend upon which circuits carries the current i.e., . The mutual inductance of two neighboring coils and mutually induced emfs are given by the following equations.       Magnetic-Field Energy  If i is an instantaneous current moving in a circuit like a solenoid then back emf induced in the inductor is given by The workdone is moving charge against this emf is   This energy is stored in a magnetic field of the inductor.  For a solenoid    where n is number of turns in a solenoid, l is length, and A is area of cross-section of the solenoid. Even though this energy density is calculated for a solenoid it it the same for magnetic field of any kind. In integral form of energy stored in a magnetic field is Which is analogous to electric energy stored in an electric field   Magnetic-Field Energy: (non-conservative)    Permeable Material:     "
+},
+{
+  "id": "selfind",
+  "level": "2",
+  "url": "subsec-self_induct.html#selfind",
+  "type": "Figure",
+  "number": "3.7.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "mutind",
+  "level": "2",
+  "url": "subsec-self_induct.html#mutind",
+  "type": "Figure",
+  "number": "3.7.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-rlc",
+  "level": "1",
+  "url": "subsec-rlc.html",
+  "type": "Subsection",
+  "number": "3.7.6",
+  "title": "R-L Circuit",
+  "body": " R-L Circuit      Rise of current Consider a circuit containing an inductor of self-inductance L, resistance R, and a battery of constant emf E is connected with the switch s. As soon as the switch is connected to the battery current begins to flow and magnetic flux is linked with the coil. As a result a self induced emf is set up in the coil which opposes the rise of current in the circuit. Hence the current does not attain its final steady value instantaneously.                  Integrating, we get -          From this equation it is clear that the current in the circuit rises according to an exponential law. The quantity L\/R is known as the time constant of L-R circuit. If L is in Henry and R is in ohms then will be in second. If t=L\/R, then i.e., the time constant of L-R circuit is the current rises to nearly two third of its maximum steady value.     Decay of current When the switch is disconnected from point 1 and connected to point 2 then the current begins to decays through the resistance R from maximum its value to zero. During the decay, the flux linked with the coil changes which induced an emf in the coil to oppose this decay. Hence current takes some time to reach to zero.  From the circuit, we have       i.e., current decays exponentially. After time constant L\/R, Hence time constant is the time in which current in the R-L circuit falls to of its maximum value when the emf of the circuit is removed.     "
+},
+{
+  "id": "p-526",
+  "level": "2",
+  "url": "subsec-rlc.html#p-526",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Rise of current Decay of current "
+},
+{
+  "id": "subsec-lc",
+  "level": "1",
+  "url": "subsec-lc.html",
+  "type": "Subsection",
+  "number": "3.7.7",
+  "title": "L-C Circuit",
+  "body": " L-C Circuit  Consider a charged capacitor of capacitance C is connected in a circuit in such a way that it begins discharging through an inductor of inductance L. If i is current flowing in the circuit at some extent then potential difference across the inductance is and potential difference across the capacitor at the same extent is . The -ve sign of indicates the back emf in the inductance. From the circuit, we have       This is a second order linear differential equation.      Let be the solution of eqn. Where A and are constants.  Therefore from eqn. , we get -        Hence the general solution of eqn. is where A and B are constants and their value can be determined by the initial conditions and   Hence from the condition  Also differentiating eqn.   Now from second condition ,  Therefore from eqns. and , we get - Hence from eqn.   This is the equation of discharging of a capacitor through the inductor. It is oscillatory and simple harmonic. The time period of oscillation is given by The oscillation happen because of a transfer of energy back and forth from the capacitor to the inductor, or from electric field to magnetic field.  "
+},
+{
+  "id": "LC",
+  "level": "2",
+  "url": "subsec-lc.html#LC",
+  "type": "Figure",
+  "number": "3.7.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-lcr",
+  "level": "1",
+  "url": "subsec-lcr.html",
+  "type": "Subsection",
+  "number": "3.7.8",
+  "title": "L-C-R Circuit",
+  "body": " L-C-R Circuit          Charging of a capacitor In the circuit , when switch is connected to point 1, capacitor starts charging. If i is current initially draws from battery of emf E, then we have -       where and       Therefore from eqn. we have - Which is a second order linear differential equation.  Let be the solution of this equation, so that    Since,     Hence the most general solution of eqn. is where A and B are constants and can be determined by initial conditions.    where is the final charge in the capacitor.  Now at t=0, q =0, hence  Also differentiating eqn. we get - Now the initial condition as t=0,i=o, we get -    Solving eqns. and , we get -  Hence from eqn. we get - Now charging of the capacitor depends upon the following three cases of .                Case I: If then is real hence both the exponential terms in eqn. become real and the charge gradually acquires its final value as shown by curve I in the .   Case II: If then is zero hence both the coefficients of exponential terms in eqn. become infinite and hence from eqn. assume that to be very small, then    where and   Now as q=0 at t=0, from eqn. . Differentiating eqn. ; Now i=0 at t=0, we get -  Substituting these values in eqn. , we egt -  i.e., the charge gradually increases with time as shown by curve II in the .   Case III: If then is imaginary. Let us put where Hence, from eqn. , we have      Let us put where is a new constant so that and as shown in . Hence from the above equation   Thus in this case the charge is damped oscillatory as shown by curve III in . The current in this case is given by     i.e., current is also damped oscillatory.     Discharging of a capacitor When circuit is connected to point 2 capacitor begins discharging through the inductor and resistor. Hence Since and during discharging is decreasing or is negative, Therefore .   where and If be the trial solution of eqn. then this equation becomes    The general solution of eqn. is given by  According to initial condition, when t=0, , maximum value. Differentiating eqn. , we get - At i=0,   Hence and Therefore eqn. becomes -  Depending upon the relative value of , there arises three cases -   Case I: When , we get overdamped discharge. In this case exponential terms become negative and hence charge decreases exponentially with time and finally becomes zero.   Case II: When , we get critically damped discharge. In this case two values of become identical and after using the initial condition Here charge becomes to zero without oscillation in least amount of time.   Case III: When , we get under damped discharge. Since is imaginary.  Hence from eqn. ,           see . This is the equation for damped oscillation, where is an angular frequency of the discharge.     "
+},
+{
+  "id": "RLC",
+  "level": "2",
+  "url": "subsec-lcr.html#RLC",
+  "type": "Figure",
+  "number": "3.7.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-536",
+  "level": "2",
+  "url": "subsec-lcr.html#p-536",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Charging of a capacitor Case I: Case II: Case III: Discharging of a capacitor "
+},
+{
   "id": "sec_third-examplesC",
   "level": "1",
   "url": "sec_third-examplesC.html",
   "type": "Section",
   "number": "3.8",
   "title": "Examples C",
-  "body": " Examples C   Electromagnetic Induction             "
+  "body": " Examples C   Electromagnetic Induction    A coil of wire of radius 5 cm and 100 turns is centered at the origin and lies in the x\/y plane. A uniform magnetic field is in the -z direction and is increasing at the rate of 0.2 T\/s. If the resistance of the coil is find    the emf induced in the coil,  the current in the coil,  the direction of the current in the coil,  the direction of the magnetic field resulting from the current in the coil,  the power required to keep the original magnetic field increasing at 0.2 T\/s.      Given:               Counter Clockwise  +z direction (opposite increasing B).           A two parallel long straight wires separated by a distance L = 30 cm are connected by a third straight wire on their left end. A sliding bar, also of length L, is placed across the two long wires and slid to the right with a constant speed in the +x direction. Everything is placed in a uniform magnetic field B = 10 T directed into the paper as shown in figure below.    If the bar has a resistance of and the other wires have negligible resistance, find magnitude and direction of the  emf induced across the bar,  current in the bar,  magnetic force on the bar.  How much power is required to pull the bar through the magnetic field?  How much power is dissipated in the bar in the form of heat?      Given:                             A conducting wire form a semicircle ab of a radius r. The wire has negligible resistance. A resister R connects an end of the wire, to the center of the circle, as shown in figure. A conducting rod connects the center, to the semicircle wire and sweeps around at an angular speed in the counterclockwise direction (see Figure). The rod has negligible resistance. A uniform magnetic field B perpendicular to the plane of the circle (into the plane). Find change in the magnetic flux during small interval of time t, Find the current induced in the loop, and is the direction of the induced current clockwise or counterclockwise?.      The area of a circle can be determined by      Therefore change in magnetic flux,  Current induced in the loop is The direction of current is clockwise as the loop opposes the flux to be decreased hence current is induced in a circuit to substitute the decreasing flux. Use Fleming's right hand rule to determine the direction of induced current.      A rectangular loop of length, l width, w is placed at a distance, h from a current carrying wire whose current is varying as where a and b are constants. If b = 10 A\/s, h = 1 cm, w = 10 cm, and l = 100 cm, find the magnetic flux, induced emf, and the direction of induced current in the loop.    Magnetic field at a distance, x from current carrying conductor is given by Now magnetic flux through a differential area is given by       Magnetic field is in decreasing order as point P shifts away form the current carrying conductor but flux increases on every layer in a loop with time as current increases in a wire.   As the current changes in a wire, it changes the magnetic flux into the loop. Hence from Lenz's law the direction of induced current in a loop must opposes this change, meaning the direction of current must be counterclockwise if current increases in a wire.      A conducting loop of mass, M resistance, R length, l and width, w is falling into magnetic field, B pointing into the page. Find the terminal velocity attained by the loop before its top edge enters into the field.      When lower arm of the loop enters into external magnetic field flux starts increasing in the loop and hence loop induces its current in such a way that it could oppose that change. Consequently, loop induced magnetic field, just opposite to external magnetic field, . Meaning if external field is pointed into the page then induced field by the loop is pointed out of the page. Now from Right Hand Thumb rule the induced current, I in the loop must be counterclockwise. As current, I is flowing in the conductor of width, w inside the external field , it starts experiencing a magetic force upwards which can be found by Fleming's Left Hand Rule: Forefinger along , middlefinger along currenet I, then thumb gives the direction of force upward. Now, emf induced in the loop is given by   As B and w are constant and loop is falling into the field along width w where we have considered as small elementry width of the loop. Since R is the resistance of the loop, we have magnitude of emf,   Using eqns. and , we have- Note that the magnetic force on the left and right arms of the loop cancell out each other and there is no magnetic force acting on the top arm. Now before sufficient portion of the loop falls into the magnetic field the magnetidue of keeps increasing and finally gets balanced by the At this point becomes constant called terminal velocity, Hence,   Here, proportional to R and inversely proportional to       Inductance    A Tesla coil is constructed by wrapping turns of wire along a length l of a hollow tube of cross-sectional area A and then wrapping a second coil times around the first coil.  What is the mutual inductance of the two coils?  If turns, turns, and the radius of the solenoid is 1 cm, what is the numerical value of the mutual inductance?  If a radio frequency signal of is sent through the second coil such that the current oscillates with an amplitude of what is the maximum average magnetic flux through each turn of the first coil?  What is the maximum current through the first coil?  What is the maximum induced emf in the first coil?  What is the maximum induced back-emf in the first coil?      Given:    Equations:                                          What is the inductance of a long solenoid of length l, cross-sectional area A, and N turns.  What is the inductance of a solenoid 2.0 m long, 2.0 cm in radius, and 2000 turns?  If the current in this solenoid decreases uniformly from 4 A to zero in 2.0 s, what is the magnitude and direction of the self-induced emf in the solenoid?  What is the energy stored in the solenoid at the beginning of the interval?  How much electrical power is dissipated during the interval?      Given:    Equations:                                The figure below shows an R-L circuit. Assume and Find and ,  with both switches open,  immediately after switch is closed,  1 hour after switch is closed  4 s after switch is closed.      Given:   Equations:                  Assume, then  and         "
 },
 {
   "id": "example-53",
@@ -2392,23 +2482,104 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.8.1",
   "title": "",
-  "body": "         "
+  "body": "  A coil of wire of radius 5 cm and 100 turns is centered at the origin and lies in the x\/y plane. A uniform magnetic field is in the -z direction and is increasing at the rate of 0.2 T\/s. If the resistance of the coil is find    the emf induced in the coil,  the current in the coil,  the direction of the current in the coil,  the direction of the magnetic field resulting from the current in the coil,  the power required to keep the original magnetic field increasing at 0.2 T\/s.      Given:               Counter Clockwise  +z direction (opposite increasing B).        "
+},
+{
+  "id": "example-54",
+  "level": "2",
+  "url": "sec_third-examplesC.html#example-54",
+  "type": "Example",
+  "number": "3.8.2",
+  "title": "",
+  "body": "  A two parallel long straight wires separated by a distance L = 30 cm are connected by a third straight wire on their left end. A sliding bar, also of length L, is placed across the two long wires and slid to the right with a constant speed in the +x direction. Everything is placed in a uniform magnetic field B = 10 T directed into the paper as shown in figure below.    If the bar has a resistance of and the other wires have negligible resistance, find magnitude and direction of the  emf induced across the bar,  current in the bar,  magnetic force on the bar.  How much power is required to pull the bar through the magnetic field?  How much power is dissipated in the bar in the form of heat?      Given:                          "
+},
+{
+  "id": "example-55",
+  "level": "2",
+  "url": "sec_third-examplesC.html#example-55",
+  "type": "Example",
+  "number": "3.8.3",
+  "title": "",
+  "body": "  A conducting wire form a semicircle ab of a radius r. The wire has negligible resistance. A resister R connects an end of the wire, to the center of the circle, as shown in figure. A conducting rod connects the center, to the semicircle wire and sweeps around at an angular speed in the counterclockwise direction (see Figure). The rod has negligible resistance. A uniform magnetic field B perpendicular to the plane of the circle (into the plane). Find change in the magnetic flux during small interval of time t, Find the current induced in the loop, and is the direction of the induced current clockwise or counterclockwise?.      The area of a circle can be determined by      Therefore change in magnetic flux,  Current induced in the loop is The direction of current is clockwise as the loop opposes the flux to be decreased hence current is induced in a circuit to substitute the decreasing flux. Use Fleming's right hand rule to determine the direction of induced current.   "
+},
+{
+  "id": "example-56",
+  "level": "2",
+  "url": "sec_third-examplesC.html#example-56",
+  "type": "Example",
+  "number": "3.8.4",
+  "title": "",
+  "body": "  A rectangular loop of length, l width, w is placed at a distance, h from a current carrying wire whose current is varying as where a and b are constants. If b = 10 A\/s, h = 1 cm, w = 10 cm, and l = 100 cm, find the magnetic flux, induced emf, and the direction of induced current in the loop.    Magnetic field at a distance, x from current carrying conductor is given by Now magnetic flux through a differential area is given by       Magnetic field is in decreasing order as point P shifts away form the current carrying conductor but flux increases on every layer in a loop with time as current increases in a wire.   As the current changes in a wire, it changes the magnetic flux into the loop. Hence from Lenz's law the direction of induced current in a loop must opposes this change, meaning the direction of current must be counterclockwise if current increases in a wire.   "
+},
+{
+  "id": "example-57",
+  "level": "2",
+  "url": "sec_third-examplesC.html#example-57",
+  "type": "Example",
+  "number": "3.8.5",
+  "title": "",
+  "body": "  A conducting loop of mass, M resistance, R length, l and width, w is falling into magnetic field, B pointing into the page. Find the terminal velocity attained by the loop before its top edge enters into the field.      When lower arm of the loop enters into external magnetic field flux starts increasing in the loop and hence loop induces its current in such a way that it could oppose that change. Consequently, loop induced magnetic field, just opposite to external magnetic field, . Meaning if external field is pointed into the page then induced field by the loop is pointed out of the page. Now from Right Hand Thumb rule the induced current, I in the loop must be counterclockwise. As current, I is flowing in the conductor of width, w inside the external field , it starts experiencing a magetic force upwards which can be found by Fleming's Left Hand Rule: Forefinger along , middlefinger along currenet I, then thumb gives the direction of force upward. Now, emf induced in the loop is given by   As B and w are constant and loop is falling into the field along width w where we have considered as small elementry width of the loop. Since R is the resistance of the loop, we have magnitude of emf,   Using eqns. and , we have- Note that the magnetic force on the left and right arms of the loop cancell out each other and there is no magnetic force acting on the top arm. Now before sufficient portion of the loop falls into the magnetic field the magnetidue of keeps increasing and finally gets balanced by the At this point becomes constant called terminal velocity, Hence,   Here, proportional to R and inversely proportional to    "
+},
+{
+  "id": "example-58",
+  "level": "2",
+  "url": "sec_third-examplesC.html#example-58",
+  "type": "Example",
+  "number": "3.8.6",
+  "title": "",
+  "body": "  A Tesla coil is constructed by wrapping turns of wire along a length l of a hollow tube of cross-sectional area A and then wrapping a second coil times around the first coil.  What is the mutual inductance of the two coils?  If turns, turns, and the radius of the solenoid is 1 cm, what is the numerical value of the mutual inductance?  If a radio frequency signal of is sent through the second coil such that the current oscillates with an amplitude of what is the maximum average magnetic flux through each turn of the first coil?  What is the maximum current through the first coil?  What is the maximum induced emf in the first coil?  What is the maximum induced back-emf in the first coil?      Given:    Equations:                                     "
+},
+{
+  "id": "example-59",
+  "level": "2",
+  "url": "sec_third-examplesC.html#example-59",
+  "type": "Example",
+  "number": "3.8.7",
+  "title": "",
+  "body": "    What is the inductance of a long solenoid of length l, cross-sectional area A, and N turns.  What is the inductance of a solenoid 2.0 m long, 2.0 cm in radius, and 2000 turns?  If the current in this solenoid decreases uniformly from 4 A to zero in 2.0 s, what is the magnitude and direction of the self-induced emf in the solenoid?  What is the energy stored in the solenoid at the beginning of the interval?  How much electrical power is dissipated during the interval?      Given:    Equations:                             "
+},
+{
+  "id": "example-60",
+  "level": "2",
+  "url": "sec_third-examplesC.html#example-60",
+  "type": "Example",
+  "number": "3.8.8",
+  "title": "",
+  "body": "  The figure below shows an R-L circuit. Assume and Find and ,  with both switches open,  immediately after switch is closed,  1 hour after switch is closed  4 s after switch is closed.      Given:   Equations:                  Assume, then  and       "
+},
+{
+  "id": "subsec-rmsI",
+  "level": "1",
+  "url": "subsec-rmsI.html",
+  "type": "Subsection",
+  "number": "3.9.1",
+  "title": "RMS value of emf or current",
+  "body": " RMS value of emf or current    "
+},
+{
+  "id": "sec_third-examplesD",
+  "level": "1",
+  "url": "sec_third-examplesD.html",
+  "type": "Section",
+  "number": "3.10",
+  "title": "Examples D",
+  "body": " Examples D  "
 },
 {
   "id": "ex_third",
   "level": "1",
   "url": "ex_third.html",
   "type": "Exercises",
-  "number": "3.9",
+  "number": "3.11",
   "title": "Exercise",
-  "body": "  Exercise   Mag. Flux  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into a page, travels through the region at a constant speed, and exits.      From the following plots find the one which shows the magnetic flux inside the coil as a function of time.   (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A square coil placed in a uniform magnetic field rotates around one of its edges as shown in figure below.      From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle    (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A small particle of mass 2 g and charge is passes through the origin with a velocity of in the +x direction into a uniform magnetic field parallel to the z-axis and a uniform gravitational field of 1 gauss in the -y direction.  If there is no electrical field and the particle continues moving in a straight line at constant speed, what is the magnetic force on the particle?  What is the magnitude and direction of the magnetic field?  If the particle attained its speed by sliding down a ramp before entering the magnetic field, what was the height of the ramp?    A electron cyclotron has a frequency of and an orbital radius of 1 m.  What is its magnetic field strength?  What is the speed of the electron?  What was the voltage on the electron gun which projected the electron into the cyclotron?        Each of the lettered points at the corners of the cube in the figure below represents a positive charge q moving with a velocity v in the direction indicated. There is a uniform magnetic field B in the +x direction as shown. Find the magnitude and direction of the magnetic force on each charge.   The magnetic field in the figure below is     What is the magnetic flux across the surface abcd?  Through cdef?  Through abfe?  Through all five surfaces enclosing the volume?    An alpha particle (nucleus of a helium atom) has a speed of and moves in a circle of radius 10 cm in the x\/y-plane due to a uniform magnetic field.  What is the magnitude and direction of the magnetic field?  What is the cyclotron frequency of the alpha particle?  Through what potential difference was it accelerated?  What is its energy in units of electron-volts?      Mag. Force  A wire 2 m long lies along the y-axis and carries a current of 2 A in the +y direction. What is the magnitude and direction of the magnetic force on the wire if it lies in a uniform magnetic field of                An electromagnetic rail gun consists of two parallel conducting rails of length X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance as shown in the figure below. A constant electrical potential V = 100 V is maintained between the rails and a constant magnetic field B = 10 T is maintained between them.    What is the magnitude and direction of the current in the sliding bar?  What is the magnitude and direction of the magnetic force on the sliding bar?  Neglecting friction, what is the acceleration of the bar?  Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?  What is the kinetic energy of the bar when it leaves the rail gun?  How long a time is the bar being accelerated?  How much electrical energy is supplied by the battery during this time interval?  Why aren't answers g and e the same?    A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, the current through the wire is 2 A, the deflection angle is and the magnetic field strength is 0.1 T, find    the magnetic moment of the loop,  the magnetic torque on the loop when it is vertical,  the magnetic torque on the loop when it is tilted,  the mass of the loop, and  the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.    A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. The wire wrapped around it makes 1000 turns and has a resistance of . The permanent magnets in the motor create a uniform magnetic field of 1000 G and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find  the current in the wire,  the magnetic moment of the solenoid,  the magnetic potential energy when the magnetic moment is opposite the field,  the change in magnetic potential energy for each half rotation,  the magnetic power delivered by the motor,  the electrical power delivered by the battery,  the electrical power dissipated by the resistor in the form of heat.  Which of these answers would change if the motor rotated faster?  Are your answers consistent with the law of conservation of energy? Explain.    A proton of mass and charge is moving in the +x direction with a constant speed of 104 m\/s in a region of space containing a constant electric field and a constant magnetic field. If the magnetic field is 10 T in the +y direction,  what is the magnitude and direction of the electric field that will keep the particle moving in a straight line at constant speed?  Describe the subsequent motion of the particle if the electric field is suddenly turned off.  What is the maximum distance the proton would deviate from its initial position when the electric field is turned off?      Mag. Sources  A wire of length 2a is symmetrically located along the y-axis and carries an upward current I.  What is the magnetic field due to this wire at a distance x along the x-axis?  What does this become when   When     Two charges, and , are moving as shown in the figure below with velocities and respectively. At the instant shown in the figure, x = 80 cm and y = 60 cm. Find    the magnitude and direction of the electrical force on by   the magnitude and direction of the magnetic force on by and  the ratio of the magnitudes of these two forces.    Given a circular loop of current I with a radius a.  Show that the magnetic field at a distance x along the axis of this loop is given by   Use this result to determine the magnetic field along the axis of a coil of N turns.  Use the result of part a to determine the magnetic field at the center of a single loop of current.  What is the magnetic field at the center of a loop of current 10 cm in radius carrying a current of 2 A?    A long straight wire lies along the x-axis carrying 2 A of current in the +x direction. A second, parallel wire located at y = 20 cm carries current of 5 A in the opposite direction.  What is the magnetic field due to these currents at the point (0, 0.1 m)?  At the point (1m, 1m)?  What is the magnitude and direction of the magnetic force on a charge moving in the +z direction with a speed of if it is at the point (-0.2 m, -0.2 m)?    A long straight wire lies along the y-axis with the current 4 A in the -y direction. A uniform magnetic field also exists in the region. Find the magnitude and direction of the total magnetic field at points  (1m, 0, 2m),  (2m, 1m, 0),  (0, 1m, -2m).    A coil of wire of radius 10 cm, current 2 A, and 100 turns is centered at the origin and lies in the x\/y plane. A second coil of wire of radius 20 cm, current 4 A and 200 turns is also centered at the origin but lies in the x\/z plane. If the current in the small coil rotates from the x-direction to the y-direction, and if the current in the large coil rotates from the x-direction to the z-direction, then what is the magnitude and direction of the magnetic field at the origin?  Use the Biot-Savart's law to calculate the magnetic field, B at center, O of the semicircular arcs AD and HJ in the given figure. The two arcs, of radii and respectively, form part of the circuit ABCDA carrying current, I.     Ampere's Law  Find the magnetic field  inside and  outside a long solenoid of N turns per section of length L.    Find the magnetic field  inside and  outside a long cylindrical conductor of radius R carrying a total current I from one end to the other if the current density inside the conductor is a constant everywhere.    A cosmic ray electron moving with a velocity of enters vertically through the top of a horizontal solenoid of radius 10 cm. If the solenoid has 100 turns of wire per centimeter, each carrying 2 A of current, how far is the electron deflected horizontally before leaving the solenoid?  Use Ampere's law to find the magnetic field at the center, O of the semicircular loop ABCDA which carries the current I=30 mA as shown in figure. The radius and      Electromagnetic Induction     "
+  "body": "  Exercise   Mag. Flux  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into a page, travels through the region at a constant speed, and exits.      From the following plots find the one which shows the magnetic flux inside the coil as a function of time.   (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A square coil placed in a uniform magnetic field rotates around one of its edges as shown in figure below.      From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle    (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A small particle of mass 2 g and charge is passes through the origin with a velocity of in the +x direction into a uniform magnetic field parallel to the z-axis and a uniform gravitational field of 1 gauss in the -y direction.  If there is no electrical field and the particle continues moving in a straight line at constant speed, what is the magnetic force on the particle?  What is the magnitude and direction of the magnetic field?  If the particle attained its speed by sliding down a ramp before entering the magnetic field, what was the height of the ramp?    A electron cyclotron has a frequency of and an orbital radius of 1 m.  What is its magnetic field strength?  What is the speed of the electron?  What was the voltage on the electron gun which projected the electron into the cyclotron?        Each of the lettered points at the corners of the cube in the figure below represents a positive charge q moving with a velocity v in the direction indicated. There is a uniform magnetic field B in the +x direction as shown. Find the magnitude and direction of the magnetic force on each charge.   The magnetic field in the figure below is     What is the magnetic flux across the surface abcd?  Through cdef?  Through abfe?  Through all five surfaces enclosing the volume?    An alpha particle (nucleus of a helium atom) has a speed of and moves in a circle of radius 10 cm in the x\/y-plane due to a uniform magnetic field.  What is the magnitude and direction of the magnetic field?  What is the cyclotron frequency of the alpha particle?  Through what potential difference was it accelerated?  What is its energy in units of electron-volts?      Mag. Force  A wire 2 m long lies along the y-axis and carries a current of 2 A in the +y direction. What is the magnitude and direction of the magnetic force on the wire if it lies in a uniform magnetic field of                An electromagnetic rail gun consists of two parallel conducting rails of length X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance as shown in the figure below. A constant electrical potential V = 100 V is maintained between the rails and a constant magnetic field B = 10 T is maintained between them.    What is the magnitude and direction of the current in the sliding bar?  What is the magnitude and direction of the magnetic force on the sliding bar?  Neglecting friction, what is the acceleration of the bar?  Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?  What is the kinetic energy of the bar when it leaves the rail gun?  How long a time is the bar being accelerated?  How much electrical energy is supplied by the battery during this time interval?  Why aren't answers g and e the same?    A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, the current through the wire is 2 A, the deflection angle is and the magnetic field strength is 0.1 T, find    the magnetic moment of the loop,  the magnetic torque on the loop when it is vertical,  the magnetic torque on the loop when it is tilted,  the mass of the loop, and  the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.    A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. The wire wrapped around it makes 1000 turns and has a resistance of . The permanent magnets in the motor create a uniform magnetic field of 1000 G and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find  the current in the wire,  the magnetic moment of the solenoid,  the magnetic potential energy when the magnetic moment is opposite the field,  the change in magnetic potential energy for each half rotation,  the magnetic power delivered by the motor,  the electrical power delivered by the battery,  the electrical power dissipated by the resistor in the form of heat.  Which of these answers would change if the motor rotated faster?  Are your answers consistent with the law of conservation of energy? Explain.    A proton of mass and charge is moving in the +x direction with a constant speed of 104 m\/s in a region of space containing a constant electric field and a constant magnetic field. If the magnetic field is 10 T in the +y direction,  what is the magnitude and direction of the electric field that will keep the particle moving in a straight line at constant speed?  Describe the subsequent motion of the particle if the electric field is suddenly turned off.  What is the maximum distance the proton would deviate from its initial position when the electric field is turned off?      Mag. Sources  A wire of length 2a is symmetrically located along the y-axis and carries an upward current I.  What is the magnetic field due to this wire at a distance x along the x-axis?  What does this become when   When     Two charges, and , are moving as shown in the figure below with velocities and respectively. At the instant shown in the figure, x = 80 cm and y = 60 cm. Find    the magnitude and direction of the electrical force on by   the magnitude and direction of the magnetic force on by and  the ratio of the magnitudes of these two forces.    Given a circular loop of current I with a radius a.  Show that the magnetic field at a distance x along the axis of this loop is given by   Use this result to determine the magnetic field along the axis of a coil of N turns.  Use the result of part a to determine the magnetic field at the center of a single loop of current.  What is the magnetic field at the center of a loop of current 10 cm in radius carrying a current of 2 A?    A long straight wire lies along the x-axis carrying 2 A of current in the +x direction. A second, parallel wire located at y = 20 cm carries current of 5 A in the opposite direction.  What is the magnetic field due to these currents at the point (0, 0.1 m)?  At the point (1m, 1m)?  What is the magnitude and direction of the magnetic force on a charge moving in the +z direction with a speed of if it is at the point (-0.2 m, -0.2 m)?    A long straight wire lies along the y-axis with the current 4 A in the -y direction. A uniform magnetic field also exists in the region. Find the magnitude and direction of the total magnetic field at points  (1m, 0, 2m),  (2m, 1m, 0),  (0, 1m, -2m).    A coil of wire of radius 10 cm, current 2 A, and 100 turns is centered at the origin and lies in the x\/y plane. A second coil of wire of radius 20 cm, current 4 A and 200 turns is also centered at the origin but lies in the x\/z plane. If the current in the small coil rotates from the x-direction to the y-direction, and if the current in the large coil rotates from the x-direction to the z-direction, then what is the magnitude and direction of the magnetic field at the origin?  Use the Biot-Savart's law to calculate the magnetic field, B at center, O of the semicircular arcs AD and HJ in the given figure. The two arcs, of radii and respectively, form part of the circuit ABCDA carrying current, I.     Ampere's Law  Find the magnetic field  inside and  outside a long solenoid of N turns per section of length L.    Find the magnetic field  inside and  outside a long cylindrical conductor of radius R carrying a total current I from one end to the other if the current density inside the conductor is a constant everywhere.    A cosmic ray electron moving with a velocity of enters vertically through the top of a horizontal solenoid of radius 10 cm. If the solenoid has 100 turns of wire per centimeter, each carrying 2 A of current, how far is the electron deflected horizontally before leaving the solenoid?  Use Ampere's law to find the magnetic field at the center, O of the semicircular loop ABCDA which carries the current I=30 mA as shown in figure. The radius and      Electromagnetic Induction  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into page, travels through the region at a constant speed, and exits. An edge of the square is a = 20 cm and its speed is The magnitude of the magnetic field is .    Find the magnitude of the emf when it is entering the region.  Find the magnitude of the emf when it is at the center of the region.  Find the magnitude of the emf when it is exiting the region.   How does the magnitude of the emf change in time?                   A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into page, travels through the region at a constant speed, and exits. From the following plots, find one which shows the direction of the current at the following moments.    When the coil is entering the magnetized region.  When the coil is at the center of the magnetized region,  When the coil is exiting the magnetized region.                   A coil of radius 10 cm and 500 turns is placed in a uniform magnetic field that varies according to the equation The coil has a resistance of and is connected to a external resistor. If the plane of the coil makes an angle of with the magnetic field vector, find  the magnetic flux through the coil at time t = 3 s,  the emf induced in the coil at t = 2 s,  the voltage across the resistor at t = 1 s, and  the current through the circuit at t = 0.  How much power is dissipated by the resistor when t = 2 s?    An alternator consists of a rectangular coil of length, L = 20 cm and width, W = 10 cm with 500 turns. At time t = 0 it is in the same horizontal plane as a constant magnetic field B = 20 T as shown in figure below. It rotates at a constant rate of 1000 rpm. The output is applied to a resistor of     What is the angular velocity as a function of time?  What is the angle between the magnetic field vector and the area vector as a function of time?  What is the magnetic flux through the coil as a function of time?  What is the emf induced in the coil as a function of time?  What is the current through the resistor as a function of time?  What is the voltage at point a with respect to point b when t = 10 ms?    A solenoid of length 30 cm, diameter 2 cm, resistance and 1000 turns is used to discharge a capacitor charged initially to 100 V. Neglecting the self-inductance of the solenoid, find  the current in the solenoid as a function of time, and  the magnetic field strength in the solenoid as a function of time.  If a second wire is coiled around the solenoid 100 times, what is the emf in the new coil as a function of time?  What is the emf in the new coil when t = 1 ms?  Since the magnetic field outside the solenoid is zero, then magnetic field remains zero where the new coil is located. How then is it possible for the magnetic field to induce an emf in the coil when it remains zero where the coil is located?    The bar shown at right has negligible resistance and slides to the right with a velocity If the uniform magnetic field B = 10 T into the paper, the resistance and the length of the bar is 50 cm find the current in the wire when t = 10 s.   A long, thin solenoid has 1000 turns per meter and a radius of 2 cm. The current in the solenoid is increasing at a constant rate of 10 A\/s. What is the magnitude of the induced electric field at a point near the center of the solenoid and  on the axis of the solenoid,  1 cm from the axis,  just inside the solenoid slightly less than 2 cm from the axis.    Given the system shown at right. Assume  , and a uniform magnetic field B = 4 T is directed out of the page.    What is the magnetic flux through the circuit when x = l ?  What is the induced emf?  What is the current in the circuit?  What is the voltage of a with respect to b?  What is the power dissipated in the circuit?  What force is required to keep the bar moving at a constant speed?    A conducting loop of mass, M resistance, R length, l, and width, w is falling out of magnetic field, B pointing into the page. Find the terminal velocity attained by the loop before its top edge exit from the field.     Inductance  A transformer consists of an iron rod 20 cm long and 1 cm in diameter with a permeability constant of 1000 having 100 turns on its primary winding and 2000 turns on its secondary. If the emf on the primary is 100 V and the current in the primary is 0.2 A, find  the mutual inductance of the transformer,  the voltage in the secondary,  the current in the secondary,  the rate of change of current in the secondary, and  the instantaneous power being transferred in the transformer.      What is the self-inductance of an air-core toroidal solenoid of average radius R, small cross-sectional area A, and N turns.  What is its inductance if R = 10 cm, and N = 1000 turns?  If the current in this solenoid increases uniformly from 2 A to 4 A in 2.0 ms, what is the magnitude and direction of the self-induced emf in the solenoid?  What is the energy stored in the solenoid at the beginning of the 2.0 ms interval?  How much electrical power is required to increase the current during the 2.0 ms interval?    Two coils have mutual inductance M = 0.5 H. The current in the first coil increases at a uniform rate of 0.1 A\/s.  What is the induced emf in the second coil? Is it constant?  Suppose the current described is in the second coil rather than the first. What is the induced emf in the first coil?    When the current in a toroidal solenoid is changing at a rate of 0.04 A\/s, the magnitude of the induced emf is 10 mV. When the current equals 1 A, the average flux through each turn of the solenoid is 0.004 Wb. How many turns does the solenoid have?  An inductor with an inductance of 3 H and a resistance of is connected to the terminals of a battery with an emf of 12 V and negligible resistance. Find  the initial rate of increase of current in the circuit;  the rate of increase of current at the instant when the current is 1.00 A;  the current 0.2 s after the circuit is closed;  the final steady-state current.    An inductor in the form of a solenoid contains 420 turns, is 16 cm in length, and has a cross-sectional area of   What uniform rate of decrease of current through the inductor would induce an emf of   What is the self-inductance of the coil?     "
 },
 {
   "id": "exercise-76",
   "level": "2",
   "url": "ex_third.html#exercise-76",
   "type": "Exercise",
-  "number": "3.9.1",
+  "number": "3.11.1",
   "title": "",
   "body": "A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into a page, travels through the region at a constant speed, and exits.      From the following plots find the one which shows the magnetic flux inside the coil as a function of time.   (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?   "
 },
@@ -2417,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-77",
   "type": "Exercise",
-  "number": "3.9.2",
+  "number": "3.11.2",
   "title": "",
   "body": "A square coil placed in a uniform magnetic field rotates around one of its edges as shown in figure below.      From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle    (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?   "
 },
@@ -2426,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-78",
   "type": "Exercise",
-  "number": "3.9.3",
+  "number": "3.11.3",
   "title": "",
   "body": "A small particle of mass 2 g and charge is passes through the origin with a velocity of in the +x direction into a uniform magnetic field parallel to the z-axis and a uniform gravitational field of 1 gauss in the -y direction.  If there is no electrical field and the particle continues moving in a straight line at constant speed, what is the magnetic force on the particle?  What is the magnitude and direction of the magnetic field?  If the particle attained its speed by sliding down a ramp before entering the magnetic field, what was the height of the ramp?   "
 },
@@ -2435,7 +2606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-79",
   "type": "Exercise",
-  "number": "3.9.4",
+  "number": "3.11.4",
   "title": "",
   "body": "A electron cyclotron has a frequency of and an orbital radius of 1 m.  What is its magnetic field strength?  What is the speed of the electron?  What was the voltage on the electron gun which projected the electron into the cyclotron?       "
 },
@@ -2444,7 +2615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-80",
   "type": "Exercise",
-  "number": "3.9.5",
+  "number": "3.11.5",
   "title": "",
   "body": "Each of the lettered points at the corners of the cube in the figure below represents a positive charge q moving with a velocity v in the direction indicated. There is a uniform magnetic field B in the +x direction as shown. Find the magnitude and direction of the magnetic force on each charge.  "
 },
@@ -2453,7 +2624,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-81",
   "type": "Exercise",
-  "number": "3.9.6",
+  "number": "3.11.6",
   "title": "",
   "body": "The magnetic field in the figure below is     What is the magnetic flux across the surface abcd?  Through cdef?  Through abfe?  Through all five surfaces enclosing the volume?   "
 },
@@ -2462,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-82",
   "type": "Exercise",
-  "number": "3.9.7",
+  "number": "3.11.7",
   "title": "",
   "body": "An alpha particle (nucleus of a helium atom) has a speed of and moves in a circle of radius 10 cm in the x\/y-plane due to a uniform magnetic field.  What is the magnitude and direction of the magnetic field?  What is the cyclotron frequency of the alpha particle?  Through what potential difference was it accelerated?  What is its energy in units of electron-volts?   "
 },
@@ -2471,7 +2642,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-83",
   "type": "Exercise",
-  "number": "3.9.8",
+  "number": "3.11.8",
   "title": "",
   "body": "A wire 2 m long lies along the y-axis and carries a current of 2 A in the +y direction. What is the magnitude and direction of the magnetic force on the wire if it lies in a uniform magnetic field of               "
 },
@@ -2480,7 +2651,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-84",
   "type": "Exercise",
-  "number": "3.9.9",
+  "number": "3.11.9",
   "title": "",
   "body": "An electromagnetic rail gun consists of two parallel conducting rails of length X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance as shown in the figure below. A constant electrical potential V = 100 V is maintained between the rails and a constant magnetic field B = 10 T is maintained between them.    What is the magnitude and direction of the current in the sliding bar?  What is the magnitude and direction of the magnetic force on the sliding bar?  Neglecting friction, what is the acceleration of the bar?  Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?  What is the kinetic energy of the bar when it leaves the rail gun?  How long a time is the bar being accelerated?  How much electrical energy is supplied by the battery during this time interval?  Why aren't answers g and e the same?   "
 },
@@ -2489,7 +2660,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-85",
   "type": "Exercise",
-  "number": "3.9.10",
+  "number": "3.11.10",
   "title": "",
   "body": "A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, the current through the wire is 2 A, the deflection angle is and the magnetic field strength is 0.1 T, find    the magnetic moment of the loop,  the magnetic torque on the loop when it is vertical,  the magnetic torque on the loop when it is tilted,  the mass of the loop, and  the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.   "
 },
@@ -2498,7 +2669,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-86",
   "type": "Exercise",
-  "number": "3.9.11",
+  "number": "3.11.11",
   "title": "",
   "body": "A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. The wire wrapped around it makes 1000 turns and has a resistance of . The permanent magnets in the motor create a uniform magnetic field of 1000 G and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find  the current in the wire,  the magnetic moment of the solenoid,  the magnetic potential energy when the magnetic moment is opposite the field,  the change in magnetic potential energy for each half rotation,  the magnetic power delivered by the motor,  the electrical power delivered by the battery,  the electrical power dissipated by the resistor in the form of heat.  Which of these answers would change if the motor rotated faster?  Are your answers consistent with the law of conservation of energy? Explain.   "
 },
@@ -2507,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-87",
   "type": "Exercise",
-  "number": "3.9.12",
+  "number": "3.11.12",
   "title": "",
   "body": "A proton of mass and charge is moving in the +x direction with a constant speed of 104 m\/s in a region of space containing a constant electric field and a constant magnetic field. If the magnetic field is 10 T in the +y direction,  what is the magnitude and direction of the electric field that will keep the particle moving in a straight line at constant speed?  Describe the subsequent motion of the particle if the electric field is suddenly turned off.  What is the maximum distance the proton would deviate from its initial position when the electric field is turned off?   "
 },
@@ -2516,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-88",
   "type": "Exercise",
-  "number": "3.9.13",
+  "number": "3.11.13",
   "title": "",
   "body": "A wire of length 2a is symmetrically located along the y-axis and carries an upward current I.  What is the magnetic field due to this wire at a distance x along the x-axis?  What does this become when   When    "
 },
@@ -2525,7 +2696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-89",
   "type": "Exercise",
-  "number": "3.9.14",
+  "number": "3.11.14",
   "title": "",
   "body": "Two charges, and , are moving as shown in the figure below with velocities and respectively. At the instant shown in the figure, x = 80 cm and y = 60 cm. Find    the magnitude and direction of the electrical force on by   the magnitude and direction of the magnetic force on by and  the ratio of the magnitudes of these two forces.   "
 },
@@ -2534,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-90",
   "type": "Exercise",
-  "number": "3.9.15",
+  "number": "3.11.15",
   "title": "",
   "body": "Given a circular loop of current I with a radius a.  Show that the magnetic field at a distance x along the axis of this loop is given by   Use this result to determine the magnetic field along the axis of a coil of N turns.  Use the result of part a to determine the magnetic field at the center of a single loop of current.  What is the magnetic field at the center of a loop of current 10 cm in radius carrying a current of 2 A?   "
 },
@@ -2543,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-91",
   "type": "Exercise",
-  "number": "3.9.16",
+  "number": "3.11.16",
   "title": "",
   "body": "A long straight wire lies along the x-axis carrying 2 A of current in the +x direction. A second, parallel wire located at y = 20 cm carries current of 5 A in the opposite direction.  What is the magnetic field due to these currents at the point (0, 0.1 m)?  At the point (1m, 1m)?  What is the magnitude and direction of the magnetic force on a charge moving in the +z direction with a speed of if it is at the point (-0.2 m, -0.2 m)?   "
 },
@@ -2552,7 +2723,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-92",
   "type": "Exercise",
-  "number": "3.9.17",
+  "number": "3.11.17",
   "title": "",
   "body": "A long straight wire lies along the y-axis with the current 4 A in the -y direction. A uniform magnetic field also exists in the region. Find the magnitude and direction of the total magnetic field at points  (1m, 0, 2m),  (2m, 1m, 0),  (0, 1m, -2m).   "
 },
@@ -2561,7 +2732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-93",
   "type": "Exercise",
-  "number": "3.9.18",
+  "number": "3.11.18",
   "title": "",
   "body": "A coil of wire of radius 10 cm, current 2 A, and 100 turns is centered at the origin and lies in the x\/y plane. A second coil of wire of radius 20 cm, current 4 A and 200 turns is also centered at the origin but lies in the x\/z plane. If the current in the small coil rotates from the x-direction to the y-direction, and if the current in the large coil rotates from the x-direction to the z-direction, then what is the magnitude and direction of the magnetic field at the origin? "
 },
@@ -2570,7 +2741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-94",
   "type": "Exercise",
-  "number": "3.9.19",
+  "number": "3.11.19",
   "title": "",
   "body": "Use the Biot-Savart's law to calculate the magnetic field, B at center, O of the semicircular arcs AD and HJ in the given figure. The two arcs, of radii and respectively, form part of the circuit ABCDA carrying current, I.  "
 },
@@ -2579,7 +2750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-95",
   "type": "Exercise",
-  "number": "3.9.20",
+  "number": "3.11.20",
   "title": "",
   "body": "Find the magnetic field  inside and  outside a long solenoid of N turns per section of length L.   "
 },
@@ -2588,7 +2759,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-96",
   "type": "Exercise",
-  "number": "3.9.21",
+  "number": "3.11.21",
   "title": "",
   "body": "Find the magnetic field  inside and  outside a long cylindrical conductor of radius R carrying a total current I from one end to the other if the current density inside the conductor is a constant everywhere.   "
 },
@@ -2597,7 +2768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-97",
   "type": "Exercise",
-  "number": "3.9.22",
+  "number": "3.11.22",
   "title": "",
   "body": "A cosmic ray electron moving with a velocity of enters vertically through the top of a horizontal solenoid of radius 10 cm. If the solenoid has 100 turns of wire per centimeter, each carrying 2 A of current, how far is the electron deflected horizontally before leaving the solenoid? "
 },
@@ -2606,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-98",
   "type": "Exercise",
-  "number": "3.9.23",
+  "number": "3.11.23",
   "title": "",
   "body": "Use Ampere's law to find the magnetic field at the center, O of the semicircular loop ABCDA which carries the current I=30 mA as shown in figure. The radius and   "
 },
@@ -2615,9 +2786,135 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_third.html#exercise-99",
   "type": "Exercise",
-  "number": "3.9.24",
+  "number": "3.11.24",
   "title": "",
-  "body": " "
+  "body": "A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into page, travels through the region at a constant speed, and exits. An edge of the square is a = 20 cm and its speed is The magnitude of the magnetic field is .    Find the magnitude of the emf when it is entering the region.  Find the magnitude of the emf when it is at the center of the region.  Find the magnitude of the emf when it is exiting the region.   How does the magnitude of the emf change in time?                  "
+},
+{
+  "id": "exercise-100",
+  "level": "2",
+  "url": "ex_third.html#exercise-100",
+  "type": "Exercise",
+  "number": "3.11.25",
+  "title": "",
+  "body": "A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into page, travels through the region at a constant speed, and exits. From the following plots, find one which shows the direction of the current at the following moments.    When the coil is entering the magnetized region.  When the coil is at the center of the magnetized region,  When the coil is exiting the magnetized region.                  "
+},
+{
+  "id": "exercise-101",
+  "level": "2",
+  "url": "ex_third.html#exercise-101",
+  "type": "Exercise",
+  "number": "3.11.26",
+  "title": "",
+  "body": "A coil of radius 10 cm and 500 turns is placed in a uniform magnetic field that varies according to the equation The coil has a resistance of and is connected to a external resistor. If the plane of the coil makes an angle of with the magnetic field vector, find  the magnetic flux through the coil at time t = 3 s,  the emf induced in the coil at t = 2 s,  the voltage across the resistor at t = 1 s, and  the current through the circuit at t = 0.  How much power is dissipated by the resistor when t = 2 s?   "
+},
+{
+  "id": "exercise-102",
+  "level": "2",
+  "url": "ex_third.html#exercise-102",
+  "type": "Exercise",
+  "number": "3.11.27",
+  "title": "",
+  "body": "An alternator consists of a rectangular coil of length, L = 20 cm and width, W = 10 cm with 500 turns. At time t = 0 it is in the same horizontal plane as a constant magnetic field B = 20 T as shown in figure below. It rotates at a constant rate of 1000 rpm. The output is applied to a resistor of     What is the angular velocity as a function of time?  What is the angle between the magnetic field vector and the area vector as a function of time?  What is the magnetic flux through the coil as a function of time?  What is the emf induced in the coil as a function of time?  What is the current through the resistor as a function of time?  What is the voltage at point a with respect to point b when t = 10 ms?   "
+},
+{
+  "id": "exercise-103",
+  "level": "2",
+  "url": "ex_third.html#exercise-103",
+  "type": "Exercise",
+  "number": "3.11.28",
+  "title": "",
+  "body": "A solenoid of length 30 cm, diameter 2 cm, resistance and 1000 turns is used to discharge a capacitor charged initially to 100 V. Neglecting the self-inductance of the solenoid, find  the current in the solenoid as a function of time, and  the magnetic field strength in the solenoid as a function of time.  If a second wire is coiled around the solenoid 100 times, what is the emf in the new coil as a function of time?  What is the emf in the new coil when t = 1 ms?  Since the magnetic field outside the solenoid is zero, then magnetic field remains zero where the new coil is located. How then is it possible for the magnetic field to induce an emf in the coil when it remains zero where the coil is located?   "
+},
+{
+  "id": "exercise-104",
+  "level": "2",
+  "url": "ex_third.html#exercise-104",
+  "type": "Exercise",
+  "number": "3.11.29",
+  "title": "",
+  "body": "The bar shown at right has negligible resistance and slides to the right with a velocity If the uniform magnetic field B = 10 T into the paper, the resistance and the length of the bar is 50 cm find the current in the wire when t = 10 s.  "
+},
+{
+  "id": "exercise-105",
+  "level": "2",
+  "url": "ex_third.html#exercise-105",
+  "type": "Exercise",
+  "number": "3.11.30",
+  "title": "",
+  "body": "A long, thin solenoid has 1000 turns per meter and a radius of 2 cm. The current in the solenoid is increasing at a constant rate of 10 A\/s. What is the magnitude of the induced electric field at a point near the center of the solenoid and  on the axis of the solenoid,  1 cm from the axis,  just inside the solenoid slightly less than 2 cm from the axis.   "
+},
+{
+  "id": "exercise-106",
+  "level": "2",
+  "url": "ex_third.html#exercise-106",
+  "type": "Exercise",
+  "number": "3.11.31",
+  "title": "",
+  "body": "Given the system shown at right. Assume  , and a uniform magnetic field B = 4 T is directed out of the page.    What is the magnetic flux through the circuit when x = l ?  What is the induced emf?  What is the current in the circuit?  What is the voltage of a with respect to b?  What is the power dissipated in the circuit?  What force is required to keep the bar moving at a constant speed?   "
+},
+{
+  "id": "exercise-107",
+  "level": "2",
+  "url": "ex_third.html#exercise-107",
+  "type": "Exercise",
+  "number": "3.11.32",
+  "title": "",
+  "body": "A conducting loop of mass, M resistance, R length, l, and width, w is falling out of magnetic field, B pointing into the page. Find the terminal velocity attained by the loop before its top edge exit from the field.  "
+},
+{
+  "id": "exercise-108",
+  "level": "2",
+  "url": "ex_third.html#exercise-108",
+  "type": "Exercise",
+  "number": "3.11.33",
+  "title": "",
+  "body": "A transformer consists of an iron rod 20 cm long and 1 cm in diameter with a permeability constant of 1000 having 100 turns on its primary winding and 2000 turns on its secondary. If the emf on the primary is 100 V and the current in the primary is 0.2 A, find  the mutual inductance of the transformer,  the voltage in the secondary,  the current in the secondary,  the rate of change of current in the secondary, and  the instantaneous power being transferred in the transformer.   "
+},
+{
+  "id": "exercise-109",
+  "level": "2",
+  "url": "ex_third.html#exercise-109",
+  "type": "Exercise",
+  "number": "3.11.34",
+  "title": "",
+  "body": "  What is the self-inductance of an air-core toroidal solenoid of average radius R, small cross-sectional area A, and N turns.  What is its inductance if R = 10 cm, and N = 1000 turns?  If the current in this solenoid increases uniformly from 2 A to 4 A in 2.0 ms, what is the magnitude and direction of the self-induced emf in the solenoid?  What is the energy stored in the solenoid at the beginning of the 2.0 ms interval?  How much electrical power is required to increase the current during the 2.0 ms interval?   "
+},
+{
+  "id": "exercise-110",
+  "level": "2",
+  "url": "ex_third.html#exercise-110",
+  "type": "Exercise",
+  "number": "3.11.35",
+  "title": "",
+  "body": "Two coils have mutual inductance M = 0.5 H. The current in the first coil increases at a uniform rate of 0.1 A\/s.  What is the induced emf in the second coil? Is it constant?  Suppose the current described is in the second coil rather than the first. What is the induced emf in the first coil?   "
+},
+{
+  "id": "exercise-111",
+  "level": "2",
+  "url": "ex_third.html#exercise-111",
+  "type": "Exercise",
+  "number": "3.11.36",
+  "title": "",
+  "body": "When the current in a toroidal solenoid is changing at a rate of 0.04 A\/s, the magnitude of the induced emf is 10 mV. When the current equals 1 A, the average flux through each turn of the solenoid is 0.004 Wb. How many turns does the solenoid have? "
+},
+{
+  "id": "exercise-112",
+  "level": "2",
+  "url": "ex_third.html#exercise-112",
+  "type": "Exercise",
+  "number": "3.11.37",
+  "title": "",
+  "body": "An inductor with an inductance of 3 H and a resistance of is connected to the terminals of a battery with an emf of 12 V and negligible resistance. Find  the initial rate of increase of current in the circuit;  the rate of increase of current at the instant when the current is 1.00 A;  the current 0.2 s after the circuit is closed;  the final steady-state current.   "
+},
+{
+  "id": "exercise-113",
+  "level": "2",
+  "url": "ex_third.html#exercise-113",
+  "type": "Exercise",
+  "number": "3.11.38",
+  "title": "",
+  "body": "An inductor in the form of a solenoid contains 420 turns, is 16 cm in length, and has a cross-sectional area of   What uniform rate of decrease of current through the inductor would induce an emf of   What is the self-inductance of the coil?   "
 },
 {
   "id": "sec_fourth-intro",
@@ -2647,9 +2944,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-100",
+  "id": "exercise-114",
   "level": "2",
-  "url": "ex_fourth.html#exercise-100",
+  "url": "ex_fourth.html#exercise-114",
   "type": "Exercise",
   "number": "4.3.1",
   "title": "",
@@ -2701,9 +2998,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-101",
+  "id": "exercise-115",
   "level": "2",
-  "url": "ex_fifth.html#exercise-101",
+  "url": "ex_fifth.html#exercise-115",
   "type": "Exercise",
   "number": "5.5.1",
   "title": "",
@@ -2719,72 +3016,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-556",
+  "id": "p-642",
   "level": "2",
-  "url": "append_math.html#p-556",
+  "url": "append_math.html#p-642",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-557",
+  "id": "p-643",
   "level": "2",
-  "url": "append_math.html#p-557",
+  "url": "append_math.html#p-643",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-558",
+  "id": "p-644",
   "level": "2",
-  "url": "append_math.html#p-558",
+  "url": "append_math.html#p-644",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-559",
+  "id": "p-645",
   "level": "2",
-  "url": "append_math.html#p-559",
+  "url": "append_math.html#p-645",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-560",
+  "id": "p-646",
   "level": "2",
-  "url": "append_math.html#p-560",
+  "url": "append_math.html#p-646",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-561",
+  "id": "p-647",
   "level": "2",
-  "url": "append_math.html#p-561",
+  "url": "append_math.html#p-647",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-562",
+  "id": "p-648",
   "level": "2",
-  "url": "append_math.html#p-562",
+  "url": "append_math.html#p-648",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-563",
+  "id": "p-649",
   "level": "2",
-  "url": "append_math.html#p-563",
+  "url": "append_math.html#p-649",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2800,9 +3097,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-564",
+  "id": "p-650",
   "level": "2",
-  "url": "appendix-2.html#p-564",
+  "url": "appendix-2.html#p-650",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

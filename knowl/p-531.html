@@ -11,8 +11,52 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para"><span class="process-math">\(m_{e} = 9.11\times10^{-31} \,kg, \quad e = 1.6\times10^{-19} \,C.\)</span></div>
-<span class="incontext"><a href="ex_third.html#p-531" class="internal">in-context</a></span>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
+<div class="para logical">
+<div class="para">From the circuit, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-L\frac{\,di}{\,dt} = Ri 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{\,di}{i}= -\frac{R}{L}\,dt
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \int\limits_{i_{o}}^{i}\frac{\,di}{i}= -\frac{R}{L}\int\limits_{0}^{t}\,dt
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left.\ln \,i\right\vert_{i_{o}}^{i} = -\frac{R}{L} t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \ln i -\ln i_{o} = -\frac{R}{L} t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \ln \frac{i}{i_{o}} = -\frac{R}{L} t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad i = i_{o}e^{-(\frac{R}{L})t} = i_{o}e^{-(t/\tau)}
+\end{equation*}
+</div>
+<div class="para">i.e., current decays exponentially. After time constant L/R,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+i=i_{o}e^{-(1)}
+\end{equation*}
+</div>
+<div class="para">Hence time constant is the time in which current in the R-L circuit falls to <span class="process-math">\(1/e\)</span> of its maximum value when the emf of the circuit is removed.</div>
+</div>
+<span class="incontext"><a href="subsec-rlc.html#p-531" class="internal">in-context</a></span>
 </body>
 </html>
