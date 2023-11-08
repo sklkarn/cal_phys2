@@ -494,8 +494,346 @@
 
   <exercise>
     <p>
-      
+      A square coil parallel to page enters a region where a uniform magnetic 
+      field is directed perpendicularly into page, travels through the region 
+      at a constant speed, and exits. An edge of the square is  a = 20 cm and 
+      its speed is <m>v=25 \,m/s.</m> The magnitude of the magnetic field is 
+      <m>B = 0.5 \,T</m>. 
+         </p>
+         <image source="sqrloop.png" width="35%"> </image>
+        <p>
+          <ol marker="a.">
+            <li>
+              Find the magnitude of the emf when it is entering the region. 
+            </li>
+            <li>
+              Find the magnitude of the emf when it is at the center of the region.
+            </li>
+            <li>
+              Find the magnitude of the emf when it is exiting the region. 
+            </li>
+            <li>
+              <p>
+              How does the magnitude of the emf change in time?
+              <ol marker="i.">
+                  <li>
+                    <image source="gr5.png" width="35%"> </image>
+                  </li>
+                  <li>
+                    <image source="gr3bi.png" width="35%"> </image>
+                  </li>
+                  <li>
+                    <image source="gr3ci.png" width="35%"> </image>
+                  </li>
+                </ol>
+              </p>
+            </li>
+          </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A square coil parallel to page enters a region where a uniform magnetic field 
+      is directed perpendicularly into page, travels through the region at a constant 
+      speed, and exits. From the following plots, find one which shows the direction 
+      of the current at the following moments. 
+      <image source="sqrloop.png" width="35%"> </image>
+      <ol marker="a.">
+        <li>
+          When the coil is entering the magnetized region.
+        </li>
+        <li>
+          When the coil is at the center of the magnetized region, 
+        </li>
+        <li>
+          When the coil is exiting the magnetized region.
+        </li>
+      </ol>
+       </p>
+       <p>
+        <ol marker="i.">
+          <li>
+            <image source="gr5a.png" width="25%"> </image>
+          </li>
+          <li>
+            <image source="gr5b.png" width="25%"> </image>
+          </li>
+          <li>
+            <image source="gr5c.png" width="25%"> </image>
+          </li>
+        </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A coil of radius 10 cm and 500 turns is placed in a uniform magnetic field 
+      that varies according to the equation <me>
+        B = 1.0 T - (0.10 T/s^{2}) t^{2}
+      </me>
+       The coil has a resistance of <m>100 \,\Omega </m> and is connected to a <m>200 \,\Omega</m>  
+       external resistor. If the plane of the coil makes an angle of <m>30^{o}</m> with the 
+       magnetic field vector, find 
+       <ol marker="a.">
+        <li>
+          the magnetic flux through the coil at time t = 3 s,
+        </li>
+        <li>
+          the emf induced in the coil at t = 2 s,
+        </li>
+        <li>
+          the voltage across the <m>200 \,\Omega</m> resistor at t = 1 s, and
+        </li>
+        <li>
+          the current through the circuit at t = 0. 
+        </li>
+        <li>
+          How much power is dissipated by the <m>200 \,\Omega</m> resistor when t = 2 s? 
+        </li>
+       </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An alternator consists of a rectangular coil of length, L = 20 cm and width, W = 10 cm 
+      with 500 turns. At time t = 0 it is in the same horizontal plane as a constant magnetic 
+      field B = 20 T as shown in figure below. It rotates at a constant rate of 1000 rpm. 
+      The output is applied to a resistor of <m>100 \,\Omega.</m> 
     </p>
+    <image source="fig60.png" width="45%"> </image>
+    <p>
+      <ol marker="a.">
+        <li>
+          What is the angular velocity <m>\omega</m> as a function of time? 
+        </li>
+        <li>
+          What is the angle <m>\theta</m> between the magnetic field vector 
+          <m>\vec{B} </m> and the area vector <m>\vec{A}</m> as a function of time? 
+        </li>
+        <li>
+          What is the magnetic flux through the coil as a function of time?
+        </li>
+        <li>
+          What is the emf induced in the coil as a function of time?
+        </li>
+        <li>
+          What is the current through the resistor as a function of time?
+        </li>
+        <li>
+          What is the voltage at point a with respect to point b when t = 10 ms? 
+        </li>
+       </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A solenoid of length 30 cm, diameter 2 cm, resistance <m>100 \,\Omega,</m> 
+      and 1000 turns is used to discharge a <m>100 \,\mu F</m> capacitor charged 
+      initially to 100 V. Neglecting the self-inductance of the solenoid, find 
+      <ol marker="a.">
+        <li>
+          the current in the solenoid as a function of time, and
+        </li>
+        <li>
+          the magnetic field strength in the solenoid as a function of time.
+        </li>
+        <li>
+          If a second wire is coiled around the solenoid 100 times, 
+          what is the emf in the new coil as a function of time? 
+        </li>
+        <li>
+          What is the emf in the new coil when t = 1 ms? 
+        </li>
+        <li>
+          Since the magnetic field outside the solenoid is zero, then magnetic field remains 
+          zero where the new coil is located. How then is it possible for the 
+          magnetic field to induce an emf in the coil when it remains zero where the coil is located? 
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The bar shown at right has negligible resistance and slides to the right with a 
+      velocity <m>v = 0.1 \,m/s.</m> If the uniform magnetic field B = 10 T into the paper, 
+      the resistance <m>R = 50 \,\Omega,</m> and the length of the bar is 50 cm 
+      find the current in the wire when t = 10 s.
+    </p>
+    <image source="fig61.png" width="45%"> </image>
+  </exercise>
+
+  <exercise>
+    <p>
+      A long, thin solenoid has 1000 turns per meter and a radius of 2 cm. 
+      The current in the solenoid is increasing at a constant rate of 10 A/s. 
+      What is the magnitude of the induced electric field at a point near the 
+      center of the solenoid and 
+      <ol marker="a.">
+        <li>
+          on the axis of the solenoid,
+        </li>
+        <li>
+          1 cm from the axis,
+        </li>
+        <li>
+          just inside the solenoid slightly less than 2 cm from the axis.
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+   <p>
+    Given the system shown at right. Assume <m>R = 10 \,\Omega,</m> <m>v = 20 \,m/s</m>,  
+    <m>l = 1 \,m,</m> and a uniform magnetic field B = 4 T is directed out of the page. 
+   </p>
+          <image source="fig62.png" width="35%"> </image>
+     
+        <p>
+          <ol marker="a.">
+            <li>
+              What is the magnetic flux through the circuit when x = l ?
+            </li>
+            <li>
+              What is the induced emf?
+            </li>
+            <li>
+              What is the current in the circuit? 
+            </li>
+            <li>
+              What is the voltage of a with respect to b? 
+            </li>
+            <li>
+              What is the power dissipated  in the circuit? 
+            </li>
+            <li>
+              What force is required to keep the bar moving at a constant speed?
+            </li>
+          </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A conducting loop of mass, M  resistance, R length, l, and width, w 
+      is falling out of magnetic field, B  pointing into the page. Find the terminal 
+      velocity <m> v_{t}</m> attained by the loop before its top edge exit from the field.
+    </p>
+    <image source="fallingloop2.png" width="45%"> </image>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Inductance</title>
+  <exercise>
+    <p>
+      A transformer consists of an iron rod 20 cm long and 1 cm in diameter with a permeability constant of 1000 
+      having 100 turns on its primary winding and 2000 turns on its secondary. If the emf on the primary is 100 V 
+      and the current in the primary is 0.2 A, find 
+      <ol marker="a.">
+        <li>
+          the mutual inductance of the transformer,
+        </li>
+        <li>
+          the voltage in the secondary,
+        </li>
+        <li>
+          the current in the secondary,
+        </li>
+        <li>
+          the rate of change of current in the secondary, and
+        </li>
+        <li>
+          the instantaneous power being transferred in the transformer.
+        </li>
+             </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol marker="a.">
+        <li>
+          What is the self-inductance of an air-core toroidal solenoid of average radius R, small cross-sectional area A, and N turns. 
+        </li>
+        <li>
+          What is its inductance if R = 10 cm,  <m>A = 1.0 \,cm^{2},</m> and N = 1000 turns? 
+        </li>
+        <li>
+          If the current in this solenoid increases uniformly from 2 A to 4 A in 2.0 ms, 
+          what is the magnitude and direction of the self-induced emf in the solenoid?
+        </li>
+        <li>
+          What is the energy stored in the solenoid at the beginning of the 2.0 ms interval?
+        </li>
+        <li>
+          How much electrical power is required to increase the current during the 2.0 ms interval? 
+        </li>
+             </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two coils have mutual inductance M = 0.5 H. The current <m>I_{1}</m> in the first coil increases 
+      at a uniform rate of 0.1 A/s. 
+      <ol marker="a.">
+        <li>
+          What is the induced emf in the second coil? Is it constant? 
+        </li>
+        <li>
+          Suppose the current described is in the second coil rather than the first. What is the induced emf in the first coil?
+        </li>
+        </ol> 
+          </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      When the current in a toroidal solenoid is changing at a rate of 0.04 A/s, the magnitude of the 
+      induced emf is 10 mV. When the current equals 1 A, the average flux through each turn of the solenoid 
+      is 0.004 Wb. How many turns does the solenoid have? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An inductor with an inductance of 3 H and a resistance of <m>7 \,\Omega</m> is connected to the 
+      terminals of a battery with an emf of 12 V and negligible resistance. Find 
+      <ol marker="a.">
+        <li>
+          the initial rate of increase of current in the circuit; 
+        </li>
+        <li>
+          the rate of increase of current at the instant when the current is 1.00 A;
+        </li>
+        <li>
+          the current 0.2 s after the circuit is closed;
+        </li>
+        <li>
+          the final steady-state current. 
+        </li>
+        </ol> 
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An inductor in the form of a solenoid contains 420 turns, is 16 cm in length, and has a cross-sectional 
+      area of <m>3 \,cm^{2}.</m> 
+      <ol marker="a.">
+        <li>
+          What uniform rate of decrease of current through the inductor would induce an emf of <m>175 \,\mu V?</m> 
+        </li>
+        <li>
+          What is the self-inductance of the coil? 
+        </li>
+        </ol> 
+       </p>
   </exercise>
 </paragraphs>
  </exercises>

@@ -11,18 +11,44 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, the current through the wire is 2 A, the deflection angle is <span class="process-math">\(30^{o},\)</span> and the magnetic field strength is 0.1 T, find <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig49.png" class="contained"></div>
+<div class="para">
+<dfn class="terminology">Charging of a capacitor</dfn> In the circuit <a href="" class="xref" data-knowl="./knowl/RLC.html" title="Figure 3.7.8">Figure 3.7.8</a>, when switch is connected to point 1, capacitor starts charging. If i is current initially draws from battery of emf E, then we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+V_{E}-V_{L}=V_{R}+V_{C}
+\end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">the magnetic moment of the loop,</div></li>
-<li><div class="para">the magnetic torque on the loop when it is vertical,</div></li>
-<li><div class="para">the magnetic torque on the loop when it is tilted,</div></li>
-<li><div class="para">the mass of the loop, and</div></li>
-<li><div class="para">the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.</div></li>
-</ol>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+E-L\frac{\,di}{\,dt} =Ri+\frac{q}{C}
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-537" class="internal">in-context</a></span>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+\text{or,}\quad L\frac{\,di}{\,dt} + Ri+\frac{q}{C} = E
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+\text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}} + R\frac{\,dq}{\,dt}+\frac{q}{C} = E
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because i=\frac{\,dq}{\,dt}]\)</span></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \frac{R}{L}\frac{\,dq}{\,dt}+\frac{q}{LC} = \frac{E}{L}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/RLC.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + 2\lambda\frac{\,dq}{\,dt}+\omega^{2}_{o}q = \frac{E}{L}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\([\frac{R}{L} = 2\lambda]\)</span> and <span class="process-math">\([\frac{1}{LC}=\omega^{2}_{o}] \)</span>
+</div>
+</div>
+<span class="incontext"><a href="subsec-lcr.html#p-537" class="internal">in-context</a></span>
 </body>
 </html>

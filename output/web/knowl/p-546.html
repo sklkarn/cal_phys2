@@ -11,8 +11,54 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para">Use the Biot-Savart’s law to calculate the magnetic field, B at center, O of the semicircular arcs AD and HJ in the given figure. The two arcs, of radii <span class="process-math">\(R_{2}\)</span> and <span class="process-math">\(R_{1},\)</span> respectively, form part of the circuit ABCDA carrying current, I.</div>
-<span class="incontext"><a href="ex_third.html#p-546" class="internal">in-context</a></span>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
+<div class="para logical">
+<div class="para">Let us put <span class="process-math">\(\frac{\lambda}{\gamma} = \tan\theta\)</span> where <span class="process-math">\(\theta\)</span> is a new constant so that <span class="process-math">\(\sin\theta=\frac{\lambda}{\omega_{o}}\)</span> and <span class="process-math">\(\cos\theta=\frac{\gamma}{\omega_{o}}.\)</span> as shown in <a href="" class="xref" data-knowl="./knowl/pyth.html" title="Figure 3.7.9.(b)">Figure 3.7.9.(b)</a>. Hence from the above equation</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+q= q_{o}-q_{o}e^{-\lambda t}\left(\cos\gamma t+\tan\theta\sin\gamma t\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+=  q_{o}-q_{o}\frac{e^{-\lambda t}}{\cos\theta}\left(\cos\theta\cos\gamma t+\sin\theta\sin\gamma t\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\therefore\quad q= q_{o}-q_{o}\frac{\omega_{o} e^{-\lambda t}}{\gamma} \cos\left(\gamma t-\theta \right)
+\end{equation*}
+</div>
+<div class="para">Thus in this case the charge is damped oscillatory as shown by <em class="emphasis">curve III</em> in <a href="" class="xref" data-knowl="./knowl/gr10.html" title="Figure 3.7.9.(a)">Figure 3.7.9.(a)</a>. The current in this case is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+i=\frac{\,dq}{\,dt} = q_{o}\omega_{o}e^{-\lambda t}\sin(\gamma t - \theta) +q_{o}\frac{\omega_{o}\lambda e^{-\lambda t}}{\gamma} \cos\left(\gamma t-\theta \right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\text{or,}\quad i=q_{o}\frac{\omega_{o} e^{-\lambda t}}{\gamma}\left[\gamma\sin(\gamma t-\theta)+\lambda\cos(\gamma t-\theta)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\text{or,}\quad i=q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\left[\frac{\gamma}{\omega_{o}}\sin(\gamma t-\theta) 
++\frac{\lambda}{\omega_{o}}\cos(\gamma t-\theta)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\text{or,}\quad i=q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\left[\cos\theta\sin(\gamma t-\theta)
++\sin\theta\cos(\gamma t-\theta)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+\begin{equation*}
+\therefore\quad i= q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\sin\gamma t
+\end{equation*}
+</div>
+<div class="para">i.e., current is also damped oscillatory.</div>
+</div>
+<span class="incontext"><a href="subsec-lcr.html#p-546" class="internal">in-context</a></span>
 </body>
 </html>

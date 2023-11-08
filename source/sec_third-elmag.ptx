@@ -319,5 +319,793 @@
          </p>
   </subsubsection>
 </subsection>
+
+<subsection xml:id="subsec-self_induct">
+  <title> Self-Inductance:</title>
+  <introduction>
+    <p>
+     The phenomenon of the production of induced emf in a circuit itself due to the change in current 
+     through it is called self induction and induced emf is called back emf. The delayed response of 
+     changing current in a circuit like solenoid is due to a self induction. This is because the changing 
+     magnetic flux through the solenoid produces a self-induced emf to initially oppose any changes 
+     as prescribed by Lenz's Law. This effect is known as coefficient of self-induction or <em>self-inductance</em> 
+     of the coil. Actually all circuit elements have some self-inductance. However, only coils with many turns 
+     of wire, such as in a solenoid, have substantial self-inductance.
+    </p>
+    <p>
+      Let current I is flowing through a circuit C [<xref ref="selfind"/>]. This current will set up a magnetic field 
+      and hence a magnetic flux <m>\Phi</m> is linked with the circuit. As the magnetic field 
+      at any point is proportional to the current flowing through the circuit, the magnetic 
+      flux <m>\Phi</m> linked to the circuit at any instant is also proportional to the current I 
+      flowing through it at the same instant. For any geometry of loop, the magnetic flux 
+      through the loop, produced by the current in the loop is <m>\Phi \propto I</m>   
+      <me>
+        or, \quad \Phi =L I.
+      </me>
+      The inductance L is the constant of proportionality. Its unit is henery. When the current 
+      flowing through a circuit is changed, the magnetic flux linked with the circuit also 
+      changes and induced emf is set up in the circuit. 
+    </p>
+    <figure xml:id="selfind">
+      <caption></caption>
+      <image source="selfind.png" width="15%"/>
+  </figure>
+    <p>
+      The rate of change of flux linked with the circuit is given by 
+      <me>
+        \frac{\,d\Phi}{\,dt}= L\frac{\,dI}{\,dt}
+      </me>
+        Therefore from Faraday's law the emf induced in the circuit is 
+        <me>
+          \varepsilon = -\frac{\,d\Phi}{\,dt}= -L\frac{\,dI}{\,dt}
+        </me>
+        Which is also a Self-Induced Emf in an inductor and L is its inductance. 
+        If there are N number of turns in a coil then, self inductance is given by  
+        <me>
+          N\Phi =L I
+        </me>
+      <men xml:id="eqn-selfinduct1">
+        \text{or,}\quad L  = N\frac{\,d\Phi}{\,dI}
+      </men>
+      The unit of Self-Inductance is Henry, H = Wb/A. 
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-self_solenoid">
+    <title>Self-inductance of a solenoid:</title>
+    <p>
+      Consider a solenoid of length l, cross-sectional area A, number of turns per unit length n, 
+      and current I is flowing through it then, 
+      <me>
+        B=\mu_{o}nI
+      </me>
+     <m>\Phi = B </m> (effective area of solenoid) = <m>\mu_{o}nI (nlA) = \mu_{o}n^{2} AlI,</m> 
+          but from definition,  <m>\Phi=LI.</m> 
+          <men xml:id="eqn-selfsolnd1">
+            \therefore\quad L= \mu_{o}n^{2} Al 
+          </men>
+      </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-mutual_ind">
+    <title>Mutual Inductance:</title>
+    <p>
+      The phenomenon of inducing emf in a neighboring circuit whenever a current is flowing 
+      through a circuit near it is known as mutual inductance. The circuit in which current 
+      changes is known as primary circuit, while the neighboring circuit in which emf is 
+      induced in called the secondary circuit. 
+    </p>
+    <p>
+      Consider a circuit <m>C_{2}</m> is placed in a magnetic field of another circuit <m>C_{1}</m> as shown 
+      in <xref ref="mutind"/>. The flux linked with circuit <m>C_{2}</m>  depends upon its relative position 
+      with circuit <m>C_{1}</m> and current flowing through <m>C_{1}.</m> If <m>i_{1}</m> is the current 
+      flowing in circuit <m>C_{1}</m> and <m>B_{1}(x,y,z)</m> is the magnetic field at any point (x,y,z) 
+      in space around <m>C_{1}</m>, then the magnetic flux linked with the coil <m>C_{2}</m> is given by 
+      <me>
+        \Phi_{2} =\iint_{s_{2}} B_{1}\,dA_{2}
+      </me>
+      Where <m>s_{2}</m> represents the effective surface area enclosed by the coil <m>C_{2}.</m> 
+      If the shapes, orientations and the positions of the two circuits <m>C_{1}</m> and <m>C_{2}</m> 
+      are fixed, then the magnetic flux <m>\Phi_{2}</m> linked with the circuit <m>C_{2}</m> is 
+      proportional to the current <m>i_{1}</m> flowing in circuit <m>C_{1}</m> i.e., 
+      <me>
+        \Phi_{2}  \propto i_{1}
+      </me>
+      <me>
+        \text{or}\quad \Phi_{2}  = M_{21} i_{1}
+      </me>
+          </p>
+          <figure xml:id="mutind">
+            <caption></caption>
+            <image source="mutind.png" width="35%"/>
+        </figure>
+          <p>
+            Where <m>M_{21}</m> is constant of proportionality and is termed as mutual 
+            inductance of circuit <m>C_{2}</m> with respect to circuit <m>C_{1}.</m> 
+            Now, emf induced in a circuit  <m>C_{2}</m> is 
+            <me>
+              \varepsilon_{2} = -\frac{\,d\Phi_{2}}{\,dt} = -M_{21}\frac{\,di_{1}}{\,dt}
+            </me>
+            Similarly, emf induced in a circuit <m>C_{1}</m> due current flowing in circuit <m>C_{2}</m> is 
+            <me>
+              \varepsilon_{1} = -\frac{\,d\Phi_{1}}{\,dt} = -M_{12}\frac{\,di_{2}}{\,dt}
+            </me>
+            If shapes, orientations, and the positions of the coils are fixed, then the mutual 
+            inductance of the two coils does not depend upon which circuits carries the current i.e., 
+            <m>M_{21}=M_{12}</m>. The mutual inductance of two neighboring coils and mutually 
+            induced emfs are given by the following equations. 
+           <men xml:id="eqn-mutind1">
+            M  = \frac{N_{1}\Phi_{B1}}{I_{2}} = \frac{N_{2}\Phi_{B2}}{I_{1}}
+           </men>
+            <me>
+              \varepsilon_{2}   =  -M\frac{\,dI_{1}}{\,dt}
+            </me>
+            <me>
+              and \quad \varepsilon_{1}   =  -M\frac{\,dI_{2}}{\,dt}
+            </me>
+              </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-maf_fieldenergy">
+    <title>Magnetic-Field Energy</title>
+    <p>
+    If i is an instantaneous current moving in a circuit like a solenoid then back emf 
+    induced in the inductor is given by 
+    <me>
+      \varepsilon =-L\frac{\,di}{\,dt}
+    </me>
+    The workdone is moving charge <m>\,dq</m> against this emf is 
+    <me>
+      \,dW=-\varepsilon \,dq
+    </me>
+    <me>
+      =L\frac{\,di}{\,dt}\,dq = L\frac{\,dq}{\,dt}\,di=Li\,di
+    </me>
+    <me>
+      \therefore\quad W=\frac{1}{2}Li^{2}
+    </me>
+    This energy is stored in a magnetic field of the inductor. 
+    </p>
+    <p>
+      For a solenoid 
+      <me>
+        B=\mu_{o}n i 
+      </me>
+      <me>
+        \text{or,}\quad i=\frac{B}{\mu_{o}n}
+      </me>
+      <me>
+        \therefore\quad u=\frac{U}{V} = \frac{W}{V} 
+      </me>
+      <me>
+        = \frac{\frac{1}{2}Li^{2}}{Al} = \frac{\frac{1}{2} \mu_{o} n^{2}Al}{Al}i^{2} = \frac{1}{2}\mu_{o}n^{2}i^{2}= \frac{B^{2}}{2\mu_{o}}
+      </me>
+      where n is number of turns in a solenoid, l is length, and A is area of cross-section of the solenoid. 
+      Even though this energy density is calculated for  a solenoid it it the same for magnetic field of any kind. 
+      In integral form of energy stored in a magnetic field is 
+      <me>
+        U_{B}=\frac{1}{2\mu_{o}}\int B^{2}\,dV
+      </me>
+      Which is analogous to electric energy stored in an electric field 
+      <me>
+        U_{E}=\frac{1}{2}\epsilon_{o}\int E^{2}\,dV
+      </me>
+        </p>
+        <p>
+          Magnetic-Field Energy: 	(non-conservative) 
+          <me>
+            U = \frac{1}{2} LI^{2} \quad \text{(Energy in an Inductor)}
+          </me>
+          <me>
+            u = \frac{B^{2}}{2\mu_{o}}\quad \text{(Energy Density in a Magnetic Field)} 
+          </me>
+        </p>
+        <p>
+          Permeable Material: 	
+          <me>
+            \mu  = Km \mu_{o}\quad 	(Permeability)
+          </me>
+          <me>
+            u = 	\frac{B^{2}}{2\mu}\quad \text{(Energy Density in a Magnetic Field)} 
+          </me>
+            </p>
+  </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-rlc">
+  <title> R-L Circuit</title>
+  <p>
+    <ol marker="I.">
+     <li>
+    <p>
+      <term>Rise of current</term>
+      Consider a circuit containing an inductor of self-inductance L, resistance R, and 
+      a battery of constant emf E is connected with the switch s. As soon as the switch 
+      is connected to the battery current begins to flow and magnetic flux is linked with the coil. 
+      As a result a self induced emf is set up in the coil which opposes the rise of current in the 
+      circuit. Hence the current does not attain its final steady value <m>i_{o}</m> instantaneously.
+    </p>
+
+<figure>
+  <caption></caption>
+  <sidebyside widths="35% 35%">
+    <figure xml:id="RL">
+      <caption></caption>
+      <image source="RL.png"/>
+  </figure>
+      <figure xml:id="gr9">
+          <caption></caption>
+          <image source="gr9.png"/>
+      </figure>
+      </sidebyside>
+</figure>
+<p>
+  <me>
+    E-L\frac{\,di}{\,dt}=Ri 
+  </me>
+  <me>
+    \text{or,}\quad L\frac{\,di}{\,dt} =E-Ri
+  </me>
+  <me>
+    \text{i.e.,}\quad \frac{\,di}{E-Ri} = \frac{\,dt}{L} 
+  </me>
+  Integrating, we get - 
+  <me>
+    \int\limits_{0}^{i} \frac{\,di}{E-Ri} = \int\limits_{0}^{t} \frac{\,dt}{L}
+  </me>
+  <me>
+    \text{or}\quad \left.-\frac{ln(E-Ri)}{R}\right]_{0}^{i} =\left. \frac{t}{L} \right]_{0}^{t} 
+  </me>
+  <me>
+    \text{or,} \quad -\frac{ln(E-Ri)}{R} + -\frac{ln(E)}{R} = \frac{t}{L} 
+  </me>
+  <me>
+    \text{or,} \quad  \frac{1}{R}ln\left(\frac{E-Ri}{E}\right) = -\frac{t}{L}
+  </me>
+  <me>
+    \text{or,} \quad \frac{E-Ri}{E} = e^{(-\frac{R}{L})t}
+  </me>
+  <me>
+    \text{or,} \quad -Ri=E  e^{(-\frac{R}{L})t} -E
+  </me>
+  <me>
+    \text{or,}\quad i = \frac{E}{R} \left[1- e^{(-\frac{R}{L})t}\right]
+  </me>
+ <men xml:id="eqn-rl1">
+  \therefore \quad i = i_{o} \left[1- e^{-t/\tau}\right]
+ </men>
+   </p>
+    <p>
+      From this equation it is clear that the current in the circuit rises according to an 
+      exponential law. The quantity L/R is known  as the time constant <m>\tau</m> of L-R circuit. 
+      If L is in Henry and R is in ohms then <m>\tau</m> will be in second. If t=L/R, then 
+      <me>
+        i = i_{o} \left[1- e^{-1}\right] = 0.63  i_{o} 
+      </me>
+      i.e., the time constant of L-R circuit is the current rises to nearly two third of its maximum steady value.
+    </p>
+     </li>
+     <li>
+     <p>
+     <term> Decay of current</term>
+      When the switch is disconnected from point 1  and connected to point 2 then the current begins to decays 
+      through the resistance R from maximum its value <m>[i_{o}=\frac{E}{R}]</m> to zero. 
+      During the decay, the flux linked with the coil changes which induced an emf in the coil to 
+      oppose this decay. Hence current takes some time to reach to zero. 
+       </p>
+       <p>
+        From the circuit, we have 
+        <me>
+          -L\frac{\,di}{\,dt} = Ri 
+        </me>
+        <me>
+          \text{or,}\quad \frac{\,di}{i}= -\frac{R}{L}\,dt
+        </me>
+        <me>
+          \text{or,}\quad \int\limits_{i_{o}}^{i}\frac{\,di}{i}= -\frac{R}{L}\int\limits_{0}^{t}\,dt
+        </me>
+        <me>
+          \text{or,}\quad \left.\ln \,i\right\vert_{i_{o}}^{i} = -\frac{R}{L} t
+        </me>
+        <me>
+          \text{or,}\quad  \ln i -\ln i_{o} = -\frac{R}{L} t
+        </me>
+        <me>
+          \text{or,}\quad  \ln \frac{i}{i_{o}} = -\frac{R}{L} t
+        </me>
+        <me>
+          \therefore\quad i = i_{o}e^{-(\frac{R}{L})t} = i_{o}e^{-(t/\tau)}
+        </me>
+              i.e., current decays exponentially. After time constant L/R, 
+              <me>
+                i=i_{o}e^{-(1)}
+              </me>
+                    Hence time constant is the time in which current in the R-L circuit falls to <m>1/e</m> 
+                    of its maximum value when the emf of the circuit is removed.
+       </p>
+     </li>
+    </ol>
+  </p>
+  </subsection>
+
+  <subsection xml:id="subsec-lc">
+    <title> L-C Circuit</title>
+    <p>
+   Consider a charged capacitor of capacitance C is connected in a circuit in such a way 
+   that it begins discharging through an inductor of inductance L. If i is current flowing in the 
+   circuit at some extent then potential difference across the inductance is 
+   <me>
+    V_{L}= -L\frac{\,di}{\,dt}
+   </me>
+   and potential difference across the capacitor at the same extent is <m>V_{C}=\frac{q}{C}</m>. 
+   The -ve sign of <m>V_{L}</m> indicates the back emf in the inductance. From the circuit, we have
+   <me>
+    V_{C}=V_{L}
+  </me>
+  <me>
+    \frac{q}{C} = -L\frac{\,di}{\,dt}
+  </me>
+  <me>
+    \text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}} + \frac{q}{C}=0
+  </me>
+  <m>[\because i=\frac{\,dq}{\,dt}]</m>
+ <me>
+  \text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \frac{q}{LC}=0
+ </me>
+ <men xml:id="eqn-lc1">
+  \text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \omega^{2}_{o}q=0 
+ </men>
+ <m>\text{where} \quad [\omega^{2}_{o} = \frac{1}{LC}] </m>
+  This is a second order linear differential equation. 
+    </p>
+    <figure xml:id="LC">
+      <caption></caption>
+      <image source="LC.png" width="35%"/>
+  </figure>
+    <p>
+      Let <m>q=Ae^{\alpha t}</m> be the solution of eqn. <xref ref="eqn-lc1"/> 
+      Where A and <m>\alpha</m> are constants. 
+      <me>
+        \text{Now,}\quad \frac{\,dq}{\,dt}= A\alpha e^{\alpha t}
+      </me>
+       <me>
+        \text{and}\quad \frac{\,d^{2}q}{\,dt^{2}}= A\alpha^{2} e^{\alpha t}
+       </me>
+             Therefore from eqn. <xref ref="eqn-lc1"/>, we get - 
+             <me>
+              A\alpha^{2} e^{\alpha t}+\omega^{2}Ae^{\alpha t}=0
+             </me>
+             <me>
+              \text{or,} \quad A e^{\alpha t}\left[\alpha^{2} +\omega^{2}\right]=0 
+             </me>
+             <m>[\text{Since,}\quad q= A e^{\alpha t} \neq 0 ]</m>
+      <me>
+        \text{We have -}\quad \left[\alpha^{2} +\omega^{2}\right]=0
+      </me>
+      <me>
+        \therefore\quad \alpha=\pm j\omega_{o}
+      </me>
+      <m>[\text{where}\quad j=\sqrt{-1}]</m>
+               </p>
+               <p>
+                Hence the general solution of eqn. <xref ref="eqn-lc1"/> is 
+                <men xml:id="eqn-lc2">
+                  q= Ae^{j\omega_{o}t}+Be^{-j\omega_{o}t} 
+                </men>
+                  where A and B are constants and their value can be determined by the initial conditions 
+                  <m>t=0, \quad q=q_{o},</m> and <m>i=0.</m>   
+               </p>
+               <p>
+                Hence from the condition <m>t=0,\quad q=q_{o}</m>
+                <men xml:id="eqn-lc3">
+                  q_{o} = A + B 
+                </men>
+                 Also differentiating eqn. <xref ref="eqn-lc2"/> 
+                 <me>
+                  i=\frac{\,dq}{\,dt}
+                 </me>
+                 <me>
+                  = Aj\omega_{o} e^{j\omega_{o}t}-Bj\omega_{o} e^{-j\omega_{o}t} = j\omega_{o} \left[Ae^{j\omega_{o}t}-Be^{-j\omega_{o}t}\right]
+                 </me>
+                  Now from second condition <m> t=0, \quad i=0</m>,
+                  <me>
+                    0 = A - B 
+                  </me>
+                  
+                  <men xml:id="eqn-lc4">
+                    A = B   
+                  </men>
+                  Therefore from eqns. <xref ref="eqn-lc3"/>  and <xref ref="eqn-lc4"/> , we get - 
+                  <me>
+                    A = \frac{q_{o}}{2} 
+                  </me>
+                   Hence from eqn. <xref ref="eqn-lc2"/> 
+                   <me>
+                    q= q_{o}\left( \frac{e^{j\omega_{o}t}+ e^{-j\omega_{o}t}}{2}\right)
+                   </me>
+                   <me>
+                    i.e.,\quad q= q_{o}\cos\omega_{o}t
+                   </me>
+                   This is the equation of discharging of a capacitor through the inductor. It is oscillatory 
+                   and simple harmonic. The time period of oscillation is given by 
+                   <me>
+                    T=\frac{2\pi}{\omega_{o}} = 2\pi\sqrt{ LC}
+                   </me>
+                  The oscillation happen because of a transfer of energy back and forth from the capacitor to 
+                  the inductor, or from electric field to magnetic field.
+               </p>
+  </subsection>
+
+  <subsection xml:id="subsec-lcr">
+    <title>L-C-R Circuit</title>
+    <figure xml:id="RLC">
+      <caption></caption>
+      <image source="RLC.png" width="35%"/>
+  </figure>
+    <p>
+<ol marker="I.">
+  <li>
+    <p>
+      <term>Charging of a capacitor</term> 
+      In the circuit <xref ref="RLC"/>, when switch is connected to point 1, 
+      capacitor starts charging. If i is current initially draws from battery of emf E, then we have - 
+      <me>
+        V_{E}-V_{L}=V_{R}+V_{C}
+      </me>
+      <me>
+        E-L\frac{\,di}{\,dt} =Ri+\frac{q}{C}
+      </me>
+      <me>
+        \text{or,}\quad L\frac{\,di}{\,dt} + Ri+\frac{q}{C} = E
+      </me>
+      <me>
+        \text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}} + R\frac{\,dq}{\,dt}+\frac{q}{C} = E
+      </me>
+      <m>[\because i=\frac{\,dq}{\,dt}]</m>
+      <me>
+        \text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \frac{R}{L}\frac{\,dq}{\,dt}+\frac{q}{LC} = \frac{E}{L}
+      </me>
+      <me>
+        \text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + 2\lambda\frac{\,dq}{\,dt}+\omega^{2}_{o}q = \frac{E}{L}
+      </me>
+      where <m> [\frac{R}{L} = 2\lambda]</m> and <m>[\frac{1}{LC}=\omega^{2}_{o}] </m>
+       </p>
+   <p>
+    <men xml:id="eqn-lcr1">
+      \text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + 2\lambda\frac{\,dq}{\,dt}+\omega^{2}_{o}\left[q-\frac{E}{L\omega^{2}_{o}}\right] =0 
+    </men>
+    <me>
+      \text{Let}\quad \left[q-\frac{E}{L\omega^{2}_{o}}\right]=x
+    </me>
+    <me>
+      \text{so that}\quad \frac{\,dq}{\,dt} =\frac{\,dx}{\,dt}
+    </me>
+    <me>
+      \text{and}\quad  \frac{\,d^{2}q}{\,dt^{2}} =\frac{\,d^{2}x}{\,dt^{2}}
+    </me>
+   Therefore from eqn. <xref ref="eqn-lcr1"/> we have -
+   <men xml:id="eqn-lcr2">
+    \frac{\,d^{2}x}{\,dt^{2}}+2\lambda\frac{\,dx}{\,dt}+\omega^{2}_{o}x =0 
+   </men>
+   Which is a second order linear differential equation. 
+   </p>
+   <p>
+    Let <m>x=Ae^{\alpha t}</m> be the solution of this equation, so that 
+    <me>
+      \frac{\,dx}{\,dt} = A\alpha e^{\alpha t}
+    </me>
+    <me>
+      \text{and}\quad \frac{\,d^{2}x}{\,dt^{2}} =  A\alpha^{2} e^{\alpha t}
+    </me>
+    <me>
+      \therefore\quad  A\alpha^{2} e^{\alpha t}+2\lambda A\alpha e^{\alpha t} + \omega^{2}_{o} Ae^{\alpha t} =0
+    </me>
+    <me>
+      \text{or,}\quad  Ae^{\alpha t}\left( \alpha^{2} +2\lambda \alpha + \omega^{2}_{o}\right) =0
+    </me>
+    Since, <m> Ae^{\alpha t} \neq 0, </m>
+    <me>
+      \text{we have}\quad \left( \alpha^{2} +2\lambda \alpha + \omega^{2}_{o}\right) =0
+    </me>
+    <me>
+      \text{or,}\quad \alpha = \frac{-\lambda\pm\sqrt{4\lambda^{2}-4\omega^{2}_{o}}}{2} =-\lambda\pm\sqrt{\lambda^{2}-\omega^{2}_{o}}
+    </me>
+    <me>
+      \therefore\quad \alpha = -\lambda \pm \beta,
+    </me>
+    <me>
+      \text{where}\quad \beta = \sqrt{\lambda^{2}-\omega^{2}_{o}} 
+    </me>
+    Hence the most general solution of eqn. <xref ref="eqn-lcr2"/> is 
+    <me>
+      x= A e^{\alpha t} + B e^{-\alpha t} =   A e^{(-\lambda + \beta) t} + B e^{(-\lambda - \beta) t}
+    </me>
+    where A and B are constants and can be determined by initial conditions.
+       </p>
+       <p>
+        <men xml:id="eqn-lcr3">
+          \therefore\quad q= x+\frac{E}{L\omega^{2}_{o}} = A e^{(-\lambda + \beta) t} + B e^{(-\lambda - \beta) t} + q_{o}
+        </men>
+        <m>[\because \quad \frac{E}{L\omega^{2}_{o}} =\frac{E}{L\frac{1}{LC}} = CE=q_{o}] </m>
+        where <m>q_{o}</m> is the final charge in the capacitor. 
+       </p>
+       <p>
+        Now at t=0, q =0, hence 
+        <me>
+          0=q_{o}+A+B
+        </me>
+       <men xml:id="eqn-lcr4">
+        \text{or,}\quad  A+B=-q_{o}  
+       </men>
+       Also differentiating eqn. <xref ref="eqn-lcr3"/> we get - 
+       <me>
+        i=\frac{\,dq}{\,dt} = A[-\lambda+\beta]e^{(-\lambda + \beta) t} +B[-\lambda-\beta]e^{(-\lambda - \beta) t}
+       </me>
+       Now the initial condition as t=0,i=o, we get - 
+       <me>
+        0=A[-\lambda+\beta]+B[-\lambda-\beta]
+       </me>
+       <me>
+        \text{or,}\quad 0=-\lambda (A+B) +\beta (A-B) = \lambda q_{o} +\beta (A-B) 
+       </me>
+       <m>[\because A+B=-q_{o}]</m>
+       <men xml:id="eqn-lcr5">
+        \therefore\quad A-B = \frac{-\lambda q_{o}}{\beta} 
+       </men>
+     Solving eqns. <xref ref="eqn-lcr4"/> and <xref ref="eqn-lcr5"/>, we get - 
+     <me>
+      A = -\frac{q_{o}}{2}\left(1+\frac{\lambda}{\beta}\right)
+     </me>
+     <me>
+      \text{and}\quad B = -\frac{q_{o}}{2}\left(1-\frac{\lambda}{\beta}\right)
+     </me>
+     Hence from eqn. <xref ref="eqn-lcr3"/> we get - 
+     <men xml:id="eqn-lcr6">
+      q = q_{o} -\frac{q_{o}}{2}\left(1+\frac{\lambda}{\beta}\right) e^{(-\lambda + \beta) t} -\frac{q_{o}}{2}\left(1-\frac{\lambda}{\beta}\right) e^{(-\lambda - \beta) t} 
+     </men>
+     Now charging of the capacitor depends upon the following  three cases of <m>\lambda^{2} \gt, =, \lt \omega^{2}_{o}</m>.
+       </p>
+<figure>
+  <caption></caption>
+  <sidebyside widths="45% 45%">
+         <figure xml:id="gr10">
+          <caption></caption>
+          <image source="gr10.png"/>
+      </figure>
+      <figure xml:id="pyth">
+        <caption></caption>
+        <image source="pyth.png"/>
+    </figure>
+      </sidebyside>
+</figure>
+<p>
+  <term>Case I:</term> If <m>\lambda^{2} \gt \omega^{2}_{o},</m> then <m>\beta</m> is 
+  real hence both the exponential terms in eqn. <xref ref="eqn-lcr6"/> become real and the 
+  charge gradually acquires its final value <m>q_{o}</m> as shown by <em>curve I</em> in the <xref ref="gr10"/>.
+</p>
+<p>
+  <term>Case II:</term> If <m>\lambda^{2} = \omega^{2}_{o},</m> then <m>\beta </m> is zero hence 
+  both the coefficients of exponential terms in eqn. <xref ref="eqn-lcr6"/> become infinite 
+  and hence from eqn. <xref ref="eqn-lcr3"/> assume that <m>\beta</m> to be very small, then 
+  <me>
+    q=q_{o}+Ae^{(-\lambda+\beta)t}+Be^{(-\lambda-\beta)t}= q_{o}+e^{-\lambda t}\left[Ae^{\beta t}+Be^{-\beta t}\right]
+  </me>
+  <me>
+    \text{or,}\quad q = q_{o}+e^{-\lambda t}\left[A(1+\beta t+\cdots)+B(1-\beta t+\cdots)\right]
+  </me>
+  <me>
+    \text{or,}\quad q = q_{o}+e^{-\lambda t}\left[(A+B)+\beta (A-B)t\right]
+  </me>
+  <men xml:id="eqn-lcr7">
+    \text{or,}\quad q = q_{o}+e^{-\lambda t}\left[P+Q t\right]
+  </men>
+  where <m>[P=(A+B)</m> and <m>Q=\beta (A-B)]. </m>
+</p>
+<p>
+  Now as q=0 at t=0, <m> q_{o}=-P</m> from eqn. <xref ref="eqn-lcr3"/>. 
+  Differentiating eqn. <xref ref="eqn-lcr7"/>; 
+  <me>
+    i=\frac{\,dq}{\,dt}=-\lambda e^{-\lambda t}\left[P+Q t\right]+e^{-\lambda t}Q
+  </me>
+  Now i=0 at t=0, we get - 
+  <me>
+    0=-\lambda P+Q=\lambda q_{o}+Q
+  </me>
+  <me>
+    \therefore\quad Q=-\lambda q_{o}
+  </me>
+  Substituting these values in eqn. <xref ref="eqn-lcr7"/>, we egt - 
+  <me>
+    q=q_{o}+e^{-\lambda t}\left(-q_{o}-\lambda q_{o}t\right)
+  </me>
+  <me>
+    \text{or,}\quad q=q_{o}-q_{o}\left(1+\lambda t\right) e^{-\lambda t}
+  </me>
+  i.e., the charge gradually increases with time as shown by <em>curve II</em> in the <xref ref="gr10"/>.
+</p>
+<p>
+  <term>Case III:</term> If <m>\lambda^{2} \lt \omega^{2}_{o},</m> then <m>\beta</m> 
+  is imaginary. Let us put 
+  <me>
+    \beta = \sqrt{(\lambda^{2}-\omega^{2}_{o})}=j\sqrt{(\omega^{2}_{o}-\lambda^{2})}=j\gamma 
+  </me>
+  where <me>
+    \gamma = \sqrt{(\omega^{2}_{o}-\lambda^{2})}.
+  </me>
+  Hence, from eqn. <xref ref="eqn-lcr6"/>, we have 
+  <me>
+    q= q_{o}-\frac{q_{o}}{2}\left(1+\frac{\lambda}{j\gamma}\right) e^{(-\lambda +j\gamma)t} 
+    - \frac{q_{o}}{2}\left(1-\frac{\lambda}{j\gamma}\right) e^{(-\lambda -j\gamma)t}
+  </me>
+  <me>
+    \text{or,}\quad q = q_{o}-\frac{q_{o}}{2}e^{-\lambda t}\left(e^{j\gamma t}
+    +\frac{\lambda}{j\gamma} e^{j\gamma t}+ e^{-j\gamma t}- \frac{\lambda}{j\gamma} e^{-j\gamma t}\right)
+  </me>
+  <me>
+    \text{or,}\quad q = q_{o}-q_{o}e^{-\lambda t}\left(\frac{e^{j\gamma t}+e^{-j\gamma t}}{2} 
+    + \frac{\lambda}{\gamma} \frac{e^{j\gamma t}-e^{-j\gamma t}}{2j} \right)
+  </me>
+  <me>
+    \therefore\quad q = q_{o}-q_{o}e^{-\lambda t}\left(\cos\gamma t+ \frac{\lambda}{\gamma} \sin\gamma t\right)
+  </me>
+  </p> 
+  <p>
+    Let us put <m>\frac{\lambda}{\gamma} = \tan\theta</m> where <m>\theta</m> is a new constant 
+    so that <m> \sin\theta=\frac{\lambda}{\omega_{o}}</m> and <m>\cos\theta=\frac{\gamma}{\omega_{o}}.</m> 
+    as shown in <xref ref="pyth"/>. Hence from the above equation 
+    <me>
+      q= q_{o}-q_{o}e^{-\lambda t}\left(\cos\gamma t+\tan\theta\sin\gamma t\right)
+    </me>
+    <me>
+      =  q_{o}-q_{o}\frac{e^{-\lambda t}}{\cos\theta}\left(\cos\theta\cos\gamma t+\sin\theta\sin\gamma t\right)
+    </me>
+    <me>
+      \therefore\quad q= q_{o}-q_{o}\frac{\omega_{o} e^{-\lambda t}}{\gamma} \cos\left(\gamma t-\theta \right)
+    </me>
+    Thus in this case the charge is damped oscillatory as shown by <em>curve III</em> in <xref ref="gr10"/>. 
+    The current in this case is given by 
+      <me>
+      i=\frac{\,dq}{\,dt} = q_{o}\omega_{o}e^{-\lambda t}\sin(\gamma t - \theta) +q_{o}\frac{\omega_{o}\lambda e^{-\lambda t}}{\gamma} \cos\left(\gamma t-\theta \right)
+    </me>
+    <me>
+      \text{or,}\quad i=q_{o}\frac{\omega_{o} e^{-\lambda t}}{\gamma}\left[\gamma\sin(\gamma t-\theta)+\lambda\cos(\gamma t-\theta)\right]
+    </me>
+    <me>
+      \text{or,}\quad i=q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\left[\frac{\gamma}{\omega_{o}}\sin(\gamma t-\theta) 
+      +\frac{\lambda}{\omega_{o}}\cos(\gamma t-\theta)\right]
+    </me>
+    <me>
+      \text{or,}\quad i=q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\left[\cos\theta\sin(\gamma t-\theta)
+      +\sin\theta\cos(\gamma t-\theta)\right]
+    </me>
+    <me>
+      \therefore\quad i= q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\sin\gamma t
+    </me>
+    i.e., current is also damped oscillatory.
+  </p>
+  </li>
+  <li>
+    <p>
+      <term>Discharging of a capacitor</term> 
+      When circuit is connected to point 2 capacitor begins discharging through the inductor and resistor. Hence 
+      <me>
+        \frac{q}{C}+L\frac{\,di}{\,dt}+Ri=0
+      </me>
+      Since <m>i=\pm \frac{\,dq}{\,dt}</m> and during discharging <m>\,dq </m> is decreasing 
+      or <m>\,dq</m> is negative, Therefore <m>i=\frac{\,dq}{\,dt}</m>. 
+      <me>
+        \text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}}+R\frac{\,dq}{\,dt}+\frac{q}{C} =0
+      </me>
+      <me>
+        \text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}}+\frac{R}{L}\frac{\,dq}{\,dt}+\frac{q}{LC} =0
+      </me>
+      <men xml:id="eqn-lcr8">
+        \text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}}+2\lambda\frac{\,dq}{\,dt}+\omega^{2}_{o}q =0
+      </men>
+      where <m>[\frac{R}{L} = 2\lambda </m> and <m>\frac{1}{LC}=\omega^{2}_{o}] </m>
+      If <m>q=Ae^{\alpha t}</m> be the trial solution of eqn. <xref ref="eqn-lcr8"/> then this equation becomes 
+      <me>
+        \alpha^{2}+2\lambda \alpha +\omega^{2}_{o} =0
+      </me>
+         </p>
+         <p>
+          <men xml:id="eqn-lcr9">
+            \text{or,}\quad \alpha = -\lambda \pm \sqrt{(\lambda^{2}-\omega^{2}_{o})} = -\lambda \pm \beta  
+          </men>
+          The general solution of eqn. <xref ref="eqn-lcr9"/> is given by 
+          <me>
+            q=Ae^{(-\lambda+\beta t)}+B e^{(-\lambda-\beta t)}
+          </me>
+          <men xml:id="eqn-lcr10">
+            q=e^{-\lambda t}\left(Ae^{\beta t}+B e^{-\beta t}\right)  
+          </men>
+       According to initial condition, when t=0, <m>q=q_{o}</m>, maximum value. 
+       <me>
+        \therefore\quad A+B = q_{o}
+       </me>
+       Differentiating eqn.<xref ref="eqn-lcr10"/>, we get - 
+       <me>
+        i=\frac{\,dq}{\,dt} = -\lambda e^{-\lambda t}\left(Ae^{\beta t}+B e^{-\beta t}\right)+e^{-\lambda t}\left(A\beta e^{-\beta t}
+        -B \beta e^{-\beta t}\right)
+       </me>
+       At i=0, <m>\frac{\,dq}{\,dt} =0.</m> 
+       <me>
+        \beta(A-B)-\lambda(A+B)=0.
+       </me>
+       <me>
+        \therefore\quad A-B = \frac{\lambda(A+B)}{\beta} = \frac{\lambda q_{o}}{\beta}
+       </me>
+       Hence 
+       <me>
+        A = \frac{q_{o}}{2}\left[1+\frac{\lambda}{\beta}\right] 
+       </me>
+       and 
+       <me>
+        B = \frac{q_{o}}{2}\left[1-\frac{\lambda}{\beta}\right]
+       </me>
+       Therefore eqn. <xref ref="eqn-lcr10"/> becomes - 
+       <me>
+        q=\frac{q_{o}}{2}\left\{\left(1+\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\lambda+\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}
+        + \left(1-\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\lambda-\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}\right\}
+       </me>
+             <men xml:id="eqn-lcr11">
+        \therefore\quad q= \frac{q_{o}}{2}e^{-\lambda t}\left\{\left(1+\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{\sqrt{(\lambda^{2} 
+        -\omega^{2}_{o})}t}+ \left(1-\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}\right\} 
+       </men>
+      Depending upon the relative value of <m>\lambda</m>, there arises three cases -
+         </p>
+         <p>
+          <alert>Case I:</alert> When <m>\lambda^{2} \gt \omega^{2}_{o}</m>, we get overdamped discharge. 
+          In this case exponential terms become negative and hence charge decreases exponentially with time and finally becomes zero.
+         </p>
+         <p>
+          <alert>Case II:</alert> When <m>\lambda^{2}=\omega^{2}_{o}</m>, we get critically damped discharge. 
+          In this case two values of <m>\alpha</m> become identical and after using the initial condition 
+          <me>
+            q=q_{o}e^{-\lambda t}(1+\lambda t)
+          </me>
+          Here charge becomes to zero without oscillation in least amount of time.
+         </p>
+         <p>
+         <alert> Case III: </alert> When <m>\lambda^{2} \lt \omega^{2}_{o}</m>, we get under damped discharge. 
+         Since <m>\sqrt{\lambda^{2}-\omega^{2}_{o}}</m> is imaginary. 
+         <me>
+          \text{or,}\quad \sqrt{\lambda^{2}-\omega^{2}_{o}} =j\gamma
+         </me>
+         <me>
+          \text{where}\quad \gamma = \sqrt{\omega^{2}_{o}-\lambda^{2}}
+         </me>
+         Hence from eqn. <xref ref="eqn-lcr11"/>, 
+         <me>
+          q=\frac{q_{o}}{2}e^{-\lambda t}\left[\left(1+\frac{\lambda}{j\gamma}\right)e^{j\gamma t}+\left(1-\frac{\lambda}{j\gamma}\right)e^{-j\gamma t}\right] 
+         </me>
+         <me>
+          \text{or,}\quad q=q_{o}e^{-\lambda t}\left[\left(\frac{e^{j\gamma t}+e^{-j\gamma t}}{2}\right)+\frac{\lambda}{\gamma}\left(\frac{e^{j\gamma t}-e^{-j\gamma t}}{2j}\right)\right]
+         </me>
+               </p>
+               <figure xml:id="gr11">
+                <caption></caption>
+                <image source="gr11.png" width="45%"/>
+            </figure>
+            <p>
+              <me>
+                \text{or,}\quad q= q_{o}e^{-\lambda t}\left[\cos\gamma t+\frac{\lambda}{\gamma}\sin\gamma t\right] 
+              </me>
+              <me>
+                \text{or,}\quad q= \frac{q_{o}\omega_{o}e^{-\lambda t}}{\gamma}\left[\frac{\gamma}{\omega_{o}}\cos\gamma t+\frac{\lambda}{\omega_{o}}\sin\gamma t\right]
+              </me>
+              <me>
+                \text{or,}\quad q= \frac{q_{o}\omega_{o}e^{-\lambda t}}{\gamma}\left[\cos\phi\cos\gamma t+\sin\phi\sin\gamma t\right]
+              </me>
+             see <xref ref="pyth"/>. 
+             <me>
+              \therefore \quad q= \frac{q_{o}\omega_{o}e^{-\lambda t}}{\gamma}\sin(\gamma t+\phi)
+             </me>
+             This is the equation for damped oscillation, where <m>\gamma</m> is an angular frequency of the discharge.
+            </p>
+  </li>
+</ol>
+    </p>
+  </subsection>
   </section>
 

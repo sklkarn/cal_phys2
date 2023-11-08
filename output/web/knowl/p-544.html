@@ -11,15 +11,38 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">A long straight wire lies along the y-axis with the current 4 A in the -y direction. A uniform magnetic field <span class="process-math">\(\vec{B_{o}}= 0.02 \,G \hat{i}\)</span> also exists in the region. Find the magnitude and direction of the total magnetic field at points</div>
-<ol class="lower-alpha">
-<li><div class="para">(1m, 0, 2m),</div></li>
-<li><div class="para">(2m, 1m, 0),</div></li>
-<li><div class="para">(0, 1m, -2m).</div></li>
-</ol>
+<div class="para">Now as q=0 at t=0, <span class="process-math">\(q_{o}=-P\)</span> from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr3.html" title="Equation 3.7.11">(3.7.11)</a>. Differentiating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr7.html" title="Equation 3.7.15">(3.7.15)</a>;</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+i=\frac{\,dq}{\,dt}=-\lambda e^{-\lambda t}\left[P+Q t\right]+e^{-\lambda t}Q
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-544" class="internal">in-context</a></span>
+<div class="para">Now i=0 at t=0, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+0=-\lambda P+Q=\lambda q_{o}+Q
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+\therefore\quad Q=-\lambda q_{o}
+\end{equation*}
+</div>
+<div class="para">Substituting these values in eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr7.html" title="Equation 3.7.15">(3.7.15)</a>, we egt -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+q=q_{o}+e^{-\lambda t}\left(-q_{o}-\lambda q_{o}t\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr3.html ./knowl/eqn-lcr7.html ./knowl/eqn-lcr7.html ./knowl/gr10.html">
+\begin{equation*}
+\text{or,}\quad q=q_{o}-q_{o}\left(1+\lambda t\right) e^{-\lambda t}
+\end{equation*}
+</div>
+<div class="para">i.e., the charge gradually increases with time as shown by <em class="emphasis">curve II</em> in the <a href="" class="xref" data-knowl="./knowl/gr10.html" title="Figure 3.7.9.(a)">Figure 3.7.9.(a)</a>.</div>
+</div>
+<span class="incontext"><a href="subsec-lcr.html#p-544" class="internal">in-context</a></span>
 </body>
 </html>

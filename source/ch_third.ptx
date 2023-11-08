@@ -36,7 +36,8 @@
 <xi:include href="./sec_third-examplesB.ptx" />  
 <xi:include href="./sec_third-elmag.ptx" />
 <xi:include href="./sec_third-examplesC.ptx" />  
-
+<xi:include href="./sec_third-accircuits.ptx" />
+<xi:include href="./sec_third-examplesD.ptx" />  
 
   <xi:include href="./ex_third.ptx"/> 
 
