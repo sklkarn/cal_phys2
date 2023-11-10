@@ -6,9 +6,91 @@
   
   <exercise>
   <p>
-    
-  </p>
+    A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. 
+    It is then pulled 10 cm below its equilibrium position and released from rest. Find 
+    <ol marker="a.">
+      <li>
+        the angular frequency of oscillation
+      </li>
+      <li>
+        the spring constant of the spring,
+      </li>
+      <li>
+        the amplitude of oscillation, 
+      </li>
+      <li>
+        the kinetic energy of mass when passing through equilibrium,
+      </li>
+      <li>
+        the potential energy of the spring when the mass passes through equilibrium, 
+      </li>
+      <li>
+        the time to first reach equilibrium,
+      </li>
+      <li>
+        the time to make one complete cycle. 
+      </li>
+    </ol>
+   </p>
   </exercise>
  
+
+  <exercise>
+    <p>
+      An automobile engine has a piston of mass 300 g, a stroke of 10 cm, an area of 10 <m>cm^2</m>, 
+      and a frequency of 1200 rpm. Find 
+      <ol marker="a.">
+        <li>
+          the angular frequency of oscillation 
+        </li>
+        <li>
+          the effective force constant for the oscillation
+        </li>
+        <li>
+          the amplitude of oscillation, 
+        </li>
+        <li>
+          the energy of the oscillation,
+        </li>
+        <li>
+          the maximum velocity of the piston, 
+        </li>
+        <li>
+          the maximum force on the piston.
+        </li>
+        <li>
+          If this force is produces by the gas in the piston, what is the maximum pressure in the piston?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A mass of 500 g is attached to a horizontal spring of a force constant 200 N/m and allowed to 
+      oscillate horizontally without friction. When t = 0 it passes through the origin moving 
+      to the right with a speed of 2 m/s. Find 
+      <ol marker="a.">
+        <li>
+          the angular frequency of oscillation
+        </li>
+        <li>
+          the amplitude of oscillation,
+        </li>
+        <li>
+          how long it takes to first slow down to 1 m/s, 
+        </li>
+        <li>
+          the position when v = 1 m/s,
+        </li>
+        <li>
+          the force when v = 1 m/s, 
+        </li>
+        <li>
+          the spring energy when v = 1 m/s.
+        </li>
+         </ol>
+        </p>
+  </exercise>
  </exercises>
 

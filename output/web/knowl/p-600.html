@@ -13,20 +13,36 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">The magnetic field in the figure below is <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig45.png" class="contained"></div>
+<div class="para">Therefore average power dissipated over a cycle is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P_{av}=\frac{\int\limits_{0}^{T}P\,dt}{\int\limits_{0}^{T}\,dt} = \frac{1}{T}\int\limits_{0}^{T}P\,dt 
+\end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\vec{B} = 5 \,T \hat{i}.
+\text{or,}\quad P_{av}=\frac{1}{T}\int\limits_{0}^{T}\frac{E_{o}I_{o}}{2}\left[\cos(\theta)-\cos(2\omega t+\theta)\right]\,dt
 \end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">What is the magnetic flux across the surface abcd?</div></li>
-<li><div class="para">Through cdef?</div></li>
-<li><div class="para">Through abfe?</div></li>
-<li><div class="para">Through all five surfaces enclosing the volume?</div></li>
-</ol>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{E_{o}I_{o}}{2}\cos\theta = \left(\frac{E_{o}}{\sqrt{2}}\right)\left(\frac{I_{o}}{\sqrt{2}}\right)\cos\theta
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-600" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+[\therefore \quad P_{av} = E_{rms}I_{rms}\cos\theta
+\end{equation*}
+</div>
+<div class="para">Hence if current and voltage is <span class="process-math">\(90^{o} \)</span> out of phase then <span class="process-math">\(\theta= 90^{o} \)</span> and average power consumption in ac circuit is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+[P_{av} = E_{rms}I_{rms}\cos 90^{o} = 0]
+\end{equation*}
+</div>
+<div class="para">zero. Here <span class="process-math">\(\cos\theta\)</span> is called a <dfn class="terminology">Power Factor</dfn> which can be defined as <span class="process-math">\(\cos\theta = \frac{R}{Z}.\)</span>
+</div>
+</div>
+<span class="incontext"><a href="subsec-complex_number.html#p-600" class="internal">in-context</a></span>
 </body>
 </html>

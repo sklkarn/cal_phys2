@@ -4,4 +4,93 @@
   <title>Examples A</title>
   
 
+  <example>
+    <statement>
+      <p>
+        A simple harmonic oscillator of mass 100 g is released from rest at a displacement of 5 cm 
+        and oscillates with a frequency of 120 rpm. Find 
+        <ol marker="a.">
+          <li>
+            its angular frequency, 
+          </li>
+          <li>
+            its effective force constant,
+          </li>
+          <li>
+            its amplitude,
+          </li>
+          <li>
+            its energy,
+          </li>
+          <li>
+            its speed when passing through x = 2 cm, 
+          </li>
+          <li>
+            the time to first reach x = 2 cm,
+          </li>
+          <li>
+            the force on the mass when x = 2 cm,
+          </li>
+          <li>
+            the time to make one complete cycle. 
+          </li>
+        </ol>
+             </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>m=0.1\,kg, \quad A = 0.05 \,m,\quad f = 2\,Hz, \quad x=0.02\,m</m>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+           <m> \omega =120 \,rpm= \frac{120\times 2\pi}{60}(rad/sec) = 12.566 \,rad/s</m>
+          </li>
+          <li>
+            <me>
+              \omega = \sqrt{\frac{k}{m}}
+            </me>
+            <m>\therefore\quad  k= m\omega^{2} = 15.79 \,N/m</m>
+              </li>
+          <li>
+            <m>A=5cm=0.05\,m</m>
+          </li>
+          <li>
+           <m> E = \frac{1}{2}kA^{2} = = 0.0197 \,J</m>
+          </li>
+          <li>
+           <m>\frac{1}{2}kA^{2} =  \frac{1}{2}mv^{2} +  \frac{1}{2}kx^{2}</m> 
+           <me>
+            \therefore\quad v = 0.576 \,m/s
+           </me>
+             </li>
+          <li>
+            <me>
+              x = A\cos\omega t 
+            </me>
+            <me>
+              \therefore\quad t = 0.293 \,s
+            </me>
+              </li>
+          <li>
+            <me>
+              F = -kx 
+            </me>
+            <me>
+              \therefore\quad F = - 0.316 \,N 
+            </me>
+             </li>
+          <li>
+            <me>
+              T = \frac{1}{f}
+           </me>
+            <me>
+              \therefore\quad T = 0.5 \,s
+            </me>
+              </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+  
 </section>

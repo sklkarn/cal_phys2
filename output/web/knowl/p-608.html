@@ -13,15 +13,74 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Two charges, <span class="process-math">\(q_{1} = 1 \,\mu C\)</span>  and <span class="process-math">\(q_{2} =- 2 \,\mu C\text{,}\)</span> are moving as shown in the figure below with velocities <span class="process-math">\(v_{1} = 3.0\times10^{6} \,m/s \)</span> and <span class="process-math">\(v_{2} = 4.09\times10^{6} \,m/s,\)</span> respectively. At the instant shown in the figure, x = 80 cm and y = 60 cm. Find <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig53.png" class="contained"></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E=\left(R+j\omega L + \frac{1}{j\omega C}\right)I;
+\end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">the magnitude and direction of the electrical force on <span class="process-math">\(q_{1}\)</span> by <span class="process-math">\(q_{2},\)</span>
-</div></li>
-<li><div class="para">the magnitude and direction of the magnetic force on <span class="process-math">\(q_{1}\)</span> by <span class="process-math">\(q_{2},\)</span> and</div></li>
-<li><div class="para">the ratio of the magnitudes of these two forces.</div></li>
-</ol>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E= \left[R+j\omega L - \frac{j}{\omega C}\right]I
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-608" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad I = \frac{E}{Z}= \frac{E}{\left[R+j\left(\omega L - \frac{1}{\omega C}\right)\right]}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad Z= \left[R+j\left(\omega L - \frac{1}{\omega C}\right)\right] = \left[R-j\left( \frac{1}{\omega C}-\omega L \right)\right] 
+\end{equation*}
+</div>
+<div class="para">Minus sign between <span class="process-math">\(X_{L}=\omega L\)</span> and <span class="process-math">\(X_{C}= \frac{1}{\omega C}\)</span> indicates that they are in opposite phase to each other.  The circuit becomes inductive, capacitive or purely resistive if <span class="process-math">\(X_{L} \gt X_{C},\)</span>  <span class="process-math">\(X_{L} \lt X_{C},\)</span>  or <span class="process-math">\(X_{L} = X_{C}.\)</span> Now since impedance  <span class="process-math">\(Z=|Z|e^{j\theta}\text{,}\)</span> we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+|Z|= \sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{and}\quad \theta =-\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad Z=\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} e^{-j\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Hence,}\quad I= \frac{E_{o}e^{j\omega t}}{\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} e^{-j\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{E_{o}e^{j(\omega t+\phi)}} {\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}}}
+\end{equation*}
+</div>
+<div class="para">where phase angle</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\phi = -\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E_{R}=RI = RI_{o}e^{j(\omega t +\phi)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E_{L}=j\omega L I = j\omega L I_{o}e^{j(\omega t +\phi)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E_{C}=-j\frac{1}{\omega C}I = -j \frac{1}{\omega C} I_{o}e^{j(\omega t +\phi)}
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-complex_number.html#p-608" class="internal">in-context</a></span>
 </body>
 </html>

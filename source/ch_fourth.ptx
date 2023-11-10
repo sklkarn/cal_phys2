@@ -10,17 +10,22 @@
   <!-- before those sections. Note the <p> tags around content.  -->
   <introduction>
     <p>
-    
-   
-     </p>
-    
-      </introduction>
+      The branch of Physics which deals with the property, propagation, and nature of sound is known as Acoustics. 
+      Wave is a base to understand sound. Here we discuss the basics of wave first before we learn sound. 
+      Now it is a good idea to know little bit about oscillatary motion before we start Wave. 
+      Some discussions are provided in <url href="https://sklkarn.github.io/calPhysI/sec_seventh-oscil.html">Gneral Physics I</url> already.
+      Here let us discuss <em>simple harmonic motion</em>.
+        </p>
+          </introduction>
 
  
   <xi:include href="./sec_fourth-intro.ptx" />
- 
-  <xi:include href="./sec_fourth-examplesA.ptx" />  
   
+  <xi:include href="./sec_fourth-waves.ptx" />
+   
+  <xi:include href="./sec_fourth-organ.ptx" />
+  <xi:include href="./sec_fourth-examplesA.ptx" />  
+  <xi:include href="./sec_fourth-examplesB.ptx" />  
 
   
   <xi:include href="./ex_fourth.ptx"/>  

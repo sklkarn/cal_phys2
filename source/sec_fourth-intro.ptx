@@ -1,8 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_fourth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Algebra of Vectors</title>
-  
+  <title>Simple Harmonic Motion</title>
+
+  <introduction>
+    <p>
+     <idx>shm</idx> A motion of a particle in which it repeats its position after a fixed 
+     interval of time is known as <em>periodic motion</em>. A periodic motion in which a restoring 
+     force acting on a particle is proportional to its displacement is known as <em>simple harmonic motion</em> (SHM). 
+     A planet orbits around the sun, bouncing ball, vibrating tuning fork, oscillation of pendulum 
+     are all periodic motion but only vibrating tuning fork, oscillation of pendulum, to and fro motion 
+     of spring-mass system are simple harmonic motion. The motion of planet around the sun, 
+     motion of a bouncing ball are periodic but not simple harmonic as their motion is not 
+     repetitive towards or from the mean position. 
+    </p>
+    <p>
+      When a wave propagates through a medium it displaces the medium particles at rest from their mean 
+      (equilibrium) positions. Since the material of a medium has elastic property, surface tension, 
+      and has experienced the gravity the particles start experiencing a restoring to force which wants 
+      to bring them to their equilibrium position. According to Hook's law the restoring force is directly 
+      proportional to the displacement of the particle from its mean position and directed along the mean 
+      position, i.e., 
+      <me>
+        F\propto y.
+      </me>
+      <me>
+        \text{or,}\quad F = -ky
+      </me>
+      -ve sign indicates that the force F is opposite to the displacement y and k is called an <em>elastic constant</em> 
+      (or force constant) of the material of the medium. 
+      <me>
+        \text{or,}\quad m a = -ky
+      </me>
+      where m is the mass of a oscillating particle. 
+      <me>
+        \text{or,}\quad a = \frac{\,d^{2}y}{\,dt^{2}}= -\frac{k}{m}y =-\omega^{2}y
+      </me>
+      <me>
+        \text{or,}\quad \frac{\,d^{2}y}{\,dt^{2}}+\omega^{2}y=0
+      </me>
+      which is a differential form of SHM, and 
+      <me>
+        \omega = \sqrt{\frac{k}{m}} =  2\pi f
+      </me>
+       is an angular frequency and  <m>f = \frac{1}{T}</m>.
+       <me>
+        \text{or,}\quad a=\frac{\,dv}{\,dt} = -\omega^{2}y
+       </me>
+       <me>
+        \text{or,}\quad \frac{\,dv}{\,dx}\frac{\,dx}{\,dt} = -\omega^{2}y
+       </me>
+       <me>
+        \text{or,}\quad v\frac{\,dv}{\,dx}= -\omega^{2}y
+       </me>
+       <me>
+        \text{or,}\quad \int\limits_{v_{o}}^{v} v \,dv = -\omega^{2}\int\limits_{y_{o}}^{y} y \,dy
+       </me>
+       <me>
+        \text{or,}\quad \left.\frac{v^{2}}{2}\right\vert_{v_{o}}^{v} = -\omega^{2}\left.\frac{y^{2}}{2}\right\vert_{y_{o}}^{y}
+       </me>
+       <me>
+        \text{or,}\quad  v^{2}-v_{o}^{2}= -\omega^{2}\left(y^{2}-y_{o}^{2}\right) 
+       </me>
+       <me>
+        \text{or,}\quad  v^{2}= \omega^{2}\left(\frac{v_{o}^{2}}{\omega^{2}}+y_{o}^{2}-y^{2}\right)=\omega^{2}\left(A^{2} - y^{2}\right) 
+       </me>
+      <men xml:id="eqn-shm1">
+        \text{or,}\quad v = \omega\sqrt{\left(A^{2}-y^{2}\right)} 
+      </men>
+      where 
+      <me>
+        A=\sqrt{\frac{v_{o}^{2}}{\omega^{2}}+y_{o}^{2}},
+      </me>
+      the amplitude or a maximum displacement of the particle. 
+      <me>
+        \text{or,}\quad v = \frac{\,dy}{\,dt}= \omega\sqrt{\left(A^{2}-y^{2}\right)}
+      </me>
+      <me>
+        \text{or,}\quad  \frac{\,dy}{\sqrt{\left(A^{2}-y^{2}\right)}}= \omega\,dt
+      </me>
+      <men xml:id="eqn-shm2">
+        \text{or,}\quad  \int\limits_{y_{o}}^{y}\frac{\,dy}{\sqrt{\left(A^{2}-y^{2}\right)}}= \omega \int\limits_{0}^{t}\,dt = \omega t 
+      </men>
+       To solve eqn. <xref ref="eqn-shm2"/>, consider 
+       <me>
+        \mathscr{I}= \int\frac{\,dy}{\sqrt{\left(A^{2}-y^{2}\right)}}
+       </me>
+          </p>
+          <figure xml:id="rtangtrig">
+            <caption></caption>
+            <image source="rtangtrig.png" width="30%"/>
+        </figure>
+          <p>
+            Now consider a right angled triangle as shown in <xref ref="rtangtrig"/>, 
+             where  
+             <me>
+              \sin\theta = \frac{y}{A}
+             </me>
+             <me>
+              \text{or,}\quad y=A \sin\theta
+             </me>
+             <me>
+              \therefore \quad\,dy = A\cos\theta\,d\theta
+             </me>
+             <me>
+              \text{or,}\quad  \mathscr{I} = \int\frac{A\cos\theta\,d\theta}{A\cos\theta} = \int\,d\theta = \theta = \sin^{-1}\frac{y}{A}
+             </me>
+             Hence from eqn. <xref ref="eqn-shm2"/>, we have - 
+             <me>
+              \left.\sin^{-1}\frac{y}{A}\right\vert_{y_{o}}^{y}=\omega t 
+             </me>
+             <me>
+              \text{or,}\quad \sin^{-1}\frac{y}{A}-\sin^{-1}\frac{y_{o}}{A}=\omega t
+             </me>
+             <me>
+              \text{or,}\quad \sin^{-1}\frac{y}{A} =\omega t+\sin^{-1}\frac{y_{o}}{A} = \omega t+\phi_{o} 
+             </me>
+             
+             <men xml:id="eqn-shm3">
+              \text{or,}\quad y = A\sin \left(\omega t+\phi_{o}\right)  
+             </men>
+                 </p>
+                 <figure xml:id="rfc">
+                  <caption></caption>
+                  <sidebyside widths="30% 30%">
+                       <figure xml:id="rfca">
+                        <caption></caption>
+                        <image source="rfca.png"/>
+                    </figure>
+                    <figure xml:id="rfcb">
+                      <caption></caption>
+                      <image source="rfcb.png"/>
+                  </figure>
+                  </sidebyside>
+                </figure>
+                 <p>
+                  This is the solution for a differential form of SHM or also called an equation of SHM. 
+                  Where  (<m>\omega t+\phi_{o}</m>) is called phase or phase angle of the particle. 
+                  At t = 0, the particle position can be described by  <m>\phi_{o},</m>  an initial phase, 
+                  or phase constant, or epoch of the particle. The phase angle is the angle swept out 
+                  by a radial vector OP, the foot of a particle at time t on a reference circle as shown in <xref ref="rfc"/>.
+                 </p>
+                 <p>
+                  The equation of SHM can be represented equivalently by 
+                  <me>
+                    y=A \cos(\omega t\pm \phi_{o})
+                  </me>
+                  <me>
+                    \text{or,}\quad y = A\sin \left(\omega t\pm \phi_{o}\right)
+                  </me>
+                  The value of <m>\phi_{o} </m> depends upon the time from which it is counted. 
+                  Let us consider the reference circle <xref ref="rfc"/> and time is counted from the point 
+                  S above the mean position, then phase angle of the particle is 
+                  <me>
+                    \left(\omega t + \phi_{o}\right), 
+                  </me>
+                    if time is counted from point <m>S'</m> below the mean position, then phase angle of the particle 
+                    is 
+                    <me>
+                      \left(\omega t - \phi_{o}\right),
+                    </me>
+                    and if time is counted from the point when particle is just at the mean position, 
+                    then phase angle of the particle is <m>\left(\omega t \right).</m> This equation can 
+                    also be the combination of both or in more general in a complex form such as 
+                    <me>
+                      y=A \sin(\omega t + \phi_{o}) + B \cos(\omega t+ \phi_{o}) 
+                    </me>
+                     <me>
+                      \text{or,}\quad y = Ae^{i(kt+\phi_{o})}
+                     </me>
+                      </p>
+  </introduction>
+
+
+  <subsection xml:id="subsec-shm_energy">
+    <title>Energy in SHM</title>
+    <p>
+      Consider a vibrating spring with mass m attached to its end, then the kinetic energy 
+      of the mass 
+      <me>
+        K=\frac{1}{2}mv^{2},
+      </me>
+      and potential energy stored in the spring with a displacement x is 
+      <me>
+        U=\frac{1}{2}kx^{2}.
+      </me>
+     Now since restoring force involved in spring mass system is conservative, 
+     so the total mechanical energy 
+     <me>
+      E=K+U
+     </me>
+      is conserved. 
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30%">
+            
+          <figure xml:id="massspring">
+            <caption></caption>
+            <image source="massspring.png"/>
+        </figure>
+        <figure xml:id="SHMenergy">
+          <caption></caption>
+          <image source="SHMenergy.png"/>
+      </figure>
+      </sidebyside>
+    </figure>
+    <p>
+      <me>
+        E = \frac{1}{2}mv^{2} +  \frac{1}{2}kx^{2} = \frac{1}{2}kA^{2} =constant
+      </me>
+      here k is a spring constant, A is the amplitude of vibration of a spring. 
+      Let the spring oscillates in vertical up and down then the solution for SHM is given by 
+      <me>
+        x=y=A\sin[\omega t +\phi]
+      </me>
+      <me>
+        \text{then}\quad v =\frac{\,dy}{\,dt} =-\omega A\cos[\omega t +\phi]
+      </me>
+      <me>
+        \text{or,}\quad E = \frac{1}{2}mv^{2} +  \frac{1}{2}ky^{2}
+      </me>
+      <me>
+        = \frac{1}{2}m \left(-\omega A\cos[\omega t +\phi]\right)^{2}+ \frac{1}{2}k\left(A\sin[\omega t +\phi]\right)^{2}
+      </me>
+      <me>
+        \text{or,}\quad E = \frac{1}{2}kA^{2}\left(\cos^{2}[\omega t +\phi]+\sin^{2}[\omega t +\phi]\right) = \frac{1}{2}kA^{2}
+      </me>
+      <m> [\because \omega^{2}=\frac{k}{m}]</m>
+    From eqn. <xref ref="eqn-shm1"/>, we have -
+    <me>
+      v=\pm\omega\sqrt{A^{2}-y^{2}}
+    </me>
+    <m>\pm</m> means mass m is oscillating in up and down direction, i.e. 
+    <me>
+      y=\pm A/2.
+    </me>
+    Now 
+    <me>
+      v = \pm\sqrt{\frac{k}{m}}A =\pm\omega A  \quad \text{at}\quad y=0
+    </me>
+       </p>
+  </subsection>
+
+
 
   </section>
 

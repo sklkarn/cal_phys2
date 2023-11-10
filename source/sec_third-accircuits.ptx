@@ -5,14 +5,985 @@
   
 <introduction>
   <p>
-    
+    A current which can only flow in a circuit in the same direction without changing the polarity 
+    is called a <em>direct current</em>. The current due to battery is one of the examples of direct current. 
+    On the other hand when current changes direction periodically from positive to negative is called an 
+    <em>alternating current</em>. In alternating current the flow of charge also reverses its direction 
+    back and forth with time. As a result, the voltage level also reverses along with the current. 
+    The current due to dynamo and electro-mechanical generator are some of the  sources of alternating 
+    current (AC). AC is used to deliver power to houses, office buildings, etc. because of low loss of energy. 
+    The alternating emf is represented as 
+    <me>
+      E=E_{o}\sin\omega t
+    </me>
+    Where E is called an instantaneous emf, <m>E_{o}</m> is an  amplitude of emf, <m>\omega </m> is an 
+    angular frequency, and t is the time of current flow.
+  </p>
+  <figure xml:id="gr12">
+    <caption></caption>
+    <image source="gr12.png" width="45%"/>
+</figure>
+  <p>
+    An average value of emf over one half cycle is, 
+    <me>
+      E_{av}=\frac{\int\limits_{0}^{T/2}E_{o}\sin\omega t\,dt}{\int\limits_{0}^{T/2}\,dt} 
+         </me>
+    <me>
+      = \frac{E_{o}}{T/2}\left[\frac{-\cos\omega t}{\omega}\right]_{0}^{T/2} = \frac{2E_{o}}{\pi}
+    </me>
+    <m>[\because \quad T = \frac{2\pi}{\omega}]</m>
+        Similarly, average alternating current over half cycle is 
+        <me>
+          I_{av}=\frac{2I_{o}}{\pi}
+        </me>
+        Hence an average over one cycle is zero.
   </p>
 </introduction>
 
 <subsection xml:id="subsec-rmsI">
   <title>RMS value of emf or current</title>
   <p>
-    
+    It is an effective value of alternating current which develops the same amount of heat 
+    in resistance R as direct current (or steady current) will develop when flowing  through it. That is, 
+    <me>
+      I^{2}_{eff}R=I^{2}R= \overline{I}^{2}R
+    </me>
+   <me>
+    \therefore\quad I_{eff}=I_{rms} = \sqrt{\overline{I}^{2}}
+   </me>
+   Thus the rms value of current is the square root of mean of squares of instantaneous values 
+   over one complete cycle. If an alternating current is represented by 
+   <me>
+    I=I_{o}\sin\omega t
+   </me>
+    where <m>I_{o}</m> is an amplitude of the alternating current, then mean square current is 
+    <me>
+      \overline{I}^{2} = \frac{\int\limits_{0}^{T}I^{2}\,dt}{\int\limits_{0}^{T}\,dt}
+    </me>
+    <me>
+      = \frac{1}{T} \int\limits_{0}^{T} I_{o}^{2}\sin^{2}\omega t\,dt =  \frac{I^{2}_{o}}{2T}\int\limits_{0}^{T} 2\sin^{2}\omega t\,dt
+    </me>
+    <me>
+      = \frac{I^{2}_{o}}{2T}\int\limits_{0}^{T}(1- \cos 2\omega t)\,dt = \frac{I^{2}_{o}}{2T}\left(t-\frac{\sin 2\omega t}{2\omega}\right)_{0}^{T} 
+    </me>
+    <me>
+      = \frac{I^{2}_{o}}{2T} T = \frac{I^{2}_{o}}{2}
+    </me>
+    <me>
+      \therefore\quad I_{rms}= \sqrt{\overline{I}^{2}} = \frac{I_{o}}{\sqrt{2}} = 0.707 I_{o}
+    </me>
+    similarly, 
+    <me>
+      E_{rms}= \sqrt{\overline{E}^{2}} = \frac{E_{o}}{\sqrt{2}} = 0.707 E_{o}
+    </me>
+    The hot wire meter is used to measure rms value of current. It measures the expansion 
+    of wire due to heat generated as current flow in it. 
+    <me>
+      \textbf{Form Factor}= \frac{I_{rms}}{I_{av}} = \frac{E_{rms}}{E_{av}} = \frac{\pi}{2\sqrt{2}}=1.11
+    </me>
+      </p>
+</subsection>
+
+<subsection xml:id="subsec-complex_number">
+  <title>The Complex Number Method for A.C. Analysis</title>
+ <introduction>
+  <p>
+    The complex algebra can be used to simplifies many ac problems. Let us review briefly 
+    some of the properties of complex numbers. In the expression 
+    <me>
+      z=x+jy
+    </me>
+    z is a complex quantity which has x and y as real components and 
+    <me>j=\sqrt{-1}</me> 
+    is an imaginary quantity. Complex numbers can be represented graphically by imaging 
+    their real components as abscissas and their imaginary components as ordinates as shown 
+    in <xref ref="complex1"/>. In such plot the complex quantity is represented by a vector, whose length 
+    indicates the magnitude of the complex quantity, and whose direction indicates the relative 
+    proportion of its real and imaginary constituents. The multiplication of complex vector by 
+    j is a vector operation producing a <m>90^{o}</m> counterclock wise rotation of the complex 
+    vector without changing its magnitude. Thus, 
+    <me>
+      jz=j(x+jy) = jx-y
+    </me>
+    has the direction in second quadrant and the vectors resulting from two further multiplications 
+    by j being in third and fourth quadrant as shown in <xref ref="complex1"/>.
+     </p>
+     <figure xml:id="complex1">
+      <caption></caption>
+      <image source="complex1.png" width="45%"/>
+  </figure>
+  <p>
+    The sinusoidal voltage or current can be easily represented by rotating vectors scheme. 
+    The rotating vectors are called <term>phasors</term> and diagram containing them are called 
+    <term>phasor diagrams</term>. Since the vectors are rotating in this scheme it is better 
+    to express the complex quantity in polar co-ordinate system. Suppose r is any vector making 
+    an angle <m>\theta</m> with the real axis then we have 
+    <me>
+      x=r\cos\theta
+    </me>
+   
+    <me>
+      and, \quad y=r\sin\theta
+    </me>
+     Hence 
+     <me>
+      z=x+jy = r\cos\theta + j r\sin\theta = r (\cos\theta + j\sin\theta) 
+     </me>
+     <me>
+      = r e^{j\theta} = |z|e^{j\theta} 
+     </me>
+     <fn>see Euler's equation in appendix</fn>
+        where, 
+        <me>
+          r=|z|=\sqrt{x^{2}+y^{2}}
+        </me>
+         or  
+         <me>
+          |z|=\sqrt{z\cdot z^{\ast}}
+         </me>
+          is called a modulus and 
+          <me>
+            \theta = \tan^{-1}\left(\frac{y}{x}\right)
+          </me>
+           is called the argument or phase of the complex quantity z. The sinusoidal current 
+           <me>
+            I = I_{o}\sin(\omega t+\phi)
+           </me>
+           and voltage 
+           <me>
+            E = E_{o}\sin(\omega t)
+           </me>
+            are now considered as the imaginary parts of 
+            <me>
+              I_{o}e^{j(\omega t+\phi)}
+            </me>
+             and 
+             <me>
+              E_{o}e^{j\omega t},
+             </me>
+              respectively. In an expression of alternating current  
+              <me>
+                I = I_{o}e^{j(\omega t+\phi)},
+              </me>
+              <m>\phi</m> is the initial phase of the current.
+  </p>
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-ZXY">
+  <title>Impedance, Reactance, and Admittance</title>
+  <p>
+    Direct current in a circuit can be controlled by a resistance only, but to control 
+    alternating current resistance, inductance, and capacitance can also be used. 
+    In alternating current the ratio of potential difference across the circuit to the current 
+    flowing through it is known as <term>impedance, Z</term> where 
+    <me>
+      Z=\frac{E}{I}.
+    </me>
+    Physically impedance in ac (alternating current) circuit is the resistance offered by it in the 
+    flow of alternating current just as the resistance in the flow of direct current in the dc circuit. 
+    The resistance offered by the inductance and capacitance to the flow of alternating current 
+    in the ac circuit is known as the <term>Reactance, X</term>. The reactance due to inductance 
+    is called inductive reactance, <m>X_{L}</m> and that due to capacitance is called capacitive 
+    reactance, <m>X_{C}</m>. The <em>inverse of the impedance</em> is called the <term>admittance, Y</term>, 
+    i.e., 
+    <me>
+      Y=\frac{1}{Z}.
+    </me>
+    Hence 
+    <me>
+      Y\cdot E = \frac{E}{Z}=I
+    </me>
+     </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-acR">
+  <title>Resistance in an AC Circuit</title>
+  <p>
+    Consider an alternating sinusoidal voltage 
+    <me>
+      E=E_{o} \sin\omega t
+    </me>
+     an imaginary part of 
+     <me>
+      E=E_{o} e^{j\omega t}
+     </me>
+      is applied across a resistor of resistance R, [<xref ref="figacR"/>] then the 
+      current flowing through it at any instant of time is given by 
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+           <figure xml:id="figacR">
+            <caption></caption>
+            <image source="figacR.png"/>
+        </figure>
+        <figure xml:id="gr13">
+          <caption></caption>
+          <image source="gr13.png"/>
+      </figure>
+      <figure xml:id="complex2">
+        <caption>Phasor diagram</caption>
+        <image source="complex2.png"/>
+    </figure>
+        </sidebyside>
+  </figure>
+  <p>
+    <me>
+      I= \frac{E}{R}= \frac{E_{o} e^{j\omega t}}{R} = I_{o} e^{j\omega t}.
+    </me>
+    <me>
+      \text{where,}\quad I_{o}=\frac{E_{o}}{R}
+    </me>
+        Hence the actual current is 
+        <me>
+          I_{o} \sin\omega t
+        </me>
+         which is an imaginary part of 
+         <me>
+          I_{o} e^{j\omega t}.
+         </me>
+            Since the current and voltage rise and fall simultaneously, they are in phase with each 
+            other as shown in <xref ref="gr13"/>. The projection of peak voltage <m>E_{o}</m> 
+            and current <m>I_{o}</m> vectors rotating continuously in anti-clockwise direction 
+            with an angular velocity <m>\omega</m> [<xref ref="complex2"/>] and lying completely along the x-axis at t = 0, T, 2T, etc.
+  </p>
+  <p>
+   <alert>Alternative:</alert> 
+   <me>
+    E(t) = R I(t)
+   </me>
+  <me>
+    E_{o}\sin\omega t = R I(t)
+  </me>
+  <me>
+    \therefore I(t) = \frac{E_{o}}{R}\sin\omega t = I_{o} \sin\omega t
+  </me>
+    This implies that <m>I(t)</m> is in phase with <m>E(t)</m> [<xref ref="complex2"/>].
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-acL">
+  <title>Inductance in an AC Circuit</title>
+  <p>
+    Consider an alternating emf 
+    <me>
+      E=E_{o} e^{j\omega t}
+    </me>
+     is applied across an inductor of inductance L, and I be the current flowing through it then from the circuit [<xref ref="figacL"/>] we have
+  </p>
+ 
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+             <figure xml:id="figacL">
+              <caption></caption>
+              <image source="figacL.png"/>
+          </figure>
+          <figure xml:id="gr14">
+            <caption></caption>
+            <image source="gr14.png"/>
+        </figure>
+        <figure xml:id="phasor3">
+          <caption>Phasor diagram</caption>
+          <image source="phasor3.png"/>
+      </figure>
+          </sidebyside>
+    </figure>
+    <p>
+      <me>
+        E = E_{o} e^{j\omega t}= L\frac{\,dI}{\,dt}
+      </me>
+      <me>
+        \text{or,}\quad \,dI = \frac{E_{o}}{L} e^{j\omega t}\,dt
+      </me>
+      <me>
+        \text{or,}\quad I=\int\,dI = \frac{E_{o}}{j\omega L}  e^{j\omega t} = \frac{E}{j\omega L}
+      </me>
+      <me>
+        \text{or,}\quad I = \frac{E}{j\omega L}\times\frac{j}{j}=- \frac{jE}{\omega L} 
+      </me>
+      <me>
+        =-\frac{jE_{o}e^{j\omega t}}{\omega L} = \frac{E_{o}e^{j\omega t}e^{-j\frac{\pi}{2}}}{\omega L}
+      </me>
+      <me>
+        = \frac{E_{o}e^{j(\omega t-\frac{\pi}{2})}}{\omega L} = I_{o} e^{j(\omega t-\frac{\pi}{2})}
+      </me>
+      <m>\left\lbrace\because  -j=\cos\frac{\pi}{2}-j\sin\frac{\pi}{2}\right\rbrace</m>
+     <me>
+      \text{here}\quad I_{o}= \frac{E_{o}}{\omega L}
+     </me>
+     is the amplitude of actual current, 
+     <me>
+      I=I_{o}\sin \left(\omega t -\frac{\pi}{2}\right).
+     </me>
+           This expression indicates that the current through the inductor is also alternating but 
+           lagging behind the emf by  <m>\frac{\pi}{2}</m> or with <m>90^{o}</m> phase difference. 
+           In 
+           <me>
+            I_{o}= \frac{E_{o}}{\omega L}
+           </me>
+            the quantity <m>\omega L </m> has the dimension of reactance <m>X_{L}.</m> 
+            The reciprocal of inductive reactance is called <em>inductive susceptance</em> 
+            which is <m>\frac{1}{\omega L}.</m> The inductive reactance <m>X_{L}</m> measures 
+            the hindrance to the flow of ac just like resistance R in purely resistive circuit. 
+            Unlike resistances the average power consumed by inductance is zero. 
+            In an expression 
+            <me>
+              I=\frac{E}{j\omega L}
+            </me>
+             the quantity <m>j\omega L</m> is the total resistance in an ac circuit hence 
+             it is called the impedance Z of the inductance. That is 
+             <me>
+              X_{L}=\omega L
+             </me>
+             <me>
+              \text{and}\quad Z=j\omega L
+             </me> 
+  </p>
+  <p>
+   <alert>Alternative:</alert>
+   <me>
+    E(t) = L \frac{\,dI(t)}{\,dt}
+   </me>
+   <me>
+    or,\quad \int_{0}^{t} E_{o}\sin\omega t \,dt= L \int_{0}^{I}\,dI(t)
+   </me>
+   <me>
+    \therefore I(t) = -\frac{E_{o}}{\omega L}\cos\omega t = I_{o} \sin\left(\omega t-\frac{\pi}{2}\right)
+   </me>
+   This implies that <m>I(t)</m> is lagging behind <m>E(t)</m> by phase <m>\pi/2.</m>
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-acC">
+  <title>Capacitance in an AC Circuit</title>
+  <p>
+   Consider an alternating emf 
+   <me>
+    E=E_{o} e^{j\omega t}
+   </me>
+    is applied across a capacitor of capacitance C, and I be the current flowing 
+    through it then from the circuit [<xref ref="figacC"/>] we have 
+    <me>
+      E_{o}e^{j\omega t} = \frac{q}{C}
+    </me>
+  <me>
+    \text{But,}\quad I=\frac{\,dq}{\,dt} = \frac{\,d}{\,dt}(CE_{o}e^{j\omega t})=j\omega CE_{o}e^{j\omega t} =\frac{E}{j\omega C}
+  </me>
+ <m>\left\lbrace \because  j=e^{j\frac{\pi}{2}}=\cos\frac{\pi}{2}+j\sin\frac{\pi}{2} \right\rbrace </m>
+   </p>
+   <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+           <figure xml:id="figacC">
+            <caption></caption>
+            <image source="figacC.png"/>
+        </figure>
+        <figure xml:id="gr15">
+          <caption></caption>
+          <image source="gr15.png"/>
+      </figure>
+      <figure xml:id="phasor4">
+        <caption>Phasor diagram</caption>
+        <image source="phasor4.png"/>
+    </figure>
+        </sidebyside>
+  </figure>
+   <p>
+    We can write 
+    <me>
+      I = \omega C E_{o}e^{j\omega t}e^{j\frac{\pi}{2}} = \omega C E_{o}e^{j(\omega t+\frac{\pi}{2})}
+    </me>
+    <me>
+      = \frac{E_{o}}{1/\omega C}e^{j(\omega t+\frac{\pi}{2})}= I_{o}e^{j(\omega t+\frac{\pi}{2})}
+    </me>
+        where, 
+        <me>
+          I_{o}= \frac{E_{o}}{1/\omega C}
+        </me>
+        is the peak value of altenating current,
+        <me>
+          I=I_{o}\sin\left(\omega t+\frac{\pi}{2}\right)
+        </me>
+        Hence, in this case also current is alternating sinusoidal with frequency <m>\omega</m> 
+        but leading the emf by <m>\frac{\pi}{2}</m> phase as shown in <xref ref="gr15"/>. 
+   </p>
+   <p>
+    In this case, the capacitive reactance
+    <me>
+      X_{C} = \frac{E_{o}}{I_{o}}= \frac{1}{\omega C}
+    </me>
+    and impedance, 
+    <me>
+      Z = \frac{E}{I}=\frac{1}{j\omega C}.
+    </me>
+        The capacitive reactance <m>X_{C}</m> measures the hindrance to the flow of ac just 
+        like resistance R in purely resistive circuit. The reciprocal of capacitive reactance 
+        is called capacitive susceptance which is <m>\omega C</m>. Even though capacitor provide 
+        hindrance to the flow of current it does not consume any energy over a cycle.
+   </p>
+   <p>
+   <alert> Alternative:</alert> 
+   <me>
+    E(t) = \frac{q(t)}{C} 
+   </me>
+   <me>
+    but, \quad I(t) = \frac{\,dq(t)}{\,dt}  = \frac{\,d}{\,dt}\left(CE_{o}\sin\omega t\right)=  C\omega E_{o}\cos\omega t 
+   </me>
+   <me>
+    \therefore I(t) = I_{o} \sin\left(\omega t+\frac{\pi}{2}\right)
+   </me>
+   This implies that <m>I(t)</m> is leading <m>E(t)</m> by phase <m>\pi/2</m> [<xref ref="phasor4"/>].
+   </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-rlc_variation">
+  <title>Variation of reactance due to R, L and C with angular frequency <m>\omega</m> in an AC circuit</title>
+  <figure xml:id="grRLC">
+    <caption></caption>
+    <image source="grRLC.png" width="40%"/>
+</figure>
+  <p>
+
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-acPower">
+  <title>Power in an AC Circuit</title>
+  <p>
+    Power is dc circuit is given by 
+    <me>
+      P=VI
+    </me>
+     as voltage and current in dc circuit is constant but in ac circuit they are changing with time 
+     hence in ac circuit instantaneous power dissipated can be determined as 
+     <me>
+      P = VI = EI = E_{o}\sin(\omega t)\times I_{o}\sin(\omega t+\theta)
+     </me>
+     where <m>\theta</m> is a phase difference between current and voltage. 
+     <me>
+      \text{or,}\quad P = E_{o}I_{o}\sin(\omega t)\sin(\omega t+\theta)
+     </me>
+     <me>
+      = \frac{E_{o}I_{o}}{2} \left[\cos(\omega t - \omega t - \theta)-\cos(\omega t+\omega t+\theta)\right]
+     </me>
+     <me>
+      \text{or,}\quad P = \frac{E_{o}I_{o}}{2} \left[\cos(- \theta)-\cos(2\omega t+\theta)\right]
+     </me>
+     <me>
+      \text{or,}\quad P =\frac{E_{o}I_{o}}{2}\left[\cos(\theta)-\cos(2\omega t+\theta)\right]
+     </me>
+     <m>\because\quad \cos(-\theta) =\cos\theta ;</m> <m>\sin\,A\sin\,B=\frac{1}{2}\left[\cos\,(A-B)-\cos\,(A+B)\right].</m>
+  </p>
+  <p>
+    Therefore average power dissipated over a cycle is given by 
+    <me>
+      P_{av}=\frac{\int\limits_{0}^{T}P\,dt}{\int\limits_{0}^{T}\,dt} = \frac{1}{T}\int\limits_{0}^{T}P\,dt 
+    </me>
+    <me>
+      \text{or,}\quad P_{av}=\frac{1}{T}\int\limits_{0}^{T}\frac{E_{o}I_{o}}{2}\left[\cos(\theta)-\cos(2\omega t+\theta)\right]\,dt
+    </me>
+    <me>
+      =\frac{E_{o}I_{o}}{2}\cos\theta = \left(\frac{E_{o}}{\sqrt{2}}\right)\left(\frac{I_{o}}{\sqrt{2}}\right)\cos\theta
+    </me>
+    <me>
+      [\therefore \quad P_{av} = E_{rms}I_{rms}\cos\theta
+    </me>
+    Hence if current and voltage is <m> 90^{o} </m> out of phase then <m>\theta= 90^{o} </m> 
+    and average power consumption in ac circuit is 
+    <me>
+      [P_{av} = E_{rms}I_{rms}\cos 90^{o} = 0]
+    </me>
+    zero. Here <m>\cos\theta</m> is called a <term>Power Factor</term> which can be defined as <m>\cos\theta = \frac{R}{Z}.</m>
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-acRL">
+  <title>AC Circuit with Resistance and  Inductance in Series</title>
+  <p>
+    Let emf of 
+    <me>
+      E=E_{o}e^{j\omega t}
+    </me>
+     be applied to a circuit containing a resistor R and an inductor L in series as 
+     shown in <xref ref="figacRL"/>, then from Kirchhoff's law, we have
+  </p>
+  <figure xml:id="figacRL">
+    <caption></caption>
+    <image source="figacRL.png" width="40%"/>
+</figure>
+<p>
+  <me>
+    E-E_{L}=E_{R}
+  </me>
+  <me>
+    \text{or,}\quad E = RI+j\omega L I
+  </me>
+  <me>
+    \therefore\quad I = \frac{E}{R+j\omega L}
+  </me>
+  <me>
+    \text{But,}\quad I = \frac{E}{Z},
+  </me>
+  <me>
+    \therefore \quad Z=R+j\omega L, 
+  </me>
+  which is a complex quantity.
+  <me>
+    \text{Again,}\hspace {2pt} Z= |Z| e^{j\theta} = \sqrt{R^{2}+\omega^{2}L^{2}} e^{j\tan^{-1}\left(\frac{\omega L}{R}\right)};
+  </me>
+  see <xref ref="Z3"/>.
+ <me>
+  \text{or,}\quad I = \frac{E_{o}e^{j\omega t}}{\sqrt{R^{2}+\omega^{2}L^{2}} e^{j\tan^{-1}\left(\frac{\omega L}{R}\right)}}
+ </me>
+ <me>
+  = \frac{E_{o}}{ \sqrt{R^{2}+\omega^{2}L^{2}}}e^{j(\omega t-\phi}); 
+ </me>
+ <me>
+  \text{where, } \phi = \tan^{-1}\left(\frac{\omega L}{R}\right);
+ </me>
+ <me>
+  \text{Hence,}\quad I = I_{o}e^{j(\omega t-\phi)}
+ </me>
+ </p>
+ <figure>
+  <caption></caption>
+  <sidebyside widths="40% 30% 25%">
+         <figure xml:id="gr16">
+          <caption></caption>
+          <image source="gr16.png"/>
+      </figure>
+      <figure xml:id="phasor5">
+        <caption></caption>
+        <image source="phasor5.png"/>
+    </figure>
+    <figure xml:id="Z3">
+      <caption></caption>
+      <image source="Z3.png"/>
+  </figure>
+      </sidebyside>
+</figure>
+<p>
+  Here modulus of impedance Z is 
+  <me>
+    \sqrt{R^{2}+\omega^{2}L^{2}} = \sqrt{R^{2}+X^{2}_{L}}
+  </me>
+   and current I is lagging behind the emf E by an angle 
+   <me>
+    \phi = \tan^{-1}\left(\frac{\omega L}{R}\right)
+   </me>
+   [<xref ref="phasor5"/>] lying between <m>0^{o}</m> and <m>90^{o}</m> as shown in <xref ref="gr16"/>.
+</p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-acRC">
+  <title>AC Circuit with Resistance and  Capacitance in Series</title>
+  <p>
+    Let emf of 
+    <me>
+      E=E_{o}e^{j\omega t}
+    </me>
+     be applied to a circuit containing a resistor of resistance R and a capacitor of 
+     capacitance C in series as shown in <xref ref="figacRC"/>, then from Kirchhoff's law, we have
+  </p>
+  <figure xml:id="figacRC">
+    <caption></caption>
+    <image source="figacRC.png" width="40%"/>
+</figure>
+<p>
+  <me>
+    E=E_{C}+E_{R};
+  </me>
+  <me>
+    \text{or,}\quad E = RI+\frac{1}{j\omega C}I
+  </me>
+  <me>
+    \therefore\quad I = \frac{E}{R+\frac{1}{j\omega C}}
+  </me>
+  <me>
+    \text{But,}\quad I = \frac{E}{Z}
+  </me>
+  <me>
+    \therefore \quad Z = R+\frac{1}{j\omega C} = R-\frac{j}{\omega C} 
+  </me>
+  which is complex quantity.
+ <me>
+  \text{Again}\quad Z = |Z| e^{j\theta} = \sqrt{\left(R^{2}+\frac{1}{\omega^{2}C^{2}}\right)} e^{-j\tan^{-1}\left(\frac{1/\omega C}{R}\right)} 
+ </me>
+ </p>
+ <figure>
+  <caption></caption>
+  <sidebyside widths="40% 30% 25%">
+         <figure xml:id="gr17">
+          <caption></caption>
+          <image source="gr17.png"/>
+      </figure>
+      <figure xml:id="phasor6">
+        <caption></caption>
+        <image source="phasor6.png"/>
+    </figure>
+    <figure xml:id="Z4">
+      <caption></caption>
+      <image source="Z4.png"/>
+  </figure>
+      </sidebyside>
+</figure>
+ <p>
+  <me>
+    \text{or,}\quad I = \frac{E_{o} e^{j\omega t}}{\sqrt{\left(R^{2}+\frac{1}{\omega^{2}C^{2}}\right)} e^{-j\tan^{-1}\left(\frac{1/\omega C}{R}\right)}}
+  </me>
+  <me>
+    = \frac{E_{o}}{ \sqrt{\left(R^{2}+\frac{1}{\omega^{2}C^{2}}\right)}}e^{j(\omega t+\phi)}  
+  </me>
+  <me>
+    \text{where }\quad \phi=\tan^{-1}\left(\frac{1/\omega C}{R}\right)=\tan^{-1}\left(\frac{1}{\omega CR}\right)
+  </me>
+    The current in this circuit leads the applied emf by an angle <m>\phi</m> between 
+    <m>0^{o}</m> and <m>90^{o}</m> as shown in <xref ref="gr17"/>. The capacitive reactance 
+    <me>
+      X_{C}=\frac{1}{\omega C}
+    </me>
+     lags behind the resistance R by an angle <m>90^{o}</m> as shown in <xref ref="phasor6"/>.
+ </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-acRLC_series">
+  <title>AC Circuit with Resistance,  Capacitance, and Inductance in Series</title>
+  <p>
+    Let emf of <m>E=E_{o}e^{j\omega t}</m> be applied to a circuit containing a resistor of resistance R, 
+    an inductor of inductance L, and a capacitor of capacitance C in series as shown in <xref ref="figacRLC"/>, 
+    then from Kirchhoff's law, we have 
+    <me>
+      E=V_{R}+V_{L}+V_{C};
+    </me>
+    <me>
+      \text{or,}\quad E=RI+j\omega LI + \frac{1}{j\omega C}I
+    </me>
+     </p>
+     <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30%">
+             <figure xml:id="figacRLC">
+              <caption></caption>
+              <image source="figacRLC.png"/>
+          </figure>
+          <figure xml:id="phasor7a">
+            <caption></caption>
+            <image source="phasor7a.png"/>
+        </figure>
+        </sidebyside>
+    </figure>
+<p>
+<me>
+  \text{or,}\quad E=\left(R+j\omega L + \frac{1}{j\omega C}\right)I;
+</me>
+<me>
+  \text{or,}\quad E= \left[R+j\omega L - \frac{j}{\omega C}\right]I
+</me>
+<me>
+  \therefore\quad I = \frac{E}{Z}= \frac{E}{\left[R+j\left(\omega L - \frac{1}{\omega C}\right)\right]}
+</me>
+<me>
+  \therefore \quad Z= \left[R+j\left(\omega L - \frac{1}{\omega C}\right)\right] = \left[R-j\left( \frac{1}{\omega C}-\omega L \right)\right] 
+</me>
+Minus sign between <m>X_{L}=\omega L</m> and <m>X_{C}= \frac{1}{\omega C}</m> indicates 
+that they are in opposite phase to each other.  The circuit becomes inductive, capacitive or 
+purely resistive if <m>X_{L} \gt X_{C},</m>  <m>X_{L} \lt X_{C},</m>  or <m>X_{L} = X_{C}.</m> 
+Now since impedance  <m>Z=|Z|e^{j\theta}</m>, we have 
+<me>
+  |Z|= \sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} 
+</me>
+<me>
+  \text{and}\quad \theta =-\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]
+</me>
+<me>
+  \therefore \quad Z=\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} e^{-j\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]}
+</me>
+<me>
+  \text{Hence,}\quad I= \frac{E_{o}e^{j\omega t}}{\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} e^{-j\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]}} 
+</me>
+<me>
+  = \frac{E_{o}e^{j(\omega t+\phi)}} {\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}}}
+</me>
+where phase angle 
+<me>
+  \phi = -\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]
+</me>
+<me>
+  E_{R}=RI = RI_{o}e^{j(\omega t +\phi)}
+</me>
+<me>
+  E_{L}=j\omega L I = j\omega L I_{o}e^{j(\omega t +\phi)}
+</me>
+<me>
+  E_{C}=-j\frac{1}{\omega C}I = -j \frac{1}{\omega C} I_{o}e^{j(\omega t +\phi)}
+</me>
+</p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-acRLC_parallel">
+  <title>AC Circuit with Resistance,  Capacitance, and Inductance in Parallel</title>
+  <p>
+    Let emf <m>E=E_{o}\sin\omega t </m> be applied to a circuit containing a resistor of resistance R, 
+    an inductor of inductance L, and a capacitor of capacitance C in parallel as shown in <xref ref="ParallelRLC"/>. 
+    Hence, 
+    <me>
+      E(t) = V_{R}=V_{L}=V_{C}
+    </me>
+    Now, 
+    <me>
+      I_{R}(t)=\frac{E(t)}{R} = \frac{E_{o}}{R} \sin\omega t = I_{Ro} \sin\omega t
+    </me>
+   <me>
+    V_{L}(t)=E(t)=E_{o}\sin\omega t = L\frac{\,dI_{L}}{\,dt}
+   </me>
+   <me>
+    \therefore I_{L}(t)= \int_{0}^{t} \frac{E_{o}}{L}\sin\omega t'\,dt' 
+   </me>
+   <me>
+    =-\frac{E_{o}}{\omega L}\cos\omega t = \frac{E_{o}}{X_{L}}\sin\left(\omega t-\frac{\pi}{2}\right) 
+   </me>
+   <me>
+    =I_{Lo} \sin\left(\omega t-\frac{\pi}{2}\right)
+   </me>
+   <me>
+    V_{C}(t)=E(t)=E_{o}\sin\omega t = \frac{Q(t)}{C}
+   </me>
+   <me>
+    \therefore I_{C}(t)= \frac{\,dQ(t)}{\,dt} 
+   </me>
+   <me>
+    =\omega CE_{o}\cos\omega t = X_{C}E_{o}\sin\left(\omega t+\frac{\pi}{2}\right) 
+   </me>
+   <me>
+    =I_{Co} \sin\left(\omega t+\frac{\pi}{2}\right)
+   </me>
+     </p>
+     <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30%">
+             <figure xml:id="ParallelRLC">
+              <caption></caption>
+              <image source="ParallelRLC.png"/>
+          </figure>
+          <figure xml:id="phasor8">
+            <caption></caption>
+            <image source="phasor8.png"/>
+        </figure>
+         </sidebyside>
+    </figure>
+     <p>
+      Using Kirchoff's current law at the junction, we have 
+      <me>
+        I(t) = I_{R}(t)+I_{L}(t)+I_{C}(t)
+      </me>
+      <me>
+        = I_{Ro}\sin\left(\omega t\right)+I_{Lo} \sin\left(\omega t-\frac{\pi}{2}\right)+I_{Co} \sin\left(\omega t+\frac{\pi}{2}\right)
+      </me>
+     From phasor, 
+     <me>
+      \vec{I}_{o}= \vec{I}_{Ro}+\vec{I}_{Co}+\vec{I}_{Lo}
+     </me>
+     <me>
+      \therefore I_{o} = \sqrt{I^{2}_{Ro} + \left(I_{Co}-I_{Lo}\right)^{2}} = E_{o}\sqrt{\frac{1}{R^{2}}+\left(X_{C}+\frac{1}{X_{L}}\right)^{2}}
+     </me>
+     <me>
+      \therefore I_{o}=\frac{E_{o}}{Z}
+     </me>
+     <me>
+      \therefore \frac{1}{Z}=\sqrt{\frac{1}{R^{2}}+\left(\omega C-\frac{1}{\omega L}\right)^{2}}
+     </me>
+       </p>
+       <p>
+        At resonant condition, <m>\theta = 0</m> 
+        <me>
+          \therefore X_{C}=X_{L} \quad \Rightarrow \quad \omega_{o}C=\frac{1}{\omega_{o}L}
+        </me>
+        <me>
+          or, \quad \omega_{o} = \frac{1}{\sqrt{LC}}
+        </me>
+            </p>
+ </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-transformer">
+  <title>Transformer</title>
+  <p>
+    <idx>transformer</idx> 
+    Transformer is an electrical appliance which convert large current at low voltage to low current at high voltage, 
+    and vice versa. It uses the principle of electromagnetic induction to transform electrical energy from 
+    one circuit to another. The AC power is more preferential over dc power as it can be transmitted at 
+    high voltage and low currents with significantly small power loss 
+    <me>
+      P'= I^{2}R = I V'
+    </me>
+     and can be subsequently transformed to modest voltage and larger currents near destination with 
+     the help of transformer. It can transform power into large variety of voltage and currents 
+     by using step-up, or step-down transformer with desired numbers of turns at primary and secondary coils. 
+     It can also be used as impedance matching device in order to get maximum power transfer 
+     [read <xref ref="subsec-maxptr"/>] from generator to load. It can also be used as ac coupling 
+     between two circuits that are not from the same dc potential.
+  </p>
+  <figure>
+    <caption>Transformer</caption>
+    <sidebyside widths="25% 25% 25% 25%">
+           <figure xml:id="transsch">
+            <caption>Schematic</caption>
+            <image source="transsch.png"/>
+        </figure>
+        <figure xml:id="transform3">
+          <caption>Step Up</caption>
+          <image source="transform3.png"/>
+      </figure>
+      <figure xml:id="transform">
+        <caption>Step Down</caption>
+        <image source="transform.png"/>
+    </figure>
+    <figure xml:id="transform2">
+      <caption>in circuit</caption>
+      <image source="transform2.png"/>
+  </figure>
+       </sidebyside>
+  </figure>
+  <p>
+    A typical transformer [<xref ref="transsch"/>] consists of a two or more coils of insulated wire wound on a laminated iron core. 
+    An alternating voltage which is to be reduced or increased is connected to the coil, called the 
+    <term>primary coil</term> or input coil. This coil magnetizes the iron core. A voltage is then induced 
+    in the other coil, called the <term>secondary coil</term> or output coil. The change of voltage 
+    (or voltage ratio) between the primary and secondary depends on the turns ratio of the two coils. 
+    There are two types of transformer on the basis of their operation. If the number of turns in primary 
+    coil is less than that at secondary then it is called a <em>step-up</em> transformer [<xref ref="transform3"/>] and if number of 
+    turns in primary is grater than that in secondary then it is called a <em>step down</em> transformer [<xref ref="transform"/>].
+  </p>
+  <p>
+    Let us consider a transformer as shown in circuit <xref ref="transform2"/>. Consider 
+    <m>L_{1}, \quad L_{2}, \quad  R_{1},\quad  R_{2},\quad  N_{1},</m> and <m>N_{2}</m> are inductances, 
+    resistances, and number of turns in primary and secondary coils, respectively. Mutual inductance of 
+    the two coils is <m> M,</m> and impedances of the generator and load are <m>Z_{g}</m> and <m>Z_{l}</m>, respectively, 
+    then from Kirchhoff's law - 
+   <me>   
+    \begin{cases}
+    E=I_{1}\left(Z_{g}+R_{1}+j\omega L_{1}\right) \pm j\omega M I_{2} \\
+    0=I_{2}\left(Z_{l}+R_{2}+j\omega L_{2}\right) \pm j\omega M I_{1}
+    \end{cases}
+   </me>
+  </p>
+  <p>
+    The choice of signs preceding final terms depends on the current flowing through the two coils. 
+    Hence by solving 
+    <me>
+      E=I_{1}\left(Z_{g}+R_{1}+j\omega L_{1}\right) + j\omega M I_{2} 
+    </me>
+    <me>
+      0=I_{2}\left(Z_{l}+R_{2}+j\omega L_{2}\right) - j\omega M I_{1}
+    </me>
+    we get - 
+    <me>
+      I_{1} = \frac{E\left(Z_{l}+R_{2}+j\omega L_{2}\right)}{\left(Z_{g}+R_{1}+j\omega L_{1}\right) \left(Z_{l}+R_{2}+j\omega L_{2}\right)+\omega^{2}M^{2}}
+    </me>
+    and 
+    <me>
+      I_{2} = \frac{Ej\omega M}{\left(Z_{g}+R_{1}+j\omega L_{1}\right) \left(Z_{l}+R_{2}+j\omega L_{2}\right)+\omega^{2}M^{2}}
+    </me>
+    Hence voltage drop at primary coil, 
+    <me>
+      V_{1} = E-I_{1}Z_{g}
+    </me>
+  and 
+  <me>
+    V_{2} = I_{2}Z_{l}
+  </me>
+ In an ideal transformer flux due to one coil is completely passes through the other, i.e., 
+ <me>
+  \Phi_{B1} =\Phi_{B2},
+ </me>
+  hence the coupling constant k becomes unity, 
+  <me>
+    \therefore \quad M= k\sqrt{L_{1}L_{2}} =\sqrt{L_{1}L_{2}}
+  </me>
+  Since <m>R_{1}</m> and <m>R_{2}</m> in an ideal transformer is zero, and reactance of the two coils 
+  are so large in comparison to the generator and load impedances, we can write 
+  <me>
+    Z_{g}+R_{1}+j\omega L_{1} \approx j\omega L_{1}
+  </me>
+  and 
+  <me>
+    Z_{l}+R_{2}+j\omega L_{2} \approx j\omega L_{2}
+  </me>
+  Hence for an ideal transformer 
+  <me>
+    \frac{I_{1}}{I_{2}} = \frac{Z_{l}+R_{2}+j\omega L_{2}}{j\omega M} \approx \frac{L_{2}}{M} = \sqrt{\frac{L_{2}}{L_{1}}}
+  </me>
+  but <m>L \propto N^{2}</m> 
+  <me>
+    \therefore \quad \frac{I_{1}}{I_{2}}=\frac{N_{2}}{N_{1}}
+  </me>
+  <me>
+    \text{or,}\quad N_{1}I_{1}= N_{2}I_{2}
+  </me>
+  Also 
+  <me>
+    \frac{V_{2}}{V_{1}} = \frac{i_{2}Z_{l}}{E-i_{1}Z_{g}} \approx \frac{I_{2}Z_{l}}{E}
+  </me>
+  <me>
+    \approx \frac{Ej\omega M}{\left(j\omega L_{1}\right) \left(Z_{l}+j\omega L_{2}\right)+\omega^{2}M^{2}}\cdot\frac{Z_{l}}{E}
+  </me>
+  <me>
+    \approx \frac{j\omega MZ_{l}}{j\omega L_{1}Z_{l}-\omega^{2} L_{1} L_{2} +\omega^{2}M^{2}}
+  </me>
+  <me>
+    \text{or,}\quad \frac{V_{2}}{V_{1}} \approx 	\frac{M}{L_{1}} \approx \sqrt{\frac{L_{2}}{L_{1}}} \approx \frac{N_{2}}{N_{1}}
+  </me>
+  This equation shows the voltage transformation property of a transformer. Also we have 
+  <me>
+    I_{1}V_{1}=I_{2}V_{2}
+  </me>
+ i.e., Input power = output power. 
+  </p>
+  <p>
+    Hence the ideal transformer introduces no power loss with <m>100\% </m> efficiency. 
+Which is not the case in real transformer where loss happen in the form of  
+<em>eddy current loss, hysteresis loss, copper loss, and flux leakage loss</em>.
+
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-ac_preferential">
+  <title>AC is preferential over dc in power transmission</title>
+  <p>
+    Suppose <me>P=IV</me> is power generated at the power stations. During transmitting 
+    this power to the destination 
+    <me>
+      P' = I^{2}R = IV'
+    </me>
+     power is lost as heat disspation in the transmission line. To reduce this loss 
+     <m>P'</m> (or, <m>V' = IR</m>) should be made as small as possible which can be obtain by 
+     the follwing two ways. Since 
+     <me>
+      R=\frac{\rho L}{A}
+     </me>
+      where <m>\rho</m> is a resistivity of the material of transmission line, 
+      L is its length, and A is its area of cross-section. Hence to make R small wire 
+      should be made thicker (or A is high) but in this case transmission line becomes 
+      heavier and costly. Another way is to make V as high as possible and I as small as possible 
+      so that 
+      <me>
+        P=IV
+      </me>
+       remains the same and power loss 
+       <me>
+        P' = I^{2}R
+       </me>
+        is reduced significantly. For example, suppose V is made 1000 times higher and I is 1000 times 
+        smaller then power loss 
+        <me>
+          P" = \left(\frac{I}{1000}\right)^{2}R = 10^{-6}I^{2}R =10^{-6} P"
+        </me>
+         i.e., new power loss <m>P"</m> is a million times smaller than power loss of <m>P'</m>. 
+         To convert voltage or current from high to low or from low to high is only possible with the help of 
+         transformer which can only be operated in alternating current under the electromagnetic induction. 
+         Hence ac is preferential over dc. 
+
   </p>
 </subsection>
   </section>

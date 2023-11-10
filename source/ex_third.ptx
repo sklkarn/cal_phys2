@@ -836,5 +836,48 @@
        </p>
   </exercise>
 </paragraphs>
+
+<paragraphs>
+  <title>AC Circuits</title>
+  
+  <exercise>
+    <p>
+      A transformer has 500 turns of the primary winding and 50 turns of the secondary winding. 
+      <ol marker="a.">
+        <li>
+          Determine the secondary voltage if the secondary circuit is open and the primary voltage is 120 V. 
+        </li>
+        <li>
+          Determine the current in the primary and secondary winding, given that the secondary 
+          winding is connected to a resistance of load 15 <m>\Omega</m>?
+        </li>
+      </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Calculate the value of direct current that must flow through a resistor to produce the same 
+      heating power as an alternating current with a peak value of 3.5 A?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Determine the resonance frequency of the RLC circuit connected in a series.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A capacitor with an unknown capacity, a resistor with resistance 100 <m>\Omega</m>; 
+      and a coil with inductance 0.10 H are connected in series in an alternating circuit with a 
+      frequency of 50 Hz and amplitude of voltage 300 V. The ratio of amplitudes of the voltage 
+      in two parts of the circuit which are marked in the picture is <m>V_{1}:V_{2} = 1:2</m>. 
+      Calculate the capacity of the capacitor and the amplitude of the current in the circuit.
+    </p>
+    <image source="figacRLC2.png" width="45%"> </image>
+  </exercise>
+</paragraphs>
  </exercises>
 

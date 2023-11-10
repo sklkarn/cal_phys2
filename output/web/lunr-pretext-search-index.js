@@ -2554,7 +2554,178 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "3.9.1",
   "title": "RMS value of emf or current",
-  "body": " RMS value of emf or current    "
+  "body": " RMS value of emf or current  It is an effective value of alternating current which develops the same amount of heat in resistance R as direct current (or steady current) will develop when flowing through it. That is,  Thus the rms value of current is the square root of mean of squares of instantaneous values over one complete cycle. If an alternating current is represented by where is an amplitude of the alternating current, then mean square current is     similarly, The hot wire meter is used to measure rms value of current. It measures the expansion of wire due to heat generated as current flow in it.   "
+},
+{
+  "id": "subsec-complex_number",
+  "level": "1",
+  "url": "subsec-complex_number.html",
+  "type": "Subsection",
+  "number": "3.9.2",
+  "title": "The Complex Number Method for A.C. Analysis",
+  "body": " The Complex Number Method for A.C. Analysis   The complex algebra can be used to simplifies many ac problems. Let us review briefly some of the properties of complex numbers. In the expression z is a complex quantity which has x and y as real components and is an imaginary quantity. Complex numbers can be represented graphically by imaging their real components as abscissas and their imaginary components as ordinates as shown in . In such plot the complex quantity is represented by a vector, whose length indicates the magnitude of the complex quantity, and whose direction indicates the relative proportion of its real and imaginary constituents. The multiplication of complex vector by j is a vector operation producing a counterclock wise rotation of the complex vector without changing its magnitude. Thus, has the direction in second quadrant and the vectors resulting from two further multiplications by j being in third and fourth quadrant as shown in .      The sinusoidal voltage or current can be easily represented by rotating vectors scheme. The rotating vectors are called phasors and diagram containing them are called phasor diagrams . Since the vectors are rotating in this scheme it is better to express the complex quantity in polar co-ordinate system. Suppose r is any vector making an angle with the real axis then we have  Hence   see Euler's equation in appendix where, or is called a modulus and is called the argument or phase of the complex quantity z. The sinusoidal current and voltage are now considered as the imaginary parts of and respectively. In an expression of alternating current  is the initial phase of the current.    Impedance, Reactance, and Admittance  Direct current in a circuit can be controlled by a resistance only, but to control alternating current resistance, inductance, and capacitance can also be used. In alternating current the ratio of potential difference across the circuit to the current flowing through it is known as impedance, Z where Physically impedance in ac (alternating current) circuit is the resistance offered by it in the flow of alternating current just as the resistance in the flow of direct current in the dc circuit. The resistance offered by the inductance and capacitance to the flow of alternating current in the ac circuit is known as the Reactance, X . The reactance due to inductance is called inductive reactance, and that due to capacitance is called capacitive reactance, . The inverse of the impedance is called the admittance, Y , i.e., Hence     Resistance in an AC Circuit  Consider an alternating sinusoidal voltage an imaginary part of is applied across a resistor of resistance R, [ ] then the current flowing through it at any instant of time is given by              Phasor diagram        Hence the actual current is which is an imaginary part of Since the current and voltage rise and fall simultaneously, they are in phase with each other as shown in . The projection of peak voltage and current vectors rotating continuously in anti-clockwise direction with an angular velocity [ ] and lying completely along the x-axis at t = 0, T, 2T, etc.   Alternative:    This implies that is in phase with [ ].    Inductance in an AC Circuit  Consider an alternating emf is applied across an inductor of inductance L, and I be the current flowing through it then from the circuit [ ] we have              Phasor diagram              is the amplitude of actual current, This expression indicates that the current through the inductor is also alternating but lagging behind the emf by or with phase difference. In the quantity has the dimension of reactance The reciprocal of inductive reactance is called inductive susceptance which is The inductive reactance measures the hindrance to the flow of ac just like resistance R in purely resistive circuit. Unlike resistances the average power consumed by inductance is zero. In an expression the quantity is the total resistance in an ac circuit hence it is called the impedance Z of the inductance. That is     Alternative:    This implies that is lagging behind by phase     Capacitance in an AC Circuit  Consider an alternating emf is applied across a capacitor of capacitance C, and I be the current flowing through it then from the circuit [ ] we have                 Phasor diagram      We can write  where, is the peak value of altenating current, Hence, in this case also current is alternating sinusoidal with frequency but leading the emf by phase as shown in .  In this case, the capacitive reactance and impedance, The capacitive reactance measures the hindrance to the flow of ac just like resistance R in purely resistive circuit. The reciprocal of capacitive reactance is called capacitive susceptance which is . Even though capacitor provide hindrance to the flow of current it does not consume any energy over a cycle.   Alternative:    This implies that is leading by phase [ ].    Variation of reactance due to R, L and C with angular frequency in an AC circuit          Power in an AC Circuit  Power is dc circuit is given by as voltage and current in dc circuit is constant but in ac circuit they are changing with time hence in ac circuit instantaneous power dissipated can be determined as where is a phase difference between current and voltage.        Therefore average power dissipated over a cycle is given by    Hence if current and voltage is out of phase then and average power consumption in ac circuit is zero. Here is called a Power Factor which can be defined as     AC Circuit with Resistance and Inductance in Series  Let emf of be applied to a circuit containing a resistor R and an inductor L in series as shown in , then from Kirchhoff's law, we have           which is a complex quantity. see .                       Here modulus of impedance Z is and current I is lagging behind the emf E by an angle [ ] lying between and as shown in .    AC Circuit with Resistance and Capacitance in Series  Let emf of be applied to a circuit containing a resistor of resistance R and a capacitor of capacitance C in series as shown in , then from Kirchhoff's law, we have           which is complex quantity.                       The current in this circuit leads the applied emf by an angle between and as shown in . The capacitive reactance lags behind the resistance R by an angle as shown in .    AC Circuit with Resistance, Capacitance, and Inductance in Series  Let emf of be applied to a circuit containing a resistor of resistance R, an inductor of inductance L, and a capacitor of capacitance C in series as shown in , then from Kirchhoff's law, we have                     Minus sign between and indicates that they are in opposite phase to each other. The circuit becomes inductive, capacitive or purely resistive if  or Now since impedance , we have     where phase angle        AC Circuit with Resistance, Capacitance, and Inductance in Parallel  Let emf be applied to a circuit containing a resistor of resistance R, an inductor of inductance L, and a capacitor of capacitance C in parallel as shown in . Hence, Now,                        Using Kirchoff's current law at the junction, we have  From phasor,      At resonant condition,      "
+},
+{
+  "id": "complex1",
+  "level": "2",
+  "url": "subsec-complex_number.html#complex1",
+  "type": "Figure",
+  "number": "3.9.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-586",
+  "level": "2",
+  "url": "subsec-complex_number.html#p-586",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "phasors phasor diagrams "
+},
+{
+  "id": "p-587",
+  "level": "2",
+  "url": "subsec-complex_number.html#p-587",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "impedance, Z Reactance, X admittance, Y "
+},
+{
+  "id": "figure-155",
+  "level": "2",
+  "url": "subsec-complex_number.html#figure-155",
+  "type": "Figure",
+  "number": "3.9.3",
+  "title": "",
+  "body": "            Phasor diagram     "
+},
+{
+  "id": "figure-159",
+  "level": "2",
+  "url": "subsec-complex_number.html#figure-159",
+  "type": "Figure",
+  "number": "3.9.4",
+  "title": "",
+  "body": "            Phasor diagram     "
+},
+{
+  "id": "figure-163",
+  "level": "2",
+  "url": "subsec-complex_number.html#figure-163",
+  "type": "Figure",
+  "number": "3.9.5",
+  "title": "",
+  "body": "            Phasor diagram     "
+},
+{
+  "id": "grRLC",
+  "level": "2",
+  "url": "subsec-complex_number.html#grRLC",
+  "type": "Figure",
+  "number": "3.9.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-600",
+  "level": "2",
+  "url": "subsec-complex_number.html#p-600",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Power Factor "
+},
+{
+  "id": "figacRL",
+  "level": "2",
+  "url": "subsec-complex_number.html#figacRL",
+  "type": "Figure",
+  "number": "3.9.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-169",
+  "level": "2",
+  "url": "subsec-complex_number.html#figure-169",
+  "type": "Figure",
+  "number": "3.9.8",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "figacRC",
+  "level": "2",
+  "url": "subsec-complex_number.html#figacRC",
+  "type": "Figure",
+  "number": "3.9.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-174",
+  "level": "2",
+  "url": "subsec-complex_number.html#figure-174",
+  "type": "Figure",
+  "number": "3.9.10",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "figure-178",
+  "level": "2",
+  "url": "subsec-complex_number.html#figure-178",
+  "type": "Figure",
+  "number": "3.9.11",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "figure-181",
+  "level": "2",
+  "url": "subsec-complex_number.html#figure-181",
+  "type": "Figure",
+  "number": "3.9.12",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-transformer",
+  "level": "1",
+  "url": "subsec-transformer.html",
+  "type": "Subsection",
+  "number": "3.9.3",
+  "title": "Transformer",
+  "body": " Transformer   transformer Transformer is an electrical appliance which convert large current at low voltage to low current at high voltage, and vice versa. It uses the principle of electromagnetic induction to transform electrical energy from one circuit to another. The AC power is more preferential over dc power as it can be transmitted at high voltage and low currents with significantly small power loss and can be subsequently transformed to modest voltage and larger currents near destination with the help of transformer. It can transform power into large variety of voltage and currents by using step-up, or step-down transformer with desired numbers of turns at primary and secondary coils. It can also be used as impedance matching device in order to get maximum power transfer [read ] from generator to load. It can also be used as ac coupling between two circuits that are not from the same dc potential.   Transformer    Schematic     Step Up     Step Down     in circuit      A typical transformer [ ] consists of a two or more coils of insulated wire wound on a laminated iron core. An alternating voltage which is to be reduced or increased is connected to the coil, called the primary coil or input coil. This coil magnetizes the iron core. A voltage is then induced in the other coil, called the secondary coil or output coil. The change of voltage (or voltage ratio) between the primary and secondary depends on the turns ratio of the two coils. There are two types of transformer on the basis of their operation. If the number of turns in primary coil is less than that at secondary then it is called a step-up transformer [ ] and if number of turns in primary is grater than that in secondary then it is called a step down transformer [ ].  Let us consider a transformer as shown in circuit . Consider and are inductances, resistances, and number of turns in primary and secondary coils, respectively. Mutual inductance of the two coils is and impedances of the generator and load are and , respectively, then from Kirchhoff's law -   The choice of signs preceding final terms depends on the current flowing through the two coils. Hence by solving  we get - and Hence voltage drop at primary coil, and In an ideal transformer flux due to one coil is completely passes through the other, i.e., hence the coupling constant k becomes unity, Since and in an ideal transformer is zero, and reactance of the two coils are so large in comparison to the generator and load impedances, we can write and Hence for an ideal transformer but   Also    This equation shows the voltage transformation property of a transformer. Also we have i.e., Input power = output power.  Hence the ideal transformer introduces no power loss with efficiency. Which is not the case in real transformer where loss happen in the form of eddy current loss, hysteresis loss, copper loss, and flux leakage loss .  "
+},
+{
+  "id": "figure-184",
+  "level": "2",
+  "url": "subsec-transformer.html#figure-184",
+  "type": "Figure",
+  "number": "3.9.13",
+  "title": "",
+  "body": " Transformer    Schematic     Step Up     Step Down     in circuit     "
+},
+{
+  "id": "p-613",
+  "level": "2",
+  "url": "subsec-transformer.html#p-613",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "primary coil secondary coil "
+},
+{
+  "id": "subsec-ac_preferential",
+  "level": "1",
+  "url": "subsec-ac_preferential.html",
+  "type": "Subsection",
+  "number": "3.9.4",
+  "title": "AC is preferential over dc in power transmission",
+  "body": " AC is preferential over dc in power transmission  Suppose is power generated at the power stations. During transmitting this power to the destination power is lost as heat disspation in the transmission line. To reduce this loss (or, ) should be made as small as possible which can be obtain by the follwing two ways. Since where is a resistivity of the material of transmission line, L is its length, and A is its area of cross-section. Hence to make R small wire should be made thicker (or A is high) but in this case transmission line becomes heavier and costly. Another way is to make V as high as possible and I as small as possible so that remains the same and power loss is reduced significantly. For example, suppose V is made 1000 times higher and I is 1000 times smaller then power loss i.e., new power loss is a million times smaller than power loss of . To convert voltage or current from high to low or from low to high is only possible with the help of transformer which can only be operated in alternating current under the electromagnetic induction. Hence ac is preferential over dc.  "
 },
 {
   "id": "sec_third-examplesD",
@@ -2572,7 +2743,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "3.11",
   "title": "Exercise",
-  "body": "  Exercise   Mag. Flux  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into a page, travels through the region at a constant speed, and exits.      From the following plots find the one which shows the magnetic flux inside the coil as a function of time.   (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A square coil placed in a uniform magnetic field rotates around one of its edges as shown in figure below.      From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle    (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A small particle of mass 2 g and charge is passes through the origin with a velocity of in the +x direction into a uniform magnetic field parallel to the z-axis and a uniform gravitational field of 1 gauss in the -y direction.  If there is no electrical field and the particle continues moving in a straight line at constant speed, what is the magnetic force on the particle?  What is the magnitude and direction of the magnetic field?  If the particle attained its speed by sliding down a ramp before entering the magnetic field, what was the height of the ramp?    A electron cyclotron has a frequency of and an orbital radius of 1 m.  What is its magnetic field strength?  What is the speed of the electron?  What was the voltage on the electron gun which projected the electron into the cyclotron?        Each of the lettered points at the corners of the cube in the figure below represents a positive charge q moving with a velocity v in the direction indicated. There is a uniform magnetic field B in the +x direction as shown. Find the magnitude and direction of the magnetic force on each charge.   The magnetic field in the figure below is     What is the magnetic flux across the surface abcd?  Through cdef?  Through abfe?  Through all five surfaces enclosing the volume?    An alpha particle (nucleus of a helium atom) has a speed of and moves in a circle of radius 10 cm in the x\/y-plane due to a uniform magnetic field.  What is the magnitude and direction of the magnetic field?  What is the cyclotron frequency of the alpha particle?  Through what potential difference was it accelerated?  What is its energy in units of electron-volts?      Mag. Force  A wire 2 m long lies along the y-axis and carries a current of 2 A in the +y direction. What is the magnitude and direction of the magnetic force on the wire if it lies in a uniform magnetic field of                An electromagnetic rail gun consists of two parallel conducting rails of length X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance as shown in the figure below. A constant electrical potential V = 100 V is maintained between the rails and a constant magnetic field B = 10 T is maintained between them.    What is the magnitude and direction of the current in the sliding bar?  What is the magnitude and direction of the magnetic force on the sliding bar?  Neglecting friction, what is the acceleration of the bar?  Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?  What is the kinetic energy of the bar when it leaves the rail gun?  How long a time is the bar being accelerated?  How much electrical energy is supplied by the battery during this time interval?  Why aren't answers g and e the same?    A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, the current through the wire is 2 A, the deflection angle is and the magnetic field strength is 0.1 T, find    the magnetic moment of the loop,  the magnetic torque on the loop when it is vertical,  the magnetic torque on the loop when it is tilted,  the mass of the loop, and  the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.    A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. The wire wrapped around it makes 1000 turns and has a resistance of . The permanent magnets in the motor create a uniform magnetic field of 1000 G and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find  the current in the wire,  the magnetic moment of the solenoid,  the magnetic potential energy when the magnetic moment is opposite the field,  the change in magnetic potential energy for each half rotation,  the magnetic power delivered by the motor,  the electrical power delivered by the battery,  the electrical power dissipated by the resistor in the form of heat.  Which of these answers would change if the motor rotated faster?  Are your answers consistent with the law of conservation of energy? Explain.    A proton of mass and charge is moving in the +x direction with a constant speed of 104 m\/s in a region of space containing a constant electric field and a constant magnetic field. If the magnetic field is 10 T in the +y direction,  what is the magnitude and direction of the electric field that will keep the particle moving in a straight line at constant speed?  Describe the subsequent motion of the particle if the electric field is suddenly turned off.  What is the maximum distance the proton would deviate from its initial position when the electric field is turned off?      Mag. Sources  A wire of length 2a is symmetrically located along the y-axis and carries an upward current I.  What is the magnetic field due to this wire at a distance x along the x-axis?  What does this become when   When     Two charges, and , are moving as shown in the figure below with velocities and respectively. At the instant shown in the figure, x = 80 cm and y = 60 cm. Find    the magnitude and direction of the electrical force on by   the magnitude and direction of the magnetic force on by and  the ratio of the magnitudes of these two forces.    Given a circular loop of current I with a radius a.  Show that the magnetic field at a distance x along the axis of this loop is given by   Use this result to determine the magnetic field along the axis of a coil of N turns.  Use the result of part a to determine the magnetic field at the center of a single loop of current.  What is the magnetic field at the center of a loop of current 10 cm in radius carrying a current of 2 A?    A long straight wire lies along the x-axis carrying 2 A of current in the +x direction. A second, parallel wire located at y = 20 cm carries current of 5 A in the opposite direction.  What is the magnetic field due to these currents at the point (0, 0.1 m)?  At the point (1m, 1m)?  What is the magnitude and direction of the magnetic force on a charge moving in the +z direction with a speed of if it is at the point (-0.2 m, -0.2 m)?    A long straight wire lies along the y-axis with the current 4 A in the -y direction. A uniform magnetic field also exists in the region. Find the magnitude and direction of the total magnetic field at points  (1m, 0, 2m),  (2m, 1m, 0),  (0, 1m, -2m).    A coil of wire of radius 10 cm, current 2 A, and 100 turns is centered at the origin and lies in the x\/y plane. A second coil of wire of radius 20 cm, current 4 A and 200 turns is also centered at the origin but lies in the x\/z plane. If the current in the small coil rotates from the x-direction to the y-direction, and if the current in the large coil rotates from the x-direction to the z-direction, then what is the magnitude and direction of the magnetic field at the origin?  Use the Biot-Savart's law to calculate the magnetic field, B at center, O of the semicircular arcs AD and HJ in the given figure. The two arcs, of radii and respectively, form part of the circuit ABCDA carrying current, I.     Ampere's Law  Find the magnetic field  inside and  outside a long solenoid of N turns per section of length L.    Find the magnetic field  inside and  outside a long cylindrical conductor of radius R carrying a total current I from one end to the other if the current density inside the conductor is a constant everywhere.    A cosmic ray electron moving with a velocity of enters vertically through the top of a horizontal solenoid of radius 10 cm. If the solenoid has 100 turns of wire per centimeter, each carrying 2 A of current, how far is the electron deflected horizontally before leaving the solenoid?  Use Ampere's law to find the magnetic field at the center, O of the semicircular loop ABCDA which carries the current I=30 mA as shown in figure. The radius and      Electromagnetic Induction  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into page, travels through the region at a constant speed, and exits. An edge of the square is a = 20 cm and its speed is The magnitude of the magnetic field is .    Find the magnitude of the emf when it is entering the region.  Find the magnitude of the emf when it is at the center of the region.  Find the magnitude of the emf when it is exiting the region.   How does the magnitude of the emf change in time?                   A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into page, travels through the region at a constant speed, and exits. From the following plots, find one which shows the direction of the current at the following moments.    When the coil is entering the magnetized region.  When the coil is at the center of the magnetized region,  When the coil is exiting the magnetized region.                   A coil of radius 10 cm and 500 turns is placed in a uniform magnetic field that varies according to the equation The coil has a resistance of and is connected to a external resistor. If the plane of the coil makes an angle of with the magnetic field vector, find  the magnetic flux through the coil at time t = 3 s,  the emf induced in the coil at t = 2 s,  the voltage across the resistor at t = 1 s, and  the current through the circuit at t = 0.  How much power is dissipated by the resistor when t = 2 s?    An alternator consists of a rectangular coil of length, L = 20 cm and width, W = 10 cm with 500 turns. At time t = 0 it is in the same horizontal plane as a constant magnetic field B = 20 T as shown in figure below. It rotates at a constant rate of 1000 rpm. The output is applied to a resistor of     What is the angular velocity as a function of time?  What is the angle between the magnetic field vector and the area vector as a function of time?  What is the magnetic flux through the coil as a function of time?  What is the emf induced in the coil as a function of time?  What is the current through the resistor as a function of time?  What is the voltage at point a with respect to point b when t = 10 ms?    A solenoid of length 30 cm, diameter 2 cm, resistance and 1000 turns is used to discharge a capacitor charged initially to 100 V. Neglecting the self-inductance of the solenoid, find  the current in the solenoid as a function of time, and  the magnetic field strength in the solenoid as a function of time.  If a second wire is coiled around the solenoid 100 times, what is the emf in the new coil as a function of time?  What is the emf in the new coil when t = 1 ms?  Since the magnetic field outside the solenoid is zero, then magnetic field remains zero where the new coil is located. How then is it possible for the magnetic field to induce an emf in the coil when it remains zero where the coil is located?    The bar shown at right has negligible resistance and slides to the right with a velocity If the uniform magnetic field B = 10 T into the paper, the resistance and the length of the bar is 50 cm find the current in the wire when t = 10 s.   A long, thin solenoid has 1000 turns per meter and a radius of 2 cm. The current in the solenoid is increasing at a constant rate of 10 A\/s. What is the magnitude of the induced electric field at a point near the center of the solenoid and  on the axis of the solenoid,  1 cm from the axis,  just inside the solenoid slightly less than 2 cm from the axis.    Given the system shown at right. Assume  , and a uniform magnetic field B = 4 T is directed out of the page.    What is the magnetic flux through the circuit when x = l ?  What is the induced emf?  What is the current in the circuit?  What is the voltage of a with respect to b?  What is the power dissipated in the circuit?  What force is required to keep the bar moving at a constant speed?    A conducting loop of mass, M resistance, R length, l, and width, w is falling out of magnetic field, B pointing into the page. Find the terminal velocity attained by the loop before its top edge exit from the field.     Inductance  A transformer consists of an iron rod 20 cm long and 1 cm in diameter with a permeability constant of 1000 having 100 turns on its primary winding and 2000 turns on its secondary. If the emf on the primary is 100 V and the current in the primary is 0.2 A, find  the mutual inductance of the transformer,  the voltage in the secondary,  the current in the secondary,  the rate of change of current in the secondary, and  the instantaneous power being transferred in the transformer.      What is the self-inductance of an air-core toroidal solenoid of average radius R, small cross-sectional area A, and N turns.  What is its inductance if R = 10 cm, and N = 1000 turns?  If the current in this solenoid increases uniformly from 2 A to 4 A in 2.0 ms, what is the magnitude and direction of the self-induced emf in the solenoid?  What is the energy stored in the solenoid at the beginning of the 2.0 ms interval?  How much electrical power is required to increase the current during the 2.0 ms interval?    Two coils have mutual inductance M = 0.5 H. The current in the first coil increases at a uniform rate of 0.1 A\/s.  What is the induced emf in the second coil? Is it constant?  Suppose the current described is in the second coil rather than the first. What is the induced emf in the first coil?    When the current in a toroidal solenoid is changing at a rate of 0.04 A\/s, the magnitude of the induced emf is 10 mV. When the current equals 1 A, the average flux through each turn of the solenoid is 0.004 Wb. How many turns does the solenoid have?  An inductor with an inductance of 3 H and a resistance of is connected to the terminals of a battery with an emf of 12 V and negligible resistance. Find  the initial rate of increase of current in the circuit;  the rate of increase of current at the instant when the current is 1.00 A;  the current 0.2 s after the circuit is closed;  the final steady-state current.    An inductor in the form of a solenoid contains 420 turns, is 16 cm in length, and has a cross-sectional area of   What uniform rate of decrease of current through the inductor would induce an emf of   What is the self-inductance of the coil?     "
+  "body": "  Exercise   Mag. Flux  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into a page, travels through the region at a constant speed, and exits.      From the following plots find the one which shows the magnetic flux inside the coil as a function of time.   (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A square coil placed in a uniform magnetic field rotates around one of its edges as shown in figure below.      From the following plots, find the one which shows the magnetic flux inside the coil as a function of angle    (a)      (b)      (c)      If the edge length of the coil is a = 20 cm and the magnetic field is B = 0.5 T. What is the maximum flux inside the coil?    A small particle of mass 2 g and charge is passes through the origin with a velocity of in the +x direction into a uniform magnetic field parallel to the z-axis and a uniform gravitational field of 1 gauss in the -y direction.  If there is no electrical field and the particle continues moving in a straight line at constant speed, what is the magnetic force on the particle?  What is the magnitude and direction of the magnetic field?  If the particle attained its speed by sliding down a ramp before entering the magnetic field, what was the height of the ramp?    A electron cyclotron has a frequency of and an orbital radius of 1 m.  What is its magnetic field strength?  What is the speed of the electron?  What was the voltage on the electron gun which projected the electron into the cyclotron?        Each of the lettered points at the corners of the cube in the figure below represents a positive charge q moving with a velocity v in the direction indicated. There is a uniform magnetic field B in the +x direction as shown. Find the magnitude and direction of the magnetic force on each charge.   The magnetic field in the figure below is     What is the magnetic flux across the surface abcd?  Through cdef?  Through abfe?  Through all five surfaces enclosing the volume?    An alpha particle (nucleus of a helium atom) has a speed of and moves in a circle of radius 10 cm in the x\/y-plane due to a uniform magnetic field.  What is the magnitude and direction of the magnetic field?  What is the cyclotron frequency of the alpha particle?  Through what potential difference was it accelerated?  What is its energy in units of electron-volts?      Mag. Force  A wire 2 m long lies along the y-axis and carries a current of 2 A in the +y direction. What is the magnitude and direction of the magnetic force on the wire if it lies in a uniform magnetic field of                An electromagnetic rail gun consists of two parallel conducting rails of length X = 1000 m spanned by a sliding bar of mass m = 2 kg, length L = 1 m, and resistance as shown in the figure below. A constant electrical potential V = 100 V is maintained between the rails and a constant magnetic field B = 10 T is maintained between them.    What is the magnitude and direction of the current in the sliding bar?  What is the magnitude and direction of the magnetic force on the sliding bar?  Neglecting friction, what is the acceleration of the bar?  Starting from rest at one end of the rail gun, what is the speed of the bar when it reaches the other end?  What is the kinetic energy of the bar when it leaves the rail gun?  How long a time is the bar being accelerated?  How much electrical energy is supplied by the battery during this time interval?  Why aren't answers g and e the same?    A square wire loop hangs vertically below the horizontal z-axis as shown in the figure below. A uniform magnetic field parallel to the y-axis deflects the wire from its vertical position until it attains equilibrium with the force of gravity. If the length of the square is 10 cm, the current through the wire is 2 A, the deflection angle is and the magnetic field strength is 0.1 T, find    the magnetic moment of the loop,  the magnetic torque on the loop when it is vertical,  the magnetic torque on the loop when it is tilted,  the mass of the loop, and  the total force exerted by the loop on the hinge along the z-axis when it is in tilted equilibrium.    A solenoid is used as the rotor of an electrical motor. It is 10 cm long and 2 cm in diameter. The wire wrapped around it makes 1000 turns and has a resistance of . The permanent magnets in the motor create a uniform magnetic field of 1000 G and the voltage driving the motor is 12 Volt DC. If the motor runs at 120 rpm, find  the current in the wire,  the magnetic moment of the solenoid,  the magnetic potential energy when the magnetic moment is opposite the field,  the change in magnetic potential energy for each half rotation,  the magnetic power delivered by the motor,  the electrical power delivered by the battery,  the electrical power dissipated by the resistor in the form of heat.  Which of these answers would change if the motor rotated faster?  Are your answers consistent with the law of conservation of energy? Explain.    A proton of mass and charge is moving in the +x direction with a constant speed of 104 m\/s in a region of space containing a constant electric field and a constant magnetic field. If the magnetic field is 10 T in the +y direction,  what is the magnitude and direction of the electric field that will keep the particle moving in a straight line at constant speed?  Describe the subsequent motion of the particle if the electric field is suddenly turned off.  What is the maximum distance the proton would deviate from its initial position when the electric field is turned off?      Mag. Sources  A wire of length 2a is symmetrically located along the y-axis and carries an upward current I.  What is the magnetic field due to this wire at a distance x along the x-axis?  What does this become when   When     Two charges, and , are moving as shown in the figure below with velocities and respectively. At the instant shown in the figure, x = 80 cm and y = 60 cm. Find    the magnitude and direction of the electrical force on by   the magnitude and direction of the magnetic force on by and  the ratio of the magnitudes of these two forces.    Given a circular loop of current I with a radius a.  Show that the magnetic field at a distance x along the axis of this loop is given by   Use this result to determine the magnetic field along the axis of a coil of N turns.  Use the result of part a to determine the magnetic field at the center of a single loop of current.  What is the magnetic field at the center of a loop of current 10 cm in radius carrying a current of 2 A?    A long straight wire lies along the x-axis carrying 2 A of current in the +x direction. A second, parallel wire located at y = 20 cm carries current of 5 A in the opposite direction.  What is the magnetic field due to these currents at the point (0, 0.1 m)?  At the point (1m, 1m)?  What is the magnitude and direction of the magnetic force on a charge moving in the +z direction with a speed of if it is at the point (-0.2 m, -0.2 m)?    A long straight wire lies along the y-axis with the current 4 A in the -y direction. A uniform magnetic field also exists in the region. Find the magnitude and direction of the total magnetic field at points  (1m, 0, 2m),  (2m, 1m, 0),  (0, 1m, -2m).    A coil of wire of radius 10 cm, current 2 A, and 100 turns is centered at the origin and lies in the x\/y plane. A second coil of wire of radius 20 cm, current 4 A and 200 turns is also centered at the origin but lies in the x\/z plane. If the current in the small coil rotates from the x-direction to the y-direction, and if the current in the large coil rotates from the x-direction to the z-direction, then what is the magnitude and direction of the magnetic field at the origin?  Use the Biot-Savart's law to calculate the magnetic field, B at center, O of the semicircular arcs AD and HJ in the given figure. The two arcs, of radii and respectively, form part of the circuit ABCDA carrying current, I.     Ampere's Law  Find the magnetic field  inside and  outside a long solenoid of N turns per section of length L.    Find the magnetic field  inside and  outside a long cylindrical conductor of radius R carrying a total current I from one end to the other if the current density inside the conductor is a constant everywhere.    A cosmic ray electron moving with a velocity of enters vertically through the top of a horizontal solenoid of radius 10 cm. If the solenoid has 100 turns of wire per centimeter, each carrying 2 A of current, how far is the electron deflected horizontally before leaving the solenoid?  Use Ampere's law to find the magnetic field at the center, O of the semicircular loop ABCDA which carries the current I=30 mA as shown in figure. The radius and      Electromagnetic Induction  A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into page, travels through the region at a constant speed, and exits. An edge of the square is a = 20 cm and its speed is The magnitude of the magnetic field is .    Find the magnitude of the emf when it is entering the region.  Find the magnitude of the emf when it is at the center of the region.  Find the magnitude of the emf when it is exiting the region.   How does the magnitude of the emf change in time?                   A square coil parallel to page enters a region where a uniform magnetic field is directed perpendicularly into page, travels through the region at a constant speed, and exits. From the following plots, find one which shows the direction of the current at the following moments.    When the coil is entering the magnetized region.  When the coil is at the center of the magnetized region,  When the coil is exiting the magnetized region.                   A coil of radius 10 cm and 500 turns is placed in a uniform magnetic field that varies according to the equation The coil has a resistance of and is connected to a external resistor. If the plane of the coil makes an angle of with the magnetic field vector, find  the magnetic flux through the coil at time t = 3 s,  the emf induced in the coil at t = 2 s,  the voltage across the resistor at t = 1 s, and  the current through the circuit at t = 0.  How much power is dissipated by the resistor when t = 2 s?    An alternator consists of a rectangular coil of length, L = 20 cm and width, W = 10 cm with 500 turns. At time t = 0 it is in the same horizontal plane as a constant magnetic field B = 20 T as shown in figure below. It rotates at a constant rate of 1000 rpm. The output is applied to a resistor of     What is the angular velocity as a function of time?  What is the angle between the magnetic field vector and the area vector as a function of time?  What is the magnetic flux through the coil as a function of time?  What is the emf induced in the coil as a function of time?  What is the current through the resistor as a function of time?  What is the voltage at point a with respect to point b when t = 10 ms?    A solenoid of length 30 cm, diameter 2 cm, resistance and 1000 turns is used to discharge a capacitor charged initially to 100 V. Neglecting the self-inductance of the solenoid, find  the current in the solenoid as a function of time, and  the magnetic field strength in the solenoid as a function of time.  If a second wire is coiled around the solenoid 100 times, what is the emf in the new coil as a function of time?  What is the emf in the new coil when t = 1 ms?  Since the magnetic field outside the solenoid is zero, then magnetic field remains zero where the new coil is located. How then is it possible for the magnetic field to induce an emf in the coil when it remains zero where the coil is located?    The bar shown at right has negligible resistance and slides to the right with a velocity If the uniform magnetic field B = 10 T into the paper, the resistance and the length of the bar is 50 cm find the current in the wire when t = 10 s.   A long, thin solenoid has 1000 turns per meter and a radius of 2 cm. The current in the solenoid is increasing at a constant rate of 10 A\/s. What is the magnitude of the induced electric field at a point near the center of the solenoid and  on the axis of the solenoid,  1 cm from the axis,  just inside the solenoid slightly less than 2 cm from the axis.    Given the system shown at right. Assume  , and a uniform magnetic field B = 4 T is directed out of the page.    What is the magnetic flux through the circuit when x = l ?  What is the induced emf?  What is the current in the circuit?  What is the voltage of a with respect to b?  What is the power dissipated in the circuit?  What force is required to keep the bar moving at a constant speed?    A conducting loop of mass, M resistance, R length, l, and width, w is falling out of magnetic field, B pointing into the page. Find the terminal velocity attained by the loop before its top edge exit from the field.     Inductance  A transformer consists of an iron rod 20 cm long and 1 cm in diameter with a permeability constant of 1000 having 100 turns on its primary winding and 2000 turns on its secondary. If the emf on the primary is 100 V and the current in the primary is 0.2 A, find  the mutual inductance of the transformer,  the voltage in the secondary,  the current in the secondary,  the rate of change of current in the secondary, and  the instantaneous power being transferred in the transformer.      What is the self-inductance of an air-core toroidal solenoid of average radius R, small cross-sectional area A, and N turns.  What is its inductance if R = 10 cm, and N = 1000 turns?  If the current in this solenoid increases uniformly from 2 A to 4 A in 2.0 ms, what is the magnitude and direction of the self-induced emf in the solenoid?  What is the energy stored in the solenoid at the beginning of the 2.0 ms interval?  How much electrical power is required to increase the current during the 2.0 ms interval?    Two coils have mutual inductance M = 0.5 H. The current in the first coil increases at a uniform rate of 0.1 A\/s.  What is the induced emf in the second coil? Is it constant?  Suppose the current described is in the second coil rather than the first. What is the induced emf in the first coil?    When the current in a toroidal solenoid is changing at a rate of 0.04 A\/s, the magnitude of the induced emf is 10 mV. When the current equals 1 A, the average flux through each turn of the solenoid is 0.004 Wb. How many turns does the solenoid have?  An inductor with an inductance of 3 H and a resistance of is connected to the terminals of a battery with an emf of 12 V and negligible resistance. Find  the initial rate of increase of current in the circuit;  the rate of increase of current at the instant when the current is 1.00 A;  the current 0.2 s after the circuit is closed;  the final steady-state current.    An inductor in the form of a solenoid contains 420 turns, is 16 cm in length, and has a cross-sectional area of   What uniform rate of decrease of current through the inductor would induce an emf of   What is the self-inductance of the coil?      AC Circuits  A transformer has 500 turns of the primary winding and 50 turns of the secondary winding.  Determine the secondary voltage if the secondary circuit is open and the primary voltage is 120 V.  Determine the current in the primary and secondary winding, given that the secondary winding is connected to a resistance of load 15 ?    Calculate the value of direct current that must flow through a resistor to produce the same heating power as an alternating current with a peak value of 3.5 A?  Determine the resonance frequency of the RLC circuit connected in a series.  A capacitor with an unknown capacity, a resistor with resistance 100 ; and a coil with inductance 0.10 H are connected in series in an alternating circuit with a frequency of 50 Hz and amplitude of voltage 300 V. The ratio of amplitudes of the voltage in two parts of the circuit which are marked in the picture is . Calculate the capacity of the capacitor and the amplitude of the current in the circuit.    "
 },
 {
   "id": "exercise-76",
@@ -2917,40 +3088,139 @@ var ptx_lunr_docs = [
   "body": "An inductor in the form of a solenoid contains 420 turns, is 16 cm in length, and has a cross-sectional area of   What uniform rate of decrease of current through the inductor would induce an emf of   What is the self-inductance of the coil?   "
 },
 {
-  "id": "sec_fourth-intro",
+  "id": "exercise-114",
+  "level": "2",
+  "url": "ex_third.html#exercise-114",
+  "type": "Exercise",
+  "number": "3.11.39",
+  "title": "",
+  "body": "A transformer has 500 turns of the primary winding and 50 turns of the secondary winding.  Determine the secondary voltage if the secondary circuit is open and the primary voltage is 120 V.  Determine the current in the primary and secondary winding, given that the secondary winding is connected to a resistance of load 15 ?   "
+},
+{
+  "id": "exercise-115",
+  "level": "2",
+  "url": "ex_third.html#exercise-115",
+  "type": "Exercise",
+  "number": "3.11.40",
+  "title": "",
+  "body": "Calculate the value of direct current that must flow through a resistor to produce the same heating power as an alternating current with a peak value of 3.5 A? "
+},
+{
+  "id": "exercise-116",
+  "level": "2",
+  "url": "ex_third.html#exercise-116",
+  "type": "Exercise",
+  "number": "3.11.41",
+  "title": "",
+  "body": "Determine the resonance frequency of the RLC circuit connected in a series. "
+},
+{
+  "id": "exercise-117",
+  "level": "2",
+  "url": "ex_third.html#exercise-117",
+  "type": "Exercise",
+  "number": "3.11.42",
+  "title": "",
+  "body": "A capacitor with an unknown capacity, a resistor with resistance 100 ; and a coil with inductance 0.10 H are connected in series in an alternating circuit with a frequency of 50 Hz and amplitude of voltage 300 V. The ratio of amplitudes of the voltage in two parts of the circuit which are marked in the picture is . Calculate the capacity of the capacitor and the amplitude of the current in the circuit.  "
+},
+{
+  "id": "subsec-shm_energy",
   "level": "1",
-  "url": "sec_fourth-intro.html",
+  "url": "subsec-shm_energy.html",
+  "type": "Subsection",
+  "number": "4.1.1",
+  "title": "Energy in SHM",
+  "body": " Energy in SHM  Consider a vibrating spring with mass m attached to its end, then the kinetic energy of the mass and potential energy stored in the spring with a displacement x is Now since restoring force involved in spring mass system is conservative, so the total mechanical energy is conserved.                here k is a spring constant, A is the amplitude of vibration of a spring. Let the spring oscillates in vertical up and down then the solution for SHM is given by      From eqn. , we have -  means mass m is oscillating in up and down direction, i.e. Now   "
+},
+{
+  "id": "figure-193",
+  "level": "2",
+  "url": "subsec-shm_energy.html#figure-193",
+  "type": "Figure",
+  "number": "4.1.3",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "sec_fourth-waves",
+  "level": "1",
+  "url": "sec_fourth-waves.html",
   "type": "Section",
-  "number": "4.1",
-  "title": "Algebra of Vectors",
-  "body": " Algebra of Vectors  "
+  "number": "4.2",
+  "title": "Waves in a Medium",
+  "body": " Waves in a Medium  "
+},
+{
+  "id": "sec_fourth-organ",
+  "level": "1",
+  "url": "sec_fourth-organ.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Musical Instruments",
+  "body": " Musical Instruments  "
 },
 {
   "id": "sec_fourth-examplesA",
   "level": "1",
   "url": "sec_fourth-examplesA.html",
   "type": "Section",
-  "number": "4.2",
+  "number": "4.4",
   "title": "Examples A",
-  "body": " Examples A  "
+  "body": " Examples A    A simple harmonic oscillator of mass 100 g is released from rest at a displacement of 5 cm and oscillates with a frequency of 120 rpm. Find  its angular frequency,  its effective force constant,  its amplitude,  its energy,  its speed when passing through x = 2 cm,  the time to first reach x = 2 cm,  the force on the mass when x = 2 cm,  the time to make one complete cycle.      Given:                                      "
+},
+{
+  "id": "example-61",
+  "level": "2",
+  "url": "sec_fourth-examplesA.html#example-61",
+  "type": "Example",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  A simple harmonic oscillator of mass 100 g is released from rest at a displacement of 5 cm and oscillates with a frequency of 120 rpm. Find  its angular frequency,  its effective force constant,  its amplitude,  its energy,  its speed when passing through x = 2 cm,  the time to first reach x = 2 cm,  the force on the mass when x = 2 cm,  the time to make one complete cycle.      Given:                                     "
+},
+{
+  "id": "sec_fourth-examplesB",
+  "level": "1",
+  "url": "sec_fourth-examplesB.html",
+  "type": "Section",
+  "number": "4.5",
+  "title": "Examples B",
+  "body": " Examples B  "
 },
 {
   "id": "ex_fourth",
   "level": "1",
   "url": "ex_fourth.html",
   "type": "Exercises",
-  "number": "4.3",
+  "number": "4.6",
   "title": "Exercise",
-  "body": "  Exercise    "
+  "body": "  Exercise  A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.    An automobile engine has a piston of mass 300 g, a stroke of 10 cm, an area of 10 , and a frequency of 1200 rpm. Find  the angular frequency of oscillation  the effective force constant for the oscillation  the amplitude of oscillation,  the energy of the oscillation,  the maximum velocity of the piston,  the maximum force on the piston.  If this force is produces by the gas in the piston, what is the maximum pressure in the piston?    A mass of 500 g is attached to a horizontal spring of a force constant 200 N\/m and allowed to oscillate horizontally without friction. When t = 0 it passes through the origin moving to the right with a speed of 2 m\/s. Find  the angular frequency of oscillation  the amplitude of oscillation,  how long it takes to first slow down to 1 m\/s,  the position when v = 1 m\/s,  the force when v = 1 m\/s,  the spring energy when v = 1 m\/s.    "
 },
 {
-  "id": "exercise-114",
+  "id": "exercise-118",
   "level": "2",
-  "url": "ex_fourth.html#exercise-114",
+  "url": "ex_fourth.html#exercise-118",
   "type": "Exercise",
-  "number": "4.3.1",
+  "number": "4.6.1",
   "title": "",
-  "body": " "
+  "body": "A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.   "
+},
+{
+  "id": "exercise-119",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-119",
+  "type": "Exercise",
+  "number": "4.6.2",
+  "title": "",
+  "body": "An automobile engine has a piston of mass 300 g, a stroke of 10 cm, an area of 10 , and a frequency of 1200 rpm. Find  the angular frequency of oscillation  the effective force constant for the oscillation  the amplitude of oscillation,  the energy of the oscillation,  the maximum velocity of the piston,  the maximum force on the piston.  If this force is produces by the gas in the piston, what is the maximum pressure in the piston?   "
+},
+{
+  "id": "exercise-120",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-120",
+  "type": "Exercise",
+  "number": "4.6.3",
+  "title": "",
+  "body": "A mass of 500 g is attached to a horizontal spring of a force constant 200 N\/m and allowed to oscillate horizontally without friction. When t = 0 it passes through the origin moving to the right with a speed of 2 m\/s. Find  the angular frequency of oscillation  the amplitude of oscillation,  how long it takes to first slow down to 1 m\/s,  the position when v = 1 m\/s,  the force when v = 1 m\/s,  the spring energy when v = 1 m\/s.   "
 },
 {
   "id": "sec_fifth-intro",
@@ -2998,9 +3268,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-115",
+  "id": "exercise-121",
   "level": "2",
-  "url": "ex_fifth.html#exercise-115",
+  "url": "ex_fifth.html#exercise-121",
   "type": "Exercise",
   "number": "5.5.1",
   "title": "",
@@ -3016,72 +3286,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-642",
+  "id": "p-692",
   "level": "2",
-  "url": "append_math.html#p-642",
+  "url": "append_math.html#p-692",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-643",
+  "id": "p-693",
   "level": "2",
-  "url": "append_math.html#p-643",
+  "url": "append_math.html#p-693",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-644",
+  "id": "p-694",
   "level": "2",
-  "url": "append_math.html#p-644",
+  "url": "append_math.html#p-694",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-645",
+  "id": "p-695",
   "level": "2",
-  "url": "append_math.html#p-645",
+  "url": "append_math.html#p-695",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-646",
+  "id": "p-696",
   "level": "2",
-  "url": "append_math.html#p-646",
+  "url": "append_math.html#p-696",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-647",
+  "id": "p-697",
   "level": "2",
-  "url": "append_math.html#p-647",
+  "url": "append_math.html#p-697",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-648",
+  "id": "p-698",
   "level": "2",
-  "url": "append_math.html#p-648",
+  "url": "append_math.html#p-698",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-649",
+  "id": "p-699",
   "level": "2",
-  "url": "append_math.html#p-649",
+  "url": "append_math.html#p-699",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3097,9 +3367,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-650",
+  "id": "p-700",
   "level": "2",
-  "url": "appendix-2.html#p-650",
+  "url": "appendix-2.html#p-700",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
