@@ -8,7 +8,7 @@
 <html lang="en-US">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Waves in a Medium</title>
+<title>Waves</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-shm_energy.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_fourth.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_fourth-organ.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-shm_energy.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_fourth.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="subsec-shm_wfn.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -450,7 +450,16 @@ window.MathJax = {
 <div class="toc-item"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Simple Harmonic Motion</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="subsec-shm_energy.html" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Energy in SHM</span></a></div></li></ul>
 </li>
-<li class="active"><div class="toc-item"><a href="sec_fourth-waves.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Waves in a Medium</span></a></div></li>
+<li class="active">
+<div class="toc-item"><a href="sec_fourth-waves.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Waves</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-shm_wfn.html" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Simple harmonic wave function</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-shm_wfn.html#subsubsec-wave_eq" class="internal"><span class="codenumber">4.2.1.1</span> <span class="title">Wave equation</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-shm_wfn.html#subsubsec-waveeq_string" class="internal"><span class="codenumber">4.2.1.2</span> <span class="title">Wave Equation in Stretched String</span></a></div></li>
+</ul>
+</li></ul>
+</li>
 <li><div class="toc-item"><a href="sec_fourth-organ.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Musical Instruments</span></a></div></li>
 <li><div class="toc-item"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Examples A</span></a></div></li>
 <li><div class="toc-item"><a href="sec_fourth-examplesB.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Examples B</span></a></div></li>
@@ -477,11 +486,87 @@ window.MathJax = {
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_fourth-waves"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">4.2</span> <span class="title">Waves in a Medium</span>
-</h2></section></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec_fourth-waves"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">4.2</span> <span class="title">Waves</span>
+</h2>
+<section class="introduction" id="introduction-38"><div class="para" id="p-684">When a stone is thrown in a quiet pond a number of nice circular rings, called <em class="emphasis">ripples</em> [<a href="" class="xref" data-knowl="./knowl/ripples.html" title="Figure 4.2.1.(a)">Figure 4.2.1.(a)</a>] emerge on the surface of the water which grow gently and move across the pond in a concentric pattern. These growing ripples are called a <dfn class="terminology">wave</dfn> which carries energy from the point of stone thrown to the edge of a pond. Hence a wave can be defined as a disturbance in space that can carry energy from one location to another. A wave creates in a medium when a medium is trying to regain its equilibrium state. When a stone is thrown it transfers its energy to the surface of water due to which water layer stretches downwards till stone dips down that layer of water. When stone leaves the water layer, water layer wants to recover its original position to maintain equilibrium due to surface tension but as it reaches to the original position it keeps raising upward because of inertia and stretches the water surface again till reaches the maximum height. Now due to surface tension this layer of water gets pulled down again and starts sinking down below the equilibrium position due to inertia such procedure is the cause of waves on water.</div> <figure class="figure figure-like" id="figure-196"><div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;">
+<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="ripples"><img src="external/ripples.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span><a class="external" href="https://blogs.solidworks.com/solidworksblog/2018/08/creating-a-model-for-water-ripple-effect-with-solidworks-xdesign.html" target="_blank">Ripples</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-9" id="fn-9"><sup> 1 </sup></a></figcaption></figure></div>
+<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="ripples2"><img src="external/ripples2.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Wavefront</figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.1<span class="period">.</span></span><span class="space"> </span>Disturbances</figcaption></figure> <div class="para" id="p-685">Energy propagates two ways in water one way is due to vertical up and down motion of water surface and another way is a back and forth motion of water molecules inside the water. Similar to concentric circles on water surface energy transmitted in space in the form of concentric spheres. <a href="" class="xref" data-knowl="./knowl/ripples2.html" title="Figure 4.2.1.(b)">Figure 4.2.1.(b)</a> shows the same disturbances traveling away from the center as a series of successive <em class="emphasis">wavefronts</em> labeled crests and troughs. A wavefront is a locus of points along which all phases and displacements are identical. The solid circles depict the outward-moving wave crests; the dashed circles represent wave troughs. Adjacent crests are always a wavelength apart, as are the adjacent troughs.</div> <div class="para logical" id="p-686">
+<div class="para">On the basis of particle motion relative to the direction of energy propagation there are two forms of waves</div>
+<ol class="decimal">
+<li id="li-714"><div class="para" id="p-derived-li-714">Longitudinal wave, and</div></li>
+<li id="li-715"><div class="para" id="p-derived-li-715">Transverse wave.</div></li>
+</ol>
+<div class="para">In longitudinal wave the medium particles vibrate parallel to the direction of the energy propagation. Longitudinal waves are also called <em class="emphasis">pressure waves</em>. As a layer of one part of a medium creates pressure on the other part of the medium. Sound waves in any medium, waves propagating along spring are some examples of such wave. In transverse wave the medium particles vibrate perpendicular to the direction of the energy propagation. Movement of a wave through a solid object like a stretched rope or a trampoline is some examples of such wave.</div>
+</div> <div class="para logical" id="p-687">
+<div class="para">On the basis of requirement of medium to propagate energy there are two types of waves.</div>
+<ol class="decimal">
+<li id="li-716"><div class="para" id="p-derived-li-716">Mechanical wave, and</div></li>
+<li id="li-717"><div class="para" id="p-derived-li-717">Electromagnetic wave.</div></li>
+</ol>
+<div class="para">Mechanical waves require material medium to propagate such as sound waves, water waves, string waves, seismic waves, etc. Electromagnetic waves, on the other hand do not require any medium but can propagate both in vacuum and in a medium, such as light waves, heat waves, radio waves, etc. Electromagnetic (em) waves  are transverse in nature where electric field and magnetic field are perpendicular to each other and are also perpendicular to the direction of energy propagatation.</div>
+</div> <figure class="figure figure-like" id="figure-199"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="long2"><img src="external/long2.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Longitudinal wave</figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="gr21"><img src="external/gr21.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Transverse wave</figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="gr20"><img src="external/gr20.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span>Wave Representation</figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.2<span class="period">.</span></span><span class="space"> </span>Disturbances</figcaption></figure> <div class="para logical" id="p-688">
+<div class="para">Longitudinal waves occur when a spring is fixed at one end and pulled back and forth by the other end as shown in <a href="" class="xref" data-knowl="./knowl/long2.html" title="Figure 4.2.2.(a)">Figure 4.2.2.(a)</a>. Transverse waves occur when a spring or string is fixed at one end and wiggled up and down by the other end  as shown in <a href="" class="xref" data-knowl="./knowl/gr21.html" title="Figure 4.2.2.(b)">Figure 4.2.2.(b)</a>. Both the waves can be easily described by a transverse nature as they are periodic in nature as shown in <a href="" class="xref" data-knowl="./knowl/gr20.html" title="Figure 4.2.2.(c)">Figure 4.2.2.(c)</a>. The <dfn class="terminology">crest</dfn> is the highest point on a wave. The <dfn class="terminology">trough</dfn> is the valley between two waves. It is the lowest point. The <dfn class="terminology">wavelength,</dfn> <span class="process-math">\(\lambda\)</span> is the distance, either between the crests or troughs of two consecutive waves. It is the length of one complete wave. The <dfn class="terminology">amplitude</dfn>, A is the peak value (either positive or negative) of a wave. The distance from the undisturbed level (equilibrium position) to the trough or crest. The <em class="emphasis">compression</em> is the part of the longitudinal wave where the particles crowded together. The <em class="emphasis">rarefaction</em> is the part of the longitudinal wave where the particles spread out. The <em class="emphasis">wavelength</em> is the distance from compression to compression or rarefaction to rarefaction in a pressure (longitudinal) wave. The <dfn class="terminology">frequency</dfn>, <span class="process-math">\(\nu\)</span> is a number of complete waves per second. If T is a time period to generate one complete wave then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/long2.html ./knowl/gr21.html ./knowl/gr20.html">
+\begin{equation*}
+\nu=\frac{1}{T}.
+\end{equation*}
+</div>
+<div class="para">Its unit is Hertz (<span class="process-math">\(H_{z}\)</span>), i.e. cycles per second. <a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-10" id="fn-10"><sup> 2 </sup></a>
+</div>
+</div> <figure class="figure figure-like" id="figure-203"><div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;">
+<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="gr23"><img src="external/gr23.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Pulse Wave</figcaption></figure></div>
+<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="gr22"><img src="external/gr22.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Periodic Wave</figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.3<span class="period">.</span></span><span class="space"> </span>Disturbances</figcaption></figure> <div class="para" id="p-689">
+<dfn class="terminology">Pulse and Periodic Waves:</dfn> A single vibratory disturbance that moves from point to point is called a pulse. A single wiggle flowing in a straight line is a pulse wave as shown in <a href="" class="xref" data-knowl="./knowl/gr23.html" title="Figure 4.2.3.(a)">Figure 4.2.3.(a)</a>. When the pulse reaches a boundary with another medium, a part of it is reflected and a part is transmitted through the boundary. When a pulse reaches a fixed boundary (dead end), then the pulse is completely reflected and inverted by <span class="process-math">\(180^{o}\)</span> out of phase. The series of evenly timed disturbances in a medium is called a <em class="emphasis">periodic wave</em>. It repeats the same pattern over and over again after a fixed interval of time as shown in <a href="" class="xref" data-knowl="./knowl/gr22.html" title="Figure 4.2.3.(b)">Figure 4.2.3.(b)</a>. The source of a pulse wave is non periodic disturbance.</div> <div class="para" id="p-690">
+<dfn class="terminology">Sinusoidal Waves:</dfn> The waves which take the form of sine or cosine function is known as sinusoidal waves. It is a single frequency periodic wave and is a consequence of simple harmonic motion of a medium particles. In fact, any periodic wave can be represented as a combination of sinusoidal waves. Instead of sinusoidal wave there are other forms of waves which are very important in electronics, they are square wave, sawtooth wave, etc.</div> <div class="para logical" id="p-691">
+<div class="para">
+<dfn class="terminology">Wave Number, <span class="process-math">\(\kappa\text{:}\)</span></dfn> The number of complete waves per unit length is called a wave number. It is also sometimes called a propagation constant. If <span class="process-math">\(\lambda\)</span> is a wavelength of a wave then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\kappa = \frac{2\pi}{\lambda}.
+\end{equation*}
+</div>
+<div class="para">Its unit is <span class="process-math">\(m^{-1}\)</span>  or <span class="process-math">\(rad/m^{-1}.\)</span>
+</div>
+</div> <div class="para logical" id="p-692">
+<div class="para">
+<dfn class="terminology">Wave Velocity (Phase Velocity):</dfn> The velocity at which phase of a wave can travel is called a phase velocity. It is the velocity with which a crest or trough of a wave can progress in space.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v =\frac{\,dx}{\,dt}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{\lambda}{T}= f\lambda  = \frac{2\pi}{2\pi}f\lambda = \frac{\omega}{k}
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-693">
+<div class="para">
+<dfn class="terminology">Particle Velocity:</dfn> It is the velocity of a medium particle which oscillates about its mean position when a wave passes through the medium.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{y} = \frac{\,dy}{\,dt}.
+\end{equation*}
+</div>
+</div> <figure class="figure figure-like" id="beats"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/beats.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.4<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-694">
+<dfn class="terminology">Group Velocity:</dfn> The velocity at which energy is transported is called a group velocity. In reality, any signal consists of packets of waves of different frequencies, which travel together. The speed of the wave packets is called the group velocity. The group velocity [<a href="" class="xref" data-knowl="./knowl/beats.html" title="Figure 4.2.4">Figure 4.2.4</a>] is a bit slower than the phase velocity of the individual waves. The packet moves slower than the single-frequency wave. If the medium is  dispersionless then the group and phase velocity are the same.</div></section><nav class="summary-links"><ul><li><a href="subsec-shm_wfn.html" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Simple harmonic wave function</span></a></li></ul></nav></section><div class="hidden-content tex2jax_ignore" id="hk-fn-9"><div class="fn"><code class="code-inline tex2jax_ignore">blogs.solidworks.com/solidworksblog/2018/08/creating-a-model-for-water-ripple-effect-with-solidworks-xdesign.html</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-10"><div class="fn">There is a third kind of new wave which has just been discovered, known as a <dfn class="terminology">gravitaional wave</dfn>. It is a disturbance in spacetime and can pass through anything undisturbed. It travels with the velocity of light. It stretches and squashes the spacetime during propagation. <dfn class="terminology">Strain:</dfn> The ratio of y displacement (stretch) to the x-displacement (squash) of medium is called a strain. <span class="process-math">\(strain=\frac{\,dy}{\,dx}\)</span>
+</div></div>
+</div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="subsec-shm_energy.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_fourth-organ.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="subsec-shm_energy.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="subsec-shm_wfn.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">

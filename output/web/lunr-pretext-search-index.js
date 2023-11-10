@@ -3142,13 +3142,31 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "sec_fourth-waves",
+  "id": "subsec-shm_wfn",
   "level": "1",
-  "url": "sec_fourth-waves.html",
-  "type": "Section",
-  "number": "4.2",
-  "title": "Waves in a Medium",
-  "body": " Waves in a Medium  "
+  "url": "subsec-shm_wfn.html",
+  "type": "Subsection",
+  "number": "4.2.1",
+  "title": "Simple harmonic wave function",
+  "body": " Simple harmonic wave function   The equation represents the displacement of a single particle constituting SHM. Now if a wave of velocity v is propagating in a medium then the medium particles oscillates about its mean position. Consider a particle, P at a distance, x from position, A then wave reaches to P at time and the displacement of particle, P at time would be the same as the displacement of particle, O at [ ]. Thus the displacement of particle, P in a medium at any instant is given by         Or, in general the wave function can be written as where and This is the same as writing   We can also express the wave function as where +ve sign for wave progressing in -ve direction and -ve for wave progressing in +ve direction.  The sinusoidal wave function can also be represented as  or in more general case the combination of both or in a complex form like these Any of above wave functions describe the same wave. If time is counted from the maximum displacement of the medium particle's initial position then cosine term appears, if time is counted from the minimum displacement of the medium particle as an initial position or its maximum velocity then sine term appears in the derivation of wave function.    Wave equation   wave equation Let the displacement of a medium particle is given by then the velocity of a medium particle can be and the acceleration of a medium particle is Also the slope of the wave at point, x and time, t is given by Also the curvature of the wave at point, x and time, t is given by Hence the wave equation can be written as  where v is a wave velocity    Wave Equation in Stretched String  Let us consider an elastic string tightly stretched between points, O and P by constant tension, T. The string is caused to vibrate by plucking it with a very small displacement, y at time, t so that the tension, T remains constant throughout the deflections of the string.      Let be the mass per unit length of an element, AB of the vibrating string, as shown in . The net force acting on the element, AB along x and y direction is given by  where and are the inclination of tension, T with the horizontal x - axis. For small displacement i.e., the motion of the particle of string along x - axis is zero.  where defines the slope of tangents at a particular point at any time 't'.  From eqn. , we have -   using Taylor's expansions. by neglicting higher order terms. i.e., hence the motion of the particle of string is only along y - axis.  If the acceleration of the element along vertical be and mass of an element, AB is then according to Newton's second law of motion, this force is given by from eqns. and , we have- [Since, slope of the curve is small, can be replaced by ]  It is the wave equation for a vibrating string, where is the velocity of the wave propagating along the string.   "
+},
+{
+  "id": "rfcc",
+  "level": "2",
+  "url": "subsec-shm_wfn.html#rfcc",
+  "type": "Figure",
+  "number": "4.2.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "stringwave",
+  "level": "2",
+  "url": "subsec-shm_wfn.html#stringwave",
+  "type": "Figure",
+  "number": "4.2.6",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_fourth-organ",
@@ -3166,7 +3184,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "Examples A",
-  "body": " Examples A    A simple harmonic oscillator of mass 100 g is released from rest at a displacement of 5 cm and oscillates with a frequency of 120 rpm. Find  its angular frequency,  its effective force constant,  its amplitude,  its energy,  its speed when passing through x = 2 cm,  the time to first reach x = 2 cm,  the force on the mass when x = 2 cm,  the time to make one complete cycle.      Given:                                      "
+  "body": " Examples A    A simple harmonic oscillator of mass 100 g is released from rest at a displacement of 5 cm and oscillates with a frequency of 120 rpm. Find  its angular frequency,  its effective force constant,  its amplitude,  its energy,  its speed when passing through x = 2 cm,  the time to first reach x = 2 cm,  the force on the mass when x = 2 cm,  the time to make one complete cycle.      Given:                                        A transverse wave is expressed in MKS units as Find  its amplitude,  its wavelength,  its frequency,  its period,  its velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.      Given:   Evaluate the given equation with                                  "
 },
 {
   "id": "example-61",
@@ -3176,6 +3194,15 @@ var ptx_lunr_docs = [
   "number": "4.4.1",
   "title": "",
   "body": "  A simple harmonic oscillator of mass 100 g is released from rest at a displacement of 5 cm and oscillates with a frequency of 120 rpm. Find  its angular frequency,  its effective force constant,  its amplitude,  its energy,  its speed when passing through x = 2 cm,  the time to first reach x = 2 cm,  the force on the mass when x = 2 cm,  the time to make one complete cycle.      Given:                                     "
+},
+{
+  "id": "example-62",
+  "level": "2",
+  "url": "sec_fourth-examplesA.html#example-62",
+  "type": "Example",
+  "number": "4.4.2",
+  "title": "",
+  "body": "  A transverse wave is expressed in MKS units as Find  its amplitude,  its wavelength,  its frequency,  its period,  its velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.      Given:   Evaluate the given equation with                                 "
 },
 {
   "id": "sec_fourth-examplesB",
@@ -3193,7 +3220,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "4.6",
   "title": "Exercise",
-  "body": "  Exercise  A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.    An automobile engine has a piston of mass 300 g, a stroke of 10 cm, an area of 10 , and a frequency of 1200 rpm. Find  the angular frequency of oscillation  the effective force constant for the oscillation  the amplitude of oscillation,  the energy of the oscillation,  the maximum velocity of the piston,  the maximum force on the piston.  If this force is produces by the gas in the piston, what is the maximum pressure in the piston?    A mass of 500 g is attached to a horizontal spring of a force constant 200 N\/m and allowed to oscillate horizontally without friction. When t = 0 it passes through the origin moving to the right with a speed of 2 m\/s. Find  the angular frequency of oscillation  the amplitude of oscillation,  how long it takes to first slow down to 1 m\/s,  the position when v = 1 m\/s,  the force when v = 1 m\/s,  the spring energy when v = 1 m\/s.    "
+  "body": "  Exercise  A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.    An automobile engine has a piston of mass 300 g, a stroke of 10 cm, an area of 10 , and a frequency of 1200 rpm. Find  the angular frequency of oscillation  the effective force constant for the oscillation  the amplitude of oscillation,  the energy of the oscillation,  the maximum velocity of the piston,  the maximum force on the piston.  If this force is produces by the gas in the piston, what is the maximum pressure in the piston?    A mass of 500 g is attached to a horizontal spring of a force constant 200 N\/m and allowed to oscillate horizontally without friction. When t = 0 it passes through the origin moving to the right with a speed of 2 m\/s. Find  the angular frequency of oscillation  the amplitude of oscillation,  how long it takes to first slow down to 1 m\/s,  the position when v = 1 m\/s,  the force when v = 1 m\/s,  the spring energy when v = 1 m\/s.    A transverse sine wave is expressed in MKS units as Find  its amplitude,  its wave number,  its frequency,  its angular frequency,  its phase velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.    A long rope is stretched out horizontally between two students. The student on the left moves his hand up and down sinusoidally with a frequency of 2 Hz and an amplitude of 10 cm. The wave moves to the right with a speed of 10 m\/s and at time t = 0 the left end of the rope is moving downward through the mid-point of displacement. Find  the wavelength,  the wave number,  the angular frequency,  its angular frequency,  the equation for the wave as a function of time and position,  the displacement of the rope when x = 2 m and t = 1.5 s.    The equation of a transverse wave on a string is   Find the amplitude, wavelength, frequency, period, and speed of propagation.  What is the equation of motion of the particle located at the origin of the coordinates?  What is the maximum magnitude of the transverse velocity of any particle on the string?  Sketch the shape of the wave when t = 0.001 s and     "
 },
 {
   "id": "exercise-118",
@@ -3221,6 +3248,33 @@ var ptx_lunr_docs = [
   "number": "4.6.3",
   "title": "",
   "body": "A mass of 500 g is attached to a horizontal spring of a force constant 200 N\/m and allowed to oscillate horizontally without friction. When t = 0 it passes through the origin moving to the right with a speed of 2 m\/s. Find  the angular frequency of oscillation  the amplitude of oscillation,  how long it takes to first slow down to 1 m\/s,  the position when v = 1 m\/s,  the force when v = 1 m\/s,  the spring energy when v = 1 m\/s.   "
+},
+{
+  "id": "exercise-121",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-121",
+  "type": "Exercise",
+  "number": "4.6.4",
+  "title": "",
+  "body": "A transverse sine wave is expressed in MKS units as Find  its amplitude,  its wave number,  its frequency,  its angular frequency,  its phase velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.   "
+},
+{
+  "id": "exercise-122",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-122",
+  "type": "Exercise",
+  "number": "4.6.5",
+  "title": "",
+  "body": "A long rope is stretched out horizontally between two students. The student on the left moves his hand up and down sinusoidally with a frequency of 2 Hz and an amplitude of 10 cm. The wave moves to the right with a speed of 10 m\/s and at time t = 0 the left end of the rope is moving downward through the mid-point of displacement. Find  the wavelength,  the wave number,  the angular frequency,  its angular frequency,  the equation for the wave as a function of time and position,  the displacement of the rope when x = 2 m and t = 1.5 s.   "
+},
+{
+  "id": "exercise-123",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-123",
+  "type": "Exercise",
+  "number": "4.6.6",
+  "title": "",
+  "body": "The equation of a transverse wave on a string is   Find the amplitude, wavelength, frequency, period, and speed of propagation.  What is the equation of motion of the particle located at the origin of the coordinates?  What is the maximum magnitude of the transverse velocity of any particle on the string?  Sketch the shape of the wave when t = 0.001 s and    "
 },
 {
   "id": "sec_fifth-intro",
@@ -3268,9 +3322,9 @@ var ptx_lunr_docs = [
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-121",
+  "id": "exercise-124",
   "level": "2",
-  "url": "ex_fifth.html#exercise-121",
+  "url": "ex_fifth.html#exercise-124",
   "type": "Exercise",
   "number": "5.5.1",
   "title": "",
@@ -3286,72 +3340,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-692",
+  "id": "p-718",
   "level": "2",
-  "url": "append_math.html#p-692",
+  "url": "append_math.html#p-718",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-693",
+  "id": "p-719",
   "level": "2",
-  "url": "append_math.html#p-693",
+  "url": "append_math.html#p-719",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-694",
+  "id": "p-720",
   "level": "2",
-  "url": "append_math.html#p-694",
+  "url": "append_math.html#p-720",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-695",
+  "id": "p-721",
   "level": "2",
-  "url": "append_math.html#p-695",
+  "url": "append_math.html#p-721",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-696",
+  "id": "p-722",
   "level": "2",
-  "url": "append_math.html#p-696",
+  "url": "append_math.html#p-722",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-697",
+  "id": "p-723",
   "level": "2",
-  "url": "append_math.html#p-697",
+  "url": "append_math.html#p-723",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-698",
+  "id": "p-724",
   "level": "2",
-  "url": "append_math.html#p-698",
+  "url": "append_math.html#p-724",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-699",
+  "id": "p-725",
   "level": "2",
-  "url": "append_math.html#p-699",
+  "url": "append_math.html#p-725",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3367,9 +3421,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-700",
+  "id": "p-726",
   "level": "2",
-  "url": "appendix-2.html#p-700",
+  "url": "appendix-2.html#p-726",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

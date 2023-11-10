@@ -92,5 +92,96 @@
          </ol>
         </p>
   </exercise>
+
+  <exercise>
+    <p>
+      A transverse sine wave is expressed in MKS units as 
+      <me>
+        y(x,t) = 2 \sin 2\pi(\frac{x}{3}-\frac{t}{2}).
+      </me>
+       Find 
+       <ol marker="a.">
+        <li>
+          its amplitude, 
+        </li>
+        <li>
+          its wave number,
+        </li>
+        <li>
+          its frequency,
+        </li>
+        <li>
+          its angular frequency,
+        </li>
+        <li>
+          its phase velocity,
+        </li>
+        <li>
+          the particle displacement at t = 1 s and x = 2 m, 
+        </li>
+        <li>
+          the particle velocity at that time and place, 
+        </li>
+        <li>
+          the acceleration of the particle at that time and place,
+        </li>
+        <li>
+          the concavity of the wave at that time and place.
+        </li>
+         </ol>
+          </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A long rope is stretched out horizontally between two students. The student on the left moves his 
+      hand up and down sinusoidally with a frequency of 2 Hz and an amplitude of 10 cm. The wave moves 
+      to the right with a speed of 10 m/s and at time t = 0 the left end of the rope is moving downward 
+      through the mid-point of displacement. Find 
+      <ol marker="a.">
+        <li>
+          the wavelength,  
+        </li>
+        <li>
+          the wave number, 
+        </li>
+        <li>
+          the angular frequency, 
+        </li>
+        <li>
+          its angular frequency,
+        </li>
+        <li>
+          the equation for the wave as a function of time and position, 
+        </li>
+        <li>
+          the displacement of the rope when x = 2 m and t = 1.5 s.
+        </li>
+         </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The equation of a transverse wave on a string is 
+      <me>
+        y(x,t) = (5.00 \,cm) \sin\pi[(200 \,rad/s)t + (0.20 \,/cm)x].
+      </me>
+      <ol marker="a.">
+        <li>
+          Find the amplitude, wavelength, frequency, period, and speed of propagation. 
+        </li>
+        <li>
+          What is the equation of motion of the particle located at the origin of the coordinates?
+        </li>
+        <li>
+          What is the maximum magnitude of the transverse velocity of any particle on the string? 
+        </li>
+        <li>
+          Sketch the shape of the wave when t = 0.001 s and <m>0 \lt x \lt 0.2 m.</m>
+        </li>
+           </ol>
+         </p>
+  </exercise>
  </exercises>
 

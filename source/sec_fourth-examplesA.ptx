@@ -93,4 +93,81 @@
     </solution>
   </example>
   
+
+  <example>
+    <statement>
+      <p>
+        A transverse wave is expressed in MKS units as <m>y(x,t) = 0.02 \sin (3t+2x).</m> Find 
+        <ol marker="a.">
+          <li>
+            its amplitude,
+          </li>
+          <li>
+            its wavelength,
+          </li>
+          <li>
+            its frequency, 
+          </li>
+          <li>
+            its period,
+          </li>
+          <li>
+            its velocity,
+          </li>
+          <li>
+            the particle displacement at t = 1 s and x = 2 m,
+          </li>
+          <li>
+            the particle velocity at that time and place, 
+          </li>
+          <li>
+            the acceleration of the particle at that time and place, 
+          </li>
+          <li>
+            the concavity of the wave at that time and place.
+          </li>
+        </ol>
+           </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>A =0.02\,m, \quad k=2\, N/m, \quad t = 1 \,s,\quad  x=2\,m </m>
+      </p>
+      <p>
+        Evaluate the given equation with 
+        <me>
+          y(x,t) = A\sin(\omega t + kx) 
+        </me>
+        <ol marker="a.">
+          <li>
+          <m>\because \quad y(x,t) = A\sin(\omega t + kx) \quad \Rightarrow \quad A =0.02 \,m</m>
+          </li>
+          <li>
+           <m>k = \frac{2\pi}{\lambda} \quad\Rightarrow\quad \lambda = \pi= 3.14 \,m</m>
+          </li>
+          <li>
+           <m> \omega = 2\pi f \quad \Rightarrow \quad f = 0.477 \,Hz</m>
+          </li>
+          <li>
+          <m>\omega = \frac{2\pi}{T} \quad \Rightarrow \quad T = 2.09 \,s</m>
+          </li>
+          <li>
+           <m>v=\frac{\omega}{k}  \quad \Rightarrow  \quad v = -1.5 \,m/s</m>
+          </li>
+          <li>
+           <m>y(2,1)  = 0.02 \sin (3\times 1+2\times 2) = 0.0131 \,m</m>
+          </li>
+          <li>
+           <m>v_{y} = \frac{\,dy}{\,dt} =\omega A\cos(\omega t +kx)\quad \Rightarrow \quad v_{y}(2,1) = 0.0452 \,m/s</m>
+          </li>
+          <li>
+           <m> a_{y} = \frac{\,d^{2}y}{\,dt^{2}} = -\omega^{2}y \quad \Rightarrow \quad a_{y}(2,1)=-0.118 \,m/s^{2}</m>
+          </li>
+          <li>
+           <m>\frac{\,d^{2}y}{\,dx^{2}} = \frac{1}{v^{2}}\frac{\,d^{2}y}{\,dt^{2}} = -k^{2}y = -0.0526</m>
+          </li>
+        </ol>
+            </p>
+    </solution>
+  </example>
 </section>

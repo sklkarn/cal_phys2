@@ -1,8 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_fourth-waves" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Waves in a Medium</title>
+  <title>Waves</title>
   
+<introduction>
+  <p>
+    When a stone is thrown in a quiet pond a number of nice circular rings, called <em>ripples</em> 
+    [<xref ref="ripples"/>] emerge on the surface of the water which grow gently and move across the pond in a concentric pattern. 
+    These growing ripples are called a <term>wave</term> which carries energy from the point of stone 
+    thrown to the edge of a pond. Hence a wave can be defined as a disturbance in space that can 
+    carry energy from one location to another. A wave creates in a medium when a medium is trying 
+    to regain its equilibrium state. When a stone is thrown it transfers its energy to the surface 
+    of water due to which water layer stretches downwards till stone dips down that layer of water. 
+    When stone leaves the water layer, water layer wants to recover its original position to maintain 
+    equilibrium due to surface tension but as it reaches to the original position it keeps raising 
+    upward because of inertia and stretches the water surface again till reaches the maximum height. 
+    Now due to surface tension this layer of water gets pulled down again and starts sinking down 
+    below the equilibrium position due to inertia such procedure is the cause of waves on water.  
+      </p>
+      <figure>
+        <caption>Disturbances</caption>
+        <sidebyside widths="30% 30%">
+          <figure xml:id="ripples">
+            <caption><url href="https://blogs.solidworks.com/solidworksblog/2018/08/creating-a-model-for-water-ripple-effect-with-solidworks-xdesign.html">Ripples</url></caption>
+            <image source="ripples.png"/>
+        </figure>
+            <figure xml:id="ripples2">
+                <caption>Wavefront</caption>
+                <image source="ripples2.png"/>
+            </figure>
+        </sidebyside>
+      </figure>
+    
+      <p>
+        Energy propagates two ways in water one way is due to vertical up and down motion of water 
+    surface and another way is a back and forth motion of water molecules inside the water. 
+    Similar to concentric circles on water surface energy transmitted in space in the form of 
+    concentric spheres. <xref ref="ripples2"/> shows the same disturbances traveling away from the center 
+    as a series of successive <em>wavefronts</em> labeled crests and troughs. A wavefront is a locus of 
+    points along which all phases and displacements are identical. The solid circles depict the 
+    outward-moving wave crests; the dashed circles represent wave troughs. Adjacent crests are always 
+    a wavelength apart, as are the adjacent troughs. 
+      </p>
+      <p>
+        On the basis of particle motion relative to the direction of energy propagation there are two forms of waves 
+        <ol>
+          <li>
+            Longitudinal wave, and 
+          </li>
+          <li>
+            Transverse wave.
+          </li>
+        </ol>
+        In longitudinal wave the medium particles vibrate parallel to the direction of the energy propagation. 
+        Longitudinal waves are also called <em>pressure waves</em>. As a layer of one part of a medium creates 
+        pressure on the other part of the medium. Sound waves in any medium, waves propagating along spring 
+        are some examples of such wave. In transverse wave the medium particles vibrate perpendicular to 
+        the direction of the energy propagation. Movement of a wave through a solid object like a stretched 
+        rope or a trampoline is some examples of such wave.
+      </p>
+      <p>
+        On the basis of requirement of medium to propagate energy there are two types of waves. 
+        <ol>
+          <li>
+            Mechanical wave, and 
+          </li>
+          <li>
+            Electromagnetic wave.
+          </li>
+        </ol>
+        Mechanical waves require material medium to propagate such as sound waves, water waves, string waves, 
+        seismic waves, etc. Electromagnetic waves, on the other hand do not require any medium but can propagate 
+        both in vacuum and in a medium, such as light waves, heat waves, radio waves, etc. Electromagnetic (em) 
+        waves  are transverse in nature where electric field and magnetic field are perpendicular to each other 
+        and are also perpendicular to the direction of energy propagatation.
+      </p>
+      <figure>
+        <caption>Disturbances</caption>
+        <sidebyside widths="30% 30% 30%">
+          <figure xml:id="long2">
+            <caption>Longitudinal wave</caption>
+            <image source="long2.png"/>
+        </figure>
+            <figure xml:id="gr21">
+                <caption>Transverse wave</caption>
+                <image source="gr21.png"/>
+            </figure>
+            <figure xml:id="gr20">
+              <caption>Wave Representation</caption>
+              <image source="gr20.png"/>
+          </figure>
+        </sidebyside>
+      </figure>
+    
+      <p>
+        Longitudinal waves occur when a spring is fixed at one end and pulled back and forth by the other 
+        end as shown in <xref ref="long2"/>. Transverse waves occur when a spring or string is fixed at 
+        one end and wiggled up and down by the other end  as shown in <xref ref="gr21"/>. Both the waves 
+        can be easily described by a transverse nature as they are periodic in nature as shown in <xref ref="gr20"/>. 
+        The <term>crest</term> is the highest point on a wave. The <term>trough</term> is the valley 
+        between two waves. It is the lowest point. The <term>wavelength,</term> <m>\lambda</m> is the 
+        distance, either between the crests or troughs of two consecutive waves. It is the length of 
+        one complete wave. The <term>amplitude</term>, A is the peak value (either positive or negative) 
+        of a wave. The distance from the undisturbed level (equilibrium position) to the trough or crest. 
+        The <em>compression</em> is the part of the longitudinal wave where the particles crowded together. 
+        The <em>rarefaction</em> is the part of the longitudinal wave where the particles spread out. 
+        The <em>wavelength</em> is the distance from compression to compression or rarefaction to rarefaction in 
+        a pressure (longitudinal) wave. The <term>frequency</term>, <m>\nu</m> is a number of complete waves 
+        per second. If T is a time period to generate one complete wave then 
+        <me>
+          \nu=\frac{1}{T}.
+        </me>
+        Its unit is Hertz (<m>H_{z}</m>), i.e. cycles per second.
+        <fn>There is a third kind of new wave which has just been discovered, known as a <term>gravitaional wave</term>. 
+          It is a disturbance in spacetime and can pass through anything undisturbed. It travels with the 
+          velocity of light. It stretches and squashes the spacetime during propagation. <term>Strain:</term> 
+          The ratio of y displacement (stretch) to the x-displacement (squash) of medium is called a strain.
+          <m>strain=\frac{\,dy}{\,dx}</m>  </fn>
+      </p>
+      <figure>
+        <caption>Disturbances</caption>
+        <sidebyside widths="30% 30%">
+          <figure xml:id="gr23">
+            <caption>Pulse Wave</caption>
+            <image source="gr23.png"/>
+        </figure>
+            <figure xml:id="gr22">
+                <caption>Periodic Wave</caption>
+                <image source="gr22.png"/>
+            </figure>
+            </sidebyside>
+      </figure>
+      <p>
+        <term>Pulse and Periodic Waves:</term> A single vibratory disturbance that moves from point to point 
+        is called a pulse. A single wiggle flowing in a straight line is a pulse wave as shown in <xref ref="gr23"/>. 
+        When the pulse reaches a boundary with another medium, a part of it is reflected and a part is transmitted 
+        through the boundary. When a pulse reaches a fixed boundary (dead end), then the pulse is completely 
+        reflected and inverted by <m>180^{o}</m> out of phase. The series of evenly timed disturbances in 
+        a medium is called a <em>periodic wave</em>. It repeats the same pattern over and over again after 
+        a fixed interval of time as shown in <xref ref="gr22"/>. The source of a pulse wave is non periodic disturbance. 
+      </p>
+      <p>
+        <term>Sinusoidal Waves:</term> The waves which take the form of sine or cosine function is known as 
+        sinusoidal waves. It is a single frequency periodic wave and is a consequence of simple harmonic motion 
+        of a medium particles. In fact, any periodic wave can be represented as a combination of sinusoidal waves. 
+        Instead of sinusoidal wave there are other forms of waves which are very important in electronics, 
+        they are square wave, sawtooth wave, etc.  
+      </p>
+      <p>
+        <term>Wave Number, <m>\kappa</m>:</term> The number of complete waves per unit length is called a wave number. 
+        It is also sometimes called a propagation constant. If <m>\lambda</m> is a wavelength of a wave then 
+        <me>
+          \kappa = \frac{2\pi}{\lambda}.
+        </me>
+        Its unit is <m>m^{-1}</m>  or <m>rad/m^{-1}.</m> 
+      </p>
+      <p>
+       <term> Wave Velocity (Phase Velocity):</term> The velocity at which phase of a wave can travel 
+       is called a phase velocity. It is the velocity with which a crest or trough of a wave can progress in space. 
+       <me>
+        v =\frac{\,dx}{\,dt}
+       </me>
+       <me>
+        = \frac{\lambda}{T}= f\lambda  = \frac{2\pi}{2\pi}f\lambda = \frac{\omega}{k}
+       </me>
+        </p>
+        <p>
+          <term>Particle Velocity:</term> It is the velocity of a medium particle which oscillates about 
+          its mean position when a wave passes through the medium. 
+          <me>
+            v_{y} = \frac{\,dy}{\,dt}.
+          </me>
+            </p>
+            <figure xml:id="beats">
+              <caption></caption>
+              <image source="beats.png" width ="35%"/>
+          </figure>
+            <p>
+              <term>Group Velocity:</term> The velocity at which energy is transported is called a group velocity. 
+              In reality, any signal consists of packets of waves of different frequencies, which travel together. 
+              The speed of the wave packets is called the group velocity. The group velocity [<xref ref="beats"/>] is a bit slower 
+              than the phase velocity of the individual waves. The packet moves slower than the single-frequency wave. 
+              If the medium is  dispersionless then the group and phase velocity are the same. 
+            </p>
+</introduction>
 
+<subsection xml:id="subsec-shm_wfn">
+  <title>Simple harmonic wave function</title>
+  <introduction>
+    <p>
+      The equation 
+      <me>
+        y=A\sin\omega t
+      </me>
+       represents the displacement of a single particle constituting SHM. Now if a wave of velocity v is 
+       propagating in a medium then the medium particles oscillates about its mean position. 
+       Consider a particle, P at a distance, x from position, A then wave reaches to P at time 
+       <me>
+        t_{1}=\frac{x}{v}
+       </me>
+       and the displacement of particle, P at time  <m>t_{1}</m> would be the same as the displacement 
+       of particle, O at <m>t-t_{1}</m> [<xref ref="rfcc"/>]. Thus the displacement of particle, P in a medium at any instant 
+       <m>t_{1}</m> is given by 
+         </p>
+         <figure xml:id="rfcc">
+          <caption></caption>
+          <image source="rfcc.png" width ="55%"/>
+      </figure>
+         <p>
+          <me>
+            y_{1}=A \sin\omega (t-t_{1}) 
+           </me>
+           <me>
+            = A \sin\omega \left(t-\frac{x}{v}\right) = A \sin \left(\omega t-2\pi f\frac{x}{v}\right) 
+           </me>
+           <me>
+            = A \sin \left(\omega t-2\pi \frac{x}{\lambda}\right)
+           </me>
+           Or, in general the wave function can be written as
+           <me>
+            y= A \sin (\omega t-kx)
+           </me>
+          where <me>\omega = 2\pi f =  \frac{2\pi}{T},</me>  and <me>k = \frac{2\pi}{\lambda}.</me> 
+          This is the same as writing 
+         <men xml:id="eqn-weq1">
+          y(x,t)=A \sin (kx-\omega t).
+         </men>    
+         </p>
+    <p>
+      We can also express the wave function as 
+      <men xml:id="eqn-weq2">
+        y(x,t)=A \sin (kx\pm\omega t)
+      </men>
+      
+      where <em>+ve</em> sign for wave progressing in -ve direction 
+      and <em>-ve</em> for wave progressing in +ve direction. 
+    </p>
+    <p>
+      The sinusoidal wave function can also be represented as 
+      <me>
+        y(x,t) = A \cos(\omega t-kx) 
+      </me>
+      <me>
+        \text{or,} \quad y(x,t) = A \cos(kx-\omega t) 
+      </me>
+      or in more general case the combination of both or in a complex form like these 
+     <men xml:id="eqn-weq3">
+      y(x,t) = A \sin(kx-\omega t)+B \cos(kx-\omega t) = Ae^{i(kx-\omega t)}
+     </men>
+     
+      Any of above wave functions describe the same wave. If time is counted from the maximum displacement 
+      of the medium particle's initial position then cosine term appears, if time is counted 
+      from the minimum displacement of the medium particle as an initial position or its maximum 
+      velocity then sine term appears in the derivation of wave function. 
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-wave_eq">
+    <title>Wave equation</title>
+    <p>
+      <idx>wave equation</idx> 
+        Let the displacement <m>y(x,t)</m> of a medium particle is given by 
+      <men xml:id="eqn-weq4">
+        y(x,t) = A \sin(\omega t-kx)
+      </men>
+      
+            then the velocity of a medium particle can be 
+           <men xml:id="eqn-weq5">
+            v_{y}(x,t) = \frac{\partial y(x,t)}{\partial t} = A\omega\cos(\omega t - kx)
+           </men>
+           
+                  and the acceleration of a medium particle is 
+               <men xml:id="eqn-weq6">
+                a_{y}(x,t) = \frac{\partial^{2} y(x,t)}{\partial t^{2}} = -A\omega^{2}\sin(\omega t - kx)= -\omega^{2}y(x,t)
+               </men>
+               
+                     Also the slope of the wave at point, x and time, t is given by 
+                    <men xml:id="eqn-weq7">
+                      \frac{\partial y(x,t)}{\partial x} = -Ak\cos(\omega t - kx)
+                    </men>
+                    
+                           Also the curvature of the wave at point, x and time, t is given by 
+                           <men xml:id="eqn-weq8">
+                            \frac{\partial^{2} y(x,t)}{\partial x^{2}} = - Ak^{2}\sin(\omega t - kx)= -k^{2}y(x,t)
+                           </men>
+                           
+                                 Hence the wave equation can be written as 
+                               <me>
+                                \frac{\partial^{2} y(x,t)/\partial t^{2}}{\partial^{2} y(x,t)/\partial x^{2}}  =\frac{\omega^{2}}{k^{2}} = v^{2}
+                               </me>
+                                                               
+                                <men xml:id="eqn-weq">
+                                  \therefore \quad \frac{\,d^{2}y(x,t)}{\,dx^{2}} = \frac{1}{v^{2}}\frac{\,d^{2}y(x,t)}{\,dt^{2}}
+                                </men>
+                                     where v is a wave velocity
+        </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-waveeq_string">
+    <title>Wave Equation in Stretched String</title>
+    <p>
+      Let us consider an elastic string tightly stretched between points, O and P by constant tension, T. 
+      The string is caused to vibrate by plucking it with a very small displacement, y at time, t so 
+      that the tension, T remains constant throughout the deflections of the string. 
+    </p>
+    <figure xml:id="stringwave">
+      <caption></caption>
+      <image source="stringwave.png" width ="45%"/>
+  </figure>
+  <p>
+    Let <m>\mu</m> be the mass per unit length of an element, AB of the vibrating string, as shown 
+    in <xref ref="stringwave"/>. The net force acting on the element, AB along x and y direction is given by	
+    <men xml:id="eqn-strngeq1">
+      F_{x}=T\cos \beta -T \cos \alpha  
+    </men>
+    <men xml:id="eqn-strngeq2">
+      \text{and}\quad F_{y}=T\sin \beta -T \sin \alpha  
+    </men>
+    where <m>\alpha</m> and <m>\beta</m> are the inclination of tension, T with the horizontal x - axis. 
+    For small displacement 
+    <me>
+      \cos\beta = \cos \alpha \quad \Rightarrow F_{x} =0,
+    </me>
+    i.e., the motion of the particle of string along x - axis is zero.
+    <me>
+      \text{Also,}\quad \sin\beta = \tan\beta = \left(\frac{\partial y}{\partial x}\right)_{B} = \left(\frac{\partial y}{\partial x}\right)_{x+\,dx}
+    </me>
+    <me>
+     text{and} \quad \sin\alpha = \tan\alpha = \left(\frac{\partial y}{\partial x}\right)_{A} = \left(\frac{\partial y}{\partial x}\right)_{x}
+    </me>
+    where <m>\frac{\partial y}{\partial x}</m> defines the slope of tangents at a particular point at any time 't'.
+  </p>
+  <p>
+    From eqn. <xref ref="eqn-strngeq2"/>, we have -  
+    <me>
+      F_{y}=T\left(\frac{\partial y}{\partial x}\right)_{x+\,dx}-T\left(\frac{\partial y}{\partial x}\right)_{x} 
+    </me>
+    <me>
+      =T\left[\left(\frac{\partial y}{\partial x}\right)_{x+\,dx}-\left(\frac{\partial y}{\partial x}\right)_{x}\right]
+    </me>
+    <me>
+      =T\left[\left(\frac{\partial y}{\partial x}\right)_{x}+\frac{\partial}{\partial x}\left(\frac{\partial y}{\partial x}\right)_{x}\,dx+\cdots-\left(\frac{\partial y}{\partial x}\right)_{x}\right]
+    </me>
+    using Taylor's expansions.
+    <men xml:id="eqn-strngeq3">
+      \therefore  F_{y}=T\frac{\partial^{2} y}{\partial x^{2}}\,dx 
+    </men>
+    by neglicting higher order terms. 
+    i.e., <m>F_{y} \neq 0</m>  hence the motion of the particle of string is only along y - axis.
+  </p>
+  <p>
+      If the acceleration of the element along vertical be <m>\frac{\partial^{2} y}{\partial t^{2}}</m> 
+      and mass of an element, AB is <m>\mu\,ds</m> then according to Newton's second law of motion, 
+      this force is given by 
+      <men xml:id="eqn-strngeq4">
+        F_{y} = \mu\,ds\frac{\partial^{2} y}{\partial t^{2}} 
+      </men>
+      from eqns. <xref ref="eqn-strngeq3"/> and <xref ref="eqn-strngeq4"/>, we have- 
+      <me>
+        T\frac{\partial^{2} y}{\partial x^{2}}\,dx =  \mu\,dx\frac{\partial^{2} y}{\partial t^{2}} 
+      </me>
+      [Since, slope of the curve is small, <m>\,ds</m> can be replaced by <m>\,dx</m>] 
+      <me>
+        T\frac{\partial^{2} y}{\partial x^{2}} =  \mu\frac{\partial^{2} y}{\partial t^{2}}
+      </me>
+        <men xml:id="eqn-strngeq5">
+          \text{or,}\quad	\frac{\partial^{2} y}{\partial x^{2}} =  \frac{1}{v^{2}}\frac{\partial^{2} y}{\partial t^{2}} 
+        </men>
+      It is the wave equation for a vibrating string, where <me>v^{2}=\frac{T}{\mu}</me>  
+      is the velocity of the wave propagating along the string.
+  </p>
+  </subsubsection>
+</subsection>
   </section>
 
