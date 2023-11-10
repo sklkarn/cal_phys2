@@ -13,13 +13,39 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">A long straight wire lies along the x-axis carrying 2 A of current in the +x direction. A second, parallel wire located at y = 20 cm carries current of 5 A in the opposite direction.</div>
-<ol class="lower-alpha">
-<li><div class="para">What is the magnetic field due to these currents at the point (0, 0.1 m)?</div></li>
-<li><div class="para">At the point (1m, 1m)?</div></li>
-<li><div class="para">What is the magnitude and direction of the magnetic force on a <span class="process-math">\(10 \mu C\)</span> charge moving in the +z direction with a speed of <span class="process-math">\(10^{4} \,m/s \)</span> if it is at the point (-0.2 m, -0.2 m)?</div></li>
-</ol>
+<div class="para">Using Kirchoff’s current law at the junction, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I(t) = I_{R}(t)+I_{L}(t)+I_{C}(t)
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-610" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+= I_{Ro}\sin\left(\omega t\right)+I_{Lo} \sin\left(\omega t-\frac{\pi}{2}\right)+I_{Co} \sin\left(\omega t+\frac{\pi}{2}\right)
+\end{equation*}
+</div>
+<div class="para">From phasor,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{I}_{o}= \vec{I}_{Ro}+\vec{I}_{Co}+\vec{I}_{Lo}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore I_{o} = \sqrt{I^{2}_{Ro} + \left(I_{Co}-I_{Lo}\right)^{2}} = E_{o}\sqrt{\frac{1}{R^{2}}+\left(X_{C}+\frac{1}{X_{L}}\right)^{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore I_{o}=\frac{E_{o}}{Z}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \frac{1}{Z}=\sqrt{\frac{1}{R^{2}}+\left(\omega C-\frac{1}{\omega L}\right)^{2}}
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-complex_number.html#p-610" class="internal">in-context</a></span>
 </body>
 </html>

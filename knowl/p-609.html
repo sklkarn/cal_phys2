@@ -13,19 +13,59 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Given a circular loop of current I with a radius a.</div>
-<ol class="lower-alpha">
-<li><div class="para">Show that the magnetic field at a distance x along the axis of this loop is given by<div class="displaymath process-math">
+<div class="para">Let emf <span class="process-math">\(E=E_{o}\sin\omega t \)</span> be applied to a circuit containing a resistor of resistance R, an inductor of inductance L, and a capacitor of capacitance C in parallel as shown in <a href="" class="xref" data-knowl="./knowl/ParallelRLC.html" title="Figure 3.9.12.(a)">Figure 3.9.12.(a)</a>. Hence,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
 \begin{equation*}
-B =  \frac{\mu_{o}Ia^{2}}{2(x^{2}+a^{2})^{3/2}}.
+E(t) = V_{R}=V_{L}=V_{C}
 \end{equation*}
 </div>
-</div></li>
-<li><div class="para">Use this result to determine the magnetic field along the axis of a coil of N turns.</div></li>
-<li><div class="para">Use the result of part a to determine the magnetic field at the center of a single loop of current.</div></li>
-<li><div class="para">What is the magnetic field at the center of a loop of current 10 cm in radius carrying a current of 2 A?</div></li>
-</ol>
+<div class="para">Now,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+I_{R}(t)=\frac{E(t)}{R} = \frac{E_{o}}{R} \sin\omega t = I_{Ro} \sin\omega t
+\end{equation*}
 </div>
-<span class="incontext"><a href="ex_third.html#p-609" class="internal">in-context</a></span>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+V_{L}(t)=E(t)=E_{o}\sin\omega t = L\frac{\,dI_{L}}{\,dt}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+\therefore I_{L}(t)= \int_{0}^{t} \frac{E_{o}}{L}\sin\omega t'\,dt' 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+=-\frac{E_{o}}{\omega L}\cos\omega t = \frac{E_{o}}{X_{L}}\sin\left(\omega t-\frac{\pi}{2}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+=I_{Lo} \sin\left(\omega t-\frac{\pi}{2}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+V_{C}(t)=E(t)=E_{o}\sin\omega t = \frac{Q(t)}{C}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+\therefore I_{C}(t)= \frac{\,dQ(t)}{\,dt} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+=\omega CE_{o}\cos\omega t = X_{C}E_{o}\sin\left(\omega t+\frac{\pi}{2}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ParallelRLC.html">
+\begin{equation*}
+=I_{Co} \sin\left(\omega t+\frac{\pi}{2}\right)
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-complex_number.html#p-609" class="internal">in-context</a></span>
 </body>
 </html>
