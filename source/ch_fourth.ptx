@@ -20,11 +20,14 @@
 
  
   <xi:include href="./sec_fourth-intro.ptx" />
-  
   <xi:include href="./sec_fourth-waves.ptx" />
    
-  <xi:include href="./sec_fourth-organ.ptx" />
   <xi:include href="./sec_fourth-examplesA.ptx" />  
+
+  <xi:include href="./sec_fourth-medwave.ptx" />
+  <xi:include href="./sec_fourth-organ.ptx" />
+  <xi:include href="./sec_fourth-sound.ptx" />
+
   <xi:include href="./sec_fourth-examplesB.ptx" />  
 
   

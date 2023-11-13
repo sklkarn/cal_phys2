@@ -10,18 +10,24 @@
   <!-- before those sections. Note the <p> tags around content.  -->
   <introduction>
     <p>
-    
-   
-     </p>
+      It is a branch of physics which deals with the property, propagation, emission, and nature of light. 
+      It is divided into parts, geometric optics and physical optics. In geometrical optics 
+      we learn about the reflection, refraction, and dispersion of light by considering the 
+      rectilinear propagation of light using ray diagrams. In physical optics we learn about interference, 
+      diffraction, and polarization of light by considering its wave nature.
+        </p>
     
       </introduction>
 
     
   <xi:include href="./sec_fifth-intro.ptx" />
+  <xi:include href="./sec_fifth-geoopt.ptx" />
 
   <xi:include href="./sec_fifth-examplesA.ptx" /> 
   
+
   <xi:include href="./sec_fifth-examplesB.ptx" /> 
+  <xi:include href="./sec_fifth-physopt.ptx" />
   <xi:include href="./sec_fifth-examplesC.ptx" /> 
  
   <xi:include href="./ex_fifth.ptx"/> 

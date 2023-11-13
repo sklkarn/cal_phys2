@@ -3,6 +3,284 @@
 <section xml:id="sec_fourth-organ" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Musical Instruments</title>
   
+<introduction>
+  <p>
+     A tool used to produce a musical sound is known as musical instrument, e.g., 
+     guitar, violin, flute, vocal cord, etc. The property of sound can be defined by 
+     its pitch, loudness, periodicity, and quality. Some terminologies of physics 
+     used to describe the property of sound in musical instruments are being discussed here. 
+     The property of an oscillating system in which system prefers to vibrate in certain special 
+     ways are called <term>normal modes</term> or natural frequency. It is a pattern of 
+     vibrational motion in which all parts of the system oscillates sinusoidally with the 
+     same frequency with constant phase relation between different parts of the system. 
+     Any possible vibrational pattern of a system can be decomposed into a linear combination of 
+     these normal modes.  The simplest normal mode of vibration in which system can oscillate is known 
+     as <term>fundamental mode</term> or fundamental frequency. It is the lowest frequency produced by an instrument. 
+  </p>
+  <p>
+   <term> Pitch, Notes and Tones:</term> A pitch is the frequency of a sound that can be heard by a 
+   listener. The frequency of vibration of the vocal chord is perceived as the pitch of the voice. 
+   A note is a mixture of several frequencies of sound. It is pleasant to hear. A tone is a steady 
+   periodic sound characterized by timber or quality of a frequency. It is a single frequency sound.  
+   In physics pitch, notes, and tones all describe the frequency of vibration. 
+  </p>
+  <p>
+    <term>Noise:</term> A note (sound) which is unpleasant to hear is called a noise. 
+    In case of music notes which are pleasant to one listener may be noise to another. 
+    Hence noise and melody also depend upon the mental status of listeners.
+  </p>
+  <p>
+    <term>Harmonics:</term>  An instrument that produces the standing wave pattern at specific 
+    frequencies (equal to its natural frequencies of vibration) is known as harmonics<idx><h>harmonics</h></idx>. 
+    Other than a harmonic frequency, the resulting disturbance of the medium is irregular and 
+    non-periodic. Harmonics are an integral multiple of fundamental frequency. 
+    Harmonics can be expressed as 
+    <me>
+      f_{n} = nf_{o},\quad \text{where}\quad n=1,2,3, \cdots.
+    </me>
+    The fundamental frequency of vibration is also called a first harmonics. 
+    <me>
+      \text{I harmonics}, \quad f_{1} = f_{o}, \quad  \text{fundamental frequency}; 
+    </me>
+    <me>
+      \text{II harmonics},\quad f_{2} = 2f_{o}; 
+    </me>
+    <me>
+      \quad \text{III harmonics}, f_{2} = 3f_{o},
+    </me>
+      and so on.
+  </p>
+  <p>
+    <term>Overtones:</term> A frequency higher than fundamental frequency (or higher than first harmonics) 
+    is known as overtones<idx>overtones</idx>. If the multiple of fundamental frequency is not integral 
+    than the overtones is non-harmonic overtones. II harmonics is called a first overtones, 
+    III harmonics is called a II overtones, and so on.
+  </p>
+  <p>
+    <term>Resonance:</term> 
+    The condition at which vibrating frequency of an oscillating system matched with a natural 
+    frequency of that system so that the frequency of vibration becomes maximum is known as 
+    resonance<idx><h>resonance</h></idx>. Resonance is a frequency at which standing waves 
+    are produced. The natural frequencies of a musical instrument are reffered as the harmonics of the instrument.
+  </p>
+</introduction>
 
+<subsection xml:id="subsec-string">
+  <title>Stretched String</title>
+  <p>
+   The string on a musical instrument is fixed at both ends, so any vibration of the string 
+   must have nodes at each end. Guitar, Violin, etc are string instruments. Consider a string 
+   of length, L is stretched on both ends and plugged at middle in such a way that it produces 
+   standing waves of fundamental frequency as shown in <xref ref="strstring"/>.
+  </p>
+  <figure xml:id="strstring">
+    <caption>Stretched String</caption>
+    <sidebyside widths="25% 25% 25% 25%">
+          <figure xml:id="stringa">
+          <caption>Fundamental Frequency</caption>
+          <image source="stringa.png"/>
+      </figure>
+      <figure xml:id="stringb">
+        <caption><m>2^{nd}</m> Harmonics</caption>
+        <image source="stringb.png"/>
+    </figure>
+    <figure xml:id="stringc">
+      <caption><m>3^{rd}</m> Harmonics</caption>
+      <image source="stringc.png"/>
+  </figure>
+  <figure xml:id="stringd">
+    <caption><m>4^{th}</m> Harmonics</caption>
+    <image source="stringd.png"/>
+</figure>
+    </sidebyside>
+  </figure>
+  <p>
+    <me>
+      \text{Here}\quad L=\frac{\lambda_{1}}{2} \qquad \Rightarrow \lambda_{1} = 2L; 
+    </me>
+    <me>
+      \text{Also}\quad v=f_{1}\lambda_{1} \qquad \Rightarrow f_{1} = \frac{v}{\lambda_{1}}
+    </me>
+    where <m>\lambda</m>, f and v are wavelength, frequency, and velocity of a progressive wave. 
+    <me>
+      \text{or,}\quad  f_{1} = \frac{v}{2L}=f_{o} 
+    </me>
+   This is I Harmonics or fundamental frequency.
+<me>
+  \text{again}\quad L=\frac{\lambda_{2}}{2} +\frac{\lambda_{2}}{2} = \lambda_{2} 
+</me>
+<me>
+  \Rightarrow \lambda_{2} = L
+</me>
+<me>
+  \text{and} \quad f_{2} = \frac{v}{\lambda_{2}} =\frac{v}{L}
+</me>
+<me>
+  \therefore\quad  f_{2} = \frac{v}{L}=2\left(\frac{v}{2L}\right)=2f_{o} 
+</me>
+This is II Harmonics or I overtone.
+<me>
+  \text{similarly}\quad L=\frac{\lambda_{3}}{2} +\frac{\lambda_{3}}{2}+\frac{\lambda_{3}}{2} = 3\frac{\lambda_{3}}{2} 
+</me>
+<me>
+  \Rightarrow \lambda_{3} = \frac{2L}{3}
+</me>
+<me>
+  \text{and} \quad f_{3} = \frac{v}{\lambda_{3}} =3\left(\frac{v}{2L}\right)=3f_{o} 
+</me>
+<me>
+  \therefore\quad  f_{3} = 3f_{o}
+</me>
+This is III Harmonics or II overtone.
+  </p>
+  <p>
+    Hence the normal modes of vibration of a stretched string is given by 
+    <me>
+      f_{n}=nf_{o}\qquad \text{where}\quad n=1,2,3,\cdots.
+    </me>
+    </p>
+</subsection>
+
+
+<subsection xml:id="subsec-organ_pipe">
+  <title>Organ Pipe</title>
+  <p>
+   It is a musical instrument which produces standing waves if the vibration is set up at 
+   one end of the pipe. Vibration set up at one end get reflected back from the other end 
+   and once they overlap standing wave pattern produced with a melodious sound. 
+   There are two types of organ pipe.
+  </p>
+  <p>
+    <ol>
+      <li>
+       <p>
+        <term>Open Pipe:</term> An organ pipe which is open at its both ends is an open organ pipe. 
+        Flute, Trumpet, etc. are open organ pipes. Consider an open pipe of length, L whose both ends 
+        are open. When vibration is set at one end it reflects from the other end  and produces 
+        standing waves of fundamental frequency <m>f_{o}</m> as shown in <xref ref="openpipe"/>.
+       </p>
+       <figure xml:id="openpipe">
+        <caption>Stretched String</caption>
+        <sidebyside widths="30% 30% 30%">
+              <figure xml:id="openpipea">
+              <caption>Fundamental Frequency (<m>1^{st}</m> Harmonics)</caption>
+              <image source="openpipea.png"/>
+          </figure>
+          <figure xml:id="openpipeb">
+            <caption><m>2^{nd}</m> Harmonics (I Overtones)</caption>
+            <image source="openpipeb.png"/>
+        </figure>
+        <figure xml:id="openpipec">
+          <caption><m>3^{rd}</m> Harmonics (II Overtones)</caption>
+          <image source="openpipec.png"/>
+      </figure>
+         </sidebyside>
+      </figure>
+        <p>
+          <me>
+            \text{Now}\quad L=\frac{\lambda_{1}}{4}+\frac{\lambda_{1}}{4}= \frac{\lambda_{1}}{2} \qquad \Rightarrow \lambda_{1} = 2L
+          </me>
+          <me>
+            \text{or,}\quad  f_{1} =\frac{v}{\lambda_{1}}= \frac{v}{2L}=f_{o} \quad \text{I Harmonics or fundamental frequency.}
+          </me>
+          <me>
+            \text{again}\quad L=\frac{\lambda_{2}}{4} +\frac{\lambda_{2}}{2}+\frac{\lambda_{2}}{4} = \lambda_{2}
+          </me>
+          <me>
+            \Rightarrow \lambda_{2} = L
+          </me>
+          <me>
+            \text{and} \quad f_{2} = \frac{v}{\lambda_{2}} =\frac{v}{L} 
+          </me>
+        <me>
+          \therefore\quad  f_{2} = \frac{v}{L}=2\left(\frac{v}{2L}\right)=2f_{o} \quad \text{II Harmonics or I overtone.}
+        </me>
+        <me>
+          \text{similarly}\quad L=\frac{\lambda_{3}}{2} +\frac{\lambda_{3}}{2}+\frac{\lambda_{3}}{2} = 3\frac{\lambda_{3}}{2} 
+        </me>
+        <me>
+          \Rightarrow \lambda_{3} = \frac{2L}{3}
+        </me>
+        <me>
+  \text{and} \quad f_{3} = \frac{v}{\lambda_{3}} =3\left(\frac{v}{2L}\right)=3f_{o}
+</me>
+<me>
+  \therefore\quad  f_{3} = 3f_{o} \quad \text{III Harmonics or II overtone.}
+</me>
+        </p>
+        <p>
+          Hence the normal modes of vibration of an open pipe is given by 
+          <me>
+            f_{n}=nf_{o}\qquad \text{where}\quad n=1,2,3,\cdots.
+          </me>
+           </p>
+      </li>
+      <li>
+        <p>
+          <term>Closed Pipe:</term> An organ pipe which is open at its one ends and closed at another 
+          is a closed organ pipe. Clarinet, whistle, bottle,  etc. are closed organ pipes. Consider a 
+          closed pipe of length, L whose one end is open and another is closed. When vibration is 
+          set at open end it reflects from the other end  and produces standing waves of fundamental 
+          frequency <m>f_{o}</m> as shown in <xref ref="closedpipe"/>.
+        </p>
+        <figure xml:id="closedpipe">
+          <caption>Stretched String</caption>
+          <sidebyside widths="30% 30% 30%">
+                <figure xml:id="closedpipea">
+                <caption>Fundamental Frequency (<m>1^{st}</m> Harmonics)</caption>
+                <image source="closedpipea.png"/>
+            </figure>
+            <figure xml:id="closedpipeb">
+              <caption><m>3^{rd}</m> Harmonics (I Overtones)</caption>
+              <image source="closedpipeb.png"/>
+          </figure>
+          <figure xml:id="closedpipec">
+            <caption><m>5^{th}</m> Harmonics (II Overtones)</caption>
+            <image source="closedpipec.png"/>
+        </figure>
+           </sidebyside>
+        </figure>
+        <p>
+          <me>
+            \text{Now}\quad L=\frac{\lambda_{1}}{4} \qquad \Rightarrow \lambda_{1} = 4L
+          </me>
+          <me>
+            \text{or,}\quad  f_{1} =\frac{v}{\lambda_{1}}= \frac{v}{4L}=f_{o} \quad [\text{I Harmonics or fundamental frequency.}]
+          </me>
+         <me>
+          \text{again}\quad L=\frac{\lambda_{2}}{2} +\frac{\lambda_{2}}{4} = 3\left(\frac{\lambda_{2}}{4}\right) 
+         </me>
+         <me>
+          \Rightarrow \lambda_{2} = \frac{4L}{3}
+         </me>
+         <me>
+          \text{and} \quad f_{2} = \frac{v}{\lambda_{2}} =3\left(\frac{v}{4L}\right)=3f_{o} \quad [\text{III Harmonics or I overtone.}]
+         </me>
+         <me>
+          \text{similarly}\quad L=\frac{\lambda_{3}}{4} +\frac{\lambda_{3}}{2}+\frac{\lambda_{3}}{2} = 5\left(\frac{\lambda_{3}}{4}\right) 
+         </me>
+         <me>
+          \Rightarrow \lambda_{3} = \frac{4L}{5}
+         </me>
+         <me>
+          \text{and} \quad f_{3} = \frac{v}{\lambda_{3}} =5\left(\frac{v}{4L}\right)=5f_{o} 
+         </me>
+         <me>
+          \therefore\quad  f_{3} = 5f_{o} \quad [\text{V Harmonics or II overtone.}]
+         </me>
+        </p>
+        <p>
+          Hence the normal modes of vibration of a closed pipe is given by 
+          <me>
+            f_{n}=nf_{o}\qquad \text{where}\quad n=1,3,5,\cdots.
+          </me>
+         It is observed that in case of closed pipe frequency of higher modes of vibration is 
+         odd multiples of fundamental frequency. Even harmonics are missing in this case hence 
+         sound quality is poor.
+        </p>
+      </li>
+    </ol>
+  </p>
+</subsection>
   </section>
 

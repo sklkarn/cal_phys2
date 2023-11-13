@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-sound" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sound</title>
+  
+
+  <introduction>
+    <p>
+      It is a kind of energy which is produced when medium vibrates. It is a mechanical 
+      wave and creates pressure on a layer of medium when propagates, hence it is also 
+      called a pressure wave. Sound wave is longitudinal in nature. When such energy reaches 
+      to animal eardrum, it begins to vibrate and animal has sensation of hearing. 
+      The physical character of sound depends upon the listener's audible perception. 
+      The physical quantity that defines the loudness is a sound pressure and the quantity 
+      that defines the timbre or quality of sound is a frequency, f, measured in cycles 
+      per second, or Hertz (Hz). A sound of frequency 20 Hz to 20 kHz is audible to 
+      healthy human ear. Loudness increases with the increase of pressure amplitude 
+      at a given frequency.  <term>Loudness or Intensity Level</term> is a sound energy 
+      received by a unit area of listener's eardrum (detector) in unit time. Loudness is a 
+      listener's perception. <term>Intensity</term> is an energy carried by a  wave 
+      per unit area per unit time. Intensity is a property of sound producing device. 
+      Loudness is an intensity received by a listener. 
+    </p>
+    <p>
+      Sound Wave Equations are 
+      <me>
+        s(x,t) = s_{o} sin (kx-\omega t) \quad	(Displacement) 
+      </me>
+       	<me>
+          p(x,t) = Bks_{o} cos (kx-\omega t) \quad	(Pressure) 
+        </me>
+        <me>
+          p_{max} = |Bks_{o}|	\quad \text{(Pressure Amplitude)}
+        </me>
+              Now sound intensity can be 	
+              <me>
+                I = \frac{P}{A}	(W/m^{2}) = \frac{\,E}{A\,dt}=\frac{F \,ds}{A\,dt} = p(x,t)v(x,t)=Bk\omega s_{o}^{2}\cos^{2}(\omega t-kx)
+              </me>
+              At any point x the average value of function <m>\cos^{2}(\omega t-kx) </m> 
+              over one period <m>T=2\pi/\omega</m> is <m>\frac{1}{2}</m>. 
+              <me>
+                \therefore\quad  I = \frac{1}{2}Bk\omega s_{o}^{2} = \frac{\omega p_{max}^{2}}{2Bk}=\frac{v p_{max}^{2}}{2B}
+              </me>
+              <me>
+                \text{But,}\quad v=\sqrt{\frac{B}{\rho}}\quad \text{hence}\quad  I = \frac{1}{2}\sqrt{\rho B}\omega^{2}s_{o}^{2}
+              </me>
+              <me>
+                \text{or,}\quad I = \frac{p^{2}_{max}}{2\rho v} = \frac{p^{2}_{max}}{2\sqrt{\rho B}}
+              </me>
+               </p>
+               <p>
+                Intensity level or loudness is measured in logarithmic scale as it depends upon 
+                human perception of sound, i.e 
+                <me>
+                  \beta =  10 \log\frac{I}{I_{o}} \quad (dB)
+                </me>
+            The unit of loudness is decibels (dB) and the term 
+            <m>I_{o} = 10^{-12} \,(W/m^{2})</m> is a minimum intensity of sound that human ear 
+            can perceive with zero loudness. <m>I_{o}</m> is also known as 
+            <term>Threshold of hearing</term> as <m>\beta=0</m> at <m>I=I_{o}</m>.
+               </p>
+               <p>
+                A decibel is one tenth of a bel, <m>B</m>. The unit bel is taken to give 
+                honor to a telephone inventor Alexendor Graham Bell. Since Bel is an inconveniently 
+                large unit so we use decibel. A typical conversation occurs at 60 to 70 dB pleasant 
+                to hear. A sound from nearby storm is 120 dB may cause severe damage to the eardrum. 
+                Intensity level follows the <term>inverse square law</term>. That is 
+                <me>
+                  I \propto \frac{1}{r^{2}};
+                </me>
+               <m>\left[\because I = \frac{P}{A}=\frac{P}{4\pi r^{2}}\right]</m> 
+               where r is the distance from the source. 
+               </p>
+  </introduction>
+
+  <subsection xml:id="subsec-echo">
+    <title>Reverberation and Echo</title>
+    <p>
+      Echo and reverberation are two distinct phenomenon of sound waves which occur 
+      due to its reflection from any surfaces. Sound endures in our brain 
+      (or we have the memory that sound being in existence for) longer than 0.1 
+      second. If  sound is reflected from any surface reaches to our ear within 0.1 
+      seconds of the initial sound, then it seems that the sound is prolonged. 
+      The reception of reflected sound within 0.1 second causes the 
+      reverberation - the prolonging of a sound. The speed of sound in air is about 340 m/s 
+      at ambient temperature. If the wall of a room is 17 meter away from the source of 
+      sound then it reflects back from the wall and reaches to the ear within 0.1 s. 
+      <me>
+       \left[ t = \frac{d}{v}=\frac{2\times 17 \,m}{340 \,m/s}=0.1 \,s\right]
+      </me>
+       hence causing a prolonged sound effect, called a reverberation. 
+    </p>
+    <p>Echoes are also the effect of reflection of sound waves perceived by the ear. 
+      When a reflected sound wave reaches the ear after 0.1 seconds of the original 
+      sound was heard then  echoes are produced. If the elapsed time between the arrivals 
+      of the two sound waves is more than 0.1 seconds, then the sensation of the first 
+      sound will have died out. In other words, echo is a sensation of second sound wave 
+      after the effect of original sound wave will vanish. It is not a prolonging of the 
+      original sound wave as in reverberation.   </p>
+      <p>
+        <alert>Summary:</alert> 
+        <ol>
+          <li>
+            <p>
+              Quarter Waves: <me>L_{NA} = \frac{1}{4} \lambda \quad \text{(Node-Antidode Distance)}</me>
+            </p>
+          </li>
+          <li>
+            <p>
+              Fundamental Frequencies: <me>f_{o} = \frac{v}{2L} \quad \text{(String, Open Pipe)}</me>
+              <me>
+                f_{o} = \frac{v}{4L} \quad \text{(Closed Pipe)}
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              Normal Modes: 
+              <me>
+                f_{n} = nf_{o} \quad \text{where} \quad n = 1,2,3,\cdots	 \text{(String, Open Pipe)}
+              </me>
+              <me>
+                \text{and}\quad n = 1, 3, 5, ...	\quad \text{(Closed Pipe)}
+              </me>
+              </p>
+          </li>
+          <li>
+            <p>
+              Interference: 
+              <me>
+                \Delta x = n \lambda, \quad n = 0, 1, 2,\cdots \text{(Constructive Interference)}
+              </me>
+              <me>
+                \Delta x = \frac{n}{2} \lambda, \quad n = 1, 3, 5,\cdots\text{(Destructive Interference)}
+              </me>
+              <me>
+                \Delta \theta = 2\pi \frac{\Delta x}{\lambda}\quad \text{(Phase Angle)}
+              </me>
+                </p>
+          </li>
+        </ol>
+      </p>
+  </subsection>
+
+  <subsection xml:id="subsec-beatsf">
+    <title>Beats</title>
+    <p>
+      The phenomenon of producing a maximum loudness periodically when two sound waves of 
+      same amplitude and slightly different frequencies are superimposed is known as  <term>beats</term>. 
+      The frequency of the beats depends upon the difference in frequency of the two waves. 
+      If the frequency difference is larger than 20 Hz, a tone is usually perceived separately 
+      rather than distinct beats. Beat frequency is given by 	
+      <me>
+        f_{beat} = \Delta f = |f_{a} -f_{b}| 
+      </me>
+      where <m>f_{a}</m> and <m>f_{b} </m> are frequencies of the two waves. When two such 
+      waves superimpose there is a variation in amplitude of resulting wave which causes the 
+      change in loudness and hence the beats are produced. 
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="45% 30%">
+            <figure xml:id="beatsa">
+            <caption>Two waves of different frequency</caption>
+            <image source="beatsa.png"/>
+        </figure>
+        <figure xml:id="beatsb">
+          <caption>Superposition of two waves</caption>
+          <image source="beatsb.png"/>
+      </figure>
+        </sidebyside>
+    </figure>
+    <p>
+      Consider two waves are interfering to each other, then the resultant wave is given by 
+      <me>
+        s(x,t) = s_{a}(x,t)+s_{b}(x,t)
+      </me>
+      <me>
+        =s_{o}\sin(k_{a}x-\omega_{a} t)+s_{o}\sin(k_{b}x-\omega_{b} t)
+      </me>
+        <me>
+         = 2s_{o}\sin\left[\left(\frac{k_{a}+k_{b}}{2}\right)x -\left(\frac{\omega_{a}+\omega_{b}}{2}\right)t\right] \cdot \cos\left[ \left(\frac{k_{a}-k_{b}}{2}\right)x -\left(\frac{\omega_{a}-\omega_{b}}{2}\right)t\right] 
+      </me>
+      <me>
+        \text{or,}\quad s(t) = 2s_{o}\cos\left(\omega_{d}\right)t \sin\left(\omega_{c}\right)t \quad \text{at}\quad x=0
+      </me>
+     where <m>\omega_{c}</m> is the average of <m>\omega_{a}</m> and <m>\omega_{b}</m> and 
+     <m>\omega_{d}</m> is one half of their difference. The amplitude factor <m>2s_{o}\cos\left(\omega_{d}\right)t</m> 
+     varies slowly with <m>\frac{\omega_{a} -\omega_{b}}{2}</m>. The frequency of this second term is 
+     <m>\frac{f_{a} -f_{b}}{2}</m>, but the ear cannot hear the inversion of phase that occurs when phase 
+     is negative and the difference is small. This term is responsible for the beating effect, 
+     and is known as an envelope. The sine factor varies with a frequency 
+     <me>
+      \omega_{d}=\frac{\omega_{a} +\omega_{b}}{2}.
+     </me>
+     There are two times that the envelope (cosine term) passes through zero for every wavelength, 
+     so the beat frequency is twice the frequency of the envelope and is given by the magnitude of 
+     the difference of the two frequencies, i.e.,  beat frequency 
+     <me>
+      f_{beat} = |f_{a}-f_{b}|.
+     </me>
+     </p>
+  </subsection>
+
+
+  <subsection xml:id="subsec-dopplerefct">
+    <title>Doppler Effect</title>
+  <introduction>
+    <p>
+      The Doppler effect is the change in perceived frequency of a source due to the relative motion 
+      between the source and the receiver. It applies to all sorts of waves. Doppler effect can be 
+      experienced as the change in frequency or <term>pitch</term> received when an ambulance passes by. 
+      When the ambulence is approaching, the pitch of siren is getting higher than the actual frequency 
+      of siren. When the ambulence passes by, the frequency sounds the same as the actual emitted 
+      frequency and when the ambulance is moving away, the pitch is getting lower than the actual 
+      emitted frequency. When the source of the waves is coming towards the observer, observer receives 
+      more waves every second compared to being at rest. That is waves bunch together for the observer 
+      giving impression for the decrease of wavelength and causing an increase in the frequency. 
+      Conversely, if the source of waves is going away from the observer, observer receives less waves 
+      every second compared to being at rest. That is waves <em>spread out</em> for the observer giving 
+      impression for the increase of wavelength and causing a decrease in the frequency as shown in <xref ref="deb"/>. 
+      Since the velocity of sound is comparable to the listener's velocity and it propagates only in medium, 
+      Doppler effect may be the consequence of motion of the source, motion of the observer, or motion of the medium. 
+      Each of these effects is analyzed separately. For waves which do not require a medium such as light, 
+      only the relative velocity between the observer and the source needs to be considered.  
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="35% 35%">
+            <figure xml:id="de">
+            <caption>Stationary Source and Listners</caption>
+            <image source="de.png"/>
+        </figure>
+        <figure xml:id="deb">
+          <caption>Source towards Listner</caption>
+          <image source="deb.png"/>
+      </figure>
+        </sidebyside>
+    </figure>
+<p>
+  As source of sound moves there is a change in wavelength perceived by the listener and if 
+  listener moves there is a change relative velocity of the sound can be measured by the listener. 
+  Hence the frequency (or pitch, <m>f_{l}</m>) of sound perceived by the listner can be determined by 
+  <me>
+    f_{l} = \frac{v'}{\lambda'}
+  </me>
+  where <m>v'</m> and <m>\lambda'</m> are the relative velocity of sound and effective 
+  wavelength of sound wave for the listner.
+</p>
+
+  </introduction>
+
+<subsubsection xml:id="subsubsec-ssl">
+  <title>Stationary source and listener</title>
+  <p>
+    If source and listener both are at rest then there is no change in pitch i.e., 
+    <me>
+      f_{l} = \frac{v}{\lambda}=f_{s}
+    </me>
+       here <m>f_{s}</m>, v and <m>\lambda</m> are the frequency, velocity, and wavelength of sound wave, respectively.
+  </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-smsl">
+  <title>Source is moving towards stationary listener</title>
+  <p>
+    If source is moving towards listener with a velocity <m>v_{s}</m> then listener receives 
+    more waves everysecond causes decrease in wavelength. Hence pitch of sound heard by the 
+    listener is given by 
+    <me>
+      f_{l} = \frac{v}{\lambda'}
+    </me>
+    <me>
+      =\frac{v}{\lambda -v_{s}T}
+    </me>
+    <me>
+      =\frac{v}{\frac{v}{f_{s}} -\frac{v_{s}}{f_{s}}}
+    </me>
+    <me>
+      = \left(\frac{v}{v-v_{s}}\right)f_{s}
+    </me>
+        When source is moving towards the listener wavelength squeezed by <m>\lambda-v_{s}T</m> 
+        for every cycle of wave. Here T is a time period of the wave. 
+  </p>
+</subsubsection>
+
+
+<subsubsection xml:id="subsubsec-smaway_sl">
+  <title>Source is moving away from stationary listner</title>
+  <p>
+    If source is moving away from the listener wavelength stretched out by <m>\lambda+v_{s}T</m> 
+    for every cycle of wave. Hence pitch is given by 
+    <me>
+      f_{l} = \left(\frac{v}{v+v_{s}}\right)f_{s}
+    </me>
+    </p>
+</subsubsection>
+
+
+<subsubsection xml:id="subsubsec-lmss">
+  <title>Listener is moving towards a stationary source</title>
+  <p>
+    If listener is moving towards a stationary source of sound with a velocity <m>v_{l}</m> 
+    then the relative velocity of sound is changed for the listener. Hence pitch of sound 
+    heard by the listener is given by 
+    <me>
+      f_{l} = \frac{v'}{\lambda}
+    </me>
+    <me>
+      =\frac{v+v_{l}}{\lambda}
+    </me>
+    <me>
+      =\frac{v+v_{l}}{\frac{v}{f_{s}}}
+    </me>
+    <me>
+      = \left(\frac{v+v_{l}}{v}\right)f_{s}
+    </me>
+    
+        The direction of sound velocity is taken as positive and hence if listener is 
+        moving towards the source then the relative velocity increased. 
+  </p>
+</subsubsection>
+
+
+<subsubsection xml:id="subsubsec-lmaway_ss">
+  <title>Listener is moving away from a stationary source</title>
+  <p>
+    If listener is moving away from a stationary source of sound with a velocity <m>v_{l} </m> 
+    then the relative velocity of sound for the listener is <m>v-v_{l}</m>. Hence pitch of 
+    sound heard by the listener is given by 
+    <me>
+      f_{l} = \frac{v'}{\lambda}= \left(\frac{v-v_{l}}{v}\right)f_{s}
+    </me>
+     </p>
+</subsubsection>
+
+
+<subsubsection xml:id="subsubsec-sl_eo">
+  <title>Source and listener move towards each other</title>
+  <p>
+    In ths case pitch is given by
+<me>
+  f_{l} = \frac{v'}{\lambda'} 
+</me>
+<me>
+  = \frac{v+v_{l}}{\lambda-v_{s}T} 
+</me>
+<me>
+  = \frac{v+v_{l}}{\frac{v}{f_{s}}-\frac{v_{s}}{f_{s}}} 
+</me>
+<me>
+  =  \left(\frac{v+v_{l}}{v-v_{s}}\right){f_{s}}
+</me>
+  </p>
+</subsubsection>
+
+
+
+<subsubsection xml:id="subsubsec-slaway_eo">
+  <title>Source and listener move away from each other</title>
+  <p>
+    In ths case pitch is given by
+<me>
+  f_{l}  =  \left(\frac{v-v_{l}}{v+v_{s}}\right){f_{s}}
+</me>
+  </p>
+</subsubsection>
+
+
+  </subsection>
+
+  <subsection xml:id="subsec-defct_sign">
+    <title>Sign Convention for Doppler Effect</title>
+    <p>
+      <me>
+        f_{L} = \frac{v+v_{L}}{v+v_{s}}f_{s} \quad	\text{(sound)} 
+      </me>
+      <m>v = +;  </m> <m>v_{L}, \, v_{s} = + \quad \text{for}\quad L \oslash S. \quad [\text{L towards S}]</m>
+      <me>
+        f_{R} = \sqrt{\frac{c-v}{c+v}} f_{s} \quad	\text{(light)} \quad(c = +;   v = + \quad \text{for}\quad R \oslash S) 
+      </me>
+          </p>
+          <p>
+            Remember: If a source is going away from a listener then denominator has to increase 
+            (i.e. <m>v_{s}=+ve </m>) to lower the pitch. If a source is coming towards a listener 
+            then denominator has to decrease (i.e. <m>v_{s}=-ve</m>) to raise the pitch. 
+          </p>
+  </subsection>
+
+  <subsection xml:id="subsec-sonic_boom">
+    <title>Sonic Boom</title>
+    <p>
+     A loud noise that is created by the <em>shock wave</em> is called a sonic boom. 
+     When source of sound is traveling faster than the speed of sound then it produces 
+     a sonic boom. Any thing moving faster than the speed of sound is called a supersonic speed. 
+     An aircraft which is going at subsonic speeds (lower than that of sound), its sound wave 
+     is radiated in all directions in such a way that the individual wavefronts are bunched 
+     at he front of the aircraft and spread at the back of it because of forward motion of 
+     the aircraft as shown in <xref ref="subsonic"/>. This effect is well known  as Doppler effect 
+     which changes the <em> pitch</em> of the aircraft's sound as it passes us. When the plane 
+     is approaching us its sound has a higher pitch than if it is going away from us. 
+     If the aircraft is traveling with the same speed as that of sound (called sonic speed) 
+     then the aircraft is at the leading edge of wavefronts that it produces as shown in <xref ref="sonic"/>.  
+     All the wavefronts are bunched up at the front of the aircraft. This phenomenon is known as 
+     a shock wave. If the aircraft is traveling at the supersonic speeds, then a pressure wave 
+     is produced in the shape of the cone whose vertex is at the nose of the aircraft, 
+     and whose base is behind the plane. The angle opening of the cone depends on the actual 
+     speed the plane is traveling at. All of the sound pressure is contained in this cone 
+     as shown in <xref ref="supersonic"/>. Now imagine that this aircraft is in a level flight. 
+     Before the aircraft passes you, you can only see it but you can not hear anything. 
+     The pressure cone is trailing behind the aircraft. Once your ears intersect the edge 
+     of this cone, your will hear a very loud sound - the sonic boom. Therefore you will 
+     hear the sonic boom once your ears intersect this cone.  
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="25% 25% 25% 25%">
+            <figure xml:id="sonicrest">
+            <caption>source at rest</caption>
+            <image source="sonicrest.png"/>
+        </figure>
+        <figure xml:id="subsonic">
+          <caption>subsonic</caption>
+          <image source="subsonic.png"/>
+      </figure>
+      <figure xml:id="sonic">
+        <caption>sonic</caption>
+        <image source="sonic.png"/>
+    </figure>
+    <figure xml:id="supersonic">
+      <caption>supersonic</caption>
+      <image source="supersonic.png"/>
+  </figure>
+        </sidebyside>
+    </figure>
+    <p>
+      The ratio of the speed of a sound source, <m>v_{s}</m> (speed of aircraft) to the speed of 
+      sound, v in a fluid is known as the Mach number.  
+      <me>
+        M=\frac{v_{s}}{v}
+      </me>
+      Speed less than the speed of sound have a <term>Mach number</term> between zero and one and are described 
+      as subsonic. Those greater than the speed of sound have Mach numbers greater than one 
+      are a described as supersonic. Speeds approximately equal to the speed of sound have Mach 
+      numbers approximately equal to one and are described as transonic. The angle at the vertex 
+      of shock waves is called  <term>Mach angle</term>.  
+      <me>
+        \sin\alpha = \frac{height}{hypotenuse} = \frac{v t}{v_{s}t}=\frac{v }{v_{s}}
+      </me>
+      where t is the time taken by the sound to reach the ground when aircraft travels 
+      the horizontal distance of <m>v_{s} t</m>.
+    </p>
+    <p>
+      When an object travels slower than the spped of sound, the Mach angle is greater than one, 
+      and the equation does not have a real solution. This is because there is no shock wave at 
+      subsonic speeds. Traveling at the speed of sound makes the ratio equal one and results in a 
+      Mach angle of ninety degrees. At transonic speeds the shock wave is a wall of high pressure 
+      moving with the object, perpendicular to its velocity. Above the speed of sound, the ratio is 
+      less than one and the Mach angle is less than ninety degrees. The faster the object moves, 
+      the narrower the cone of high pressure behind it becomes. Measuring the vertex angle is 
+      thus a simple way to determine the speed of a supersonic object.
+    </p>
+  </subsection>
+  </section>
+

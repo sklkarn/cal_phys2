@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Spherical Mirror</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="General Physics II">
+<meta property="book:author" content="Sunil Karna">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.98,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="calPhysII.html"><span class="title">General Physics II:</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-refl.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_fifth-geoopt.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_fifth-examplesA.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\T}{\mathcal T}
+\newcommand\comb[2]{^{#1}C{_{#2}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth3"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Electrostatics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Electrostatic Induction</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-charg_transf.html" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Methods of Transferring Charges:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-charg_transf.html#subsubsec-electroscope" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Electrophorus:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-charg_transf.html#subsubsec-electrscp" class="internal"><span class="codenumber">1.1.1.2</span> <span class="title">Electroscope:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-coulmb_law.html" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Coulumb’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-coulmb_law.html#subsubsec-1d_colmb" class="internal"><span class="codenumber">1.1.2.1</span> <span class="title">Coulumb’s Law in One Dimension</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-coulmb_law.html#subsubsec-2d_colmb" class="internal"><span class="codenumber">1.1.2.2</span> <span class="title">Coulomb’s Law in Two and Three Dimensions</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-superp_th.html" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Principle of Superposition</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_first-el_field.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Electric Field</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-chrg_dist.html" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Electric Field of a Continuous Charge Distribution</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesA.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_first-flux.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Electric Flux</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-gauss.html" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Gauss’s Law</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-gauss.html#subsubsec-appl_gauss" class="internal"><span class="codenumber">1.4.1.1</span> <span class="title">Applications of Gauss’s Law</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-sph_symmtr.html" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Cases of spherical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-point_chrg" class="internal"><span class="codenumber">1.4.2.1</span> <span class="title">Electric field due to a point charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-sph_chrg" class="internal"><span class="codenumber">1.4.2.2</span> <span class="title">Electric field due to a  spherical symmetric charged distribution</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-hsph_chrg" class="internal"><span class="codenumber">1.4.2.3</span> <span class="title">Electric field due to a uniformly charged non-conducting hollow sphere</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-cyl_symtr.html" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Cases of cylindrical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_wire" class="internal"><span class="codenumber">1.4.3.1</span> <span class="title">Electric field due to infinitely long charged conductor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_cyl" class="internal"><span class="codenumber">1.4.3.2</span> <span class="title">Electric field due to a uniform infinite cylindrical charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-chrgd_sheet" class="internal"><span class="codenumber">1.4.3.3</span> <span class="title">Electric field due to infinite sheet of charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-out_cond" class="internal"><span class="codenumber">1.4.3.4</span> <span class="title">Electric field just outside a charged conductor</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesB.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstA.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercise A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_first-pot.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Electric Potential</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-capctrs.html" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Capacitors</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-cap_comb" class="internal"><span class="codenumber">1.7.1.1</span> <span class="title">Combination of Capacitors</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-paralle_cap" class="internal"><span class="codenumber">1.7.1.2</span> <span class="title">Parallel-Plate Capacitor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-spher_cap" class="internal"><span class="codenumber">1.7.1.3</span> <span class="title">Spherical Capacitor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-cyl_cap" class="internal"><span class="codenumber">1.7.1.4</span> <span class="title">Cylindrical Capacitor</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-enrgy_cap.html" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Energy Stored in a Capacitor</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-enrgy_cap.html#subsubsec-elf_enrgdenst" class="internal"><span class="codenumber">1.7.2.1</span> <span class="title">Electric Field Energy Density</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-cap_enrgloss.html" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Loss of Energy in Combining two Capacitors</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesC.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstB.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Exercise B</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Electricity</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Conduction Mechanism of Current in a Metal</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-ohm_law.html" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Ohm’s Law:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-restvty" class="internal"><span class="codenumber">2.1.1.1</span> <span class="title">Resistivity or Specific Resistance, <span class="process-math">\(\rho\text{:}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-temp_restvty" class="internal"><span class="codenumber">2.1.1.2</span> <span class="title">Temperature Coefficient of Resistivity</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-el_power" class="internal"><span class="codenumber">2.1.1.3</span> <span class="title">Electrical Power:</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_second-elcircuits.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Electrical Circuits</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-emf.html" class="internal"><span class="codenumber">2.3.1</span> <span class="title">A summary on internal resistance, emf, and terminal potential difference:</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-res_circt.html" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Resistance Circuits:</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-res_circt.html#subsubsec-res_comb" class="internal"><span class="codenumber">2.3.2.1</span> <span class="title">Combination of Resistances</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-maxptr.html" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Maximum Power Transfer Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-el_instrmnt.html" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Electrical Instruments:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_second-kirchhf.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Kirchhoff’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cir_anals.html" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Analysis of DC Electric Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-wheat_stone.html" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Wheat-Stone’s Bridge Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-chrg_dischrg.html" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Charging and Discharging of a Capacitor</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Magnetism</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Magnetic Field</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-mag_mater.html" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Magnetic Materials</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-ferro" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Ferromagnetic Material:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-para" class="internal"><span class="codenumber">3.1.1.2</span> <span class="title">Paramagnetic Material:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-dia" class="internal"><span class="codenumber">3.1.1.3</span> <span class="title">Diamagnetic Material:</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-geo_mag.html" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Geomagnetism</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_force.html" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Magnetic Force on a Moving Charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lorentz.html" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Electromagnetic Force on a Moving Charge (or Lorentz Force)</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-mag_flux.html" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Magnetic Flux, <span class="process-math">\(\Phi_{B}\)</span></span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-gauss_mag" class="internal"><span class="codenumber">3.1.5.1</span> <span class="title">Gauss’s Law for Magnetism</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-vel_select" class="internal"><span class="codenumber">3.1.5.2</span> <span class="title">Velocity Selector</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-cyclotron" class="internal"><span class="codenumber">3.1.5.3</span> <span class="title">Cyclotron Frequency</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-masspect" class="internal"><span class="codenumber">3.1.5.4</span> <span class="title">Mass Spectrometer</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-Hall_effect" class="internal"><span class="codenumber">3.1.5.5</span> <span class="title">Hall Effect</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_third-Aforce.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Magnetic Forces on Currents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-ilb.html" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Magnetic Force on a Current Element</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-IA.html" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Magnetic Dipole Moment of a Current Loop</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-IA.html#subsubsec-solenoid" class="internal"><span class="codenumber">3.2.2.1</span> <span class="title">Solenoid</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-mag_torq.html" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Magnetic Torque on a Current Loop</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_potE.html" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Potential Energy of Magnetic Dipole</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-magS.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Sources of Magnetic Fields</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-magfld_movcharge.html" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Magnetic Field of a Moving Charge:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-free_permblt" class="internal"><span class="codenumber">3.4.1.1</span> <span class="title">Permeability of Free Space, <span class="process-math">\(\mu_{o}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-biot_savrt" class="internal"><span class="codenumber">3.4.1.2</span> <span class="title">Magnetic Field of a Current Element (Biot Savart Law)</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-stwire_magf" class="internal"><span class="codenumber">3.4.1.3</span> <span class="title">Magnetic Field of a straight wire</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-magcrnt_loop" class="internal"><span class="codenumber">3.4.1.4</span> <span class="title">Magnetic field due to a current loop</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-helmholtz" class="internal"><span class="codenumber">3.4.1.5</span> <span class="title">Magnetic field at the center of a Helmholtz coil</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-solenoid_curnt" class="internal"><span class="codenumber">3.4.1.6</span> <span class="title">Magnetic field at a point due to current carrying solenoid</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_third-ampre.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Amper’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_longcond.html" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Magnetic field  due to infinitely long current carrying  conductor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_sheetcond.html" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Magnetic field  due to infinitely long current carrying flat sheet</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_solnd.html" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Magnetic field at a point due to infinitely long solenoid</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_toroid.html" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Magnetic field at a point due to toroid</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_parallelcond.html" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Magnetic Force between Parallel Wires</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesB.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Examples B</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-elmag.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Electromagnetic Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-faraday.html" class="internal"><span class="codenumber">3.7.1</span> <span class="title">Faraday’s Law</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lenz.html" class="internal"><span class="codenumber">3.7.2</span> <span class="title">Lenz’s Law</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-motional_emf.html" class="internal"><span class="codenumber">3.7.3</span> <span class="title">Motional Electromotive Force</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-induced_elf.html" class="internal"><span class="codenumber">3.7.4</span> <span class="title">Induced Electric Fields</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-eddy" class="internal"><span class="codenumber">3.7.4.1</span> <span class="title">Eddy Currents</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-genertr" class="internal"><span class="codenumber">3.7.4.2</span> <span class="title">Generator</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-skineffect" class="internal"><span class="codenumber">3.7.4.3</span> <span class="title">Skin Effect</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-supercond" class="internal"><span class="codenumber">3.7.4.4</span> <span class="title">Superconductivity</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-self_induct.html" class="internal"><span class="codenumber">3.7.5</span> <span class="title">Self-Inductance:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-self_solenoid" class="internal"><span class="codenumber">3.7.5.1</span> <span class="title">Self-inductance of a solenoid:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-mutual_ind" class="internal"><span class="codenumber">3.7.5.2</span> <span class="title">Mutual Inductance:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-maf_fieldenergy" class="internal"><span class="codenumber">3.7.5.3</span> <span class="title">Magnetic-Field Energy</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-rlc.html" class="internal"><span class="codenumber">3.7.6</span> <span class="title">R-L Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lc.html" class="internal"><span class="codenumber">3.7.7</span> <span class="title">L-C Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lcr.html" class="internal"><span class="codenumber">3.7.8</span> <span class="title">L-C-R Circuit</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesC.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Examples C</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-accircuits.html" class="internal"><span class="codenumber">3.9</span> <span class="title">AC Circuits</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-rmsI.html" class="internal"><span class="codenumber">3.9.1</span> <span class="title">RMS value of emf or current</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-complex_number.html" class="internal"><span class="codenumber">3.9.2</span> <span class="title">The Complex Number Method for A.C. Analysis</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-ZXY" class="internal"><span class="codenumber">3.9.2.1</span> <span class="title">Impedance, Reactance, and Admittance</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acR" class="internal"><span class="codenumber">3.9.2.2</span> <span class="title">Resistance in an AC Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acL" class="internal"><span class="codenumber">3.9.2.3</span> <span class="title">Inductance in an AC Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acC" class="internal"><span class="codenumber">3.9.2.4</span> <span class="title">Capacitance in an AC Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-rlc_variation" class="internal"><span class="codenumber">3.9.2.5</span> <span class="title">Variation of reactance due to R, L and C with angular frequency <span class="process-math">\(\omega\)</span> in an AC circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acPower" class="internal"><span class="codenumber">3.9.2.6</span> <span class="title">Power in an AC Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acRL" class="internal"><span class="codenumber">3.9.2.7</span> <span class="title">AC Circuit with Resistance and  Inductance in Series</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acRC" class="internal"><span class="codenumber">3.9.2.8</span> <span class="title">AC Circuit with Resistance and  Capacitance in Series</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acRLC_series" class="internal"><span class="codenumber">3.9.2.9</span> <span class="title">AC Circuit with Resistance,  Capacitance, and Inductance in Series</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acRLC_parallel" class="internal"><span class="codenumber">3.9.2.10</span> <span class="title">AC Circuit with Resistance,  Capacitance, and Inductance in Parallel</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-transformer.html" class="internal"><span class="codenumber">3.9.3</span> <span class="title">Transformer</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ac_preferential.html" class="internal"><span class="codenumber">3.9.4</span> <span class="title">AC is preferential over dc in power transmission</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesD.html" class="internal"><span class="codenumber">3.10</span> <span class="title">Examples D</span></a></div></li>
+<li><div class="toc-item"><a href="ex_third.html" class="internal"><span class="codenumber">3.11</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Waves and Acoustics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Simple Harmonic Motion</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-shm_energy.html" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Energy in SHM</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fourth-waves.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Waves</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-shm_wfn.html" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Simple harmonic wave function</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-shm_wfn.html#subsubsec-wave_eq" class="internal"><span class="codenumber">4.2.1.1</span> <span class="title">Wave equation</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-shm_wfn.html#subsubsec-waveeq_string" class="internal"><span class="codenumber">4.2.1.2</span> <span class="title">Wave Equation in Stretched String</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_fourth-medwave.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Waves in a Medium</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-speed_TW.html" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Speed of a Transverse Wave</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-speed_LW.html" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Speed of a Longitudinal Wave</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-energy_MW.html" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Energy Transport in a Mechanical Wave</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-interferMW.html" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Interference of Mechanical Waves</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-super_princple.html" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Principle of Superposition</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-prog_wave.html" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Traveling Waves (or Progressive Waves):</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-stand_wave.html" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Standing Waves (or stationary waves):</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-stand_wave.html#subsubsec-node_antinode" class="internal"><span class="codenumber">4.4.7.1</span> <span class="title">Position of nodes and antinodes</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fourth-organ.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Musical Instruments</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-string.html" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Stretched String</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-organ_pipe.html" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Organ Pipe</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fourth-sound.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Sound</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-echo.html" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Reverberation and Echo</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-beatsf.html" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Beats</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-dopplerefct.html" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doppler Effect</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-ssl" class="internal"><span class="codenumber">4.6.3.1</span> <span class="title">Stationary source and listener</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-smsl" class="internal"><span class="codenumber">4.6.3.2</span> <span class="title">Source is moving towards stationary listener</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-smaway_sl" class="internal"><span class="codenumber">4.6.3.3</span> <span class="title">Source is moving away from stationary listner</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-lmss" class="internal"><span class="codenumber">4.6.3.4</span> <span class="title">Listener is moving towards a stationary source</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-lmaway_ss" class="internal"><span class="codenumber">4.6.3.5</span> <span class="title">Listener is moving away from a stationary source</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-sl_eo" class="internal"><span class="codenumber">4.6.3.6</span> <span class="title">Source and listener move towards each other</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-slaway_eo" class="internal"><span class="codenumber">4.6.3.7</span> <span class="title">Source and listener move away from each other</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-defct_sign.html" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Sign Convention for Doppler Effect</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sonic_boom.html" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Sonic Boom</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_fourth-examplesB.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Optics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Light</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-speed_light.html" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Speed of Light</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-huygens.html" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Huygens’s Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fifth-geoopt.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Geometrical Optics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-refl.html" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Reflection</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-refl_laws" class="internal"><span class="codenumber">5.2.1.1</span> <span class="title">Laws of Reflection</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-reg_diff" class="internal"><span class="codenumber">5.2.1.2</span> <span class="title">Regular and Diffuse Reflection</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-image_pmirror" class="internal"><span class="codenumber">5.2.1.3</span> <span class="title">Image formed by a mirror</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-plan_mirror" class="internal"><span class="codenumber">5.2.1.4</span> <span class="title">Plane Mirror</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-inclined_mir" class="internal"><span class="codenumber">5.2.1.5</span> <span class="title">Inclined Mirrors</span></a></div></li>
+</ul>
+</li>
+<li class="active">
+<div class="toc-item"><a href="subsec-sp_mir.html" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Spherical Mirror</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-fr_rel" class="internal"><span class="codenumber">5.2.2.1</span> <span class="title">Relation between f and R</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-sign_rulemir" class="internal"><span class="codenumber">5.2.2.2</span> <span class="title">Sign Rules:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-mir_form" class="internal"><span class="codenumber">5.2.2.3</span> <span class="title">Mirror Formula</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-lateral_magmir" class="internal"><span class="codenumber">5.2.2.4</span> <span class="title">Lateral Magnification, m</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-concave_image" class="internal"><span class="codenumber">5.2.2.5</span> <span class="title">Formation of Image by a Concave Mirror</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-convex_image" class="internal"><span class="codenumber">5.2.2.6</span> <span class="title">Formation of Image by a Convex Mirror</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-physopt.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Physical Optics</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesC.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-sp_mir"><h2 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">5.2.2</span> <span class="title">Spherical Mirror</span>
+</h2>
+<section class="introduction" id="introduction-49"><div class="para" id="p-867">Spherical mirror is a part of spherical surface which is polished in such a way that one of its side becomes reflecting surface.  If the exterior of a curvature of hollow sphere is coated in such a way that the interior (or cave part) of the surface behaves as reflecting surface then it is called a <dfn class="terminology">concave mirror</dfn>. If the interior of the sphere is coated in such a way that the  exterior (or vex part) behaves as a reflecting surface then it is called a <dfn class="terminology">convex mirror</dfn> as shown in <a href="" class="xref" data-knowl="./knowl/sp_mirror.html" title="Figure 5.2.6">Figure 5.2.6</a>.</div> <figure class="figure figure-like" id="sp_mirror"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="sphmir"><img src="external/sphmir.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="concavemir"><img src="external/concavemir.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="convexmir"><img src="external/convexmir.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-868">The center of a sphere of which a mirror is a part is called a <dfn class="terminology">center of curvature, C</dfn>. An imaginary line passing through the center of curvature of a spherical mirror is called the <dfn class="terminology">principal axis</dfn> or optical axis of the mirror. Principle axis is a symmetrical line of the mirror. The point on the surface of mirror through which a principle axis is passing is called a <dfn class="terminology">pole, P</dfn> or vertex of the mirror. The radius of a sphere of which a mirror is a part is called the <dfn class="terminology">radius of curvature, R</dfn> of the mirror. Radius of curvature is a distance between pole of the mirror to the center of curvature of the mirror.</div> <figure class="figure figure-like" id="figure-275"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="concavemir2"><img src="external/concavemir2.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="convexmir2"><img src="external/convexmir2.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="caustic"><img src="external/caustic.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.7<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-869">The point on the principle axis through which the reflected rays of all the incident rays prallel to the principle axis must pass or appear to diverge from is called a <dfn class="terminology">focus, F</dfn> and the distance between the pole and the focus is called a <dfn class="terminology">focal length, f</dfn> of the mirror as shown in <a href="" class="xref" data-knowl="./knowl/concavemir2.html" title="Figure 5.2.7.(a)">Figure 5.2.7.(a)</a> and <a href="" class="xref" data-knowl="./knowl/convexmir2.html" title="Figure 5.2.7.(b)">Figure 5.2.7.(b)</a>. The size of the mirror is called the <dfn class="terminology">aperture</dfn> of the mirror. If the aperture of a mirror is small then reflected rays of any beam parallel to the principle axis either must pass through  or appear to diverge from the focus of the the mirror. In the case of a mirror of large aperture these reflected rays fail to meet at a single focus point, such inability of a mirror to focus all the reflected rays of a parallel incident beam at a single point is called geometrical or <em class="emphasis">spherical aberration</em> of the mirror. The light rays that lie close to the principal axis are called <em class="emphasis">paraxial rays</em> and they only able to meet at a single focus after reflection from the mirror. The rays that lie far from the principal axis are called <em class="emphasis">marginal rays</em> and after reflection  they cross the principle axis before focus point. Hence, the reflection of large beam of light from the spherical mirror of large aperture creates a curved shape of light called a <dfn class="terminology">caustic curve</dfn> as shown in <a href="" class="xref" data-knowl="./knowl/caustic.html" title="Figure 5.2.7.(c)">Figure 5.2.7.(c)</a>. The cusp of caustic curves lie at the focus of the mirror. Spherical aberration can be minimized by using a mirror of small aperture which is smaller compared to its radius of curvature. Parabolic mirror will also minimize such spherical aberration.</div></section><section class="subsubsection" id="subsubsec-fr_rel"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">5.2.2.1</span> <span class="title">Relation between f and R</span>
+</h3>
+<div class="para logical" id="p-870">
+<div class="para">
+<article class="hiddenproof" id="proof-4"><a href="" data-knowl="" class="id-ref proof-knowl original has-image" data-refid="hk-proof-4"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-4"><article class="hiddenproof"><div class="para" id="p-871">Consider a concave mirror of small aperture and the incoming parallel ray is close to the principal axis so that angle of incidence i is small. Hence <span class="process-math">\(\vartriangle CAB\)</span> and <span class="process-math">\(\vartriangle FAB\)</span> are approximately right angled triangles with the same opposite side AB.</div> <figure class="figure figure-like" id="fR"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fR.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.8<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para logical" id="p-872">
+<div class="para">From <span class="process-math">\(\vartriangle CAB,\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan i = \frac{AB}{BC}= \frac{AB}{R}
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\([\angle ACF=i, \)</span> an alternate angle.]</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vartriangle FAB, \quad \tan \theta = \frac{AB}{BF} = \frac{AB}{f} 
+\end{equation*}
+</div>
+<div class="para">but from <span class="process-math">\(\vartriangle FAC\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\theta = i+r = 2i,
+\end{equation*}
+</div>
+<div class="para">exterior angle is sum of non-adjacent interior angles and <span class="process-math">\(i=r,\)</span> law of reflection.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad \tan \theta = \tan 2i \Rightarrow \frac{AB}{f}=\frac{2AB}{R} \Rightarrow f=\frac{R}{2}
+\end{equation*}
+</div>
+</div></article></div>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f=\frac{R}{2}
+\end{equation*}
+</div>
+<div class="para">Similarly, we can obtain the relation for convex mirror as <span class="process-math">\(f=-\frac{R}{2}\text{.}\)</span>
+</div>
+</div></section><section class="subsubsection" id="subsubsec-sign_rulemir"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">5.2.2.2</span> <span class="title">Sign Rules:</span>
+</h3>
+<div class="para logical" id="p-873">
+<div class="para">
+<dfn class="terminology"></dfn> Since focus and center of curvature lie behind the convex mirror the following sign conventions will be helpful in analyzing the nature of image formation by the spherical mirrors.</div>
+<ol class="decimal">
+<li id="li-905"><div class="para" id="p-derived-li-905">All distance will be measured from pole of the mirror;</div></li>
+<li id="li-906"><div class="para" id="p-derived-li-906">Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and</div></li>
+<li id="li-907"><div class="para" id="p-derived-li-907">Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.</div></li>
+</ol>
+</div>
+<div class="para" id="p-874">
+<dfn class="terminology">Note:</dfn> The distance between object and pole of the mirror is called <dfn class="terminology">object distance</dfn> and that between image and pole of the mirror is called <dfn class="terminology">image distance</dfn>.</div></section><section class="subsubsection" id="subsubsec-mir_form"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">5.2.2.3</span> <span class="title">Mirror Formula</span>
+</h3>
+<div class="para" id="p-875">An expression which shows the relation between object distance, image distance, and focal length of a mirror is called the mirror formula. To derive the formula following assumptions will be made. The aperture of the mirror is small and the object should be placed on the principal axis.</div>
+<figure class="figure figure-like" id="figure-280"><div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:44.4444444444444%;"><figure class="figure figure-like" id="mirform"><img src="external/mirform.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:44.4444444444444%;"><figure class="figure figure-like" id="mirform2"><img src="external/mirform2.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.9<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-876">
+<div class="para">Let an object AB is placed on the principle axis as shown in <a href="" class="xref" data-knowl="./knowl/mirform.html" title="Figure 5.2.9.(a)">Figure 5.2.9.(a)</a>. Consider a ray of light BM incident on the mirror parallel  to the principle axis and after reflection passes through the focus F and goes along FB’. Another ray from B passes through the focus F, incident on the mirror at N and after reflection meets FB’ at B’. So that A’B’ is the real image of the object AB. Draw perpendicular from points M and N  on the principle axis. Now, from similar <span class="process-math">\(\vartriangle ABF\)</span> and <span class="process-math">\(\vartriangle PNF\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/mirform.html">
+\begin{equation*}
+\frac{AB}{PN}=\frac{AF}{PF}
+\end{equation*}
+</div>
+<div class="para">In similar triangles the ratio of corresponding sides are equal.</div>
+</div>
+<div class="para logical" id="p-877">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html" id="eqn-mirform1">
+\begin{equation}
+\text{or,} \quad \frac{h_{o}}{h_{i}}=\frac{u-f}{f} \tag{5.2.1}
+\end{equation}
+</div>
+<div class="para">here <span class="process-math">\(h_{o},\, h_{i}, \,u,\)</span> and <span class="process-math">\(f\)</span> are size of object, size of image, object distance, and image distance, respectively. Again, from similar <span class="process-math">\(\vartriangle A'B'F\)</span> and <span class="process-math">\(\vartriangle PMF\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html">
+\begin{equation*}
+\frac{MP}{A'B'}=\frac{PF}{A'F}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html" id="eqn-mirform2">
+\begin{equation}
+\text{or,} \quad \frac{h_{o}}{h_{i}}=\frac{f}{v-f}\tag{5.2.2}
+\end{equation}
+</div>
+<div class="para">From eqns. <a href="" class="xref" data-knowl="./knowl/eqn-mirform1.html" title="Equation 5.2.1">(5.2.1)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-mirform2.html" title="Equation 5.2.2">(5.2.2)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html">
+\begin{equation*}
+\frac{u-f}{f} = \frac{f}{v-f} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html">
+\begin{equation*}
+\textbf{or,}\quad f^{2}=uv-uf -vf+f^{2} \Rightarrow uv=uf + vf
+\end{equation*}
+</div>
+<div class="para">Divide both sides by <span class="process-math">\(uvf\text{,}\)</span> we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html" id="eqn-mirform3">
+\begin{equation}
+\therefore \quad \frac{1}{f} = \frac{1}{u} +\frac{1}{v}\tag{5.2.3}
+\end{equation}
+</div>
+<div class="para">We can obtain the similar formula for convex mirror with the help of <a href="" class="xref" data-knowl="./knowl/mirform2.html" title="Figure 5.2.9.(b)">Figure 5.2.9.(b)</a>. From similar <span class="process-math">\(\vartriangle^{s} ABC\)</span> and <span class="process-math">\(\vartriangle^{s} A'B'C\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html">
+\begin{equation*}
+\frac{AB}{AC}=\frac{A'B'}{A'C} \Rightarrow \frac{h_{o}}{u+R}=\frac{h_{i}}{R-v}
+\end{equation*}
+</div>
+<div class="para">From similar <span class="process-math">\(\vartriangle^{s} PMF\)</span> and <span class="process-math">\(\vartriangle^{s} A'B'F \)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html">
+\begin{equation*}
+\frac{PM}{PF}=\frac{A'B'}{A'F} \Rightarrow \frac{h_{o}}{f}=\frac{h_{i}}{f-v};
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html">
+\begin{equation*}
+\text{Hence}\quad \frac{h_{o}}{h_{i}}=\frac{u+R}{R-v} =\frac{f}{f-v}
+\end{equation*}
+</div>
+<div class="para">Substituting</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html">
+\begin{equation*}
+R=-2f
+\end{equation*}
+</div>
+<div class="para">and solving the above expression, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-mirform1.html ./knowl/eqn-mirform2.html ./knowl/mirform2.html" id="eqn-mirform4">
+\begin{equation}
+\frac{1}{f} = \frac{1}{u} +\frac{1}{v}\tag{5.2.4}
+\end{equation}
+</div>
+</div></section><section class="subsubsection" id="subsubsec-lateral_magmir"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">5.2.2.4</span> <span class="title">Lateral Magnification, m</span>
+</h3>
+<div class="para logical" id="p-878">
+<div class="para">The ratio of the size of image to the size of object is known as a magnification,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+m=\frac{h_{i}}{h_{o}} = -\frac{v}{u}.
+\end{equation*}
+</div>
+<div class="para">Negative sign indicates inverted image.</div>
+</div></section><section class="subsubsection" id="subsubsec-concave_image"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">5.2.2.5</span> <span class="title">Formation of Image by a Concave Mirror</span>
+</h3>
+<div class="para" id="p-879"></div>
+<figure class="figure figure-like" id="figure-283"><div class="sidebyside"><div class="sbsrow" style="margin-left:0.333333333333333%;margin-right:0.333333333333333%;">
+<div class="sbspanel top" style="width:16.1073825503356%;"><figure class="figure figure-like" id="caveinf"><img src="external/caveinf.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:16.1073825503356%;"><figure class="figure figure-like" id="cavebeyC"><img src="external/cavebeyC.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:16.1073825503356%;"><figure class="figure figure-like" id="caveC"><img src="external/caveC.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:16.1073825503356%;"><figure class="figure figure-like" id="caveFC"><img src="external/caveFC.png" class="contained"><figcaption><span class="codenumber">(d)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:16.1073825503356%;"><figure class="figure figure-like" id="caveF"><img src="external/caveF.png" class="contained"><figcaption><span class="codenumber">(e)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:16.1073825503356%;"><figure class="figure figure-like" id="caveFP"><img src="external/caveFP.png" class="contained"><figcaption><span class="codenumber">(f)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.10<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-880"><ol class="decimal">
+<li id="li-908"><div class="para" id="p-derived-li-908">
+<em class="emphasis">When object lies at infinity:</em> Consider a parallel beam of light coming from an object O at infinity incident on the mirror and after reflection converges on a focal plane to form an image I as shown in <a href="" class="xref" data-knowl="./knowl/caveinf.html" title="Figure 5.2.10.(a)">Figure 5.2.10.(a)</a>. The image is formed at focus and will be real, inverted, and point in size. Using mirror formula, if <span class="process-math">\(u=\infty\)</span> then <span class="process-math">\(v=f\text{,}\)</span> hence real, point in size, (as <span class="process-math">\(m=-f/\infty=0\)</span>) and inverted.</div></li>
+<li id="li-909"><div class="para" id="p-derived-li-909">
+<em class="emphasis">When object lies beyond center of curvature:</em> Consider a ray of light BM is incident on the mirror parallel to the principle axis then after reflection it passes through F along MB’. Another ray BN incident on the mirror through F and meet to MB’ at B’ to  form an image AB’ as shown in <a href="" class="xref" data-knowl="./knowl/cavebeyC.html" title="Figure 5.2.10.(b)">Figure 5.2.10.(b)</a>. From geometry of the figure the image is formed between focus and center of curvature, inverted, real, and smaller in size.</div></li>
+<li id="li-910"><div class="para" id="p-derived-li-910">
+<em class="emphasis">When object lies at center of curvature:</em> From geometry of the <a href="" class="xref" data-knowl="./knowl/caveC.html" title="Figure 5.2.10.(c)">Figure 5.2.10.(c)</a>, the image is formed at C, inverted, real, and equal in size. Mirror formula <span class="process-math">\(v= \frac{fu}{u-f} = 2f\text{.}\)</span> If <span class="process-math">\(u=2f\text{,}\)</span> and <span class="process-math">\(m=-\frac{2f}{2f}=-1\text{.}\)</span>
+</div></li>
+<li id="li-911"><div class="para" id="p-derived-li-911">
+<em class="emphasis">When object lies between F and C:</em> From geometry of the <a href="" class="xref" data-knowl="./knowl/caveFC.html" title="Figure 5.2.10.(d)">Figure 5.2.10.(d)</a>, the image is formed beyond C, inverted, real, and magnified.</div></li>
+<li id="li-912"><div class="para" id="p-derived-li-912">
+<em class="emphasis">When object lies at F:</em> From geometry of the <a href="" class="xref" data-knowl="./knowl/caveF.html" title="Figure 5.2.10.(e)">Figure 5.2.10.(e)</a>, the image is formed at infinity, inverted, real, and highly magnified.</div></li>
+<li id="li-913"><div class="para" id="p-derived-li-913">
+<em class="emphasis">When object lies between F and P:</em> From geometry of the <a href="" class="xref" data-knowl="./knowl/caveFP.html" title="Figure 5.2.10.(f)">Figure 5.2.10.(f)</a>, the image is formed behind the mirror, erect, virtual, and magnified.</div></li>
+</ol></div></section><section class="subsubsection" id="subsubsec-convex_image"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">5.2.2.6</span> <span class="title">Formation of Image by a Convex Mirror</span>
+</h3>
+<figure class="figure figure-like" id="figure-290"><div class="sidebyside"><div class="sbsrow" style="margin-left:12.5%;margin-right:12.5%;">
+<div class="sbspanel top" style="width:33.3333333333333%;"><figure class="figure figure-like" id="vexinf"><img src="external/vexinf.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><figure class="figure figure-like" id="vexP"><img src="external/vexP.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.11<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para logical" id="p-881"><ol class="decimal">
+<li id="li-914"><div class="para" id="p-derived-li-914">
+<em class="emphasis">When object lies at infinity:</em> From geometry of the <a href="" class="xref" data-knowl="./knowl/vexinf.html" title="Figure 5.2.11.(a)">Figure 5.2.11.(a)</a>, the image is formed behind the mirror at F, erect, virtual, and highly diminished.</div></li>
+<li id="li-915"><div class="para" id="p-derived-li-915">
+<em class="emphasis">When object lies on the Principle axis:</em> From geometry of the <a href="" class="xref" data-knowl="./knowl/vexP.html" title="Figure 5.2.11.(b)">Figure 5.2.11.(b)</a>, the image is formed behind the mirror between F and P, erect, virtual, and diminished.</div></li>
+</ol></div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="subsec-refl.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_fifth-examplesA.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

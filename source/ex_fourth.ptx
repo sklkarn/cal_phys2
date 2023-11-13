@@ -183,5 +183,396 @@
            </ol>
          </p>
   </exercise>
+
+  <exercise>
+    <p>
+      A mass of m is suspended from one end of a string as shown below. 
+      The total length of the string is 1.8 m and its mass is 5 g. 
+      The length of the string between support and pulley is D = 1.5 m. 
+      The string is vibrating as shown with a frequency of 10 Hz. Find 
+          </p>
+          <image source="fig64.png" width="45%"> </image>
+          <p>
+            <ol>
+        <li>
+          the speed of a transverse wave in the string, 
+        </li>
+        <li>
+          the wavelength of the wave, 
+        </li>
+        <li>
+          the mass m being suspended.
+        </li>
+      </ol>
+          </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol>
+        <li>
+          What is the speed of sound in water if its compressibility is <m>45.8\times10^{-11} \,Pa?</m> 
+        </li>
+        <li>
+          What is the amplitude of the wave whose frequency is 1000 Hz and whose intensity is <m>10 \,W/m^{2}?</m>
+        </li>
+            </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol>
+        <li>
+          What is the speed of sound in a steel rod of length 1 m, diameter 1 cm, 
+          density <m>7.8 \,g/cm^{3},</m> and Young's modulus <m>20\times10^{10} \,Pa?</m> 
+        </li>
+        <li>
+          What is the intensity of the sound wave in such a rod if the frequency of the wave is 100 Hz and the amplitude is 0.1 mm? 
+        </li>
+            </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol>
+        <li>
+          What is the speed of sound in air if the temperature is <m>100\,^{o}F?</m> 
+          Assume that air is an ideal gas with a molecular mass of 28.8 g/mole (slightly more than that of nitrogen) 
+          and that air is diatomic with <m>\gamma = 1.4.</m>
+        </li>
+        <li>
+          What is the density of the air if the pressure is <m>1 \,atm = 1.013\times10^{5}\, Pa?</m> 
+        </li>
+        <li>
+          How far do the air molecules move (from side to side) when a wave passes by if its frequency is 400 Hz 
+          and its intensity is <m>1 \,mW/m^{2}?</m>
+        </li>
+            </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A wave disturbance is described by the function 
+      <me>
+        \vec{J} = \frac{(- 5.4 T \,m^{2}s^{2} \hat{k})}{[(40 s x + 30 s y + 5 m t)^{2} + 500 \,m^{2}s^{2}]} 
+      </me>
+      </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          What is the disturbance at (- 25 cm, 50 cm, 10 cm) at 3.0 s?
+        </li>
+        <li>
+          Is the wave longitudinal, transverse, or neither?
+        </li>
+            </ol>
+    </p>
+  </exercise>
+
+  <paragraphs>
+    <title>Organ Pipe</title>
+    <exercise>
+      <p>
+        A string instrument has a string of length 80 cm and a linear mass density of 5 g/m which vibrates 
+        with a fundamental frequency of <m>400 \,H_{z}.</m> Find 
+        <ol marker="a.">
+          <li>
+            the tension in the string, 
+          </li>
+          <li>
+            the frequency and wavelength of its second harmonic, and
+          </li>
+          <li>
+            the frequency and wavelength of its third overtone.
+          </li>
+              </ol>
+             </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        An open-ended organ pipe has a length of 2 m. If the speed of sound in air is 345 m/s, find 
+        <ol marker="a.">
+          <li>
+            the pipe's fundamental frequency and wavelength,
+          </li>
+          <li>
+            the frequency and wavelength of its third harmonic, and 
+          </li>
+          <li>
+            the frequency and wavelength of its second overtone.
+          </li>
+              </ol>
+            </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        An organ pipe with one end closed has a length of 50 cm. If the speed of sound in air 
+        is 345 m/s, find 
+        <ol marker="a.">
+          <li>
+            the pipe's fundamental frequency and wavelength, 
+          </li>
+          <li>
+            the frequency and wavelength of its third harmonic, and 
+          </li>
+          <li>
+            the frequency and wavelength of its second overtone.
+          </li>
+              </ol>
+            </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Sound of frequency 300 Hz is incident normally upon a wall and reflected back 
+        producing a standing wave. 
+        <ol marker="a.">
+          <li>
+            What is the minimum distance from the wall that you could stand and hear no sound? 
+          </li>
+          <li>
+            Where does the second node occur? Assume the speed of sound is 345 m/s.
+          </li>
+            </ol>
+            </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Two synchronized speakers of frequency 200 Hz are located at points (4 m , 1 m) and (4 m, -1 m), 
+        respectively. Where along the y-axis do 
+        <ol marker="a.">
+          <li>
+            constructive interference and
+          </li>
+          <li>
+            destructive interference occur? 
+          </li>
+          <li>
+            What is the phase angle between the two waves at the point (0, 1 m)?
+          </li>
+            </ol>
+            </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        You have strung a uniform steel wire fixed between two posts, 100 m apart, 
+        and find that the fundamental mode has a frequency of 300 Hz. 
+        <ol marker="a.">
+          <li>
+            What is the second overtone frequency of this wire?
+          </li>
+          <li>
+            What is its fourth harmonic?
+          </li>
+           </ol>
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        A water wave demonstration tank is 30 m long. At one end, at the origin, 
+        Mary is generating waves described by the function 
+        <me>
+          y_{1} = 2.0\,cm \cos [ \pi/(18 \,m) ( 4 x - (1 \,m/s) t ) ].
+        </me>
+        At the other end Paul is generating waves described by 
+        <me>
+          y_{2} = 4.0\,cm \sin [ \pi/(6 \,s) ( ( 2 \,s/m ) x + 0.5 t ) ]. 
+        </me> 
+        At <m>x = 20\, m,</m> Rita is recording the water level. 
+        <ol marker="a.">
+          <li>
+            What level does she record at t = 8 s?
+          </li>
+          <li>
+            What frequency describes the data she records?
+          </li>
+           </ol>
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        An organ pipe is effectively open at one end, closed at the other, 
+        and has a fundamental frequency of 110 Hz.
+        <ol marker="a.">
+          <li>
+            How long is the pipe?
+          </li>
+          <li>
+            What should be the fifth resonance frequency for this pipe?
+          </li>
+           </ol>
+      </p>
+    </exercise>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Sound</title>
+    <exercise>
+      <p>
+        A sound wave in air has a displacement amplitude of 0.01 mm and a frequency of 
+        <m>300\, H_{z}.</m> If the speed of sound is 344 m/s and the Bulk modulus of air 
+        is <m>1.42\times10^{5} \,Pa,</m> find 
+        <ol marker="a.">
+          <li>
+            the wavelength of the wave, 
+          </li>
+          <li>
+            the pressure amplitude. 
+          </li>
+          <li>
+            If y(0,0) = 0, what is the displacement of the air molecules from their equilibrium 
+            position at x = 1.5 m when t = 1 ms?
+          </li>
+          <li>
+            If y(0,0) = 0, what is the pressure of the wave at x = 1.5 m when t = 1 ms? 
+          </li>
+           </ol>
+             </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        A sound wave in air has a displacement amplitude of 0.01 mm. If the speed of sound is 
+        344 m/s and the density of air is <m>1.20 \,kg/m^{3},</m> find 
+        <ol marker="a.">
+          <li>
+            the pressure amplitude of a <m>400\, H_{z}</m> wave,
+          </li>
+          <li>
+            the intensity of the <m>400 \,H_{z}</m> wave, 
+          </li>
+          <li>
+            the intensity level of the <m>400 H_{z}</m> wave. 
+          </li>
+          <li>
+            the pressure amplitude of a <m>1000\, H_{z}</m> wave,
+          </li>
+          <li>
+            the intensity of the <m>1000 \,H_{z}</m> wave, 
+          </li>
+          <li>
+            the intensity level of the <m>1000 H_{z}</m> wave. 
+          </li>
+           </ol>
+             </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        The sound from an explosion is heard at a distance of 50 m with an intensity of <m>0.1\, W/m^{2}.</m>
+        <ol marker="a.">
+          <li>
+            What would be its intensity at a distance of 1000 m?
+          </li>
+          <li>
+            What intensity level is the sound at 1000 m? 
+          </li>
+          <li>
+            What is the total acoustical power output of the explosion?
+          </li>
+          <li>
+            If the sound pulse lasts 0.2 s, how much acoustical energy was generated by the explosion? 
+          </li>
+           </ol>
+             </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        <ol marker="a.">
+          <li>
+            What is the intensity level of a sound wave whose intensity is <m>5.00\times10^{-6} \,W/m^{2}?</m> 
+          </li>
+          <li>
+            What is the intensity level of a sound wave in air at <m>30\,^{o}C</m> whose pressure amplitude is 0.01 Pa? 
+          </li>
+            </ol>
+            </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Most people interpret a <m>9.0 \,dB</m> increase in sound intensity level as a doubling in loudness. 
+        By what factor must the sound intensity be increased to double the loudness?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        A police car emits a sound of <m>300 H_{z}</m> while moving to the right with a speed of 30 m/s 
+        when the speed of sound in air is 345 m/s. What is the frequency heard by an observer 
+        <ol marker="a.">
+          <li>
+            at rest in front of the car,
+          </li>
+          <li>
+            at rest behind the car, 
+          </li>
+          <li>
+            moving to the left at 20 m/s in front of the car,
+          </li>
+          <li>
+            moving to the right at 20 m/s behind the car?
+          </li>
+            </ol>
+            </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Two cars have identical horns which emit <m>200 H_{z}</m> frequencies. The first car is at 
+        rest and the second is moving away from the first at 30 m/s. An observer is between the 
+        two cars moving away from the first at a speed of 10 m/s. There is a 5 m/s wind blowing 
+        toward the first car from the direction of the other two cars. The speed of sound is 340 m/s. 
+        <ol marker="a.">
+          <li>
+            What is the frequency of the first car as heard by the observer?
+          </li>
+          <li>
+            What is the frequency of the second car as heard by the observer?
+          </li>
+          <li>
+            What is the beat frequency heard by the observer?
+          </li>
+             </ol>
+             </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        A galaxy is observed to have a red shift in its spectrum which doubles the wavelength 
+        of each spectral line. 
+        <ol marker="a.">
+          <li>
+            Is the galaxy moving toward us or away from us?
+          </li>
+          <li>
+            How fast is the galaxy moving?
+          </li>
+          <li>
+            What is the distance to the galaxy in light years assuming the universe is 12 billion years old? 
+          </li>
+             </ol>
+            </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Two horns using the same design are supposed to be playing (simultaneously) a 
+        sustained resonant note of 300.0 Hz, but they are not quite identical so the 
+        longer instrument is a bit off. If the beat sound annoys listeners with a 5-second cycle, 
+        what is the frequency from the off-tune instrument?
+      </p>
+    </exercise>
+  </paragraphs>
  </exercises>
 

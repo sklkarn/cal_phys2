@@ -1,8 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_fifth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Algebra of Vectors</title>
+  <title>Light</title>
   
+
+  <introduction>
+    <p>
+      Light is a form of energy. It excites the sensation of vision when strikes 
+      the eye retina. To see things around we need not only eye but also the presence 
+      of light is very important. A blind person can not see anything even if the room is 
+      full of light just as a normal person can not see anything if room is completely dark. 
+      Light coming from an object when falls on the surface of eye retina we can see that object. 
+      Even though light helps us see things around light itself is invisible. However, we divide 
+      light into two categories such as visible light and invisible light. It is not because 
+      we can or can not see the light rather it is based on the sensation of vision. 
+      Light which can help sensation of vision is called visible light and that which which 
+      can not stimulate the sensation of vision is known as invisble light. Light is an electromagnetic 
+      radiation which consists of the ranges of waves from gamma rays to radio waves (<xref ref="emspectrum"/>). 
+      The so called visible light is a very small portion of an electromagnetic radiation.  
+    </p>
+    <figure xml:id="emspectrum">
+      <caption></caption>
+      <image source="emspectrum.png" width="55%"/>
+  </figure>
+
+  </introduction>
+
+  <subsection xml:id="subsec-speed_light">
+    <title>Speed of Light</title>
+    <p>
+      Before <m>17^{th}</m> century, velocity of light was thought to be infinite because of 
+      the fact that the flash of lightening is seen instantly and the sound is heard after 
+      some time. According to Newton a luminous object continuously emits streams of particles, 
+      called <term>corpuscles</term>. Corpuscles are tiny, light, and elastic in nature which travel 
+      in a straight line  with very high velocities and can pass through interstices of the 
+      particles of matter and posses the property of reflection and transmission. The first 
+      unsuccessful attempt to find the velocity of light was made by Galileo in 1600. In 1679, 
+      Christian Huygens proposed the wave nature of light. In 1873 James Clerk Maxwell predicted 
+      the electromagnetic waves  and calculated speed of light in vacuum by using formula 
+      <me>
+        c=\frac{1}{\sqrt{\epsilon_{o}\mu_{o}}} = \frac{1}{\sqrt{(8.85\times10^{-12}C^{2}/Nm^{2})(4\pi\times10^{-7}N/A^{2})}} \approx 3.00\times10^{8}\,m/s
+      </me>
+    where <m>\epsilon_{o}</m> is electric permitivitty and <m>\mu_{o}</m> is magnetic permeability of vacuum.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-huygens">
+    <title>Huygens's Principle</title>
+    <p>
+      According to Huygens, a source of light sends out waves in all directions, through a 
+      hypothetical medium called <em>ether</em>.
+    </p>
+    <figure xml:id="Wfront">
+      <caption></caption>
+      <image source="Wfront.png" width="55%"/>
+  </figure>
+  <p>
+    Consider a source, S as shown in <xref ref="Wfront"/>(a) which is sending out light in the 
+    form of waves in all directions. If v be the velocity of  propagation of the wave then at 
+    time, t, all the particles of the medium on the surface, xy will be vibrating in phase. Hence, 
+    xy is a portion of the sphere of radius, vt with center, S. The surface, xy is called a wavefront. 
+    A <term>wavefront</term> is a locus of all the points of the medium which are vibrating in 
+    phase in every interval of time. If the distance is small then wavefront takes shape of a 
+    source such as point source emits spherical wavefronts and line source emits cylindrical 
+    wavefronts but if the source is at a large distance, then any small portion of the 
+    wavefront can be considered as plane wavefront as shown in <xref ref="Wfront"/>(b). 
+    The radius of wavefront is considered as ray of light. Thus rays of light diverging 
+    from or converging to a point give rise to a spherical wavefront and a parallel beam 
+    of light gives rise to a plane wavefront. According to Huygens, every point on the  
+    primary wavefront (1, 2, 3, etc.,) behaves as the secondary source of light. 
+    These secondary waves are called wavelets that travel in space with the same velocity 
+    as the original wave and the envelope of the all the secondary wavelets after given 
+    interval of time gives rise to a secondary wavefront. As the secondary wavelets are 
+    spherical  this would lead to backward propagation of the wave. In time, t' the 
+    secondary waves travel a distance, vt' with points (1, 2, 3, etc.) being their centers. 
+    Hence the envelope <m>x_{1}y_{1}</m> is a secondary wavefront and  <m>x_{2}y_{2}</m> is 
+    a backward wavefront. Now according to Huygens principle only  forward wavefronts 
+    are plausible not the backward wavefront. The rear envelope of these wavelets is shown 
+    by <m>x_{2}y_{2}</m> which cannot represent the next wavefront after the time, t. 
+    This can be explained using Stoke's law. According to this law, the amplitude at each point 
+    of the secondary wave is proportional to <m>(1+\cos\theta)</m> where <m>\theta </m> 
+    is the angle between the wave normal (<m>Sx </m> or, <m> Sy</m>) and the direction of 
+    propagation which is the line, joining the point of the secondary wave to its centre. 
+    For the backward wavefront, <m>\theta=\pi</m>. 
+    <me>
+      \therefore \quad (1+\cos\theta) =(1+\cos\pi) =0.
+    </me>
+     Hence no effect of secondary wavelets is observed in the backward direction because amplitude is zero.
+  </p>
+  <p>
+    The nature of light described by Newton's corpuscular theory and Huygens wave theory both have some 
+    drawbacks. Corpuscular theory explained somehow the phenomenon of reflection and transmission 
+    but unable to explain many observed phenomena such as interference, diffraction, and double refraction. 
+    Similarly Huygens idea explained about reflection, double refraction, transmission, interference, 
+    and diffraction but unable to explain some other phenomena such as polarization and photoelectric effect. 
+    After Fresnel suggestion that the light wave is rather transverse in nature than a longitudinal, 
+    polarization can be explained satisfactorily. It also predicted that the velocity of light is 
+    slower in optically denser medium which was not the case in Newton's corpuscular theory. 
+    When Michelson-Morley experiment failed to detect the presence of ether medium in 1887 the concept of ether was abandoned. 
+  </p>
+  <p>
+    The photoelectric effect introduced evidence that light exhibited particle properties on the quantum scale. 
+    The particle properties of electrons was well documented when  DeBroglie hypothesis and Davidson 
+    and Germer experiment established the wave nature of electron. Hence quantum view of light rely 
+    on dual nature of light. However, for ordinary optics the wave view of light is the practical approach. 
+  </p>
+  </subsection>
 
   </section>
 

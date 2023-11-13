@@ -3,6 +3,535 @@
 <section xml:id="sec_fourth-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Examples B</title>
   
-
+<example>
+  <statement>
+    <p>
+      A mass of 2 kg is suspended by a string of length 2 m and mass 100 g. Find 
+      <ol marker="a.">
+        <li>
+          the speed of a transverse wave in the string, 
+        </li>
+        <li>
+          the fundamental frequency of the string (assuming the wavelength is twice the length of the string),
+        </li>
+        <li>
+          the power transferred up and down the string while vibrating in its fundamental frequency with an amplitude of 2 cm.
+        </li>
+      </ol>
+         </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>M =2\,kg, \quad L =2\,m, \quad m=0.1\,kg,  \quad\lambda = 4\,m,</m>
+              <m>A = 0.02\,m,\quad g=9.8 \,m/s^{2}</m>
+     </p>
+  <p>
+    <ol marker="a.">
+      <li>
+        <me>
+          v=\sqrt{\frac{F}{\mu}},
+        </me>
+        <me>
+          \quad F = Mg;
+        </me>
+        <me>
+          \mu = \frac{m}{L}
+        </me>
+        <me>
+          \mu = 0.05 \,kg/m;\quad F = 19.6 \,N;\quad v = 9.8 \,m/s
+        </me>
+              </li>
+      <li>
+       <me>
+        f= \frac{v}{\lambda}=\frac{v}{2L}= 4.9 \,Hz
+       </me>
+       <me>
+        \omega =  2\pi f = 31.1 \,rad/s 
+       </me>
+             </li>
+      <li>
+       <m>P_{avg} = \frac{1}{2}\sqrt{\mu F}\omega^{2}A^{2} \Rightarrow  P_{avg} = 0.192 \,W</m>
+      </li>
+    </ol>
+  </p>
+  </solution>
+</example>
   
+<example>
+  <statement>
+    <p>
+      At what temperature in Celsius is the speed of sound in air equal to <m>345 \,m/s</m>. 
+      Assume that air is an ideal gas with a molecular mass of <m>28.8 \,g/mole</m> 
+      (slightly more than that of nitrogen) and that air is diatomic with <m>\gamma = 1.4.</m>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v=345 \,m/s,\quad M = 28.8\times10^{-3}\,kg/mol,</m> 
+      <m>\gamma = 1.4,\quad R=8.314 \,J/mol/K</m>     
+    </p>
+    <p>
+      <me>
+        v=\sqrt{\frac{\gamma R T }{M}};
+      </me>
+      <me>
+        T_{c} = T_{K} -273.15
+      </me>
+      <me>
+        \Rightarrow T = 294.5\,K;\quad \therefore \quad T_{c} =21.3 \,^{o}C 
+      </me>
+      </p>
+  </solution>
+</example>
+
+<paragraphs>
+  <title>Organ Pipe</title>
+  
+  <example>
+    <statement>
+      <p>
+        A string of mass 100 g and length 2 m is under a tension of 200 N. Find its 
+        <ol marker="a.">
+          <li>
+            wave velocity,
+          </li>
+          <li>
+            fundamental frequency,
+          </li>
+          <li>
+            <m>3^{rd} </m> harmonic frequency, and 
+          </li>
+          <li>
+            <m>5^{th}</m> overtone wavelength.
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m> m=0.1\,kg,\quad L=2\,m, \quad F = 200\,N, \quad x = 0.02\,m</m> 
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+           <me>
+            v=\sqrt{\frac{F}{\mu}};\quad \mu = \frac{m}{L}=0.05 \,kg/m\quad \Rightarrow v= 63.25 \,m/s 
+           </me>
+           
+          </li>
+          <li>
+           <me>
+            v = f_{o}\lambda_{o} \Rightarrow f_{o}= \frac{v}{\lambda_{o}} = \frac{v}{2L}= 15.8 \,Hz
+           </me>
+           
+          </li>
+          <li>
+           <me>
+            f_{3} =3f_{o} \Rightarrow f_{3}= 47.4 \,Hz
+           </me>
+           
+          </li>
+          <li>
+           <me>
+            f_{6} =6f_{o} =\frac{v}{\lambda_{6}} \Rightarrow\lambda_{6}= \frac{v}{f_{6}} = 0.667 \,m 
+           </me>
+           or, 
+           <m> NANANANANANAN \Rightarrow  L = 12 (L_{NA}) =12\left(\frac{1}{4}\lambda_{6}\right) </m>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Two omnidirectional speakers are located at points (0, 1 m) and (0, -2 m), respectively. 
+        What is the minimum frequency of a sound wave that would produce constructive interference at the point (5 m, 0)? 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>y_{1} =1\,m,\quad y_{2} =2\,m,\quad x=5\,m, \quad v=345 \,m/s</m>
+      </p>
+      <image source="fig65.png" width="35%"> </image>
+      <p>
+        <me>
+          r_{1}=\sqrt{x^{2}+y_{1}^{2}}=5.099\, m;
+        </me>
+        <me>
+          r_{2}=\sqrt{x^{2}+y_{2}^{2}} =5.385 \,m
+        </me>
+        <me>
+          r_{2}-r_{1} = \lambda_{o} =0.286 \,m \quad\text{for minimum frequency} 
+        </me>
+        <me>
+          v = f \lambda_{o} \quad \therefore \quad f=1206 \,Hz
+        </me>
+        </p>
+        </solution>
+  </example>
+</paragraphs>
+
+<paragraphs>
+  <title>Sound</title>
+  
+  <example>
+    <statement>
+      <p>
+        The pressure amplitude of a <m>500\, H_{z}</m> sound wave is <m>2\times10^{-2} \,Pa.</m> 
+        If the Bulk modulus of air is <m>1.42\times10^{5} \,Pa</m> and the density of air is 
+        <m>1.20 \,kg/m^{3},</m> find 
+        <ol marker="a.">
+          <li>
+            the speed of sound in the air,
+          </li>
+          <li>
+            the displacement amplitude of the wave,
+          </li>
+          <li>
+            the intensity of the wave,
+          </li>
+          <li>
+            the intensity level of the sound. 
+          </li>
+        </ol>
+           </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>f=500 \,H_{z}; \quad p_{max}=2\times10^{-2} \,Pa;</m>
+<m>B = 1.42\times10^{5}\, Pa; \quad \rho = 1.20 \,kg/m^{2};</m>  <m>I_{o} =10^{-12} \,W/m^{2}</m>
+      </p>
+      <p>
+        Equations:
+        <me>
+          v=\sqrt{\frac{B}{\rho}};\
+        </me>
+        <me>
+          \omega = 2\pi f; 
+        </me>
+        <me>
+          v = \frac{\omega}{k}; 
+        </me>
+        <me>
+          p_{max} = BkA;
+        </me>
+        <me>
+          I = \frac{p_{max}}{2\rho v}; 
+        </me>
+        <me>
+          \beta = 10 log\frac{I}{I_{o}}
+        </me>
+             </p>
+         <p>
+              <ol marker="a.">
+                <li>
+                   <me>
+                    \omega =3142\, rad/s
+                  </me>
+                  <me>
+                    k=9.13 \,/m 
+                  </me>
+                  <m>\therefore \, v= 344 \,m/s</m> 
+                   </li>
+                <li>
+                  <m>A = 1.54\times10^{-8} \,m </m>
+                </li>
+                <li>
+                 <m>I = 4.85\times10^{-7} \,W/m^{2}</m>
+                </li>
+                <li>
+                 <m> \beta = 57\, dB</m>
+                </li>
+              </ol>
+             </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A 100 W speaker has a diameter of 30 cm (about 1 ft). 
+        <ol marker="a.">
+          <li>
+            What is the maximum intensity level it can produce. 
+          </li>
+          <li>
+            If the speaker were placed in the middle of a vast desert, how far away could it be heard? 
+          </li>
+           </ol>
+            </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>P = 100 \,W; \quad D = 0.3 \,m;\quad I_{o} = 10^{-12} \,W/m^{2} </m> 
+           </p>
+           <p>
+            Equations: 
+            <me>
+              A =\pi r^{2}=\pi \frac{D^{2}}{4}\quad \text{(speaker area.)};
+            </me>
+            <me>
+              I =\frac{P}{A};
+            </me>
+            <me>
+              \beta = 10 \log\frac{I}{I_{o}};
+            </me>
+            <me>
+              I_{o} = \frac{P}{A_{2}};
+            </me>
+            <me>
+              A_{2}=4\pi r^{2}\quad  \text{(spherical surface occupied by sound.)}
+            </me>
+                </p>
+                <p>
+                  <ol marker="a.">
+                    <li>
+                     <me>
+                      A=0.0707 \,m^{2}; 
+                     </me>
+                     <me>
+                      I=1415 \,W/m^{2}; 
+                     </me>
+                       <me>
+                      \therefore \beta= 152 \,dB 
+                     </me>
+                        </li>
+                    <li>
+                     <me>
+                      A_{2} =1.00\times10^{14}\, m^{2}; 
+                     </me>
+                     <me>
+                      \therefore r= 2.82\times10^{3} \,km 
+                     </me>
+                     </li>
+                     </ol>
+                      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A sound meter 2.0 m from a radio registers 75 dB coming from it. What would an identical meter 400 m away read from the radio? 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <me>
+          \beta=10\log\frac{I}{I_{o}}
+        </me>
+        <me>
+          \therefore\quad \beta_{2}-\beta_{1} = 10\left[\log\frac{I_{2}}{I_{o}}-\log\frac{I_{1}}{I_{o}}\right] = 10\log\frac{I_{2}}{I_{1}} 
+        </me>
+        <me>
+          \text{or,}\quad \beta_{2}=\beta_{1} + 10 \log\left(\frac{r_{1}^{2}}{r_{2}^{2}}\right)  = \beta_{1}+ 20\log\frac{r_{1}}{r_{2}} = 28.97 \,dB
+        </me>
+         </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A car traveling 20 m/s blows its horn of frequency m  300 H_{z} as it passes a second car at rest. 
+        If the speed of sound in air is 345 m/s, find 
+        <ol marker="a.">
+          <li>
+            the frequency hear by the second car before the first passes it,
+          </li>
+          <li>
+            the frequency heard afterwards,
+          </li>
+          <li>
+            the wavelength of the sound ahead of the first car, 
+          </li>
+          <li>
+            the wavelength behind the first car.
+          </li>
+          <li>
+            If the second car blows its horn after the first passes, what is the beat frequency heard by the second car? 
+          </li>
+          <li>
+            By the first car? 
+          </li>
+           </ol>
+             </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>v_{s} = 20\, m/s, \quad f_{s} =300 \,Hz, \quad v_{L} =0 </m>
+          </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              f_{L} = \frac{v+v_{L}}{v+v_{s}}f_{s} = \left(\frac{345+0}{345+(-20)}\right)300 = 318.5 \,H_{z}
+            </me>
+                      </li>
+          <li>
+            <me>
+              f_{L} = \frac{v+v_{L}}{v+v_{s}}f_{s} = \left( \frac{345+0}{345+(20)}\right)300  = 284.4 \,H_{z}
+            </me>
+                      </li>
+          <li>
+           <me>
+            v = f\lambda \Rightarrow \lambda = \frac{v}{f}  =\frac{345}{318.5}  = 1.083\, m 
+           </me>
+                     </li>
+          <li>
+            <me>
+              v = f\lambda \Rightarrow \lambda = \frac{v}{f}  =\frac{345}{284.4} = 1.213 \,m 
+            </me>
+                      </li>
+          <li>
+           <me>
+            f_{beat} = \Delta f = f_{a} -f_{b}  = 300-284.4 = 15.6 \,H_{z} 
+           </me>
+                     </li>
+          <li>
+           <me>
+            f_{L} = \frac{v+v_{L}}{v+v_{s}}f_{s} = \left(\frac{345+(-20)}{345+0}\right)300 = 282.6 \,H_{z}
+           </me>
+           <me>
+            f_{beat} = \Delta f = f_{a} -f_{b} = 300-282.6 = 17.4 \,H_{z}
+           </me>
+             </li>
+           </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A student is skating at a speed of 3 m/s toward the wall of a large building. 
+        When he is 100 m from the building he blows a <m>500 H_{z}</m> whistle and listens for the echo. 
+        <ol marker="a.">
+          <li>
+            How far does he travel before hearing the echo?
+          </li>
+          <li>
+            What is the echo frequency he hears? 
+          </li>
+          <li>
+            What is the beat frequency between the echo and his whistle? Assume the speed of sound in air is 345 m/s.
+          </li>
+            </ol>
+           </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker="a.">
+          <li>
+           <me>
+            2D = vt+v_{2}t \quad\Rightarrow \quad 2 (100 ) = 345 t + 3 t \quad \Rightarrow\quad t = 0.5747 \,s 
+           </me>
+           <me>
+            x =v_{2}t  =(3) (0.5747) = 1.72 \,m
+           </me>
+               </li>
+          <li>
+           <me>
+            f_{wall} =\frac{v+v_{wall}}{v+v_{s}}f_{s} = \frac{345+0}{345+(-3)}500 = 504.4 \,H_{z}
+           </me>
+           <me>
+            f_{L} =\frac{v+v_{L}}{v+v_{wall}}f_{wall}  = \frac{345+3}{345+(0)}504.4 = 508.8 \,H_{z}
+           </me>
+                 </li>
+          <li>
+            <me>
+              f_{beat} = \Delta f = f_{L} -f_{s} = 508.8 - 500  = 8.8 \,H_{z}
+            </me>
+                 </li>
+            </ol>
+          </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The first two spectral lines of the Balmer series for Hydrogen gas are the <m>H_{\alpha}</m> and 
+        <m>H_{\beta}</m> lines with wavelengths  656.3 nm and  486.1 nm, respectively. 
+        <ol marker="a.">
+          <li>
+            How fast is a galaxy moving away from us if its <m>H_{\beta}</m> line is shifted all the way to the <m>H_{\alpha}</m> wavelength?
+          </li>
+          <li>
+            What is the fractional change in wavelength of a star's spectrum if the star is moving away from us at half the speed of light? 
+          </li>
+          <li>
+            What will be the observed shift in wavelength of the <m>H_{\alpha}</m> line for a star moving 
+            toward the earth at a speed equal to that of the earth around the sun? The radius of the earth's 
+            orbit is <m>1.50\times10^{11}\, m.</m>
+          </li>
+            </ol>
+            </p>
+    </statement>
+    <solution>
+      <p>
+       Given: <m>\lambda_{s} = 4.861\times10^{-7} \,m</m>   <m>\lambda_{R} = 6.563\times10^{-7} \,m</m>
+       <m>c= 2.998\times10^{8} \,m/s</m> <m>v = 0.5 \,c</m>  <m>r = 1.50\times10^{11}\, m</m> 
+       <m>t = 1 \,year = 3.156\times10^{7} \,s</m>  <m>\lambda_{s} = 6.563\times10^{-7} \,m</m>
+      </p>
+      <p>
+        Equations:  
+        <me>
+          c = f_{s}\lambda_{s} 
+        </me>
+        <me>
+          c = f_{R}\lambda_{R}
+        </me>
+        <me>
+          f_{R} = \sqrt{\frac{c-v}{c+v}} f_{s}
+        </me>
+        <me>
+          \frac{\lambda_{R}}{\lambda_{s}} = \frac{f_{s}}{f_{R}}  = \sqrt{\frac{c+v}{c-v}}
+        </me>
+        <me>
+          \frac{\Delta\lambda}{\lambda_{s}} = \frac{\lambda_{R}-\lambda_{s}}{\lambda_{s}}  =\frac{\lambda_{R}}{\lambda_{s}}-1 
+        </me>
+        <me>
+          2\pi r = v t 
+        </me>
+        <me>
+          \frac{\Delta\lambda}{\lambda_{s}} =\sqrt{ \frac{c+v}{c-v}}-1 
+        </me>
+         </p>
+         <p>
+          <me>
+            \frac{\lambda_{s}}{\lambda_{R}} = \frac{f_{R}}{f_{L}}
+          </me>
+          <me>
+            v = \sqrt{\frac{1-\left(\frac{\lambda_{s}}{\lambda_{R}}\right)^{2}}{1+\left(\frac{\lambda_{s}}{\lambda_{R}}\right)^{2}}} c = 0.291 \,c
+          </me>
+                    <ol marker="a.">
+            <li>
+             <m>v= 8.74\times10^{7} \,m/s</m> 
+             <me>
+              \frac{\lambda_{R}}{\lambda_{s}}=1.732
+             </me>
+                </li>
+            <li>
+              <me>
+                \frac{\Delta\lambda}{\lambda_{s}}=0.732
+              </me>
+              <me>
+                v= 2.987\times10^{4} \,m/s  
+              </me>
+              <me>
+                \frac{\Delta\lambda}{\lambda_{s}}=\frac{v}{c}  
+              </me>
+              for <m>\frac{v}{c} \lt \lt 1.</m>
+                 </li>
+            <li>
+             <m>\Delta\lambda =  6.539\times10^{11} \,m</m>
+            </li>
+              </ol>
+         </p>
+    </solution>
+  </example>
+</paragraphs>
 </section>

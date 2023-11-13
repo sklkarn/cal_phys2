@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-medwave" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Waves in a Medium</title>
+  
+<introduction>
+  <p>
+    When wave propagates in a medium it deforms the shape of a medium and hence to understand wave 
+    motion completely in a medium the following terminologies will be helpful. 
+     </p>
+     <p>
+      <term>Mass per Unit Length, <m>\mu</m>:</term> It is the mass of a wire in its unit length i.e., 
+      <me>
+        \mu= \frac{m}{L},
+      </me>
+      where m is mass of the wire of length, L. Its unit is kg/m.
+    </p>
+    <p>
+      <term>Bulk Modulus, <m>B</m>:</term> It is the ratio of volumetric stress to the volumetric strain i.e., 
+      [Read <url href="https://sklkarn.github.io/calPhysI/ch_eighth.html">Elasticity</url> for details.]
+      <me>
+        B=\frac{\Delta P}{\Delta V/V}. 
+      </me>
+     It defines the incompressibility of the material. It describes the elastic properties of a 
+     solid or fluid when it is under pressure on all surfaces. Its unit is Pascal (Pa).
+    </p>
+    <p>
+      <term>Young's Modulus, <m>Y</m>:</term> It is the ratio of longitudinal stress to the longitudinal strain, i.e., 
+      <me>
+        Y=\frac{F/A}{\Delta L/L},
+      </me>
+      where F is applied force normal to the cross-section of a wire, A is cross-sectional area of a wire, 
+      L is length of the wire, and <m>\Delta L</m> is change in length of the wire after the application 
+      of this force. It describes the ability of a material to deform its length under the lengthwise stress. 
+      Its unit is Pascal (Pa).
+    </p>
+    <p>
+      <term>Ratio of Specific Heat Capacities, <m>\gamma</m>:</term> The specific heat capacity is a material 
+      property which defines heat absorbing capacity of a unit mass of material for unit rise of temperature. 
+      From first law of thermodynamics, 
+      <me>
+        \,dQ=\,dU+P\,dV
+      </me>
+       when heat is supplied to the gas at constant volume it increases its internal energy but 
+       by doing so  pressure of the gas also increases. When gas is heated at constant pressure 
+       it not only increases its internal energy but it also expands hence the system (gas) has 
+       to do extra work on the surrounding. The energy needed for expansion is taken from the 
+       internal energy of the gas. To compensate such work and have the same increase in internal 
+       energy as at constant volume some additional heat must be absorbed by the system at constant 
+       pressure. Hence the gas has two specific heat capacities, called specific heat at constant 
+       volume, <m>c_{v}</m> and specific heat at constant pressure, <m>c_{p}.</m> The ratio of 
+       these two heat capacities is defined as <m>\gamma</m> i.e., 
+       <me>
+        \gamma = \frac{c_{p}}{c_{v}}.
+       </me>
+       On the other hand, Solid and liquid are considered as an incompressible material hence their 
+       specific heat capacities at constant volume and pressure have almost the same value hence 
+       they have only one specific heat capacity. 
+       [read <url href="https://sklkarn.github.io/calPhysI/subsec-Ilaw_appl.html"><m>\gamma</m></url>]
+    </p>
+    <p>
+      <term>Ideal Gas:</term> A hypothetical gas whose molecules are negligibly small and have no 
+      interaction between them is called an ideal gas or perfect gas. Small amount of gas molecules 
+      in a very large container may be considered as an ideal gas if it obeys the laws of ideal gas. 
+    </p>
+    <p>
+      <term>Pressure, P:</term> Force per unit area on the surface of any material is known as pressure. 
+      It is generally considered as a scalar quantity. Its unit is Pascal (pa).
+    </p>
+    <p>
+      <term>Gas Constant, R:</term> It is a universal constant that appears in an ideal gas equation 
+      <me>
+        PV=nRT
+      </me>
+      where <m>n</m> stands for number of mole of a gas. The value of R is approximately  <m>8.3145 \, J/K/mol</m>. 
+      It is equivalent to Boltzmann constant, k as 
+      <me>
+        PV=NkT
+      </me>
+       where <m>N</m> stands for number of molecules in a gas and  <m>N_{A}k = R</m> since 
+       <m>N=N_{A}=6.022\times10^{23}\, /mol</m>, Avagadro's number for n = 1 mole. 
+       The value of k is approximately <m>1.3806\times10^{-23} \,J/K</m>.
+    </p>
+    <p>
+      <term>Molecular Mass:</term> The mass of one molecule of any substance is known as a 
+      molecular mass. It is a number equal to the sum of the atomic masses of all the atoms in a 
+      molecule. It provides the mass of a molecule relative to that of the mass of C-12 atom.
+    </p>
+    <p>
+      <term>Molar Mass,M:</term> The mass of one mole of any substance is known as a molar mass. 
+      Its unit is g/mol. The molar mass of C-12 substance is 12 g/mol.
+    </p>
+    <p>
+      <term>Atomic Mass Unit, amu or u:</term> 1 amu is <m>\frac{1}{12}</m> of the mass of C-12 atom. 
+      Mass of one atom of C-12 is 12 amu as it contains 12 (6 proton + 6 neutrons) elementary particles. 
+      Since <m>6.022\times10^{23}</m> atoms of C-12 has mass of 12 g, hence 
+      <me>1 \,amu = \left(\frac{1}{12}\right) \, (\text{mass of one atom of C-12})</me> 
+      <me>
+       = \left(\frac{1}{12}\right)\left(\frac{12\,g/mol}{6.022\times10^{23}\,1/mol}\right) = 1.66\times10^{-24} \,g = 1\,u.
+      </me>
+     It is the mass of one proton or one hydrogen atom.  
+    </p>
+    <p>
+      <term>Absolute Temperature, T:</term> The value of temperature measured in Kelvin scale, 
+      a hypothetical temperature scale, is known as absolute temperature. It is also known as 
+      thermodynamic temperature. The lowest possible value of absolute temperature is absolute 
+      zero and from third law of thermodynamics, absolute zero is physical unattainable by any means. 
+      Temperature is an average kinetic energy per molecule of a substance and at absolute zero 
+      the molecular motion is ceased i.e. no heat remains in a molecule at absolute zero. 
+      The value of each division of kelvin scale is same as that in centigrade scale i.e., 
+      change in temperature in absolute scale is numerically equal to change in temperature in 
+      centigrade scale. Absolute zero is equal to  <m>-270.15\,^{o}C.</m>
+    </p>
+</introduction>
+
+<subsection xml:id="subsec-speed_TW">
+  <title>Speed of a Transverse Wave</title>
+  <p>
+    Let us consider an elastic string tightly stretched between its two ends by a constant tension T. 
+    The string is caused to vibrate by plucking it with a very small displacement so that the tension T 
+    remains constant through out the deflections of the string. Consider a small element of the string 
+    of arc length <m>\,ds</m> [<xref ref="speedTW"/>] which is moving at a constant velocity, v towards right.  
+    If this arc subtends an angle <m>2\theta</m> at its center then length of arc, <m>\,ds=R (2\theta)</m> 
+    where R is radius of the arc. If <m> \mu </m> is mass per unit length of a string then 
+    mass of the arc, 
+    <me>
+      m =  \mu R 2\theta.
+    </me>
+    The force acting on the string element along x-axis is given by 
+    <me>
+      F_{x}= T\cos\theta-T\cos\theta=0, 
+    </me>
+    i.e., there is no horizontal motion of the particle of a string.
+  </p>
+  <figure xml:id="speedTW">
+    <caption></caption>
+    <image source="speedTW.png" width="50%"/>
+</figure>
+  <p>
+    The force acting on the string element along y-axis is given by 
+    <me>
+      F_{y}= T\sin\theta+T\sin\theta=2 T\sin\theta = ma
+    </me>
+    i.e.,  because of the circular portion of string each particle of string element experiences centripetal force. 
+    <me>
+      \text{Hence,}\quad 2 T\sin\theta = m\frac{v^{2}}{R}
+    </me>
+    where v is a velocity of wave which is passing through the string. 
+    <me>
+      \text{Now,}\quad 2 T \theta = \mu R 2\theta \frac{v^{2}}{R}
+    </me>
+    <me>
+      \text{or,}\quad v= \sqrt{\frac{T}{\mu}}
+    </me>
+    Hence the velocity of wave depends on the tension and mass per unit length of a string. 
+    Velocity of mechanical waves generally takes the form 
+    <me>
+      v=\frac{\text{Restoring ability of a system}}{\text{Inertia resisting the return to equilibrium}}
+    </me>
+      </p>
+</subsection>
+
+
+<subsection xml:id="subsec-speed_LW">
+  <title>Speed of a Longitudinal Wave</title>
+  <p>
+    When a longitudinal wave passes through a fluid, it produces a local compression 
+    and rarefaction (expansion of the fluid). Consider a column of fluid of cross-sectional 
+    area A in which a longitudinal wave is being passed perpendicularly to the cross-section [<xref ref="LW"/>]. 
+    As the wave passes a small portion of fluid of volume <m>V_{i}</m> having thickness 
+    <m>\,dx=x_{2}-x_{1}</m> will move and gets compressed because of the pressure difference 
+    between both faces.
+  </p>
+  <figure xml:id="LW">
+    <caption></caption>
+    <sidebyside widths="25% 25% 25% 25%">
+        <figure xml:id="speedLW">
+          <caption></caption>
+          <image source="speedLW.png"/>
+      </figure>
+      <figure xml:id="speedLWa">
+        <caption></caption>
+        <image source="speedLWa.png"/>
+    </figure>
+    <figure xml:id="speedLWb">
+      <caption></caption>
+      <image source="speedLWb.png"/>
+  </figure>
+  <figure xml:id="speedLWc">
+    <caption></caption>
+    <image source="speedLWc.png"/>
+</figure>
+    </sidebyside>
+  </figure>
+<p>
+  The right face experiences a backward pressure of <m>P+\,dP</m> and the left face experience 
+  a forward pressure of <m>P</m>. Hence due to the forces difference fluid move to 
+  the right and as it accelerates it will change its volume to <m>V_{f}.</m> 
+The fluid column only experiences normal force along x-axis as it does not support shear forces. 
+If 
+<me>
+  s(x,t) =\frac{s_{1}+s_{2}}{2}
+</me>
+ is the displacement of fluid column from <m>x_1</m> to <m>x_1+s_1</m>, 
+ then from Newton's law 
+ <me>
+  F_{x}=ma_{x}
+ </me>
+<me>
+  \text{or,}\quad [P-(P+\,dP)]A = V_{i}\rho \frac{\,d^{2}s}{\,dt^{2}} 
+</me>
+<me>
+  \text{or,}\quad -\,dP \,A = A\,dx \rho \frac{\,d^{2}s}{\,dt^{2}}
+</me>
+<men xml:id="eqn-speedLW1">
+  \therefore \quad \frac{\,dP}{\,dx} = -\rho \frac{\,d^{2}s}{\,dt^{2}} 
+</men>
+</p>
+<p>
+  But from Bulk modulus of elasticity, 
+  <me>
+    B=-\frac{P}{\,dV/V_{i}}
+  </me>
+  <me>
+    \text{or,}\quad P = -B\left(\frac{\,dV}{V_{i}}\right)
+  </me>
+  where <me>
+    \,dV=V_{f}-V_{i} = A[(x_{2}+s_{2})-(x_{1}+s_{1})]-A\,dx
+  </me> 
+  <me>
+    = A[(x_{2}-x_{1})+(s_{2}-s_{1})]-A\,dx = A(\,dx+\,ds)-A\,dx =A\,ds
+  </me>
+  <me>
+    \therefore \quad P = -B\frac{A\,ds}{A\,dx}=-B\frac{\,ds}{\,dx} 
+  </me>
+  
+  <men xml:id="eqn-speedLW2">
+    \text{or,} \quad \frac{\,dP}{\,dx} = -B\frac{\,d^{2}s}{\,dx^{2}}  
+  </men>
+  From eqns. <xref ref="eqn-speedLW1"/> and <xref ref="eqn-speedLW2"/>, we have 
+  <me>
+    -\rho \frac{\,d^{2}s}{\,dt^{2}}=-B\frac{\,d^{2}s}{\,dx^{2}}
+  </me>
+  <men xml:id="eqn-speedLW3">
+    \therefore \quad  \frac{\,d^{2}s}{\,dx^{2}}=\frac{\rho}{B}\frac{\,d^{2}s}{\,dt^{2}}
+  </men>
+  Which is the wave equation of longitudinal wave. Hence 
+  <men xml:id="eqn-speedLW4">
+    s(x,t) = s_{o}\sin(kx-\omega t) 
+  </men>
+  where <m> s_{o} </m> is the amplitude of the wave or maximum displacement of fluid column, 
+  <me>
+    \omega =2\pi f 
+  </me>
+  is angular frequency, and 
+  <me>
+    k=\frac{2\pi}{\lambda}
+  </me>
+   is the wave number.
+   <me>
+    \text{Now}\quad \frac{\,ds(x,t)}{\,dx} =s_{o}k\cos(kx-\omega t) 
+   </me>
+   </p>
+   <p>
+    Also pressure fluctuation can be 
+    <men xml:id="eqn-speedLW5">
+      p(x,t) = -Bks_{o}\cos(kx-\omega t)  
+    </men>
+    which is lagging behind the displacement <m>s(x,t)</m> by quarter of wavelength 
+    and  
+    <me>
+      p_{max} = B\,k\,s_{o}
+    </me>
+     is pressure amplitude. 
+     <me>
+      \text{and,}\quad \frac{\,d^{2}s}{\,dx^{2}} =-s_{o}k^{2}\sin(kx-\omega t)
+     </me>
+     <me>
+      \text{Also}\quad \frac{\,ds}{\,dt} =-s_{o}\omega\cos(kx-\omega t)
+     </me>
+     <me>
+      \text{or,}\quad \frac{\,d^{2}s}{\,dt^{2}} =-s_{o}\omega^{2}\sin(kx-\omega t)
+     </me>
+     <me>
+      \text{Hence,}\quad -s_{o}k^{2}\sin(kx-\omega t) =-\frac{\rho}{B} s_{o}\omega^{2}\sin(kx-\omega t)
+     </me>
+     <me>
+      \text{or,}\quad k^{2} =\frac{\rho}{B}\omega^{2}
+     </me>
+     <me>
+      \text{or,}\quad \frac{1}{\lambda^{2} f^{2}}=\frac{\rho}{B}
+     </me>
+     <me>
+      \therefore \quad v^{2}=\frac{B}{\rho}
+     </me>
+     Hence the speed of longitudinal wave in fluid is given by 
+     <me>
+      v=\sqrt{\frac{B}{\rho}}
+     </me>
+      </p>
+      <p>
+        In general speed of longitudinal wave is 
+        <me>
+          v=\sqrt{\frac{\text{elastic property}}{\text{inertial property}}}
+        </me>
+        This is the same as writing 
+         <me>
+          v = \sqrt{\frac{Y}{\rho}}	\quad	\text{(in solid)}
+        </me>
+       Newton assumed that the process is very slow when a wave passes through fluid 
+       hence the temperature remains constant through out the process,  i.e., 
+       <me>
+        PV  =constant
+       </me>
+       <me>
+        \text{or,} \quad P\,dV+V\,dP =0
+       </me>
+       <me>
+        \text{or,}\quad P\,dV=-V\,dP
+       </me>
+       <me>
+        \text{or,}\quad P = -\frac{\,dP}{\,dV/V} = B
+       </me>
+       <me>
+        \therefore\quad v = \sqrt{\frac{P}{\rho}}
+       </me>
+     Now at normal temperature and pressure (NTP) the atmospheric pressure is 
+     <m>
+      P=1.01\times10^{5} \,N/m^{2}
+     </m>
+     and density of air is <m>\rho=1.293 \,kg/m^{3}</m>, we have velocity of sound in air is 
+     <me>
+      v = \sqrt{\frac{P}{\rho}}=280\, m/s
+     </me>
+     But the experimental value of sound in air is 332 m/s. 
+     Hence Laplace modified this solution by assuming that when wave flows through the fluid 
+     compression and rarefaction occur so fast that there is no exchange of heat between the 
+     system and surrounding in fluid.  Hence 
+     <me>
+      PV^{\gamma} = constant
+     </me>
+     <me>
+      \text{or,} \quad V^{\gamma}\,dP + P\gamma V^{\gamma-1}\,dV =0 
+     </me>
+     <me>
+      \text{or,} \quad V^{\gamma}\,dP =- P\gamma V^{\gamma-1}\,dV
+     </me>
+     <me>
+      \text{or,} \quad \,dP =- P \gamma V^{-1}\,dV
+     </me>
+     <me>
+      \text{or,} \quad -\frac{\,dP}{\,dV/V} = P \gamma = B
+     </me>
+     <me>
+      \therefore \quad v = \sqrt{\frac{\gamma P}{\rho}}=332 \,m/s \quad [\gamma=1.4] 
+     </me>
+     <me>
+      \text{Also,} \quad v = \sqrt{\frac{\gamma R T}{M}}\quad \text{(In Ideal Gas)} 
+     </me>
+     <me>\left[\because\quad PV = nRT = \frac{m}{M}RT]  \quad  \text{or,} \quad P = \frac{RT}{\rho \,M}\right]. </me>   
+    Here <m>n, \, M,</m> and <m>T</m> stand for number of moles, molar mass, and absolute temperature of gas, respectively.
+          </p>
+</subsection>
+
+<subsection xml:id="subsec-energy_MW">
+  <title>Energy Transport in a Mechanical Wave</title>
+  <p>
+    When wave passes through the medium it transfers energy to that medium. 
+    Consider a small portion of oscillating string in which sinusoidal wave is 
+    propagated then average energy attains by the particle of a string is given by 
+    <me>
+      E_{avg} =\frac{1}{2}\,m v^{2}_{max}=\frac{1}{2}\mu \,dx (A\omega)^{2}
+    </me>
+    where m and <m>v_{max}</m> is the mass and maximum velocity of the particle of that string. 
+    <me>
+      \text{or,}\quad P_{avg} =\frac{\,dE}{\,dt}= \frac{1}{2}\mu v A^{2}\omega^{2} =\frac{1}{2}\mu \sqrt{\frac{T}{\mu}} A^{2}\omega^{2}
+    </me>
+    <me>
+      \therefore \quad P_{avg} = \frac{1}{2}\sqrt{\mu T} \omega^{2}A^{2}	\quad \text{(In String)}
+    </me>
+    Waves on a string carry energy along the length of the string, but when waves pass 
+    through a solid or a fluid they carry energy along all three dimensions of space. 
+    Hence we need to define intensity of wave, which is energy transmitted by the wave 
+    in unit area of this material in unit time. 
+    <me>
+      I = \frac{E}{A t} = \frac{\frac{1}{2}mv^{2}_{max}} {A t} =\frac{\frac{1}{2}\rho V (s_{o}\omega)^{2}} {A t} =\frac{1}{2} \rho v s^{2}_{o}\omega^{2} 
+    </me>
+          <me>
+      =\frac{1}{2}\sqrt{\rho B} \omega^{2} s^{2}_{o}\quad	\text{(In Fluid)}
+     </me>
+     here <m>V=A.x</m>, <m>s_{o}</m> is amplitude of oscillation, and v is wave speed. 
+     <me>
+      I = \frac{1}{2}\sqrt{\rho Y} \omega^{2}s^{2}_{o}	\quad	\text{(In Solid)} 
+     </me>
+     Since intensity obeys inverse square law as 
+     <me>
+      I=\frac{P}{A} = \frac{P}{4\pi r^{2}}
+     </me>
+     <me>
+      or, I\propto \frac{1}{r^{2}} 
+     </me>
+     
+    where <m>4\pi r^{2}</m> is the surface area of a sphere of radius, r of space in which wave is propagated. 
+    Hence intensity of the wave decreases by the square of the distance it propagated.
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-interferMW">
+  <title>Interference of Mechanical Waves</title>
+  <p>
+    When a wave travels to the end of a medium all or part of it is reflected back. 
+    The nature of the reflected wave depends upon the state of boundary known as <em>boundary conditions</em>. 
+    Consider a wave (e.g. a pulse) on a stretched string approaches the fixed end to the right it 
+    exerts a force on a fixed support and according to Newton's third law a fixed support also 
+    exerts a force on the string, as a result an inverted pulse (wave) travels back to the left 
+    and when these two incident and reflected waves overlap they cancels each other as shown 
+    in <xref ref="fixep"/>.
+  </p>
+     <figure xml:id="fixep">
+      <caption>Fixed End Pulse Overlapping</caption>
+      <sidebyside widths="30% 30% 30%">
+          <figure xml:id="pulsea">
+            <caption>Incident Pulse</caption>
+            <image source="pulsea.png"/>
+        </figure>
+        <figure xml:id="pulseb">
+          <caption>Reflected Pulse</caption>
+          <image source="pulseb.png"/>
+      </figure>
+      <figure xml:id="pulsec">
+        <caption>Amplitude Zero</caption>
+        <image source="pulsec.png"/>
+    </figure>
+        </sidebyside>
+    </figure>
+    <p>
+      On the other hand, when a wave pulse travels along a string with a free 
+      end (one end of string attached to a ring that is free to slide along a pole) and when the wave 
+      reaches to the free end at its maximum displacement both wave and string come to at rest for a moment. 
+      During this time string is stretched to highest value and applies a maximum tension on string due 
+      to which string gets pulled back down which constitutes a reflected wave pulse but in the same phase 
+      as incident wave pulse. When they overlap the amplitude of pulse increased by double as shown 
+      in <xref ref="freep"/>. The total displacement of overlapping wave pulses is an algebraic sum 
+      of their displacement in individual pulses.
+  </p>
+  <figure xml:id="freep">
+    <caption>Free End Pulse Overlapping</caption>
+    <sidebyside widths="30% 30% 30%">
+        <figure xml:id="pulsed">
+          <caption>Incident Pulse</caption>
+          <image source="pulsed.png"/>
+      </figure>
+      <figure xml:id="pulsee">
+        <caption>Reflected Pulse</caption>
+        <image source="pulsee.png"/>
+    </figure>
+    <figure xml:id="pulsef">
+      <caption>Amplitude Doubled</caption>
+      <image source="pulsef.png"/>
+  </figure>
+      </sidebyside>
+  </figure>
+  <p>
+    Overlapping of two or more waves at the same region at same time is known as <term>interference</term>. 
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-super_princple">
+  <title>Principle of Superposition</title>
+  <p>
+  <idx> principle of superposition</idx>
+When two wave pulses traveling along a rope in opposite direction they pass through each other 
+undisturbed and continue moving with their individual original amplitude and velocity. 
+They interact only at a point of overlap where their amplitude become algebraic sum of their 
+individual amplitudes as shown in <xref ref="spmw"/>. 
+  </p>
+  <figure xml:id="spmw">
+    <caption>Superposition of two waves</caption>
+    <sidebyside widths="25% 25% 25% 25%">
+        <figure xml:id="pulsesame">
+          <caption>in same phase</caption>
+          <image source="pulsesame.png"/>
+      </figure>
+      <figure xml:id="pulseresa">
+        <caption>Double amplitude</caption>
+        <image source="pulseresa.png"/>
+    </figure>
+    <figure xml:id="pulseopp">
+      <caption>in oppsite phase</caption>
+      <image source="pulseopp.png"/>
+  </figure>
+  <figure xml:id="pulseresb">
+    <caption>Zero amplitude</caption>
+    <image source="pulseresb.png"/>
+</figure>
+      </sidebyside>
+  </figure>
+<p>
+  When two or more waves superimpose (overlap) at a point then the resultant displacement of 
+  the medium particle is the algebraic sum of the displacement of the particle due to 
+  individual waves. This is known as <term>principle of superposition</term>. Let 
+  <m>y_{1}(x,t)</m> and <m>y_{2}(x,t)</m> are the wave functions of two waves, then from priciple 
+  of superposition the resulting displacement of a particle at that point is given by the wave function 
+  <me>
+    y(x,t) = y_{1}(x,t)+y_{2}(x,t)
+  </me>
+  Wave function has a linear property (meaning wave function depends only the first power of x 
+  and t but not on their higher power) hence the principle of superposition holds good only 
+  in a medium which obeys Hooke's Law. Superposition of two or more waves gives rise to 
+  interference. When two similar waves superimpose in the same phase their amplitude re-enforce 
+  each other and resultant amplitude is just the double of their individual amplitude such 
+  interference is called a <em>constructive interference</em>. For constructive interference 
+  the path difference between two superimposing waves is given by 
+  <me>
+    \Delta x = n \lambda, \quad n = 0, 1, 2,\cdots
+  </me>
+  When two similar waves superimpose in the opposite phase their amplitude cancels out 
+  each other and resultant amplitude is just zero such interference is called a <em>destructive interference</em>. 
+  For destructive interference the path difference between two superimposing waves is given by 
+  <me>
+    \Delta x = \frac{n}{2} \lambda, \quad n = 1, 3, 5,\cdots
+  </me>
+  The path difference of two waves is related to their phase difference by 
+  <me>
+    \Delta \theta = 2\pi \left(\frac{\Delta x}{\lambda}\right)
+  </me>
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-prog_wave">
+  <title> Traveling Waves (or Progressive Waves):</title>
+  <p>
+  <idx>progressive waves</idx>
+A wave which can propagate in a medium  and carry energy from one location to another is 
+known as progressive or traveling wave. As progressive wave  passes through a medium 
+each particle executes same type of vibration as the preceding one. No particle is 
+permanently at rest except at its extreme position. All the particles of the medium 
+attain same maximum velocity as they cross their mean position.  A progressive wave 
+is represented by 
+<me>
+  \frac{\,d^{2}y}{\,dx^{2}} = \frac{1}{v^{2}}\frac{\,d^{2}y}{\,dt^{2}}
+</me>
+where v is the velocity of the wave. The wave function is given by 
+<me>
+  y(x,t)=A\sin(kx-\omega t)
+</me>
+
+where <m>\omega=2\pi\nu</m> is the angular frequency and <m>k=\frac{2\pi}{\lambda}</m> is the wave number.
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-stand_wave">
+  <title> Standing Waves (or stationary waves):</title>
+  <introduction>
+     <p>
+ <idx>stationary waves</idx> 
+ A wave which appears stand still and does not seem to be moving is called a standing wave. 
+ It is a pattern of waves rather than wave itself. When two (or more) progressive waves 
+ of same frequency travel in a same medium in opposite directions overlap in such a way that 
+  the position of medium particles seem stand still at the same point is know as a standing wave. 
+  It is a superposition of progressive wave with its own reflection. There is no onward motion 
+  of the disturbance as no particle transfers its motion to the next. Since the waves seem 
+  stand still the position of medium particles form a pattern of nodes and antinodes. 
+  The point in a medium where amplitude of oscillation is zero is called <term>nodes</term>. 
+  The point in a medium where oscillations reach to their maximum value is called  <term>antinodes</term>.  
+  All points on the string oscillate at the same frequency but with different amplitudes. 
+  Standing wave is one of the normal modes of vibrations of stretched string. 
+  </p>
+  <figure xml:id="standwave">
+    <caption>Standing wave</caption>
+    <image source="standwave.png" width="55%"/>
+</figure>
+  <p>
+    The wave function of standing wave can be found as 
+    <me>
+      y_{1}(x,t)=A\sin (kx-\omega t)\quad [\text{wave travels along +x axis.}]
+    </me>
+    <me>
+      y_{2}(x,t)=A\sin (kx+\omega t)\quad [\text{wave travels along -x axis.}]
+    </me>
+    From the principle of superposition the resultant wave is 
+    <me>
+      y(x,t)=y_{1}(x,t)+y_{2}(x,t)
+    </me>
+    <me>
+      = A\left[\sin (kx-\omega t)+\sin (kx+\omega t)\right]
+    </me>
+    <fn>See Appendix for trigonometric identities <m>\sin\alpha+\sin\beta</m> and <m>\cos(-\theta) =\cos\theta</m>.</fn>
+     </p>
+     <p>
+<me>
+  or,\quad y(x,t)= A\left[2\sin\frac{(kx-\omega t)+ (kx+\omega t)}{2}\cos\frac{(kx-\omega t)- (kx+\omega t)}{2}\right]
+</me>
+<men xml:id="eqn-standw1">
+  \therefore\quad y(x,t) = 2A\sin kx\cos\omega t
+</men>
+
+The term  <m>\sin kx </m> describes the sinusoidal shape of the wave pattern and the term 
+<m>\cos\omega t</m> describes the flip-flop (up-down oscillatory)  motion of each wave segment. 
+This  is no longer a progressive wave equation as position and time dependence of the wave equation 
+have been separated from each other. The term <m>2A \,\sin kx </m> defines the amplitude of a 
+wave at a given location and the term <m>\cos\omega t</m> defines the variation in displacement 
+of a medium particle with time, t.
+     </p>
+      </introduction>
+
+      <subsubsection xml:id="subsubsec-node_antinode">
+        <title>Position of nodes and antinodes</title>
+        <p>
+          Since the amplitude of standing wave is zero we can set in eqn. <xref ref="eqn-standw1"/> as
+          <me>
+            2A\,\sin kx=0 \Rightarrow \sin kx=0 =\sin n\pi
+          </me>
+          <m>[\text{as}\quad 2A\neq 0\quad \text{and}\quad n=0,1,2,3,\cdots]</m>
+          <me>
+            \therefore\quad x=\frac{n\pi}{k}=\frac{n\lambda}{2}
+          </me>
+          <m>\because k=\frac{2\pi}{\lambda}\quad \text{and}\quad n=0,1,2,3,\cdots]</m>
+             </p>
+             <p>
+              Since the displacement of particles are maximum at antinodes in  standing wave we can set in eqn. <xref ref="eqn-standw1"/> as
+              <me>
+                2A\,\sin kx=2A \Rightarrow \sin kx= \pm1 = \sin (n+\frac{1}{2})\pi 
+              </me>
+              <me>
+                \therefore \quad x= \frac{(n+\frac{1}{2})\pi}{k} = (n+\frac{1}{2})\frac{\lambda}{2} \qquad n=0,1,2,3,\cdots
+              </me>
+             </p>
+      </subsubsection>
+</subsection>
+  </section>
+

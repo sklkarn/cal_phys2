@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-geoopt" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometrical Optics</title>
+  
+
+  <introduction>
+     <p>
+      Geometric optics is based on the principle of rectilinear propagation of light in which 
+      light is considered as a ray which travels in a straight line. Anything which radiates 
+      or emits light is known as object. Objects that emit light on their own are called luminous 
+      (or <em>self-luminous</em>) objects such as sun, stars, light bulb etc. Objects that do not 
+      emit or reflect light are known as <em>non-luminous</em> objects such as wood, plastics, metals etc. 
+      Luminous object can either emits light or reflect light from another source such as moon, 
+      mirror, etc. An object which has no physical extent is called a point object and an object 
+      which has length, width, and height is known as <em>extended object</em>. An image on the other hand is 
+      an apparent replica of an object. A line which is normal to the wavefronts of the actual light 
+      along which energy flow is known as <term>ray of light</term>. A collection of rays of light is 
+      known as <term>beam</term>. A collection of parallel rays of light is known as  <term>parallel beam</term>, 
+      rays converging to a point is known as  <term>convergent beam</term>, and rays diverging from a 
+      point is known as  <term>divergent beam</term>.
+</p>
+<figure>
+  <caption></caption>
+  <sidebyside widths="25% 25% 25% 25%">
+    <figure xml:id="ray">
+      <caption></caption>
+      <image source="ray.png"/>
+  </figure>
+      <figure xml:id="parallel">
+          <caption></caption>
+          <image source="parallel.png"/>
+      </figure>
+      <figure xml:id="convergent">
+        <caption></caption>
+        <image source="convergent.png"/>
+    </figure>
+        <figure xml:id="divergent">
+            <caption></caption>
+            <image source="divergent.png"/>
+        </figure>
+   </sidebyside>
+</figure>
+  </introduction>
+
+<subsection xml:id="subsec-refl">
+  <title>Reflection</title>
+  <introduction>
+    <p>
+      When wave travels in a homogeneous medium strikes on the surface of another medium bouncing 
+      back to the same medium is known as reflection. There are two types of reflection, 
+      spectacular (regular) reflection and diffuse (irregular) reflection. Both types of 
+      reflection obey the Laws of reflection. 
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-refl_laws">
+    <title>Laws of Reflection</title>
+    <p>
+      The first law of reflection states that the incident ray, the reflected ray, and the normal 
+      to the point of incident all lie in the same plane. The second law of reflection states that 
+      the angle of reflection is equal to the angle of incidence.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="25% 25%">
+        <figure xml:id="ref1">
+          <caption></caption>
+          <image source="ref1.png"/>
+      </figure>
+          <figure xml:id="ref3">
+              <caption></caption>
+              <image source="ref3.png"/>
+          </figure>
+            </sidebyside>
+    </figure>
+    <p>
+      Consider a plane wave progressing towards a smooth surface, like glass or mirror as shown 
+      in <xref ref="ref1"/>. A light ray, AO perpendicular to the wavefronts is making an angle 
+      of incidence, i with the normal, N. The side, X of the progressing wavefront, XY has just 
+      made contact with the surface of the mirror. While Y is moving the distance, vt, a secondary 
+      wavelet emanates from X and also travels the distance, vt. At the end of the time interval, t, 
+      Y will have just made contact with the surface, at the point Y'. The new reflected wavefront 
+      is found from Huygens's principle by drawing the new wave front such that it touches 
+      the point Y' and is tangent to the secondary wavelet from X. The point of tangency is called 
+      X'. The new wavefront is shown in <xref ref="ref1"/> as the blue line X'Y'.  The wave is said 
+      to have been reflected. The new reflected ray, OB is drawn perpendicular to the wavefront, X'Y'.  
+      The rest of the reflected wavefronts are drawn parallel to X'Y' and perpendicular to ray, OB.  
+      The reflected ray, OB makes an angle r is called the <em>angle of reflection</em>, with the 
+      normal, N. Because the incident ray, AO is perpendicular to the wavefront, XY, the angle that 
+      the wavefront, XY makes with the surface is the same as the angle of incidence, i. 
+      This can be seen by looking at triangle, <m>\bigtriangleup XEO</m>. The sum of all the angles in triangle, XEO 
+       must equal <m>180^{o}</m>, and consider <m>\angle EXO = \theta,</m> then 
+       <me>
+        \theta+\alpha+\angle XEO=180^{o}
+       </me>
+       <me>
+        or,\quad \theta+\alpha+90^{o}=180^{o}
+       </me>
+       <me>
+        or, \quad \theta+\alpha = 90^{o}
+       </me>
+       <me>
+        But, \quad \angle AOX+\angle AOXN= 90^{o}
+       </me>
+       <me>
+        or, \quad i+\alpha = 90^{o}
+       </me>
+     <me>
+      \therefore \quad \theta = i 
+     </me>
+     Similarly, since reflected ray OB is perpendicular to reflected wavefront X'Y', 
+     it makes an angle r with the reflecting surface. We see in the figure that in triangle XYY', 
+     <me>
+      \sin i = \frac{vt}{XY'} 
+     </me>
+     From <m>\bigtriangleup XX'Y'</m>, we have 
+     <me>
+      \sin r = \frac{vt}{XY'}
+     </me>
+     <me>
+      i.e.\quad  \sin i = \sin r \qquad \Rightarrow  i =r
+     </me>
+     Which proves the second law of reflection and it says that the angle of incidence i is 
+     equal to the angle of reflection r. The first law of reflection was implied in the derivation 
+     and it says that the incident ray, the normal, and the reflected ray all lie in the same plane. 
+     We have derived the law of reflection by Huygens's principle and the wave 
+     nature of light. Having thus established the law, we can simplify the procedure for its use 
+     by drawing the ray diagram as in <xref ref="ref3"/> where the faint blue plane is an imaginary
+      plane which contains the incident ray, (OA), the normal, (ON), and the reflected ray, (OB). 
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-reg_diff">
+    <title>Regular and Diffuse Reflection</title>
+    <p>
+      Reflection from a smooth surface such as a mirror leads to a type of reflection known 
+      as regular reflection. In regular reflection a parallel incident beam after reflection 
+      deviates parallely onto another direction as shown <xref ref="ref"/>. Reflection from a 
+      rough surface such as paper, wall, and clothes leads to a diffuse reflection. In diffuse 
+      reflection rays of light in a parallel incident beam after reflection scattered in different 
+      directions as shown in <xref ref="diffuse"/>. Whether it is a regular or a diffuse reflection 
+      laws of reflection are always obeyed by each individual light ray of the beam at every point of 
+      incidence. The normals at the point of incidences P, Q, and R in <xref ref="diffuse"/>
+       are shown by the dotted lines. The normal on a rough surface depends on a inclination of 
+       local surface at the point of incidence hence these normals are not parallel which 
+       constitutes parallel beam of light to be scattered in different directions. 
+       The orientation of the normal lines at neighboring points along a surface differentiates 
+       specular from diffuse reflection. If the normal lines are parallel, reflection will be specular. 
+       If they are not parallel, reflection will be diffuse. 
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="25% 25%">
+        <figure xml:id="ref">
+          <caption></caption>
+          <image source="ref.png"/>
+      </figure>
+          <figure xml:id="diffuse">
+              <caption></caption>
+              <image source="diffuse.png"/>
+          </figure>
+            </sidebyside>
+    </figure>
+    <p>
+      It is the diffuse reflection which makes us see the world such as walls of the room, 
+      clothes, trees, stars, clouds, etc. As the rays of light falls on any object, 
+      the rays are reflected from the object and then enter into our eye. If the reflection 
+      is only regular then the object would be dazzlingly bright. Aside from the limited number 
+      of luminous objects, such as light bulbs and the sun, everything we see around us is 
+      visible because of the diffuse reflection.
+    </p>
+  </subsubsection>
+
+    <subsubsection xml:id="subsubsec-image_pmirror">
+    <title>Image formed by a mirror</title>
+    <p>
+      A mirror is a highly polished smooth surface which allows a regular reflection. 
+      When these reflected rays fall in our eyes we see the image of that object. 
+      Depends upon the shape of reflecting surface there are many types of mirror such as plane mirror, 
+      spherical mirror, parabolic mirror, etc. There are also two types of existence of image (or object) 
+      called a <em>real image or object</em> and a <em>virtual image or object</em>. 
+      If incident rays are coming from an object lying in front of the mirror, object is 
+      known as real. If incident rays appear to converge behind the mirror, the point of 
+      convergence is known as virtual object. If reflected rays actually converge the image 
+      formed is real. A real image is always formed in front of the mirror. If reflected rays 
+      are divergent that is they do not meet actually, rather they appear to come from a point, 
+      that point is called virtual image. A virtual image is always formed behind the mirror. 
+      In real image light rays which constitute an image is really passing through it. 
+      In virtual image the light rays which constitute that image do not actually pass through 
+      it but only appear to do so. Real image can be cast on a screen but virtual image can not 
+      be cast on a screen as it is formed behind the reflecting surface. Plane mirror never 
+      form a real image of any real object. 
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-plan_mirror">
+    <title>  Plane Mirror</title>
+    <p>
+   A plane mirror is a highly smoothed flat surface or a glass plate. One side of the  plate 
+   is silver coated and is called a <em>silvered surface</em>, another side of it is highly smoothed 
+   (fine polished) from which light beam undergoes a regular reflection to form an image and is 
+   called a <em>reflecting surface</em> as shown in <xref ref="pimage"/>. In other words, 
+   if a reflecting surface is  plane or if radius of curvature of the surface is infinite 
+   then it behaves like a mirror, and is called a <term>plane mirror</term>. Any thing from which 
+   light rays emanate and incident to the mirror is called an <term>object</term>. 
+   The reflected rays from the mirror either actually converge to a point or appear to 
+   diverge from a point. The point of intersection of reflected rays is called an <term>image</term>.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="pimage">
+          <caption></caption>
+          <image source="pimage.png"/>
+      </figure>
+          <figure xml:id="linversion">
+              <caption></caption>
+              <image source="linversion.png"/>
+          </figure>
+          <figure xml:id="rotatedmir">
+            <caption></caption>
+            <image source="rotatedmir.png"/>
+        </figure>
+            </sidebyside>
+    </figure>
+    <p>
+      When an object, O is placed in front of a plane mirror, MN an image I is formed behind the mirror. 
+      To determine how an image is formed, we need to consider at least two light rays that emanate 
+      from the object, O. Consider the ray, OA which makes an angle of incidence, i with the normal to 
+      the mirror. By the law of reflection, this ray is reflected along AB such that the angle of 
+      reflection is r. When these reflected light rays enters into the observer's eye it appears 
+      to have come from behind the mirror from point, I as indicated by the dashed line. The second 
+      incident ray, OC is reflected along CD. To an observer in front of the mirror at D this reflected 
+      ray also appears to come from the same point I behind the mirror, as indicated by the dashed line.  
+      The two reflected  rays appear to have come from the point I  behind the mirror where the two 
+      dashed lines intersect. The point I is called the image of the object O.  The distance from 
+      the image to the mirror is called the image distance and is designated by the letter q. 
+      The image is called a virtual image because the light rays do not actually come from that point,
+      they only appear to come from that point. If you were to walk behind the mirror, you would not 
+      find any real image there. A real image can be projected onto a screen while a virtual image cannot. 
+      In general, a real image is one on which all the rays are converging, while a virtual image is 
+      one from which all the rays are diverging. Thus, rays AB and CD are diverging away from the 
+      virtual image I and will never cross on the left-hand side of the mirror. We should also note 
+      that there is a third ray that can be used. This is the ray that is perpendicular to the mirror. 
+      Since its angle of incidence is zero, its reflected angle is also zero, and the ray is reflected 
+      back along the normal. This ray appears to come from directly behind the mirror and is also 
+      indicated by a dashed line that comes from the image point I.
+    </p>
+    <p>
+      An image formed by a plane mirror is virtual, object distance is equal to image distance, 
+      and the size of image is the same as the size of object. 
+    </p>
+    <p>
+      From the geometry of the <xref ref="pimage"/> 
+      <me>
+        \angle NAB = \angle PIA =r \quad \text{corresponding angles are equal}
+      </me>
+      <me>
+        \angle POA = \angle OAN = i \quad \text{alternating angles are equal}
+      </me>
+      Hence in <m>\bigtriangleup^{s} OPA</m> and <m>IPA</m>, we have  
+      <me>
+        \angle OPA = \angle IPA =90^{o}
+      </me>
+      [<m>\because </m> OP and  IP  is perpendicular on mirror MN.] 
+<me>
+  PA=PA \quad [\text{common arms}]
+</me>
+<me>
+  \angle POA = \angle PIA \quad [\text{law of reflection}]
+</me>
+<me>
+  \therefore \quad \bigtriangleup OPA \cong \bigtriangleup IPA 
+</me>
+In congruent triangles corresponding arms are equal  hence, object distance, OP is equal to 
+image distance, IP. Since no light rays are really passing through the point I constituting a 
+virtual image. To understand the size of the image formed by a plane mirror let us consider 
+an extended object P as shown in <xref ref="linversion"/>. Because object distance is equal to 
+image distance the rays from each point of an object reflected from the mirror in such 
+a way that they appear to come from the side wise inverted image behind the mirror. 
+Hence a letter p looks like q in image. The process of inversion of left side of an object 
+as its right side of its mirror image is known as a <term>lateral inversion</term>. 
+From the <xref ref="linversion"/> it is clearly seen that the each rays from the object p 
+incident normally onto the mirror and get reflected also normally so that each rays 
+are parallel to each other. Which verifies the size of the image is equal to the size of 
+the object. When the plane mirror is rotated through an angle <m>\theta</m>, the reflected 
+ray turns through <m>2\theta</m> keeping the incident ray constant, as shown in <xref ref="rotatedmir"/>.
+    </p>
+    <p>
+      In <xref ref="rotatedmir"/>, <m>\angle POL = g,</m> is called glancing angle. 
+      It is the angle made by the incident ray with the reflecting surface so that <m>g+i=90^{o}</m>. 
+      Now <m>\angle MOQ =g=\angle POL</m>, vertically opposite angle and <m>\angle ROM = g.</m> 
+      Since <m>i=r</m> and <m>r+g=90^{o},</m> i.e, <m>\angle ROQ = 2g</m>. Once the mirror, LM 
+      is rotated by an angle <m>\theta</m> and takes the position L'M' then the new glancing is 
+      <m>g+\theta</m> and <m>\angle R'OQ = 2(g+\theta)</m>.
+      <me>
+        \therefore \quad R'OR=R'OQ-R OQ = 2(g+\theta) - 2g = 2\theta
+      </me>
+      <me>
+        \text{or,}\quad \angle R'OR = \angle R'OM - \angle ROM 
+      </me>
+      <me>
+        =(\angle R'OM' + \angle M'OM) - \angle ROM 
+      </me>
+      <me>
+        = [(g+\theta) +\theta]-g = 2\theta
+      </me>
+         </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-inclined_mir">
+    <title>Inclined Mirrors</title>
+    <p>
+      The number of images formed by inclined mirrors depend upon the angle of inclination of the mirrors, 
+      object position, and observer's position. The proof of the number of images formed in 
+      such case is not the part of this book but from the experimental verification the following 
+      formula will be helpful to find the maximum number of images formed by inclined plane mirrors. 
+      <me>
+        (n+1)\theta = 360^{o} \Rightarrow \quad n= \frac{360^{o}}{\theta}-1
+      </me>
+     where <m>\theta</m> is the angle of inclination of plane mirrors and n is number of images formed. 
+    </p>
+    <figure xml:id="imageinclmir">
+      <caption></caption>
+      <image source="imageinclmir.png" width="35%"/>
+  </figure>
+    <p>
+      If there can be even number of segments of <m>360^{o}</m> then the number of images formed 
+      is given by n-1 or if the number of segments of  <m>360^{o}</m>  is odd then number of 
+      images formed will be n only. That is if <m>\theta = 90^{o}</m> then number of images, 
+      <me>
+        n=\frac{360^{o}}{90}-1=3
+      </me>
+      and if <m>\theta = 72^{o} </m>, then number of images,
+       <me>n=\frac{360^{o}}{72}=5</me>.
+    </p>
+  </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-sp_mir">
+  <title>Spherical Mirror</title>
+  <introduction>
+    <p>
+      Spherical mirror is a part of spherical surface which is polished in such a way that one 
+      of its side becomes reflecting surface.  If the exterior of a curvature of hollow sphere 
+      is coated in such a way that the interior (or cave part) of the surface behaves as reflecting 
+      surface then it is called a <term>concave mirror</term>. If the interior of the sphere is 
+      coated in such a way that the  exterior (or vex part) behaves as a reflecting surface  
+      then it is called a <term>convex mirror</term> as shown in <xref ref="sp_mirror"/>.  
+    </p>
+    <figure xml:id="sp_mirror">
+      <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="sphmir">
+          <caption></caption>
+          <image source="sphmir.png"/>
+      </figure>
+          <figure xml:id="concavemir">
+              <caption></caption>
+              <image source="concavemir.png"/>
+          </figure>
+          <figure xml:id="convexmir">
+            <caption></caption>
+            <image source="convexmir.png"/>
+        </figure>
+            </sidebyside>
+    </figure>
+
+    <p>
+      The center of a sphere of which a mirror is a part is called a <term>center of curvature, C</term>. 
+      An imaginary line passing through the center of curvature of a spherical mirror is called the 
+      <term>principal axis</term> or optical axis of the mirror. Principle axis is a symmetrical line 
+      of the mirror. The point on the surface of mirror through which a principle axis is passing is 
+      called a <term>pole, P</term> or vertex of the mirror. The radius of a sphere of which a mirror 
+      is a part is called the <term>radius of curvature, R</term> of the mirror. Radius of curvature 
+      is a distance between pole of the mirror to the center of curvature of the mirror.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="concavemir2">
+          <caption></caption>
+          <image source="concavemir2.png"/>
+      </figure>
+          <figure xml:id="convexmir2">
+              <caption></caption>
+              <image source="convexmir2.png"/>
+          </figure>
+          <figure xml:id="caustic">
+            <caption></caption>
+            <image source="caustic.png"/>
+        </figure>
+            </sidebyside>
+    </figure>
+
+    <p>
+      The point on the principle axis through which the reflected rays of all the incident rays 
+      prallel to the principle axis must pass or appear to diverge from is called a <term>focus, F</term> 
+      and the distance between the pole and the focus is called a <term>focal length, f</term> 
+      of the mirror as shown in <xref ref="concavemir2"/> and <xref ref="convexmir2"/>. 
+      The size of the mirror is called the <term>aperture</term> of the mirror. If the aperture 
+      of a mirror is small then reflected rays of any beam parallel to the principle axis either 
+      must pass through  or appear to diverge from the focus of the the mirror. In the case of 
+      a mirror of large aperture these reflected rays fail to meet at a single focus point, 
+      such inability of a mirror to focus all the reflected rays of a parallel incident beam 
+      at a single point is called geometrical or <em>spherical aberration</em> of the mirror. 
+      The light rays that lie close to the principal axis are called <em>paraxial rays</em> 
+      and they only able to meet at a single focus after reflection from the mirror. 
+      The rays that lie far from the principal axis are called <em>marginal rays</em> 
+      and after reflection  they cross the principle axis before focus point. Hence, the 
+      reflection of large beam of light from the spherical mirror of large aperture creates 
+      a curved shape of light called a <term>caustic curve</term> as shown in <xref ref="caustic"/>. 
+      The cusp of caustic curves lie at the focus of the mirror. Spherical aberration can be 
+      minimized by using a mirror of small aperture which is smaller compared to its radius of 
+      curvature. Parabolic mirror will also minimize such spherical aberration. 
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-fr_rel">
+    <title>Relation between f and R</title>
+    <p>
+<proof>
+  <p>
+    Consider a concave mirror of small aperture and the incoming parallel ray is close to the 
+    principal axis so that angle of incidence i is small. Hence <m>\vartriangle CAB</m> 
+    and <m>\vartriangle FAB</m> are approximately right angled triangles with the same opposite side AB.
+  </p>
+  <figure xml:id="fR">
+    <caption></caption>
+    <image source="fR.png" width="35%"/>
+</figure>
+  <p>
+    From <m>\vartriangle CAB,</m> 
+    <me>
+      \tan i = \frac{AB}{BC}= \frac{AB}{R}
+    </me>
+    <m>[\angle ACF=i, </m> an alternate angle.]
+    <me>
+      \vartriangle FAB, \quad \tan \theta = \frac{AB}{BF} = \frac{AB}{f} 
+    </me>
+    but from <m>\vartriangle FAC</m>  
+    <me>
+      \theta = i+r = 2i,
+    </me>
+     exterior angle is sum of non-adjacent interior angles and <m>i=r,</m> law of reflection. 
+<me>
+  \therefore \quad \tan \theta = \tan 2i \Rightarrow \frac{AB}{f}=\frac{2AB}{R} \Rightarrow f=\frac{R}{2}
+</me>
+    </p>
+</proof>
+<me>
+  f=\frac{R}{2}
+</me>
+Similarly, we can obtain the relation for convex mirror as <m>f=-\frac{R}{2}</m>.
+    </p>
+  </subsubsection>
+
+<subsubsection xml:id="subsubsec-sign_rulemir">
+  <title>Sign Rules:</title>
+   
+  <p>
+    <term></term>
+Since focus and center of curvature lie behind the convex mirror the following sign conventions 
+will be helpful in analyzing the nature of image formation by the spherical mirrors.  
+<ol>
+  <li>
+    All distance will be measured from pole of the mirror;
+  </li>
+  <li>
+    Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and
+  </li>
+  <li>
+    Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.
+  </li>
+</ol>
+  </p>
+  <p>
+   <term> Note:</term> The distance between object and pole of the mirror is called <term>object distance</term> 
+   and that between image and pole of the mirror is called <term>image distance</term>.
+  </p>
+</subsubsection>
+
+
+<subsubsection xml:id="subsubsec-mir_form">
+  <title> Mirror Formula</title>
+  <p>
+  An expression which shows the relation between object distance, image distance, and focal length of a 
+  mirror is called the mirror formula. To derive the formula following assumptions will be made. 
+  The aperture of the mirror is small and the object should be placed on the principal axis.
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="40% 40%">
+      <figure xml:id="mirform">
+        <caption></caption>
+        <image source="mirform.png"/>
+    </figure>
+        <figure xml:id="mirform2">
+            <caption></caption>
+            <image source="mirform2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+<p>
+  Let an object AB is placed on the principle axis as shown in <xref ref="mirform"/>. 
+  Consider a ray of light BM incident on the mirror parallel  to the principle axis and 
+  after reflection passes through the focus F and goes along FB'. Another ray from B passes 
+  through the focus F, incident on the mirror at N and after reflection meets FB' at B'. 
+  So that A'B' is the real image of the object AB. Draw perpendicular from points M and N  on the principle axis. 
+  Now, from similar <m>\vartriangle ABF</m> and <m>\vartriangle PNF</m> 
+  <me>
+    \frac{AB}{PN}=\frac{AF}{PF}
+  </me>
+  In similar triangles the ratio of corresponding sides are equal.
+</p>
+<p>
+ <men xml:id="eqn-mirform1">
+  \text{or,} \quad \frac{h_{o}}{h_{i}}=\frac{u-f}{f} 
+ </men>
+ here <m>h_{o},\, h_{i}, \,u,</m> and <m>f</m> are size of object, size of image, object distance, and image distance, 
+ respectively. Again, from similar <m>\vartriangle A'B'F</m> and <m>\vartriangle PMF</m>  
+ <me>
+  \frac{MP}{A'B'}=\frac{PF}{A'F}
+ </me>
+ 
+ <men xml:id="eqn-mirform2">
+  \text{or,} \quad \frac{h_{o}}{h_{i}}=\frac{f}{v-f}
+ </men>
+ From eqns. <xref ref="eqn-mirform1"/> and <xref ref="eqn-mirform2"/>, we get - 
+ <me>
+  \frac{u-f}{f} = \frac{f}{v-f} 
+ </me>
+ <me>
+  \textbf{or,}\quad f^{2}=uv-uf -vf+f^{2} \Rightarrow uv=uf + vf
+ </me>
+ Divide both sides by <m>uvf</m>, we get - 
+ <men xml:id="eqn-mirform3">
+  \therefore \quad \frac{1}{f} = \frac{1}{u} +\frac{1}{v}
+ </men>
+ We can obtain the similar formula for convex mirror with the help of <xref ref="mirform2"/>. 
+ From similar <m>\vartriangle^{s} ABC</m> and <m>\vartriangle^{s} A'B'C</m> 
+ <me>
+  \frac{AB}{AC}=\frac{A'B'}{A'C} \Rightarrow \frac{h_{o}}{u+R}=\frac{h_{i}}{R-v}
+ </me>
+ From similar <m>\vartriangle^{s} PMF</m> and <m>\vartriangle^{s} A'B'F </m> 
+ <me>
+  \frac{PM}{PF}=\frac{A'B'}{A'F} \Rightarrow \frac{h_{o}}{f}=\frac{h_{i}}{f-v};
+ </me>
+ <me>
+  \text{Hence}\quad \frac{h_{o}}{h_{i}}=\frac{u+R}{R-v} =\frac{f}{f-v}
+ </me>
+ Substituting 
+ <me>
+  R=-2f
+ </me>
+  and solving the above expression, we get - 
+ <men xml:id="eqn-mirform4">
+  \frac{1}{f} = \frac{1}{u} +\frac{1}{v}
+ </men>
+  </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-lateral_magmir">
+  <title>Lateral Magnification, m</title>
+  <p>
+   The ratio of the size of image to the size of object is known as a magnification, 
+   <me>
+    m=\frac{h_{i}}{h_{o}} = -\frac{v}{u}.
+   </me>
+  Negative sign indicates inverted image.
+  </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-concave_image">
+  <title>Formation of Image by a Concave Mirror</title>
+
+  <p>
+
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="16% 16% 16% 16% 16% 16%">
+      <figure xml:id="caveinf">
+        <caption></caption>
+        <image source="caveinf.png"/>
+    </figure>
+        <figure xml:id="cavebeyC">
+            <caption></caption>
+            <image source="cavebeyC.png"/>
+        </figure>
+        <figure xml:id="caveC">
+          <caption></caption>
+          <image source="caveC.png"/>
+      </figure>
+          <figure xml:id="caveFC">
+              <caption></caption>
+              <image source="caveFC.png"/>
+          </figure>
+          <figure xml:id="caveF">
+            <caption></caption>
+            <image source="caveF.png"/>
+        </figure>
+            <figure xml:id="caveFP">
+                <caption></caption>
+                <image source="caveFP.png"/>
+            </figure>
+         </sidebyside>
+  </figure>
+<p>
+<ol>
+  <li>
+    <em>When object lies at infinity:</em>
+    Consider a parallel beam of light coming from an object O at infinity incident on the 
+    mirror and after reflection converges on a focal plane to form an image I as shown in <xref ref="caveinf"/>. 
+    The image is formed at focus and will be real, inverted, and point in size. Using mirror formula, 
+    if <m>u=\infty</m> then <m>v=f</m>, hence real, point in size, (as <m>m=-f/\infty=0</m>) and inverted.
+  </li>
+  <li>
+   <em> When object lies beyond center of curvature:</em>
+    Consider a ray of light BM is incident on the mirror parallel to the principle axis then 
+    after reflection it passes through F along MB'. Another ray BN incident on the mirror through 
+    F and meet to MB' at B' to  form an image AB' as shown in <xref ref="cavebeyC"/>. 
+    From geometry of the figure the image is formed between focus and center of curvature, inverted, real, and smaller in size.
+  </li>
+  <li>
+   <em> When object lies at center of curvature:</em>
+    From geometry of the <xref ref="caveC"/>, the image is formed at C, inverted, real, and equal in size. 
+    Mirror formula <m>v= \frac{fu}{u-f} = 2f</m>. If <m>u=2f</m>, and <m>m=-\frac{2f}{2f}=-1</m>.
+  </li>
+  <li>
+    <em>When object lies between F and C:</em>
+ From geometry of the <xref ref="caveFC"/>, the image is formed beyond C, inverted, real, and magnified.
+  </li>
+  <li>
+   <em> When object lies at F:</em>
+From geometry of the <xref ref="caveF"/>, the image is formed at infinity, inverted, real, and highly magnified. 
+  </li>
+  <li>
+   <em> When object lies between F and P:</em>
+    From geometry of the <xref ref="caveFP"/>, the image is formed behind the mirror, erect, virtual, and magnified. 
+  </li>
+</ol>
+</p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-convex_image">
+  <title>Formation of Image by a Convex Mirror</title>
+  
+  <figure>
+    <caption></caption>
+    <sidebyside widths="25% 25%">
+            <figure xml:id="vexinf">
+          <caption></caption>
+          <image source="vexinf.png"/>
+      </figure>
+          <figure xml:id="vexP">
+              <caption></caption>
+              <image source="vexP.png"/>
+          </figure>
+         </sidebyside>
+  </figure>
+  <p>
+<ol>
+  <li>
+    <em>When object lies at infinity:</em> From geometry of the <xref ref="vexinf"/>, 
+    the image is formed behind the mirror at F, erect, virtual, and highly diminished. 
+  </li>
+  <li>
+   <em> When object lies on the Principle axis:</em>
+  From geometry of the <xref ref="vexP"/>, the image is formed behind the mirror between 
+  F and P, erect, virtual, and diminished.
+  </li>
+</ol>
+  </p>
+ </subsubsection>
+</subsection>
+  </section>
+
