@@ -3169,20 +3169,11 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "sec_fourth-organ",
-  "level": "1",
-  "url": "sec_fourth-organ.html",
-  "type": "Section",
-  "number": "4.3",
-  "title": "Musical Instruments",
-  "body": " Musical Instruments  "
-},
-{
   "id": "sec_fourth-examplesA",
   "level": "1",
   "url": "sec_fourth-examplesA.html",
   "type": "Section",
-  "number": "4.4",
+  "number": "4.3",
   "title": "Examples A",
   "body": " Examples A    A simple harmonic oscillator of mass 100 g is released from rest at a displacement of 5 cm and oscillates with a frequency of 120 rpm. Find  its angular frequency,  its effective force constant,  its amplitude,  its energy,  its speed when passing through x = 2 cm,  the time to first reach x = 2 cm,  the force on the mass when x = 2 cm,  the time to make one complete cycle.      Given:                                        A transverse wave is expressed in MKS units as Find  its amplitude,  its wavelength,  its frequency,  its period,  its velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.      Given:   Evaluate the given equation with                                  "
 },
@@ -3191,7 +3182,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_fourth-examplesA.html#example-61",
   "type": "Example",
-  "number": "4.4.1",
+  "number": "4.3.1",
   "title": "",
   "body": "  A simple harmonic oscillator of mass 100 g is released from rest at a displacement of 5 cm and oscillates with a frequency of 120 rpm. Find  its angular frequency,  its effective force constant,  its amplitude,  its energy,  its speed when passing through x = 2 cm,  the time to first reach x = 2 cm,  the force on the mass when x = 2 cm,  the time to make one complete cycle.      Given:                                     "
 },
@@ -3200,34 +3191,403 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_fourth-examplesA.html#example-62",
   "type": "Example",
-  "number": "4.4.2",
+  "number": "4.3.2",
   "title": "",
   "body": "  A transverse wave is expressed in MKS units as Find  its amplitude,  its wavelength,  its frequency,  its period,  its velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.      Given:   Evaluate the given equation with                                 "
+},
+{
+  "id": "subsec-speed_TW",
+  "level": "1",
+  "url": "subsec-speed_TW.html",
+  "type": "Subsection",
+  "number": "4.4.1",
+  "title": "Speed of a Transverse Wave",
+  "body": " Speed of a Transverse Wave  Let us consider an elastic string tightly stretched between its two ends by a constant tension T. The string is caused to vibrate by plucking it with a very small displacement so that the tension T remains constant through out the deflections of the string. Consider a small element of the string of arc length [ ] which is moving at a constant velocity, v towards right. If this arc subtends an angle at its center then length of arc, where R is radius of the arc. If is mass per unit length of a string then mass of the arc, The force acting on the string element along x-axis is given by i.e., there is no horizontal motion of the particle of a string.      The force acting on the string element along y-axis is given by i.e., because of the circular portion of string each particle of string element experiences centripetal force. where v is a velocity of wave which is passing through the string.  Hence the velocity of wave depends on the tension and mass per unit length of a string. Velocity of mechanical waves generally takes the form   "
+},
+{
+  "id": "speedTW",
+  "level": "2",
+  "url": "subsec-speed_TW.html#speedTW",
+  "type": "Figure",
+  "number": "4.4.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-speed_LW",
+  "level": "1",
+  "url": "subsec-speed_LW.html",
+  "type": "Subsection",
+  "number": "4.4.2",
+  "title": "Speed of a Longitudinal Wave",
+  "body": " Speed of a Longitudinal Wave  When a longitudinal wave passes through a fluid, it produces a local compression and rarefaction (expansion of the fluid). Consider a column of fluid of cross-sectional area A in which a longitudinal wave is being passed perpendicularly to the cross-section [ ]. As the wave passes a small portion of fluid of volume having thickness will move and gets compressed because of the pressure difference between both faces.                       The right face experiences a backward pressure of and the left face experience a forward pressure of . Hence due to the forces difference fluid move to the right and as it accelerates it will change its volume to The fluid column only experiences normal force along x-axis as it does not support shear forces. If is the displacement of fluid column from to , then from Newton's law      But from Bulk modulus of elasticity,  where    From eqns. and , we have  Which is the wave equation of longitudinal wave. Hence where is the amplitude of the wave or maximum displacement of fluid column, is angular frequency, and is the wave number.   Also pressure fluctuation can be which is lagging behind the displacement by quarter of wavelength and is pressure amplitude.       Hence the speed of longitudinal wave in fluid is given by   In general speed of longitudinal wave is This is the same as writing Newton assumed that the process is very slow when a wave passes through fluid hence the temperature remains constant through out the process, i.e.,     Now at normal temperature and pressure (NTP) the atmospheric pressure is and density of air is , we have velocity of sound in air is But the experimental value of sound in air is 332 m\/s. Hence Laplace modified this solution by assuming that when wave flows through the fluid compression and rarefaction occur so fast that there is no exchange of heat between the system and surrounding in fluid. Hence        Here and stand for number of moles, molar mass, and absolute temperature of gas, respectively.  "
+},
+{
+  "id": "LW",
+  "level": "2",
+  "url": "subsec-speed_LW.html#LW",
+  "type": "Figure",
+  "number": "4.4.2",
+  "title": "",
+  "body": "                    "
+},
+{
+  "id": "subsec-energy_MW",
+  "level": "1",
+  "url": "subsec-energy_MW.html",
+  "type": "Subsection",
+  "number": "4.4.3",
+  "title": "Energy Transport in a Mechanical Wave",
+  "body": " Energy Transport in a Mechanical Wave  When wave passes through the medium it transfers energy to that medium. Consider a small portion of oscillating string in which sinusoidal wave is propagated then average energy attains by the particle of a string is given by where m and is the mass and maximum velocity of the particle of that string.  Waves on a string carry energy along the length of the string, but when waves pass through a solid or a fluid they carry energy along all three dimensions of space. Hence we need to define intensity of wave, which is energy transmitted by the wave in unit area of this material in unit time.  here , is amplitude of oscillation, and v is wave speed. Since intensity obeys inverse square law as  where is the surface area of a sphere of radius, r of space in which wave is propagated. Hence intensity of the wave decreases by the square of the distance it propagated.  "
+},
+{
+  "id": "subsec-interferMW",
+  "level": "1",
+  "url": "subsec-interferMW.html",
+  "type": "Subsection",
+  "number": "4.4.4",
+  "title": "Interference of Mechanical Waves",
+  "body": " Interference of Mechanical Waves  When a wave travels to the end of a medium all or part of it is reflected back. The nature of the reflected wave depends upon the state of boundary known as boundary conditions . Consider a wave (e.g. a pulse) on a stretched string approaches the fixed end to the right it exerts a force on a fixed support and according to Newton's third law a fixed support also exerts a force on the string, as a result an inverted pulse (wave) travels back to the left and when these two incident and reflected waves overlap they cancels each other as shown in .   Fixed End Pulse Overlapping    Incident Pulse     Reflected Pulse     Amplitude Zero      On the other hand, when a wave pulse travels along a string with a free end (one end of string attached to a ring that is free to slide along a pole) and when the wave reaches to the free end at its maximum displacement both wave and string come to at rest for a moment. During this time string is stretched to highest value and applies a maximum tension on string due to which string gets pulled back down which constitutes a reflected wave pulse but in the same phase as incident wave pulse. When they overlap the amplitude of pulse increased by double as shown in . The total displacement of overlapping wave pulses is an algebraic sum of their displacement in individual pulses.   Free End Pulse Overlapping    Incident Pulse     Reflected Pulse     Amplitude Doubled      Overlapping of two or more waves at the same region at same time is known as interference .  "
+},
+{
+  "id": "fixep",
+  "level": "2",
+  "url": "subsec-interferMW.html#fixep",
+  "type": "Figure",
+  "number": "4.4.3",
+  "title": "",
+  "body": " Fixed End Pulse Overlapping    Incident Pulse     Reflected Pulse     Amplitude Zero     "
+},
+{
+  "id": "freep",
+  "level": "2",
+  "url": "subsec-interferMW.html#freep",
+  "type": "Figure",
+  "number": "4.4.4",
+  "title": "",
+  "body": " Free End Pulse Overlapping    Incident Pulse     Reflected Pulse     Amplitude Doubled     "
+},
+{
+  "id": "p-732",
+  "level": "2",
+  "url": "subsec-interferMW.html#p-732",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "interference "
+},
+{
+  "id": "subsec-super_princple",
+  "level": "1",
+  "url": "subsec-super_princple.html",
+  "type": "Subsection",
+  "number": "4.4.5",
+  "title": "Principle of Superposition",
+  "body": " Principle of Superposition   principle of superposition When two wave pulses traveling along a rope in opposite direction they pass through each other undisturbed and continue moving with their individual original amplitude and velocity. They interact only at a point of overlap where their amplitude become algebraic sum of their individual amplitudes as shown in .   Superposition of two waves    in same phase     Double amplitude     in oppsite phase     Zero amplitude      When two or more waves superimpose (overlap) at a point then the resultant displacement of the medium particle is the algebraic sum of the displacement of the particle due to individual waves. This is known as principle of superposition . Let and are the wave functions of two waves, then from priciple of superposition the resulting displacement of a particle at that point is given by the wave function Wave function has a linear property (meaning wave function depends only the first power of x and t but not on their higher power) hence the principle of superposition holds good only in a medium which obeys Hooke's Law. Superposition of two or more waves gives rise to interference. When two similar waves superimpose in the same phase their amplitude re-enforce each other and resultant amplitude is just the double of their individual amplitude such interference is called a constructive interference . For constructive interference the path difference between two superimposing waves is given by When two similar waves superimpose in the opposite phase their amplitude cancels out each other and resultant amplitude is just zero such interference is called a destructive interference . For destructive interference the path difference between two superimposing waves is given by The path difference of two waves is related to their phase difference by   "
+},
+{
+  "id": "spmw",
+  "level": "2",
+  "url": "subsec-super_princple.html#spmw",
+  "type": "Figure",
+  "number": "4.4.5",
+  "title": "",
+  "body": " Superposition of two waves    in same phase     Double amplitude     in oppsite phase     Zero amplitude     "
+},
+{
+  "id": "p-734",
+  "level": "2",
+  "url": "subsec-super_princple.html#p-734",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "principle of superposition "
+},
+{
+  "id": "subsec-prog_wave",
+  "level": "1",
+  "url": "subsec-prog_wave.html",
+  "type": "Subsection",
+  "number": "4.4.6",
+  "title": "Traveling Waves (or Progressive Waves):",
+  "body": " Traveling Waves (or Progressive Waves):   progressive waves A wave which can propagate in a medium and carry energy from one location to another is known as progressive or traveling wave. As progressive wave passes through a medium each particle executes same type of vibration as the preceding one. No particle is permanently at rest except at its extreme position. All the particles of the medium attain same maximum velocity as they cross their mean position. A progressive wave is represented by where v is the velocity of the wave. The wave function is given by where is the angular frequency and is the wave number.  "
+},
+{
+  "id": "subsec-stand_wave",
+  "level": "1",
+  "url": "subsec-stand_wave.html",
+  "type": "Subsection",
+  "number": "4.4.7",
+  "title": "Standing Waves (or stationary waves):",
+  "body": " Standing Waves (or stationary waves):    stationary waves A wave which appears stand still and does not seem to be moving is called a standing wave. It is a pattern of waves rather than wave itself. When two (or more) progressive waves of same frequency travel in a same medium in opposite directions overlap in such a way that the position of medium particles seem stand still at the same point is know as a standing wave. It is a superposition of progressive wave with its own reflection. There is no onward motion of the disturbance as no particle transfers its motion to the next. Since the waves seem stand still the position of medium particles form a pattern of nodes and antinodes. The point in a medium where amplitude of oscillation is zero is called nodes . The point in a medium where oscillations reach to their maximum value is called antinodes . All points on the string oscillate at the same frequency but with different amplitudes. Standing wave is one of the normal modes of vibrations of stretched string.   Standing wave    The wave function of standing wave can be found as  From the principle of superposition the resultant wave is   See Appendix for trigonometric identities and .     The term describes the sinusoidal shape of the wave pattern and the term describes the flip-flop (up-down oscillatory) motion of each wave segment. This is no longer a progressive wave equation as position and time dependence of the wave equation have been separated from each other. The term defines the amplitude of a wave at a given location and the term defines the variation in displacement of a medium particle with time, t.    Position of nodes and antinodes  Since the amplitude of standing wave is zero we can set in eqn. as      Since the displacement of particles are maximum at antinodes in standing wave we can set in eqn. as     "
+},
+{
+  "id": "p-736",
+  "level": "2",
+  "url": "subsec-stand_wave.html#p-736",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "nodes antinodes "
+},
+{
+  "id": "standwave",
+  "level": "2",
+  "url": "subsec-stand_wave.html#standwave",
+  "type": "Figure",
+  "number": "4.4.6",
+  "title": "",
+  "body": " Standing wave   "
+},
+{
+  "id": "subsec-string",
+  "level": "1",
+  "url": "subsec-string.html",
+  "type": "Subsection",
+  "number": "4.5.1",
+  "title": "Stretched String",
+  "body": " Stretched String  The string on a musical instrument is fixed at both ends, so any vibration of the string must have nodes at each end. Guitar, Violin, etc are string instruments. Consider a string of length, L is stretched on both ends and plugged at middle in such a way that it produces standing waves of fundamental frequency as shown in .   Stretched String    Fundamental Frequency     Harmonics     Harmonics     Harmonics        where , f and v are wavelength, frequency, and velocity of a progressive wave. This is I Harmonics or fundamental frequency.    This is II Harmonics or I overtone.    This is III Harmonics or II overtone.  Hence the normal modes of vibration of a stretched string is given by   "
+},
+{
+  "id": "strstring",
+  "level": "2",
+  "url": "subsec-string.html#strstring",
+  "type": "Figure",
+  "number": "4.5.1",
+  "title": "",
+  "body": " Stretched String    Fundamental Frequency     Harmonics     Harmonics     Harmonics     "
+},
+{
+  "id": "subsec-organ_pipe",
+  "level": "1",
+  "url": "subsec-organ_pipe.html",
+  "type": "Subsection",
+  "number": "4.5.2",
+  "title": "Organ Pipe",
+  "body": " Organ Pipe  It is a musical instrument which produces standing waves if the vibration is set up at one end of the pipe. Vibration set up at one end get reflected back from the other end and once they overlap standing wave pattern produced with a melodious sound. There are two types of organ pipe.      Open Pipe: An organ pipe which is open at its both ends is an open organ pipe. Flute, Trumpet, etc. are open organ pipes. Consider an open pipe of length, L whose both ends are open. When vibration is set at one end it reflects from the other end and produces standing waves of fundamental frequency as shown in .   Stretched String    Fundamental Frequency ( Harmonics)     Harmonics (I Overtones)     Harmonics (II Overtones)                  Hence the normal modes of vibration of an open pipe is given by      Closed Pipe: An organ pipe which is open at its one ends and closed at another is a closed organ pipe. Clarinet, whistle, bottle, etc. are closed organ pipes. Consider a closed pipe of length, L whose one end is open and another is closed. When vibration is set at open end it reflects from the other end and produces standing waves of fundamental frequency as shown in .   Stretched String    Fundamental Frequency ( Harmonics)     Harmonics (I Overtones)     Harmonics (II Overtones)                 Hence the normal modes of vibration of a closed pipe is given by It is observed that in case of closed pipe frequency of higher modes of vibration is odd multiples of fundamental frequency. Even harmonics are missing in this case hence sound quality is poor.     "
+},
+{
+  "id": "p-751",
+  "level": "2",
+  "url": "subsec-organ_pipe.html#p-751",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Open Pipe: Closed Pipe: "
+},
+{
+  "id": "subsec-echo",
+  "level": "1",
+  "url": "subsec-echo.html",
+  "type": "Subsection",
+  "number": "4.6.1",
+  "title": "Reverberation and Echo",
+  "body": " Reverberation and Echo  Echo and reverberation are two distinct phenomenon of sound waves which occur due to its reflection from any surfaces. Sound endures in our brain (or we have the memory that sound being in existence for) longer than 0.1 second. If sound is reflected from any surface reaches to our ear within 0.1 seconds of the initial sound, then it seems that the sound is prolonged. The reception of reflected sound within 0.1 second causes the reverberation - the prolonging of a sound. The speed of sound in air is about 340 m\/s at ambient temperature. If the wall of a room is 17 meter away from the source of sound then it reflects back from the wall and reaches to the ear within 0.1 s. hence causing a prolonged sound effect, called a reverberation.  Echoes are also the effect of reflection of sound waves perceived by the ear. When a reflected sound wave reaches the ear after 0.1 seconds of the original sound was heard then echoes are produced. If the elapsed time between the arrivals of the two sound waves is more than 0.1 seconds, then the sensation of the first sound will have died out. In other words, echo is a sensation of second sound wave after the effect of original sound wave will vanish. It is not a prolonging of the original sound wave as in reverberation.   Summary:    Quarter Waves:     Fundamental Frequencies:      Normal Modes:      Interference:        "
+},
+{
+  "id": "subsec-beatsf",
+  "level": "1",
+  "url": "subsec-beatsf.html",
+  "type": "Subsection",
+  "number": "4.6.2",
+  "title": "Beats",
+  "body": " Beats  The phenomenon of producing a maximum loudness periodically when two sound waves of same amplitude and slightly different frequencies are superimposed is known as beats . The frequency of the beats depends upon the difference in frequency of the two waves. If the frequency difference is larger than 20 Hz, a tone is usually perceived separately rather than distinct beats. Beat frequency is given by where and are frequencies of the two waves. When two such waves superimpose there is a variation in amplitude of resulting wave which causes the change in loudness and hence the beats are produced.      Two waves of different frequency     Superposition of two waves      Consider two waves are interfering to each other, then the resultant wave is given by    where is the average of and and is one half of their difference. The amplitude factor varies slowly with . The frequency of this second term is , but the ear cannot hear the inversion of phase that occurs when phase is negative and the difference is small. This term is responsible for the beating effect, and is known as an envelope. The sine factor varies with a frequency There are two times that the envelope (cosine term) passes through zero for every wavelength, so the beat frequency is twice the frequency of the envelope and is given by the magnitude of the difference of the two frequencies, i.e., beat frequency   "
+},
+{
+  "id": "p-769",
+  "level": "2",
+  "url": "subsec-beatsf.html#p-769",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "beats "
+},
+{
+  "id": "figure-242",
+  "level": "2",
+  "url": "subsec-beatsf.html#figure-242",
+  "type": "Figure",
+  "number": "4.6.1",
+  "title": "",
+  "body": "    Two waves of different frequency     Superposition of two waves     "
+},
+{
+  "id": "subsec-dopplerefct",
+  "level": "1",
+  "url": "subsec-dopplerefct.html",
+  "type": "Subsection",
+  "number": "4.6.3",
+  "title": "Doppler Effect",
+  "body": " Doppler Effect   The Doppler effect is the change in perceived frequency of a source due to the relative motion between the source and the receiver. It applies to all sorts of waves. Doppler effect can be experienced as the change in frequency or pitch received when an ambulance passes by. When the ambulence is approaching, the pitch of siren is getting higher than the actual frequency of siren. When the ambulence passes by, the frequency sounds the same as the actual emitted frequency and when the ambulance is moving away, the pitch is getting lower than the actual emitted frequency. When the source of the waves is coming towards the observer, observer receives more waves every second compared to being at rest. That is waves bunch together for the observer giving impression for the decrease of wavelength and causing an increase in the frequency. Conversely, if the source of waves is going away from the observer, observer receives less waves every second compared to being at rest. That is waves spread out for the observer giving impression for the increase of wavelength and causing a decrease in the frequency as shown in . Since the velocity of sound is comparable to the listener's velocity and it propagates only in medium, Doppler effect may be the consequence of motion of the source, motion of the observer, or motion of the medium. Each of these effects is analyzed separately. For waves which do not require a medium such as light, only the relative velocity between the observer and the source needs to be considered.      Stationary Source and Listners     Source towards Listner      As source of sound moves there is a change in wavelength perceived by the listener and if listener moves there is a change relative velocity of the sound can be measured by the listener. Hence the frequency (or pitch, ) of sound perceived by the listner can be determined by where and are the relative velocity of sound and effective wavelength of sound wave for the listner.    Stationary source and listener  If source and listener both are at rest then there is no change in pitch i.e., here , v and are the frequency, velocity, and wavelength of sound wave, respectively.    Source is moving towards stationary listener  If source is moving towards listener with a velocity then listener receives more waves everysecond causes decrease in wavelength. Hence pitch of sound heard by the listener is given by    When source is moving towards the listener wavelength squeezed by for every cycle of wave. Here T is a time period of the wave.    Source is moving away from stationary listner  If source is moving away from the listener wavelength stretched out by for every cycle of wave. Hence pitch is given by     Listener is moving towards a stationary source  If listener is moving towards a stationary source of sound with a velocity then the relative velocity of sound is changed for the listener. Hence pitch of sound heard by the listener is given by    The direction of sound velocity is taken as positive and hence if listener is moving towards the source then the relative velocity increased.    Listener is moving away from a stationary source  If listener is moving away from a stationary source of sound with a velocity then the relative velocity of sound for the listener is . Hence pitch of sound heard by the listener is given by     Source and listener move towards each other  In ths case pitch is given by        Source and listener move away from each other  In ths case pitch is given by    "
+},
+{
+  "id": "p-771",
+  "level": "2",
+  "url": "subsec-dopplerefct.html#p-771",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "pitch "
+},
+{
+  "id": "figure-245",
+  "level": "2",
+  "url": "subsec-dopplerefct.html#figure-245",
+  "type": "Figure",
+  "number": "4.6.2",
+  "title": "",
+  "body": "    Stationary Source and Listners     Source towards Listner     "
+},
+{
+  "id": "subsec-defct_sign",
+  "level": "1",
+  "url": "subsec-defct_sign.html",
+  "type": "Subsection",
+  "number": "4.6.4",
+  "title": "Sign Convention for Doppler Effect",
+  "body": " Sign Convention for Doppler Effect        Remember: If a source is going away from a listener then denominator has to increase (i.e. ) to lower the pitch. If a source is coming towards a listener then denominator has to decrease (i.e. ) to raise the pitch.  "
+},
+{
+  "id": "subsec-sonic_boom",
+  "level": "1",
+  "url": "subsec-sonic_boom.html",
+  "type": "Subsection",
+  "number": "4.6.5",
+  "title": "Sonic Boom",
+  "body": " Sonic Boom  A loud noise that is created by the shock wave is called a sonic boom. When source of sound is traveling faster than the speed of sound then it produces a sonic boom. Any thing moving faster than the speed of sound is called a supersonic speed. An aircraft which is going at subsonic speeds (lower than that of sound), its sound wave is radiated in all directions in such a way that the individual wavefronts are bunched at he front of the aircraft and spread at the back of it because of forward motion of the aircraft as shown in . This effect is well known as Doppler effect which changes the pitch of the aircraft's sound as it passes us. When the plane is approaching us its sound has a higher pitch than if it is going away from us. If the aircraft is traveling with the same speed as that of sound (called sonic speed) then the aircraft is at the leading edge of wavefronts that it produces as shown in . All the wavefronts are bunched up at the front of the aircraft. This phenomenon is known as a shock wave. If the aircraft is traveling at the supersonic speeds, then a pressure wave is produced in the shape of the cone whose vertex is at the nose of the aircraft, and whose base is behind the plane. The angle opening of the cone depends on the actual speed the plane is traveling at. All of the sound pressure is contained in this cone as shown in . Now imagine that this aircraft is in a level flight. Before the aircraft passes you, you can only see it but you can not hear anything. The pressure cone is trailing behind the aircraft. Once your ears intersect the edge of this cone, your will hear a very loud sound - the sonic boom. Therefore you will hear the sonic boom once your ears intersect this cone.      source at rest     subsonic     sonic     supersonic      The ratio of the speed of a sound source, (speed of aircraft) to the speed of sound, v in a fluid is known as the Mach number. Speed less than the speed of sound have a Mach number between zero and one and are described as subsonic. Those greater than the speed of sound have Mach numbers greater than one are a described as supersonic. Speeds approximately equal to the speed of sound have Mach numbers approximately equal to one and are described as transonic. The angle at the vertex of shock waves is called Mach angle . where t is the time taken by the sound to reach the ground when aircraft travels the horizontal distance of .  When an object travels slower than the spped of sound, the Mach angle is greater than one, and the equation does not have a real solution. This is because there is no shock wave at subsonic speeds. Traveling at the speed of sound makes the ratio equal one and results in a Mach angle of ninety degrees. At transonic speeds the shock wave is a wall of high pressure moving with the object, perpendicular to its velocity. Above the speed of sound, the ratio is less than one and the Mach angle is less than ninety degrees. The faster the object moves, the narrower the cone of high pressure behind it becomes. Measuring the vertex angle is thus a simple way to determine the speed of a supersonic object.  "
+},
+{
+  "id": "figure-248",
+  "level": "2",
+  "url": "subsec-sonic_boom.html#figure-248",
+  "type": "Figure",
+  "number": "4.6.3",
+  "title": "",
+  "body": "    source at rest     subsonic     sonic     supersonic     "
+},
+{
+  "id": "p-783",
+  "level": "2",
+  "url": "subsec-sonic_boom.html#p-783",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Mach number Mach angle "
 },
 {
   "id": "sec_fourth-examplesB",
   "level": "1",
   "url": "sec_fourth-examplesB.html",
   "type": "Section",
-  "number": "4.5",
+  "number": "4.7",
   "title": "Examples B",
-  "body": " Examples B  "
+  "body": " Examples B    A mass of 2 kg is suspended by a string of length 2 m and mass 100 g. Find  the speed of a transverse wave in the string,  the fundamental frequency of the string (assuming the wavelength is twice the length of the string),  the power transferred up and down the string while vibrating in its fundamental frequency with an amplitude of 2 cm.      Given:                         At what temperature in Celsius is the speed of sound in air equal to . Assume that air is an ideal gas with a molecular mass of (slightly more than that of nitrogen) and that air is diatomic with     Given:            Organ Pipe    A string of mass 100 g and length 2 m is under a tension of 200 N. Find its  wave velocity,  fundamental frequency,   harmonic frequency, and   overtone wavelength.      Given:               or,         Two omnidirectional speakers are located at points (0, 1 m) and (0, -2 m), respectively. What is the minimum frequency of a sound wave that would produce constructive interference at the point (5 m, 0)?    Given:               Sound    The pressure amplitude of a sound wave is If the Bulk modulus of air is and the density of air is find  the speed of sound in the air,  the displacement amplitude of the wave,  the intensity of the wave,  the intensity level of the sound.      Given:     Equations:                              A 100 W speaker has a diameter of 30 cm (about 1 ft).  What is the maximum intensity level it can produce.  If the speaker were placed in the middle of a vast desert, how far away could it be heard?      Given:   Equations:                        A sound meter 2.0 m from a radio registers 75 dB coming from it. What would an identical meter 400 m away read from the radio?             A car traveling 20 m\/s blows its horn of frequency m 300 H_{z} as it passes a second car at rest. If the speed of sound in air is 345 m\/s, find  the frequency hear by the second car before the first passes it,  the frequency heard afterwards,  the wavelength of the sound ahead of the first car,  the wavelength behind the first car.  If the second car blows its horn after the first passes, what is the beat frequency heard by the second car?  By the first car?      Given:                              A student is skating at a speed of 3 m\/s toward the wall of a large building. When he is 100 m from the building he blows a whistle and listens for the echo.  How far does he travel before hearing the echo?  What is the echo frequency he hears?  What is the beat frequency between the echo and his whistle? Assume the speed of sound in air is 345 m\/s.                         The first two spectral lines of the Balmer series for Hydrogen gas are the and lines with wavelengths 656.3 nm and 486.1 nm, respectively.  How fast is a galaxy moving away from us if its line is shifted all the way to the wavelength?  What is the fractional change in wavelength of a star's spectrum if the star is moving away from us at half the speed of light?  What will be the observed shift in wavelength of the line for a star moving toward the earth at a speed equal to that of the earth around the sun? The radius of the earth's orbit is       Given:         Equations:                    for           "
+},
+{
+  "id": "example-63",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-63",
+  "type": "Example",
+  "number": "4.7.1",
+  "title": "",
+  "body": "  A mass of 2 kg is suspended by a string of length 2 m and mass 100 g. Find  the speed of a transverse wave in the string,  the fundamental frequency of the string (assuming the wavelength is twice the length of the string),  the power transferred up and down the string while vibrating in its fundamental frequency with an amplitude of 2 cm.      Given:                      "
+},
+{
+  "id": "example-64",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-64",
+  "type": "Example",
+  "number": "4.7.2",
+  "title": "",
+  "body": "  At what temperature in Celsius is the speed of sound in air equal to . Assume that air is an ideal gas with a molecular mass of (slightly more than that of nitrogen) and that air is diatomic with     Given:          "
+},
+{
+  "id": "example-65",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-65",
+  "type": "Example",
+  "number": "4.7.3",
+  "title": "",
+  "body": "  A string of mass 100 g and length 2 m is under a tension of 200 N. Find its  wave velocity,  fundamental frequency,   harmonic frequency, and   overtone wavelength.      Given:               or,      "
+},
+{
+  "id": "example-66",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-66",
+  "type": "Example",
+  "number": "4.7.4",
+  "title": "",
+  "body": "  Two omnidirectional speakers are located at points (0, 1 m) and (0, -2 m), respectively. What is the minimum frequency of a sound wave that would produce constructive interference at the point (5 m, 0)?    Given:            "
+},
+{
+  "id": "example-67",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-67",
+  "type": "Example",
+  "number": "4.7.5",
+  "title": "",
+  "body": "  The pressure amplitude of a sound wave is If the Bulk modulus of air is and the density of air is find  the speed of sound in the air,  the displacement amplitude of the wave,  the intensity of the wave,  the intensity level of the sound.      Given:     Equations:                           "
+},
+{
+  "id": "example-68",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-68",
+  "type": "Example",
+  "number": "4.7.6",
+  "title": "",
+  "body": "  A 100 W speaker has a diameter of 30 cm (about 1 ft).  What is the maximum intensity level it can produce.  If the speaker were placed in the middle of a vast desert, how far away could it be heard?      Given:   Equations:                     "
+},
+{
+  "id": "example-69",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-69",
+  "type": "Example",
+  "number": "4.7.7",
+  "title": "",
+  "body": "  A sound meter 2.0 m from a radio registers 75 dB coming from it. What would an identical meter 400 m away read from the radio?          "
+},
+{
+  "id": "example-70",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-70",
+  "type": "Example",
+  "number": "4.7.8",
+  "title": "",
+  "body": "  A car traveling 20 m\/s blows its horn of frequency m 300 H_{z} as it passes a second car at rest. If the speed of sound in air is 345 m\/s, find  the frequency hear by the second car before the first passes it,  the frequency heard afterwards,  the wavelength of the sound ahead of the first car,  the wavelength behind the first car.  If the second car blows its horn after the first passes, what is the beat frequency heard by the second car?  By the first car?      Given:                           "
+},
+{
+  "id": "example-71",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-71",
+  "type": "Example",
+  "number": "4.7.9",
+  "title": "",
+  "body": "  A student is skating at a speed of 3 m\/s toward the wall of a large building. When he is 100 m from the building he blows a whistle and listens for the echo.  How far does he travel before hearing the echo?  What is the echo frequency he hears?  What is the beat frequency between the echo and his whistle? Assume the speed of sound in air is 345 m\/s.                      "
+},
+{
+  "id": "example-72",
+  "level": "2",
+  "url": "sec_fourth-examplesB.html#example-72",
+  "type": "Example",
+  "number": "4.7.10",
+  "title": "",
+  "body": "  The first two spectral lines of the Balmer series for Hydrogen gas are the and lines with wavelengths 656.3 nm and 486.1 nm, respectively.  How fast is a galaxy moving away from us if its line is shifted all the way to the wavelength?  What is the fractional change in wavelength of a star's spectrum if the star is moving away from us at half the speed of light?  What will be the observed shift in wavelength of the line for a star moving toward the earth at a speed equal to that of the earth around the sun? The radius of the earth's orbit is       Given:         Equations:                    for         "
 },
 {
   "id": "ex_fourth",
   "level": "1",
   "url": "ex_fourth.html",
   "type": "Exercises",
-  "number": "4.6",
+  "number": "4.8",
   "title": "Exercise",
-  "body": "  Exercise  A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.    An automobile engine has a piston of mass 300 g, a stroke of 10 cm, an area of 10 , and a frequency of 1200 rpm. Find  the angular frequency of oscillation  the effective force constant for the oscillation  the amplitude of oscillation,  the energy of the oscillation,  the maximum velocity of the piston,  the maximum force on the piston.  If this force is produces by the gas in the piston, what is the maximum pressure in the piston?    A mass of 500 g is attached to a horizontal spring of a force constant 200 N\/m and allowed to oscillate horizontally without friction. When t = 0 it passes through the origin moving to the right with a speed of 2 m\/s. Find  the angular frequency of oscillation  the amplitude of oscillation,  how long it takes to first slow down to 1 m\/s,  the position when v = 1 m\/s,  the force when v = 1 m\/s,  the spring energy when v = 1 m\/s.    A transverse sine wave is expressed in MKS units as Find  its amplitude,  its wave number,  its frequency,  its angular frequency,  its phase velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.    A long rope is stretched out horizontally between two students. The student on the left moves his hand up and down sinusoidally with a frequency of 2 Hz and an amplitude of 10 cm. The wave moves to the right with a speed of 10 m\/s and at time t = 0 the left end of the rope is moving downward through the mid-point of displacement. Find  the wavelength,  the wave number,  the angular frequency,  its angular frequency,  the equation for the wave as a function of time and position,  the displacement of the rope when x = 2 m and t = 1.5 s.    The equation of a transverse wave on a string is   Find the amplitude, wavelength, frequency, period, and speed of propagation.  What is the equation of motion of the particle located at the origin of the coordinates?  What is the maximum magnitude of the transverse velocity of any particle on the string?  Sketch the shape of the wave when t = 0.001 s and     "
+  "body": "  Exercise  A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.    An automobile engine has a piston of mass 300 g, a stroke of 10 cm, an area of 10 , and a frequency of 1200 rpm. Find  the angular frequency of oscillation  the effective force constant for the oscillation  the amplitude of oscillation,  the energy of the oscillation,  the maximum velocity of the piston,  the maximum force on the piston.  If this force is produces by the gas in the piston, what is the maximum pressure in the piston?    A mass of 500 g is attached to a horizontal spring of a force constant 200 N\/m and allowed to oscillate horizontally without friction. When t = 0 it passes through the origin moving to the right with a speed of 2 m\/s. Find  the angular frequency of oscillation  the amplitude of oscillation,  how long it takes to first slow down to 1 m\/s,  the position when v = 1 m\/s,  the force when v = 1 m\/s,  the spring energy when v = 1 m\/s.    A transverse sine wave is expressed in MKS units as Find  its amplitude,  its wave number,  its frequency,  its angular frequency,  its phase velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.    A long rope is stretched out horizontally between two students. The student on the left moves his hand up and down sinusoidally with a frequency of 2 Hz and an amplitude of 10 cm. The wave moves to the right with a speed of 10 m\/s and at time t = 0 the left end of the rope is moving downward through the mid-point of displacement. Find  the wavelength,  the wave number,  the angular frequency,  its angular frequency,  the equation for the wave as a function of time and position,  the displacement of the rope when x = 2 m and t = 1.5 s.    The equation of a transverse wave on a string is   Find the amplitude, wavelength, frequency, period, and speed of propagation.  What is the equation of motion of the particle located at the origin of the coordinates?  What is the maximum magnitude of the transverse velocity of any particle on the string?  Sketch the shape of the wave when t = 0.001 s and     A mass of m is suspended from one end of a string as shown below. The total length of the string is 1.8 m and its mass is 5 g. The length of the string between support and pulley is D = 1.5 m. The string is vibrating as shown with a frequency of 10 Hz. Find    the speed of a transverse wave in the string,  the wavelength of the wave,  the mass m being suspended.      What is the speed of sound in water if its compressibility is   What is the amplitude of the wave whose frequency is 1000 Hz and whose intensity is       What is the speed of sound in a steel rod of length 1 m, diameter 1 cm, density and Young's modulus   What is the intensity of the sound wave in such a rod if the frequency of the wave is 100 Hz and the amplitude is 0.1 mm?      What is the speed of sound in air if the temperature is Assume that air is an ideal gas with a molecular mass of 28.8 g\/mole (slightly more than that of nitrogen) and that air is diatomic with   What is the density of the air if the pressure is   How far do the air molecules move (from side to side) when a wave passes by if its frequency is 400 Hz and its intensity is     A wave disturbance is described by the function    What is the disturbance at (- 25 cm, 50 cm, 10 cm) at 3.0 s?  Is the wave longitudinal, transverse, or neither?     Organ Pipe  A string instrument has a string of length 80 cm and a linear mass density of 5 g\/m which vibrates with a fundamental frequency of Find  the tension in the string,  the frequency and wavelength of its second harmonic, and  the frequency and wavelength of its third overtone.    An open-ended organ pipe has a length of 2 m. If the speed of sound in air is 345 m\/s, find  the pipe's fundamental frequency and wavelength,  the frequency and wavelength of its third harmonic, and  the frequency and wavelength of its second overtone.    An organ pipe with one end closed has a length of 50 cm. If the speed of sound in air is 345 m\/s, find  the pipe's fundamental frequency and wavelength,  the frequency and wavelength of its third harmonic, and  the frequency and wavelength of its second overtone.    Sound of frequency 300 Hz is incident normally upon a wall and reflected back producing a standing wave.  What is the minimum distance from the wall that you could stand and hear no sound?  Where does the second node occur? Assume the speed of sound is 345 m\/s.    Two synchronized speakers of frequency 200 Hz are located at points (4 m , 1 m) and (4 m, -1 m), respectively. Where along the y-axis do  constructive interference and  destructive interference occur?  What is the phase angle between the two waves at the point (0, 1 m)?    You have strung a uniform steel wire fixed between two posts, 100 m apart, and find that the fundamental mode has a frequency of 300 Hz.  What is the second overtone frequency of this wire?  What is its fourth harmonic?    A water wave demonstration tank is 30 m long. At one end, at the origin, Mary is generating waves described by the function At the other end Paul is generating waves described by At Rita is recording the water level.  What level does she record at t = 8 s?  What frequency describes the data she records?    An organ pipe is effectively open at one end, closed at the other, and has a fundamental frequency of 110 Hz.  How long is the pipe?  What should be the fifth resonance frequency for this pipe?      Sound  A sound wave in air has a displacement amplitude of 0.01 mm and a frequency of If the speed of sound is 344 m\/s and the Bulk modulus of air is find  the wavelength of the wave,  the pressure amplitude.  If y(0,0) = 0, what is the displacement of the air molecules from their equilibrium position at x = 1.5 m when t = 1 ms?  If y(0,0) = 0, what is the pressure of the wave at x = 1.5 m when t = 1 ms?    A sound wave in air has a displacement amplitude of 0.01 mm. If the speed of sound is 344 m\/s and the density of air is find  the pressure amplitude of a wave,  the intensity of the wave,  the intensity level of the wave.  the pressure amplitude of a wave,  the intensity of the wave,  the intensity level of the wave.    The sound from an explosion is heard at a distance of 50 m with an intensity of   What would be its intensity at a distance of 1000 m?  What intensity level is the sound at 1000 m?  What is the total acoustical power output of the explosion?  If the sound pulse lasts 0.2 s, how much acoustical energy was generated by the explosion?      What is the intensity level of a sound wave whose intensity is   What is the intensity level of a sound wave in air at whose pressure amplitude is 0.01 Pa?    Most people interpret a increase in sound intensity level as a doubling in loudness. By what factor must the sound intensity be increased to double the loudness?  A police car emits a sound of while moving to the right with a speed of 30 m\/s when the speed of sound in air is 345 m\/s. What is the frequency heard by an observer  at rest in front of the car,  at rest behind the car,  moving to the left at 20 m\/s in front of the car,  moving to the right at 20 m\/s behind the car?    Two cars have identical horns which emit frequencies. The first car is at rest and the second is moving away from the first at 30 m\/s. An observer is between the two cars moving away from the first at a speed of 10 m\/s. There is a 5 m\/s wind blowing toward the first car from the direction of the other two cars. The speed of sound is 340 m\/s.  What is the frequency of the first car as heard by the observer?  What is the frequency of the second car as heard by the observer?  What is the beat frequency heard by the observer?    A galaxy is observed to have a red shift in its spectrum which doubles the wavelength of each spectral line.  Is the galaxy moving toward us or away from us?  How fast is the galaxy moving?  What is the distance to the galaxy in light years assuming the universe is 12 billion years old?    Two horns using the same design are supposed to be playing (simultaneously) a sustained resonant note of 300.0 Hz, but they are not quite identical so the longer instrument is a bit off. If the beat sound annoys listeners with a 5-second cycle, what is the frequency from the off-tune instrument?   "
 },
 {
   "id": "exercise-118",
   "level": "2",
   "url": "ex_fourth.html#exercise-118",
   "type": "Exercise",
-  "number": "4.6.1",
+  "number": "4.8.1",
   "title": "",
   "body": "A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.   "
 },
@@ -3236,7 +3596,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-119",
   "type": "Exercise",
-  "number": "4.6.2",
+  "number": "4.8.2",
   "title": "",
   "body": "An automobile engine has a piston of mass 300 g, a stroke of 10 cm, an area of 10 , and a frequency of 1200 rpm. Find  the angular frequency of oscillation  the effective force constant for the oscillation  the amplitude of oscillation,  the energy of the oscillation,  the maximum velocity of the piston,  the maximum force on the piston.  If this force is produces by the gas in the piston, what is the maximum pressure in the piston?   "
 },
@@ -3245,7 +3605,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-120",
   "type": "Exercise",
-  "number": "4.6.3",
+  "number": "4.8.3",
   "title": "",
   "body": "A mass of 500 g is attached to a horizontal spring of a force constant 200 N\/m and allowed to oscillate horizontally without friction. When t = 0 it passes through the origin moving to the right with a speed of 2 m\/s. Find  the angular frequency of oscillation  the amplitude of oscillation,  how long it takes to first slow down to 1 m\/s,  the position when v = 1 m\/s,  the force when v = 1 m\/s,  the spring energy when v = 1 m\/s.   "
 },
@@ -3254,7 +3614,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-121",
   "type": "Exercise",
-  "number": "4.6.4",
+  "number": "4.8.4",
   "title": "",
   "body": "A transverse sine wave is expressed in MKS units as Find  its amplitude,  its wave number,  its frequency,  its angular frequency,  its phase velocity,  the particle displacement at t = 1 s and x = 2 m,  the particle velocity at that time and place,  the acceleration of the particle at that time and place,  the concavity of the wave at that time and place.   "
 },
@@ -3263,7 +3623,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-122",
   "type": "Exercise",
-  "number": "4.6.5",
+  "number": "4.8.5",
   "title": "",
   "body": "A long rope is stretched out horizontally between two students. The student on the left moves his hand up and down sinusoidally with a frequency of 2 Hz and an amplitude of 10 cm. The wave moves to the right with a speed of 10 m\/s and at time t = 0 the left end of the rope is moving downward through the mid-point of displacement. Find  the wavelength,  the wave number,  the angular frequency,  its angular frequency,  the equation for the wave as a function of time and position,  the displacement of the rope when x = 2 m and t = 1.5 s.   "
 },
@@ -3272,25 +3632,430 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#exercise-123",
   "type": "Exercise",
-  "number": "4.6.6",
+  "number": "4.8.6",
   "title": "",
   "body": "The equation of a transverse wave on a string is   Find the amplitude, wavelength, frequency, period, and speed of propagation.  What is the equation of motion of the particle located at the origin of the coordinates?  What is the maximum magnitude of the transverse velocity of any particle on the string?  Sketch the shape of the wave when t = 0.001 s and    "
 },
 {
-  "id": "sec_fifth-intro",
+  "id": "exercise-124",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-124",
+  "type": "Exercise",
+  "number": "4.8.7",
+  "title": "",
+  "body": "A mass of m is suspended from one end of a string as shown below. The total length of the string is 1.8 m and its mass is 5 g. The length of the string between support and pulley is D = 1.5 m. The string is vibrating as shown with a frequency of 10 Hz. Find    the speed of a transverse wave in the string,  the wavelength of the wave,  the mass m being suspended.   "
+},
+{
+  "id": "exercise-125",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-125",
+  "type": "Exercise",
+  "number": "4.8.8",
+  "title": "",
+  "body": "  What is the speed of sound in water if its compressibility is   What is the amplitude of the wave whose frequency is 1000 Hz and whose intensity is    "
+},
+{
+  "id": "exercise-126",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-126",
+  "type": "Exercise",
+  "number": "4.8.9",
+  "title": "",
+  "body": "  What is the speed of sound in a steel rod of length 1 m, diameter 1 cm, density and Young's modulus   What is the intensity of the sound wave in such a rod if the frequency of the wave is 100 Hz and the amplitude is 0.1 mm?   "
+},
+{
+  "id": "exercise-127",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-127",
+  "type": "Exercise",
+  "number": "4.8.10",
+  "title": "",
+  "body": "  What is the speed of sound in air if the temperature is Assume that air is an ideal gas with a molecular mass of 28.8 g\/mole (slightly more than that of nitrogen) and that air is diatomic with   What is the density of the air if the pressure is   How far do the air molecules move (from side to side) when a wave passes by if its frequency is 400 Hz and its intensity is    "
+},
+{
+  "id": "exercise-128",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-128",
+  "type": "Exercise",
+  "number": "4.8.11",
+  "title": "",
+  "body": "A wave disturbance is described by the function    What is the disturbance at (- 25 cm, 50 cm, 10 cm) at 3.0 s?  Is the wave longitudinal, transverse, or neither?   "
+},
+{
+  "id": "exercise-129",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-129",
+  "type": "Exercise",
+  "number": "4.8.12",
+  "title": "",
+  "body": "A string instrument has a string of length 80 cm and a linear mass density of 5 g\/m which vibrates with a fundamental frequency of Find  the tension in the string,  the frequency and wavelength of its second harmonic, and  the frequency and wavelength of its third overtone.   "
+},
+{
+  "id": "exercise-130",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-130",
+  "type": "Exercise",
+  "number": "4.8.13",
+  "title": "",
+  "body": "An open-ended organ pipe has a length of 2 m. If the speed of sound in air is 345 m\/s, find  the pipe's fundamental frequency and wavelength,  the frequency and wavelength of its third harmonic, and  the frequency and wavelength of its second overtone.   "
+},
+{
+  "id": "exercise-131",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-131",
+  "type": "Exercise",
+  "number": "4.8.14",
+  "title": "",
+  "body": "An organ pipe with one end closed has a length of 50 cm. If the speed of sound in air is 345 m\/s, find  the pipe's fundamental frequency and wavelength,  the frequency and wavelength of its third harmonic, and  the frequency and wavelength of its second overtone.   "
+},
+{
+  "id": "exercise-132",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-132",
+  "type": "Exercise",
+  "number": "4.8.15",
+  "title": "",
+  "body": "Sound of frequency 300 Hz is incident normally upon a wall and reflected back producing a standing wave.  What is the minimum distance from the wall that you could stand and hear no sound?  Where does the second node occur? Assume the speed of sound is 345 m\/s.   "
+},
+{
+  "id": "exercise-133",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-133",
+  "type": "Exercise",
+  "number": "4.8.16",
+  "title": "",
+  "body": "Two synchronized speakers of frequency 200 Hz are located at points (4 m , 1 m) and (4 m, -1 m), respectively. Where along the y-axis do  constructive interference and  destructive interference occur?  What is the phase angle between the two waves at the point (0, 1 m)?   "
+},
+{
+  "id": "exercise-134",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-134",
+  "type": "Exercise",
+  "number": "4.8.17",
+  "title": "",
+  "body": "You have strung a uniform steel wire fixed between two posts, 100 m apart, and find that the fundamental mode has a frequency of 300 Hz.  What is the second overtone frequency of this wire?  What is its fourth harmonic?   "
+},
+{
+  "id": "exercise-135",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-135",
+  "type": "Exercise",
+  "number": "4.8.18",
+  "title": "",
+  "body": "A water wave demonstration tank is 30 m long. At one end, at the origin, Mary is generating waves described by the function At the other end Paul is generating waves described by At Rita is recording the water level.  What level does she record at t = 8 s?  What frequency describes the data she records?   "
+},
+{
+  "id": "exercise-136",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-136",
+  "type": "Exercise",
+  "number": "4.8.19",
+  "title": "",
+  "body": "An organ pipe is effectively open at one end, closed at the other, and has a fundamental frequency of 110 Hz.  How long is the pipe?  What should be the fifth resonance frequency for this pipe?   "
+},
+{
+  "id": "exercise-137",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-137",
+  "type": "Exercise",
+  "number": "4.8.20",
+  "title": "",
+  "body": "A sound wave in air has a displacement amplitude of 0.01 mm and a frequency of If the speed of sound is 344 m\/s and the Bulk modulus of air is find  the wavelength of the wave,  the pressure amplitude.  If y(0,0) = 0, what is the displacement of the air molecules from their equilibrium position at x = 1.5 m when t = 1 ms?  If y(0,0) = 0, what is the pressure of the wave at x = 1.5 m when t = 1 ms?   "
+},
+{
+  "id": "exercise-138",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-138",
+  "type": "Exercise",
+  "number": "4.8.21",
+  "title": "",
+  "body": "A sound wave in air has a displacement amplitude of 0.01 mm. If the speed of sound is 344 m\/s and the density of air is find  the pressure amplitude of a wave,  the intensity of the wave,  the intensity level of the wave.  the pressure amplitude of a wave,  the intensity of the wave,  the intensity level of the wave.   "
+},
+{
+  "id": "exercise-139",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-139",
+  "type": "Exercise",
+  "number": "4.8.22",
+  "title": "",
+  "body": "The sound from an explosion is heard at a distance of 50 m with an intensity of   What would be its intensity at a distance of 1000 m?  What intensity level is the sound at 1000 m?  What is the total acoustical power output of the explosion?  If the sound pulse lasts 0.2 s, how much acoustical energy was generated by the explosion?   "
+},
+{
+  "id": "exercise-140",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-140",
+  "type": "Exercise",
+  "number": "4.8.23",
+  "title": "",
+  "body": "  What is the intensity level of a sound wave whose intensity is   What is the intensity level of a sound wave in air at whose pressure amplitude is 0.01 Pa?   "
+},
+{
+  "id": "exercise-141",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-141",
+  "type": "Exercise",
+  "number": "4.8.24",
+  "title": "",
+  "body": "Most people interpret a increase in sound intensity level as a doubling in loudness. By what factor must the sound intensity be increased to double the loudness? "
+},
+{
+  "id": "exercise-142",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-142",
+  "type": "Exercise",
+  "number": "4.8.25",
+  "title": "",
+  "body": "A police car emits a sound of while moving to the right with a speed of 30 m\/s when the speed of sound in air is 345 m\/s. What is the frequency heard by an observer  at rest in front of the car,  at rest behind the car,  moving to the left at 20 m\/s in front of the car,  moving to the right at 20 m\/s behind the car?   "
+},
+{
+  "id": "exercise-143",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-143",
+  "type": "Exercise",
+  "number": "4.8.26",
+  "title": "",
+  "body": "Two cars have identical horns which emit frequencies. The first car is at rest and the second is moving away from the first at 30 m\/s. An observer is between the two cars moving away from the first at a speed of 10 m\/s. There is a 5 m\/s wind blowing toward the first car from the direction of the other two cars. The speed of sound is 340 m\/s.  What is the frequency of the first car as heard by the observer?  What is the frequency of the second car as heard by the observer?  What is the beat frequency heard by the observer?   "
+},
+{
+  "id": "exercise-144",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-144",
+  "type": "Exercise",
+  "number": "4.8.27",
+  "title": "",
+  "body": "A galaxy is observed to have a red shift in its spectrum which doubles the wavelength of each spectral line.  Is the galaxy moving toward us or away from us?  How fast is the galaxy moving?  What is the distance to the galaxy in light years assuming the universe is 12 billion years old?   "
+},
+{
+  "id": "exercise-145",
+  "level": "2",
+  "url": "ex_fourth.html#exercise-145",
+  "type": "Exercise",
+  "number": "4.8.28",
+  "title": "",
+  "body": "Two horns using the same design are supposed to be playing (simultaneously) a sustained resonant note of 300.0 Hz, but they are not quite identical so the longer instrument is a bit off. If the beat sound annoys listeners with a 5-second cycle, what is the frequency from the off-tune instrument? "
+},
+{
+  "id": "subsec-speed_light",
   "level": "1",
-  "url": "sec_fifth-intro.html",
-  "type": "Section",
-  "number": "5.1",
-  "title": "Algebra of Vectors",
-  "body": " Algebra of Vectors  "
+  "url": "subsec-speed_light.html",
+  "type": "Subsection",
+  "number": "5.1.1",
+  "title": "Speed of Light",
+  "body": " Speed of Light  Before century, velocity of light was thought to be infinite because of the fact that the flash of lightening is seen instantly and the sound is heard after some time. According to Newton a luminous object continuously emits streams of particles, called corpuscles . Corpuscles are tiny, light, and elastic in nature which travel in a straight line with very high velocities and can pass through interstices of the particles of matter and posses the property of reflection and transmission. The first unsuccessful attempt to find the velocity of light was made by Galileo in 1600. In 1679, Christian Huygens proposed the wave nature of light. In 1873 James Clerk Maxwell predicted the electromagnetic waves and calculated speed of light in vacuum by using formula where is electric permitivitty and is magnetic permeability of vacuum.  "
+},
+{
+  "id": "p-848",
+  "level": "2",
+  "url": "subsec-speed_light.html#p-848",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "corpuscles "
+},
+{
+  "id": "subsec-huygens",
+  "level": "1",
+  "url": "subsec-huygens.html",
+  "type": "Subsection",
+  "number": "5.1.2",
+  "title": "Huygens’s Principle",
+  "body": " Huygens's Principle  According to Huygens, a source of light sends out waves in all directions, through a hypothetical medium called ether .      Consider a source, S as shown in (a) which is sending out light in the form of waves in all directions. If v be the velocity of propagation of the wave then at time, t, all the particles of the medium on the surface, xy will be vibrating in phase. Hence, xy is a portion of the sphere of radius, vt with center, S. The surface, xy is called a wavefront. A wavefront is a locus of all the points of the medium which are vibrating in phase in every interval of time. If the distance is small then wavefront takes shape of a source such as point source emits spherical wavefronts and line source emits cylindrical wavefronts but if the source is at a large distance, then any small portion of the wavefront can be considered as plane wavefront as shown in (b). The radius of wavefront is considered as ray of light. Thus rays of light diverging from or converging to a point give rise to a spherical wavefront and a parallel beam of light gives rise to a plane wavefront. According to Huygens, every point on the primary wavefront (1, 2, 3, etc.,) behaves as the secondary source of light. These secondary waves are called wavelets that travel in space with the same velocity as the original wave and the envelope of the all the secondary wavelets after given interval of time gives rise to a secondary wavefront. As the secondary wavelets are spherical this would lead to backward propagation of the wave. In time, t' the secondary waves travel a distance, vt' with points (1, 2, 3, etc.) being their centers. Hence the envelope is a secondary wavefront and is a backward wavefront. Now according to Huygens principle only forward wavefronts are plausible not the backward wavefront. The rear envelope of these wavelets is shown by which cannot represent the next wavefront after the time, t. This can be explained using Stoke's law. According to this law, the amplitude at each point of the secondary wave is proportional to where is the angle between the wave normal ( or, ) and the direction of propagation which is the line, joining the point of the secondary wave to its centre. For the backward wavefront, . Hence no effect of secondary wavelets is observed in the backward direction because amplitude is zero.  The nature of light described by Newton's corpuscular theory and Huygens wave theory both have some drawbacks. Corpuscular theory explained somehow the phenomenon of reflection and transmission but unable to explain many observed phenomena such as interference, diffraction, and double refraction. Similarly Huygens idea explained about reflection, double refraction, transmission, interference, and diffraction but unable to explain some other phenomena such as polarization and photoelectric effect. After Fresnel suggestion that the light wave is rather transverse in nature than a longitudinal, polarization can be explained satisfactorily. It also predicted that the velocity of light is slower in optically denser medium which was not the case in Newton's corpuscular theory. When Michelson-Morley experiment failed to detect the presence of ether medium in 1887 the concept of ether was abandoned.  The photoelectric effect introduced evidence that light exhibited particle properties on the quantum scale. The particle properties of electrons was well documented when DeBroglie hypothesis and Davidson and Germer experiment established the wave nature of electron. Hence quantum view of light rely on dual nature of light. However, for ordinary optics the wave view of light is the practical approach.  "
+},
+{
+  "id": "Wfront",
+  "level": "2",
+  "url": "subsec-huygens.html#Wfront",
+  "type": "Figure",
+  "number": "5.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-850",
+  "level": "2",
+  "url": "subsec-huygens.html#p-850",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "wavefront "
+},
+{
+  "id": "subsec-refl",
+  "level": "1",
+  "url": "subsec-refl.html",
+  "type": "Subsection",
+  "number": "5.2.1",
+  "title": "Reflection",
+  "body": " Reflection   When wave travels in a homogeneous medium strikes on the surface of another medium bouncing back to the same medium is known as reflection. There are two types of reflection, spectacular (regular) reflection and diffuse (irregular) reflection. Both types of reflection obey the Laws of reflection.    Laws of Reflection  The first law of reflection states that the incident ray, the reflected ray, and the normal to the point of incident all lie in the same plane. The second law of reflection states that the angle of reflection is equal to the angle of incidence.               Consider a plane wave progressing towards a smooth surface, like glass or mirror as shown in . A light ray, AO perpendicular to the wavefronts is making an angle of incidence, i with the normal, N. The side, X of the progressing wavefront, XY has just made contact with the surface of the mirror. While Y is moving the distance, vt, a secondary wavelet emanates from X and also travels the distance, vt. At the end of the time interval, t, Y will have just made contact with the surface, at the point Y'. The new reflected wavefront is found from Huygens's principle by drawing the new wave front such that it touches the point Y' and is tangent to the secondary wavelet from X. The point of tangency is called X'. The new wavefront is shown in as the blue line X'Y'. The wave is said to have been reflected. The new reflected ray, OB is drawn perpendicular to the wavefront, X'Y'. The rest of the reflected wavefronts are drawn parallel to X'Y' and perpendicular to ray, OB. The reflected ray, OB makes an angle r is called the angle of reflection , with the normal, N. Because the incident ray, AO is perpendicular to the wavefront, XY, the angle that the wavefront, XY makes with the surface is the same as the angle of incidence, i. This can be seen by looking at triangle, . The sum of all the angles in triangle, XEO must equal , and consider then      Similarly, since reflected ray OB is perpendicular to reflected wavefront X'Y', it makes an angle r with the reflecting surface. We see in the figure that in triangle XYY', From , we have  Which proves the second law of reflection and it says that the angle of incidence i is equal to the angle of reflection r. The first law of reflection was implied in the derivation and it says that the incident ray, the normal, and the reflected ray all lie in the same plane. We have derived the law of reflection by Huygens's principle and the wave nature of light. Having thus established the law, we can simplify the procedure for its use by drawing the ray diagram as in where the faint blue plane is an imaginary plane which contains the incident ray, (OA), the normal, (ON), and the reflected ray, (OB).    Regular and Diffuse Reflection  Reflection from a smooth surface such as a mirror leads to a type of reflection known as regular reflection. In regular reflection a parallel incident beam after reflection deviates parallely onto another direction as shown . Reflection from a rough surface such as paper, wall, and clothes leads to a diffuse reflection. In diffuse reflection rays of light in a parallel incident beam after reflection scattered in different directions as shown in . Whether it is a regular or a diffuse reflection laws of reflection are always obeyed by each individual light ray of the beam at every point of incidence. The normals at the point of incidences P, Q, and R in are shown by the dotted lines. The normal on a rough surface depends on a inclination of local surface at the point of incidence hence these normals are not parallel which constitutes parallel beam of light to be scattered in different directions. The orientation of the normal lines at neighboring points along a surface differentiates specular from diffuse reflection. If the normal lines are parallel, reflection will be specular. If they are not parallel, reflection will be diffuse.               It is the diffuse reflection which makes us see the world such as walls of the room, clothes, trees, stars, clouds, etc. As the rays of light falls on any object, the rays are reflected from the object and then enter into our eye. If the reflection is only regular then the object would be dazzlingly bright. Aside from the limited number of luminous objects, such as light bulbs and the sun, everything we see around us is visible because of the diffuse reflection.    Image formed by a mirror  A mirror is a highly polished smooth surface which allows a regular reflection. When these reflected rays fall in our eyes we see the image of that object. Depends upon the shape of reflecting surface there are many types of mirror such as plane mirror, spherical mirror, parabolic mirror, etc. There are also two types of existence of image (or object) called a real image or object and a virtual image or object . If incident rays are coming from an object lying in front of the mirror, object is known as real. If incident rays appear to converge behind the mirror, the point of convergence is known as virtual object. If reflected rays actually converge the image formed is real. A real image is always formed in front of the mirror. If reflected rays are divergent that is they do not meet actually, rather they appear to come from a point, that point is called virtual image. A virtual image is always formed behind the mirror. In real image light rays which constitute an image is really passing through it. In virtual image the light rays which constitute that image do not actually pass through it but only appear to do so. Real image can be cast on a screen but virtual image can not be cast on a screen as it is formed behind the reflecting surface. Plane mirror never form a real image of any real object.    Plane Mirror  A plane mirror is a highly smoothed flat surface or a glass plate. One side of the plate is silver coated and is called a silvered surface , another side of it is highly smoothed (fine polished) from which light beam undergoes a regular reflection to form an image and is called a reflecting surface as shown in . In other words, if a reflecting surface is plane or if radius of curvature of the surface is infinite then it behaves like a mirror, and is called a plane mirror . Any thing from which light rays emanate and incident to the mirror is called an object . The reflected rays from the mirror either actually converge to a point or appear to diverge from a point. The point of intersection of reflected rays is called an image .                   When an object, O is placed in front of a plane mirror, MN an image I is formed behind the mirror. To determine how an image is formed, we need to consider at least two light rays that emanate from the object, O. Consider the ray, OA which makes an angle of incidence, i with the normal to the mirror. By the law of reflection, this ray is reflected along AB such that the angle of reflection is r. When these reflected light rays enters into the observer's eye it appears to have come from behind the mirror from point, I as indicated by the dashed line. The second incident ray, OC is reflected along CD. To an observer in front of the mirror at D this reflected ray also appears to come from the same point I behind the mirror, as indicated by the dashed line. The two reflected rays appear to have come from the point I behind the mirror where the two dashed lines intersect. The point I is called the image of the object O. The distance from the image to the mirror is called the image distance and is designated by the letter q. The image is called a virtual image because the light rays do not actually come from that point, they only appear to come from that point. If you were to walk behind the mirror, you would not find any real image there. A real image can be projected onto a screen while a virtual image cannot. In general, a real image is one on which all the rays are converging, while a virtual image is one from which all the rays are diverging. Thus, rays AB and CD are diverging away from the virtual image I and will never cross on the left-hand side of the mirror. We should also note that there is a third ray that can be used. This is the ray that is perpendicular to the mirror. Since its angle of incidence is zero, its reflected angle is also zero, and the ray is reflected back along the normal. This ray appears to come from directly behind the mirror and is also indicated by a dashed line that comes from the image point I.  An image formed by a plane mirror is virtual, object distance is equal to image distance, and the size of image is the same as the size of object.  From the geometry of the   Hence in and , we have [ OP and IP is perpendicular on mirror MN.]   In congruent triangles corresponding arms are equal hence, object distance, OP is equal to image distance, IP. Since no light rays are really passing through the point I constituting a virtual image. To understand the size of the image formed by a plane mirror let us consider an extended object P as shown in . Because object distance is equal to image distance the rays from each point of an object reflected from the mirror in such a way that they appear to come from the side wise inverted image behind the mirror. Hence a letter p looks like q in image. The process of inversion of left side of an object as its right side of its mirror image is known as a lateral inversion . From the it is clearly seen that the each rays from the object p incident normally onto the mirror and get reflected also normally so that each rays are parallel to each other. Which verifies the size of the image is equal to the size of the object. When the plane mirror is rotated through an angle , the reflected ray turns through keeping the incident ray constant, as shown in .  In , is called glancing angle. It is the angle made by the incident ray with the reflecting surface so that . Now , vertically opposite angle and Since and i.e, . Once the mirror, LM is rotated by an angle and takes the position L'M' then the new glancing is and .        Inclined Mirrors  The number of images formed by inclined mirrors depend upon the angle of inclination of the mirrors, object position, and observer's position. The proof of the number of images formed in such case is not the part of this book but from the experimental verification the following formula will be helpful to find the maximum number of images formed by inclined plane mirrors. where is the angle of inclination of plane mirrors and n is number of images formed.      If there can be even number of segments of then the number of images formed is given by n-1 or if the number of segments of is odd then number of images formed will be n only. That is if then number of images, and if , then number of images, .   "
+},
+{
+  "id": "figure-260",
+  "level": "2",
+  "url": "subsec-refl.html#figure-260",
+  "type": "Figure",
+  "number": "5.2.2",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "figure-263",
+  "level": "2",
+  "url": "subsec-refl.html#figure-263",
+  "type": "Figure",
+  "number": "5.2.3",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-860",
+  "level": "2",
+  "url": "subsec-refl.html#p-860",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "plane mirror object image "
+},
+{
+  "id": "figure-266",
+  "level": "2",
+  "url": "subsec-refl.html#figure-266",
+  "type": "Figure",
+  "number": "5.2.4",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-863",
+  "level": "2",
+  "url": "subsec-refl.html#p-863",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "lateral inversion "
+},
+{
+  "id": "imageinclmir",
+  "level": "2",
+  "url": "subsec-refl.html#imageinclmir",
+  "type": "Figure",
+  "number": "5.2.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-sp_mir",
+  "level": "1",
+  "url": "subsec-sp_mir.html",
+  "type": "Subsection",
+  "number": "5.2.2",
+  "title": "Spherical Mirror",
+  "body": " Spherical Mirror   Spherical mirror is a part of spherical surface which is polished in such a way that one of its side becomes reflecting surface. If the exterior of a curvature of hollow sphere is coated in such a way that the interior (or cave part) of the surface behaves as reflecting surface then it is called a concave mirror . If the interior of the sphere is coated in such a way that the exterior (or vex part) behaves as a reflecting surface then it is called a convex mirror as shown in .                   The center of a sphere of which a mirror is a part is called a center of curvature, C . An imaginary line passing through the center of curvature of a spherical mirror is called the principal axis or optical axis of the mirror. Principle axis is a symmetrical line of the mirror. The point on the surface of mirror through which a principle axis is passing is called a pole, P or vertex of the mirror. The radius of a sphere of which a mirror is a part is called the radius of curvature, R of the mirror. Radius of curvature is a distance between pole of the mirror to the center of curvature of the mirror.                   The point on the principle axis through which the reflected rays of all the incident rays prallel to the principle axis must pass or appear to diverge from is called a focus, F and the distance between the pole and the focus is called a focal length, f of the mirror as shown in and . The size of the mirror is called the aperture of the mirror. If the aperture of a mirror is small then reflected rays of any beam parallel to the principle axis either must pass through or appear to diverge from the focus of the the mirror. In the case of a mirror of large aperture these reflected rays fail to meet at a single focus point, such inability of a mirror to focus all the reflected rays of a parallel incident beam at a single point is called geometrical or spherical aberration of the mirror. The light rays that lie close to the principal axis are called paraxial rays and they only able to meet at a single focus after reflection from the mirror. The rays that lie far from the principal axis are called marginal rays and after reflection they cross the principle axis before focus point. Hence, the reflection of large beam of light from the spherical mirror of large aperture creates a curved shape of light called a caustic curve as shown in . The cusp of caustic curves lie at the focus of the mirror. Spherical aberration can be minimized by using a mirror of small aperture which is smaller compared to its radius of curvature. Parabolic mirror will also minimize such spherical aberration.    Relation between f and R    Consider a concave mirror of small aperture and the incoming parallel ray is close to the principal axis so that angle of incidence i is small. Hence and are approximately right angled triangles with the same opposite side AB.      From   an alternate angle.] but from  exterior angle is sum of non-adjacent interior angles and law of reflection.    Similarly, we can obtain the relation for convex mirror as .    Sign Rules:   Since focus and center of curvature lie behind the convex mirror the following sign conventions will be helpful in analyzing the nature of image formation by the spherical mirrors.  All distance will be measured from pole of the mirror;  Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and  Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.     Note: The distance between object and pole of the mirror is called object distance and that between image and pole of the mirror is called image distance .    Mirror Formula  An expression which shows the relation between object distance, image distance, and focal length of a mirror is called the mirror formula. To derive the formula following assumptions will be made. The aperture of the mirror is small and the object should be placed on the principal axis.               Let an object AB is placed on the principle axis as shown in . Consider a ray of light BM incident on the mirror parallel to the principle axis and after reflection passes through the focus F and goes along FB'. Another ray from B passes through the focus F, incident on the mirror at N and after reflection meets FB' at B'. So that A'B' is the real image of the object AB. Draw perpendicular from points M and N on the principle axis. Now, from similar and  In similar triangles the ratio of corresponding sides are equal.   here and are size of object, size of image, object distance, and image distance, respectively. Again, from similar and   From eqns. and , we get -  Divide both sides by , we get - We can obtain the similar formula for convex mirror with the help of . From similar and  From similar and   Substituting and solving the above expression, we get -     Lateral Magnification, m  The ratio of the size of image to the size of object is known as a magnification, Negative sign indicates inverted image.    Formation of Image by a Concave Mirror                                    When object lies at infinity: Consider a parallel beam of light coming from an object O at infinity incident on the mirror and after reflection converges on a focal plane to form an image I as shown in . The image is formed at focus and will be real, inverted, and point in size. Using mirror formula, if then , hence real, point in size, (as ) and inverted.   When object lies beyond center of curvature: Consider a ray of light BM is incident on the mirror parallel to the principle axis then after reflection it passes through F along MB'. Another ray BN incident on the mirror through F and meet to MB' at B' to form an image AB' as shown in . From geometry of the figure the image is formed between focus and center of curvature, inverted, real, and smaller in size.   When object lies at center of curvature: From geometry of the , the image is formed at C, inverted, real, and equal in size. Mirror formula . If , and .   When object lies between F and C: From geometry of the , the image is formed beyond C, inverted, real, and magnified.   When object lies at F: From geometry of the , the image is formed at infinity, inverted, real, and highly magnified.   When object lies between F and P: From geometry of the , the image is formed behind the mirror, erect, virtual, and magnified.      Formation of Image by a Convex Mirror                  When object lies at infinity: From geometry of the , the image is formed behind the mirror at F, erect, virtual, and highly diminished.   When object lies on the Principle axis: From geometry of the , the image is formed behind the mirror between F and P, erect, virtual, and diminished.     "
+},
+{
+  "id": "p-867",
+  "level": "2",
+  "url": "subsec-sp_mir.html#p-867",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "concave mirror convex mirror "
+},
+{
+  "id": "sp_mirror",
+  "level": "2",
+  "url": "subsec-sp_mir.html#sp_mirror",
+  "type": "Figure",
+  "number": "5.2.6",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-868",
+  "level": "2",
+  "url": "subsec-sp_mir.html#p-868",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "center of curvature, C principal axis pole, P radius of curvature, R "
+},
+{
+  "id": "figure-275",
+  "level": "2",
+  "url": "subsec-sp_mir.html#figure-275",
+  "type": "Figure",
+  "number": "5.2.7",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "p-869",
+  "level": "2",
+  "url": "subsec-sp_mir.html#p-869",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "focus, F focal length, f aperture caustic curve "
+},
+{
+  "id": "proof-4",
+  "level": "2",
+  "url": "subsec-sp_mir.html#proof-4",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Consider a concave mirror of small aperture and the incoming parallel ray is close to the principal axis so that angle of incidence i is small. Hence and are approximately right angled triangles with the same opposite side AB.      From   an alternate angle.] but from  exterior angle is sum of non-adjacent interior angles and law of reflection.   "
+},
+{
+  "id": "p-873",
+  "level": "2",
+  "url": "subsec-sp_mir.html#p-873",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "p-874",
+  "level": "2",
+  "url": "subsec-sp_mir.html#p-874",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: object distance image distance "
+},
+{
+  "id": "figure-280",
+  "level": "2",
+  "url": "subsec-sp_mir.html#figure-280",
+  "type": "Figure",
+  "number": "5.2.9",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "figure-283",
+  "level": "2",
+  "url": "subsec-sp_mir.html#figure-283",
+  "type": "Figure",
+  "number": "5.2.10",
+  "title": "",
+  "body": "                            "
+},
+{
+  "id": "figure-290",
+  "level": "2",
+  "url": "subsec-sp_mir.html#figure-290",
+  "type": "Figure",
+  "number": "5.2.11",
+  "title": "",
+  "body": "            "
 },
 {
   "id": "sec_fifth-examplesA",
   "level": "1",
   "url": "sec_fifth-examplesA.html",
   "type": "Section",
-  "number": "5.2",
+  "number": "5.3",
   "title": "Examples A",
   "body": " Examples A  "
 },
@@ -3299,16 +4064,25 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_fifth-examplesB.html",
   "type": "Section",
-  "number": "5.3",
+  "number": "5.4",
   "title": "Examples B",
   "body": " Examples B  "
+},
+{
+  "id": "sec_fifth-physopt",
+  "level": "1",
+  "url": "sec_fifth-physopt.html",
+  "type": "Section",
+  "number": "5.5",
+  "title": "Physical Optics",
+  "body": " Physical Optics      "
 },
 {
   "id": "sec_fifth-examplesC",
   "level": "1",
   "url": "sec_fifth-examplesC.html",
   "type": "Section",
-  "number": "5.4",
+  "number": "5.6",
   "title": "Examples C",
   "body": " Examples C  "
 },
@@ -3317,16 +4091,16 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ex_fifth.html",
   "type": "Exercises",
-  "number": "5.5",
+  "number": "5.7",
   "title": "Exercise",
   "body": "  Exercise    "
 },
 {
-  "id": "exercise-124",
+  "id": "exercise-146",
   "level": "2",
-  "url": "ex_fifth.html#exercise-124",
+  "url": "ex_fifth.html#exercise-146",
   "type": "Exercise",
-  "number": "5.5.1",
+  "number": "5.7.1",
   "title": "",
   "body": " "
 },
@@ -3340,72 +4114,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-718",
+  "id": "p-884",
   "level": "2",
-  "url": "append_math.html#p-718",
+  "url": "append_math.html#p-884",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-719",
+  "id": "p-885",
   "level": "2",
-  "url": "append_math.html#p-719",
+  "url": "append_math.html#p-885",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-720",
+  "id": "p-886",
   "level": "2",
-  "url": "append_math.html#p-720",
+  "url": "append_math.html#p-886",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-721",
+  "id": "p-887",
   "level": "2",
-  "url": "append_math.html#p-721",
+  "url": "append_math.html#p-887",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-722",
+  "id": "p-888",
   "level": "2",
-  "url": "append_math.html#p-722",
+  "url": "append_math.html#p-888",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-723",
+  "id": "p-889",
   "level": "2",
-  "url": "append_math.html#p-723",
+  "url": "append_math.html#p-889",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-724",
+  "id": "p-890",
   "level": "2",
-  "url": "append_math.html#p-724",
+  "url": "append_math.html#p-890",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-725",
+  "id": "p-891",
   "level": "2",
-  "url": "append_math.html#p-725",
+  "url": "append_math.html#p-891",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3421,9 +4195,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-726",
+  "id": "p-892",
   "level": "2",
-  "url": "appendix-2.html#p-726",
+  "url": "appendix-2.html#p-892",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
