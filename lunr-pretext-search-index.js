@@ -3418,7 +3418,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "4.6.3",
   "title": "Doppler Effect",
-  "body": " Doppler Effect   The Doppler effect is the change in perceived frequency of a source due to the relative motion between the source and the receiver. It applies to all sorts of waves. Doppler effect can be experienced as the change in frequency or pitch received when an ambulance passes by. When the ambulence is approaching, the pitch of siren is getting higher than the actual frequency of siren. When the ambulence passes by, the frequency sounds the same as the actual emitted frequency and when the ambulance is moving away, the pitch is getting lower than the actual emitted frequency. When the source of the waves is coming towards the observer, observer receives more waves every second compared to being at rest. That is waves bunch together for the observer giving impression for the decrease of wavelength and causing an increase in the frequency. Conversely, if the source of waves is going away from the observer, observer receives less waves every second compared to being at rest. That is waves spread out for the observer giving impression for the increase of wavelength and causing a decrease in the frequency as shown in . Since the velocity of sound is comparable to the listener's velocity and it propagates only in medium, Doppler effect may be the consequence of motion of the source, motion of the observer, or motion of the medium. Each of these effects is analyzed separately. For waves which do not require a medium such as light, only the relative velocity between the observer and the source needs to be considered.      Stationary Source and Listners     Source towards Listner      As source of sound moves there is a change in wavelength perceived by the listener and if listener moves there is a change relative velocity of the sound can be measured by the listener. Hence the frequency (or pitch, ) of sound perceived by the listner can be determined by where and are the relative velocity of sound and effective wavelength of sound wave for the listner.    Stationary source and listener  If source and listener both are at rest then there is no change in pitch i.e., here , v and are the frequency, velocity, and wavelength of sound wave, respectively.    Source is moving towards stationary listener  If source is moving towards listener with a velocity then listener receives more waves everysecond causes decrease in wavelength. Hence pitch of sound heard by the listener is given by    When source is moving towards the listener wavelength squeezed by for every cycle of wave. Here T is a time period of the wave.    Source is moving away from stationary listner  If source is moving away from the listener wavelength stretched out by for every cycle of wave. Hence pitch is given by     Listener is moving towards a stationary source  If listener is moving towards a stationary source of sound with a velocity then the relative velocity of sound is changed for the listener. Hence pitch of sound heard by the listener is given by    The direction of sound velocity is taken as positive and hence if listener is moving towards the source then the relative velocity increased.    Listener is moving away from a stationary source  If listener is moving away from a stationary source of sound with a velocity then the relative velocity of sound for the listener is . Hence pitch of sound heard by the listener is given by     Source and listener move towards each other  In ths case pitch is given by        Source and listener move away from each other  In ths case pitch is given by    "
+  "body": " Doppler Effect   The Doppler effect is the change in perceived frequency of a source due to the relative motion between the source and the receiver. It applies to all sorts of waves. Doppler effect can be experienced as the change in frequency or pitch received when an ambulance passes by. When the ambulence is approaching, the pitch of siren is getting higher than the actual frequency of siren. When the ambulence passes by, the frequency sounds the same as the actual emitted frequency and when the ambulance is moving away, the pitch is getting lower than the actual emitted frequency. When the source of the waves is coming towards the observer, observer receives more waves every second compared to being at rest. That is waves bunch together for the observer giving impression for the decrease of wavelength and causing an increase in the frequency. Conversely, if the source of waves is going away from the observer, observer receives less waves every second compared to being at rest. That is waves spread out for the observer giving impression for the increase of wavelength and causing a decrease in the frequency as shown in . Since the velocity of sound is comparable to the listener's velocity and it propagates only in medium, Doppler effect may be the consequence of motion of the source, motion of the observer, or motion of the medium. Each of these effects is analyzed separately. For waves which do not require a medium such as light, only the relative velocity between the observer and the source needs to be considered.      Stationary Source and Listners     Source towards Listner      As source of sound moves there is a change in wavelength perceived by the listener and if listener moves there is a change relative velocity of the sound can be measured by the listener. Hence the frequency (or pitch, ) of sound perceived by the listner can be determined by where and are the relative velocity of sound and effective wavelength of sound wave for the listner.    Stationary source and listener  If source and listener both are at rest then there is no change in pitch i.e., here , v and are the frequency, velocity, and wavelength of sound wave, respectively.    Source is moving towards stationary listener  If source is moving towards listener with a velocity then listener receives more waves everysecond causes decrease in wavelength. Hence pitch of sound heard by the listener is given by  When source is moving towards the listener wavelength squeezed by for every cycle of wave. Here T is a time period of the wave.    Source is moving away from stationary listner  If source is moving away from the listener wavelength stretched out by for every cycle of wave. Hence pitch is given by     Listener is moving towards a stationary source  If listener is moving towards a stationary source of sound with a velocity then the relative velocity of sound is changed for the listener. Hence pitch of sound heard by the listener is given by  The direction of sound velocity is taken as positive and hence if listener is moving towards the source then the relative velocity increased.    Listener is moving away from a stationary source  If listener is moving away from a stationary source of sound with a velocity then the relative velocity of sound for the listener is . Hence pitch of sound heard by the listener is given by     Source and listener move towards each other  In ths case pitch is given by      Source and listener move away from each other  In ths case pitch is given by      Sign Rules for Doppler Effect:        Remember: If a source is going away from a listener then denominator has to increase (i.e. ) to lower the pitch. If a source is coming towards a listener then denominator has to decrease (i.e. ) to raise the pitch.   "
 },
 {
   "id": "p-771",
@@ -3439,20 +3439,20 @@ var ptx_lunr_docs = [
   "body": "    Stationary Source and Listners     Source towards Listner     "
 },
 {
-  "id": "subsec-defct_sign",
-  "level": "1",
-  "url": "subsec-defct_sign.html",
-  "type": "Subsection",
-  "number": "4.6.4",
-  "title": "Sign Convention for Doppler Effect",
-  "body": " Sign Convention for Doppler Effect        Remember: If a source is going away from a listener then denominator has to increase (i.e. ) to lower the pitch. If a source is coming towards a listener then denominator has to decrease (i.e. ) to raise the pitch.  "
+  "id": "convention-1",
+  "level": "2",
+  "url": "subsec-dopplerefct.html#convention-1",
+  "type": "Convention",
+  "number": "4.6.3",
+  "title": "",
+  "body": "  Sign Rules for Doppler Effect:        Remember: If a source is going away from a listener then denominator has to increase (i.e. ) to lower the pitch. If a source is coming towards a listener then denominator has to decrease (i.e. ) to raise the pitch.  "
 },
 {
   "id": "subsec-sonic_boom",
   "level": "1",
   "url": "subsec-sonic_boom.html",
   "type": "Subsection",
-  "number": "4.6.5",
+  "number": "4.6.4",
   "title": "Sonic Boom",
   "body": " Sonic Boom  A loud noise that is created by the shock wave is called a sonic boom. When source of sound is traveling faster than the speed of sound then it produces a sonic boom. Any thing moving faster than the speed of sound is called a supersonic speed. An aircraft which is going at subsonic speeds (lower than that of sound), its sound wave is radiated in all directions in such a way that the individual wavefronts are bunched at he front of the aircraft and spread at the back of it because of forward motion of the aircraft as shown in . This effect is well known as Doppler effect which changes the pitch of the aircraft's sound as it passes us. When the plane is approaching us its sound has a higher pitch than if it is going away from us. If the aircraft is traveling with the same speed as that of sound (called sonic speed) then the aircraft is at the leading edge of wavefronts that it produces as shown in . All the wavefronts are bunched up at the front of the aircraft. This phenomenon is known as a shock wave. If the aircraft is traveling at the supersonic speeds, then a pressure wave is produced in the shape of the cone whose vertex is at the nose of the aircraft, and whose base is behind the plane. The angle opening of the cone depends on the actual speed the plane is traveling at. All of the sound pressure is contained in this cone as shown in . Now imagine that this aircraft is in a level flight. Before the aircraft passes you, you can only see it but you can not hear anything. The pressure cone is trailing behind the aircraft. Once your ears intersect the edge of this cone, your will hear a very loud sound - the sonic boom. Therefore you will hear the sonic boom once your ears intersect this cone.      source at rest     subsonic     sonic     supersonic      The ratio of the speed of a sound source, (speed of aircraft) to the speed of sound, v in a fluid is known as the Mach number. Speed less than the speed of sound have a Mach number between zero and one and are described as subsonic. Those greater than the speed of sound have Mach numbers greater than one are a described as supersonic. Speeds approximately equal to the speed of sound have Mach numbers approximately equal to one and are described as transonic. The angle at the vertex of shock waves is called Mach angle . where t is the time taken by the sound to reach the ground when aircraft travels the horizontal distance of .  When an object travels slower than the spped of sound, the Mach angle is greater than one, and the equation does not have a real solution. This is because there is no shock wave at subsonic speeds. Traveling at the speed of sound makes the ratio equal one and results in a Mach angle of ninety degrees. At transonic speeds the shock wave is a wall of high pressure moving with the object, perpendicular to its velocity. Above the speed of sound, the ratio is less than one and the Mach angle is less than ninety degrees. The faster the object moves, the narrower the cone of high pressure behind it becomes. Measuring the vertex angle is thus a simple way to determine the speed of a supersonic object.  "
 },
@@ -3461,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-sonic_boom.html#figure-248",
   "type": "Figure",
-  "number": "4.6.3",
+  "number": "4.6.4",
   "title": "",
   "body": "    source at rest     subsonic     sonic     supersonic     "
 },
@@ -3886,7 +3886,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "5.2.1",
   "title": "Reflection",
-  "body": " Reflection   When wave travels in a homogeneous medium strikes on the surface of another medium bouncing back to the same medium is known as reflection. There are two types of reflection, spectacular (regular) reflection and diffuse (irregular) reflection. Both types of reflection obey the Laws of reflection.    Laws of Reflection  The first law of reflection states that the incident ray, the reflected ray, and the normal to the point of incident all lie in the same plane. The second law of reflection states that the angle of reflection is equal to the angle of incidence.               Consider a plane wave progressing towards a smooth surface, like glass or mirror as shown in . A light ray, AO perpendicular to the wavefronts is making an angle of incidence, i with the normal, N. The side, X of the progressing wavefront, XY has just made contact with the surface of the mirror. While Y is moving the distance, vt, a secondary wavelet emanates from X and also travels the distance, vt. At the end of the time interval, t, Y will have just made contact with the surface, at the point Y'. The new reflected wavefront is found from Huygens's principle by drawing the new wave front such that it touches the point Y' and is tangent to the secondary wavelet from X. The point of tangency is called X'. The new wavefront is shown in as the blue line X'Y'. The wave is said to have been reflected. The new reflected ray, OB is drawn perpendicular to the wavefront, X'Y'. The rest of the reflected wavefronts are drawn parallel to X'Y' and perpendicular to ray, OB. The reflected ray, OB makes an angle r is called the angle of reflection , with the normal, N. Because the incident ray, AO is perpendicular to the wavefront, XY, the angle that the wavefront, XY makes with the surface is the same as the angle of incidence, i. This can be seen by looking at triangle, . The sum of all the angles in triangle, XEO must equal , and consider then      Similarly, since reflected ray OB is perpendicular to reflected wavefront X'Y', it makes an angle r with the reflecting surface. We see in the figure that in triangle XYY', From , we have  Which proves the second law of reflection and it says that the angle of incidence i is equal to the angle of reflection r. The first law of reflection was implied in the derivation and it says that the incident ray, the normal, and the reflected ray all lie in the same plane. We have derived the law of reflection by Huygens's principle and the wave nature of light. Having thus established the law, we can simplify the procedure for its use by drawing the ray diagram as in where the faint blue plane is an imaginary plane which contains the incident ray, (OA), the normal, (ON), and the reflected ray, (OB).    Regular and Diffuse Reflection  Reflection from a smooth surface such as a mirror leads to a type of reflection known as regular reflection. In regular reflection a parallel incident beam after reflection deviates parallely onto another direction as shown . Reflection from a rough surface such as paper, wall, and clothes leads to a diffuse reflection. In diffuse reflection rays of light in a parallel incident beam after reflection scattered in different directions as shown in . Whether it is a regular or a diffuse reflection laws of reflection are always obeyed by each individual light ray of the beam at every point of incidence. The normals at the point of incidences P, Q, and R in are shown by the dotted lines. The normal on a rough surface depends on a inclination of local surface at the point of incidence hence these normals are not parallel which constitutes parallel beam of light to be scattered in different directions. The orientation of the normal lines at neighboring points along a surface differentiates specular from diffuse reflection. If the normal lines are parallel, reflection will be specular. If they are not parallel, reflection will be diffuse.               It is the diffuse reflection which makes us see the world such as walls of the room, clothes, trees, stars, clouds, etc. As the rays of light falls on any object, the rays are reflected from the object and then enter into our eye. If the reflection is only regular then the object would be dazzlingly bright. Aside from the limited number of luminous objects, such as light bulbs and the sun, everything we see around us is visible because of the diffuse reflection.    Image formed by a mirror  A mirror is a highly polished smooth surface which allows a regular reflection. When these reflected rays fall in our eyes we see the image of that object. Depends upon the shape of reflecting surface there are many types of mirror such as plane mirror, spherical mirror, parabolic mirror, etc. There are also two types of existence of image (or object) called a real image or object and a virtual image or object . If incident rays are coming from an object lying in front of the mirror, object is known as real. If incident rays appear to converge behind the mirror, the point of convergence is known as virtual object. If reflected rays actually converge the image formed is real. A real image is always formed in front of the mirror. If reflected rays are divergent that is they do not meet actually, rather they appear to come from a point, that point is called virtual image. A virtual image is always formed behind the mirror. In real image light rays which constitute an image is really passing through it. In virtual image the light rays which constitute that image do not actually pass through it but only appear to do so. Real image can be cast on a screen but virtual image can not be cast on a screen as it is formed behind the reflecting surface. Plane mirror never form a real image of any real object.    Plane Mirror  A plane mirror is a highly smoothed flat surface or a glass plate. One side of the plate is silver coated and is called a silvered surface , another side of it is highly smoothed (fine polished) from which light beam undergoes a regular reflection to form an image and is called a reflecting surface as shown in . In other words, if a reflecting surface is plane or if radius of curvature of the surface is infinite then it behaves like a mirror, and is called a plane mirror . Any thing from which light rays emanate and incident to the mirror is called an object . The reflected rays from the mirror either actually converge to a point or appear to diverge from a point. The point of intersection of reflected rays is called an image .                   When an object, O is placed in front of a plane mirror, MN an image I is formed behind the mirror. To determine how an image is formed, we need to consider at least two light rays that emanate from the object, O. Consider the ray, OA which makes an angle of incidence, i with the normal to the mirror. By the law of reflection, this ray is reflected along AB such that the angle of reflection is r. When these reflected light rays enters into the observer's eye it appears to have come from behind the mirror from point, I as indicated by the dashed line. The second incident ray, OC is reflected along CD. To an observer in front of the mirror at D this reflected ray also appears to come from the same point I behind the mirror, as indicated by the dashed line. The two reflected rays appear to have come from the point I behind the mirror where the two dashed lines intersect. The point I is called the image of the object O. The distance from the image to the mirror is called the image distance and is designated by the letter q. The image is called a virtual image because the light rays do not actually come from that point, they only appear to come from that point. If you were to walk behind the mirror, you would not find any real image there. A real image can be projected onto a screen while a virtual image cannot. In general, a real image is one on which all the rays are converging, while a virtual image is one from which all the rays are diverging. Thus, rays AB and CD are diverging away from the virtual image I and will never cross on the left-hand side of the mirror. We should also note that there is a third ray that can be used. This is the ray that is perpendicular to the mirror. Since its angle of incidence is zero, its reflected angle is also zero, and the ray is reflected back along the normal. This ray appears to come from directly behind the mirror and is also indicated by a dashed line that comes from the image point I.  An image formed by a plane mirror is virtual, object distance is equal to image distance, and the size of image is the same as the size of object.  From the geometry of the   Hence in and , we have [ OP and IP is perpendicular on mirror MN.]   In congruent triangles corresponding arms are equal hence, object distance, OP is equal to image distance, IP. Since no light rays are really passing through the point I constituting a virtual image. To understand the size of the image formed by a plane mirror let us consider an extended object P as shown in . Because object distance is equal to image distance the rays from each point of an object reflected from the mirror in such a way that they appear to come from the side wise inverted image behind the mirror. Hence a letter p looks like q in image. The process of inversion of left side of an object as its right side of its mirror image is known as a lateral inversion . From the it is clearly seen that the each rays from the object p incident normally onto the mirror and get reflected also normally so that each rays are parallel to each other. Which verifies the size of the image is equal to the size of the object. When the plane mirror is rotated through an angle , the reflected ray turns through keeping the incident ray constant, as shown in .  In , is called glancing angle. It is the angle made by the incident ray with the reflecting surface so that . Now , vertically opposite angle and Since and i.e, . Once the mirror, LM is rotated by an angle and takes the position L'M' then the new glancing is and .        Inclined Mirrors  The number of images formed by inclined mirrors depend upon the angle of inclination of the mirrors, object position, and observer's position. The proof of the number of images formed in such case is not the part of this book but from the experimental verification the following formula will be helpful to find the maximum number of images formed by inclined plane mirrors. where is the angle of inclination of plane mirrors and n is number of images formed.      If there can be even number of segments of then the number of images formed is given by n-1 or if the number of segments of is odd then number of images formed will be n only. That is if then number of images, and if , then number of images, .   "
+  "body": " Reflection   When wave travels in a homogeneous medium strikes on the surface of another medium bouncing back to the same medium is known as reflection. There are two types of reflection, spectacular (regular) reflection and diffuse (irregular) reflection. Both types of reflection obey the Laws of reflection.    Laws of Reflection  The first law of reflection states that the incident ray, the reflected ray, and the normal to the point of incident all lie in the same plane. The second law of reflection states that the angle of reflection is equal to the angle of incidence.               Consider a plane wave progressing towards a smooth surface, like glass or mirror as shown in . A light ray, AO perpendicular to the wavefronts is making an angle of incidence, i with the normal, N. The side, X of the progressing wavefront, XY has just made contact with the surface of the mirror. While Y is moving the distance, vt, a secondary wavelet emanates from X and also travels the distance, vt. At the end of the time interval, t, Y will have just made contact with the surface, at the point Y'. The new reflected wavefront is found from Huygens's principle by drawing the new wave front such that it touches the point Y' and is tangent to the secondary wavelet from X. The point of tangency is called X'. The new wavefront is shown in as the blue line X'Y'. The wave is said to have been reflected. The new reflected ray, OB is drawn perpendicular to the wavefront, X'Y'. The rest of the reflected wavefronts are drawn parallel to X'Y' and perpendicular to ray, OB. The reflected ray, OB makes an angle r is called the angle of reflection , with the normal, N. Because the incident ray, AO is perpendicular to the wavefront, XY, the angle that the wavefront, XY makes with the surface is the same as the angle of incidence, i. This can be seen by looking at triangle, . The sum of all the angles in triangle, XEO must equal , and consider then      Similarly, since reflected ray OB is perpendicular to reflected wavefront X'Y', it makes an angle r with the reflecting surface. We see in the figure that in triangle XYY', From , we have  Which proves the second law of reflection and it says that the angle of incidence i is equal to the angle of reflection r. The first law of reflection was implied in the derivation and it says that the incident ray, the normal, and the reflected ray all lie in the same plane. We have derived the law of reflection by Huygens's principle and the wave nature of light. Having thus established the law, we can simplify the procedure for its use by drawing the ray diagram as in where the faint blue plane is an imaginary plane which contains the incident ray, (OA), the normal, (ON), and the reflected ray, (OB).    Regular and Diffuse Reflection  Reflection from a smooth surface such as a mirror leads to a type of reflection known as regular reflection. In regular reflection a parallel incident beam after reflection deviates parallely onto another direction as shown . Reflection from a rough surface such as paper, wall, and clothes leads to a diffuse reflection. In diffuse reflection rays of light in a parallel incident beam after reflection scattered in different directions as shown in . Whether it is a regular or a diffuse reflection laws of reflection are always obeyed by each individual light ray of the beam at every point of incidence. The normals at the point of incidences P, Q, and R in are shown by the dotted lines. The normal on a rough surface depends on a inclination of local surface at the point of incidence hence these normals are not parallel which constitutes parallel beam of light to be scattered in different directions. The orientation of the normal lines at neighboring points along a surface differentiates specular from diffuse reflection. If the normal lines are parallel, reflection will be specular. If they are not parallel, reflection will be diffuse.               It is the diffuse reflection which makes us see the world such as walls of the room, clothes, trees, stars, clouds, etc. As the rays of light falls on any object, the rays are reflected from the object and then enter into our eye. If the reflection is only regular then the object would be dazzlingly bright. Aside from the limited number of luminous objects, such as light bulbs and the sun, everything we see around us is visible because of the diffuse reflection.    Image formed by a mirror   A plane reflecting surface is a special surface of spherical reflecting surface with infinite radius of curvature. A mirror is a highly polished smooth surface which allows a regular reflection. When these reflected rays fall in our eyes we see the image of that object. Depends upon the shape of reflecting surface there are many types of mirror such as plane mirror, spherical mirror, parabolic mirror, etc. There are also two types of existence of image (or object) called a real image or object and a virtual image or object . If incident rays are coming from an object lying in front of the mirror, object is known as real. If incident rays appear to converge behind the mirror, the point of convergence is known as virtual object. If reflected rays actually converge the image formed is real. A real image is always formed in front of the mirror. If reflected rays are divergent that is they do not meet actually, rather they appear to come from a point, that point is called virtual image. A virtual image is always formed behind the mirror. In real image light rays which constitute an image is really passing through it. In virtual image the light rays which constitute that image do not actually pass through it but only appear to do so. Real image can be cast on a screen but virtual image can not be cast on a screen as it is formed behind the reflecting surface. Plane mirror never form a real image of any real object.    Plane Mirror  A plane mirror is a highly smoothed flat surface or a glass plate. One side of the plate is silver coated and is called a silvered surface , another side of it is highly smoothed (fine polished) from which light beam undergoes a regular reflection to form an image and is called a reflecting surface as shown in . In other words, if a reflecting surface is plane or if radius of curvature of the surface is infinite then it behaves like a mirror, and is called a plane mirror . Any thing from which light rays emanate and incident to the mirror is called an object . The reflected rays from the mirror either actually converge to a point or appear to diverge from a point. The point of intersection of reflected rays is called an image .                   When an object, O is placed in front of a plane mirror, MN an image I is formed behind the mirror. To determine how an image is formed, we need to consider at least two light rays that emanate from the object, O. Consider the ray, OA which makes an angle of incidence, i with the normal to the mirror. By the law of reflection, this ray is reflected along AB such that the angle of reflection is r. When these reflected light rays enters into the observer's eye it appears to have come from behind the mirror from point, I as indicated by the dashed line. The second incident ray, OC is reflected along CD. To an observer in front of the mirror at D this reflected ray also appears to come from the same point I behind the mirror, as indicated by the dashed line. The two reflected rays appear to have come from the point I behind the mirror where the two dashed lines intersect. The point I is called the image of the object O. The distance from the image to the mirror is called the image distance and is designated by the letter q. The image is called a virtual image because the light rays do not actually come from that point, they only appear to come from that point. If you were to walk behind the mirror, you would not find any real image there. A real image can be projected onto a screen while a virtual image cannot. In general, a real image is one on which all the rays are converging, while a virtual image is one from which all the rays are diverging. Thus, rays AB and CD are diverging away from the virtual image I and will never cross on the left-hand side of the mirror. We should also note that there is a third ray that can be used. This is the ray that is perpendicular to the mirror. Since its angle of incidence is zero, its reflected angle is also zero, and the ray is reflected back along the normal. This ray appears to come from directly behind the mirror and is also indicated by a dashed line that comes from the image point I.  An image formed by a plane mirror is virtual, object distance is equal to image distance, and the size of image is the same as the size of object.  From the geometry of the   Hence in and , we have [ OP and IP is perpendicular on mirror MN.]   In congruent triangles corresponding arms are equal hence, object distance, OP is equal to image distance, IP. Since no light rays are really passing through the point I constituting a virtual image. To understand the size of the image formed by a plane mirror let us consider an extended object P as shown in . Because object distance is equal to image distance the rays from each point of an object reflected from the mirror in such a way that they appear to come from the side wise inverted image behind the mirror. Hence a letter p looks like q in image. The process of inversion of left side of an object as its right side of its mirror image is known as a lateral inversion . From the it is clearly seen that the each rays from the object p incident normally onto the mirror and get reflected also normally so that each rays are parallel to each other. Which verifies the size of the image is equal to the size of the object. When the plane mirror is rotated through an angle , the reflected ray turns through keeping the incident ray constant, as shown in .  In , is called glancing angle. It is the angle made by the incident ray with the reflecting surface so that . Now , vertically opposite angle and Since and i.e, . Once the mirror, LM is rotated by an angle and takes the position L'M' then the new glancing is and .        Inclined Mirrors  The number of images formed by inclined mirrors depend upon the angle of inclination of the mirrors, object position, and observer's position. The proof of the number of images formed in such case is not the part of this book but from the experimental verification the following formula will be helpful to find the maximum number of images formed by inclined plane mirrors. where is the angle of inclination of plane mirrors and n is number of images formed.      If there can be even number of segments of then the number of images formed is given by n-1 or if the number of segments of is odd then number of images formed will be n only. That is if then number of images, and if , then number of images, .   "
 },
 {
   "id": "figure-260",
@@ -3949,7 +3949,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "5.2.2",
   "title": "Spherical Mirror",
-  "body": " Spherical Mirror   Spherical mirror is a part of spherical surface which is polished in such a way that one of its side becomes reflecting surface. If the exterior of a curvature of hollow sphere is coated in such a way that the interior (or cave part) of the surface behaves as reflecting surface then it is called a concave mirror . If the interior of the sphere is coated in such a way that the exterior (or vex part) behaves as a reflecting surface then it is called a convex mirror as shown in .                   The center of a sphere of which a mirror is a part is called a center of curvature, C . An imaginary line passing through the center of curvature of a spherical mirror is called the principal axis or optical axis of the mirror. Principle axis is a symmetrical line of the mirror. The point on the surface of mirror through which a principle axis is passing is called a pole, P or vertex of the mirror. The radius of a sphere of which a mirror is a part is called the radius of curvature, R of the mirror. Radius of curvature is a distance between pole of the mirror to the center of curvature of the mirror.                   The point on the principle axis through which the reflected rays of all the incident rays prallel to the principle axis must pass or appear to diverge from is called a focus, F and the distance between the pole and the focus is called a focal length, f of the mirror as shown in and . The size of the mirror is called the aperture of the mirror. If the aperture of a mirror is small then reflected rays of any beam parallel to the principle axis either must pass through or appear to diverge from the focus of the the mirror. In the case of a mirror of large aperture these reflected rays fail to meet at a single focus point, such inability of a mirror to focus all the reflected rays of a parallel incident beam at a single point is called geometrical or spherical aberration of the mirror. The light rays that lie close to the principal axis are called paraxial rays and they only able to meet at a single focus after reflection from the mirror. The rays that lie far from the principal axis are called marginal rays and after reflection they cross the principle axis before focus point. Hence, the reflection of large beam of light from the spherical mirror of large aperture creates a curved shape of light called a caustic curve as shown in . The cusp of caustic curves lie at the focus of the mirror. Spherical aberration can be minimized by using a mirror of small aperture which is smaller compared to its radius of curvature. Parabolic mirror will also minimize such spherical aberration.    Relation between f and R    Consider a concave mirror of small aperture and the incoming parallel ray is close to the principal axis so that angle of incidence i is small. Hence and are approximately right angled triangles with the same opposite side AB.      From   an alternate angle.] but from  exterior angle is sum of non-adjacent interior angles and law of reflection.    Similarly, we can obtain the relation for convex mirror as .    Sign Rules:   Since focus and center of curvature lie behind the convex mirror the following sign conventions will be helpful in analyzing the nature of image formation by the spherical mirrors.  All distance will be measured from pole of the mirror;  Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and  Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.     Note: The distance between object and pole of the mirror is called object distance and that between image and pole of the mirror is called image distance .    Mirror Formula  An expression which shows the relation between object distance, image distance, and focal length of a mirror is called the mirror formula. To derive the formula following assumptions will be made. The aperture of the mirror is small and the object should be placed on the principal axis.               Let an object AB is placed on the principle axis as shown in . Consider a ray of light BM incident on the mirror parallel to the principle axis and after reflection passes through the focus F and goes along FB'. Another ray from B passes through the focus F, incident on the mirror at N and after reflection meets FB' at B'. So that A'B' is the real image of the object AB. Draw perpendicular from points M and N on the principle axis. Now, from similar and  In similar triangles the ratio of corresponding sides are equal.   here and are size of object, size of image, object distance, and image distance, respectively. Again, from similar and   From eqns. and , we get -  Divide both sides by , we get - We can obtain the similar formula for convex mirror with the help of . From similar and  From similar and   Substituting and solving the above expression, we get -     Lateral Magnification, m  The ratio of the size of image to the size of object is known as a magnification, Negative sign indicates inverted image.    Formation of Image by a Concave Mirror                                    When object lies at infinity: Consider a parallel beam of light coming from an object O at infinity incident on the mirror and after reflection converges on a focal plane to form an image I as shown in . The image is formed at focus and will be real, inverted, and point in size. Using mirror formula, if then , hence real, point in size, (as ) and inverted.   When object lies beyond center of curvature: Consider a ray of light BM is incident on the mirror parallel to the principle axis then after reflection it passes through F along MB'. Another ray BN incident on the mirror through F and meet to MB' at B' to form an image AB' as shown in . From geometry of the figure the image is formed between focus and center of curvature, inverted, real, and smaller in size.   When object lies at center of curvature: From geometry of the , the image is formed at C, inverted, real, and equal in size. Mirror formula . If , and .   When object lies between F and C: From geometry of the , the image is formed beyond C, inverted, real, and magnified.   When object lies at F: From geometry of the , the image is formed at infinity, inverted, real, and highly magnified.   When object lies between F and P: From geometry of the , the image is formed behind the mirror, erect, virtual, and magnified.      Formation of Image by a Convex Mirror                  When object lies at infinity: From geometry of the , the image is formed behind the mirror at F, erect, virtual, and highly diminished.   When object lies on the Principle axis: From geometry of the , the image is formed behind the mirror between F and P, erect, virtual, and diminished.     "
+  "body": " Spherical Mirror   Spherical mirror is a part of spherical surface which is polished in such a way that one of its side becomes reflecting surface. If the exterior of a curvature of hollow sphere is coated in such a way that the interior (or cave part) of the surface behaves as reflecting surface then it is called a concave mirror . If the interior of the sphere is coated in such a way that the exterior (or vex part) behaves as a reflecting surface then it is called a convex mirror as shown in .                   The center of a sphere of which a mirror is a part is called a center of curvature, C . An imaginary line passing through the center of curvature of a spherical mirror is called the principal axis or optical axis of the mirror. Principle axis is a symmetrical line of the mirror. The point on the surface of mirror through which a principle axis is passing is called a pole, P or vertex of the mirror. The radius of a sphere of which a mirror is a part is called the radius of curvature, R of the mirror. Radius of curvature is a distance between pole of the mirror to the center of curvature of the mirror.                   The point on the principle axis through which the reflected rays of all the incident rays prallel to the principle axis must pass or appear to diverge from is called a focus, F and the distance between the pole and the focus is called a focal length, f of the mirror as shown in and . The size of the mirror is called the aperture of the mirror. If the aperture of a mirror is small then reflected rays of any beam parallel to the principle axis either must pass through or appear to diverge from the focus of the the mirror. In the case of a mirror of large aperture these reflected rays fail to meet at a single focus point, such inability of a mirror to focus all the reflected rays of a parallel incident beam at a single point is called geometrical or spherical aberration of the mirror. The light rays that lie close to the principal axis are called paraxial rays and they only able to meet at a single focus after reflection from the mirror. The rays that lie far from the principal axis are called marginal rays and after reflection they cross the principle axis before focus point. Hence, the reflection of large beam of light from the spherical mirror of large aperture creates a curved shape of light called a caustic curve as shown in . The cusp of caustic curves lie at the focus of the mirror. Spherical aberration can be minimized by using a mirror of small aperture which is smaller compared to its radius of curvature. Parabolic mirror will also minimize such spherical aberration.    Relation between f and R    Consider a concave mirror of small aperture and the incoming parallel ray is close to the principal axis so that angle of incidence i is small. Hence and are approximately right angled triangles with the same opposite side AB.      From   an alternate angle.] but from  exterior angle is sum of non-adjacent interior angles and law of reflection.    Similarly, we can obtain the relation for convex mirror as .    Sign Rules: Since focus and center of curvature lie behind the convex mirror the following sign conventions will be helpful in analyzing the nature of image formation by the spherical mirrors.  All distance will be measured from pole of the mirror;  Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and  Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.     Note: The distance between object and pole of the mirror is called object distance and that between image and pole of the mirror is called image distance .     Mirror Formula  An expression which shows the relation between object distance, image distance, and focal length of a mirror is called the mirror formula. To derive the formula following assumptions will be made. The aperture of the mirror is small and the object should be placed on the principal axis.               Let an object AB is placed on the principle axis as shown in . Consider a ray of light BM incident on the mirror parallel to the principle axis and after reflection passes through the focus F and goes along FB'. Another ray from B passes through the focus F, incident on the mirror at N and after reflection meets FB' at B'. So that A'B' is the real image of the object AB. Draw perpendicular from points M and N on the principle axis. Now, from similar and  In similar triangles the ratio of corresponding sides are equal.   here and are size of object, size of image, object distance, and image distance, respectively. Again, from similar and   From eqns. and , we get -  Divide both sides by , we get - We can obtain the similar formula for convex mirror with the help of . From similar and  From similar and   Substituting and solving the above expression, we get -     Lateral Magnification, m  The ratio of the size of image to the size of object is known as a magnification, Negative sign indicates inverted image.    Formation of Image by a Concave Mirror      When object lies at infinity: Consider a parallel beam of light coming from an object O at infinity incident on the mirror and after reflection converges on a focal plane to form an image I as shown in . The image is formed at focus and will be real, inverted, and point in size. Using mirror formula, if then , hence real, point in size, (as ) and inverted.         When object lies beyond center of curvature: Consider a ray of light BM is incident on the mirror parallel to the principle axis then after reflection it passes through F along MB'. Another ray BN incident on the mirror through F and meet to MB' at B' to form an image AB' as shown in . From geometry of the figure the image is formed between focus and center of curvature, inverted, real, and smaller in size.         When object lies at center of curvature: From geometry of the , the image is formed at C, inverted, real, and equal in size. Mirror formula . If , and .         When object lies between F and C: From geometry of the , the image is formed beyond C, inverted, real, and magnified.         When object lies at F: From geometry of the , the image is formed at infinity, inverted, real, and highly magnified.         When object lies between F and P: From geometry of the , the image is formed behind the mirror, erect, virtual, and magnified.           Formation of Image by a Convex Mirror      When object lies at infinity: From geometry of the , the image is formed behind the mirror at F, erect, virtual, and highly diminished.         When object lies on the Principle axis: From geometry of the , the image is formed behind the mirror between F and P, erect, virtual, and diminished.          "
 },
 {
   "id": "p-867",
@@ -4006,49 +4006,418 @@ var ptx_lunr_docs = [
   "body": " Consider a concave mirror of small aperture and the incoming parallel ray is close to the principal axis so that angle of incidence i is small. Hence and are approximately right angled triangles with the same opposite side AB.      From   an alternate angle.] but from  exterior angle is sum of non-adjacent interior angles and law of reflection.   "
 },
 {
-  "id": "p-873",
+  "id": "convention-2",
   "level": "2",
-  "url": "subsec-sp_mir.html#p-873",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "subsec-sp_mir.html#convention-2",
+  "type": "Convention",
+  "number": "5.2.9",
   "title": "",
-  "body": ""
-},
-{
-  "id": "p-874",
-  "level": "2",
-  "url": "subsec-sp_mir.html#p-874",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Note: object distance image distance "
+  "body": "  Sign Rules: Since focus and center of curvature lie behind the convex mirror the following sign conventions will be helpful in analyzing the nature of image formation by the spherical mirrors.  All distance will be measured from pole of the mirror;  Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and  Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.     Note: The distance between object and pole of the mirror is called object distance and that between image and pole of the mirror is called image distance .  "
 },
 {
   "id": "figure-280",
   "level": "2",
   "url": "subsec-sp_mir.html#figure-280",
   "type": "Figure",
-  "number": "5.2.9",
+  "number": "5.2.10",
   "title": "",
   "body": "            "
 },
 {
-  "id": "figure-283",
+  "id": "p-879",
   "level": "2",
-  "url": "subsec-sp_mir.html#figure-283",
+  "url": "subsec-sp_mir.html#p-879",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "When object lies at infinity: When object lies beyond center of curvature: When object lies at center of curvature: When object lies between F and C: When object lies at F: When object lies between F and P: "
+},
+{
+  "id": "p-886",
+  "level": "2",
+  "url": "subsec-sp_mir.html#p-886",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "When object lies at infinity: When object lies on the Principle axis: "
+},
+{
+  "id": "subsec-refraction",
+  "level": "1",
+  "url": "subsec-refraction.html",
+  "type": "Subsection",
+  "number": "5.2.3",
+  "title": "Refraction",
+  "body": " Refraction   The phenomenon of bending of light ray as it goes from one medium to another is called a refraction. The velocity of light depends on the medium it is propagating which causes the refraction. The measure of an obstacle that a medium imposes on the velocity of light is known as refractive index of that medium. Hence the light ray bend as it goes from a medium of lower refractive index to the higher one or vice a versa.      If c is a velocity of light in a vacuum and v is the velocity of light in a given medium then the refractive index of this medium is defined as Medium with higher refractive index is known as optically denser medium and that with lower refractive index is known as optically rare medium .   Note: Optically denser and rare has nothing to do with the density of the medium which is sometimes misunderstood. However, refractive index of a medium is proportional to the density of that medium. As the temperature increases the density of the medium decreases generally and so is its refractive index. For example, water has density of and refractive index of whereas isopropyle alcohol has density of and refractive index of it means light bend more in alcohol then in water. The refractive index of vacuum is 1 and that for air is 1.0003 hence they are taken as same. When a ray is incident on the surface separating two media it either bends towards or away from the normal at the point of incidence. If light goes from rare to denser it bends towards the normal and if it goes from denser to rare it bends away from the normal. The angle between initial direction of light to the final direction in the second medium is known as angle of deviation, .   Refraction of a plane wavefront at a plane surface:   Let MN be the surface separating two media a and b having refracting indices of and ,respectively as shown in . Let velocity of light in medium a is and medium b is where . Consider a plane wavefront APB is coming to incident on plane MN. By the time the disturbance at B reaches to C, the secondary waves from A must have traveled a distance where t is the time taken by the waves to travel the distance BC. As velocity of light is less in medium b, the refracted wavefront is given by the tangent CD drawn at point D, where AD is a radius of sphere centered at point A. The line CD happens to be an envelop of all the secondary wavelets of wavefront APB coming from medium a to medium b.      From the and  Similarly, from and    From eqns. and , we get -  Hence, if AD is the radius of the secondary wavefront for the point A, then QS is the radius of the secondary wavefront for the point Q. Let i and r be the angles of incidence and refraction, respectively then from and    From the definition of rare and denser medium, . This is the Snell's law.  If then that is the refracted ray bent towards the normal. If then that is the refracted ray bent away from the normal.    Laws of Refraction  The laws of refraction state that  The incident ray, the normal at the point of incidence, and the refracted ray are coplanar;  The ratio of sine of the angles of incidence to the sine of angle of refraction is equal to the ratio of refractive indices of the second and first medium, i.e.   where and are absolute refractive index of first and second medium, respectively. An absolute refractive index is the measure of refractive index of the medium with respect to air or vacuum. is read as refractive index of a second medium with respect to the first.  The second law is also known as Snell's law , which is     Real and Apparent Depth   A plane interface between two transparent media is a special surface of spherical refracting surface with infinite radius of curvature. When objects are seen under a transparent medium like water they appear closer than they really are. This is the effect of refraction and hence it is used to determine the refractive index of the transparent medium. The refraction produces a virtual image of an object above its real position.      Suppose an object O is lying at a depth t below an optically denser medium such as water. A ray of light OC is incident on interface normally and passes along CD without any deviation. Another ray of light OA incident at an on the interface and refracted along AE at an . For a small aperture of eye points A and C are very close to each other and once the rays AE and CD reach to the eye then object appears at point I which is a virtual image of object O. Here in , the rays AE and BF are constituting the virtual image $I$ of the object O. Actually in geometrical optics, to see an image of any object at least two rays emanating from the object after reflection or refraction must reach to the oberserver's eye.  From , alternating angles and , corresponding angles. Therefore from Snell's law  where is absolute refractive index of water (denser medium) and is absolute refractive index of air (rare medium). Since the aperture of eye is very small points A and C are considered very close to each other and hence and are very small, i.e., and .    Hence the apparent shift, d of the object to be appered is given by where is the real depth of the object and is a refractive index of medium b with respect to medium a.   Apparent shift under a number of transparent media:       When an object lies under a number of transparent media [ ] then its apparent shift can be determined by Where and are the apparent shift of the object in a medium of refractive index and , respectively.    Lateral Shift  When a ray of light is incident obliquely on a parallel sided transparent medium such as glass slab, then the emergent ray shifts laterally. The perpendicular distance between the direction of the incident ray and the emergent ray is called a lateral shift .      In the given figure, d is a lateral shift, BD is an emergent ray, and is a thickness of the glass slab. From ,   But from ,   Hence from eqns. and , we get -     Principle of Reversibility of Light      The principle of reversibility of light states that if the path of light is reversed even after suffering from the number of reflections and refractions, it retraces its original path.  From the principle of reversibility -  Multiplying them we get-    "
+},
+{
+  "id": "p-889",
+  "level": "2",
+  "url": "subsec-refraction.html#p-889",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "refractive index "
+},
+{
+  "id": "refr",
+  "level": "2",
+  "url": "subsec-refraction.html#refr",
   "type": "Figure",
-  "number": "5.2.10",
+  "number": "5.2.19",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-890",
+  "level": "2",
+  "url": "subsec-refraction.html#p-890",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "denser medium rare medium "
+},
+{
+  "id": "p-892",
+  "level": "2",
+  "url": "subsec-refraction.html#p-892",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Refraction of a plane wavefront at a plane surface: "
+},
+{
+  "id": "refrwave",
+  "level": "2",
+  "url": "subsec-refraction.html#refrwave",
+  "type": "Figure",
+  "number": "5.2.20",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-899",
+  "level": "2",
+  "url": "subsec-refraction.html#p-899",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Snell's law "
+},
+{
+  "id": "refr2",
+  "level": "2",
+  "url": "subsec-refraction.html#refr2",
+  "type": "Figure",
+  "number": "5.2.21",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-904",
+  "level": "2",
+  "url": "subsec-refraction.html#p-904",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Apparent shift under a number of transparent media: "
+},
+{
+  "id": "apshft",
+  "level": "2",
+  "url": "subsec-refraction.html#apshft",
+  "type": "Figure",
+  "number": "5.2.22",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-906",
+  "level": "2",
+  "url": "subsec-refraction.html#p-906",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "lateral shift "
+},
+{
+  "id": "lateralshift",
+  "level": "2",
+  "url": "subsec-refraction.html#lateralshift",
+  "type": "Figure",
+  "number": "5.2.23",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "revers2",
+  "level": "2",
+  "url": "subsec-refraction.html#revers2",
+  "type": "Figure",
+  "number": "5.2.24",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-tir",
+  "level": "1",
+  "url": "subsec-tir.html",
+  "type": "Subsection",
+  "number": "5.2.4",
+  "title": "Total Internal Reflection",
+  "body": " Total Internal Reflection   When a ray of light passes from an optically denser medium to the rare medium it bends away from the normal. If the angle of incidence in this case is increased gradually then at particular angle of incidence the refracted ray starts grazing on the surface separating two media i.e., angle of refraction becomes . The angle of incidence at that condition is called a critical angle, c . If the angle of incidence is further increased above the critical angle then the light ray returns into the same denser medium, such phenomenon is called the total internal reflection . Since the reflection happen at a very top thin surface of interface and it is assumed that there is no loss of energy in the form of transmission or absorption, hence the name total internal reflection. Starting from angle of incidence angle of refraction as i increases r also increases if the ray of light is going from denser to a rare medium as shown in . When (the critical angle) then the angle of refraction, . Hence from Snell's law          Now once the the refracted ray disappears and appears as a reflected ray in the same medium, b and obeys all the laws of reflection.  This phenomenon is very useful in sending the light signal through an optical fiber, and changing the direction of ray of light using prism. Rainbow, mirage, and sparkling of diamond can be possible due to total internal reflection.    Mirage  It is an optical illusion which gives the deceptive appearance of image of a distant object as it is formed in a pool of water. Mirage is caused by refraction of the light rays in layers of air of varying density. In a hot summer day in a desert or on a highway layers of varying density of air is formed because of heat. Layer of air near the surface of earth is hotter than it is above the surface of earth.                   Colder air above the earth behaves as a denser medium and hotter air near the earth surface behaves as rare medium. Now when a light ray coming from a tall distant object passes through a denser to a rare medium keep bending away from normal and when angle of incidence becomes greater than the critical angle it gets total internal reflection. When this ray falls on the observer's eye it appears to come from an inverted image of that tall object which deceives the observer's that there may be a puddle of water near the tall object as shown in .  On the other hand, in a cold winter days near the sea-shore an inverted or upright image of an object such as a boat can be seen hanging in the sky. This is all because of the bending of light. When the virtual image of an object over a body of water, due to a cool, dense layers of air is seen then it is called a looming as shown in . Thus, an object like a boat below the horizon which is not visible directly, will be seen apparently lifted into the sky.  When a strong inversion layer extends upwards from the surface of a body of water an enhanced bending of light happen and an object appears to be suspended in the air. On the other hand, when the bottom of the inversion layer is some distance above the water and the observer is slightly below the inversion layer as shown in , the observer sees the object hanging inverted in the sky called superior mirage .   "
+},
+{
+  "id": "p-909",
+  "level": "2",
+  "url": "subsec-tir.html#p-909",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "critical angle, c total internal reflection "
+},
+{
+  "id": "tir",
+  "level": "2",
+  "url": "subsec-tir.html#tir",
+  "type": "Figure",
+  "number": "5.2.25",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-298",
+  "level": "2",
+  "url": "subsec-tir.html#figure-298",
+  "type": "Figure",
+  "number": "5.2.26",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-prism_ref",
+  "level": "1",
+  "url": "subsec-prism_ref.html",
+  "type": "Subsection",
+  "number": "5.2.5",
+  "title": "Refraction through a Prism",
+  "body": " Refraction through a Prism  A prism is a wedge-shaped refracting medium which is bounded by three rectangular surfaces and two triangular surfaces as shown in . The two rectangular faces are inclined to each other are called refracting faces and third rectangular face is called a base of the prism. The angle between two inclined faces is called the angle of prism or the refracting angle .               Consider a ray OP is incident on the refracting face, AB of the prism of refracting angle A. After refraction through the prism the ray emerges along QR and gets deviated by an angle from its original direction. If a prism ABC is rotated about a point P in such a way that angle of incidence increases gradually,then the angle of deviation, start decreasing initially obtains the minimum value and then start increasing again. The condition at which angle of deviation becomes minimum is called the angle of minimum deviation, and it is a very special case in prism. At the refracted ray inside the prism is parallel to the base of the prism, and hence angle of incidence, i = angle of emergence, e. This condition is useful to determine the refractive index of the material of the prism.  For a prism ABC, use Snell's law on face AB where is refractive index of medium g (glass) with respect to a (air). Now from , we have -   [ exterior angle of a triangle is equal to sum of the non-adjacent interior angles.]  Also from triangle,  and from quadrilateral,         From eqns. and , we get - Now from eqns. and , we get - But at minimum deviation condition, we have -     Now from , we have- This is the relation between refractive index and angle of minimum deviation.  If the angle of a prism is less than then the prism is called a thin prism . In thin prism, A is very small and for small i, r, and e are also very small, hence we have - [ for small ] where , the absolute refractive index of glass.  "
+},
+{
+  "id": "figure-302",
+  "level": "2",
+  "url": "subsec-prism_ref.html#figure-302",
+  "type": "Figure",
+  "number": "5.2.27",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "vardev",
+  "level": "2",
+  "url": "subsec-prism_ref.html#vardev",
+  "type": "Figure",
+  "number": "5.2.28",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-921",
+  "level": "2",
+  "url": "subsec-prism_ref.html#p-921",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "thin prism "
+},
+{
+  "id": "subsec-srs_img",
+  "level": "1",
+  "url": "subsec-srs_img.html",
+  "type": "Subsection",
+  "number": "5.2.6",
+  "title": "Image formed by Spherical Refracting Surfaces",
+  "body": " Image formed by Spherical Refracting Surfaces                From Snell's law   is a very small. Hence, and [ ].           Sign Rules for Refracting Surfaces: If light is incident on convex surface, R is +ve, on plane surface, R is and on concave surface, R is -ve, as shown in . Distance for real object or image is taken as +ve, and that for virtual is taken as -ve. Distance above principle axis is taken as +ve and that for below is taken as -ve.     Lateral or Transverse Magnification, m      From , Also from similar and , we have -  From eqn. , we have -    using eqn.  [ sign indicates an inverted image.]    Longitudinal Magnification, L  If a small object of length is placed along the axis of a spherical medium, it produces an image of length along the axis, hence the Longitudinal magnification ,  Differentiating w.r.t. 's', we get -   using eqn.  This represents the relation between lateral and longitudinal magnification. -ve sign indicates the image is laterally inverted.   "
+},
+{
+  "id": "figure-306",
+  "level": "2",
+  "url": "subsec-srs_img.html#figure-306",
+  "type": "Figure",
+  "number": "5.2.29",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "convention-3",
+  "level": "2",
+  "url": "subsec-srs_img.html#convention-3",
+  "type": "Convention",
+  "number": "5.2.30",
+  "title": "",
+  "body": "  Sign Rules for Refracting Surfaces: If light is incident on convex surface, R is +ve, on plane surface, R is and on concave surface, R is -ve, as shown in . Distance for real object or image is taken as +ve, and that for virtual is taken as -ve. Distance above principle axis is taken as +ve and that for below is taken as -ve.  "
+},
+{
+  "id": "fig73b",
+  "level": "2",
+  "url": "subsec-srs_img.html#fig73b",
+  "type": "Figure",
+  "number": "5.2.31",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-925",
+  "level": "2",
+  "url": "subsec-srs_img.html#p-925",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Longitudinal magnification "
+},
+{
+  "id": "subsec-thin_lens",
+  "level": "1",
+  "url": "subsec-thin_lens.html",
+  "type": "Subsection",
+  "number": "5.2.7",
+  "title": "Thin Lenses",
+  "body": " Thin Lenses   A lens is a part of solid spherical refracting surfaces. If its thickness is very thin it is called a thin lens. It is mainly of two types, concave lens and convex lens. The property of lens depends upon its shape and the type of material it is made up off. The lens which consists of two inward curved surfaces is known as concave lens and that which consists of two outward bulged surfaces is known as convex lens . However the combination of types of surfaces gives a lens different shapes. In are biconvex lens, plano-convex lens, concavo-convex lens, biconcave lens, plano-concavelens, and convexo-concave lens, respectively. Convex lenses are thicker at the middle and thinner at the edges and concave lenses are thinner at the middle and thicker at the edges.                               Anatomy of lenses are shown in . An imaginary line that bisects the symmetrical lens into two halves is known as vertical axis . The center of sphere of which a surface of lens is a part is known as center of curvature . There are two faces in a lens so it has two centers of curvature, . An imaginary straight line that is passing through the geometrical centre of a lens and joining the two centres of curvature of its surfaces is known as optical axis or principle axis. The light ray passing along this axis is perpendicular to the surfaces and will not deviate. All other rays passing through a lens and its optical center are called secondary axes. The geometric center of a lens is called an optical center of lens. The light ray passing through the optical center will never deviate.               The beam of light incident parallel to the principal axis will converge when passing through a convex lens, and diverge when passing through a concave lens. Since the convex lens converges the incident light rays it is also known as converging lens and the concave lens diverges the incident light rays it is also known as diverging lens ( and ). In a lens it is convenient to take 2F points on the principle axis on both sides of the lens to draw ray diagram. It is just double the focal length of the lens but not the center of curvature.               The point on the principle axis where the incident light rays parallel to the principle axis after refraction from the lens will converge on or appear to diverge from is known as focus or focal point of a lens. Two foci exist in a lens, equidistant on either side of the lens, since light behaves the same way when traveling in either direction (Principle of Reversibility). The two foci, and are called the primary principal focus and the secondary principal focus, respectively. An imaginary plane that is perpendicular to the principal axis at the focal point is known as focal plane . The size of a lens is known as aperture . The distance between the optical center, O to the center of curvature is known as radius of curvature, R and the distance between optical center, O to the focal point of a lens is known as focal length, f . The focal length, f is taken as positive for a converging lens and negative for a diverging lens. The radius of curvature, R is positive for convex surface and negative for concave surface. The shape of surface can be defined from which surface is the light incident.               A lens can be thought of as made up of a number of truncated prisms of varying refracting angle pile on top of each other on both sides. The refracting angle of a prism at the middle portion is infinite hence it behaves like a simple glass slab. The refracting angles of the prisms above or below the middle section of the lens gradually increase positively for convex lens and negatively for concave lens as shown in and . Since the prism bends the ray of light towards its base light converges in convex lens and diverges in concave lens after passing through the lens.    Lens Formula  Ray diagrams provide the nature of the image formed by the lens for an object placed at different distances from the lens but it can not provide the numerical information about image distance and its size. Hence the lens formula is very useful in determining the numerical relationship between the object distance, s, the image distance, s', and the focal length, f of a lens. From right angled and [ and ],                   Here y, y', s, s' are size of object, size of image, object distance, and image distance, respectively. Now from right angled and , we have -    From eqns. and , we get - Dividing by ss'f on both sides, we get- Which is a lens formula. The lateral magnification produced by the lens is given by -ve sign indicates an inverted image.  The following sign conventions are used for lens formula. All the distances are measured from the optical center of a lens. The distance for real object or real image is taken as positive and the distance for virtual object or virtual image is taken as negative. The focal length and radius of curvature of a convex lens are taken as positive and that for concave lens are taken as negative.                Alternative: A thin lens is a combination of a number of thin prisms and as a refracting angle, A of a prism at the point of incidence of a ray in the lens is same, the angle of deviation is given as which is constant irrespective of the angle of incidence for a ray incident on the lens. Now suppose a ray is incident at a height, h on a lens and produce a deviation . Hence from a we have - Also from , For a thin lens, is small, hence are and .       Image formed by a convex lens      When object lies at infinity: When object lies at infinity rays of light coming from the object considered as parallel beam of light and must converge at the focal plane after refraction through the lens. Hence the image is formed at focal plane, will be real, inverted, and point in size ( ).         When object lies beyond 2F: The ray parallel to the principle axis after refraction from the lens passes through the point F and the ray passes through the optical center goes without deviation. When both these refracted rays meet each other image is formed. Hence, the image is formed between F and 2F on the other side of the lens, will be real, inverted, and smaller in size ( ).         When object lies at 2F: The image is formed at 2F on the other side of the lens, will be real, inverted, and equal in size ( ).         When object lies between F and 2F: The image is formed beyond 2F on the other side of the lens, will be real, inverted, and larger in size ( ).         When object lies at F: The image is formed at infinity on the other side of the lens, will be real, inverted, and highly magnified ( ).         When object lies between focus, F and optical center, C: The image is formed at the same side of the object, will be virtual, errect, and magnified ( ).           Image formed by a concave lens   When object lies at principle axis: The image is formed between F and C at the same side of the object, will be virtual, errect, and diminished ( ).       "
+},
+{
+  "id": "p-926",
+  "level": "2",
+  "url": "subsec-thin_lens.html#p-926",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "concave lens convex lens "
+},
+{
+  "id": "lens",
+  "level": "2",
+  "url": "subsec-thin_lens.html#lens",
+  "type": "Figure",
+  "number": "5.2.32",
   "title": "",
   "body": "                            "
 },
 {
-  "id": "figure-290",
+  "id": "lanatomy",
   "level": "2",
-  "url": "subsec-sp_mir.html#figure-290",
+  "url": "subsec-thin_lens.html#lanatomy",
   "type": "Figure",
-  "number": "5.2.11",
+  "number": "5.2.33",
   "title": "",
   "body": "            "
+},
+{
+  "id": "figure-320",
+  "level": "2",
+  "url": "subsec-thin_lens.html#figure-320",
+  "type": "Figure",
+  "number": "5.2.34",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "figure-323",
+  "level": "2",
+  "url": "subsec-thin_lens.html#figure-323",
+  "type": "Figure",
+  "number": "5.2.35",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "figure-326",
+  "level": "2",
+  "url": "subsec-thin_lens.html#figure-326",
+  "type": "Figure",
+  "number": "5.2.36",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "figure-329",
+  "level": "2",
+  "url": "subsec-thin_lens.html#figure-329",
+  "type": "Figure",
+  "number": "5.2.37",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-934",
+  "level": "2",
+  "url": "subsec-thin_lens.html#p-934",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Alternative: "
+},
+{
+  "id": "p-935",
+  "level": "2",
+  "url": "subsec-thin_lens.html#p-935",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "When object lies at infinity: When object lies beyond 2F: When object lies at 2F: When object lies between F and 2F: When object lies at F: When object lies between focus, F and optical center, C: "
+},
+{
+  "id": "p-942",
+  "level": "2",
+  "url": "subsec-thin_lens.html#p-942",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "When object lies at principle axis: "
+},
+{
+  "id": "cavelens7",
+  "level": "2",
+  "url": "subsec-thin_lens.html#cavelens7",
+  "type": "Figure",
+  "number": "5.2.44",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-lensmakers",
+  "level": "1",
+  "url": "subsec-lensmakers.html",
+  "type": "Subsection",
+  "number": "5.2.8",
+  "title": "Lens Maker’s Formula",
+  "body": " Lens Maker's Formula   Consider a convex lens and join the lines coming from its two centers of curvatures at point P at a height y from the optical center, C. If is a refracting angle of a prism at this height of the lens then from quadrilateral , we have - as , AL and AN are tangents on the surfaces of the lens.      Also   But for a thin prism, A is very small, i.e., .  since radius of curvature for convex surface is +ve and that for concave surface is -ve. Considering light incident from left side of the lens. If the light ray is incident at the same height of the lens it will be deviated by an angle , where [From .] [for a prism.]  Therefore from eqns. and , we get - Similar relation can also be obtained for a concave lens.    Dependence of f of a lens on R of its surfaces  The refraction through a lens not only depends upon the curvature of a lens surfaces but it also depends upon the nature of the material of a lens. From lens maker's formula, we have    For a convex lens, is +ve and is -ve, [read sign convention in ].  That is if R is larger, then f is also larger for such a lens.    For a concave lens, is -ve, and is +ve.  If R is larger, then f is also larger for such a lens.    For a lens of .  For a glass lens of , and . That is, for a symmetrical glass lens placed in air, focal length is equal to the radius of curvature of the lens.        Minimum distance between object and its real image in a convex lens      From lens formula,        Which is quadratic in 's', For a real image the roots of the quadratic equation must be real. Hence the determinant of this equation must be , i.e., for a minimum distance.  When object lies at 2f distance from equiconvex lens then its real image is formed at 2f distance at other side of the lens except that the minimum distance must be greater than 4f.    Equivalent focal length of two thin lenses      When two convex lenses are in contact:       For lens , we have- For lens , we have- Since image behaves as a virtual object for lens .  Adding both terms we get -   A reciprocal of equivalent focal length is a sum of the reciprocal of individual focal lengths of thin lenses being in contact.      When two convex lenses are separated by a distance d apart:       If a monochromatic light ray parallel to the common axis be incident on a lens at height , then the deviation produced by the first lens is given by The emergent ray from lens is refracted from lens at height and meets the axis at point F. Since the incident ray OA is parallel to the principle axis and after refraction through the combination meets the axis at F, hence F must be the principle focus of the combination. If is a deviation produced by the second lens , then the total deviation produced by the combination is given by  From similar and , we have -     Substituting the value of in eqn. , we get -        "
+},
+{
+  "id": "lensmake1",
+  "level": "2",
+  "url": "subsec-lensmakers.html#lensmake1",
+  "type": "Figure",
+  "number": "5.2.45",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "lensmindist",
+  "level": "2",
+  "url": "subsec-lensmakers.html#lensmindist",
+  "type": "Figure",
+  "number": "5.2.46",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-952",
+  "level": "2",
+  "url": "subsec-lensmakers.html#p-952",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "When two convex lenses are in contact: When two convex lenses are separated by a distance d apart: "
 },
 {
   "id": "sec_fifth-examplesA",
@@ -4057,14 +4426,59 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Examples A",
-  "body": " Examples A  "
+  "body": " Examples A    What would be the smallest size of plane mirror you need if you want to see your full image?    Consider a person, HF standing in front of a plane mirror, MN. He can see his full image only if the light rays from his feet to head after reflected from the mirror fall on his eye, E.    From the law of reflection Since MN is parallel to HF, and are similar and hence the ratio of their corresponding sides are equal, i.e.,    Similarly, from similar and , we have From eqns. and , we get - If EP is drawn perpendicular on MN from E, then the lines MQ, PE, and NR are all parallel to each other, hence,   Hence, the size of mirror, MN must be half the size of a person, HF.      Two plane mirrors and are inclined to each other as shown in figure below. A ray of light parallel to is incident on the . After two successive reflections one at each mirror it becomes parallel to . Determine the angle between two mirrors.      From figure   similarly,   But in        An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.    What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?        Givem:   Equations:  mirror equation           real     reduced     inverted        A Cassegrain telescope is constructed of two mirrors as shown at right. The larger, primary mirror is concave, has a hole in the middle, and has a radius of curvature The smaller, secondary mirror is convex and is located a distance d = 75 cm from the primary mirror. Its radius of curvature is such that the final image of a distant star is located a distance F = 10 cm past the hole in the primary mirror. What is the magnitude of     Given:     Equations:     concave mirror.     "
+},
+{
+  "id": "example-73",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-73",
+  "type": "Example",
+  "number": "5.3.1",
+  "title": "",
+  "body": "  What would be the smallest size of plane mirror you need if you want to see your full image?    Consider a person, HF standing in front of a plane mirror, MN. He can see his full image only if the light rays from his feet to head after reflected from the mirror fall on his eye, E.    From the law of reflection Since MN is parallel to HF, and are similar and hence the ratio of their corresponding sides are equal, i.e.,    Similarly, from similar and , we have From eqns. and , we get - If EP is drawn perpendicular on MN from E, then the lines MQ, PE, and NR are all parallel to each other, hence,   Hence, the size of mirror, MN must be half the size of a person, HF.   "
+},
+{
+  "id": "example-74",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-74",
+  "type": "Example",
+  "number": "5.3.2",
+  "title": "",
+  "body": "  Two plane mirrors and are inclined to each other as shown in figure below. A ray of light parallel to is incident on the . After two successive reflections one at each mirror it becomes parallel to . Determine the angle between two mirrors.      From figure   similarly,   But in     "
+},
+{
+  "id": "example-75",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-75",
+  "type": "Example",
+  "number": "5.3.3",
+  "title": "",
+  "body": "  An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.    What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?        Givem:   Equations:  mirror equation           real     reduced     inverted     "
+},
+{
+  "id": "example-76",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-76",
+  "type": "Example",
+  "number": "5.3.4",
+  "title": "",
+  "body": "  A Cassegrain telescope is constructed of two mirrors as shown at right. The larger, primary mirror is concave, has a hole in the middle, and has a radius of curvature The smaller, secondary mirror is convex and is located a distance d = 75 cm from the primary mirror. Its radius of curvature is such that the final image of a distant star is located a distance F = 10 cm past the hole in the primary mirror. What is the magnitude of     Given:     Equations:     concave mirror.    "
+},
+{
+  "id": "sec_fifth-dispers",
+  "level": "1",
+  "url": "sec_fifth-dispers.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Dispersion",
+  "body": " Dispersion      "
 },
 {
   "id": "sec_fifth-examplesB",
   "level": "1",
   "url": "sec_fifth-examplesB.html",
   "type": "Section",
-  "number": "5.4",
+  "number": "5.5",
   "title": "Examples B",
   "body": " Examples B  "
 },
@@ -4073,7 +4487,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_fifth-physopt.html",
   "type": "Section",
-  "number": "5.5",
+  "number": "5.6",
   "title": "Physical Optics",
   "body": " Physical Optics      "
 },
@@ -4082,7 +4496,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_fifth-examplesC.html",
   "type": "Section",
-  "number": "5.6",
+  "number": "5.7",
   "title": "Examples C",
   "body": " Examples C  "
 },
@@ -4091,18 +4505,90 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ex_fifth.html",
   "type": "Exercises",
-  "number": "5.7",
+  "number": "5.8",
   "title": "Exercise",
-  "body": "  Exercise    "
+  "body": "  Exercise   Reflection  An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?    A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?     "
 },
 {
   "id": "exercise-146",
   "level": "2",
   "url": "ex_fifth.html#exercise-146",
   "type": "Exercise",
-  "number": "5.7.1",
+  "number": "5.8.1",
   "title": "",
-  "body": " "
+  "body": "An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-147",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-147",
+  "type": "Exercise",
+  "number": "5.8.2",
+  "title": "",
+  "body": "An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-148",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-148",
+  "type": "Exercise",
+  "number": "5.8.3",
+  "title": "",
+  "body": "An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-149",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-149",
+  "type": "Exercise",
+  "number": "5.8.4",
+  "title": "",
+  "body": "An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-150",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-150",
+  "type": "Exercise",
+  "number": "5.8.5",
+  "title": "",
+  "body": "An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-151",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-151",
+  "type": "Exercise",
+  "number": "5.8.6",
+  "title": "",
+  "body": "An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-152",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-152",
+  "type": "Exercise",
+  "number": "5.8.7",
+  "title": "",
+  "body": "An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-153",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-153",
+  "type": "Exercise",
+  "number": "5.8.8",
+  "title": "",
+  "body": "A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-154",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-154",
+  "type": "Exercise",
+  "number": "5.8.9",
+  "title": "",
+  "body": "A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?   "
 },
 {
   "id": "append_math",
@@ -4114,72 +4600,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-884",
+  "id": "p-985",
   "level": "2",
-  "url": "append_math.html#p-884",
+  "url": "append_math.html#p-985",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-885",
+  "id": "p-986",
   "level": "2",
-  "url": "append_math.html#p-885",
+  "url": "append_math.html#p-986",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-886",
+  "id": "p-987",
   "level": "2",
-  "url": "append_math.html#p-886",
+  "url": "append_math.html#p-987",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-887",
+  "id": "p-988",
   "level": "2",
-  "url": "append_math.html#p-887",
+  "url": "append_math.html#p-988",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-888",
+  "id": "p-989",
   "level": "2",
-  "url": "append_math.html#p-888",
+  "url": "append_math.html#p-989",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-889",
+  "id": "p-990",
   "level": "2",
-  "url": "append_math.html#p-889",
+  "url": "append_math.html#p-990",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-890",
+  "id": "p-991",
   "level": "2",
-  "url": "append_math.html#p-890",
+  "url": "append_math.html#p-991",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-891",
+  "id": "p-992",
   "level": "2",
-  "url": "append_math.html#p-891",
+  "url": "append_math.html#p-992",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4195,9 +4681,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-892",
+  "id": "p-993",
   "level": "2",
-  "url": "appendix-2.html#p-892",
+  "url": "appendix-2.html#p-993",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
