@@ -3,5 +3,207 @@
 <section xml:id="sec_fifth-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Examples A</title>
   
+  <example>
+    <statement>
+      <p>
+        What would be the smallest size of plane mirror you need if you want to see your full image?
+       </p>
+    </statement>
+    <solution>
+    
+      <p>
+        Consider a person, HF standing in front of a plane mirror, MN. He can see his full image only 
+        if the light rays from his feet to head after reflected from the mirror fall on his eye, E. 
+             </p>
+             <image source="fullimage.png" width ="40%"> </image>
+             <p>
+              From the law of reflection 
+              <me>
+                i =\angle HMQ = r = \angle QME
+              </me>
+              Since MN is parallel to HF, <m>\triangle^{s} HMQ</m> and <m>QME</m> are similar and 
+              hence the ratio of their corresponding sides are equal, i.e., 
+             </p>
+<p>
+  <me>
+    \frac{HQ}{QE} = \frac{MQ}{MQ}\quad \Rightarrow HQ = QE
+  </me>
+  <men xml:id="eqn-pmirror1">
+    \text{or,}\quad HE=HE+QE= 2QE 
+  </men>
+  Similarly, from similar <m>\triangle^{s} ENR</m> and <m>RNF</m>, we have 
+  <men xml:id="eqn-pmirror2">
+    \text{or,}\quad EF=ER+RF= 2ER 
+  </men>
+ From eqns. <xref ref="eqn-pmirror1"/> and <xref ref="eqn-pmirror2"/>, we get - 
+ <men xml:id="eqn-pmirror3">
+  \text{or,}\quad HF=HE+EF= 2QE + 2ER = 2(QE+ER) 
+ </men>
+ If EP is drawn perpendicular on MN from E, then the lines MQ, PE, and NR are all parallel to each other, hence,
+ <me>
+  MP=QE\qquad \text{also}\quad PN=ER
+ </me>
+ <me>
+  \therefore\qquad HF = 2(QE+ER) = 2(MP+PN) = 2MN
+ </me>
+ 
+ <men xml:id="eqn-pmirror4">
+  or, \quad MN= \frac{1}{2}HF
+ </men>
+  Hence, the size of mirror, MN must be half the size of a person, HF.
+</p>
+    </solution>
+  </example>
 
+
+  <example>
+    <statement>
+      <p>
+        Two plane mirrors <m>M_1</m> and <m>M_2</m> are inclined to each other as shown in figure below. 
+        A ray of light parallel to <m>M_2</m> is incident on the <m>M_1</m>. After two successive reflections 
+        one at each mirror it becomes parallel to <m>M_1</m>. Determine the angle between two mirrors.
+      </p>
+      <image source="inclindmir.png" width ="40%"> </image>
+    </statement>
+    <solution>
+      <p>
+        From figure 
+        <me>
+          \alpha+\theta =90^{o}
+        </me>
+        <me>
+          also,\quad \alpha+y =90^{o}
+        </me>
+        <me>
+          \therefore,\quad y =90^{o}-\alpha =90^{o}-(90^{o}-\theta)  =\theta
+        </me>
+        similarly, <m>x=\theta</m>
+             </p>
+             <p>
+              But in  <m>\bigtriangleup OQR,</m>
+              <me>
+                \theta+x+y=180^{o} \quad \Rightarrow \quad \theta = 60^{o}
+              </me>
+             </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of 
+        focal length 10 cm. 
+      </p>
+           <p>
+        <ol marker="a.">
+          <li>
+            What is the radius of curvature of the mirror? 
+          </li>
+          <li>
+            Where is the image located?
+          </li>
+          <li>
+            Is the image real or virtual?
+          </li>
+          <li>
+            What is the magnification of the mirror?
+          </li>
+          <li>
+            Is the image enlarged or reduced?
+          </li>
+          <li>
+            What is the height of the image? 
+          </li>
+          <li>
+            Is the image erect or inverted?
+          </li>
+        </ol>
+            </p>
+    </statement>
+    <solution>
+      <image source="fig70.png" width ="40%"> </image>
+      <p>
+        Givem: <m> y=1\,cm, \quad s=30\,cm, \quad f=10\,cm</m>
+           </p>
+           <p>
+            Equations:
+            <me>
+              f=\frac{R}{2}
+            </me>
+            <me>
+              \frac{1}{s}+ \frac{1}{s'}= \frac{1}{f}
+            </me>
+            mirror equation
+            <me>
+              m = -\frac{s'}{s}  = \frac{y'}{y}
+            </me>
+           </p>
+             <p>
+            <ol marker="a.">
+              <li>
+               <m>R= 20\,cm</m>
+              </li>
+              <li>
+                <m>s' = 15\,cm</m>
+              </li>
+              <li>
+               real
+              </li>
+              <li>
+                <m>m = - 0.5 </m>
+              </li>
+              <li>
+                reduced
+              </li>
+              <li>
+                <m>y' = -0.5\, cm</m>
+              </li>
+              <li>
+                inverted
+              </li>
+            </ol>
+           </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A Cassegrain telescope is constructed of two mirrors as shown at right. 
+        The larger, primary mirror is concave, has a hole in the middle, and has a radius of curvature 
+        <m>R_{1} = 2 \,m.</m> The smaller, secondary mirror is convex and is located a distance 
+        d = 75 cm from the primary mirror. Its radius of curvature <m>R_{2}</m> is such that the 
+        final image of a distant star is located a distance F = 10 cm past the hole in the primary 
+        mirror. What is the magnitude of<m>R_{2}?</m> 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>R_{1}  = 2\,m,\quad d=0.75\, cm,\quad  f=0.10\,m, \quad s_{1} =\infty </m>
+      </p>
+      <image source="fig71.png" width ="40%"> </image>
+      <p>
+        Equations: 
+        <me>
+          f_{1}=\frac{R_{1}}{2}  \Rightarrow f_{1}=1\,m
+        </me>
+        <me>
+          \frac{1}{s_{1}}+ \frac{1}{s'_{1}}= \frac{1}{f_{1}} \Rightarrow s'_{1}=1\,m 
+        </me>
+        <me>
+          d=s_{1}' +s_{2} \Rightarrow s_{2} =-0.25\,m
+        </me>
+        <me>
+          s'_{2}=d+f = \Rightarrow s'_{2} =0.85\,m
+        </me>
+        <me>
+          \frac{1}{s_{2}}+ \frac{1}{s'_{2}}= \frac{1}{f_{2}} \Rightarrow f_{2} =-0.354 \,m 
+        </me>
+        concave mirror.
+        <me>
+          f_{2}=\frac{R_{2}}{2} \Rightarrow R_{2} =0.708 \,m
+        </me>
+            </p>
+    </solution>
+  </example>
 </section>

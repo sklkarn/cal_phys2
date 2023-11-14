@@ -268,16 +268,10 @@
     more waves everysecond causes decrease in wavelength. Hence pitch of sound heard by the 
     listener is given by 
     <me>
-      f_{l} = \frac{v}{\lambda'}
+      f_{l} = \frac{v}{\lambda'}   =\frac{v}{\lambda -v_{s}T} =\frac{v}{\frac{v}{f_{s}} -\frac{v_{s}}{f_{s}}}
     </me>
-    <me>
-      =\frac{v}{\lambda -v_{s}T}
-    </me>
-    <me>
-      =\frac{v}{\frac{v}{f_{s}} -\frac{v_{s}}{f_{s}}}
-    </me>
-    <me>
-      = \left(\frac{v}{v-v_{s}}\right)f_{s}
+       <me>
+     \therefore \quad  f_{l}= \left(\frac{v}{v-v_{s}}\right)f_{s}
     </me>
         When source is moving towards the listener wavelength squeezed by <m>\lambda-v_{s}T</m> 
         for every cycle of wave. Here T is a time period of the wave. 
@@ -304,16 +298,10 @@
     then the relative velocity of sound is changed for the listener. Hence pitch of sound 
     heard by the listener is given by 
     <me>
-      f_{l} = \frac{v'}{\lambda}
+      f_{l} = \frac{v'}{\lambda} =\frac{v+v_{l}}{\lambda} =\frac{v+v_{l}}{\frac{v}{f_{s}}}
     </me>
-    <me>
-      =\frac{v+v_{l}}{\lambda}
-    </me>
-    <me>
-      =\frac{v+v_{l}}{\frac{v}{f_{s}}}
-    </me>
-    <me>
-      = \left(\frac{v+v_{l}}{v}\right)f_{s}
+       <me>
+     \therefore \quad   f_{l}= \left(\frac{v+v_{l}}{v}\right)f_{s}
     </me>
     
         The direction of sound velocity is taken as positive and hence if listener is 
@@ -340,16 +328,10 @@
   <p>
     In ths case pitch is given by
 <me>
-  f_{l} = \frac{v'}{\lambda'} 
+  f_{l} = \frac{v'}{\lambda'}  = \frac{v+v_{l}}{\lambda-v_{s}T}  = \frac{v+v_{l}}{\frac{v}{f_{s}}-\frac{v_{s}}{f_{s}}} 
 </me>
 <me>
-  = \frac{v+v_{l}}{\lambda-v_{s}T} 
-</me>
-<me>
-  = \frac{v+v_{l}}{\frac{v}{f_{s}}-\frac{v_{s}}{f_{s}}} 
-</me>
-<me>
-  =  \left(\frac{v+v_{l}}{v-v_{s}}\right){f_{s}}
+  \therefore \quad f_{l} =  \left(\frac{v+v_{l}}{v-v_{s}}\right){f_{s}}
 </me>
   </p>
 </subsubsection>
@@ -366,28 +348,27 @@
   </p>
 </subsubsection>
 
+<convention>
+  <p>
+<term>Sign Rules for Doppler Effect:</term> 
+  <me>
+    f_{L} = \frac{v+v_{L}}{v+v_{s}}f_{s} \quad	\text{(sound)} 
+  </me>
+  <m>v = +;  </m> <m>v_{L}, \, v_{s} = + \quad \text{for}\quad L \oslash S. \quad [\text{L towards S}]</m>
+  <me>
+    f_{R} = \sqrt{\frac{c-v}{c+v}} f_{s} \quad	\text{(light)} \quad(c = +;   v = + \quad \text{for}\quad R \oslash S) 
+  </me>
+      </p>
+      <p>
+        <term>Remember:</term> If a source is going away from a listener then denominator has to increase 
+        (i.e. <m>v_{s}=+ve </m>) to lower the pitch. If a source is coming towards a listener 
+        then denominator has to decrease (i.e. <m>v_{s}=-ve</m>) to raise the pitch. 
+      </p>
+</convention>
 
   </subsection>
 
-  <subsection xml:id="subsec-defct_sign">
-    <title>Sign Convention for Doppler Effect</title>
-    <p>
-      <me>
-        f_{L} = \frac{v+v_{L}}{v+v_{s}}f_{s} \quad	\text{(sound)} 
-      </me>
-      <m>v = +;  </m> <m>v_{L}, \, v_{s} = + \quad \text{for}\quad L \oslash S. \quad [\text{L towards S}]</m>
-      <me>
-        f_{R} = \sqrt{\frac{c-v}{c+v}} f_{s} \quad	\text{(light)} \quad(c = +;   v = + \quad \text{for}\quad R \oslash S) 
-      </me>
-          </p>
-          <p>
-            Remember: If a source is going away from a listener then denominator has to increase 
-            (i.e. <m>v_{s}=+ve </m>) to lower the pitch. If a source is coming towards a listener 
-            then denominator has to decrease (i.e. <m>v_{s}=-ve</m>) to raise the pitch. 
-          </p>
-  </subsection>
-
-  <subsection xml:id="subsec-sonic_boom">
+    <subsection xml:id="subsec-sonic_boom">
     <title>Sonic Boom</title>
     <p>
      A loud noise that is created by the <em>shock wave</em> is called a sonic boom. 
@@ -461,5 +442,6 @@
       thus a simple way to determine the speed of a supersonic object.
     </p>
   </subsection>
+
   </section>
 

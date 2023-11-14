@@ -175,6 +175,7 @@
     <subsubsection xml:id="subsubsec-image_pmirror">
     <title>Image formed by a mirror</title>
     <p>
+      <em>A plane reflecting surface is a special surface of spherical reflecting surface with infinite radius of curvature.</em>
       A mirror is a highly polished smooth surface which allows a regular reflection. 
       When these reflected rays fall in our eyes we see the image of that object. 
       Depends upon the shape of reflecting surface there are many types of mirror such as plane mirror, 
@@ -454,31 +455,30 @@ ray turns through <m>2\theta</m> keeping the incident ray constant, as shown in 
 </me>
 Similarly, we can obtain the relation for convex mirror as <m>f=-\frac{R}{2}</m>.
     </p>
-  </subsubsection>
-
-<subsubsection xml:id="subsubsec-sign_rulemir">
-  <title>Sign Rules:</title>
-   
-  <p>
-    <term></term>
-Since focus and center of curvature lie behind the convex mirror the following sign conventions 
-will be helpful in analyzing the nature of image formation by the spherical mirrors.  
-<ol>
-  <li>
-    All distance will be measured from pole of the mirror;
-  </li>
-  <li>
-    Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and
-  </li>
-  <li>
-    Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.
-  </li>
-</ol>
-  </p>
-  <p>
-   <term> Note:</term> The distance between object and pole of the mirror is called <term>object distance</term> 
-   and that between image and pole of the mirror is called <term>image distance</term>.
-  </p>
+ 
+   <convention>
+    <p>
+      <term>Sign Rules:</term>
+  Since focus and center of curvature lie behind the convex mirror the following sign conventions 
+  will be helpful in analyzing the nature of image formation by the spherical mirrors.  
+  <ol>
+    <li>
+      All distance will be measured from pole of the mirror;
+    </li>
+    <li>
+      Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and
+    </li>
+    <li>
+      Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.
+    </li>
+  </ol>
+    </p>
+    <p>
+     <term> Note:</term> The distance between object and pole of the mirror is called <term>object distance</term> 
+     and that between image and pole of the mirror is called <term>image distance</term>.
+    </p>
+   </convention>
+ 
 </subsubsection>
 
 
@@ -576,69 +576,73 @@ will be helpful in analyzing the nature of image formation by the spherical mirr
   <title>Formation of Image by a Concave Mirror</title>
 
   <p>
-
-  </p>
-  <figure>
-    <caption></caption>
-    <sidebyside widths="16% 16% 16% 16% 16% 16%">
-      <figure xml:id="caveinf">
-        <caption></caption>
-        <image source="caveinf.png"/>
-    </figure>
-        <figure xml:id="cavebeyC">
-            <caption></caption>
-            <image source="cavebeyC.png"/>
-        </figure>
-        <figure xml:id="caveC">
-          <caption></caption>
-          <image source="caveC.png"/>
-      </figure>
-          <figure xml:id="caveFC">
-              <caption></caption>
-              <image source="caveFC.png"/>
-          </figure>
-          <figure xml:id="caveF">
-            <caption></caption>
-            <image source="caveF.png"/>
-        </figure>
-            <figure xml:id="caveFP">
-                <caption></caption>
-                <image source="caveFP.png"/>
-            </figure>
-         </sidebyside>
-  </figure>
-<p>
-<ol>
+<ol marker="i.">
   <li>
-    <em>When object lies at infinity:</em>
+   <p>
+    <term>When object lies at infinity:</term>
     Consider a parallel beam of light coming from an object O at infinity incident on the 
     mirror and after reflection converges on a focal plane to form an image I as shown in <xref ref="caveinf"/>. 
     The image is formed at focus and will be real, inverted, and point in size. Using mirror formula, 
     if <m>u=\infty</m> then <m>v=f</m>, hence real, point in size, (as <m>m=-f/\infty=0</m>) and inverted.
+   </p>
+   <figure xml:id="caveinf">
+    <caption></caption>
+    <image source="caveinf.png" width="45%"/>
+</figure>
   </li>
   <li>
-   <em> When object lies beyond center of curvature:</em>
+  <p>
+    <term>When object lies beyond center of curvature:</term>
     Consider a ray of light BM is incident on the mirror parallel to the principle axis then 
     after reflection it passes through F along MB'. Another ray BN incident on the mirror through 
     F and meet to MB' at B' to  form an image AB' as shown in <xref ref="cavebeyC"/>. 
     From geometry of the figure the image is formed between focus and center of curvature, inverted, real, and smaller in size.
+  </p>
+  <figure xml:id="cavebeyC">
+    <caption></caption>
+    <image source="cavebeyC.png" width="45%"/>
+</figure>
   </li>
   <li>
-   <em> When object lies at center of curvature:</em>
+  <p>
+    <term>When object lies at center of curvature:</term>
     From geometry of the <xref ref="caveC"/>, the image is formed at C, inverted, real, and equal in size. 
     Mirror formula <m>v= \frac{fu}{u-f} = 2f</m>. If <m>u=2f</m>, and <m>m=-\frac{2f}{2f}=-1</m>.
+  </p>
+  <figure xml:id="caveC">
+    <caption></caption>
+    <image source="caveC.png" width="45%"/>
+</figure>
   </li>
   <li>
-    <em>When object lies between F and C:</em>
- From geometry of the <xref ref="caveFC"/>, the image is formed beyond C, inverted, real, and magnified.
+ <p>
+  <term>When object lies between F and C:</term>
+  From geometry of the <xref ref="caveFC"/>, the image is formed beyond C, inverted, real, and magnified.
+ </p>
+ <figure xml:id="caveFC">
+  <caption></caption>
+  <image source="caveFC.png" width="45%"/>
+</figure>
   </li>
   <li>
-   <em> When object lies at F:</em>
-From geometry of the <xref ref="caveF"/>, the image is formed at infinity, inverted, real, and highly magnified. 
+ <p>
+  <term>When object lies at F:</term> 
+  From geometry of the <xref ref="caveF"/>, the image is formed at infinity, inverted, real, and highly magnified. 
+ </p>
+ <figure xml:id="caveF">
+  <caption></caption>
+  <image source="caveF.png" width="45%"/>
+</figure>
   </li>
   <li>
-   <em> When object lies between F and P:</em>
+  <p>
+    <term>When object lies between F and P:</term>
     From geometry of the <xref ref="caveFP"/>, the image is formed behind the mirror, erect, virtual, and magnified. 
+  </p>
+  <figure xml:id="caveFP">
+    <caption></caption>
+    <image source="caveFP.png" width="45%"/>
+</figure>
   </li>
 </ol>
 </p>
@@ -646,34 +650,1247 @@ From geometry of the <xref ref="caveF"/>, the image is formed at infinity, inver
 
 <subsubsection xml:id="subsubsec-convex_image">
   <title>Formation of Image by a Convex Mirror</title>
-  
-  <figure>
-    <caption></caption>
-    <sidebyside widths="25% 25%">
-            <figure xml:id="vexinf">
-          <caption></caption>
-          <image source="vexinf.png"/>
-      </figure>
-          <figure xml:id="vexP">
-              <caption></caption>
-              <image source="vexP.png"/>
-          </figure>
-         </sidebyside>
-  </figure>
-  <p>
-<ol>
+ 
+   <p>
+<ol marker="i.">
   <li>
-    <em>When object lies at infinity:</em> From geometry of the <xref ref="vexinf"/>, 
+   <p>
+   <term> When object lies at infinity:</term> From geometry of the <xref ref="vexinf"/>, 
     the image is formed behind the mirror at F, erect, virtual, and highly diminished. 
+   </p>
+    <figure xml:id="vexinf">
+      <caption></caption>
+      <image source="vexinf.png" width="45%"/>
+    </figure>
   </li>
   <li>
-   <em> When object lies on the Principle axis:</em>
-  From geometry of the <xref ref="vexP"/>, the image is formed behind the mirror between 
-  F and P, erect, virtual, and diminished.
+  <p>
+    <term> When object lies on the Principle axis:</term>
+    From geometry of the <xref ref="vexP"/>, the image is formed behind the mirror between 
+    F and P, erect, virtual, and diminished.
+  </p>
+  <figure xml:id="vexP">
+    <caption></caption>
+    <image source="vexP.png" width="45%"/>
+  </figure>
   </li>
 </ol>
   </p>
  </subsubsection>
 </subsection>
+
+
+<subsection xml:id="subsec-refraction">
+  <title>Refraction</title>
+  <introduction>
+    <p>
+      The phenomenon of bending of light ray as it goes from one medium to another is called 
+      a refraction. The velocity of light depends on the medium it is propagating which causes 
+      the refraction. The measure of an obstacle that a medium imposes on the velocity of light 
+      is known as <term>refractive index</term> of that medium. Hence the light ray bend as it 
+      goes from a medium of lower refractive index to the higher one or vice a versa.  
+      </p>
+      <figure xml:id="refr">
+        <caption></caption>
+        <image source="refr.png" width="45%"/>
+    </figure>
+      <p>
+        If c is a velocity of light in a vacuum and v is the velocity of light in a given 
+        medium then the refractive index of this medium is defined as 
+        <men xml:id="eqn-refract1">
+          \eta =  \frac{c}{v}
+        </men>
+         Medium with higher refractive index is known as optically <term>denser medium </term> and 
+         that with lower refractive index is known as optically <term>rare medium</term>. 
+          </p>
+          <p>
+            <alert>Note:</alert> Optically denser and rare has nothing to do with the density of the 
+            medium which is sometimes misunderstood. However, refractive index of a medium is 
+            proportional to the density of that medium. As the temperature increases the density 
+            of the medium decreases generally and so is its refractive index. For example, water 
+            has density of <m>1\,g/ml</m> and  refractive index of <m>1.3235</m>  
+            whereas isopropyle alcohol has density of <m>0.785\,g/ml</m> and  refractive index of 
+            <m>1.3772</m> it means light bend more in alcohol then in water. The refractive index 
+            of vacuum is 1 and that for air is 1.0003 hence they are taken as same.  When a ray is 
+            incident on the surface separating two media it either bends towards or away from the 
+            normal at the point of incidence. If light goes from rare to denser it bends towards 
+            the normal and if it goes from denser to rare it bends away from the normal. The angle 
+            between initial direction of light to the final direction in the second medium is known 
+            as angle of deviation, <m>\delta</m>.
+          </p>
+         <p>
+          <term>Refraction of a plane wavefront at a plane surface:</term>
+         </p>
+         
+          <p>
+            Let MN be the surface separating two media a and b having refracting indices of <m>\eta_{1}</m> 
+            and <m>\eta_{2}</m>,respectively as shown in <xref ref="refrwave"/>. Let velocity of light 
+            in medium a is <m>v_{a}</m> and medium b is <m>v_{b}</m> where <m>v_{a} \gt v_{b}</m>. 
+            Consider a plane wavefront APB is coming to incident on plane MN. By the time the disturbance 
+            at B reaches to C, the secondary waves from A must have traveled a distance <m>AD=v_{b}t</m> 
+            where t is the time taken by the waves to travel the distance BC. 
+            <me>
+              \therefore\quad BC=v_{a}t \qquad \text{and} \quad AD =v_{b}t
+            </me>
+               As velocity of light is less in medium b, the refracted wavefront is given by the 
+               tangent CD drawn at point D, where AD is a radius of sphere centered at point A. 
+               The line CD happens to be an envelop of all the secondary wavelets of wavefront APB 
+               coming from medium a to medium b.
+                     </p>
+                     <figure xml:id="refrwave">
+                      <caption></caption>
+                      <image source="refrwave.png" width="45%"/>
+                  </figure>
+                     <p>
+                      From the <m>\triangle^{s} ACD</m> and <m>QCS</m> 
+                      <men xml:id="eqn-refract2">
+                        \frac{AD}{QS}=\frac{AC}{QC}  
+                      </men>
+                         Similarly, from <m>\vartriangle^{s} ACE</m> and <m>QCR</m>
+                     <men xml:id="eqn-refract3">
+                      \frac{AE}{QR}=\frac{AC}{QC}
+                     </men>
+                       </p>
+                       <p>
+                        From eqns. <xref ref="eqn-refract2"/> and <xref ref="eqn-refract3"/>, we get - 
+                        <me>
+                          \frac{AD}{QS} = \frac{AE}{QR}
+                        </me>
+                        <me>
+                          \text{or,}\quad  \frac{AE}{AD}  = \frac{BC}{AD}  = \frac{v_{a}t}{v_{b}t} =\frac{QR}{QS} =\frac{v_{a}}{v_{b}}
+                        </me>
+                        Hence, if AD is the radius of the secondary wavefront for the point A, 
+                        then QS is the radius of the secondary wavefront for the point Q. 
+                        Let i and r be the angles of incidence and refraction, respectively then from <m>\triangle ABC</m> and <m>ACD</m> 
+                        <me>
+                          \frac{\sin i}{\sin r} = \frac{BC/AC}{AD/AC} = \frac{BC}{AD} =\frac{v_{a}t}{v_{b}t} =\frac{v_{a}}{v_{b}} =\frac{\eta_{b}}{\eta_{a}} 
+                        </me>
+                         </p>
+                       <p>
+                        From the definition of rare and denser medium, <m>v\propto\frac{1}{\eta}</m>. 
+                        <me>
+                          \therefore\quad \eta_{a}\sin i=\eta_{b}\sin r 
+                        </me>
+                       This is the Snell's law. 
+                       </p>
+                       <p>
+                        If <m>\eta_{b} \gt \eta_{a}</m> then <m>r \lt i,</m> that is the refracted 
+                        ray bent towards the normal. If <m>\eta_{b} \lt \eta_{a}</m> then <m>r \gt i,</m> 
+                        that is the refracted ray bent away from the normal. 
+                       </p>
+                      </introduction>
+
+
+        <subsubsection xml:id="subsubsec-">
+          <title> Laws of Refraction</title>
+          <p>
+          The laws of refraction state that 
+          <ol>
+            <li>
+              The incident ray, the normal at the point of incidence, and the refracted ray are coplanar;
+            </li>
+            <li>
+              The ratio of sine of the angles of incidence to the sine of angle of refraction is 
+              equal to the ratio of refractive indices of the second and first medium, i.e. 
+              <me>
+                \frac{\sin \theta_{i}}{\sin \theta_{r}}= \frac{\eta_{r}}{\eta_{i}}= {}^{i}{\eta_{r}}.
+              </me>
+               </li>
+          </ol>
+          where <m>\eta{i}</m> and <m>\eta{r}</m> are absolute refractive index of first and second medium, 
+          respectively. An absolute refractive index is the measure of refractive index of the medium 
+          with respect to air or vacuum. <m>{}^{i}{\eta_{r}}</m> is read as refractive index of a second 
+          medium with respect to the first. 
+                   </p>
+                   <p>
+                    The  second law is also known as <term>Snell's law</term>, which is 
+                    <men xml:id="eqn-snell1">
+                      \eta_{i}\sin\theta_{i} = \eta_{r}\sin \theta_{r}
+                    </men>
+                     </p>
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-real_apprnt">
+          <title>Real and Apparent Depth</title>
+          <p>
+            <em>A plane interface between two transparent media is a special surface of spherical 
+            refracting surface with infinite radius of curvature. </em> 
+            When objects are seen under a transparent medium like water they appear closer than they really are. 
+            This is the effect of refraction and hence it is used to determine the refractive index of the transparent 
+            medium. The refraction produces a virtual image of an object above its real position. 
+          </p>
+          <figure xml:id="refr2">
+            <caption></caption>
+            <image source="refr2.png" width="45%"/>
+        </figure>
+          <p>
+            Suppose an object O is lying at a depth t below an optically denser medium such as water. 
+            A ray of light OC is incident on interface normally and passes along CD without any deviation. 
+            Another ray of light OA incident at an <m>\angle i</m> on the interface and refracted along AE 
+            at an <m>\angle r</m>. For a small aperture of eye points A and C are very close to each 
+            other and once the rays AE and CD reach to the eye then object appears at point I which 
+            is a virtual image of object O. Here in <xref ref="refr2"/>, the rays AE and BF are 
+            constituting the virtual image $I$ of the object O. Actually in geometrical optics, 
+            to see an image of any object at least two rays emanating from the object after reflection 
+            or refraction must reach to the oberserver's eye. 
+              </p>
+              <p>
+                From <xref ref="refr2"/>, 
+                <m>\angle OAN' =i= \angle COA,  </m> alternating angles and <m>\angle NAE =r= \angle CIA</m>,
+                 corresponding angles. Therefore from Snell's law 
+                 <me>
+                  \eta_{i}\sin\theta_{i} = \eta_{r}\sin\theta_{r}
+                 </me>
+                 <me>
+                  \text{or,} \quad \eta_{b}\sin i = 1. \sin r 
+                 </me>
+                 where <m>\eta_{b}</m> is absolute refractive index of water (denser medium) 
+                 and <m>\eta_{a} = 1</m> is absolute refractive index of air (rare medium). 
+                 <me>
+                  \therefore\quad \eta_{b} = \frac{\sin r}{\sin i}
+                 </me>
+                  Since the aperture of eye is very small points A and C are considered very close to 
+                  each other and hence <m>\angle i</m> and <m>\angle r</m> are very small, i.e., 
+                  <m>\sin i \simeq \tan i</m> and <m>\sin r \simeq \tan r</m>. 
+                  <me>
+                    \text{or,}\quad \eta_{b} = \frac{\tan r}{\tan i} = \frac{\frac{CA}{CI}}{\frac{CA}{CO}}
+                  </me>
+                 <men xml:id="eqn-snell2">
+                  \therefore \quad \eta_{b}  = \frac{CO}{CI} = \frac{\text{Real Depth}}{\text{Apparent Depth}}
+                 </men>
+                 
+                  </p>
+                  <p>
+                    Hence the apparent shift, d of the object to be appered is given by 
+                  <men xml:id="eqn-snell3">
+                    d=OI = CO-CI= CO-\frac{CO}{\eta_{b}} = t\left(1-\frac{1}{{}^a\eta_{b}}\right)
+                  </men>
+                     where <m>CO = t</m> is the real depth of the object and <m>{}^a \eta_{b}</m> is a 
+                    refractive index of medium b with respect to medium a.
+                  </p>
+
+                  <p>
+                   <term> Apparent shift under a number of transparent media: </term>
+                  </p>
+                  <figure xml:id="apshft">
+                    <caption></caption>
+                    <image source="apshft.png" width="45%"/>
+                </figure>
+                  <p>
+                    When an object lies under a number of transparent media [<xref ref="apshft"/>] then its apparent shift 
+                    can be determined by 
+                    <me>
+                      d=d_{1}+d_{2}=t_{1}\left(1-\frac{1}{\eta_{1}}\right)+t_{2}\left(1-\frac{1}{\eta_{2}}\right) 
+                    </me>
+                    Where <m>d_{1}</m> and <m>d_{2}</m> are the apparent shift of the object in a medium of refractive 
+                    index <m>\eta_{1}</m> and <m>\eta_{2}</m>, respectively.  
+                  </p>
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-lateral_shift">
+          <title>Lateral Shift</title>
+          <p>
+            When a ray of light is incident obliquely on a parallel sided transparent medium such as 
+            glass slab, then the emergent ray shifts laterally. The perpendicular distance between 
+            the direction of the incident ray and the emergent ray is called a <term>lateral shift</term>. 
+          </p>
+          <figure xml:id="lateralshift">
+            <caption></caption>
+            <image source="lateralshift.png" width="45%"/>
+        </figure>
+        <p>
+          In the given figure, d is a lateral shift,  BD is an emergent ray, and <m>AM=t</m> is a thickness of the glass slab. 
+          From <m>\vartriangle ABP</m>, 
+          <me>
+            \sin\angle PAB=\frac{BP}{AB}
+          </me>
+          <me>
+            \text{or,} \quad \sin(i-r)=\frac{d}{AB}
+          </me>
+         <men xml:id="eqn-lateral_shft1">
+          \text{or,} \quad d= AB\sin(i-r) 
+         </men>
+         But from  <m>\vartriangle AMB</m>, 
+         <me>
+          \cos\angle MAB=\frac{MA}{AB}
+         </me>
+         <me>
+          \text{or,} \quad \cos r=\frac{t}{AB} \quad \Rightarrow AB=\frac{t}{\cos r}
+         </me>
+         <men xml:id="eqn-lateral_shft2">
+          \text{or,} \quad AB=t\sec r 
+         </men>
+         Hence from eqns. <xref ref="eqn-lateral_shft1"/> and <xref ref="eqn-lateral_shft2"/>, we get - 
+         <men xml:id="eqn-lateral_shft3">
+          d= tsec r\sin(i-r) 
+         </men>
+            </p>
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-reversblty_prncple">
+          <title>Principle of Reversibility of Light</title>
+          <figure xml:id="revers2">
+            <caption></caption>
+            <image source="revers2.png" width="45%"/>
+        </figure>
+          <p>
+            The principle of reversibility of light states that if the path of light is reversed even after suffering from the number of 
+            reflections and refractions, it retraces its original path. 
+            <me>
+              {}^a\eta_{w}=\frac{\sin\theta_{1}}{\sin\theta_{2}};
+            </me>
+            <me>
+              {}^w\eta_{g}=\frac{\sin\theta_{2}}{\sin\theta_{3}}
+            </me>
+                From the principle of reversibility - 
+              <me>
+                {}^g\eta_{w}=\frac{\sin\theta_{3}}{\sin\theta_{2}};
+              </me>
+              <me>
+                {}^w\eta_{a}=\frac{\sin\theta_{2}}{\sin\theta_{1}}
+              </me>
+                Multiplying them we get- 
+                <me>
+                  {}^a\eta_{w}\times {}^w\eta_{g}\times {}^g\eta_{w}\times{}^w\eta_{a} 
+                  =\frac{\sin\theta_{1}}{\sin\theta_{2}}\times \frac{\sin\theta_{2}}{\sin\theta_{3}}\times \frac{\sin\theta_{3}}{\sin\theta_{2}}\times\frac{\sin\theta_{2}}{\sin\theta_{1}}=1
+                </me>
+                </p>
+        </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-tir">
+  <title>Total Internal Reflection</title>
+ <introduction>
+ 
+  <p>
+    When a ray of light passes from an optically denser medium to the rare medium it bends 
+    away from the normal. If the angle of incidence in this case is increased gradually 
+    then at particular angle of incidence the refracted ray starts grazing on the surface 
+    separating two media i.e., angle of refraction becomes <m>90^{o}</m>. The angle of 
+    incidence at that condition is called a <term>critical angle, c</term>. If the angle 
+    of incidence is further increased above the critical angle then the light ray returns 
+    into the same denser medium, such phenomenon is called the <term>total internal reflection</term>. 
+    Since the reflection happen at a very top thin surface of interface and it is assumed 
+    that there is no loss of energy in the form of transmission or absorption, hence the 
+    name total internal reflection.  Starting from angle of incidence <m>i=0,</m> angle of 
+    refraction <m>r=0</m> as i increases r also increases if the ray of light is going from 
+    denser to a rare medium as shown in <xref ref="tir"/>. When  <m>i=c,</m> (the critical angle) 
+    then the angle of refraction,  <m>r=90^{o}</m>. Hence from Snell's law
+  </p>
+  <figure xml:id="tir">
+    <caption></caption>
+    <image source="tir.png" width="55%"/>
+</figure>
+<p>
+  <me>
+    \eta_{i}\sin i = \eta_{r}\sin r 
+  </me>
+  <me>
+    \text{or,}\quad\eta_{b}\sin c = \eta_{a}\sin 90
+  </me>
+  <me>
+    or, \quad \sin c = \frac{\eta_{a}}{\eta_{b}}=\frac{1}{\eta_{b}} 
+  </me>
+ <men xml:id="eqn-tir1">
+  \therefore\quad  c = \sin^{-1}\left(\frac{1}{\eta_{b}}\right)
+ </men>
+ 
+  Now once the <m>i \gt c</m> the refracted ray disappears and appears as a 
+  reflected ray in the same medium, b and obeys all the laws of reflection.
+</p>
+<p>
+  This phenomenon is very useful in sending the light signal through an optical fiber, 
+and changing the direction of ray of light using prism.  Rainbow, mirage, and sparkling 
+of diamond can be possible due to total internal reflection. 
+</p>
+</introduction>
+
+<subsubsection xml:id="subsubsec-mirage">
+  <title>Mirage</title>
+  <p>
+    It is an optical illusion which gives the deceptive appearance of image of a distant 
+    object as it is formed in a pool of water. <em>Mirage</em> is caused by refraction of the light 
+    rays in layers of air of varying density. In a hot summer day in a desert or on a highway 
+    layers of varying density of air is formed because of heat. Layer of air near the surface 
+    of earth is hotter than it is above the surface of earth. 
+  </p>
+
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+            <figure xml:id="mirage">
+          <caption></caption>
+          <image source="mirage.png"/>
+      </figure>
+          <figure xml:id="looming">
+              <caption></caption>
+              <image source="looming.png"/>
+          </figure>
+          <figure xml:id="mirage2">
+            <caption></caption>
+            <image source="mirage2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+
+  <p>
+Colder air above the earth behaves as a denser medium and hotter air near the earth 
+surface behaves as rare medium. Now when a light ray coming from a tall distant object
+passes through a denser to a rare medium keep bending away from normal and when angle 
+of incidence becomes greater than the critical angle it gets total internal reflection. 
+When this ray falls on the observer's eye it appears to come from an inverted image of 
+that tall object which deceives the observer's that there may be a puddle of water near 
+the tall object as shown in <xref ref="mirage"/>. 
+  </p>
+  <p>
+    On the other hand, in a cold winter days near the sea-shore an  inverted or upright 
+    image of an object such as a boat can be seen hanging in the sky. This is all because 
+    of the bending of light. When the virtual image of an object over a body of water, 
+    due to a cool, dense layers of air is seen then it is called a <em>looming</em> as 
+    shown in <xref ref="looming"/>. Thus, an object like a boat below the horizon which 
+    is not visible directly, will be seen apparently lifted into the sky.
+  </p>
+  <p>
+    When a strong inversion layer extends upwards from the surface of a body of water an 
+    enhanced bending of light happen and an object appears to be suspended in the air. 
+    On the other hand, when the bottom of the inversion layer is some distance above the 
+    water and the observer is slightly below the inversion layer as shown in <xref ref="mirage2"/>, 
+    the observer sees the object hanging inverted in the sky called <em>superior mirage</em>.
+  </p>
+</subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-prism_ref">
+  <title>Refraction through a Prism</title>
+  <p>
+    A prism is a wedge-shaped refracting medium which is bounded by three rectangular 
+    surfaces and two triangular surfaces as shown in <xref ref="prism"/>. The two rectangular 
+    faces are inclined to each other are called  <em>refracting faces</em> and third rectangular 
+    face is called a <em>base </em> of the prism. The angle  between two inclined faces is called 
+    the angle of prism or the <em>refracting angle</em>.
+  </p>
+
+  <figure>
+    <caption></caption>
+    <sidebyside widths="40% 40%">
+            <figure xml:id="prism">
+          <caption></caption>
+          <image source="prism.png"/>
+      </figure>
+          <figure xml:id="prism1">
+              <caption></caption>
+              <image source="prism1.png"/>
+          </figure>
+          </sidebyside>
+  </figure>
+  <p>
+    Consider a ray OP is incident on the refracting face, AB of the prism of refracting angle A. 
+    After refraction through the prism the ray emerges along QR and gets deviated by an angle 
+    <m>\delta</m> from its original direction. If a prism ABC is rotated about a point P in 
+    such a way that angle of incidence increases gradually,then the angle of deviation, <m>\delta</m> 
+    start decreasing initially obtains the minimum value and then start increasing again. 
+    The condition at which angle of deviation becomes minimum is called the angle of minimum 
+    deviation, <m>\delta_{min}</m> and it is a very special case in prism. At <m>\delta_{min}</m> 
+    the refracted ray inside the prism is parallel to the base of the prism, and hence angle 
+    of incidence, i = angle of emergence, e. This condition is useful to determine the 
+    refractive index of the material of the prism. 
+     </p>
+     <p>
+       For a prism ABC, use Snell's law on face AB
+     <men xml:id="eqn-prism1">
+      {}^a\eta_{g} = \frac{\sin i}{\sin r_{1}},
+     </men>
+     
+            where <m>{}^a\eta_{g}</m> is refractive index of medium g (glass) with respect to a (air). 
+            Now from <m>\vartriangle LPQ </m>, we have - 
+            <me>
+              \angle MLQ=\delta = \angle LPQ+\angle PQL
+            </me>
+            </p>
+            <p>
+              [<m>\because</m> exterior angle of a triangle is equal to sum of the non-adjacent interior angles.] 
+              <me>
+                \text{or,} \quad \delta = (i-r_{1})+(e-r_{2})
+              </me>
+              <men xml:id="eqn-prism2">
+                \therefore \quad \delta = (i+e)-(r_{1} +r_{2}) 
+              </men>
+                 Also from triangle, <m>\vartriangle NPQ </m> 
+                 <men xml:id="eqn-prism3">
+                  r_{1} +r_{2} + \angle PNQ =180^{o}
+                 </men>
+                  and from quadrilateral, <m>\square NPQ</m> 
+                  <men xml:id="eqn-prism4">
+                    A + \angle PNQ =180^{o}
+                  </men>
+                  <m>[\because \quad \angle APN = \angle AQN=90^{o}] </m>
+                         </p>
+                         <figure xml:id="vardev">
+                          <caption></caption>
+                          <image source="vardev.png" width="55%"/>
+                      </figure>
+                         <p>
+                          From eqns. <xref ref="eqn-prism3"/> and <xref ref="eqn-prism4"/>, we get - 
+                          <men xml:id="eqn-prism5">
+                            A=r_{1} +r_{2} 
+                          </men>
+                       Now from eqns. <xref ref="eqn-prism2"/> and <xref ref="eqn-prism5"/>, we get - 
+                       <men xml:id="eqn-prism6">
+                        \delta = (i+e)-A 
+                       </men>
+                       But at minimum deviation condition, <m>\delta_{min}</m> we have - 
+                       <me>
+                        i=e,
+                       </me>
+                       <me>
+                        and, \qquad r_{1}=r_{2}=r
+                       </me>
+                       <me>
+                        Hence, \quad \delta=\delta_{min} = 2i-A 
+                       </me>
+                       <me>
+                        \Rightarrow i=\frac{A+\delta_{min}}{2}
+                       </me>
+                       <me>
+                        \text{also,} \quad r=\frac{A}{2}
+                       </me>
+                     Now from <xref ref="eqn-prism1"/>, we have-
+                       <men xml:id="eqn-prism7">
+                        {}^a\eta_{g} =\frac{\sin \frac{A+\delta_{min}}{2}}{\sin \frac{A}{2}}
+                       </men>
+                        This is the relation between refractive index and angle of minimum deviation.
+                         </p>
+                         <p>
+                          If the angle of a prism is less than <m>10^{o}</m> then the prism is 
+                          called a <term>thin prism</term>. In thin prism, A is very small and  for small i, r, and e 
+                          are also very small, hence we have - 
+                          <me>
+                            {}^a\eta_{g} = \frac{i}{r}= \frac{\frac{A+\delta}{2}}{\frac{A}{2}}
+                          </me>
+                          [<m>\because \sin\theta\approx\theta</m> for small <m> \theta</m>]
+                          <men xml:id="eqn-prism8">
+                            \therefore\quad \delta = A(\eta_{g}-1) 
+                          </men>
+                      where <m>{}^a\eta_{g} = \eta_{g}</m>, the absolute refractive index of glass.
+                         </p>
+</subsection>
+
+<subsection xml:id="subsec-srs_img">
+  <title>Image formed by Spherical Refracting Surfaces</title>
+  <introduction>
+   
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30%">
+            <figure xml:id="fig73">
+          <caption></caption>
+          <image source="fig73.png"/>
+      </figure>
+          <figure xml:id="fig72">
+            <caption></caption>
+            <image source="fig72.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+    From Snell's law
+    <me>
+      \eta_{1}\sin\theta_{1} = \eta_{2}\sin \theta_{2}
+    </me>
+    <me>
+      \text{or,}\quad  \eta_{1} i = \eta_{2} r  
+    </me>
+    <m>\because \quad \theta</m>  is a very small. Hence,  <m>\sin\theta \simeq \theta </m> and  
+    <m>\theta_{1} =i, \quad \theta_{2}=r</m> [<xref ref="fig73"/>].
+    <me>
+      \text{but,}\quad  i = \alpha+\beta
+    </me>
+    <me>
+      \text{and}\quad \beta=r+\gamma 
+    </me>
+    <me>
+      \text{ or,} \quad \eta_{1} (\alpha+\beta) = \eta_{2} (\beta-\gamma)
+    </me>
+    <me>
+      \text{ or,} \quad \eta_{1} \alpha+ n_{2}\gamma = (\eta_{2}-\eta_{1}) \beta
+    </me>
+    <me>
+      \text{ or,} \quad \eta_{1} \frac{PM}{OM}+ \eta_{2}\frac{PM}{MI} = (\eta_{2}-\eta_{1})\frac{PM}{MC}
+    </me>
+    <me>
+      \text{ or,} \quad  \frac{\eta_{1}}{s}+ \frac{\eta_{2}}{s'} = \frac{\eta_{2}-\eta_{1}}{R} 
+    </me>
+    <men xml:id="eqn-srs1">
+      \therefore\quad \frac{\eta}{s}+ \frac{\eta'}{s'}= \frac{\eta' -\eta}{R} 
+    </men>
+      </p>
+      <convention>
+        <p>
+          <term>Sign Rules for Refracting Surfaces:</term> 
+          If light is incident on convex surface, R is +ve, on plane surface, R is <m>\infty,</m> 
+          and on concave surface, R is -ve, as shown in <xref ref="fig72"/>. Distance for real 
+          object or image  is taken as +ve, and that for virtual is taken as -ve. 
+          Distance above principle axis is taken as +ve and that for below is taken as -ve.
+        </p>
+      </convention>
+      </introduction>
+
+    <subsubsection xml:id="subsubsec-srs_mag">
+      <title>Lateral or Transverse Magnification, m</title>
+      <figure xml:id="fig73b">
+        <caption></caption>
+        <image source="fig73b.png" width="45%"/>
+    </figure>
+      <p>
+        From <xref ref="fig73b"/>, 
+        <me>
+          m=\frac{IB}{OA} = \frac{y'}{y}
+        </me>
+         Also from similar <m>\triangle^{s} OAC </m> and <m>IBC</m>, we have - 
+         <me>
+          \frac{IB}{OA}=\frac{IC}{OC}
+         </me>
+        <men xml:id="eqn-srs2">
+          \text{or,}\quad\frac{y'}{y}=\frac{MI-MC}{MO+MC}=\frac{s' - R}{s+R} 
+        </men>
+         From eqn. <xref ref="eqn-srs1"/>, we have - 
+          <me>
+            \frac{\eta}{s}+ \frac{\eta'}{s'}= \frac{\eta' -\eta}{R} =\frac{\eta'}{R}-\frac{\eta}{R}
+          </me>
+          <me>
+            \text{or,}\quad \frac{\eta}{s}+ \frac{\eta}{R}=\frac{\eta'}{R}-\frac{\eta'}{s'}
+          </me>
+          <me>
+            \text{or,}\quad \frac{\eta(s+R)}{sR}=\frac{\eta'(s' -R)}{s' R}
+          </me>
+          <me>
+            \text{or,}\quad \frac{s'}{s}=\frac{\eta'(s' -R)}{\eta(s+R)}=\frac{\eta'}{\eta}\left(\frac{y'}{y}\right)
+          </me>
+          using eqn. <xref ref="eqn-srs2"/>
+    <men xml:id="eqn-srs3">
+      \therefore\quad m =\frac{y'}{y} = -\frac{\eta s'}{\eta' s}	
+    </men>
+    [<m>-ve </m> sign indicates an inverted image.]
+      </p>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-longmag_srs">
+      <title>Longitudinal Magnification, L</title>
+      <p>
+        If a small object of length <m>\,ds</m> is placed along the axis of a spherical medium, 
+        it produces an image of length <m>\,ds'</m> along the axis, hence the <term>Longitudinal magnification</term>,
+        <me>
+          L=\frac{\,ds'}{\,ds}
+        </me>
+        <me>
+          \text{but,}\quad \frac{\eta}{s}+ \frac{\eta'}{s'}= \frac{\eta' -\eta}{R}
+        </me>
+        Differentiating w.r.t. 's', we get -
+        <me>
+          -\frac{\eta}{s^{2}}-\frac{\eta'}{s'^{2}}\frac{\,ds'}{\,ds}=0
+        </me>
+        <me>
+          \text{or,}\quad \frac{\,ds'}{\,ds}=-\frac{\eta}{s^{2}}\cdot\frac{s'^{2}}{\eta'} 
+        </me>
+        <me>
+          =- \left(\frac{\eta s'}{\eta' s}\right)^{2}\left(\frac{\eta'}{\eta}\right)
+        </me>
+        using eqn. <xref ref="eqn-srs2"/>
+        <me>
+          \therefore\quad L= -m^{2}\left(\frac{\eta'}{\eta}\right)
+        </me>
+      This represents the relation between lateral and longitudinal magnification. 
+      -ve sign indicates the image is laterally inverted.
+      </p>
+    </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-thin_lens">
+  <title>Thin Lenses</title>
+ <introduction>
+  <p>
+    A lens is a part of solid spherical refracting surfaces. If its thickness is very thin it is called a thin lens. 
+    It is mainly of two types, concave lens and convex lens. The property of lens depends upon its shape and the 
+    type of material it is made up off. The lens which consists of two inward curved surfaces is known as 
+    <term>concave lens</term> and that which consists of two outward bulged surfaces is known as <term>convex lens</term>. 
+    However the combination of types of surfaces gives a lens different shapes. 
+    In <xref ref="lens"/> are biconvex lens, plano-convex lens, concavo-convex lens, biconcave lens, 
+    plano-concavelens, and convexo-concave lens, respectively. Convex lenses are thicker at the middle 
+    and thinner at the edges and concave lenses are thinner at the middle and thicker at the edges. 
+  </p>
+  <figure xml:id="lens">
+    <caption></caption>
+    <sidebyside widths="12% 9% 12% 12% 10% 12%">
+            <figure xml:id="convexlens">
+          <caption></caption>
+          <image source="convexlens.png"/>
+      </figure>
+          <figure xml:id="plconvexlens">
+            <caption></caption>
+            <image source="plconvexlens.png"/>
+        </figure>
+        <figure xml:id="concavovexlens">
+          <caption></caption>
+          <image source="concavovexlens.png"/>
+      </figure>
+      <figure xml:id="concavelens">
+        <caption></caption>
+        <image source="concavelens.png"/>
+    </figure>
+    <figure xml:id="plconcavelens">
+      <caption></caption>
+      <image source="plconcavelens.png"/>
+  </figure>
+  <figure xml:id="convexocave">
+    <caption></caption>
+    <image source="convexocave.png"/>
+</figure>
+         </sidebyside>
+  </figure>
+  <p>
+    Anatomy of lenses are shown in <xref ref="lanatomy"/>.  An imaginary line that bisects the 
+    symmetrical lens into two halves is known as <em>vertical axis</em>. The center of sphere of 
+    which a surface of lens is a part is known as <em>center of curvature</em>. There are two 
+    faces in a lens so it has two centers of curvature, <m>C_{1},\quad C_{2}</m>. An imaginary 
+    straight line that is passing through the geometrical centre of a lens and joining the two 
+    centres of curvature of its surfaces is known as <em>optical axis</em>  or principle axis.  
+    The light ray passing along this axis is perpendicular to the surfaces and will not deviate. 
+    All other rays passing through a lens and its optical center are called secondary axes. 
+    The geometric center of a lens is called an <em>optical center</em> of lens. The light ray 
+    passing through the optical center will never deviate. 
+  </p>
+    
+  <figure xml:id="lanatomy">
+    <caption></caption>
+    <sidebyside widths="45% 45%">
+            <figure xml:id="convexlens2">
+          <caption></caption>
+          <image source="convexlens2.png"/>
+      </figure>
+          <figure xml:id="concavelens2">
+            <caption></caption>
+            <image source="concavelens2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+<p>
+  The beam of light incident parallel 
+  to the principal axis will converge when passing through a convex lens, and diverge when 
+  passing through a concave lens. Since the convex lens converges the incident light rays it 
+  is also known as <em>converging lens</em> and the concave lens diverges the incident light 
+  rays it is also known as <em>diverging lens</em> (<xref ref="convergelens"/> and <xref ref="divergelens"/>). 
+  In a lens it is convenient to take 2F points on the principle axis on both sides of the lens 
+  to draw ray diagram. It is just double the focal length of the lens but not the  center of curvature. 
+</p>
+<figure>
+  <caption></caption>
+  <sidebyside widths="35% 35%">
+          <figure xml:id="convergelens">
+        <caption></caption>
+        <image source="convergelens.png"/>
+    </figure>
+        <figure xml:id="divergelens">
+          <caption></caption>
+          <image source="divergelens.png"/>
+      </figure>
+    </sidebyside>
+</figure>
+  <p>
+    The point on the principle axis where the incident light rays parallel to the principle axis 
+    after refraction from the lens will converge on or appear to diverge from  is known as <em>focus</em> 
+    or focal point of a lens. Two foci exist in a lens, equidistant on either side of the lens, 
+    since light behaves the same way when traveling in either direction (Principle of Reversibility). 
+    The two foci, <m>F_{1}</m> and <m>F_{2}</m> are called the primary principal focus and the 
+    secondary principal focus, respectively. An imaginary plane that is perpendicular to the 
+    principal axis at the focal point is known as <em>focal plane</em>. The size of a lens is known 
+    as <em>aperture</em>. The distance between the optical center, O to the center of curvature 
+    is known as <em>radius of curvature, R</em> and the distance between optical center, O to 
+    the focal point of a lens is known as <em>focal length, f </em>. The focal length, f is taken 
+    as positive for a converging lens and negative for a diverging lens. The radius of curvature, R 
+    is positive for convex surface and negative for concave surface. The shape of surface can be 
+    defined from which surface is the light incident.  
+  </p>
+    
+  <figure>
+    <caption></caption>
+    <sidebyside widths="20% 20%">
+           <figure xml:id="lensprism1">
+          <caption></caption>
+          <image source="lensprism1.png"/>
+      </figure>
+          <figure xml:id="lensprism2">
+            <caption></caption>
+            <image source="lensprism2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+    A lens can be thought of as made up of a number of truncated prisms of varying refracting 
+    angle pile on top of each other on both sides.  The refracting angle of a prism at the middle 
+    portion is infinite hence it behaves like a simple glass slab. The refracting angles of the 
+    prisms above or below the middle section of the lens gradually increase positively for convex 
+    lens and negatively for concave lens as shown in <xref ref="lensprism1"/> and <xref ref="lensprism2"/>. 
+    Since the prism bends the ray of light towards its base light converges in convex lens and diverges in concave 
+    lens after passing through the lens.
+  </p>
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-lens_formula">
+  <title>Lens Formula</title>
+  <p>
+    Ray diagrams provide the nature of the image formed by the lens for an object placed at different 
+    distances from the lens but it can not provide the numerical information about image distance and 
+    its size. Hence the lens formula is very useful in determining the numerical relationship between 
+    the object distance, s, the image distance, s', and the focal length, f of a lens. From right angled 
+    <m>\triangle^{s} ABO</m> and <m>A'B'O,</m> [<xref ref="lensform"/> and <xref ref="lensform2"/>],
+  </p>
+    
+  <figure>
+    <caption></caption>
+    <sidebyside widths="45% 45%">
+            <figure xml:id="lensform">
+          <caption></caption>
+          <image source="lensform.png"/>
+      </figure>
+          <figure xml:id="lensform2">
+            <caption></caption>
+            <image source="lensform2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+<me>
+  \tan\alpha =\frac{AB}{AO} =\frac{y}{s}
+</me>
+<me>
+  \text{and}\quad\tan\alpha =\frac{A'B'}{A'O} =\frac{y'}{s'}
+</me>
+<me>
+  \text{or,}\quad \frac{y}{s} = \frac{y'}{s'}
+</me>
+
+<men xml:id="eqn-lform1">
+  \therefore\quad \frac{y'}{y} = \frac{s'}{s} 
+</men>
+Here y, y', s, s' are size of object, size of image, object distance, and image distance, respectively. 
+Now from right angled <m>\triangle^{s} A'B'F</m> and <m> POF</m>, we have - 
+<me>
+  \tan\beta =\frac{A'B'}{A'F} =\frac{y'}{s'-f}
+</me>
+<me>
+  \text{and}\quad\tan\beta =\frac{PO}{OF} =\frac{y}{f} 
+</me>
+<me>
+  \text{or,}\quad \frac{y}{f} = \frac{y'}{s'-f} 
+</me>
+
+<men xml:id="eqn-lform2">
+  \therefore\quad \frac{y'}{y} = \frac{s'-f}{f} 
+</men>
+From eqns. <xref ref="eqn-lform1"/> and <xref ref="eqn-lform2"/>, we get - 
+<me>
+  \frac{s'}{s} =  \frac{s'-f}{f}  \quad\Rightarrow \quad s' f=ss'-sf
+</me>
+Dividing by ss'f on both sides, we get- 
+<men xml:id="eqn-lform3">
+  \therefore\quad \frac{1}{s}+\frac{1}{s'} =\frac{1}{f} 
+</men>
+Which is a lens formula. The lateral magnification produced by the lens is given by 
+<men xml:id="eqn-lform4">
+  m =\frac{y'}{y} = -\frac{s'}{s} 
+</men>
+-ve sign indicates an inverted image.
+  </p>
+  <p>
+    The following sign conventions are used for lens formula. All the distances are measured 
+ from the optical center of a lens. The distance for real object or real image is taken 
+ as positive and the distance for virtual object or virtual image is taken as negative. 
+ The focal length and radius of curvature of a convex lens are taken as positive and that 
+ for concave lens are taken as negative.
+  </p>
+
+  <figure>
+    <caption></caption>
+    <sidebyside widths="45% 45%">
+            <figure xml:id="lensform3">
+          <caption></caption>
+          <image source="lensform3.png"/>
+      </figure>
+          <figure xml:id="lensform4">
+            <caption></caption>
+            <image source="lensform4.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+    <term>Alternative:</term> 
+    A thin lens is a combination of a number of thin prisms and as a refracting angle, A of 
+    a prism at the point of incidence of a ray in the lens is same, the angle of deviation 
+    is given as 
+    <me>
+      \delta=A(\eta_{g}-1)
+    </me>
+    which is constant irrespective of the angle of incidence for a ray incident on the lens. 
+    Now suppose a ray is incident at a height, h on a lens and produce a deviation <m>\delta</m>. 
+    Hence from a <xref ref="lensform3"/> we have - 
+    <me>
+      \tan\delta = \frac{y}{f}
+    </me>
+   Also from <xref ref="lensform4"/>,  
+   <me>
+    \delta = \alpha +\beta 
+   </me>
+   For a thin lens, <m>\delta</m> is small, hence are <m>\alpha</m> and <m>\beta</m>.
+   <me>
+    \therefore\quad \tan\delta = \tan\alpha +\tan\beta
+   </me>
+   <me>
+    \text{or,}\quad \frac{y}{f}= \frac{y}{s} +\frac{y}{s'};
+   </me>
+   <me>
+    \therefore\quad  \frac{1}{f}= \frac{1}{s} +\frac{1}{s'}
+   </me>
+    </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-vexlens_img">
+  <title>Image formed by a convex lens</title>
+   <p>
+<ol marker="i.">
+  <li>
+    <p>
+      <term>When object lies at infinity:</term> When object lies at infinity rays of light coming from 
+      the object considered as parallel beam of light and must converge at the focal plane after 
+      refraction through the lens. Hence the image is formed at focal plane, will be real, 
+      inverted, and point in size (<xref ref="vexlens1"/>).
+    </p>
+    <figure xml:id="vexlens1">
+      <caption></caption>
+      <image source="vexlens1.png" width="45%"/>
+  </figure>
+  </li>
+  <li>
+    <p>
+    <term>  When object lies beyond 2F:</term> 
+      The ray parallel to the principle axis after refraction from the lens passes through the point F 
+      and the ray passes through the optical center goes without deviation. When both these refracted 
+      rays meet each other image is formed.  Hence, the image is formed between F and 2F on the other 
+      side of the lens, will be real, inverted, and smaller in size (<xref ref="vexlens2"/>).
+    </p>
+    <figure xml:id="vexlens2">
+      <caption></caption>
+      <image source="vexlens2.png" width="45%"/>
+  </figure>
+  </li>
+  <li>
+    <p>
+      <term>When object lies at 2F:</term> 
+       The image is formed at 2F on the other side of the lens, will be real, inverted, 
+       and equal in size (<xref ref="vexlens3"/>).
+    </p>
+    <figure xml:id="vexlens3">
+      <caption></caption>
+      <image source="vexlens3.png" width="45%"/>
+  </figure>
+  </li>
+  <li>
+    <p>
+     <term> When object lies between F and 2F:</term>
+      The image is formed beyond 2F on the other side of the lens, will be real, 
+      inverted, and larger in size (<xref ref="vexlens4"/>).  
+    </p>
+    <figure xml:id="vexlens4">
+      <caption></caption>
+      <image source="vexlens4.png" width="45%"/>
+  </figure>
+  </li>
+  <li>
+    <p>
+      <term>When object lies at F:</term> 
+      The image is formed at infinity on the other side of the lens, will be real, 
+      inverted, and highly magnified (<xref ref="vexlens5"/>). 
+
+    </p>
+    <figure xml:id="vexlens5">
+      <caption></caption>
+      <image source="vexlens5.png" width="45%"/>
+  </figure>
+  </li>
+  <li>
+    <p>
+     <term> When object lies between focus, F and optical center, C:</term> 
+     The image is formed at the same side of the object, will be virtual, errect, 
+     and magnified (<xref ref="vexlens6"/>). 
+    </p>
+    <figure xml:id="vexlens6">
+      <caption></caption>
+      <image source="vexlens6.png" width="45%"/>
+  </figure>
+  </li>
+</ol>
+  </p>
+ </subsubsection> 
+
+ <subsubsection xml:id="subsubsec-cavelens_img">
+  <title>Image formed by a concave lens</title>
+  <p>
+   <term>When object lies at principle axis:</term>
+The image is formed between F and C at the same  side of the object, will be virtual, 
+errect, and diminished (<xref ref="cavelens7"/>).
+  </p>
+  <figure xml:id="cavelens7">
+    <caption></caption>
+    <image source="cavelens7.png" width="45%"/>
+</figure>
+ </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-lensmakers">
+  <title>Lens Maker's Formula</title>
+ <introduction>
+  <p>
+    Consider a convex lens and join the lines coming from its two centers of curvatures at 
+    point P at a height y from the optical center, C. If <m>\angle LAN=\angle A</m> is a 
+    refracting angle of a prism at this height of the lens then from quadrilateral <m>\square ALPN</m>, 
+    we have - 
+    <me>
+      \angle A+\angle LPN =180^{o}
+    </me>
+   as <m>\angle ALP+\angle ANP =180^{o}</m>, AL and AN are tangents on the surfaces of the lens.
+  </p>
+
+  <figure xml:id="lensmake1">
+    <caption></caption>
+    <image source="lensmake1.png" width="45%"/>
+</figure>
+  <p>
+    Also 
+    <me>
+      \angle LPN+\angle NPC_{2} =180^{o}
+    </me>
+    <me>
+      \therefore\quad \angle NPC_{2}=\angle A
+    </me>
+    <me>
+      \text{hence,}\quad A=\alpha+\beta
+    </me>
+    But for a thin prism, A is very small, i.e., 
+    <m>A\simeq\tan A</m>. 
+    <me>
+      \text{or,}\quad \tan A=\tan\alpha+\tan\beta
+    </me>
+    <me>
+      \text{or,}\quad A=\frac{y}{R_{1}}-\frac{y}{R_{2}}
+    </me>
+    since radius of curvature for convex surface is +ve and that for concave surface is -ve. 
+    Considering light incident from left side of the lens. 
+    <men xml:id="eqn-lmaker1">
+      \text{or,}\quad \frac{A}{y}=\frac{1}{R_{1}}-\frac{1}{R_{2}} 
+    </men>
+    If the light ray is incident at the same height of the lens it will be deviated by an angle <m>\delta</m>, where 
+    <me>
+      \tan\delta=\frac{y}{f} 
+    </me>
+    [From <xref ref="lensform3"/>.]
+    <me>
+      \text{but,}\quad\delta=A(\eta-1) 
+    </me>
+    [for a prism.]
+    <me>
+      \text{or,}\quad \frac{y}{f}=A(\eta-1) 
+    </me>
+    
+    <men xml:id="eqn-lmaker2">
+      \text{or,}\quad \frac{1}{f}=\frac{A}{y}(\eta-1)
+    </men>
+    Therefore from eqns. <xref ref="eqn-lmaker1"/> and  <xref ref="eqn-lmaker2"/>, we get - 
+    <men xml:id="eqn-lmaker3">
+      \frac{1}{f}= (\eta - 1)\left(\frac{1}{R_{1}} - \frac{1}{R_{2}}\right) 
+    </men>
+    Similar relation can also be obtained for a concave lens.
+  </p>
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-fr_dependence">
+  <title>Dependence of f of a lens on R of its surfaces</title>
+  <p>
+    The refraction through a lens not only depends upon the curvature of a lens surfaces 
+    but it also depends upon the nature of the material of a lens. From lens maker's formula, we have  
+    <me>
+      \frac{1}{f}= (\eta - 1)\left(\frac{1}{R_{1}} - \frac{1}{R_{2}}\right)
+    </me>
+   <ol marker="i.">
+    <li>
+      <p>
+        For a convex lens, <m>R_{1}</m> is +ve and <m>R_{2}</m> is -ve, [read sign convention in <xref ref="subsec-srs_img"/>].
+        <me>
+          \therefore\quad  \frac{1}{f} = (\eta - 1)\left(\frac{1}{R_{1}} + \frac{1}{R_{2}}\right)
+        </me>
+        <me>
+          \text{or,}\quad f= \frac{R_{1}R_{2}}{(\eta -1)(R_{1}+R_{2})}
+        </me>
+         That is if R is larger, then f is also larger for such a lens.
+      </p>
+    </li>
+    <li>
+      <p>
+        For a concave lens, <m>R_{1}</m> is -ve, and <m>R_{2}</m> is +ve. 
+        <me>
+          \therefore\quad  \frac{1}{f} = -(\eta - 1)\left(\frac{1}{R_{1}} + \frac{1}{R_{2}}\right)
+        </me>
+        <me>
+          \text{or,}\quad f= -\frac{R_{1}R_{2}}{(\eta -1)(R_{1}+R_{2})}
+        </me>
+           If R is larger, then f is also larger for such a lens.
+      </p>
+    </li>
+    <li>
+      <p>
+        For a lens of <m>R_{1}=R_{2} =R</m>.
+        <me>
+          f= \frac{R}{2(\eta -1)} \quad \text{for convex lens}
+        </me>
+        <me>
+          f= \frac{-R}{2(\eta -1)} \quad \text{for concave lens}
+        </me>
+        For a glass lens of <m>\eta =1.5</m>, <m>f_{convex}= +R</m> and <m>f_{concave}= -R</m>.<abbr> 
+           That is, for a symmetrical glass lens placed in air, focal length is equal to the radius of curvature of the lens.</abbr>
+      </p>
+    </li>
+  </ol>
+  </p>
+ </subsubsection>
+
+
+<subsubsection xml:id="subsubsec-mindist_rimge">
+  <title>Minimum distance between object and its real image in a convex lens</title>
+  <figure xml:id="lensmindist">
+    <caption></caption>
+    <image source="lensmindist.png" width="45%"/>
+</figure>
+  <p>
+    From lens formula, 
+    <me>
+      \frac{1}{f} =\frac{1}{s} +\frac{1}{s'}
+    </me>
+    <me>
+      \text{or,}\quad \frac{1}{f} =\frac{1}{s} +\frac{1}{x-s}
+    </me>
+    <m>[\because \quad x=s+s']</m>
+<me>
+  \text{or,}\quad \frac{x-s+s}{s(x-s)} =\frac{1}{f} 
+</me>
+<me>
+  \text{or,}\quad xf=xs-s^{2}
+</me>
+<me>
+  \text{or,}\quad s^{2}-sx+xf=0
+</me>
+  </p>
+  <p>Which is quadratic in 's', For a real image the roots of the quadratic equation must be real. 
+    Hence the determinant of this equation must be <m>\geq 0</m>, i.e., 
+    <me>
+      \sqrt{x^{2}-4xf}\geq 0 \Rightarrow x \geq 4f 
+    </me>
+    for a minimum distance.
+     </p>
+     <p>
+      When object lies at 2f distance from equiconvex lens then its real image is formed at 
+      2f distance at other side of the lens except that the minimum distance must be greater than 4f.
+     </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-eqf_thinlens">
+  <title>Equivalent focal length of two thin lenses</title>
+
+   <p>
+<ol marker="I.">
+  <li>
+    <p>
+      <term>When two convex lenses are in contact: </term> 
+    </p>
+    <figure xml:id="twolenses">
+      <caption></caption>
+      <image source="twolenses.png" width="45%"/>
+  </figure>
+    <p>
+      For lens <m>C_{1}</m>, we have- 
+      <me>
+        \frac{1}{f_{1}} =\frac{1}{s} +\frac{1}{s_{1}}
+      </me>
+       For lens <m>C_{2}</m>, we have- 
+       <me>
+        \frac{1}{f_{2}} =\frac{1}{-s_{1}} +\frac{1}{s_{2}}
+       </me>
+       Since image <m>I_{1}</m> behaves as a virtual object for lens <m>C_{2}</m>. 
+          </p>
+          <p> Adding both terms we get - 
+            <me>
+              \frac{1}{f_{1}} +\frac{1}{f_{2}}=\frac{1}{s} +\frac{1}{s_{2}}
+            </me>
+            <me>
+              \therefore\quad \frac{1}{F} = \frac{1}{f_{1}} +\frac{1}{f_{2}}
+            </me>
+            <em>A reciprocal of equivalent focal length is a sum of the reciprocal of 
+            individual focal lengths of thin lenses being in contact.</em>
+          </p>
+          </li>
+  <li>
+    <p>
+      <term> When two convex lenses are separated by a distance d apart: </term> 
+    </p>
+    <figure xml:id="twolenses2">
+      <caption></caption>
+      <image source="twolenses2.png" width="45%"/>
+  </figure>
+    <p>
+     If a monochromatic light ray parallel to the common axis be incident on a lens 
+     <m>C_{1}</m> at height <m>h_{1}</m>, then the deviation produced by the first lens is given by 
+     <me>
+      \delta_{1} = \frac{h_{1}}{f_{1}}.
+     </me>
+      The emergent ray from lens <m>C_{1}</m> is refracted from lens <m>C_{2}</m> at height 
+      <m>h_{2}</m> and meets the axis at point F. Since the incident ray OA is parallel 
+      to the principle axis and after refraction through the combination meets the axis at 
+      F, hence F must be the principle focus of the combination. If 
+      <me>
+        \delta_{2} = \frac{h_{2}}{f_{2}}
+      </me>
+       is a deviation produced by the second lens <m>C_{2}</m>, then the total deviation 
+       produced by  the combination is given by 
+       <me>
+        \delta = \delta_{1}+\delta_{2}
+       </me>
+      <men xml:id="eqn-eqfl1">
+        \Rightarrow\quad \frac{h_{1}}{f} = \frac{h_{1}}{f_{1}}+\frac{h_{2}}{f_{2}} 
+      </men>
+      From similar <m>\triangle^{s} AC_{1}F_{1}</m> and <m>BC_{2}F_{1}</m>, we have - 
+      <me>
+        \frac{BC_{2}}{AC_{1}} = \frac{C_{2}F_{1}}{C_{1}F_{1}}
+      </me>
+      <me>
+        \frac{h_{2}}{h_{1}} = \frac{f_{1}-d}{f_{1}}
+      </me>
+      <me>
+        \Rightarrow \quad h_{2} = \frac{h_{1}(f_{1}-d)}{f_{1}}
+      </me>
+       </p>
+       <p>
+        Substituting the value of <m>h_{2}</m> in eqn. <xref ref="eqn-eqfl1"/>, we get - 
+        <me>
+          \frac{h_{1}}{f} = \frac{h_{1}}{f_{1}}+\frac{h_{1}(f_{1}-d)}{f_{1}f_{2}}
+        </me>
+        <me>
+          \therefore\quad \frac{1}{f} = \frac{1}{f_{1}}+\frac{1}{f_{2}}-\frac{d}{f_{1}f_{2}}
+        </me>
+           </p>
+  </li>
+</ol>
+  </p>
+</subsubsection>
+
+</subsection>
+
+
   </section>
 

@@ -4,11 +4,257 @@
   <!-- You can ommit the title and just get the default "Exercises" -->
   <title>Exercise</title>
   
+  <paragraphs>
+    <title>Reflection</title>
+    
+  
   <exercise>
   <p>
-    
-  </p>
+    An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of 
+    focal length 10 cm. 
+    <ol marker="a.">
+      <li>
+        What is the radius of curvature of the mirror?
+      </li>
+      <li>
+        Where is the image located?
+      </li>
+      <li>
+        Is the image real or virtual?
+      </li>
+      <li>
+        What is the magnification of the mirror?
+      </li>
+      <li>
+        Is the image enlarged or reduced?
+      </li>
+      <li>
+        What is the height of the image?
+      </li>
+      <li>
+        Is the image erect or inverted?
+      </li>
+    </ol>
+     </p>
   </exercise>
- 
+
+  <exercise>
+    <p>
+      An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal 
+      length 10 cm. 
+      <ol marker="a.">
+        <li>
+          What is the radius of curvature of the mirror?
+        </li>
+        <li>
+          Where is the image located?
+        </li>
+        <li>
+          Is the image real or virtual? 
+        </li>
+        <li>
+          What is the magnification of the mirror?
+        </li>
+        <li>
+          Is the image enlarged or reduced?
+        </li>
+        <li>
+          What is the height of the image?
+        </li>
+        <li>
+          Is the image erect or inverted?
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of 
+      focal length 10 cm. 
+      <ol marker="a.">
+        <li>
+          What is the radius of curvature of the mirror?
+        </li>
+        <li>
+          Where is the image located?
+        </li>
+        <li>
+          Is the image real or virtual? 
+        </li>
+        <li>
+          What is the magnification of the mirror?
+        </li>
+        <li>
+          Is the image enlarged or reduced?
+        </li>
+        <li>
+          What is the height of the image?
+        </li>
+        <li>
+          Is the image erect or inverted?
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of 
+      focal length 10 cm. 
+      <ol marker="a.">
+        <li>
+          What is the radius of curvature of the mirror?
+        </li>
+        <li>
+          Where is the image located?
+        </li>
+        <li>
+          Is the image real or virtual? 
+        </li>
+        <li>
+          What is the magnification of the mirror?
+        </li>
+        <li>
+          Is the image enlarged or reduced?
+        </li>
+        <li>
+          What is the height of the image?
+        </li>
+        <li>
+          Is the image erect or inverted?
+        </li>
+      </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An object of height 1 cm is located at a distance 30 cm in front of a convex mirror 
+      of focal length 10 cm. 
+      <ol marker="a.">
+        <li>
+          What is the radius of curvature of the mirror?
+        </li>
+        <li>
+          Where is the image located?
+        </li>
+        <li>
+          Is the image real or virtual? 
+        </li>
+        <li>
+          What is the magnification of the mirror?
+        </li>
+        <li>
+          Is the image enlarged or reduced?
+        </li>
+        <li>
+          What is the height of the image?
+        </li>
+        <li>
+          Is the image erect or inverted?
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An object of height 1 cm is located at a distance 30 cm in front of a 
+      concave mirror of focal length 10 cm. 
+      <ol marker="a.">
+        <li>
+          What is the radius of curvature of the mirror?
+        </li>
+        <li>
+          Where is the image located?
+        </li>
+        <li>
+          Is the image real or virtual? 
+        </li>
+        <li>
+          What is the magnification of the mirror?
+        </li>
+        <li>
+          Is the image enlarged or reduced?
+        </li>
+        <li>
+          What is the height of the image?
+        </li>
+        <li>
+          Is the image erect or inverted?
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An object of height 1 cm is located at a distance 30 cm in front of a plane mirror. 
+      <ol marker="a.">
+        <li>
+          What is the radius of curvature of the mirror?
+        </li>
+        <li>
+          Where is the image located?
+        </li>
+        <li>
+          Is the image real or virtual? 
+        </li>
+        <li>
+          What is the magnification of the mirror?
+        </li>
+        <li>
+          Is the image enlarged or reduced?
+        </li>
+        <li>
+          What is the height of the image?
+        </li>
+        <li>
+          Is the image erect or inverted?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A spherical concave shaving mirror has a radius of curvature of 30 cm. 
+      A person is located 10 cm in front of the mirror. 
+      <ol marker="a.">
+        <li>
+          Where is the image of the person's face located?
+        </li>
+        <li>
+          Is the image real or virtual?
+        </li>
+        <li>
+          How much is the person's face magnified? 
+        </li>
+        <li>
+          Is the image erect or inverted?
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. 
+      If he is 2 m from the ornament, 
+      <ol marker="a.">
+        <li>
+          what is the height of his image? 
+        </li>
+        <li>
+          Is it erect or inverted?
+        </li>
+        <li>
+          Is it real or virtual? 
+        </li>
+          </ol>
+         </p>
+  </exercise>
+</paragraphs>
  </exercises>
 
