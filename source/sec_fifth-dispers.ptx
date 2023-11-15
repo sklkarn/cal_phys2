@@ -6,11 +6,643 @@
 
   <introduction>
    <p>
-
+    The phenomenon of splitting of white light into its constituent colors when passes through a 
+    prism is known as <term>dispersion</term> and the image thus formed on a screen is called a 
+    <term>spectrum</term>. The spectrum consists of a visible and invisible regions of light. 
+    The principal colors of light in the visible spectrum are given as <em>VIBGYOR</em> 
+    (Violet, Indigo, Blue, Green, Yellow, Orange, and Red). The deviation occurred in violet 
+    light is maximum and that for red light is minimum as shown in <xref ref="dispers"/>. 
+    In the invisible regions, the spectrum of wavelengths shorter than violet is called 
+    <em>ultra-violet</em> and that for longer than red is called <em>infra-red</em>.
    </p>
+   <figure xml:id="dispers">
+    <caption></caption>
+    <image source="dispers.png" width="35%"/>
+</figure>
+  <p>
+    The refractive index of the material for a prism is different for different wavelengths 
+    (or colors) which is given by Cauchy's dispersion formula 
+    <me>
+      \eta = A+\frac{B}{\lambda^{2}}.
+    </me>
+    The values of A and B depend on the medium and is called Cauchy's constants. 
+    Since 
+    <me>
+      \eta \propto \frac{1}{\lambda^{2}}
+    </me>
+     the violet light suffers the greatest deviation and red light suffers the least deviation 
+     in visible light spectrum. The color of light is dependent on its wavelength, <m>\lambda</m>. 
+     Here is a list of wavelengths 
+     <me>
+      \lambda_{red}=620-750\,nm,
+    </me>
+    <me>
+      \lambda_{orange}=590-620\,nm,
+    </me>
+   <me>
+    \lambda_{yellow}=570-620\,nm,
+   </me>
+   <me>
+    \lambda_{green}=495-620\,nm,
+   </me>
+    <me>
+      \lambda_{blue}=450-495\,nm,
+    </me>
+    <me>
+      \lambda_{red}=380-450\,nm.
+    </me>
+      </p>
+      <p>
+        When a white light is passing through a thin prism, then deviation produced by blue, yellow, and red light is given by 
+        <men xml:id="eqn-dispers1">
+          \delta=A(\eta-1)\qquad \text{for mean yellow light} 
+        </men>
+        <men xml:id="eqn-dispers2">
+          \delta_{b}=A(\eta_{b}-1)\qquad \text{for blue light} 
+        </men>
+        <men xml:id="eqn-dispers3">
+          \delta_{r}=A(\eta_{r}-1)\qquad \text{for red light} 
+        </men>
+      where A is a refracting angle of the prism. The difference in deviation between any two colors 
+      is called <term>angular dispersion, <m>\theta</m></term>.  
+      </p>
+      <p>
+        From eqns. <xref ref="eqn-dispers2"/> and <xref ref="eqn-dispers3"/> 
+        <me>
+          \theta = \delta_{b}-\delta_{r}=A(\eta_{b}-\eta_{r})
+        </me>
+        Dividing this expression by eqn. <xref ref="eqn-dispers1"/>, we get - 
+        <men xml:id="eqn-dispers4">
+          \frac{\theta}{\delta}=\frac{\delta_{b}-\delta_{r}}{\delta}=\frac{\eta_{b}-\eta_{r}}{\eta -1}= \frac{\,d\eta}{\eta -1}=\omega 
+        </men>
+       The ratio of angular dispersion between violet and red emergent rays and the deviation suffered by the 
+       mean ray is known as the dispersive power of the material of a prism. It is constant for any two colors (wavelengths). 
+      </p>
      
-  
+      <p>
+        Newton once combined the two similar prisms upside down sidewise and passed the white 
+        light through them. He observed that as the white light  passed through the first prism 
+        splitted into constituent colors and as these colors passed through the second inverted 
+        prism the emergent light beam recombines back into white light as shown in <xref ref="dispers2"/>. 
+        This experiment suggests that the white light consists of different colors of light 
+        which are seperated when passes through the prism. 
+      </p>
+      <figure xml:id="dispers2">
+        <caption></caption>
+        <image source="dispers2.png" width="35%"/>
+    </figure>
   </introduction>
 
+
+  <subsection xml:id="subsec-achrom_prism">
+    <title>Deviation Without Dispersion (Achromatic Prism)</title>
+    <p>
+      When two prisms of different materials are arranged in such a way that the final 
+      emergent ray suffers only deviation but not dispersion, then the combination is 
+      called the deviation without dispersion  as shown in <xref ref="dispers3"/>. 
+    </p>
+    <figure xml:id="dispers3">
+      <caption></caption>
+      <image source="dispers3.png" width="35%"/>
+  </figure>
+  <p>
+    The dispersive powers of different materials are different. The dispersive power of a flint glass 
+    prism is higher than that of a crown glass prism hence angular dispersion produced by the flint 
+    glass prism is greater than that by the crown glass prism of the same refracting angle. 
+    If the materials and the angle of the prisms are so adjusted  that the dispersion produced by 
+    the first prism is equal and opposite to that produced by the second prism, then the 
+    final beam will be deviated but not dispersed for the white light. Such a combination of 
+    the two prisms will produce deviation in the incident beam without dispersion. 
+  </p>
+  <p>
+    Consider C and F are the crown and flint glass prisms of refracting angles  A and A', respectively. 
+    Let <m>\eta_{b}</m>, <m> \eta</m>, <m>\eta_{r}</m> and <m>\eta'_{b}</m>, <m>\eta'</m>,  <m>\eta'_{r} </m>  
+    be the refractive indices of the two materials for blue, mean and red light. The angular dispersion 
+    for blue and red light produced by these prisms are given by 
+    <me>
+      \delta_{b}-\delta_{r}=A(\eta_{b}-\eta_{r}) \qquad \text{for crown glass prism}
+    </me>
+    <me>
+      \text{and}\quad \delta'_{b}-\delta'_{r}=A'(\eta'_{b}-\eta'_{r}) \qquad \text{for flint glass prism}
+    </me>
+    For no dispersion we should set 
+    <me>
+      \left(\delta_{b}-\delta_{r}\right)+\left(\delta'_{b}-\delta'_{r}\right) =0
+    </me>
+    <men xml:id="eqn-nodispers1">
+      \text{or,}\quad A\left(\eta_{b}-\eta_{r}\right)+A'\left(\eta'_{b}-\eta'_{r}\right) = 0 
+    </men>
+ <men xml:id="eqn-nodispers2">
+  \text{or,}\quad \frac{A}{A'}=-\left(\frac{\eta'_{b}-\eta'_{r}}{\eta_{b}-\eta_{r}}\right)
+ </men>
+ The -ve sign indicates the refracting angles of the prisms are in opposite directions. 
+ The combination of two such prisms which satisfies eqn. <xref ref="eqn-nodispers2"/> is called 
+ an achromatic combination and a beam of white light refracted through the combination will only be deviated 
+ and not dispersed. The angle of deviation produced by the two prisms for mean light is given by 
+ <me>
+  \delta = A(\eta-1) \quad \text{and}\quad \delta' = A'(\eta'-1) 
+ </me>
+ <me>
+  \therefore\quad A = \frac{\delta}{(\eta-1)} 
+ </me>
+ <me>
+  \text{and}\quad A' = \frac{\delta'}{(\eta'-1)}
+ </me>
+ Substituting these values of A and A' in eqn. <xref ref="eqn-nodispers1"/>, we get - 
+ <me>
+  \frac{\delta \left(\eta_{b}-\eta_{r}\right)}{(\eta-1)} +\frac{\delta' \left(\eta'_{b}-\eta'_{r}\right)}{(\eta'-1)} = 0
+ </me>
+ <me>
+  \text{or,}\quad \omega\delta+\omega'\delta' =0
+ </me>
+ where 
+ <me>
+  \omega=\frac{\left(\eta_{b}-\eta_{r}\right)}{(\eta-1)}
+ </me>
+ and  
+ <me>
+  \omega'=\frac{\left(\eta'_{b}-\eta'_{r}\right)}{(\eta'-1)}
+ </me>
+  are the dispersive powers of the materials of crown and flint glass prisms respectively. 
+  </p>
+  <p>
+    For the achromatism, the refracting angles of the two prisms are chosen different from 
+    each other and hence the deviation produced by the combination for a mean light is given by 
+    <men xml:id="eqn-nodispers3">
+      D=\delta+\delta' =A(\eta-1)+A'(\eta'-1) 
+    </men>
+    But from eqn. <xref ref="eqn-nodispers2"/>, we have 
+    <me>
+      A' = -A\left(\frac{\eta_{b}-\eta_{r}}{\eta'_{b}-\eta'_{r}}\right)
+    </me>
+    Substituting the value of A' in eqn. <xref ref="eqn-nodispers3"/>, we get - 
+    <me>
+      D=A(\eta-1)-A\frac{(\eta_{b}-\eta_{r})(\eta'-1)}{(\eta'_{b}-\eta'_{r})}
+    </me>
+    <me>
+      \text{or,}\quad D=A(\eta-1)-A\frac{(\eta_{b}-\eta_{r})}{\omega'} 
+    </me>
+    <men xml:id="eqn-nodispers4">
+      \therefore\quad D=A(\eta_{b}-\eta_{r})\left(\frac{1}{\omega}-\frac{1}{\omega'}\right)
+    </men>
+    <m>[\because \quad \omega=\frac{\left(\eta_{b}-\eta_{r}\right)}{(\eta-1)}]</m>
+  </p>
+  </subsection>
+
+  <subsection xml:id="subsec-diswdev1">
+    <title>Dispersion Without Deviation</title>
+    <p>
+      If the angle of the crown and flint glass prisms are so adjusted  that the deviation produced 
+      for the mean light by the crown glass prism is equal and opposite to that produced by the flint 
+      glass prism, then the final beam will be parallel to the incident beam.  Such a combination of 
+      the two prisms will produce dispersion of the incident beam without deviation. Let  A, and  A', 
+      be the refracting angles of the crown glass and flint glass prisms respectively and <m>\delta,</m> and 
+      <m>\delta'</m> be the deviation for the mean light. Then 
+      <me>
+        \delta=A(\eta-1) 
+      </me>
+      <me>
+       \text{and}\quad \delta'=A'(\eta'-1)
+      </me>
+        </p>
+        <figure xml:id="dispers4">
+          <caption></caption>
+          <image source="dispers4.png" width="35%"/>
+      </figure>
+      <p>
+        For no deviation, we should set 
+        <me>
+          \delta+\delta'=0
+        </me>
+        <me>
+          \text{or,}\quad A(\eta-1)+A'(\eta'-1)=0
+        </me>
+        <men xml:id="eqn-diswdev1">
+          \text{or,}\quad \frac{A'}{A}= - \frac{(\eta-1)}{(\eta'-1)} 
+                </men>
+    The -ve sign shows that the refracting angles of the two prisms are in opposite direction.
+      </p>
+      <p>
+        The dispersion produced by the prisms are given by 
+        <me>
+          \delta_{b}-\delta_{r} =A(\eta_{b}-\eta_{r})
+        </me>
+        <me>
+          \text{and}\quad \delta'_{b}-\delta'_{r} =A'(\eta'_{b}-\eta'_{r})
+        </me>
+       <me>
+        \text{Net angular dispersion} = (\delta_{b}-\delta_{r})+(\delta'_{b}-\delta'_{r})
+       </me>
+        <me>
+          = A(\eta_{b}-\eta_{r}) + A'(\eta'_{b}-\eta'_{r})
+        </me>
+        <me>
+          \text{or,}\quad \text{Net angular dispersion} = A\left[(\eta_{b}-\eta_{r}) + \frac{A'}{A}(\eta'_{b}-\eta'_{r})\right]
+        </me>
+        <me>
+          =A\left[(\eta_{b}-\eta_{r}) - \frac{(\eta-1)}{(\eta'-1)}(\eta'_{b}-\eta'_{r})\right]
+        </me>
+       <m> \therefore</m> Net angular dispersion 
+       = <m>A(\eta-1)\left[\frac{(\eta_{b}-\eta_{r})}{(\eta-1)} - \frac{(\eta'_{b}-\eta'_{r})}{(\eta'-1)}\right]</m>
+       <me>
+        = A(\eta-1)(\omega'-\omega)
+       </me>
+      where <m>\omega</m> and <m>\omega'</m> are the dispersive powers of the materials of the prisms. 
+      If two prisms are of the same materials, then <m>\eta =\eta' </m> and <m>\omega=\omega'</m>. So, A = A' from 
+      from eqn. <xref ref="eqn-diswdev1"/> hence, no dispersion and no deviation.
+      </p>
+  </subsection>
+
+  <subsection xml:id="subsec-chrom_abr">
+    <title>Chromatic Aberation in a Lens</title>
+    <introduction>
+     
+    <p>
+      In greek chroma means color and aberration means defect, hence the color defects of a lens is 
+      called a chromatic aberration. In other words, the inability of a lens to focus all colors of 
+      white light at a single focus is known as chromatic aberration. From lens maker's formula 
+      it is clear that the focal length of a lens depend upon the refractive index of a material 
+      of lens which is the cause of chromatic aberration. If white light is passing through the lens 
+      violet color focuses at a point <m>F_{v}</m> near to the lens and the red color focuses at point 
+      <m>F_{r}</m> far from the lens. The rays of intermediate colors are focused between these points 
+      as shown in <xref ref="chrom_abrl"/>. Hence the image of an object emitting white light stretched between 
+    <m>F_{v}</m> and <m>F_{r}</m> and is blurred. Chromatic aberration is of two types, axial (or longitudinal) 
+    aberration and lateral (or transverse) aberration.
+    </p>
+    <figure xml:id="chrom_abrl">
+      <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="lenschrom1">
+          <caption></caption>
+          <image source="lenschrom1.png"/>
+      </figure>
+          <figure xml:id="lenschrom2">
+              <caption></caption>
+              <image source="lenschrom2.png"/>
+          </figure>
+          <figure xml:id="lenschrom3">
+            <caption></caption>
+            <image source="lenschrom3.png"/>
+        </figure>
+       </sidebyside>
+    </figure>
+<p>
+  The axial chromatic aberration is given by 
+  <me>
+    x=f_{r}-f_{b}.
+  </me>
+  Now the focal length of a lens is given by 
+  <me>
+    \frac{1}{f}=(\eta-1)\left(\frac{1}{R_{1}}-\frac{1}{R_{2}}\right)
+  </me>
+  <me>
+    \text{or,}\quad \left(\frac{1}{R_{1}}-\frac{1}{R_{2}}\right) = \frac{1}{f(\eta-1)}
+  </me>
+  <me>
+    \text{Similarly,}\quad \frac{1}{f_{b}}=(\eta'_{b}-1)\left(\frac{1}{R_{1}}-\frac{1}{R_{2}}\right)= \frac{(\eta'_{b}-1)}{f(\eta-1)}
+  </me>
+  <me>
+    \text{Also,}\quad \frac{1}{f_{r}}=(\eta'_{r}-1)\left(\frac{1}{R_{1}}-\frac{1}{R_{2}}\right)= \frac{(\eta'_{r}-1)}{f(\eta-1)}
+  </me>
+  Hence 
+  <me>
+    \frac{1}{f_{b}} -\frac{1}{f_{r}} = \frac{(\eta_{b}-1)-(\eta_{r}-1)}{f(\eta-1)}
+  </me>
+  <me>
+    \text{or,}\quad \frac{f_{r}-f_{b}}{f_{b}f_{r}} =  \frac{\eta_{b}-\eta_{r}}{f(\eta-1)}
+  </me>
+  Taking 
+  <me>
+    f_{b}f_{r} =f^{2}
+  </me>
+   as f is a geometrical mean of <m>f_{b}</m> and <m>f_{r}</m> and <m>f</m> being the focal length of mean light, we have - 
+   <me>
+    f_{r}-f_{b} = \frac{(\eta_{b}-\eta_{r})f}{\eta-1}=\omega f
+   </me>
+   Hence it is clear that a single lens can not produce an image free from chromatic aberration 
+   unless the dispersive power can be balanced by using some other material.
+</p>
+
+</introduction>
+
+<subsubsection xml:id="subsubsec-achrom">
+  <title>Achromatism</title>
+  <p>
+   The condition of removing chromatic aberration from a lens is called an achromatism. 
+   When two lenses a convex lens and a concave lens of different materials are combined 
+   in such a way that the combination will not produce any chromatic aberration then the 
+   lens is called an achromatic lens. Suppose a crown glass convex lens and a flint glass 
+   concave lens are combined together, then from lens formula 
+   <me>
+    \frac{1}{f} = (\eta -1)\left(\frac{1}{R_{1}}-\frac{1}{R_{2}}\right)
+   </me>
+<me>
+  \text{or,}\quad \left(\frac{1}{R_{1}}-\frac{1}{R_{2}}\right)=\frac{1}{(\eta -1)f}=K (say)
+</me>
+<me>
+  \text{or,}\quad \frac{1}{f}= K(\eta-1)
+</me>
+    Differentiating, we get - 
+    <me>
+      -\frac{\,df}{f^{2}}=K\,d\eta 
+    </me>
+    <me>
+      = \frac{\,d\eta}{f(\eta-1)}=\frac{\eta_{b}-\eta_{r}}{f(\eta-1)} = \frac{\omega}{f}
+    </me>
+    
+    <me>
+      \therefore\quad \omega=-\frac{\,df}{f}
+    </me>
+       That is the dispersive power can be defined as the relative change in the focal length of a 
+       lens and the -ve sign indicates that the focal length of the lens decreases with increasing 
+       refractive index of the material. If <m>f_{1}</m> and <m>f_{2}</m> are the focal lengths of 
+       the two lenses of different materials (crown and flint) placed in contact coaxially, then 
+       the equivalent focal length of the combination is given by 
+       <me>
+        \frac{1}{F}=\frac{1}{f_{1}}+\frac{1}{f_{2}}
+       </me>
+          Differentiating we get - 
+          <me>
+            -\frac{\,dF}{F^{2}}= -\frac{\,df_{1}}{f_{1}^{2}}-\frac{\,df_{2}}{f_{2}^{2}} =\frac{\omega}{f_{1}} +\frac{\omega'}{f_{2}}
+          </me>
+             For the combination to be achromatic, <m>-\frac{\,dF}{F^{2}}</m> must be equal to zero. Hence 
+             <me>
+              \frac{\omega}{f_{1}} +\frac{\omega'}{f_{2}} = 0
+             </me>
+                which is the condition for achromatism.
+  </p>
+</subsubsection>
+    </subsection>
+
+    <subsection xml:id="subsec-rainbow">
+      <title> Rainbow:</title>
+      <introduction>
+        
+      <p>
+      A rainbow is an optical phenomenon, which is produced in the sky due to the combined effect 
+      of refraction, internal reflection, and dispersion of light in water droplets. A rainbow 
+      consists of the primary rainbow and the secondary rainbow. The primary (main) rainbow is 
+      caused by two refractions and one internal reflection inside a rain droplet. The secondary 
+      rainbow appears outside the primary one and is caused by two refractions and two internal 
+      reflections inside the spherical water droplet. The colors of the secondary rainbow are reversed 
+      from the primary bow, and the secondary bow is twice as broad.  
+      </p>
+      <figure xml:id="rainbow">
+        <caption></caption>
+        <sidebyside widths="50% 50%">
+          <figure xml:id="rainbow1">
+            <caption></caption>
+            <image source="rainbow1.png"/>
+        </figure>
+            <figure xml:id="rainbowa">
+                <caption></caption>
+                <image source="rainbowa.png"/>
+            </figure>
+            </sidebyside>
+      </figure>
+      <p>
+        A rainbow can be seen in the sky when an observer facing opposite to the sun look at about 
+        <m>42^o</m> above the horizon to suspended water droplets. Each individual droplet of water 
+        acts as a tiny prism that both disperses the light and reflects it back to the observer's eye. 
+        As you sight into the sky, wavelengths of light associated with a specific color arrive at 
+        your eye from the collection of droplets as shown in <xref ref="rainbow"/>. The net effect 
+        of the vast array of droplets is that a circular arc of <em>VIBGYOR</em> is seen across the sky. 
+        A rainbow is actually a complete circle but observers on the ground only view the top half of 
+        the circle since the bottom half of the circular arc is prevented by the presence of the ground. 
+        However, observers in an airborne plane can view the complete circular bow. Rainbows are not 
+        limited to the dispersion of light by raindrops. The splashing of water in front of you 
+        forms water mist in the air and if you are facing opposite to the sun then the chances 
+        are you can create your own rainbows. Bright sunlight, suspended water droplets and the 
+        proper angle of sighting are the three necessary components for viewing one of nature's most 
+        spectacular activities. 
+      </p>
+          </introduction>
+
+          <subsubsection xml:id="subsubsec-prainbow">
+            <title> Primary Rainbow</title>
+            <p>
+           Consider a ray AP from the sun is incident at point P  in a spherical water droplet 
+           and refracts along PQ. If the angle of incidence of ray PQ at point P is greater than 
+           the critical angle for water air interface then light gets internally reflected along QR from 
+           the back surface of drop and may emerge into the air at the point R as shown in <xref ref="rainbowb"/>. 
+           During this operation the deviation suffered by the ray of light is given by the <m>\angle MON=\phi</m>, 
+           since the line MO is parallel to the incident ray AP and line ON is parallel to the emergent ray 
+           RB. Note that the absorption, reflection, and refraction happen in light at each point it 
+           strikes on the surface of droplet. From figure at left, 
+            </p>
+            <figure xml:id="rainbowb">
+              <caption></caption>
+              <image source="rainbowb.png" width="45%"/>
+          </figure>
+          <p>
+            <me>
+              \phi=\angle MON= 2\pi-\left(\angle MOP + \angle POQ+\angle QOR +\angle RON\right)
+            </me>
+            <me>
+              \text{or,}\quad \phi= 2\pi-\left\{i + (\pi-2r) + (\pi-2r) +i\right\} = 4r-2i
+            </me>
+            <men xml:id="eqn-rainbow1">
+              \therefore\quad \phi=4r-2i
+            </men>
+            Using Snell's law at point P, we have - 
+            <me>
+              \eta_{1}\sin i = \eta_{2}\sin r
+            </me>
+            <me>
+              \text{or,}\quad \sin i = \eta\sin r 
+            </me>
+            where <m>\eta_{1}=1</m> for air and <m>\eta_{2} = \eta,</m> the refractive index of water.
+          </p>
+          <p>
+           <men xml:id="eqn-rainbow2">
+            \text{or,}\quad r= \sin^{-1}\left[\frac{\sin i}{\eta}\right] 
+           </men>
+           Now from eqn. <xref ref="eqn-rainbow1"/>, we get - 
+         <men xml:id="eqn-rainbow3">
+          \phi= 4\left[\sin^{-1}\left(\frac{\sin i}{\eta}\right)\right]-2i
+         </men>
+         A rainbow will form when the angle of deviation <m>\phi</m> is maximum for the given angle of 
+         incidence i, i.e., when <m>\frac{\,d\phi}{\,di}=0</m>. If this condition is satisfied, 
+         all the rays with incident angle close to <m>i</m> will be sent back in the same direction, 
+         producing a bright zone in the sky. 
+          </p>
+          
+          <p>
+            Differentiating eqn. <xref ref="eqn-rainbow3"/> w.r.t. <m>'i'</m> and set that to zero, we get - 
+            <men xml:id="eqn-rainbow4">
+              \left.\frac{\,\partial \phi}{\partial i}\right]_{max}= 0  
+            </men>
+            <me>
+              \text{now,}\quad \frac{\,\partial \phi}{\partial i} = 4\left[\frac{\,\partial}{\,\partial i}\left\{\sin^{-1}\left(\frac{\sin i}{\eta}\right)\right\}\right]-2 =0 
+            </me>
+            <me>
+              \text{or,} \quad 4\left[\frac{\,\partial}{\,\partial u}\left(\sin^{-1}u\right)\frac{\,\partial u}{\,\partial i }\right]-2 
+            </me>
+            <me>
+              \text{where,} \quad u = \frac{\sin i}{\eta}
+            </me>
+            <me>
+              \Rightarrow\quad \frac{\,\partial u}{\,\partial i } = \frac{\cos i}{\eta}
+            </me>
+            <me>
+              \text{and} \quad \frac{\,\partial}{\,\partial u }\left(\sin^{-1}u\right)=\frac{1}{\sqrt{1-u^{2}}}
+            </me>
+            <me>
+              \text{or,}\quad  4\left[\frac{1}{\sqrt{1-\frac{\sin^{2}i}{\eta^{2}}}}\cdot \frac{\cos i}{\eta}\right]-2 =0 
+            </me>
+            <me>
+              \text{or,}\quad  4\left[\frac{\eta}{\sqrt{\eta^{2}-\sin^{2}i}}\cdot \frac{\cos i}{\eta}\right]-2 =0
+            </me>
+            <me>
+              \text{or,}\quad 2\cos i= \sqrt{\eta^{2}-\sin^{2}i} 
+            </me>
+           <me>
+            \text{or,}\quad 4\cos^{2} i = \eta^{2}-(1-\cos^{2}i)
+           </me>
+           <men xml:id="eqn-rainbow5">
+            \text{or,}\quad \cos^{2} i = \frac{\eta^{2}-1}{3}  
+           </men>
+           Since <m>\eta =1.331</m> for red light, angle of incidence <m>i</m> at maximum deviation is given by 
+           <me>
+            \left. i\right]_{\phi_{max}}=59.53^{o},
+           </me>
+           <me>
+            \left. r\right]_{\phi_{max}}=40.36^{o}, 
+           </me>
+           <me>
+            \text{and}\quad \left. \phi\right]_{{max}}=42.37^{o}
+           </me>
+           Also <m>\eta =1.343</m> for violet light,
+           <me>
+            \left. i\right]_{\phi_{max}}=58.83^{o}, 
+           </me>
+           <me>
+            \left. r\right]_{\phi_{max}}=39.58^{o},
+           </me>
+           <me>
+            \text{and}\quad \left. \phi\right]_{{max}}=40.65^{o}
+           </me>           
+          </p>
+          <figure xml:id="rainbowc">
+            <caption></caption>
+            <image source="rainbowc.png" width="45%"/>
+        </figure>
+          <p>
+            That is, the different colors of light correspond to different wavelengths of light, 
+            which are refracted at slightly different angles, thus splitting the white sunlight 
+            into red and violet lights. The color of the primary rainbow are spread over about 
+            <m>2^{o}</m> out of the <m>42^{o}</m> away from the anti-solar point as shown in <xref ref="rainbowc"/>. 
+            The viewer sees the rainbow with the red at the outer side of the arc and the violet on 
+            the inner side. Our perception of vision for violet light is not that sensitive 
+            hence, we see blue light more clearly than violet light. It is to be remembered 
+            that sunlight strikes the raindrops at different angles of incidence and undergoes 
+            different deviations.  Only those rays produce a rainbow which have the angle of 
+            incidence corresponding to maximum angles of deviation.
+          </p>
+          </subsubsection>
+
+          <subsubsection xml:id="subsubsec-srainbow">
+            <title>Secondary Rainbow</title>
+            <p>
+              In secondary rainbow, there are two reflections and two refractions. 
+              From f<xref ref="rainbow2"/> the total deviation 
+              <me>
+                \delta=(i-r)+(180^{o} -2r) +(180^{o} -2r)+(i-r)  
+              </me>
+              <me>
+                \text{or,}\quad \delta=2(i-r)+2(180^{o} -2r)
+              </me>
+              <me>
+                \text{or,}\quad \delta=360^{o}+2i-6r
+              </me>
+             Now for minimum deviation 
+             <me>
+              \frac{\,d\delta}{\,di}=0.
+             </me>
+             <me>
+              \therefore\quad \frac{\,d\delta}{\,di}=2-6\frac{\,dr}{\,di} = 0 
+             </me>
+             
+             <men xml:id="eqn-srainbow1">
+              \text{or,}\quad \frac{\,dr}{\,di}=\frac{2}{6}=\frac{1}{3} 
+             </men>
+            <me>
+              \text{or,}\quad \eta_{1}\sin i = \eta_{2}\sin r
+            </me>
+            <me>
+              \text{or,}\quad \eta \cos r \frac{\,dr}{\,di} = \cos i\quad [\eta_{2}=\eta, \eta_{1}=1]
+            </me>
+          
+            </p>
+            <figure xml:id="rainbow2">
+              <caption></caption>
+              <image source="rainbow2.png" width="45%"/>
+          </figure>
+            <p>
+              <me>
+                \text{or,}\quad \frac{\,dr}{\,di} = \frac{\cos i}{\eta \cos r}
+              </me>
+              <me>
+                \therefore\quad \frac{\cos i}{\eta \cos r} =\frac{1}{3}
+              </me>
+             using eqn. <xref ref="eqn-srainbow1"/>
+             <me>
+              \text{or,}\quad  9\cos^{2}i=\eta^{2}\cos^{2}r = \eta^{2}(1-\sin^{2}r) = \eta^{2}-\eta^{2}\sin^{2}r =\eta^{2}-\sin^{2}i
+             </me>
+             <me>
+              \text{or,}\quad 8\cos^{2}i = \eta^{2} -1
+             </me>
+             
+             <men xml:id="eqn-srainbow2">
+              \therefore\quad \cos i=\sqrt{\frac{\eta^{2}-1}{8}} 
+             </men>
+            Taking refractive index of water <m>\eta = 1.329</m> for red light, 
+            angle of deviation, 
+            <me>
+              \delta_{r}= 360^{o}-129.2^{o}=230.8^{o}.
+            </me>
+            The acute angle <m>= 230.8-180=50.8^{o}.</m> Taking refractive index of water 
+            <m>\eta = 1.342</m> for violet light, angle of deviation, 
+            <me>
+              \delta_{v}= 360^{o}-125.48^{o}=234.52^{o}.
+            </me>
+             The acute angle <m>= 234.52-180=54.52^{o}.</m> 
+             Hence, the angle of inclination for violet light is more than for red light.
+            </p>
+          </subsubsection>
+    </subsection>
+
+    <subsection xml:id="subsec-scattering">
+      <title>Scattering</title>
+      <p>
+       It is a phenomenon of absorption and reemition of light energy in different directions when 
+       it interacts with material particles. The intensity of scattered light depends on the size of 
+       interacting particles, a and the wavelength of light,  
+        </p>
+        <figure xml:id="colorsthinfilms">
+          <caption></caption>
+          <image source="colorsthinfilms.png" width="45%"/>
+      </figure>
+        <p>
+          $\lambda$. If <m>a \lt \lt \lambda</m>, than the amount of light scattered is given by 
+          <me>
+            \sigma \propto \frac{1}{\lambda^{4}}.
+          </me>
+          When sunlight interacts with atmospheric particles, 
+          blue colors scattered more in sky than any other colors from the visible spectrum of light, 
+          hence, the sky looks bluish in color. In fact, violet light scattered more than blue but 
+          our eyes are more sensitive to blue color than violet light hence blue colors are much 
+          more prevailed than others in sky. At sunset and sunrise, the sunlight has to travel 
+          longer distance in the atmosphere which causes most of the blue and other shorter wavelengths 
+          are scattered in the sky and only red color is able to reach to our eyes hence, the 
+          sun appears reddish in color. 
+        </p>
+        <p>
+          The wavelength of constituent colors of white light is shown in <xref ref="colorsthinfilms"/> 
+          If the size of interacting particle, <m>a \gt \gt \lambda</m>, then all the colors of light 
+          scattered equally and no any specific color is dominant. This is the reason when sunlight 
+          interacts with water droplets or clouds in sky they appear white rather than any other color. 
+        </p>
+    </subsection>
   </section>
 

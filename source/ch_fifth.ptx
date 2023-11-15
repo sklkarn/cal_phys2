@@ -22,14 +22,16 @@
     
   <xi:include href="./sec_fifth-intro.ptx" />
   <xi:include href="./sec_fifth-geoopt.ptx" />
+    <xi:include href="./sec_fifth-dispers.ptx" />
 
   <xi:include href="./sec_fifth-examplesA.ptx" /> 
-  
-  <xi:include href="./sec_fifth-dispers.ptx" />
-  <xi:include href="./sec_fifth-examplesB.ptx" /> 
+    <xi:include href="./sec_fifth-examplesB.ptx" /> 
 
-  <xi:include href="./sec_fifth-physopt.ptx" />
+  <xi:include href="./sec_fifth-photmetry.ptx" />
   <xi:include href="./sec_fifth-examplesC.ptx" /> 
+  
+  <xi:include href="./sec_fifth-physopt.ptx" />
+ 
  
   <xi:include href="./ex_fifth.ptx"/> 
 

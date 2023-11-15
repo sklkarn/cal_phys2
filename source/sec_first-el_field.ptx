@@ -109,7 +109,7 @@ field	is given as <me>
   \vec{E_{r}}= \vec{E}-\vec{E'}
  </me>
 </p>
-<figure>
+      <figure>
   <caption></caption>
   <sidebyside widths="20% 20% 20% 20% 20%">
     <figure xml:id="fieldinside">
@@ -131,9 +131,9 @@ field	is given as <me>
   <figure xml:id="fieldinsidee">
     <caption></caption>
     <image source="fieldinsidee.png"/>
-</figure>
+  </figure>
    </sidebyside>
-</figure>
+      </figure>
 <p>
  In case of a conductor separation of charges makes total electric field zero inside it because 
  of its sufficient free charges neutralize the external electric field. In case of dielectrics 
@@ -153,8 +153,7 @@ field	is given as <me>
 
 <subsection xml:id="subsec-chrg_dist">
   <title>Electric Field of a Continuous Charge Distribution</title>
-  <introduction>
-    <p>
+      <p>
       Coulomb's law only work for two point charges, if we are dealing with more than two 
       discrete charges then we have to use principle of superposition to find the field at 
       a point using Coulomb's law. Most often charges are distributed on the material in such 
@@ -212,7 +211,7 @@ field	is given as <me>
                  </li>
       </ol>
     </p>
-  </introduction>
+ 
 </subsection>
 
   </section>

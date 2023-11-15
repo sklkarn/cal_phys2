@@ -3,5 +3,172 @@
 <section xml:id="sec_fifth-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Examples B</title>
   
+<example>
+  <statement>
+    <p>
+      A small fish of length 1 cm is located at the center of a thin spherical fishbowl 20 cm in diameter. 
+      The index of refraction of water is 1.33 and that of the glass fishbowl is 1.5. 
+      <ol marker="a.">
+        <li>
+          Does the thin layer of glass affect the refraction of the light rays?
+        </li>
+        <li>
+          When viewed from outside, where does the fish appear to be located? 
+        </li>
+        <li>
+          What is its magnification? 
+        </li>
+        <li>
+          How long does the fish appear to be?
+        </li>
+      </ol>
+         </p>
+  </statement>
+  <solution>
+    <p>
+      Given:  <m> n_{1} =1,\, n_{2} = 1.5,\, </m> and <m> n_{3} = 1.33.  </m>
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            n_{1}\sin\theta_{1}=n_{2}\sin\theta_{2}\quad \text{air to glass}
+          </me>
+         <me>
+          n_{2}\sin\theta_{2}=n_{3}\sin\theta_{3}\quad \text{glass to water}
+         </me>
+          <me>
+            n_{1}\sin\theta_{1}=n_{3}\sin\theta_{3}\quad \text{air to water}
+          </me>
+        Since the air to glass to water result for <m>\theta_{3}</m> is the same as 
+        that for air to water, the glass has no effect on the refraction.
+        </li>
+        <li>
+          <me>
+            \frac{n}{s}+ \frac{n'}{s'}= \frac{n' -n}{R} 
+          </me>
+          <me>
+            \text{or,} \quad \frac{1.33}{10}+ \frac{1}{s'}= \frac{1-1.33}{-10} 
+          </me>
+          <me>
+            \Rightarrow  s' = -10 \,cm   \quad \text{(virtual at center) }
+          </me>
+           </li>
+        <li>
+          <me>
+            m=-\frac{ns'}{n's} =-\frac{(1.33) (-10)}{(1)(10)}=1.33 \quad \text{(enlarged)}
+          </me>                  
+        </li>
+        <li>
+         <me>
+          m=\frac{y'}{y}
+         </me>
+         <me>
+           \text{or,} \quad 1.33=\frac{y'}{1} \quad \Rightarrow \quad y' =1.33 \,cm
+         </me>
+          </li>
+      </ol>
+    </p>
+  </solution>
+</example>
 
+<example>
+  <statement>
+    <p>
+      A mosquito is found embedded in an amber sphere of radius of curvature 3.0 mm and of refractive index 1.6. 
+      The mosquito is located on the principal axis and appears to be embedded at 5.0 mm into the amber. 
+      How deep is the mosquito really? What is the magnification?
+    </p>
+  </statement>
+  <solution>
+
+    <p>
+      Given: <m>n_{a}=1.6, \quad n_{b}=1</m> , <m>R=-3 \,mm, \quad v=-5\,mm \quad (virtual image).</m>
+    </p>
+      <image source="mosqref.png" width ="60%"> </image>
+      <p>
+      <me>
+        \frac{n_{a}}{s}+\frac{n_{b}}{s'} =\frac{n_{b}-n_{a}}{R} 
+      </me>
+      <me>
+        \frac{1.6}{s}+\frac{1}{-5} =\frac{1-1.6}{-3} =0.2
+      </me>
+      <me>
+        \therefore\quad s = 4.0 \,mm\quad \text{(real object)}
+      </me>
+      <me>
+        m=-\frac{n_{a}s'}{n_{b}s} = \frac{1.6\times 5}{1\times 4}=2
+      </me>
+          </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. 
+      One half of the ball is silvered so as to form a mirror on the ball's surface. A person whose 
+      face is 25 cm high and 30 cm from the ball looks at his reflection through the ball. 
+      Light travels from his face through the clear surface of the ball, is reflected from the 
+      silvered surface, and passes back through the clear surface so as to form a final image. 
+      <ol marker="a.">
+        <li>
+          Where is this final image located?
+        </li>
+        <li>
+          What is the magnification of the complete optical system?
+        </li>
+        <li>
+          What is the height of the final image? 
+        </li>
+        </ol>
+          </p>
+  </statement>
+  <solution>
+    <image source="fig76.png" width ="60%"> </image>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            \frac{n_{1}}{s_{1}}+\frac{n'_{1}}{s'_{1}} = \frac{n'_{1}-n_{1}}{R_{1}} 
+          </me>
+          <me>
+            \text{or,}\quad \frac{1}{30}+\frac{1.5}{s'_{1}} = \frac{1.5-1}{10} \Longrightarrow s'_{1} = 90 \,cm
+          </me>
+          <me>
+            s'_{1} +s_{2} = D \Longrightarrow 90 +s_{2} =20 \Longrightarrow s_{2} = -70\,cm
+          </me>
+          <me>
+            \frac{1}{s_{2}}+\frac{1}{s'_{2}}=\frac{2}{R_{2}}
+          </me>
+          <me>
+            \text{or,}\quad \frac{1}{-70}+\frac{1}{s'_{2}}=\frac{2}{10} \Rightarrow s'_{2} =4.67 \,cm
+          </me>
+          <me>
+            s'_{2} +s_{3} = D \Longrightarrow 4.67 +s_{3} =20 \Longrightarrow s_{3} = 15.33 \,cm
+          </me>
+          <me>
+            \frac{n_{3}}{s_{3}}+\frac{n'_{3}}{s'_{3}} = \frac{n'_{3}-n_{3}}{R_{3}}
+          </me>
+          <me>
+            \text{or,}\quad \frac{1.5}{15.33}+\frac{1}{s'_{3}} = \frac{1-1.5}{-10} \Longrightarrow s'_{3} = -20.9 \,cm
+          </me>        
+             </li>
+        <li>
+          <me>
+            m=-\frac{s'_{1}}{s_{1}}\times-\frac{s'_{2}}{s_{2}}\times-\frac{s'_{3}}{s_{3}}
+          </me>
+          <me>
+            =\frac{-90}{30}\times\frac{-4.67}{-70}\times\frac{-(-20.9)}{15.33} \Rightarrow m = -0.273
+          </me>
+            </li>
+        <li>
+       <me>
+        m=\frac{y'_{3}}{y1} \Rightarrow -0.273 = \frac{y'_{3}}{25}\Rightarrow y'_{3}= -6.82
+       </me>
+          </li>
+        </ol>
+    </p>
+  </solution>
+</example>
 </section>
