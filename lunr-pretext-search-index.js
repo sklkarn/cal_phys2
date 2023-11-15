@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.2.1",
   "title": "Electric Field of a Continuous Charge Distribution",
-  "body": " Electric Field of a Continuous Charge Distribution   Coulomb's law only work for two point charges, if we are dealing with more than two discrete charges then we have to use principle of superposition to find the field at a point using Coulomb's law. Most often charges are distributed on the material in such a rigourous way that applying Coulomb's low is very difficult, e.g. charges are distributed on a sphere, a plane surface, a rod or on some weird surface like pyramid. In that case it would be easier to find an electric field at point by breaking the charge distribution in small elements and treat them like a point charge. Write the equation of electric field for one single element of the charge and integrate them for the entire charge. In order to break these charge distribution in small elements we need to discuss charge density.   Charge Density: Depend upon the surface where charges are distributed uniformly we can have three different types of charge density.   Linear charge density, : If the charges are distributed uniformly in a linear shape then the charge density is called a linear charge density. It is defined as the amount of charge per unit length. Let say the charge Q be distributed smoothly on a wire of length L, then It's unit is Now if a small length contains a charge then    Surface charge density, If the charges are distributed uniformly on a surface area then the charge density is called a surface charge density. It is defined as the amount of charge per unit area. Let say the charge Q be distributed smoothly on a plane of area A, then It's unit is Now if a small area of that surface contains a charge then    Volume charge density, If the charges are distributed uniformly in a volume of any material then the charge density is called a volume charge density. It is defined as the amount of charge per unit volume. Let say the charge Q bw distributed smoothly in a volume V, then It's unit is Now if a small volume of that material contains a charge then      "
+  "body": " Electric Field of a Continuous Charge Distribution  Coulomb's law only work for two point charges, if we are dealing with more than two discrete charges then we have to use principle of superposition to find the field at a point using Coulomb's law. Most often charges are distributed on the material in such a rigourous way that applying Coulomb's low is very difficult, e.g. charges are distributed on a sphere, a plane surface, a rod or on some weird surface like pyramid. In that case it would be easier to find an electric field at point by breaking the charge distribution in small elements and treat them like a point charge. Write the equation of electric field for one single element of the charge and integrate them for the entire charge. In order to break these charge distribution in small elements we need to discuss charge density.   Charge Density: Depend upon the surface where charges are distributed uniformly we can have three different types of charge density.   Linear charge density, : If the charges are distributed uniformly in a linear shape then the charge density is called a linear charge density. It is defined as the amount of charge per unit length. Let say the charge Q be distributed smoothly on a wire of length L, then It's unit is Now if a small length contains a charge then    Surface charge density, If the charges are distributed uniformly on a surface area then the charge density is called a surface charge density. It is defined as the amount of charge per unit area. Let say the charge Q be distributed smoothly on a plane of area A, then It's unit is Now if a small area of that surface contains a charge then    Volume charge density, If the charges are distributed uniformly in a volume of any material then the charge density is called a volume charge density. It is defined as the amount of charge per unit volume. Let say the charge Q bw distributed smoothly in a volume V, then It's unit is Now if a small volume of that material contains a charge then     "
 },
 {
   "id": "p-37",
@@ -4465,29 +4465,173 @@ var ptx_lunr_docs = [
   "body": "  A Cassegrain telescope is constructed of two mirrors as shown at right. The larger, primary mirror is concave, has a hole in the middle, and has a radius of curvature The smaller, secondary mirror is convex and is located a distance d = 75 cm from the primary mirror. Its radius of curvature is such that the final image of a distant star is located a distance F = 10 cm past the hole in the primary mirror. What is the magnitude of     Given:     Equations:     concave mirror.    "
 },
 {
-  "id": "sec_fifth-dispers",
+  "id": "subsec-achrom_prism",
   "level": "1",
-  "url": "sec_fifth-dispers.html",
+  "url": "subsec-achrom_prism.html",
+  "type": "Subsection",
+  "number": "5.4.1",
+  "title": "Deviation Without Dispersion (Achromatic Prism)",
+  "body": " Deviation Without Dispersion (Achromatic Prism)  When two prisms of different materials are arranged in such a way that the final emergent ray suffers only deviation but not dispersion, then the combination is called the deviation without dispersion as shown in .      The dispersive powers of different materials are different. The dispersive power of a flint glass prism is higher than that of a crown glass prism hence angular dispersion produced by the flint glass prism is greater than that by the crown glass prism of the same refracting angle. If the materials and the angle of the prisms are so adjusted that the dispersion produced by the first prism is equal and opposite to that produced by the second prism, then the final beam will be deviated but not dispersed for the white light. Such a combination of the two prisms will produce deviation in the incident beam without dispersion.  Consider C and F are the crown and flint glass prisms of refracting angles A and A', respectively. Let , , and , , be the refractive indices of the two materials for blue, mean and red light. The angular dispersion for blue and red light produced by these prisms are given by  For no dispersion we should set   The -ve sign indicates the refracting angles of the prisms are in opposite directions. The combination of two such prisms which satisfies eqn. is called an achromatic combination and a beam of white light refracted through the combination will only be deviated and not dispersed. The angle of deviation produced by the two prisms for mean light is given by   Substituting these values of A and A' in eqn. , we get -  where and are the dispersive powers of the materials of crown and flint glass prisms respectively.  For the achromatism, the refracting angles of the two prisms are chosen different from each other and hence the deviation produced by the combination for a mean light is given by But from eqn. , we have Substituting the value of A' in eqn. , we get -      "
+},
+{
+  "id": "dispers3",
+  "level": "2",
+  "url": "subsec-achrom_prism.html#dispers3",
+  "type": "Figure",
+  "number": "5.4.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-diswdev1",
+  "level": "1",
+  "url": "subsec-diswdev1.html",
+  "type": "Subsection",
+  "number": "5.4.2",
+  "title": "Dispersion Without Deviation",
+  "body": " Dispersion Without Deviation  If the angle of the crown and flint glass prisms are so adjusted that the deviation produced for the mean light by the crown glass prism is equal and opposite to that produced by the flint glass prism, then the final beam will be parallel to the incident beam. Such a combination of the two prisms will produce dispersion of the incident beam without deviation. Let A, and A', be the refracting angles of the crown glass and flint glass prisms respectively and and be the deviation for the mean light. Then        For no deviation, we should set   The -ve sign shows that the refracting angles of the two prisms are in opposite direction.  The dispersion produced by the prisms are given by       Net angular dispersion =  where and are the dispersive powers of the materials of the prisms. If two prisms are of the same materials, then and . So, A = A' from from eqn. hence, no dispersion and no deviation.  "
+},
+{
+  "id": "dispers4",
+  "level": "2",
+  "url": "subsec-diswdev1.html#dispers4",
+  "type": "Figure",
+  "number": "5.4.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-chrom_abr",
+  "level": "1",
+  "url": "subsec-chrom_abr.html",
+  "type": "Subsection",
+  "number": "5.4.3",
+  "title": "Chromatic Aberation in a Lens",
+  "body": " Chromatic Aberation in a Lens   In greek chroma means color and aberration means defect, hence the color defects of a lens is called a chromatic aberration. In other words, the inability of a lens to focus all colors of white light at a single focus is known as chromatic aberration. From lens maker's formula it is clear that the focal length of a lens depend upon the refractive index of a material of lens which is the cause of chromatic aberration. If white light is passing through the lens violet color focuses at a point near to the lens and the red color focuses at point far from the lens. The rays of intermediate colors are focused between these points as shown in . Hence the image of an object emitting white light stretched between and and is blurred. Chromatic aberration is of two types, axial (or longitudinal) aberration and lateral (or transverse) aberration.                   The axial chromatic aberration is given by Now the focal length of a lens is given by    Hence  Taking as f is a geometrical mean of and and being the focal length of mean light, we have - Hence it is clear that a single lens can not produce an image free from chromatic aberration unless the dispersive power can be balanced by using some other material.    Achromatism  The condition of removing chromatic aberration from a lens is called an achromatism. When two lenses a convex lens and a concave lens of different materials are combined in such a way that the combination will not produce any chromatic aberration then the lens is called an achromatic lens. Suppose a crown glass convex lens and a flint glass concave lens are combined together, then from lens formula   Differentiating, we get -   That is the dispersive power can be defined as the relative change in the focal length of a lens and the -ve sign indicates that the focal length of the lens decreases with increasing refractive index of the material. If and are the focal lengths of the two lenses of different materials (crown and flint) placed in contact coaxially, then the equivalent focal length of the combination is given by Differentiating we get - For the combination to be achromatic, must be equal to zero. Hence which is the condition for achromatism.   "
+},
+{
+  "id": "chrom_abrl",
+  "level": "2",
+  "url": "subsec-chrom_abr.html#chrom_abrl",
+  "type": "Figure",
+  "number": "5.4.5",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-rainbow",
+  "level": "1",
+  "url": "subsec-rainbow.html",
+  "type": "Subsection",
+  "number": "5.4.4",
+  "title": "Rainbow:",
+  "body": " Rainbow:   A rainbow is an optical phenomenon, which is produced in the sky due to the combined effect of refraction, internal reflection, and dispersion of light in water droplets. A rainbow consists of the primary rainbow and the secondary rainbow. The primary (main) rainbow is caused by two refractions and one internal reflection inside a rain droplet. The secondary rainbow appears outside the primary one and is caused by two refractions and two internal reflections inside the spherical water droplet. The colors of the secondary rainbow are reversed from the primary bow, and the secondary bow is twice as broad.               A rainbow can be seen in the sky when an observer facing opposite to the sun look at about above the horizon to suspended water droplets. Each individual droplet of water acts as a tiny prism that both disperses the light and reflects it back to the observer's eye. As you sight into the sky, wavelengths of light associated with a specific color arrive at your eye from the collection of droplets as shown in . The net effect of the vast array of droplets is that a circular arc of VIBGYOR is seen across the sky. A rainbow is actually a complete circle but observers on the ground only view the top half of the circle since the bottom half of the circular arc is prevented by the presence of the ground. However, observers in an airborne plane can view the complete circular bow. Rainbows are not limited to the dispersion of light by raindrops. The splashing of water in front of you forms water mist in the air and if you are facing opposite to the sun then the chances are you can create your own rainbows. Bright sunlight, suspended water droplets and the proper angle of sighting are the three necessary components for viewing one of nature's most spectacular activities.    Primary Rainbow  Consider a ray AP from the sun is incident at point P in a spherical water droplet and refracts along PQ. If the angle of incidence of ray PQ at point P is greater than the critical angle for water air interface then light gets internally reflected along QR from the back surface of drop and may emerge into the air at the point R as shown in . During this operation the deviation suffered by the ray of light is given by the , since the line MO is parallel to the incident ray AP and line ON is parallel to the emergent ray RB. Note that the absorption, reflection, and refraction happen in light at each point it strikes on the surface of droplet. From figure at left,         Using Snell's law at point P, we have -  where for air and the refractive index of water.   Now from eqn. , we get - A rainbow will form when the angle of deviation is maximum for the given angle of incidence i, i.e., when . If this condition is satisfied, all the rays with incident angle close to will be sent back in the same direction, producing a bright zone in the sky.  Differentiating eqn. w.r.t. and set that to zero, we get -           Since for red light, angle of incidence at maximum deviation is given by   Also for violet light,         That is, the different colors of light correspond to different wavelengths of light, which are refracted at slightly different angles, thus splitting the white sunlight into red and violet lights. The color of the primary rainbow are spread over about out of the away from the anti-solar point as shown in . The viewer sees the rainbow with the red at the outer side of the arc and the violet on the inner side. Our perception of vision for violet light is not that sensitive hence, we see blue light more clearly than violet light. It is to be remembered that sunlight strikes the raindrops at different angles of incidence and undergoes different deviations. Only those rays produce a rainbow which have the angle of incidence corresponding to maximum angles of deviation.    Secondary Rainbow  In secondary rainbow, there are two reflections and two refractions. From f the total deviation   Now for minimum deviation             using eqn.    Taking refractive index of water for red light, angle of deviation, The acute angle Taking refractive index of water for violet light, angle of deviation, The acute angle Hence, the angle of inclination for violet light is more than for red light.   "
+},
+{
+  "id": "rainbow",
+  "level": "2",
+  "url": "subsec-rainbow.html#rainbow",
+  "type": "Figure",
+  "number": "5.4.6",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "rainbowb",
+  "level": "2",
+  "url": "subsec-rainbow.html#rainbowb",
+  "type": "Figure",
+  "number": "5.4.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "rainbowc",
+  "level": "2",
+  "url": "subsec-rainbow.html#rainbowc",
+  "type": "Figure",
+  "number": "5.4.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "rainbow2",
+  "level": "2",
+  "url": "subsec-rainbow.html#rainbow2",
+  "type": "Figure",
+  "number": "5.4.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-scattering",
+  "level": "1",
+  "url": "subsec-scattering.html",
+  "type": "Subsection",
+  "number": "5.4.5",
+  "title": "Scattering",
+  "body": " Scattering  It is a phenomenon of absorption and reemition of light energy in different directions when it interacts with material particles. The intensity of scattered light depends on the size of interacting particles, a and the wavelength of light,      $\\lambda$. If , than the amount of light scattered is given by When sunlight interacts with atmospheric particles, blue colors scattered more in sky than any other colors from the visible spectrum of light, hence, the sky looks bluish in color. In fact, violet light scattered more than blue but our eyes are more sensitive to blue color than violet light hence blue colors are much more prevailed than others in sky. At sunset and sunrise, the sunlight has to travel longer distance in the atmosphere which causes most of the blue and other shorter wavelengths are scattered in the sky and only red color is able to reach to our eyes hence, the sun appears reddish in color.  The wavelength of constituent colors of white light is shown in If the size of interacting particle, , then all the colors of light scattered equally and no any specific color is dominant. This is the reason when sunlight interacts with water droplets or clouds in sky they appear white rather than any other color.  "
+},
+{
+  "id": "colorsthinfilms",
+  "level": "2",
+  "url": "subsec-scattering.html#colorsthinfilms",
+  "type": "Figure",
+  "number": "5.4.10",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_fifth-photmetry",
+  "level": "1",
+  "url": "sec_fifth-photmetry.html",
   "type": "Section",
-  "number": "5.4",
-  "title": "Dispersion",
-  "body": " Dispersion      "
+  "number": "5.5",
+  "title": "Photometry",
+  "body": " Photometry      "
 },
 {
   "id": "sec_fifth-examplesB",
   "level": "1",
   "url": "sec_fifth-examplesB.html",
   "type": "Section",
-  "number": "5.5",
+  "number": "5.6",
   "title": "Examples B",
-  "body": " Examples B  "
+  "body": " Examples B    A small fish of length 1 cm is located at the center of a thin spherical fishbowl 20 cm in diameter. The index of refraction of water is 1.33 and that of the glass fishbowl is 1.5.  Does the thin layer of glass affect the refraction of the light rays?  When viewed from outside, where does the fish appear to be located?  What is its magnification?  How long does the fish appear to be?      Given: and        Since the air to glass to water result for is the same as that for air to water, the glass has no effect on the refraction.                    A mosquito is found embedded in an amber sphere of radius of curvature 3.0 mm and of refractive index 1.6. The mosquito is located on the principal axis and appears to be embedded at 5.0 mm into the amber. How deep is the mosquito really? What is the magnification?    Given: ,               A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. One half of the ball is silvered so as to form a mirror on the ball's surface. A person whose face is 25 cm high and 30 cm from the ball looks at his reflection through the ball. Light travels from his face through the clear surface of the ball, is reflected from the silvered surface, and passes back through the clear surface so as to form a final image.  Where is this final image located?  What is the magnification of the complete optical system?  What is the height of the final image?                               "
+},
+{
+  "id": "example-77",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-77",
+  "type": "Example",
+  "number": "5.6.1",
+  "title": "",
+  "body": "  A small fish of length 1 cm is located at the center of a thin spherical fishbowl 20 cm in diameter. The index of refraction of water is 1.33 and that of the glass fishbowl is 1.5.  Does the thin layer of glass affect the refraction of the light rays?  When viewed from outside, where does the fish appear to be located?  What is its magnification?  How long does the fish appear to be?      Given: and        Since the air to glass to water result for is the same as that for air to water, the glass has no effect on the refraction.                 "
+},
+{
+  "id": "example-78",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-78",
+  "type": "Example",
+  "number": "5.6.2",
+  "title": "",
+  "body": "  A mosquito is found embedded in an amber sphere of radius of curvature 3.0 mm and of refractive index 1.6. The mosquito is located on the principal axis and appears to be embedded at 5.0 mm into the amber. How deep is the mosquito really? What is the magnification?    Given: ,            "
+},
+{
+  "id": "example-79",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-79",
+  "type": "Example",
+  "number": "5.6.3",
+  "title": "",
+  "body": "  A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. One half of the ball is silvered so as to form a mirror on the ball's surface. A person whose face is 25 cm high and 30 cm from the ball looks at his reflection through the ball. Light travels from his face through the clear surface of the ball, is reflected from the silvered surface, and passes back through the clear surface so as to form a final image.  Where is this final image located?  What is the magnification of the complete optical system?  What is the height of the final image?                              "
 },
 {
   "id": "sec_fifth-physopt",
   "level": "1",
   "url": "sec_fifth-physopt.html",
   "type": "Section",
-  "number": "5.6",
+  "number": "5.7",
   "title": "Physical Optics",
   "body": " Physical Optics      "
 },
@@ -4496,7 +4640,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_fifth-examplesC.html",
   "type": "Section",
-  "number": "5.7",
+  "number": "5.8",
   "title": "Examples C",
   "body": " Examples C  "
 },
@@ -4505,7 +4649,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ex_fifth.html",
   "type": "Exercises",
-  "number": "5.8",
+  "number": "5.9",
   "title": "Exercise",
   "body": "  Exercise   Reflection  An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?    A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?     "
 },
@@ -4514,7 +4658,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-146",
   "type": "Exercise",
-  "number": "5.8.1",
+  "number": "5.9.1",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -4523,7 +4667,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-147",
   "type": "Exercise",
-  "number": "5.8.2",
+  "number": "5.9.2",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -4532,7 +4676,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-148",
   "type": "Exercise",
-  "number": "5.8.3",
+  "number": "5.9.3",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -4541,7 +4685,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-149",
   "type": "Exercise",
-  "number": "5.8.4",
+  "number": "5.9.4",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -4550,7 +4694,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-150",
   "type": "Exercise",
-  "number": "5.8.5",
+  "number": "5.9.5",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -4559,7 +4703,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-151",
   "type": "Exercise",
-  "number": "5.8.6",
+  "number": "5.9.6",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -4568,7 +4712,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-152",
   "type": "Exercise",
-  "number": "5.8.7",
+  "number": "5.9.7",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -4577,7 +4721,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-153",
   "type": "Exercise",
-  "number": "5.8.8",
+  "number": "5.9.8",
   "title": "",
   "body": "A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?   "
 },
@@ -4586,7 +4730,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-154",
   "type": "Exercise",
-  "number": "5.8.9",
+  "number": "5.9.9",
   "title": "",
   "body": "A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?   "
 },
@@ -4600,72 +4744,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-985",
+  "id": "p-1020",
   "level": "2",
-  "url": "append_math.html#p-985",
+  "url": "append_math.html#p-1020",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-986",
+  "id": "p-1021",
   "level": "2",
-  "url": "append_math.html#p-986",
+  "url": "append_math.html#p-1021",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-987",
+  "id": "p-1022",
   "level": "2",
-  "url": "append_math.html#p-987",
+  "url": "append_math.html#p-1022",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-988",
+  "id": "p-1023",
   "level": "2",
-  "url": "append_math.html#p-988",
+  "url": "append_math.html#p-1023",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-989",
+  "id": "p-1024",
   "level": "2",
-  "url": "append_math.html#p-989",
+  "url": "append_math.html#p-1024",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-990",
+  "id": "p-1025",
   "level": "2",
-  "url": "append_math.html#p-990",
+  "url": "append_math.html#p-1025",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-991",
+  "id": "p-1026",
   "level": "2",
-  "url": "append_math.html#p-991",
+  "url": "append_math.html#p-1026",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-992",
+  "id": "p-1027",
   "level": "2",
-  "url": "append_math.html#p-992",
+  "url": "append_math.html#p-1027",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4681,9 +4825,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-993",
+  "id": "p-1028",
   "level": "2",
-  "url": "appendix-2.html#p-993",
+  "url": "appendix-2.html#p-1028",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

@@ -177,7 +177,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_fifth-examplesA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_fifth.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_fifth-examplesB.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_fifth-examplesA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_fifth.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="subsec-achrom_prism.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
@@ -580,11 +580,30 @@ window.MathJax = {
 </ul>
 </li>
 <li><div class="toc-item"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Examples A</span></a></div></li>
-<li class="active"><div class="toc-item"><a href="sec_fifth-dispers.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Dispersion</span></a></div></li>
-<li><div class="toc-item"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Examples B</span></a></div></li>
-<li><div class="toc-item"><a href="sec_fifth-physopt.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Physical Optics</span></a></div></li>
-<li><div class="toc-item"><a href="sec_fifth-examplesC.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Examples C</span></a></div></li>
-<li><div class="toc-item"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.8</span> <span class="title">Exercise</span></a></div></li>
+<li class="active">
+<div class="toc-item"><a href="sec_fifth-dispers.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Dispersion</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-achrom_prism.html" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Deviation Without Dispersion (Achromatic Prism)</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-diswdev1.html" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Dispersion Without Deviation</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-chrom_abr.html" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Chromatic Aberation in a Lens</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-chrom_abr.html#subsubsec-achrom" class="internal"><span class="codenumber">5.4.3.1</span> <span class="title">Achromatism</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-rainbow.html" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Rainbow:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-rainbow.html#subsubsec-prainbow" class="internal"><span class="codenumber">5.4.4.1</span> <span class="title">Primary Rainbow</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-rainbow.html#subsubsec-srainbow" class="internal"><span class="codenumber">5.4.4.2</span> <span class="title">Secondary Rainbow</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-scattering.html" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Scattering</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_fifth-photmetry.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Photometry</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-physopt.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Physical Optics</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesC.html" class="internal"><span class="codenumber">5.8</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.9</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li>
@@ -600,9 +619,94 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_fifth-dispers"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">5.4</span> <span class="title">Dispersion</span>
 </h2>
-<section class="introduction" id="introduction-55"><div class="para" id="p-974"></div></section></section></div>
+<section class="introduction" id="introduction-54"><div class="para" id="p-974">The phenomenon of splitting of white light into its constituent colors when passes through a prism is known as <dfn class="terminology">dispersion</dfn> and the image thus formed on a screen is called a <dfn class="terminology">spectrum</dfn>. The spectrum consists of a visible and invisible regions of light. The principal colors of light in the visible spectrum are given as <em class="emphasis">VIBGYOR</em> (Violet, Indigo, Blue, Green, Yellow, Orange, and Red). The deviation occurred in violet light is maximum and that for red light is minimum as shown in <a href="" class="xref" data-knowl="./knowl/dispers.html" title="Figure 5.4.1">Figure 5.4.1</a>. In the invisible regions, the spectrum of wavelengths shorter than violet is called <em class="emphasis">ultra-violet</em> and that for longer than red is called <em class="emphasis">infra-red</em>.</div> <figure class="figure figure-like" id="dispers"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/dispers.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.4.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para logical" id="p-975">
+<div class="para">The refractive index of the material for a prism is different for different wavelengths (or colors) which is given by Cauchy’s dispersion formula</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\eta = A+\frac{B}{\lambda^{2}}.
+\end{equation*}
+</div>
+<div class="para">The values of A and B depend on the medium and is called Cauchy’s constants. Since</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\eta \propto \frac{1}{\lambda^{2}}
+\end{equation*}
+</div>
+<div class="para">the violet light suffers the greatest deviation and red light suffers the least deviation in visible light spectrum. The color of light is dependent on its wavelength, <span class="process-math">\(\lambda\text{.}\)</span> Here is a list of wavelengths</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lambda_{red}=620-750\,nm,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lambda_{orange}=590-620\,nm,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lambda_{yellow}=570-620\,nm,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lambda_{green}=495-620\,nm,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lambda_{blue}=450-495\,nm,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lambda_{red}=380-450\,nm.
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-976">
+<div class="para">When a white light is passing through a thin prism, then deviation produced by blue, yellow, and red light is given by</div>
+<div class="displaymath process-math" id="eqn-dispers1">
+\begin{equation}
+\delta=A(\eta-1)\qquad \text{for mean yellow light} \tag{5.4.1}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-dispers2">
+\begin{equation}
+\delta_{b}=A(\eta_{b}-1)\qquad \text{for blue light} \tag{5.4.2}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-dispers3">
+\begin{equation}
+\delta_{r}=A(\eta_{r}-1)\qquad \text{for red light} \tag{5.4.3}
+\end{equation}
+</div>
+<div class="para">where A is a refracting angle of the prism. The difference in deviation between any two colors is called <dfn class="terminology">angular dispersion, <span class="process-math">\(\theta\)</span></dfn>.</div>
+</div> <div class="para logical" id="p-977">
+<div class="para">From eqns. <a href="" class="xref" data-knowl="./knowl/eqn-dispers2.html" title="Equation 5.4.2">(5.4.2)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-dispers3.html" title="Equation 5.4.3">(5.4.3)</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-dispers2.html ./knowl/eqn-dispers3.html ./knowl/eqn-dispers1.html">
+\begin{equation*}
+\theta = \delta_{b}-\delta_{r}=A(\eta_{b}-\eta_{r})
+\end{equation*}
+</div>
+<div class="para">Dividing this expression by eqn. <a href="" class="xref" data-knowl="./knowl/eqn-dispers1.html" title="Equation 5.4.1">(5.4.1)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-dispers2.html ./knowl/eqn-dispers3.html ./knowl/eqn-dispers1.html" id="eqn-dispers4">
+\begin{equation}
+\frac{\theta}{\delta}=\frac{\delta_{b}-\delta_{r}}{\delta}=\frac{\eta_{b}-\eta_{r}}{\eta -1}= \frac{\,d\eta}{\eta -1}=\omega \tag{5.4.4}
+\end{equation}
+</div>
+<div class="para">The ratio of angular dispersion between violet and red emergent rays and the deviation suffered by the mean ray is known as the dispersive power of the material of a prism. It is constant for any two colors (wavelengths).</div>
+</div> <div class="para" id="p-978">Newton once combined the two similar prisms upside down sidewise and passed the white light through them. He observed that as the white light  passed through the first prism splitted into constituent colors and as these colors passed through the second inverted prism the emergent light beam recombines back into white light as shown in <a href="" class="xref" data-knowl="./knowl/dispers2.html" title="Figure 5.4.2">Figure 5.4.2</a>. This experiment suggests that the white light consists of different colors of light which are seperated when passes through the prism.</div> <figure class="figure figure-like" id="dispers2"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/dispers2.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.4.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure></section><nav class="summary-links"><ul>
+<li><a href="subsec-achrom_prism.html" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Deviation Without Dispersion (Achromatic Prism)</span></a></li>
+<li><a href="subsec-diswdev1.html" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Dispersion Without Deviation</span></a></li>
+<li><a href="subsec-chrom_abr.html" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Chromatic Aberation in a Lens</span></a></li>
+<li><a href="subsec-rainbow.html" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Rainbow:</span></a></li>
+<li><a href="subsec-scattering.html" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Scattering</span></a></li>
+</ul></nav></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec_fifth-examplesA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_fifth-examplesB.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+<a class="previous-button button" href="sec_fifth-examplesA.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="subsec-achrom_prism.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer">
