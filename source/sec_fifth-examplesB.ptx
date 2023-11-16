@@ -85,7 +85,7 @@
     <p>
       Given: <m>n_{a}=1.6, \quad n_{b}=1</m> , <m>R=-3 \,mm, \quad v=-5\,mm \quad (virtual image).</m>
     </p>
-      <image source="mosqref.png" width ="60%"> </image>
+      <image source="mosqref.png" width ="40%"> </image>
       <p>
       <me>
         \frac{n_{a}}{s}+\frac{n_{b}}{s'} =\frac{n_{b}-n_{a}}{R} 
@@ -125,7 +125,7 @@
           </p>
   </statement>
   <solution>
-    <image source="fig76.png" width ="60%"> </image>
+    <image source="fig76.png" width ="50%"> </image>
     <p>
       <ol marker="a.">
         <li>
@@ -168,6 +168,561 @@
        </me>
           </li>
         </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A convex surface of radius of curvature 40 cm separates two media of refractive indices 4/3 and 3/2. 
+      An object is kept in the first medium at a distance of 20 cm from the surface. Calculate the position of the image?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>n=4/3, \, n'=1.5,\, R= + 40 cm.</m> 
+     </p>
+     <image source="spref1.png" width ="40%"> </image>
+     <p>
+      <me>
+        \frac{n}{s}+\frac{n'}{s'}=\frac{n'-n}{R} 
+      </me>
+      <me>
+        or,\quad  \frac{4}{3\times 20}+\frac{1.5}{s'}=\frac{1.5-4/3}{40}
+      </me>
+      <me>
+        \Rightarrow s'=-24 \,cm.
+      </me>
+           </p>
+           <p>
+            Which is virtual in nature and formed in the first medium just before the real object.
+           </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A small filament is at the center of a hollow glass sphere of inner and outer radii 8 cm and 9 cm, 
+      respectively.  Calculate the image position of the filament when viewed from outside of the sphere. 
+      Assume refractive index of glass = 1.5.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      
+    </p>
+    <image source="spref2.png" width ="40%"> </image>
+    <p>
+      Given: <m> n=1, \quad n'=1.5,\quad R_{1} = -8\,cm,\quad R_{2} = -9\,cm.</m> 
+For first concave surface, 
+<me>
+  \frac{n}{s}+\frac{n'}{s'}=\frac{n'-n}{R_{1}} 
+</me>
+<me>
+  or,\quad   \frac{1}{8}+\frac{1.5}{s'}=\frac{1.5-1}{-8}
+</me>
+<me>
+  \Rightarrow s'=-8 \,cm.
+</me>
+The image of the object is formed at the center of first sphere and is virtual. 
+    </p>
+    <p>
+      For second concave surface, 
+      <me>
+        \frac{n}{s}+\frac{n'}{s'}=\frac{n'-n}{R_{2}} 
+      </me>
+      <me>
+        or,\quad   \frac{1}{9}+\frac{1.5}{s'}=\frac{1.5-1}{-9}
+      </me>
+      <me>
+        \Rightarrow s'=-9 \,cm. 
+      </me>
+      Thus the final image is also formed at the center  and is virtual.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Two fish are at the bottom of 10 m deep water. A wall between them blocks their view so that they 
+      cannot see each other directly. However, they know the presence each other through their mirror 
+      images created above the water surface. At least how far are they separated? Assume that the 
+      index of reflection of air and water is 1.00  and 1.52, respectively.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      For fish to see each other angle of incidence of the light from them to the water-air 
+      interface must suffers total internal reflection and must be greater than or equal to 
+      critical angle. Suppose the fish are at a distance r from each other which is a minimum distance 
+      for them to see each other then angle of incidence <m>\angle i = \angle c</m>. From Snell's Law
+    </p>
+    <image source="fish3.png" width ="40%"> </image>
+    <p>
+      <me>
+        \eta_{1}\sin\theta_{1} =\eta_{2}\sin\theta_{2}
+      </me>
+      <me>
+        \text{or,} \quad 1.52 \sin c =1\sin 90 
+      </me>
+      <me>
+        \Rightarrow \quad c = \sin^{-1}\left(\frac{1}{1.52}\right)=41.14^{o}
+      </me>
+      Now from right angle <m>\triangle OAP,</m> 
+      <me>
+        \tan c = \frac{r/2}{d}=\frac{r}{2d}
+      </me>
+      <me>
+        r=2d\tan c = 2\times 10\times \tan 41.14^{o}=17.47 \,m
+      </me>
+         </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A ray of light is incident at an angle of <m>60^{o}</m> onto the surface of a pool of water. 
+      Part of the light is reflected and part refracted. What is the angle between the reflected 
+      ray and the refracted ray? Assume <m>n(water) = 1.33.</m>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>\theta_{1}=60^{o},\quad n_{1}=1,\quad n_{3}=1.33</m>
+    </p>
+    <p>
+    <me>
+      \theta_{1} =\theta_{2}=60^{o}
+    </me>
+    <me>
+      n_{1} \sin \theta_{1}  = n_{3} \sin \theta_{3} \quad \Rightarrow \quad \theta_{3}=40.63^{o}
+    </me>
+    <me>
+      \theta =(90^{o}-\theta_{2})+(90^{o}-\theta_{3})\quad \Rightarrow \quad \theta=79.4^{o}
+    </me>
+        </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A <m>30-60-90^{o}</m> prism of index of refraction 1.50 is oriented as shown below with its long 
+      face (Face 2) horizontally facing upward, a drop of oil of unknown index of refraction is placed 
+      on the top face of the prism, and a ray of light enters normally into the prism through its short 
+      face (Face 1) so as to strike the top face from below. 
+           </p>
+           <image source="fig67.png" width ="50%"> </image>
+           <p>
+            <ol marker="a.">
+              <li>
+                What is the minimum index of refraction of the oil that will cause the internal ray to be totally reflected from the top face? 
+              </li>
+              <li>
+                What is the angle of incident that the internally reflected ray makes with the other face (Face 3) of the prism.
+              </li>
+              <li>
+                Is the light totally reflected off the third face or is it refracted through the surface?
+              </li>
+              <li>
+                If refracted, what is the angle of refraction as it emerges from the prism? 
+              </li>
+            </ol>
+           </p>
+  </statement>
+  <solution>
+    <image source="fig68.png" width ="50%"> </image>
+           <p>
+            <ol marker="a.">
+              <li>
+                <me>
+                  n_{1} \sin \theta_{1}  = n \sin \theta_{exit} 
+                </me>
+                 <me>
+                  or,\quad  1.5 \sin 60^{o}  = n \sin 90^{o} 
+                 </me>
+                 <me>\Rightarrow n = 1.3 </me>
+              </li>
+              <li>
+               <me>
+                \theta_{1} = \theta_{2} = 60^{o} 
+               </me>
+               <me>
+                \text{but}\quad \theta_{1} =\theta+\theta_{3} 
+               </me>
+               <me>
+                or,\quad 60^{o} = 30^{o}+\theta_{3} 
+               </me>
+               <me>
+                \therefore\quad \theta_{3} = 30^{o}
+               </me>
+                  </li>
+              <li>
+                <m>\because </m> \quad  <m>\theta_{3} \lt \theta_{crit}</m> then the ray will be refracted.
+              </li>
+              <li>
+               <me>
+                $n_{3} \sin \theta_{3}  = n_{4} \sin \theta_{5} 
+               </me>
+               <me>
+                or,\quad 1.5 \sin 30^{o}  = 1 \sin \theta_{5} 
+               </me>
+               <me>
+                \Rightarrow \theta_{5} = 48.6^{o}
+               </me>
+                 </li>
+            </ol>
+           </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Light of wavelength 500 nm is incident normally on a glass plate coated with a thin coating of 
+      anti-reflecting material. If the glass has an index of refraction of 1.66 and the coating has an index of refraction of 1.58, 
+      find 
+      <ol marker="a.">
+        <li>
+          the wavelength of the light in the glass,
+        </li>
+        <li>
+          in the coating. 
+        </li>
+        <li>
+          What is the minimum thickness of the coating that will produce destructive interference of the reflected  
+          light rays from the two surfaces of the coating?
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>\lambda_{o} =5.00\times10^{-7}\, m; \quad n_{g} = 1.66 \quad n_{c} = 1.58 </m> 
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            \lambda_{g}=\frac{\lambda_{o}}{n_{g}}\Rightarrow \lambda_{g} = 3.01\times10^{-7} \,m
+          </me>
+                  </li>
+        <li>
+          <me>
+            \lambda_{c}=\frac{\lambda_{o}}{n_{c}}\Rightarrow \lambda_{c} = 3.16\times10^{-7} \,m
+          </me>
+                  </li>
+        <li>
+         <me>
+          2d =\frac{\lambda_{c}}{2}\Rightarrow d = 7.91\times10^{-8} \,m. 
+         </me>
+                 </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A thin double concave lens has a radius of curvature of 10 cm on both sides and is made of glass of 
+      index of refraction 1.5. A light bulb 2 cm high is located 50 cm in front of the lens along its principle axis. 
+      <ol marker="a.">
+        <li>
+          What is the focal length of the lens? Is it converging or diverging? 
+        </li>
+        <li>
+          Where is the image of the light bulb located? Is the image real or virtual? 
+        </li>
+        <li>
+          What is the height of the image? Is the image enlarged or reduced? Erect or inverted?
+        </li>
+      </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+        <me>
+          \frac{1}{f} = (n-1)\left(\frac{1}{R_{1}}-\frac{1}{R_{2}}\right)
+        </me>
+        <me>
+          or,\quad \frac{1}{f} = (1.5-1)\left(\frac{1}{-10}-\frac{1}{10}\right)
+        </me>
+        <me>
+          \Rightarrow f=-10\,cm \quad\text{diverging.}
+        </me>
+              </li>
+        <li>
+        <me>
+          \frac{1}{s}+\frac{1}{s'}=\frac{1}{f} 
+        </me>
+        <me>
+         or,\quad \frac{1}{50}+ \frac{n'}{s'}= \frac{1}{-10} 
+        </me>
+        <me>
+          \Rightarrow s' = -12.5 \,cm \quad \text{virtual.}
+        </me>
+          </li>
+        <li>
+         <me>
+          m=\frac{y'}{y}=-\frac{s'}{s}
+         </me>
+         <me>
+          or,\quad \frac{y'}{2} =-\frac{-12.5}{50}
+         </me>
+         <me>
+          \Rightarrow y' =0.5\, cm; \quad \text{reduced erect.}
+         </me>
+           </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Calculate the focal length of a double convex lens of radius of curvature of each surface is 30 cm and refractive index of glass is 1.5.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>n=1.5, \quad R_{1}=30 \,cm, \quad R_{2}=-30 \,cm.</m>
+    </p>
+    <p>
+     <me>
+      \frac{1}{f}=(n-1) \left(\frac{1}{R_{1}}-\frac{1}{R_{2}} \right) = (1.5-1) \left(\frac{1}{30}+\frac{1}{30} \right) = \frac{1}{30}
+     </me>
+     <me>
+      \therefore\quad f=30\, cm
+     </me>
+      </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      Calculate the focal length of a plano convex lens, the radius of curvature of convex 
+      surface is 40 cm and refractive index of glass is 1.5
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>n=1.5, \quad R_{1}=\infty,\quad R_{2}=-20 \,cm.</m>
+    </p>
+    <p>
+      <me>
+        \frac{1}{f}=(n-1) \left(\frac{1}{R_{1}}-\frac{1}{R_{2}} \right) = (1.5-1) \left(\frac{1}{\infty}+\frac{1}{40} \right) = \frac{1}{80}
+      </me>
+      <me>
+        \therefore\quad f=80\, cm
+      </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A convex lens of focal length 24 cm and refractive index of glass is 1.5. 
+      Find the focal length of this lens if it is totally submerged into water of refractive index 1.33.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>^{a}n_{g}=1.5,\quad ^{a}n_{w}=1.33, \quad f_{a}=24 \,cm, \quad f_{b}=?</m> 
+    </p>
+    <p>
+      In air, 
+      <me>
+        \frac{1}{f_{a}}=(^{a}n_{g}-1) \left(\frac{1}{R_{1}}-\frac{1}{R_{2}} \right)
+      </me>
+     <men xml:id="eqn-lensw1">
+      or, \quad \left(\frac{1}{R_{1}}-\frac{1}{R_{2}} \right) = \frac{1}{f_{a}(^{a}n_{g}-1)} =\frac{1}{24(1.5-1)}  = \frac{1}{12}  
+     </men>
+     In water, 
+     <me>
+      \frac{1}{f_{b}}=(^{w}n_{g}-1) \left(\frac{1}{R_{1}}-\frac{1}{R_{2}} \right)
+     </me>
+      From the principle of reversibility of light, 
+      <me>
+        ^{w}n_{g}=^{w}n_{a}\times ^{a}n_{g} =\frac{^{a}n_{g}}{^{a}n_{w}} =\frac{1.5}{1.33} =1.125
+      </me>
+      <me>
+        \therefore \quad \frac{1}{f_{b}}=(1.125-1) \left( \frac{1}{12}\right) = \frac{12}{0.125}
+      </me>
+      using eqn. <xref ref="eqn-lensw1"/>
+      <me>
+        \therefore\quad f_{b} = 96\, cm
+      </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A concavo-convex lens has refractive index of 1.5 and radii of curvature of its surfaces are 10cm and 20 cm. 
+      The concave surface is upwards and is filled with oil of refractive index 1.6. Calculate the focal length 
+      of the oil-glass combination.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>n_{g}=1.5,\quad n_{o}=1.6.</m> 
+    </p>
+    <p>
+     Remember higher curvature means smaller radius of curvature. 
+For the glass lens, 
+<me>
+  \frac{1}{f_{1}}=(^{a}n_{g}-1) \left(\frac{1}{R_{1}}-\frac{1}{R_{2}} \right) = (1.5-1) \left(\frac{1}{10}-\frac{1}{20}\right) = \frac{1}{40}
+</me>
+For the oil lens, 
+<me>
+  \frac{1}{f_{2}}=(^{a}n_{o}-1) \left(\frac{1}{R_{1}}-\frac{1}{R_{2}} \right) = (1.6-1) \left(\frac{1}{\infty}+\frac{1}{20}\right) = \frac{3}{100}
+</me>
+Therefore the equivalent focal length of the combination is given by, 
+<me>
+  \frac{1}{F}=\frac{1}{f_{1}}+\frac{1}{f_{2}}= \frac{1}{40}+\frac{3}{100} = \frac{11}{200}
+</me>
+<me>
+  \therefore\quad F = 18.18 \,cm
+</me>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The objective glass lens of a telescope is an achromat of focal length 90 cm. 
+      If the dispersive powers of the materials of the lenses are 0.024 and 0.036, 
+      calculate their focal lengths.
+    </p>
+  </statement>
+  <solution>
+   <p>
+    Given: <m>  \omega_{1} =0.024,\quad \omega_{2}=0.036,\quad F = 90 \,cm.</m>
+   </p>
+    <p>
+     At achromatic condition,
+     <me>
+      \frac{\omega_{1}}{f_{1}} + \frac{\omega_{2}}{f_{2}} =0
+     </me>
+     <me>
+      or,\quad \frac{1}{f_{2}} = -\frac{\omega_{1}}{f_{1}\omega_{2}} = - \frac{2}{3f_{1}}
+     </me>
+     Also, 
+     <me>
+      \frac{1}{F}=\frac{1}{f_{1}}+\frac{1}{f_{2}}
+     </me>
+     <me>
+      or,\quad \frac{1}{90}=\frac{1}{f_{1}}-\frac{2}{3f_{1}} =\frac{1}{3f_{1}}
+     </me>
+     <me>
+      \therefore\quad f_{1}=\frac{90}{3}=30 cm;\quad f_{2}= -\frac{3f_{1}}{2} =-45\,cm
+     </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Find the dispersive power of crown and flint glass from the following data.
+    </p>
+
+         <tabular halign="center">
+          <row header="yes" bottom="minor" >
+            <cell></cell>
+            <cell><m>n_{r}</m> </cell>
+            <cell><m>n</m>  </cell>
+            <cell><m>n_{b}</m> </cell>
+            </row>
+          <row>
+             <cell>Crown</cell>
+            <cell><m>1.5145</m></cell>
+            <cell><m>1.5170 </m></cell>
+            <cell><m>1.5230 </m></cell>
+          </row>
+          <row>
+            <cell> Flint</cell>
+            <cell><m>1.6444</m></cell>
+            <cell><m>1.652</m></cell>
+            <cell><m>1.6637</m></cell>
+          </row>
+         </tabular>
+         </statement>
+  <solution>
+    <p>
+      <me>
+        \omega=\frac{n_{b}-n_{r}}{n-1}
+      </me>
+      <me>
+        \therefore\quad \omega_{c} = \frac{1.523-1.5145}{1.517-1} = 0.0164;
+      </me>
+      <me>
+        \text{and}\quad \omega_{f} = \frac{1.6637-1.6444}{1.652-1} = 0.0296.
+      </me>
+          </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      In vacuum, an electromagnetic wave has speed <m>c= 3 \times10^{8} \,m/s</m> and 
+      frequency <m>f = 6.0 \times 10^{14} \,Hz.</m>  It enters a material whose index of refraction is n = 1.40. 
+      <ol marker="a.">
+        <li>
+          Find the speed of the wave in the material. 
+        </li>
+        <li>
+          Find the frequency of the wave in the material.
+        </li>
+        <li>
+          Find the wavelength of the wave in the material.
+        </li>
+        <li>
+          Human can see electromagnetic wave in the range of wavelength from 390 nm to 750 nm in vacuum. 
+          Is the electromagnetic wave of frequency <m>f = 8.50 \times 10^{14} \,Hz</m> in vacuum 
+          visible light, infrared, or ultraviolet? 
+        </li>
+      </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            n=\frac{c}{v} \Rightarrow v=\frac{c}{n} =\frac{3 \times10^{8} \,m/s}{1.4}= 2.14\times 10^{8} \,m/s
+          </me>
+          
+        </li>
+        <li>
+          Frequency does not change as the wave goes from one medium to another. 
+          Therefore <m>f_{a}=f_{b}=6.0 \times 10^{14} \,Hz.</m>
+        </li>
+        <li>
+         <me>
+          v=f\lambda \Rightarrow \lambda = \frac{v}{f}= \frac{2.14\times 10^{8} \,m/s}{6.0 \times 10^{14}\, Hz} = 356 \,nm
+         </me>
+            </li>
+        <li>
+         <me>
+          \lambda = \frac{c}{f} = \frac{3 \times10^{8} \,m/s}{8.50 \times 10^{14} \,Hz} = 352 \,nm \quad (UV light.)
+         </me>
+           </li>
+      </ol>
     </p>
   </solution>
 </example>

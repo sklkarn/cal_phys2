@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-opinst" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Optical Instruments</title>
+  
+<introduction>
+  <p>
+    An instrument used to aid visual observation is known as an optical instrument. 
+    Our eye is a natural device to observe objects. Photographic camera, microscope, 
+    telescope, etc. are some of the examples of optical instruments.
+  </p>
+</introduction>
+
+<subsection xml:id="subsec-camera">
+  <title>Camera</title>
+  <p>
+    A photographic camera consists of a convex lens, a photo sensitive plate, and a focusing arrangement 
+    as shown in <xref ref="camera"/>. Two achromatic lenses are spaced the proper distance apart, 
+    and an adjustable aperture called diaphragm, D is placed between them to permits different amount of 
+    light to enter the camera. A shutter is placed near the diaphragm to admit light for a preset time 
+    interval depends upon the brightness of the object,  sensitivity of photographic emulsion, the focal 
+    length of the lens, and the size of the stop of the aperture.
+  </p>
+
+  <figure>
+    <caption></caption>
+    <sidebyside widths="45% 45%">
+            <figure xml:id="camera">
+          <caption></caption>
+          <image source="camera.png"/>
+      </figure>
+          <figure xml:id="fig74">
+            <caption></caption>
+            <image source="fig74.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+    The diameter, D of the stop is given as a fraction of the focal length, f of the lens system 
+    and the ratio of focal length to the diameter of the stop is called the <m>f-number,</m>   i.e., 
+    <me>
+      f-number = \frac{f}{D}
+    </me>
+        which describes the diameter of the aperture. A lower <m>f-number</m> relates to a wider aperture, 
+        while a higher <m>f-number</m> means a narrower aperture. The diameters of the stop is marked 
+        in such a way that each stop double the exposure time [<xref ref="fig74"/>]. if 1 second is exposure time for f-1, 
+        then it would be 2 seconds for f-1.4, 4 seconds for f-2, 8 second for f-2.8, and so on. 
+        Moving  from f/2.8 to f/4 is a decrease of 1 stop because <m>4 = 2.8 \times \sqrt{2}</m>, 
+        going from f/16 to f/11 is an increase of 1 stop because <m>11 = 16 / \sqrt{2}</m>. In general, 
+        f-numbers are assigned as shown in <xref ref="fnumbergr"/>. 
+        The squares of the f-numbers are in the ratio of <m>1:2:4:8:16,</m> and so on.
+  </p>
+  <figure xml:id="fnumbergr">
+    <caption></caption>
+    <image source="fnumbergr.png" width="55%"/>
+</figure>
+</subsection>
+
+<subsection xml:id="subsec-opvision">
+  <title>Optical Vision</title>
+ <introduction>
+  <p>
+    Eye is an optical device endowed to us to perceive the beautiful nature. It is nearly spherical 
+    in shape of diameter about 2.3 cm. The front portion of eye is slightly bulges out and is 
+    covered with transparent tough membrane called <em>cornea</em>. Behind cornea  it has liquid 
+    called <em>aqueous humor</em>. Next to it is a diaphragm called <em>iris</em> with a hole at 
+    its center called <em>pupi</em>l. Behind iris there is a crystalline lens which is mounted on 
+    a <em>ciliary muscles</em>.  Inside eye ball is filled with liquid called <em>vitreous humor</em>. 
+    The image is formed on the innermost light sensitive membrane called <em>retina</em>. 
+    The pupil is just like a shutter in camera which allow the sufficient amount of light 
+    to enter into the eye. The pupil takes sometime to readjust its size to allow how much 
+    light permits to enter the eye,  this is the reason when you go from sunny day outside 
+    to the relatively dark room like cinema hall nothing is visible  for a while but gradually 
+    everything becomes clear after sometime. 
+  </p>
+  <figure xml:id="eye">
+    <caption></caption>
+    <image source="eye.png" width="55%"/>
+</figure>
+  <p>
+    Once the light from objects falls on the retina after getting refracted from the crystalline 
+    lens and vitrous humor, retina changes the light signal into electrical signal and transmits 
+    this signal to the brain via optic nerve where brain realizes the image of the object. 
+    The eye lens is designed in such a way that it forms the image of object situated at 
+    different distances from the eye. The mechanism of crystalline lens to focus the light 
+    coming from  objects at different distance to the retina is called an <term>accommodation</term>. 
+    When object is near to the eye its focal length has to be smaller and lens has to be thicker 
+    to focus the light on retina and when an object is very far away from the eye lens, 
+    then its focal length has to be longer and lens has to be thinner to focus the light onto retina.
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="45% 45%">
+            <figure xml:id="eyeaccn">
+          <caption></caption>
+          <image source="eyeaccn.png"/>
+      </figure>
+          <figure xml:id="eyeaccf">
+            <caption></caption>
+            <image source="eyeaccf.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+    A healthy human eye can see objects clearly  as close as 25 cm from  the eye. 
+    This distance is called a least distance of distinct vision, D and the point is 
+    called a <term>near point</term> N as shown in <xref ref="eyeaccn"/>.  
+    A far point for healthy human eye is considered at infinity as shown in <xref ref="eyeaccf"/>. 
+    If there exists any problem in the accommodation process, then the eyes are called 
+    suffering from defects of vision. For example, if the ciliary muscles do not contract or 
+    stretch as it supposed to be then our eye unable to focus the light at retina to 
+    privide clear vision. There are many other reasons which may be responsible for defects of vision. 
+    The common two types of defects of vision, myopia (short sightedness) and 
+    hypermetropia (far sightedness) are being discussed here.
+  </p>
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-myopia">
+  <title>Myopia:</title>
+  <p>
+    In this defect, objects far from eye appear blurred and that near eye appears clear. 
+    When objects lie near eye eyelens can contract to become thicker and  achieve shorter 
+    focal length to produce image of near objects at retina and hence objects appeared clear. 
+    When objects are  far from eye eyelens cannot stretch to become sufficiently thinner and 
+    achieve longer focal length to produce image of such objects on retina and hence it forms 
+    image in front of retina as shown in <xref ref="myopia"/>. Actually, when objects lie anywhere 
+    between new far point F and near point N, eye can accommodate itself for clear vision 
+    but produces image in front of retina to any objects farther than point F. 
+    To correct myopic eye a concave lens of suitable focal length can be used as shown in <xref ref="myopia2"/>.  
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="45% 45%">
+            <figure xml:id="myopia">
+          <caption></caption>
+          <image source="myopia.png"/>
+      </figure>
+          <figure xml:id="myopia2">
+            <caption></caption>
+            <image source="myopia2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+    A suitable concave lens diverges the incoming light rays from the object at infinity in such 
+    a way that the eyelens converges them to the retina. Hence a virtual image of the object is 
+    formed at new far point. Here <m>s=\infty</m> and from lens formula the focal length of concave lens is given as 
+    <me>
+      \frac{1}{s}+\frac{1}{s'} =\frac{1}{f}
+    </me>
+    <me>
+      \text{or,}\quad \frac{1}{\infty}-\frac{1}{s'} =\frac{1}{f}\quad [\text{virtual image}]
+    </me>
+    <me>
+      \text{or,}\quad f=-s'
+    </me>
+    The power of a lens is defined as 
+    <me>
+      P=\frac{1}{f}
+    </me>
+     and its SI unit is diopter (D).
+  </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-hyperopia">
+  <title>Hypermetropia  (or hyperopia):</title>
+  <p>
+    In this defect, objects far from eye appear clear and that near eye appears blurred. 
+    When objects are  far from eye eyelens can stretch enough to become sufficiently thinner 
+    and achieve longer focal length to produce image on retina. When objects lie near eye eyelens 
+    cannot contract enough to become thicker and  achieve shorter focal length to produce image 
+    at retina and hence the image is formed behind the retina as shown in <xref ref="hyperopia"/>. 
+    Actually, when objects lie anywhere between infinity to new near point N' eye can accommodate 
+    itself for clear vision but produces image behind the retina to any objects near than 
+    point N'. To correct myopic eye a convex lens of suitable focal length can be used as shown in <xref ref="hyperopia2"/>.  
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="45% 45%">
+            <figure xml:id="hyperopia">
+          <caption></caption>
+          <image source="hyperopia.png"/>
+      </figure>
+          <figure xml:id="hyperopia2">
+            <caption></caption>
+            <image source="hyperopia2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+    A suitable convex lens converges the incoming light rays from the object at near point N 
+    in such a way that the eyelens converges  them further to the retina. Hence a virtual 
+    image of the object is formed at new near point N'. Here <m>s=D </m> and from lens 
+    formula the focal length of convex lens is given as 
+    <me>
+      \frac{1}{s}+\frac{1}{s'} =\frac{1}{f}
+    </me>
+    <me>
+      \text{or,}\quad \frac{1}{D}-\frac{1}{s'} =\frac{1}{f}\quad [\text{virtual image}]
+    </me>
+    <me>
+      \text{or,}\quad f=\frac{Ds'}{s'-D}
+    </me>
+    The power of a lens is defined as 
+    <me>
+      P=\frac{1}{f} (Diopter).
+    </me>
+      </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-visangle">
+  <title>Visual Angle</title>
+  <p>
+    Angle subtended by an object on the eye is known as visual angle. 
+    The size of the image formed at retina is proportional to the visual angle. 
+    Higher the visual angle larger the apparent size of the object. Consider objects 
+    <m>O_{1}</m> and <m>O_{2}</m> of different sizes are situated at different distance 
+    from the eye but they subtend the same visual angle, <m>\theta_{1}</m> then size of 
+    their images formed on the retina will be equal.  Hence they appeared to be of same size.
+  </p>
+  <figure xml:id="visualang">
+    <caption></caption>
+    <image source="visualang.png" width="55%"/>
+</figure>
+<p>
+  On the other hand, suppose two objects <m>O_{2}</m> and <m>O_{3}</m> of the same size 
+  situated at different distances from the eye, but the object <m>O_{2}</m> subtends the 
+  visual angle <m>\theta_{1}</m> and the object <m>O_{3}</m> subtends the visual angle 
+  <m>\theta_{2} </m> such that <m>\theta_{2} \gt \theta_{1}</m> then the apparent size of 
+  <m>O_{3}</m> looks larger then that of the object <m>O_{2}</m>. 
+ </p>
+ <p>
+  If a is the distance of retina from the eye lens and b is the size of image on retina, 
+  then from <xref ref="visualang"/>, we have - 
+  <me>
+    \frac{b}{a} = \theta,
+  </me>
+  <me>
+    \text{or,}\quad b=a\theta
+  </me>
+  <me>
+    \therefore\quad b \propto\theta
+  </me>
+  Since the diameter of eye ball, a is constant for a given eye.  Optical instruments are 
+  used to increase the visual angle to observe objects clearly. 
+ </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-magpower">
+  <title>Angular Magnification  (or Magnifying Power:)</title>
+  <p>
+    Optical instruments such as microscope and telescope are designed to increase the 
+    visual angle so that the object viewed through them can be made to appear larger 
+    than its original size. Therefore the angular magnification, M of an instrument is 
+    the ratio of the visual anlge subtended by the final image at the eye to the visual 
+    angle subtended by the object itself at the eye without the use of instrument. 
+    Suppose <m>\alpha</m> is the visual angle subtends by the object on eye when viewed 
+    directly without the aid of an optical instrument and <m>\beta</m> is the angle subtends 
+    by the final image of the object on eye when viewed with the help of the instrument, 
+    then 
+    <me>
+      M=\frac{\beta}{\alpha}.
+    </me>
+     </p>
+  <p>
+    There are two positions in optical instruments where final image has been produced to observe. 
+    When the final image is produced at the position where it is expected to see clearly is 
+    called <term>normal adjustment</term>. For a simple or compound microscope normal adjustment is the position 
+    when final image is formed at the least distance of distinct vision but for telescope 
+    normal adjustment is the position of obtaining the final image at infinity. For the object 
+    which is at a far distance and very small we want to see its big image and hence telescope 
+    is set normally to see the final image at infinity. For the object which is near but extremely 
+    small we want to see it very distinctly and highly resolved hence microscope is used to form the 
+    final image of objects at our near point of clear vision which is about 25 cm from eye. 
+  </p>
+ </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-microscope">
+  <title>Microscope</title>
+  <introduction>
+    <p>
+      It is an optical instrument used to see the object of extremely small size which can 
+      not be seen very clearly with an unaided eye. It is of mainly two types, 
+      simple microscope and compound microscope.  
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-handlens">
+    <title>Simple Microscope</title>
+    <p>
+<ol>
+  <li>
+    <p>
+      When final image is formed at a least distance of distinct vision, D (<em>Normal Adjustment</em>):
+    </p>
+    <figure xml:id="SM">
+      <caption></caption>
+      <image source="SM.png" width="45%"/>
+  </figure>
+    <p>
+      A magnifying glass or a hand lens is called a simple microscope. It is a convex lens of short 
+      focal length. When an object is placed between F and optical center C of the lens  its virtual 
+      image is formed at the same side of the object and is magnified. Suppose an object AB subtends 
+      an angle <m>\alpha</m> on eye when it is at a least distance of distinct vision, D so that 
+     <men xml:id="eqn-sm1">
+      \tan\alpha=\frac{AB}{D}
+     </men>
+     
+      Now when object is placed between F and C of the convex lens and final image is formed at 
+      the least distance of distinct vision, then 
+      <men xml:id="eqn-sm2">
+        \tan\beta=\frac{A'B'}{D}
+      </men>
+      Dividing eqn. <xref ref="eqn-sm2"/> by <xref ref="eqn-sm1"/>, we get - 
+      <me>
+        \frac{\tan\beta}{\tan\alpha} = \frac{A'B'}{AB}
+      </me>
+      <me>
+        \text{or,}\quad \frac{\beta}{\alpha} = \frac{A'B'}{AB}
+      </me>
+      for small angles.
+    <m>[also,\quad \frac{A'B'}{AB} =\frac{y'}{y}= \frac{s'}{s}]</m>
+                </p>
+          <p>
+           but 
+           <me>
+            M= \frac{\text{visual angle on eye by a final image at D}}{\text{visual angle on eye by a object when it is at D}} 
+           </me>
+           <men xml:id="eqn-sm3">
+            \text{or,}\quad M=\frac{\beta}{\alpha} = \frac{s'}{s} =  \frac{D}{s}
+           </men>
+           for a lens.
+          </p>
+          <p>
+          From lens formula, 
+          <me>
+            \frac{1}{s}+\frac{1}{s'}=\frac{1}{f}
+          </me>
+          <me>
+            \text{or,}\quad \frac{1}{s}+\frac{1}{-D}=\frac{1}{f}
+          </me>
+          virtual image at D.
+          <men xml:id="eqn-sm4">
+            \text{or,}\quad \frac{D}{s}=1+\frac{D}{f} 
+          </men>
+         using equations <xref ref="eqn-sm3"/> and <xref ref="eqn-sm4"/>, we have   
+        <men xml:id="eqn-sm5">
+          M=1+\frac{D}{f} 
+        </men>
+           </p>
+  </li>
+  <li>
+    <p>
+      When final image is formed at infinity:
+    </p>
+    <figure xml:id="SM2">
+      <caption></caption>
+      <image source="SM2.png" width="45%"/>
+  </figure>
+    <p>
+      The linear magnification in this case, 
+      <me>
+        m=\frac{A'B'}{AB}\rightarrow \infty 
+      </me>
+      as the final image is formed at infinity. When the object is place at least distance of distinct 
+      vision, D then the visual angle 
+      <me>
+        \alpha=\frac{AB}{D}
+      </me>
+       and when the final image is formed at infinity, then the visual angle, 
+       <me>
+        \beta = \frac{AB}{f},
+       </me>
+       Now 
+       <me>
+        M= \frac{\text{visual angle on eye by a final image at infinity}}{\text{visual angle on eye by a object when it is at D}}
+       </me>
+       <me>
+        \text{or,}\quad M=\frac{\beta}{\alpha} = \frac{\frac{AB}{f}}{\frac{AB}{D}}
+       </me>
+       <me>
+        \therefore\quad M=\frac{D}{f} = \frac{25\,cm}{f}
+       </me>
+         </p>
+    <p>
+      For small eye ball visual angles are small hence 
+      <me>
+        \tan\theta\simeq \theta
+      </me>
+       and for healthy eye least distance of distinct vision, D = 25 (cm).
+    </p>
+  </li>
+</ol>
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-compmicros">
+    <title>Compound Microscope</title>
+    <p>
+      Angular magnification of microscope, <me>M\propto f </me>, 
+      so we can increase the magnification by reducing the focal length of the lens but there 
+      is a limitation to decrease the focal length. Short focal length needs large curvature of 
+      the surface and hence the small field of view. Therefore, two separate convex lenses are 
+      used to increase the magnifying power. The lens near the eye is called an <term>eyepiece</term> 
+      and has high focal length and large aperture. The lens near the object is called an <term>objective</term> 
+      and has low focal length and small aperture. The aperture of eyepiece is larger because 
+      of the size of eye is larger than the size of object.
+    </p>
+    <p>
+      <ol>
+        <li>
+          <p>
+            When final image is formed at a least distance of distinct vision, D (<em>Normal Adjustment</em>):
+          </p>
+          <figure xml:id="fig75">
+            <caption></caption>
+            <image source="fig75.png" width="55%"/>
+        </figure>
+          <p>
+            In this case object is placed very close to the focus of objective such that it forms an 
+            enlarged and real image of the object between focus and optical center of eyepiece. 
+            This image behaves like a real object for eyepiece whose final and virtual image is formed 
+            at the near point, D of eye, <xref ref="fig75"/>. 
+          </p>
+          <p>
+           <term> Magnifying Power:</term> In normal adjustment the final image is formed at 
+           least distance of distinct vision, D. Hence 
+           <me>
+            M= \frac{\text{visual angle on eye by a final image at D}}{\text{visual angle on eye by a object when it is at D}}
+           </me>
+           <me>
+            =\frac{\tan\beta}{\tan\alpha}
+           </me>
+           <me>
+            \text{or,}\quad M = \frac{\frac{A" B"}{D}}{\frac{A B}{D}}
+           </me>
+           <me>
+            = \frac{A" B"}{AB} = \frac{A" B"}{A'B'} \times \frac{A' B'}{A B}=M_{e}\times M_{o}
+           </me>
+           where <m>M_{e}</m> and <m>M_{o}</m> are magnification produced by eyepiece and objective. 
+           <me>
+            \text{but}\quad M_{e} = \left(1+\frac{D}{f_{e}} \right) \quad (\text{for normal use})
+           </me>
+          <men xml:id="eqn-cm1">
+            \text{but for objective,}\quad M_{o} = \frac{s'}{s} 
+          </men>
+          <me>
+            \text{from lens formula}\quad \frac{1}{s}+\frac{1}{s'} = \frac{1}{f_{o}}
+          </me>
+          <men xml:id="eqn-cm2">
+            \text{or,}\quad \frac{s'}{s} = \frac{s'}{f_{o}}-1 = M_{o} 
+          </men>
+          <men xml:id="eqn-cm3">
+            \therefore\quad M = M_{o}\times M_{e} = \left(\frac{s'}{f_{o}}-1\right)\times \left(1+\frac{D}{f_{e}} \right)
+          </men>
+          In compound microscope, the distance between the two lenses are fixed say OE = L, 
+          and in normal use object AB is placed so close to <m>f_{o}</m> that it forms its real 
+          image A'B' nearly at eyepiece, i.e., <m> s'\simeq L </m> if <m>s\simeq f_{o}</m>.
+         <me>
+          \text{Hence,}\quad M =  M_{o}\times M_{e}= \left(\frac{s'}{s}\right)\times \left(1+\frac{D}{f_{e}} \right)
+         </me>
+         <men xml:id="eqn-cm4">
+          or, \quad M=\left(\frac{L}{f_{o}}\right)\times \left(1+\frac{D}{f_{e}} \right)
+         </men>
+           </p>
+        </li>
+        <li>
+          <p>
+            When final image is formed at infinity:
+          </p>
+          <figure xml:id="fig75b">
+            <caption></caption>
+            <image source="fig75b.png" width="55%"/>
+        </figure>
+          <p>
+            When object is placed in front of objective in such a way that it forms its real image 
+            at focus of eyepiece then the final image is formed at infinity, <xref ref="fig75b"/>. 
+            In this case 
+            <me>
+              M_{e} = \frac{D}{f_{e}}
+            </me>
+             and 
+             <me>
+              M_{o} = \frac{s'_{o}}{f_{o}}.
+             </me>
+             <me>
+              \text{Hence,}\quad M =  M_{o}\times M_{e}
+             </me>
+             
+            <men xml:id="eqn-cm5">
+             or, \quad M = \left(\frac{s'_{o}}{f_{o}}\right)\times \left(\frac{D}{f_{e}} \right)\simeq\frac{(25 cm)s'_{o}}{f_{o}f_{e}} 
+            </men>
+                 </p>
+        </li>
+      </ol>
+    </p>
+  </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-telescope">
+  <title>Telescope</title>
+  <introduction>
+    <p>
+      It is an optical instrument used to see the distant object clearly. 
+      On the basis of its it is of two types 
+      <ol marker="i.">
+        <li>
+          <p>
+            Astronomical Telescope and
+          </p>
+        </li>
+        <li>
+          <p>
+            Terrestrial Telescope. 
+          </p>
+        </li>
+      </ol>
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-astrts">
+    <title>Astronomical Telescope</title>
+    <p>
+      Astronomical telescope is used to see celestial objects. It consists of two convex lenses 
+      one which faces the object is called objective and another is near the eye called eyepiece. 
+      Objective has large aperture (to collect sufficient amount of light to produce clear image) 
+      and has large focal length. The eyepice has small aperture (to match the size of eye) and short focal length.
+    </p>
+    <p>
+      <ol>
+        <li>
+          <p>
+            When final image is formed at infinity (<em>Normal Adjustment</em>):
+          </p>
+          <figure xml:id="telescope1">
+            <caption></caption>
+            <image source="telescope1.png" width="65%"/>
+        </figure>
+          <p>
+            In this case real image A'B' of the object at infinity is obtained at the focal plane of the objective. 
+            The eyepiece is so adjusted that this image behaves like a real object of eyepiece situated at its 
+            focus which produces the final image at infinity as shown in <xref ref="telescope1"/>. Now 
+            <me>
+              M=\frac{\text{visual angle subtended by final image at infinity}} {\text{visual angle subtended by object at infinity}}
+            </me>
+            <me>
+              M=\frac{\beta}{\alpha}=\frac{\tan\beta}{\tan\alpha} \quad \text{for small visual angles}
+            </me>
+            <me>
+              M=\frac{\tan\beta}{\tan\alpha} = \frac{\frac{A'B'}{A'E}}{\frac{A'B'}{A'O}} = \frac{A'O}{A'E}=\frac{f_{o}}{f_{e}}
+            </me>
+             To increase the magnification of the telescope focal length of the objective should be as large as 
+             possible and that for eyepice should be as small as possible.
+          </p>
+        </li>
+        <li>
+          <p>
+            When final image is formed least distance of distinct vision, D:
+          </p>
+          <figure xml:id="telescope2">
+            <caption></caption>
+            <image source="telescope2.png" width="65%"/>
+        </figure>
+          <p>
+            [<xref ref="telescope2"/>]
+            <me>
+              M=\frac{\text{visual angle subtended by the final image at D}} {\text{visual angle subtended by object at infinity}}
+            </me>
+            <me>
+              M== \frac{\beta}{\alpha} = \frac{\tan\beta}{\tan\alpha} \quad \text{for small visual angles}
+            </me>
+            <me>
+              M= \frac{\frac{A'B'}{A'E}}{\frac{A'B'}{A'O}} = \frac{A'O}{A'E}=\frac{f_{o}}{L}
+            </me>
+            For an eyepice, 
+            <me>
+              \frac{1}{s_{e}}+\frac{1}{s'_{e}}=\frac{1}{f_{e}}
+            </me>
+            Here, <m>s'_{e}=-D</m>, and <m>s_{e}=L</m>. 
+            <me>
+              \therefore\quad \frac{1}{L}-\frac{1}{D}=\frac{1}{f_{e}}
+            </me>
+            <me>
+              \text{or,}\quad \frac{1}{L}=\frac{1}{f_{e}}+\frac{1}{D}
+            </me>
+            <me>
+              \text{or,}\quad L=\left(\frac{f_{e}D}{f_{e}+D}\right)
+            </me>
+            <me>
+              \therefore\quad M= \frac{f_{o}}{L}=f_{o}\left(\frac{f_{e}+D}{f_{e}D}\right) = \frac{f_{o}}{f_{e}}\left(1+\frac{f_{e}}{D}\right)
+            </me>
+            Angular magnification at normal adjustment is given by <m>\frac{f_{o}}{f_{e}}</m>, 
+            hence the angular magnification is greter when final image is formed at near point.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-terrts">
+    <title>Terrestrial Telescope</title>
+    <p>
+      Terra is a Latin name for earth. Telescope used to see the distant object clearly on earth is 
+      called terrestrial telescope. It consists of three convex lenses. The lens between eyepiece 
+      and objective is called an erecting lens. Heavenly objects are spherical in nature so the 
+      inverted image does not affect viewers perception about the object but it is necessary to 
+      have erect image of terrestrial objects to have their complete knowledge.
+    </p>
+    <figure xml:id="telescope3">
+      <caption></caption>
+      <image source="telescope3.png" width="65%"/>
+  </figure>
+    <p>
+      The magnifying power of the telescope in normal adjustment is 
+      <me>
+        M=\frac{f_{o}}{f_{e}}.
+      </me>
+      The erecting lens L is just there to erect the real image AB to A'B'. 
+      It has no contribution on magnification. The total length of the telescope is <m>f_{o}+4f+f_{e}</m>.
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-galilots">
+    <title>Galileo's Telescope</title>
+    <p>
+      This is a terrestrial telescope designed by Galileo. It consists of a convex lens as an 
+      objective and the concave lens as an eyepiece. The objective formed the image of an 
+      object at the other side of the concave lens. This image A'B' formed at the second focus 
+      of the concave lens and behaves as a virtual object for concave lens. Hence the virtual, 
+      erect, and magnified image will be formed at infinity. The magnifying power of the 
+      telescope in normal adjustment is 
+        </p>
+      <figure xml:id="telescope4">
+        <caption></caption>
+        <image source="telescope4.png" width="65%"/>
+    </figure>
+    <p>
+      <me>
+        M=\frac{\tan\beta}{\tan\alpha}
+      </me>
+     <me>
+      = \frac{\frac{A'B'}{A'E}}{\frac{A'B'}{A'O}} = \frac{A'O}{A'E}=\frac{f_{o}}{f_{e}}.
+     </me>
+     The magnifying power of the telescope when final image will be formed at near point is given by 
+     <me>
+      M=\frac{f_{o}}{f_{e}}\left(1-\frac{f_{e}}{D}\right)
+     </me>
+    </p>
+  </subsubsection>
+</subsection>
+
+
+
+
+<subsection xml:id="subsec-photmtry">
+  <title>Photometry</title>
+  <introduction>
+    <p>
+      The branch of optics which deals with the measurement of light energy is called photometry. 
+      Light is either reflected by the object or is emitted by it. Most of the objects are seen 
+      when it reflects light, such as wall, book, moon, etc. Objects like lamp, stars, sun, etc. 
+      can be seen when it emits its own light. To protect eye from light strain, some standard of 
+      illumination must be set. Hence, it is necessary to measure the quantity of light emitted by a 
+      source as well as the amount of light reflecting from some surface. The classroom illumination 
+      of 250  lumens per square meter (or, lux) should be preferable, whereas operation theater 
+      should be preferable to about 1000 lumens per square meter (or, lux). 
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-stcandle">
+    <title>Standard Candle</title>
+    <p>
+      A standard candle is made out of sperm wax weighing 1/6 pound, 7/8 inch in diameter, 
+      4.5 cm in height, and it burns at the rate of 120 grains per hour. It was taken as a 
+      standard unit of illuminating power of a source in early days. If the source gives off 
+      light 60 times as the light given out by a standard candle then its power is taken as 60 candle power. 
+      However, such measurement cannot be used in scientific work as the power of candle depends on 
+      the shape of wick, size of flame during different seasons.  With the advancement in science 
+      standard of light has been defined in terms of blackbody radiation. International unit of 
+      Luminous intensity (or, Illuminating power) of source is taken as candela. One candela is 1/60 
+      of the light luminosity coming out of a hole of area <m>1 \,cm^{2}</m> of a hollow cavity acting 
+      as a black body radiator maintained at the freezing point (<m>1773\,^{o}C</m>) of platinum.
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-sangl">
+    <title>Solid Angle, <m>\omega</m></title>
+    <p>
+      It is an angle subtends by any object at a point. It is defined as the ratio of surface 
+      area of an object to the square of distance of object from the point at which solid angle is being subtended.
+      </p>
+      <figure xml:id="sangl">
+        <caption></caption>
+        <image source="sangl.png" width="45%"/>
+    </figure>
+      <p>
+        <men xml:id="eqn-sangl1">
+          \therefore\quad \omega = \frac{S}{r^{2}} 
+        </men>
+        where S is the surface area of the object perpendicular to the rays subtending the angle 
+        at the point and r is the distance of object from the point. If S is oblique to r then, 
+        <me>
+          \omega= \frac{S\cos\theta}{r^{2}}.
+        </me>
+         Its SI unit is steradian (st.rad.).
+      </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-lumenflx">
+    <title>Luminous Flux, <m>\phi</m></title>
+    <p>
+
+    </p>
+  </subsubsection>
+</subsection>
+
+  </section>
+

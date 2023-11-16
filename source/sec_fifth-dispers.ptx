@@ -617,14 +617,14 @@
       <p>
        It is a phenomenon of absorption and reemition of light energy in different directions when 
        it interacts with material particles. The intensity of scattered light depends on the size of 
-       interacting particles, a and the wavelength of light,  
+       interacting particles, a and the wavelength of light,  <m> \lambda.</m>
         </p>
         <figure xml:id="colorsthinfilms">
           <caption></caption>
           <image source="colorsthinfilms.png" width="45%"/>
       </figure>
         <p>
-          $\lambda$. If <m>a \lt \lt \lambda</m>, than the amount of light scattered is given by 
+          If <m>a \lt \lt \lambda</m>, than the amount of light scattered is given by 
           <me>
             \sigma \propto \frac{1}{\lambda^{4}}.
           </me>
@@ -635,11 +635,10 @@
           more prevailed than others in sky. At sunset and sunrise, the sunlight has to travel 
           longer distance in the atmosphere which causes most of the blue and other shorter wavelengths 
           are scattered in the sky and only red color is able to reach to our eyes hence, the 
-          sun appears reddish in color. 
+          sun appears reddish in color. The wavelength of constituent colors of white light is shown in <xref ref="colorsthinfilms"/>.
         </p>
         <p>
-          The wavelength of constituent colors of white light is shown in <xref ref="colorsthinfilms"/> 
-          If the size of interacting particle, <m>a \gt \gt \lambda</m>, then all the colors of light 
+           If the size of interacting particle, <m>a \gt \gt \lambda</m>, then all the colors of light 
           scattered equally and no any specific color is dominant. This is the reason when sunlight 
           interacts with water droplets or clouds in sky they appear white rather than any other color. 
         </p>

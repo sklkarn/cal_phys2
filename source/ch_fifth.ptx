@@ -27,9 +27,11 @@
   <xi:include href="./sec_fifth-examplesA.ptx" /> 
     <xi:include href="./sec_fifth-examplesB.ptx" /> 
 
-  <xi:include href="./sec_fifth-photmetry.ptx" />
-  <xi:include href="./sec_fifth-examplesC.ptx" /> 
-  
+    <xi:include href="./sec_fifth-opinst.ptx" />
+    <xi:include href="./sec_fifth-examplesC.ptx" /> 
+    
+   <!-- <xi:include href="./sec_fifth-photmetry.ptx" /> -->
+   
   <xi:include href="./sec_fifth-physopt.ptx" />
  
  
