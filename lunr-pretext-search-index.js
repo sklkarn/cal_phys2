@@ -4420,56 +4420,11 @@ var ptx_lunr_docs = [
   "body": "When two convex lenses are in contact: When two convex lenses are separated by a distance d apart: "
 },
 {
-  "id": "sec_fifth-examplesA",
-  "level": "1",
-  "url": "sec_fifth-examplesA.html",
-  "type": "Section",
-  "number": "5.3",
-  "title": "Examples A",
-  "body": " Examples A    What would be the smallest size of plane mirror you need if you want to see your full image?    Consider a person, HF standing in front of a plane mirror, MN. He can see his full image only if the light rays from his feet to head after reflected from the mirror fall on his eye, E.    From the law of reflection Since MN is parallel to HF, and are similar and hence the ratio of their corresponding sides are equal, i.e.,    Similarly, from similar and , we have From eqns. and , we get - If EP is drawn perpendicular on MN from E, then the lines MQ, PE, and NR are all parallel to each other, hence,   Hence, the size of mirror, MN must be half the size of a person, HF.      Two plane mirrors and are inclined to each other as shown in figure below. A ray of light parallel to is incident on the . After two successive reflections one at each mirror it becomes parallel to . Determine the angle between two mirrors.      From figure   similarly,   But in        An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.    What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?        Givem:   Equations:  mirror equation           real     reduced     inverted        A Cassegrain telescope is constructed of two mirrors as shown at right. The larger, primary mirror is concave, has a hole in the middle, and has a radius of curvature The smaller, secondary mirror is convex and is located a distance d = 75 cm from the primary mirror. Its radius of curvature is such that the final image of a distant star is located a distance F = 10 cm past the hole in the primary mirror. What is the magnitude of     Given:     Equations:     concave mirror.     "
-},
-{
-  "id": "example-73",
-  "level": "2",
-  "url": "sec_fifth-examplesA.html#example-73",
-  "type": "Example",
-  "number": "5.3.1",
-  "title": "",
-  "body": "  What would be the smallest size of plane mirror you need if you want to see your full image?    Consider a person, HF standing in front of a plane mirror, MN. He can see his full image only if the light rays from his feet to head after reflected from the mirror fall on his eye, E.    From the law of reflection Since MN is parallel to HF, and are similar and hence the ratio of their corresponding sides are equal, i.e.,    Similarly, from similar and , we have From eqns. and , we get - If EP is drawn perpendicular on MN from E, then the lines MQ, PE, and NR are all parallel to each other, hence,   Hence, the size of mirror, MN must be half the size of a person, HF.   "
-},
-{
-  "id": "example-74",
-  "level": "2",
-  "url": "sec_fifth-examplesA.html#example-74",
-  "type": "Example",
-  "number": "5.3.2",
-  "title": "",
-  "body": "  Two plane mirrors and are inclined to each other as shown in figure below. A ray of light parallel to is incident on the . After two successive reflections one at each mirror it becomes parallel to . Determine the angle between two mirrors.      From figure   similarly,   But in     "
-},
-{
-  "id": "example-75",
-  "level": "2",
-  "url": "sec_fifth-examplesA.html#example-75",
-  "type": "Example",
-  "number": "5.3.3",
-  "title": "",
-  "body": "  An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.    What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?        Givem:   Equations:  mirror equation           real     reduced     inverted     "
-},
-{
-  "id": "example-76",
-  "level": "2",
-  "url": "sec_fifth-examplesA.html#example-76",
-  "type": "Example",
-  "number": "5.3.4",
-  "title": "",
-  "body": "  A Cassegrain telescope is constructed of two mirrors as shown at right. The larger, primary mirror is concave, has a hole in the middle, and has a radius of curvature The smaller, secondary mirror is convex and is located a distance d = 75 cm from the primary mirror. Its radius of curvature is such that the final image of a distant star is located a distance F = 10 cm past the hole in the primary mirror. What is the magnitude of     Given:     Equations:     concave mirror.    "
-},
-{
   "id": "subsec-achrom_prism",
   "level": "1",
   "url": "subsec-achrom_prism.html",
   "type": "Subsection",
-  "number": "5.4.1",
+  "number": "5.3.1",
   "title": "Deviation Without Dispersion (Achromatic Prism)",
   "body": " Deviation Without Dispersion (Achromatic Prism)  When two prisms of different materials are arranged in such a way that the final emergent ray suffers only deviation but not dispersion, then the combination is called the deviation without dispersion as shown in .      The dispersive powers of different materials are different. The dispersive power of a flint glass prism is higher than that of a crown glass prism hence angular dispersion produced by the flint glass prism is greater than that by the crown glass prism of the same refracting angle. If the materials and the angle of the prisms are so adjusted that the dispersion produced by the first prism is equal and opposite to that produced by the second prism, then the final beam will be deviated but not dispersed for the white light. Such a combination of the two prisms will produce deviation in the incident beam without dispersion.  Consider C and F are the crown and flint glass prisms of refracting angles A and A', respectively. Let , , and , , be the refractive indices of the two materials for blue, mean and red light. The angular dispersion for blue and red light produced by these prisms are given by  For no dispersion we should set   The -ve sign indicates the refracting angles of the prisms are in opposite directions. The combination of two such prisms which satisfies eqn. is called an achromatic combination and a beam of white light refracted through the combination will only be deviated and not dispersed. The angle of deviation produced by the two prisms for mean light is given by   Substituting these values of A and A' in eqn. , we get -  where and are the dispersive powers of the materials of crown and flint glass prisms respectively.  For the achromatism, the refracting angles of the two prisms are chosen different from each other and hence the deviation produced by the combination for a mean light is given by But from eqn. , we have Substituting the value of A' in eqn. , we get -      "
 },
@@ -4478,7 +4433,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-achrom_prism.html#dispers3",
   "type": "Figure",
-  "number": "5.4.3",
+  "number": "5.3.3",
   "title": "",
   "body": "   "
 },
@@ -4487,7 +4442,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "subsec-diswdev1.html",
   "type": "Subsection",
-  "number": "5.4.2",
+  "number": "5.3.2",
   "title": "Dispersion Without Deviation",
   "body": " Dispersion Without Deviation  If the angle of the crown and flint glass prisms are so adjusted that the deviation produced for the mean light by the crown glass prism is equal and opposite to that produced by the flint glass prism, then the final beam will be parallel to the incident beam. Such a combination of the two prisms will produce dispersion of the incident beam without deviation. Let A, and A', be the refracting angles of the crown glass and flint glass prisms respectively and and be the deviation for the mean light. Then        For no deviation, we should set   The -ve sign shows that the refracting angles of the two prisms are in opposite direction.  The dispersion produced by the prisms are given by       Net angular dispersion =  where and are the dispersive powers of the materials of the prisms. If two prisms are of the same materials, then and . So, A = A' from from eqn. hence, no dispersion and no deviation.  "
 },
@@ -4496,7 +4451,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-diswdev1.html#dispers4",
   "type": "Figure",
-  "number": "5.4.4",
+  "number": "5.3.4",
   "title": "",
   "body": "   "
 },
@@ -4505,7 +4460,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "subsec-chrom_abr.html",
   "type": "Subsection",
-  "number": "5.4.3",
+  "number": "5.3.3",
   "title": "Chromatic Aberation in a Lens",
   "body": " Chromatic Aberation in a Lens   In greek chroma means color and aberration means defect, hence the color defects of a lens is called a chromatic aberration. In other words, the inability of a lens to focus all colors of white light at a single focus is known as chromatic aberration. From lens maker's formula it is clear that the focal length of a lens depend upon the refractive index of a material of lens which is the cause of chromatic aberration. If white light is passing through the lens violet color focuses at a point near to the lens and the red color focuses at point far from the lens. The rays of intermediate colors are focused between these points as shown in . Hence the image of an object emitting white light stretched between and and is blurred. Chromatic aberration is of two types, axial (or longitudinal) aberration and lateral (or transverse) aberration.                   The axial chromatic aberration is given by Now the focal length of a lens is given by    Hence  Taking as f is a geometrical mean of and and being the focal length of mean light, we have - Hence it is clear that a single lens can not produce an image free from chromatic aberration unless the dispersive power can be balanced by using some other material.    Achromatism  The condition of removing chromatic aberration from a lens is called an achromatism. When two lenses a convex lens and a concave lens of different materials are combined in such a way that the combination will not produce any chromatic aberration then the lens is called an achromatic lens. Suppose a crown glass convex lens and a flint glass concave lens are combined together, then from lens formula   Differentiating, we get -   That is the dispersive power can be defined as the relative change in the focal length of a lens and the -ve sign indicates that the focal length of the lens decreases with increasing refractive index of the material. If and are the focal lengths of the two lenses of different materials (crown and flint) placed in contact coaxially, then the equivalent focal length of the combination is given by Differentiating we get - For the combination to be achromatic, must be equal to zero. Hence which is the condition for achromatism.   "
 },
@@ -4514,7 +4469,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-chrom_abr.html#chrom_abrl",
   "type": "Figure",
-  "number": "5.4.5",
+  "number": "5.3.5",
   "title": "",
   "body": "                "
 },
@@ -4523,7 +4478,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "subsec-rainbow.html",
   "type": "Subsection",
-  "number": "5.4.4",
+  "number": "5.3.4",
   "title": "Rainbow:",
   "body": " Rainbow:   A rainbow is an optical phenomenon, which is produced in the sky due to the combined effect of refraction, internal reflection, and dispersion of light in water droplets. A rainbow consists of the primary rainbow and the secondary rainbow. The primary (main) rainbow is caused by two refractions and one internal reflection inside a rain droplet. The secondary rainbow appears outside the primary one and is caused by two refractions and two internal reflections inside the spherical water droplet. The colors of the secondary rainbow are reversed from the primary bow, and the secondary bow is twice as broad.               A rainbow can be seen in the sky when an observer facing opposite to the sun look at about above the horizon to suspended water droplets. Each individual droplet of water acts as a tiny prism that both disperses the light and reflects it back to the observer's eye. As you sight into the sky, wavelengths of light associated with a specific color arrive at your eye from the collection of droplets as shown in . The net effect of the vast array of droplets is that a circular arc of VIBGYOR is seen across the sky. A rainbow is actually a complete circle but observers on the ground only view the top half of the circle since the bottom half of the circular arc is prevented by the presence of the ground. However, observers in an airborne plane can view the complete circular bow. Rainbows are not limited to the dispersion of light by raindrops. The splashing of water in front of you forms water mist in the air and if you are facing opposite to the sun then the chances are you can create your own rainbows. Bright sunlight, suspended water droplets and the proper angle of sighting are the three necessary components for viewing one of nature's most spectacular activities.    Primary Rainbow  Consider a ray AP from the sun is incident at point P in a spherical water droplet and refracts along PQ. If the angle of incidence of ray PQ at point P is greater than the critical angle for water air interface then light gets internally reflected along QR from the back surface of drop and may emerge into the air at the point R as shown in . During this operation the deviation suffered by the ray of light is given by the , since the line MO is parallel to the incident ray AP and line ON is parallel to the emergent ray RB. Note that the absorption, reflection, and refraction happen in light at each point it strikes on the surface of droplet. From figure at left,         Using Snell's law at point P, we have -  where for air and the refractive index of water.   Now from eqn. , we get - A rainbow will form when the angle of deviation is maximum for the given angle of incidence i, i.e., when . If this condition is satisfied, all the rays with incident angle close to will be sent back in the same direction, producing a bright zone in the sky.  Differentiating eqn. w.r.t. and set that to zero, we get -           Since for red light, angle of incidence at maximum deviation is given by   Also for violet light,         That is, the different colors of light correspond to different wavelengths of light, which are refracted at slightly different angles, thus splitting the white sunlight into red and violet lights. The color of the primary rainbow are spread over about out of the away from the anti-solar point as shown in . The viewer sees the rainbow with the red at the outer side of the arc and the violet on the inner side. Our perception of vision for violet light is not that sensitive hence, we see blue light more clearly than violet light. It is to be remembered that sunlight strikes the raindrops at different angles of incidence and undergoes different deviations. Only those rays produce a rainbow which have the angle of incidence corresponding to maximum angles of deviation.    Secondary Rainbow  In secondary rainbow, there are two reflections and two refractions. From f the total deviation   Now for minimum deviation             using eqn.    Taking refractive index of water for red light, angle of deviation, The acute angle Taking refractive index of water for violet light, angle of deviation, The acute angle Hence, the angle of inclination for violet light is more than for red light.   "
 },
@@ -4532,7 +4487,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-rainbow.html#rainbow",
   "type": "Figure",
-  "number": "5.4.6",
+  "number": "5.3.6",
   "title": "",
   "body": "            "
 },
@@ -4541,7 +4496,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-rainbow.html#rainbowb",
   "type": "Figure",
-  "number": "5.4.7",
+  "number": "5.3.7",
   "title": "",
   "body": "   "
 },
@@ -4550,7 +4505,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-rainbow.html#rainbowc",
   "type": "Figure",
-  "number": "5.4.8",
+  "number": "5.3.8",
   "title": "",
   "body": "   "
 },
@@ -4559,7 +4514,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-rainbow.html#rainbow2",
   "type": "Figure",
-  "number": "5.4.9",
+  "number": "5.3.9",
   "title": "",
   "body": "   "
 },
@@ -4568,43 +4523,79 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "subsec-scattering.html",
   "type": "Subsection",
-  "number": "5.4.5",
+  "number": "5.3.5",
   "title": "Scattering",
-  "body": " Scattering  It is a phenomenon of absorption and reemition of light energy in different directions when it interacts with material particles. The intensity of scattered light depends on the size of interacting particles, a and the wavelength of light,      $\\lambda$. If , than the amount of light scattered is given by When sunlight interacts with atmospheric particles, blue colors scattered more in sky than any other colors from the visible spectrum of light, hence, the sky looks bluish in color. In fact, violet light scattered more than blue but our eyes are more sensitive to blue color than violet light hence blue colors are much more prevailed than others in sky. At sunset and sunrise, the sunlight has to travel longer distance in the atmosphere which causes most of the blue and other shorter wavelengths are scattered in the sky and only red color is able to reach to our eyes hence, the sun appears reddish in color.  The wavelength of constituent colors of white light is shown in If the size of interacting particle, , then all the colors of light scattered equally and no any specific color is dominant. This is the reason when sunlight interacts with water droplets or clouds in sky they appear white rather than any other color.  "
+  "body": " Scattering  It is a phenomenon of absorption and reemition of light energy in different directions when it interacts with material particles. The intensity of scattered light depends on the size of interacting particles, a and the wavelength of light,       If , than the amount of light scattered is given by When sunlight interacts with atmospheric particles, blue colors scattered more in sky than any other colors from the visible spectrum of light, hence, the sky looks bluish in color. In fact, violet light scattered more than blue but our eyes are more sensitive to blue color than violet light hence blue colors are much more prevailed than others in sky. At sunset and sunrise, the sunlight has to travel longer distance in the atmosphere which causes most of the blue and other shorter wavelengths are scattered in the sky and only red color is able to reach to our eyes hence, the sun appears reddish in color. The wavelength of constituent colors of white light is shown in .  If the size of interacting particle, , then all the colors of light scattered equally and no any specific color is dominant. This is the reason when sunlight interacts with water droplets or clouds in sky they appear white rather than any other color.  "
 },
 {
   "id": "colorsthinfilms",
   "level": "2",
   "url": "subsec-scattering.html#colorsthinfilms",
   "type": "Figure",
-  "number": "5.4.10",
+  "number": "5.3.10",
   "title": "",
   "body": "   "
 },
 {
-  "id": "sec_fifth-photmetry",
+  "id": "sec_fifth-examplesA",
   "level": "1",
-  "url": "sec_fifth-photmetry.html",
+  "url": "sec_fifth-examplesA.html",
   "type": "Section",
-  "number": "5.5",
-  "title": "Photometry",
-  "body": " Photometry      "
+  "number": "5.4",
+  "title": "Examples A",
+  "body": " Examples A    What would be the smallest size of plane mirror you need if you want to see your full image?    Consider a person, HF standing in front of a plane mirror, MN. He can see his full image only if the light rays from his feet to head after reflected from the mirror fall on his eye, E.    From the law of reflection Since MN is parallel to HF, and are similar and hence the ratio of their corresponding sides are equal, i.e.,    Similarly, from similar and , we have From eqns. and , we get - If EP is drawn perpendicular on MN from E, then the lines MQ, PE, and NR are all parallel to each other, hence,   Hence, the size of mirror, MN must be half the size of a person, HF.      Two plane mirrors and are inclined to each other as shown in figure below. A ray of light parallel to is incident on the . After two successive reflections one at each mirror it becomes parallel to . Determine the angle between two mirrors.      From figure   similarly,   But in        An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.    What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?        Givem:   Equations:  mirror equation           real     reduced     inverted        A Cassegrain telescope is constructed of two mirrors as shown at right. The larger, primary mirror is concave, has a hole in the middle, and has a radius of curvature The smaller, secondary mirror is convex and is located a distance d = 75 cm from the primary mirror. Its radius of curvature is such that the final image of a distant star is located a distance F = 10 cm past the hole in the primary mirror. What is the magnitude of     Given:     Equations:     concave mirror.     "
+},
+{
+  "id": "example-73",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-73",
+  "type": "Example",
+  "number": "5.4.1",
+  "title": "",
+  "body": "  What would be the smallest size of plane mirror you need if you want to see your full image?    Consider a person, HF standing in front of a plane mirror, MN. He can see his full image only if the light rays from his feet to head after reflected from the mirror fall on his eye, E.    From the law of reflection Since MN is parallel to HF, and are similar and hence the ratio of their corresponding sides are equal, i.e.,    Similarly, from similar and , we have From eqns. and , we get - If EP is drawn perpendicular on MN from E, then the lines MQ, PE, and NR are all parallel to each other, hence,   Hence, the size of mirror, MN must be half the size of a person, HF.   "
+},
+{
+  "id": "example-74",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-74",
+  "type": "Example",
+  "number": "5.4.2",
+  "title": "",
+  "body": "  Two plane mirrors and are inclined to each other as shown in figure below. A ray of light parallel to is incident on the . After two successive reflections one at each mirror it becomes parallel to . Determine the angle between two mirrors.      From figure   similarly,   But in     "
+},
+{
+  "id": "example-75",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-75",
+  "type": "Example",
+  "number": "5.4.3",
+  "title": "",
+  "body": "  An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.    What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?        Givem:   Equations:  mirror equation           real     reduced     inverted     "
+},
+{
+  "id": "example-76",
+  "level": "2",
+  "url": "sec_fifth-examplesA.html#example-76",
+  "type": "Example",
+  "number": "5.4.4",
+  "title": "",
+  "body": "  A Cassegrain telescope is constructed of two mirrors as shown at right. The larger, primary mirror is concave, has a hole in the middle, and has a radius of curvature The smaller, secondary mirror is convex and is located a distance d = 75 cm from the primary mirror. Its radius of curvature is such that the final image of a distant star is located a distance F = 10 cm past the hole in the primary mirror. What is the magnitude of     Given:     Equations:     concave mirror.    "
 },
 {
   "id": "sec_fifth-examplesB",
   "level": "1",
   "url": "sec_fifth-examplesB.html",
   "type": "Section",
-  "number": "5.6",
+  "number": "5.5",
   "title": "Examples B",
-  "body": " Examples B    A small fish of length 1 cm is located at the center of a thin spherical fishbowl 20 cm in diameter. The index of refraction of water is 1.33 and that of the glass fishbowl is 1.5.  Does the thin layer of glass affect the refraction of the light rays?  When viewed from outside, where does the fish appear to be located?  What is its magnification?  How long does the fish appear to be?      Given: and        Since the air to glass to water result for is the same as that for air to water, the glass has no effect on the refraction.                    A mosquito is found embedded in an amber sphere of radius of curvature 3.0 mm and of refractive index 1.6. The mosquito is located on the principal axis and appears to be embedded at 5.0 mm into the amber. How deep is the mosquito really? What is the magnification?    Given: ,               A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. One half of the ball is silvered so as to form a mirror on the ball's surface. A person whose face is 25 cm high and 30 cm from the ball looks at his reflection through the ball. Light travels from his face through the clear surface of the ball, is reflected from the silvered surface, and passes back through the clear surface so as to form a final image.  Where is this final image located?  What is the magnification of the complete optical system?  What is the height of the final image?                               "
+  "body": " Examples B    A small fish of length 1 cm is located at the center of a thin spherical fishbowl 20 cm in diameter. The index of refraction of water is 1.33 and that of the glass fishbowl is 1.5.  Does the thin layer of glass affect the refraction of the light rays?  When viewed from outside, where does the fish appear to be located?  What is its magnification?  How long does the fish appear to be?      Given: and        Since the air to glass to water result for is the same as that for air to water, the glass has no effect on the refraction.                    A mosquito is found embedded in an amber sphere of radius of curvature 3.0 mm and of refractive index 1.6. The mosquito is located on the principal axis and appears to be embedded at 5.0 mm into the amber. How deep is the mosquito really? What is the magnification?    Given: ,               A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. One half of the ball is silvered so as to form a mirror on the ball's surface. A person whose face is 25 cm high and 30 cm from the ball looks at his reflection through the ball. Light travels from his face through the clear surface of the ball, is reflected from the silvered surface, and passes back through the clear surface so as to form a final image.  Where is this final image located?  What is the magnification of the complete optical system?  What is the height of the final image?                                 A convex surface of radius of curvature 40 cm separates two media of refractive indices 4\/3 and 3\/2. An object is kept in the first medium at a distance of 20 cm from the surface. Calculate the position of the image?    Given:          Which is virtual in nature and formed in the first medium just before the real object.      A small filament is at the center of a hollow glass sphere of inner and outer radii 8 cm and 9 cm, respectively. Calculate the image position of the filament when viewed from outside of the sphere. Assume refractive index of glass = 1.5.        Given: For first concave surface,   The image of the object is formed at the center of first sphere and is virtual.  For second concave surface,   Thus the final image is also formed at the center and is virtual.      Two fish are at the bottom of 10 m deep water. A wall between them blocks their view so that they cannot see each other directly. However, they know the presence each other through their mirror images created above the water surface. At least how far are they separated? Assume that the index of reflection of air and water is 1.00 and 1.52, respectively.    For fish to see each other angle of incidence of the light from them to the water-air interface must suffers total internal reflection and must be greater than or equal to critical angle. Suppose the fish are at a distance r from each other which is a minimum distance for them to see each other then angle of incidence . From Snell's Law       Now from right angle         A ray of light is incident at an angle of onto the surface of a pool of water. Part of the light is reflected and part refracted. What is the angle between the reflected ray and the refracted ray? Assume     Given:            A prism of index of refraction 1.50 is oriented as shown below with its long face (Face 2) horizontally facing upward, a drop of oil of unknown index of refraction is placed on the top face of the prism, and a ray of light enters normally into the prism through its short face (Face 1) so as to strike the top face from below.      What is the minimum index of refraction of the oil that will cause the internal ray to be totally reflected from the top face?  What is the angle of incident that the internally reflected ray makes with the other face (Face 3) of the prism.  Is the light totally reflected off the third face or is it refracted through the surface?  If refracted, what is the angle of refraction as it emerges from the prism?                      \\quad then the ray will be refracted.             Light of wavelength 500 nm is incident normally on a glass plate coated with a thin coating of anti-reflecting material. If the glass has an index of refraction of 1.66 and the coating has an index of refraction of 1.58, find  the wavelength of the light in the glass,  in the coating.  What is the minimum thickness of the coating that will produce destructive interference of the reflected light rays from the two surfaces of the coating?      Given:                    A thin double concave lens has a radius of curvature of 10 cm on both sides and is made of glass of index of refraction 1.5. A light bulb 2 cm high is located 50 cm in front of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the light bulb located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?                             Calculate the focal length of a double convex lens of radius of curvature of each surface is 30 cm and refractive index of glass is 1.5.    Given:           Calculate the focal length of a plano convex lens, the radius of curvature of convex surface is 40 cm and refractive index of glass is 1.5    Given:           A convex lens of focal length 24 cm and refractive index of glass is 1.5. Find the focal length of this lens if it is totally submerged into water of refractive index 1.33.    Given:   In air,  In water, From the principle of reversibility of light,  using eqn.        A concavo-convex lens has refractive index of 1.5 and radii of curvature of its surfaces are 10cm and 20 cm. The concave surface is upwards and is filled with oil of refractive index 1.6. Calculate the focal length of the oil-glass combination.    Given:   Remember higher curvature means smaller radius of curvature. For the glass lens, For the oil lens, Therefore the equivalent focal length of the combination is given by,        The objective glass lens of a telescope is an achromat of focal length 90 cm. If the dispersive powers of the materials of the lenses are 0.024 and 0.036, calculate their focal lengths.    Given:   At achromatic condition,  Also,         Find the dispersive power of crown and flint glass from the following data.             Crown       Flint                  In vacuum, an electromagnetic wave has speed and frequency It enters a material whose index of refraction is n = 1.40.  Find the speed of the wave in the material.  Find the frequency of the wave in the material.  Find the wavelength of the wave in the material.  Human can see electromagnetic wave in the range of wavelength from 390 nm to 750 nm in vacuum. Is the electromagnetic wave of frequency in vacuum visible light, infrared, or ultraviolet?           Frequency does not change as the wave goes from one medium to another. Therefore             "
 },
 {
   "id": "example-77",
   "level": "2",
   "url": "sec_fifth-examplesB.html#example-77",
   "type": "Example",
-  "number": "5.6.1",
+  "number": "5.5.1",
   "title": "",
   "body": "  A small fish of length 1 cm is located at the center of a thin spherical fishbowl 20 cm in diameter. The index of refraction of water is 1.33 and that of the glass fishbowl is 1.5.  Does the thin layer of glass affect the refraction of the light rays?  When viewed from outside, where does the fish appear to be located?  What is its magnification?  How long does the fish appear to be?      Given: and        Since the air to glass to water result for is the same as that for air to water, the glass has no effect on the refraction.                 "
 },
@@ -4613,7 +4604,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_fifth-examplesB.html#example-78",
   "type": "Example",
-  "number": "5.6.2",
+  "number": "5.5.2",
   "title": "",
   "body": "  A mosquito is found embedded in an amber sphere of radius of curvature 3.0 mm and of refractive index 1.6. The mosquito is located on the principal axis and appears to be embedded at 5.0 mm into the amber. How deep is the mosquito really? What is the magnification?    Given: ,            "
 },
@@ -4622,27 +4613,369 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_fifth-examplesB.html#example-79",
   "type": "Example",
-  "number": "5.6.3",
+  "number": "5.5.3",
   "title": "",
   "body": "  A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. One half of the ball is silvered so as to form a mirror on the ball's surface. A person whose face is 25 cm high and 30 cm from the ball looks at his reflection through the ball. Light travels from his face through the clear surface of the ball, is reflected from the silvered surface, and passes back through the clear surface so as to form a final image.  Where is this final image located?  What is the magnification of the complete optical system?  What is the height of the final image?                              "
 },
 {
-  "id": "sec_fifth-physopt",
+  "id": "example-80",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-80",
+  "type": "Example",
+  "number": "5.5.4",
+  "title": "",
+  "body": "  A convex surface of radius of curvature 40 cm separates two media of refractive indices 4\/3 and 3\/2. An object is kept in the first medium at a distance of 20 cm from the surface. Calculate the position of the image?    Given:          Which is virtual in nature and formed in the first medium just before the real object.   "
+},
+{
+  "id": "example-81",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-81",
+  "type": "Example",
+  "number": "5.5.5",
+  "title": "",
+  "body": "  A small filament is at the center of a hollow glass sphere of inner and outer radii 8 cm and 9 cm, respectively. Calculate the image position of the filament when viewed from outside of the sphere. Assume refractive index of glass = 1.5.        Given: For first concave surface,   The image of the object is formed at the center of first sphere and is virtual.  For second concave surface,   Thus the final image is also formed at the center and is virtual.   "
+},
+{
+  "id": "example-82",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-82",
+  "type": "Example",
+  "number": "5.5.6",
+  "title": "",
+  "body": "  Two fish are at the bottom of 10 m deep water. A wall between them blocks their view so that they cannot see each other directly. However, they know the presence each other through their mirror images created above the water surface. At least how far are they separated? Assume that the index of reflection of air and water is 1.00 and 1.52, respectively.    For fish to see each other angle of incidence of the light from them to the water-air interface must suffers total internal reflection and must be greater than or equal to critical angle. Suppose the fish are at a distance r from each other which is a minimum distance for them to see each other then angle of incidence . From Snell's Law       Now from right angle      "
+},
+{
+  "id": "example-83",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-83",
+  "type": "Example",
+  "number": "5.5.7",
+  "title": "",
+  "body": "  A ray of light is incident at an angle of onto the surface of a pool of water. Part of the light is reflected and part refracted. What is the angle between the reflected ray and the refracted ray? Assume     Given:         "
+},
+{
+  "id": "example-84",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-84",
+  "type": "Example",
+  "number": "5.5.8",
+  "title": "",
+  "body": "  A prism of index of refraction 1.50 is oriented as shown below with its long face (Face 2) horizontally facing upward, a drop of oil of unknown index of refraction is placed on the top face of the prism, and a ray of light enters normally into the prism through its short face (Face 1) so as to strike the top face from below.      What is the minimum index of refraction of the oil that will cause the internal ray to be totally reflected from the top face?  What is the angle of incident that the internally reflected ray makes with the other face (Face 3) of the prism.  Is the light totally reflected off the third face or is it refracted through the surface?  If refracted, what is the angle of refraction as it emerges from the prism?                      \\quad then the ray will be refracted.          "
+},
+{
+  "id": "example-85",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-85",
+  "type": "Example",
+  "number": "5.5.9",
+  "title": "",
+  "body": "  Light of wavelength 500 nm is incident normally on a glass plate coated with a thin coating of anti-reflecting material. If the glass has an index of refraction of 1.66 and the coating has an index of refraction of 1.58, find  the wavelength of the light in the glass,  in the coating.  What is the minimum thickness of the coating that will produce destructive interference of the reflected light rays from the two surfaces of the coating?      Given:                 "
+},
+{
+  "id": "example-86",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-86",
+  "type": "Example",
+  "number": "5.5.10",
+  "title": "",
+  "body": "  A thin double concave lens has a radius of curvature of 10 cm on both sides and is made of glass of index of refraction 1.5. A light bulb 2 cm high is located 50 cm in front of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the light bulb located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?                          "
+},
+{
+  "id": "example-87",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-87",
+  "type": "Example",
+  "number": "5.5.11",
+  "title": "",
+  "body": "  Calculate the focal length of a double convex lens of radius of curvature of each surface is 30 cm and refractive index of glass is 1.5.    Given:        "
+},
+{
+  "id": "example-88",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-88",
+  "type": "Example",
+  "number": "5.5.12",
+  "title": "",
+  "body": "  Calculate the focal length of a plano convex lens, the radius of curvature of convex surface is 40 cm and refractive index of glass is 1.5    Given:        "
+},
+{
+  "id": "example-89",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-89",
+  "type": "Example",
+  "number": "5.5.13",
+  "title": "",
+  "body": "  A convex lens of focal length 24 cm and refractive index of glass is 1.5. Find the focal length of this lens if it is totally submerged into water of refractive index 1.33.    Given:   In air,  In water, From the principle of reversibility of light,  using eqn.     "
+},
+{
+  "id": "example-90",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-90",
+  "type": "Example",
+  "number": "5.5.14",
+  "title": "",
+  "body": "  A concavo-convex lens has refractive index of 1.5 and radii of curvature of its surfaces are 10cm and 20 cm. The concave surface is upwards and is filled with oil of refractive index 1.6. Calculate the focal length of the oil-glass combination.    Given:   Remember higher curvature means smaller radius of curvature. For the glass lens, For the oil lens, Therefore the equivalent focal length of the combination is given by,     "
+},
+{
+  "id": "example-91",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-91",
+  "type": "Example",
+  "number": "5.5.15",
+  "title": "",
+  "body": "  The objective glass lens of a telescope is an achromat of focal length 90 cm. If the dispersive powers of the materials of the lenses are 0.024 and 0.036, calculate their focal lengths.    Given:   At achromatic condition,  Also,      "
+},
+{
+  "id": "example-92",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-92",
+  "type": "Example",
+  "number": "5.5.16",
+  "title": "",
+  "body": "  Find the dispersive power of crown and flint glass from the following data.             Crown       Flint               "
+},
+{
+  "id": "example-93",
+  "level": "2",
+  "url": "sec_fifth-examplesB.html#example-93",
+  "type": "Example",
+  "number": "5.5.17",
+  "title": "",
+  "body": "  In vacuum, an electromagnetic wave has speed and frequency It enters a material whose index of refraction is n = 1.40.  Find the speed of the wave in the material.  Find the frequency of the wave in the material.  Find the wavelength of the wave in the material.  Human can see electromagnetic wave in the range of wavelength from 390 nm to 750 nm in vacuum. Is the electromagnetic wave of frequency in vacuum visible light, infrared, or ultraviolet?           Frequency does not change as the wave goes from one medium to another. Therefore            "
+},
+{
+  "id": "subsec-camera",
   "level": "1",
-  "url": "sec_fifth-physopt.html",
-  "type": "Section",
-  "number": "5.7",
-  "title": "Physical Optics",
-  "body": " Physical Optics      "
+  "url": "subsec-camera.html",
+  "type": "Subsection",
+  "number": "5.6.1",
+  "title": "Camera",
+  "body": " Camera  A photographic camera consists of a convex lens, a photo sensitive plate, and a focusing arrangement as shown in . Two achromatic lenses are spaced the proper distance apart, and an adjustable aperture called diaphragm, D is placed between them to permits different amount of light to enter the camera. A shutter is placed near the diaphragm to admit light for a preset time interval depends upon the brightness of the object, sensitivity of photographic emulsion, the focal length of the lens, and the size of the stop of the aperture.               The diameter, D of the stop is given as a fraction of the focal length, f of the lens system and the ratio of focal length to the diameter of the stop is called the i.e., which describes the diameter of the aperture. A lower relates to a wider aperture, while a higher means a narrower aperture. The diameters of the stop is marked in such a way that each stop double the exposure time [ ]. if 1 second is exposure time for f-1, then it would be 2 seconds for f-1.4, 4 seconds for f-2, 8 second for f-2.8, and so on. Moving from f\/2.8 to f\/4 is a decrease of 1 stop because , going from f\/16 to f\/11 is an increase of 1 stop because . In general, f-numbers are assigned as shown in . The squares of the f-numbers are in the ratio of and so on.      "
+},
+{
+  "id": "figure-358",
+  "level": "2",
+  "url": "subsec-camera.html#figure-358",
+  "type": "Figure",
+  "number": "5.6.1",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "fnumbergr",
+  "level": "2",
+  "url": "subsec-camera.html#fnumbergr",
+  "type": "Figure",
+  "number": "5.6.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-opvision",
+  "level": "1",
+  "url": "subsec-opvision.html",
+  "type": "Subsection",
+  "number": "5.6.2",
+  "title": "Optical Vision",
+  "body": " Optical Vision   Eye is an optical device endowed to us to perceive the beautiful nature. It is nearly spherical in shape of diameter about 2.3 cm. The front portion of eye is slightly bulges out and is covered with transparent tough membrane called cornea . Behind cornea it has liquid called aqueous humor . Next to it is a diaphragm called iris with a hole at its center called pupi l. Behind iris there is a crystalline lens which is mounted on a ciliary muscles . Inside eye ball is filled with liquid called vitreous humor . The image is formed on the innermost light sensitive membrane called retina . The pupil is just like a shutter in camera which allow the sufficient amount of light to enter into the eye. The pupil takes sometime to readjust its size to allow how much light permits to enter the eye, this is the reason when you go from sunny day outside to the relatively dark room like cinema hall nothing is visible for a while but gradually everything becomes clear after sometime.      Once the light from objects falls on the retina after getting refracted from the crystalline lens and vitrous humor, retina changes the light signal into electrical signal and transmits this signal to the brain via optic nerve where brain realizes the image of the object. The eye lens is designed in such a way that it forms the image of object situated at different distances from the eye. The mechanism of crystalline lens to focus the light coming from objects at different distance to the retina is called an accommodation . When object is near to the eye its focal length has to be smaller and lens has to be thicker to focus the light on retina and when an object is very far away from the eye lens, then its focal length has to be longer and lens has to be thinner to focus the light onto retina.               A healthy human eye can see objects clearly as close as 25 cm from the eye. This distance is called a least distance of distinct vision, D and the point is called a near point N as shown in . A far point for healthy human eye is considered at infinity as shown in . If there exists any problem in the accommodation process, then the eyes are called suffering from defects of vision. For example, if the ciliary muscles do not contract or stretch as it supposed to be then our eye unable to focus the light at retina to privide clear vision. There are many other reasons which may be responsible for defects of vision. The common two types of defects of vision, myopia (short sightedness) and hypermetropia (far sightedness) are being discussed here.    Myopia:  In this defect, objects far from eye appear blurred and that near eye appears clear. When objects lie near eye eyelens can contract to become thicker and achieve shorter focal length to produce image of near objects at retina and hence objects appeared clear. When objects are far from eye eyelens cannot stretch to become sufficiently thinner and achieve longer focal length to produce image of such objects on retina and hence it forms image in front of retina as shown in . Actually, when objects lie anywhere between new far point F and near point N, eye can accommodate itself for clear vision but produces image in front of retina to any objects farther than point F. To correct myopic eye a concave lens of suitable focal length can be used as shown in .               A suitable concave lens diverges the incoming light rays from the object at infinity in such a way that the eyelens converges them to the retina. Hence a virtual image of the object is formed at new far point. Here and from lens formula the focal length of concave lens is given as   The power of a lens is defined as and its SI unit is diopter (D).    Hypermetropia (or hyperopia):  In this defect, objects far from eye appear clear and that near eye appears blurred. When objects are far from eye eyelens can stretch enough to become sufficiently thinner and achieve longer focal length to produce image on retina. When objects lie near eye eyelens cannot contract enough to become thicker and achieve shorter focal length to produce image at retina and hence the image is formed behind the retina as shown in . Actually, when objects lie anywhere between infinity to new near point N' eye can accommodate itself for clear vision but produces image behind the retina to any objects near than point N'. To correct myopic eye a convex lens of suitable focal length can be used as shown in .               A suitable convex lens converges the incoming light rays from the object at near point N in such a way that the eyelens converges them further to the retina. Hence a virtual image of the object is formed at new near point N'. Here and from lens formula the focal length of convex lens is given as   The power of a lens is defined as     Visual Angle  Angle subtended by an object on the eye is known as visual angle. The size of the image formed at retina is proportional to the visual angle. Higher the visual angle larger the apparent size of the object. Consider objects and of different sizes are situated at different distance from the eye but they subtend the same visual angle, then size of their images formed on the retina will be equal. Hence they appeared to be of same size.      On the other hand, suppose two objects and of the same size situated at different distances from the eye, but the object subtends the visual angle and the object subtends the visual angle such that then the apparent size of looks larger then that of the object .  If a is the distance of retina from the eye lens and b is the size of image on retina, then from , we have -   Since the diameter of eye ball, a is constant for a given eye. Optical instruments are used to increase the visual angle to observe objects clearly.    Angular Magnification (or Magnifying Power:)  Optical instruments such as microscope and telescope are designed to increase the visual angle so that the object viewed through them can be made to appear larger than its original size. Therefore the angular magnification, M of an instrument is the ratio of the visual anlge subtended by the final image at the eye to the visual angle subtended by the object itself at the eye without the use of instrument. Suppose is the visual angle subtends by the object on eye when viewed directly without the aid of an optical instrument and is the angle subtends by the final image of the object on eye when viewed with the help of the instrument, then   There are two positions in optical instruments where final image has been produced to observe. When the final image is produced at the position where it is expected to see clearly is called normal adjustment . For a simple or compound microscope normal adjustment is the position when final image is formed at the least distance of distinct vision but for telescope normal adjustment is the position of obtaining the final image at infinity. For the object which is at a far distance and very small we want to see its big image and hence telescope is set normally to see the final image at infinity. For the object which is near but extremely small we want to see it very distinctly and highly resolved hence microscope is used to form the final image of objects at our near point of clear vision which is about 25 cm from eye.   "
+},
+{
+  "id": "eye",
+  "level": "2",
+  "url": "subsec-opvision.html#eye",
+  "type": "Figure",
+  "number": "5.6.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1054",
+  "level": "2",
+  "url": "subsec-opvision.html#p-1054",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "accommodation "
+},
+{
+  "id": "figure-363",
+  "level": "2",
+  "url": "subsec-opvision.html#figure-363",
+  "type": "Figure",
+  "number": "5.6.4",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-1055",
+  "level": "2",
+  "url": "subsec-opvision.html#p-1055",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "near point "
+},
+{
+  "id": "figure-366",
+  "level": "2",
+  "url": "subsec-opvision.html#figure-366",
+  "type": "Figure",
+  "number": "5.6.5",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "figure-369",
+  "level": "2",
+  "url": "subsec-opvision.html#figure-369",
+  "type": "Figure",
+  "number": "5.6.6",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "visualang",
+  "level": "2",
+  "url": "subsec-opvision.html#visualang",
+  "type": "Figure",
+  "number": "5.6.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1064",
+  "level": "2",
+  "url": "subsec-opvision.html#p-1064",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "normal adjustment "
+},
+{
+  "id": "subsec-microscope",
+  "level": "1",
+  "url": "subsec-microscope.html",
+  "type": "Subsection",
+  "number": "5.6.3",
+  "title": "Microscope",
+  "body": " Microscope   It is an optical instrument used to see the object of extremely small size which can not be seen very clearly with an unaided eye. It is of mainly two types, simple microscope and compound microscope.    Simple Microscope     When final image is formed at a least distance of distinct vision, D ( Normal Adjustment ):      A magnifying glass or a hand lens is called a simple microscope. It is a convex lens of short focal length. When an object is placed between F and optical center C of the lens its virtual image is formed at the same side of the object and is magnified. Suppose an object AB subtends an angle on eye when it is at a least distance of distinct vision, D so that Now when object is placed between F and C of the convex lens and final image is formed at the least distance of distinct vision, then Dividing eqn. by , we get -  for small angles.   but  for a lens.  From lens formula,  virtual image at D. using equations and , we have     When final image is formed at infinity:      The linear magnification in this case, as the final image is formed at infinity. When the object is place at least distance of distinct vision, D then the visual angle and when the final image is formed at infinity, then the visual angle, Now     For small eye ball visual angles are small hence and for healthy eye least distance of distinct vision, D = 25 (cm).       Compound Microscope  Angular magnification of microscope, , so we can increase the magnification by reducing the focal length of the lens but there is a limitation to decrease the focal length. Short focal length needs large curvature of the surface and hence the small field of view. Therefore, two separate convex lenses are used to increase the magnifying power. The lens near the eye is called an eyepiece and has high focal length and large aperture. The lens near the object is called an objective and has low focal length and small aperture. The aperture of eyepiece is larger because of the size of eye is larger than the size of object.     When final image is formed at a least distance of distinct vision, D ( Normal Adjustment ):      In this case object is placed very close to the focus of objective such that it forms an enlarged and real image of the object between focus and optical center of eyepiece. This image behaves like a real object for eyepiece whose final and virtual image is formed at the near point, D of eye, .   Magnifying Power: In normal adjustment the final image is formed at least distance of distinct vision, D. Hence    where and are magnification produced by eyepiece and objective.     In compound microscope, the distance between the two lenses are fixed say OE = L, and in normal use object AB is placed so close to that it forms its real image A'B' nearly at eyepiece, i.e., if .      When final image is formed at infinity:      When object is placed in front of objective in such a way that it forms its real image at focus of eyepiece then the final image is formed at infinity, . In this case and         "
+},
+{
+  "id": "SM",
+  "level": "2",
+  "url": "subsec-microscope.html#SM",
+  "type": "Figure",
+  "number": "5.6.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "SM2",
+  "level": "2",
+  "url": "subsec-microscope.html#SM2",
+  "type": "Figure",
+  "number": "5.6.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1074",
+  "level": "2",
+  "url": "subsec-microscope.html#p-1074",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "eyepiece objective "
+},
+{
+  "id": "p-1075",
+  "level": "2",
+  "url": "subsec-microscope.html#p-1075",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Magnifying Power: "
+},
+{
+  "id": "subsec-telescope",
+  "level": "1",
+  "url": "subsec-telescope.html",
+  "type": "Subsection",
+  "number": "5.6.4",
+  "title": "Telescope",
+  "body": " Telescope   It is an optical instrument used to see the distant object clearly. On the basis of its it is of two types   Astronomical Telescope and    Terrestrial Telescope.       Astronomical Telescope  Astronomical telescope is used to see celestial objects. It consists of two convex lenses one which faces the object is called objective and another is near the eye called eyepiece. Objective has large aperture (to collect sufficient amount of light to produce clear image) and has large focal length. The eyepice has small aperture (to match the size of eye) and short focal length.     When final image is formed at infinity ( Normal Adjustment ):      In this case real image A'B' of the object at infinity is obtained at the focal plane of the objective. The eyepiece is so adjusted that this image behaves like a real object of eyepiece situated at its focus which produces the final image at infinity as shown in . Now   To increase the magnification of the telescope focal length of the objective should be as large as possible and that for eyepice should be as small as possible.    When final image is formed least distance of distinct vision, D:      [ ]   For an eyepice, Here, , and .    Angular magnification at normal adjustment is given by , hence the angular magnification is greter when final image is formed at near point.       Terrestrial Telescope  Terra is a Latin name for earth. Telescope used to see the distant object clearly on earth is called terrestrial telescope. It consists of three convex lenses. The lens between eyepiece and objective is called an erecting lens. Heavenly objects are spherical in nature so the inverted image does not affect viewers perception about the object but it is necessary to have erect image of terrestrial objects to have their complete knowledge.      The magnifying power of the telescope in normal adjustment is The erecting lens L is just there to erect the real image AB to A'B'. It has no contribution on magnification. The total length of the telescope is .    Galileo's Telescope  This is a terrestrial telescope designed by Galileo. It consists of a convex lens as an objective and the concave lens as an eyepiece. The objective formed the image of an object at the other side of the concave lens. This image A'B' formed at the second focus of the concave lens and behaves as a virtual object for concave lens. Hence the virtual, erect, and magnified image will be formed at infinity. The magnifying power of the telescope in normal adjustment is        The magnifying power of the telescope when final image will be formed at near point is given by    "
+},
+{
+  "id": "telescope1",
+  "level": "2",
+  "url": "subsec-telescope.html#telescope1",
+  "type": "Figure",
+  "number": "5.6.12",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "telescope2",
+  "level": "2",
+  "url": "subsec-telescope.html#telescope2",
+  "type": "Figure",
+  "number": "5.6.13",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "telescope3",
+  "level": "2",
+  "url": "subsec-telescope.html#telescope3",
+  "type": "Figure",
+  "number": "5.6.14",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "telescope4",
+  "level": "2",
+  "url": "subsec-telescope.html#telescope4",
+  "type": "Figure",
+  "number": "5.6.15",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-photmtry",
+  "level": "1",
+  "url": "subsec-photmtry.html",
+  "type": "Subsection",
+  "number": "5.6.5",
+  "title": "Photometry",
+  "body": " Photometry   The branch of optics which deals with the measurement of light energy is called photometry. Light is either reflected by the object or is emitted by it. Most of the objects are seen when it reflects light, such as wall, book, moon, etc. Objects like lamp, stars, sun, etc. can be seen when it emits its own light. To protect eye from light strain, some standard of illumination must be set. Hence, it is necessary to measure the quantity of light emitted by a source as well as the amount of light reflecting from some surface. The classroom illumination of 250 lumens per square meter (or, lux) should be preferable, whereas operation theater should be preferable to about 1000 lumens per square meter (or, lux).    Standard Candle  A standard candle is made out of sperm wax weighing 1\/6 pound, 7\/8 inch in diameter, 4.5 cm in height, and it burns at the rate of 120 grains per hour. It was taken as a standard unit of illuminating power of a source in early days. If the source gives off light 60 times as the light given out by a standard candle then its power is taken as 60 candle power. However, such measurement cannot be used in scientific work as the power of candle depends on the shape of wick, size of flame during different seasons. With the advancement in science standard of light has been defined in terms of blackbody radiation. International unit of Luminous intensity (or, Illuminating power) of source is taken as candela. One candela is 1\/60 of the light luminosity coming out of a hole of area of a hollow cavity acting as a black body radiator maintained at the freezing point ( ) of platinum.    Solid Angle,  It is an angle subtends by any object at a point. It is defined as the ratio of surface area of an object to the square of distance of object from the point at which solid angle is being subtended.       where S is the surface area of the object perpendicular to the rays subtending the angle at the point and r is the distance of object from the point. If S is oblique to r then, Its SI unit is steradian (st.rad.).   "
+},
+{
+  "id": "sangl",
+  "level": "2",
+  "url": "subsec-photmtry.html#sangl",
+  "type": "Figure",
+  "number": "5.6.16",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_fifth-examplesC",
   "level": "1",
   "url": "sec_fifth-examplesC.html",
   "type": "Section",
-  "number": "5.8",
+  "number": "5.7",
   "title": "Examples C",
   "body": " Examples C  "
+},
+{
+  "id": "sec_fifth-physopt",
+  "level": "1",
+  "url": "sec_fifth-physopt.html",
+  "type": "Section",
+  "number": "5.8",
+  "title": "Physical Optics",
+  "body": " Physical Optics      "
 },
 {
   "id": "ex_fifth",
@@ -4651,7 +4984,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "5.9",
   "title": "Exercise",
-  "body": "  Exercise   Reflection  An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?    A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?     "
+  "body": "  Exercise   Reflection  An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?    A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?      Refraction  A cylindrical glass rod of index 1.5 is immersed in water of index 1.33. A fish of length 1 cm is located in the water along the axis of the cylinder and 20 cm from the end of the rod which is polished into a concave surface of radius 10 cm.  What is the focal length of the refracting surface? Is it converging or diverging.  Where is the image of the fish located? Is the image real or virtual?  What is the length of the image? Is the image enlarged or reduced? Erect or inverted?    A thin concavo-convex lens has its concave surface of radius 20 cm and its convex surface of radius 10 cm. Its index of refraction is 1.5, and an object of height 5 cm is located 50 cm in front of the concave side of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the light bulb located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?    The left end of a long glass rod 4 cm in diameter is polished to a convex surface of radius 10 cm. The index of refraction of the glass is 1.50. An object 2 cm tall is located 20 cm to the left of the rod along its axis. Find  the location and  size of the image.  Describe the image. Is it inside or outside the rod? Real or virtual? Erect or inverted? Enlarged or reduced?    A speck of dirt embedded in a sheet of ice appears to be 5 cm below the surface and 4 mm long. If the index of refraction of ice is 1.309, what is  the actual depth of the speck and  its true length.    A fish tank whose bottom is a mirror is filled with water to a depth of 20 cm. A small fish 2 cm long is swimming 9 cm below the surface of the water. When viewed from above, both the fish and its image reflected from the bottom can be viewed.  What is the apparent depth of the fish below the surface of the water?  What is the apparent size of the reflected image?    Light of wavelength 500 nm is incident normally on the thin film of a soap bubble. If the film has an index of refraction of 1.33 and a thickness of 10 wavelengths, what is the thickness of the film in meters?  A prism has an index of refraction of 1.5 and is located in air.  What is the critical angle for a light ray inside the prism.  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?    A prism has an index of refraction of 1.5 and is immersed in a liquid of index 1.3.  What is the critical angle for a light ray inside the prism?  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?    A ray of light of wavelength 500 nm strikes a window at a angle with the surface. If the window glass is flat, has an index of refraction of 1.5, and is 5 mm thick,  what is the angular displacement of the light ray as it goes through the window (how much does the light ray change directions)?  What is the lateral displacement of the ray as it goes through the window (how much does it shift sideways)?    Calculate the focal length of a double convex lens, for which the radius of curvature of each surface is 50 cm and the refractive index of glass is 1.5.  Calculate the focal length of a plano convex lens, the radius of curvature of a convex surface is 40 cm and the refractive index of glass is 1.5.  A ray of light from the sun enters a solid sphere of glass parallel to its axis. The sphere has a diameter of 30 cm and refractive index of glass is 1.5. Find the position of the image of sun.  A light ray of wavelength 600 nm enters an equilateral prism such that the ray inside the prism is parallel to one of the faces as shown at right. Whenever this happens, the angle of deviation between the incoming ray and the outgoing ray is a minimum. What is the minimum angle of deviation for such a prism having an index of refraction of 1.6?   A horizontal light ray of wavelength 400 nm enters the surface of an equilateral prism and exits the opposite surface which is vertical as shown below. If the index of refraction of the prism is 1.6, what is the angle of deviation between the incoming light ray and the outgoing light ray?   The two surfaces of a double concave lens has radii of curvature 10 cm and 30 cm. Find its focal length in water.   Two convex lenses having focal lengths 6 cm and 2 cm are coaxially attached together. Calculate the focal length of the combination. Given:   Calculate the focal lengths of a convex lens of crown glass ( ) and a concave lens of flint glass ( ) so that when placed in contact they form an achromatic combination of focal length 30 cm.   "
 },
 {
   "id": "exercise-146",
@@ -4735,6 +5068,168 @@ var ptx_lunr_docs = [
   "body": "A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?   "
 },
 {
+  "id": "exercise-155",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-155",
+  "type": "Exercise",
+  "number": "5.9.10",
+  "title": "",
+  "body": "An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
+},
+{
+  "id": "exercise-156",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-156",
+  "type": "Exercise",
+  "number": "5.9.11",
+  "title": "",
+  "body": "A cylindrical glass rod of index 1.5 is immersed in water of index 1.33. A fish of length 1 cm is located in the water along the axis of the cylinder and 20 cm from the end of the rod which is polished into a concave surface of radius 10 cm.  What is the focal length of the refracting surface? Is it converging or diverging.  Where is the image of the fish located? Is the image real or virtual?  What is the length of the image? Is the image enlarged or reduced? Erect or inverted?   "
+},
+{
+  "id": "exercise-157",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-157",
+  "type": "Exercise",
+  "number": "5.9.12",
+  "title": "",
+  "body": "A thin concavo-convex lens has its concave surface of radius 20 cm and its convex surface of radius 10 cm. Its index of refraction is 1.5, and an object of height 5 cm is located 50 cm in front of the concave side of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the light bulb located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?   "
+},
+{
+  "id": "exercise-158",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-158",
+  "type": "Exercise",
+  "number": "5.9.13",
+  "title": "",
+  "body": "The left end of a long glass rod 4 cm in diameter is polished to a convex surface of radius 10 cm. The index of refraction of the glass is 1.50. An object 2 cm tall is located 20 cm to the left of the rod along its axis. Find  the location and  size of the image.  Describe the image. Is it inside or outside the rod? Real or virtual? Erect or inverted? Enlarged or reduced?   "
+},
+{
+  "id": "exercise-159",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-159",
+  "type": "Exercise",
+  "number": "5.9.14",
+  "title": "",
+  "body": "A speck of dirt embedded in a sheet of ice appears to be 5 cm below the surface and 4 mm long. If the index of refraction of ice is 1.309, what is  the actual depth of the speck and  its true length.   "
+},
+{
+  "id": "exercise-160",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-160",
+  "type": "Exercise",
+  "number": "5.9.15",
+  "title": "",
+  "body": "A fish tank whose bottom is a mirror is filled with water to a depth of 20 cm. A small fish 2 cm long is swimming 9 cm below the surface of the water. When viewed from above, both the fish and its image reflected from the bottom can be viewed.  What is the apparent depth of the fish below the surface of the water?  What is the apparent size of the reflected image?   "
+},
+{
+  "id": "exercise-161",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-161",
+  "type": "Exercise",
+  "number": "5.9.16",
+  "title": "",
+  "body": "Light of wavelength 500 nm is incident normally on the thin film of a soap bubble. If the film has an index of refraction of 1.33 and a thickness of 10 wavelengths, what is the thickness of the film in meters? "
+},
+{
+  "id": "exercise-162",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-162",
+  "type": "Exercise",
+  "number": "5.9.17",
+  "title": "",
+  "body": "A prism has an index of refraction of 1.5 and is located in air.  What is the critical angle for a light ray inside the prism.  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?   "
+},
+{
+  "id": "exercise-163",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-163",
+  "type": "Exercise",
+  "number": "5.9.18",
+  "title": "",
+  "body": "A prism has an index of refraction of 1.5 and is immersed in a liquid of index 1.3.  What is the critical angle for a light ray inside the prism?  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?   "
+},
+{
+  "id": "exercise-164",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-164",
+  "type": "Exercise",
+  "number": "5.9.19",
+  "title": "",
+  "body": "A ray of light of wavelength 500 nm strikes a window at a angle with the surface. If the window glass is flat, has an index of refraction of 1.5, and is 5 mm thick,  what is the angular displacement of the light ray as it goes through the window (how much does the light ray change directions)?  What is the lateral displacement of the ray as it goes through the window (how much does it shift sideways)?   "
+},
+{
+  "id": "exercise-165",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-165",
+  "type": "Exercise",
+  "number": "5.9.20",
+  "title": "",
+  "body": "Calculate the focal length of a double convex lens, for which the radius of curvature of each surface is 50 cm and the refractive index of glass is 1.5. "
+},
+{
+  "id": "exercise-166",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-166",
+  "type": "Exercise",
+  "number": "5.9.21",
+  "title": "",
+  "body": "Calculate the focal length of a plano convex lens, the radius of curvature of a convex surface is 40 cm and the refractive index of glass is 1.5. "
+},
+{
+  "id": "exercise-167",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-167",
+  "type": "Exercise",
+  "number": "5.9.22",
+  "title": "",
+  "body": "A ray of light from the sun enters a solid sphere of glass parallel to its axis. The sphere has a diameter of 30 cm and refractive index of glass is 1.5. Find the position of the image of sun. "
+},
+{
+  "id": "exercise-168",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-168",
+  "type": "Exercise",
+  "number": "5.9.23",
+  "title": "",
+  "body": "A light ray of wavelength 600 nm enters an equilateral prism such that the ray inside the prism is parallel to one of the faces as shown at right. Whenever this happens, the angle of deviation between the incoming ray and the outgoing ray is a minimum. What is the minimum angle of deviation for such a prism having an index of refraction of 1.6?  "
+},
+{
+  "id": "exercise-169",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-169",
+  "type": "Exercise",
+  "number": "5.9.24",
+  "title": "",
+  "body": "A horizontal light ray of wavelength 400 nm enters the surface of an equilateral prism and exits the opposite surface which is vertical as shown below. If the index of refraction of the prism is 1.6, what is the angle of deviation between the incoming light ray and the outgoing light ray?  "
+},
+{
+  "id": "exercise-170",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-170",
+  "type": "Exercise",
+  "number": "5.9.25",
+  "title": "",
+  "body": "The two surfaces of a double concave lens has radii of curvature 10 cm and 30 cm. Find its focal length in water.  "
+},
+{
+  "id": "exercise-171",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-171",
+  "type": "Exercise",
+  "number": "5.9.26",
+  "title": "",
+  "body": "Two convex lenses having focal lengths 6 cm and 2 cm are coaxially attached together. Calculate the focal length of the combination. Given:  "
+},
+{
+  "id": "exercise-172",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-172",
+  "type": "Exercise",
+  "number": "5.9.27",
+  "title": "",
+  "body": "Calculate the focal lengths of a convex lens of crown glass ( ) and a concave lens of flint glass ( ) so that when placed in contact they form an achromatic combination of focal length 30 cm. "
+},
+{
   "id": "append_math",
   "level": "1",
   "url": "append_math.html",
@@ -4744,72 +5239,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-1020",
+  "id": "p-1126",
   "level": "2",
-  "url": "append_math.html#p-1020",
+  "url": "append_math.html#p-1126",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-1021",
+  "id": "p-1127",
   "level": "2",
-  "url": "append_math.html#p-1021",
+  "url": "append_math.html#p-1127",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-1022",
+  "id": "p-1128",
   "level": "2",
-  "url": "append_math.html#p-1022",
+  "url": "append_math.html#p-1128",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-1023",
+  "id": "p-1129",
   "level": "2",
-  "url": "append_math.html#p-1023",
+  "url": "append_math.html#p-1129",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-1024",
+  "id": "p-1130",
   "level": "2",
-  "url": "append_math.html#p-1024",
+  "url": "append_math.html#p-1130",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-1025",
+  "id": "p-1131",
   "level": "2",
-  "url": "append_math.html#p-1025",
+  "url": "append_math.html#p-1131",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-1026",
+  "id": "p-1132",
   "level": "2",
-  "url": "append_math.html#p-1026",
+  "url": "append_math.html#p-1132",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-1027",
+  "id": "p-1133",
   "level": "2",
-  "url": "append_math.html#p-1027",
+  "url": "append_math.html#p-1133",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4825,9 +5320,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-1028",
+  "id": "p-1134",
   "level": "2",
-  "url": "appendix-2.html#p-1028",
+  "url": "appendix-2.html#p-1134",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
