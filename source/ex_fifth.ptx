@@ -501,5 +501,517 @@
     </p>
   </exercise>
 </paragraphs>
+
+<paragraphs>
+  <title>Optical Instruments</title>
+  
+
+  <exercise>
+    <p>
+      An object of height 10 cm is placed 2 m in front of a converging lens of focal length 20 cm. 
+      The light passes through that lens and then through a diverging lens of focal length 5 cm. 
+      <ol marker="a.">
+        <li>
+          What is the distance between the two lenses if the final image is virtual and 25 cm from 
+          the diverging lens?
+        </li>
+        <li>
+          What is the height of the final image? 
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A microscope 30 cm long is constructed from two lenses each of focal length 1 cm. 
+      <ol marker="a.">
+        <li>
+          What is the magnifying power (angular magnification) of the microscope?
+        </li>
+        <li>
+          What would be the apparent size of a flee which is 1 mm in actual length?
+        </li>
+        <li>
+          If the angular view through the eyepiece is <m>45^o</m>, could you see the whole flee in the microscope?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The picture size of a 35-mm camera is normally <m>24 \,mm \times 36 \,mm</m>. 
+      <ol marker="a.">
+        <li>
+          What focal length lens should be used to fill the picture with a hang 
+          glider at an altitude of 500 ft if the wingspan of the glider is 40 ft?
+        </li>
+        <li>
+          If the lens setting is f/11, what is the diameter of the opening in the lens diaphragm?
+        </li>
+          </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 35-mm slide projector projects a slide <m>24 \,mm \times 36 \,mm</m> onto a screen 2 m wide and 20 m away. 
+      <ol marker="a.">
+        <li>
+          What is the focal length of the projectors lens? 
+        </li>
+        <li>
+          If it is 5 cm in diameter, what is its f-number? 
+        </li>
+        <li>
+          What is the height of the projected image? 
+        </li>
+          </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A microscope consists of two converging lenses each of focal length 1.00 cm located 20 cm apart. 
+      An object 1 mm long is placed in front of the first lens at such a distance that the final image 
+      (from the second lens) falls on top of the object. In other words, the object and its final image 
+      are at the same location. 
+      <ol marker="a.">
+        <li>
+          What is the object distance for the first lens?
+        </li>
+        <li>
+          What is the size of the first image?
+        </li>
+        <li>
+          What is the magnification of the microscope? 
+        </li>
+        <li>
+          If the index of refraction of each lens is 1.50 and they are symmetrical, 
+          what is the radius of curvature of each lens surface?
+        </li>
+        <li>
+          If a thin non-reflecting coating of <m>S_{i}O (n=1.45)</m> is placed on each lens surface, 
+          what is the minimum thickness of such a coat in order that green light of wavelength 550 nm is not reflected?
+        </li>
+          </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. 
+      A fortune teller looks through the ball at an object 10 cm high located on the other side of 
+      the ball 50 cm from the center of the ball. Light travels from the object through the ball so as 
+      to form a final image. 
+      <ol marker="a.">
+        <li>
+          Where is this final image located? 
+        </li>
+        <li>
+          What is the magnification of the complete optical system? 
+        </li>
+        <li>
+          What is the height of the final image?
+        </li>
+             </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A reflecting telescope has a primary mirror of diameter 20 cm and radius of curvature 2 m. 
+      If the telescope is pointed at the moon, 3480 km in diameter and 386,000 km away, find 
+      <ol marker="a.">
+        <li>
+          the location of the moon's image and
+        </li>
+        <li>
+          the size of the moon's image.
+        </li>
+        <li>
+          Describe the moon's image. Is it real or virtual, erect or inverted, enlarged or reduced, normal or perverted?
+        </li>
+             </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The primary lens of a refracting telescope is 20 cm in diameter and has a focal length of 1 m. 
+      If the telescope is pointed at a bird 20 cm long and 20 m away, find 
+      <ol marker="a.">
+        <li>
+          the location of the bird's image and
+        </li>
+        <li>
+          the size of the bird's image. 
+        </li>
+        <li>
+          Describe the bird\rq s image. Is it real or virtual, erect or inverted, enlarged or reduced, normal or perverted?
+        </li>
+             </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A thin concave-convex lens has its concave surface of radius 20 cm and its convex surface of radius 10 cm.  
+      Its index of refraction is 1.5, and an object of height 5 cm is located 50 cm in front of the concave side 
+      of the lens along its principle axis. 
+      <ol marker="a.">
+        <li>
+          What is the focal length of the lens? Is it converging or diverging? 
+        </li>
+        <li>
+          Where is the image of the object located? Is the image real or virtual?
+        </li>
+        <li>
+          What is the height of the image? Is the image enlarged or reduced? Erect or inverted?
+        </li>
+             </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A short-sighted eye has a new far point of 5.00 m and a near point of 0.25 m. 
+      State the type of lens needed to correct this defect and calculate the power of the correcting lens. 
+      Calculate the distance from the lens to the new near point of the eye with the correcting lens in front of the eye.  
+          </p>
+          <hint>
+            <p>
+              Hint for second part: Once the glasses on eye Near point shifts further away from eye, 
+      find the object position when image disance = -0.25 m.
+            </p>
+          </hint>
+  </exercise>
+
+
+  <exercise>
+    <p>
+      A long-sighted eye has the far point at infinity and a near point which is 40 cm from the eye. 
+      State the type of lens needed to correct this defect and calculate the power of the correcting lens. 
+      Calculate the distance from the lens to the new far point of the eye with the correcting lens in front 
+      of the eye. 
+      <hint>
+        <p>
+          Hint for second part: Once the glasses on eye Far point shifts further away from eye, find the object 
+      position when image disance = <m> -\infty </m>.
+        </p>
+      </hint>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the size of the letters the normal eye can read at 6.10 m, if the criterion is that they 
+      subtend 3 arc minute  visual angle. Using this information what size object is required at 10 m? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A man has a far point of 2 m. Find the focal length of the corrective lens for seeing distant objects, 
+      and find the near point of this eye with corrective lens if the man has the normal near point without glasses. 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A person has a near point of 50 cm. Find the corrective lens required to enable this 
+      person to read at the normal distance of 25 cm. 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A man has a near point of 50 cm from his eyes and a far point at infinity. 
+      What is the useful accommodation power of his eyes? 
+      Consider the lens of the eye as a simple lens. 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A young person with a near point of 20 cm, is not able to see an object 
+      clearly if it is more than 5 m from his eye. What kind of lens should you 
+      prescribe to correct his vision? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A nearsighted person wears glasses of f = -50.0 cm. Through these glasses he has 
+      perfect distant vision, but he cannot focus clearly on the objects closer than 25.0 cm. 
+      How close can he focus if he removes his glasses? What is his far point?  
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A pair of bifocal lenses have components with focal lengths of 50 cm and -250 cm. 
+      What are the near and far points for the wearer of these bifocal lenses? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An older person has a near point of 75 cm. Find the correct lenses to prescribe for this person. 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Calculate the magnification of an object placed 6.20 mm from a compound microscope that has a 6.00 mm 
+      focal length objective and a 50.0 mm focal length eyepiece. The objective and eyepiece are separated by 23.0 cm.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A college professor can see objects clearly only if they are between 70 and 500 cm from his eyes. 
+      His optometrist prescribes bifocals that enable him to see distant objects clearly through the 
+      top half of the lenses and read students papers at a distance of 25 cm through the lower half. 
+      What are the powers of the top and bottom lenses. 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 100 candle power lamp hangs 2 m above the center of a circular table of diameter 2 m. 
+      Determine the intensity of illumination at a point on the edge of the table.
+    </p>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Interference</title>
+  
+  <exercise>
+    <p>
+      In a double slit interference experiment, the spacing between the slits is 0.1 mm and the screen 
+      is at a distance of 4 m. If light of wavelength 600 nm is used, find 
+      <ol marker="a.">
+        <li>
+          the location of the second dark fringe, 
+        </li>
+        <li>
+          the location of the fifth (off axis) bright fringe,
+        </li>
+        <li>
+          the spacing between the fringes.
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A flat glass plate of length 10 cm is placed on top of a larger flat glass slab. 
+      A small grain of sand of diameter <m>1 \,\mu m</m> is placed under the right end of the 
+      plate to separate it from the slab. (The left end is in contact.) The index of refraction 
+      of the plate is 1.5, that of the slab is 1.6. When viewed from above and illuminated 
+      from above with light of wavelength 550 nm a series of light and dark fringes are observed. 
+      <ol marker="a.">
+        <li>
+          What is the spacing between the fringes?
+        </li>
+        <li>
+          How far from the left end of the plate is the fourth bright fringe? 
+        </li>
+          </ol> 
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A plano-convex lens of radius of curvature 1 m is placed, curved side down, on a flat 
+      glass plate and illuminated from above with light of wavelength 450 nm so as to form Newton rings. 
+      <ol marker="a.">
+        <li>
+          Is a bright or a dark spot observed at the center of the rings when viewed from above? 
+        </li>
+        <li>
+          What is the radius of the 4'th bright ring when viewed from above?  
+        </li>
+        <li>
+          What is the radius of the 4'th bright ring when viewed from below?
+        </li>
+          </ol>  
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two flat plates of index of refraction 1.5 are 10 cm long. At the left end they are in contact; 
+      at the right they are separated by a sheet of paper 0.010 mm thick. The space between the plates is 
+      filled with a liquid of index of refraction 1.6. When viewed from above and illuminated from above 
+      with light of wavelength 550 nm a series of light and dark fringes are observed. 
+      <ol marker="a.">
+        <li>
+          What is the spacing between the fringes?
+        </li>
+        <li>
+          How far from the left end of the plate is the fourth bright fringe? 
+        </li>
+          </ol>  
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A monochromatic point source of light of wavelength 550 nm is located 0.05 mm above the left 
+      end of a horizontal flat glass plate 20 cm long and index of refraction 1.5. 
+      Light from the source shines down on the surface of the plate and is reflected back upward 
+      so as to interfere with the light that doesn't hit the plate. 
+      <ol marker="a.">
+        <li>
+          At a point immediately above the right end of the plate will this interference be constructive or destructive? Why?
+        </li>
+        <li>
+          At a point located 0.05 mm above the right end of the plate will this interference be constructive or destructive? Why? 
+        </li>
+        <li>
+          How far above the right end of the plate will the fourth bright fringe occur?
+        </li>
+          </ol>  
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Green light of wavelength <m>5100\, \AA </m> from\item	An object of height 5 cm is located at a 
+      distance 30 cm in front of a convex lens of focal length 10 cm and radii of curvature . 
+      <ol marker="a.">
+        <li>
+          Where is the image located?
+        </li>
+        <li>
+          Is the image real or virtual?
+        </li>
+        <li>
+          What is the magnification of the mirror?
+        </li>
+        <li>
+          Is the image enlarged or reduced?
+        </li>
+        <li>
+          What is the height of the image?
+        </li>
+        <li>
+          Is the image erect or inverted?  a narrow slit is incident on a double slit. 
+          If the overall separation of 10 fringes on a screen 200 cm away is 2 cm, find the slit separation.
+        </li>
+          </ol>  
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two coherent sources are 0.18 mm apart and the fringes are absorbed on a screen 80 cm away. 
+      It is found that with a certain monochromatic source of light, the fourth bright fringe is 
+      situated at a distance of 10.8 mm from the central fringe. Calculate the wavelength of light.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      In Young's double slit experiment the separation of the slits is 1.9 mm 
+      and the fringe spacing is 0.31 mm  at a distance of 1 m from the slits. 
+      Calculate the wavelength of light.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two straight and narrow parallel slits 1 mm apart are illuminated by monochromatic light. 
+      Fringes formed on the screen held at a distance of 100 cm from the slits are 0.50 mm apart. 
+      What is the wavelength of light?
+    </p>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Diffraction</title>
+  
+  <exercise>
+    <p>
+      Light of wavelength 650 nm passes through a narrow slit producing a single slit diffraction pattern 
+      on a screen 5 m away. The width of the central bright fringe is 2 cm. 
+      <ol marker="a.">
+        <li>
+          What is the width of the slit?
+        </li>
+        <li>
+          What is the distance between the dark interference fringes on either side of the bright central fringe? 
+        </li>
+        <li>
+          How far from the central bright fringe is the third dark fringe located?
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      White light ranging between 400 nm and 700 nm in wavelength falls at normal incident on a 
+      diffraction grating that has 400 slits/mm. What is the angular width of the visible spectrum for 
+      <ol marker="a.">
+        <li>
+          first order, 
+        </li>
+        <li>
+          second order. 
+        </li>
+        <li>
+          What is the highest order complete spectrum for this arrangement? 
+        </li>
+        <li>
+          Do any of the spectra overlap?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Laser light of wavelength 632.8 nm shines normally on the reflective side of a compact disk whose 
+      information tracks are <m>1.60 \,\mu m</m> apart. 
+      <ol marker="a.">
+        <li>
+          What is the highest order reflected interference beam observed?
+        </li>
+        <li>
+          What is the angles of reflection (measured from the normal) for the second order beam?  
+        </li>
+         </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A beam of white light shines normally on the reflective side of a compact disk whose 
+      information tracks are <m>1.60 \,\mu m</m> apart. What color light will be observed at an angle 
+      of <m>45^{o}</m> with respect to the normal? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      How many orders will be visible if the wavelength of the incident light is <m> 5000\,Angstrom </m> 
+      and the number of lines on the grating is 2620 per inch.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A parallel beam of monochromatic light is allowed to be incident normally on a plane transmission 
+      grating having 5000 lines/cm and the second order spectral line is found to be diffracted through <m>30^{o}.</m> 
+      Calculate the wavelength of light.
+    </p>
+  </exercise>
+</paragraphs>
  </exercises>
 

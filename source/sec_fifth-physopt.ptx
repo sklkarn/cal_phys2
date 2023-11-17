@@ -6,11 +6,1283 @@
 
   <introduction>
    <p>
-
+    When objects size (such as plane mirror or curvature) are larger than the wavelength of light, 
+    then the behavior of light can be understood using ray optics such as in reflection, refraction, 
+    dispersion, etc. in geometric optics. On the other hand, when size of the objects are comparable 
+    to the wavelength of light, then the behavior of light when it interacts with the objects can 
+    only be understood using wave properties of light. Physical optics is a part of optics which deals 
+    with the phenomenon of light on the basis of wave nature of light such as interference, diffraction, polarization, etc. 
    </p>
-     
-  
+      
   </introduction>
 
+  <subsection xml:id="subsec-interfnc">
+    <title>Interference</title>
+   <introduction>
+    <p>
+      When two or more waves interact simultaneously at any particle in a medium, the resultant 
+      displacement of the particle at that instant is given by the superposition of all these waves.  
+      After the superposition from the region of overlapping these waves emerge as if they have not 
+      interfered at all. Each wave retains its individual characteristics and behaves as if others were not there. 
+      This behavior is known as <term>principle of superposition</term>.  
+      The principle of superposition states that when two or more waves meet at a point, 
+      the total displacement is the vector sum of the displacements that each individual wave would cause at that point.
+    </p>
+    <figure xml:id="youngs2">
+      <caption></caption>
+      <image source="youngs2.png" width="55%"/>
+  </figure>
+  <p>
+    The phenomenon of overlapping of two or more waves at a point in space is called an <term>interference</term>.  
+    Suppose two waves of same amplitudes and frequencies superimpose on each other at a point (in same phase) 
+    in such a way that the crest of one falls on the crest of the other or the trough of one falls on 
+    the trough of the other then the amplitude of the particle is twice the amplitude of either of the waves. 
+    At these points, the waves reinforce with each other. If they superimpose in (opposite phase) such a way 
+    that the crest of one falls on the trough of the other then the amplitude is zero. 
+    At these points, the waves cancel out the displacement of the particle due to each other.  
+    It is possible that in some region of space the energy is more than the energy due to individual 
+    waves and in some other region, it is less than that due to individual waves. Hence, the phenomenon of 
+    redistribution of energy due to superposition of waves is also termed as <em>interference</em>. 
+    This redistribution of energy depends upon the frequency, amplitude, and the phases of individual waves. 
+    It should be remembered that there is no loss of energy due to interference. Since intensity is proportional 
+    to square of amplitude, the intensity at a maximum displacement is four times than the intensity 
+    due to one of the waves. The interference with maximum intensity or maximum amplitude is known as 
+    <term>constructive interference</term> and those with minimum intensity or minimum amplitude is known as 
+    <term>destructive interference</term>. 
+    The interference phenomenon was first demonstrated clearly in Young's experiment in 1802.
+  </p>
+  <p>
+    A sunlight is allowed to pass through a pinhole S and then at some distance away on two other pinholes 
+    <m>S_{1}</m> and <m>S_{2}</m> as shown in <xref ref="youngs2"/>.  <m>S_{1}</m> and <m>S_{2}</m> 
+    are equidistant from S and are very close to each other. When a spherical wavefront from S reaches 
+    to  <m>S_{1}</m> and <m>S_{2}</m> it distributed into two separate wavefronts of identical in nature 
+    (Huygen's principle). When these wavefronts superimpose to each other on the screen dark and bright 
+    bands can be observed clearly. The point such as O on the screen is bright because the crest of 
+    one wave falls on the crest of another (or trough of one falls on the trough of the other). 
+    Hence they reinforce each other. The points such as P are dark because the crest of one wave falls 
+    on the trough of the other wave and they neutralize the effect of each other. 
+  </p>
+   </introduction>
+
+   <subsubsection xml:id="subsubsec-coherent">
+    <title>Coherent Sources</title>
+    <p>
+      It is not possible to have interference due to two independent sources of light because 
+      they are not similar to each other and can not maintain a constant phase difference. 
+      To have a sustained interference the two waves must be coherent (i.e., they have same wavelength, 
+      amplitude, and in a constant phase difference), and must be moving nearly parallel to each other. 
+      Since the wavelength of light is extremely small (of the order of <m>10^{-5}\, cm</m>), 
+      the two sources must be narrow and very close to each other.
+    </p>
+    <p>
+      Two wave sources are said to be <term>coherent</term> if they emit light waves of  same frequency 
+      (i.e. same wavelength), same amplitude, and in a constant phase difference with each other. 
+      In practice, it is not possible to have two independent sources which are coherent. 
+      A source of light consists of a large number of atoms and light pulse is emitted when an electron 
+      from higher energy levels falls onto a lower energy levels in an excited atom. 
+      The emission of light pulse from various atoms is random and hence such light 
+      pulses do not have constant phase relationship. 
+    </p>
+
+  <figure>
+    <caption></caption>
+    <sidebyside widths="45% 45%">
+            <figure xml:id="coherent1">
+          <caption></caption>
+          <image source="coherent1.png"/>
+      </figure>
+          <figure xml:id="coherent2">
+            <caption></caption>
+            <image source="coherent2.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+
+    <p>
+      For sustained interference the superposing waves must be in constant phase difference 
+      which can be achieved through the following two methods called wavefront division  
+      or amplitude division. In wavefront division very narrow slits are taken help to divide the 
+      wavefront and form two virtual sources. According to Huygens principle every points on a wavefront 
+      behave as secondary sources that are vibrating in phase. Therefore portions of wave front cut by 
+      holes (or slits) are coherent sources and waves emitted by them are also coherent as shown in <xref ref="coherent1"/>.
+    </p>
+    <p>
+      In amplitude division coherent sources are formed by dividing the amplitude of wave by 
+      multiple reflection and refraction by a thin transparent film. A ray of light gets partly 
+      reflected as ray <m>A_{1}</m> and partly refracted when incident on a thin transparent film. 
+      At the point of incidence the refracted ray is again partly reflected and emerges out 
+      from the upper surface as ray <m>A_{2}</m>. At every stage of reflection and refraction 
+      the intensity of light decreases. Now, intensity is proportional to square of amplitude 
+      hence at each stage amplitude is divided. Since, both rays have been obtained from a single ray, 
+      they are coherent as shown in <xref ref="coherent2"/>.
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-phase_path">
+    <title>Phase Difference and Path Difference</title>
+    <p>
+      If the path difference between the two waves is <m>\lambda</m>, the phase difference between them is <m>2\pi</m>. 
+      Therefore if the path difference is x, then their phase difference, <m>\delta</m> would be 
+      given by 
+      <me>
+        \delta= \left(\frac{2\pi}{\lambda}\right)x.
+      </me>
+      </p>
+  </subsubsection>
+   </subsection>
+
+ <subsection xml:id="subsec-inter_fringe">
+  <title>Theory of Interference Fringes</title>
+  <p>
+    Consider a monochromatic (single color) source of light $S$ which emits waves of wavelength <m>\lambda</m>. 
+    Two narrow slits <m>S_{1}</m> and <m>S_{2} </m>  are placed equidistant from S and very close 
+    (distance, d apart) to each other so that they act like two virtual coherent sources. 
+    Let a screen be placed at a distance, D from the coherent sources as shown in <xref ref="interference2"/>.  
+  </p>
+
+  <figure>
+    <caption></caption>
+    <sidebyside widths="65% 35%">
+            <figure xml:id="interference2">
+          <caption></caption>
+          <image source="interference2.png"/>
+      </figure>
+          <figure xml:id="grinterfer">
+            <caption></caption>
+            <image source="grinterfer.png"/>
+        </figure>
+         </sidebyside>
+  </figure>
+  <p>
+    If <m>y_{1}</m> and <m>y_{2}</m> are the displacement of the particle at point P on 
+    the screen when the waves from <m>S_{1}</m> and <m> S_{2}</m> reach at P, then the resultant displacement 
+    at P is given by the principle of superposition 
+    <me>
+      y=y_{1}+y_{2} = a\sin(kx-\omega t)+ a\sin(kx-\omega t +\delta)
+    </me>
+    where a is amplitude of the waves and <m>\delta</m> is their phase difference at P. 
+    <me>
+      \text{or,}\quad y = a\left[2\sin\left(\frac{kx-\omega t+kx-\omega t+\delta}{2}\right)\cos\left(\frac{kx-\omega t-kx+\omega t-\delta}{2}\right)\right] 
+    </me>
+    <me>
+      \text{or,}\quad y = 2a\sin\left(kx-\omega t+\frac{\delta}{2}\right)\cos\left(\frac{\delta}{2}\right)
+    </me>
+    <me>
+      \therefore\quad y = A sin\left(kx-\omega t +\frac{\delta}{2}\right)
+    </me>
+      </p>
+      <p>
+        which represents the equation of simple harmonic vibration of amplitude A. 
+        <me>
+          \text{Where}\quad A=2a\cos\frac{\delta}{2}
+        </me>
+     Amplitude of resultant wave depends on the phase difference between two interfering waves, if 
+     <m>\delta =0</m>, <m>A=2a</m>, which is maximum, i.e. constructive interference. 
+     If <m>\delta =180^{o}</m>, <m>A=0</m>, which is minimum, i.e. destructive interference. 
+     The intensity at a point is given by the square of the amplitude 
+     <me>
+      \therefore\quad I=A^{2}
+     </me>
+     <fn>look at <xref ref="eqn-ia_rel1"/></fn>
+   <men xml:id="eqn-interf1">
+    \text{or,}\quad I = 4a^{2}\cos^{2}\frac{\delta}{2} 
+   </men>
+         </p>
+         <p>
+          <ol>
+            <li>
+              <p>
+                When phase difference 
+                <m>
+                  \delta = 0, 2\pi, 2(2\pi), \cdots, n(2\pi),
+                </m>
+                 or the path difference <m>x=0, \lambda, 2\lambda, \cdots, n\lambda</m>. 
+                 <me>
+                  I=4a^{2}
+                 </me>
+                 Intensity is maximum when the phase difference between the interfering waves is an integral 
+                 multiple of <m>2\pi</m> or the path difference between them is an integral multiple of <m>\lambda</m>. 
+              </p>
+            </li>
+            <li>
+              <p>
+                When phase difference <m>\delta = \pi, 3\pi, \cdots, (2n+1)\pi,</m> 
+                or the path difference <m>x=\frac{\lambda}{2}, 3\frac{\lambda}{2}, 5\frac{\lambda}{2}, \cdots, (2n+1)\frac{\lambda}{2} </m>.
+                <me>
+                  I=0
+                </me>
+                 Intensity is minimum when the phase difference between the interfering waves is an 
+                 odd number multiple of <m>\pi</m> or the path difference between them is an 
+                 odd number multiple of <m>\frac{\lambda}{2}</m>. 
+              </p>
+            </li>
+          </ol>
+         </p>
+         <p>
+          From eqn. <xref ref="eqn-interf1"/>, it is clear that intensity is <m>4a^{2}</m> 
+          at bright point and zero at dark point. Hence the energy is transferred from dark point to bright point. 
+          The intensity of the bright points due to two waves without interference would be <m>2a^{2}</m> 
+          which is the same as the average intensity after interference <m>\frac{4a^{2}+0}{2}=2a^{2}</m> (<xref ref="grinterfer"/>). 
+          The waves emitting from the sources <m>S_{1}</m> and <m>S_{2}</m> are in phase hence, whether 
+          the point P is bright or dark depends upon the path difference of these waves when reach to point P. 
+          The path difference between waves at point P is given by 
+          <me>
+            \Delta x = S_{2}L= S_{2}P-S_{1}P
+          </me>
+          Since <m>S_{1}P =LP</m> as <m>S_{1}L</m> is a perpendicular on <m>S_{2}P</m>. 
+          The waves travel the same distance from <m>S_{1}</m> to P and from L to P, 
+          hence, whether the waves reach at point P are in phase or in opposite phase can be described 
+          by <m>\Delta x</m>. Where 
+          <me>
+            \Delta x = r_{2}-r_{1}=d\sin\theta
+          </me>
+          from <m> \triangle S_{1}S_{2}L.</m> 
+          <men xml:id="eqn-interf2">
+            \therefore\quad \theta   = \frac{\Delta x}{d} 
+          </men>
+     The slits <m>S_{1}</m> and <m>S_{2}</m> are very close to each other hence angle <m>\theta</m> is very small. 
+     The screen is placed very far away from the slits hence the waves from <m>S_{1}</m> 
+     and <m>S_{2}</m> to P can be considered as parallel to each other,  i.e., 
+     <me>
+      \tan\theta = \frac{OP}{CO} =\frac{y}{D}
+     </me>
+     from  <m>\triangle PCO.</m> 
+     <men xml:id="eqn-interf3">
+      \therefore\quad \theta  =\frac{y}{D} 
+     </men>
+     From eqns. <xref ref="eqn-interf2"/> and  <xref ref="eqn-interf3"/>, we have - 
+     <me>
+      \frac{\Delta x}{d} = \frac{y}{D} 
+     </me>
+          <men xml:id="eqn-interf4">
+      \text{or,}\quad \Delta x = \frac{yd}{D}  
+     </men>
+     <men xml:id="eqn-interf5">
+      \therefore\quad \delta = \left(\frac{2\pi}{\lambda}\right)\Delta x =\left(\frac{2\pi}{\lambda} \right) \left(\frac{yd}{D} \right) 
+     </men>
+         </p>
+         <p>
+          <alert>For  bright fringes,</alert> 
+          <me>
+           \Delta x = \frac{yd}{D} = n\lambda \quad \text{where}\quad n=0,1,2,3,\cdots.
+          </me>
+         <me>
+           \text{or,}\quad y = \frac{n \lambda D}{d} 
+         </me>
+         At point O, path difference is zero and a bright fringe is formed, when 
+         <me>
+           n=1, \quad y_{1} = \frac{\lambda D}{d} 
+         </me>
+         <me>
+            n=2, \quad y_{2} = \frac{2\lambda D}{d}
+         </me>
+         <me>
+           n=3,\quad y_{3} = \frac{3\lambda D}{d}
+         </me>
+         <me>
+           y_{n} = \frac{n\lambda D}{d}
+         </me>
+         Therefore the distance between any two consecutive bright fringes 
+         <me>
+           y_{2}-y_{1} = \beta= \frac{2\lambda D}{d}-\frac{\lambda D}{d} = \frac{\lambda D}{d} 
+         </me>
+               </p>
+               <p>
+                <alert> For  dark fringes</alert>
+                <me>
+                  \Delta x = \frac{yd}{D} = (2n+1)\frac{\lambda}{2} \quad \text{where}\quad n=0,1,2,3,\cdots.
+                </me>
+                <me>
+                  \text{or,}\quad y = \frac{(2n+1) \lambda D}{2d} 
+                </me>
+                For a dark fringe, when 
+                <me>
+                  n=0, \quad y_{0} = \frac{\lambda D}{2d}
+                </me>
+                <me>
+                  n=1, \quad y_{1} = \frac{3\lambda D}{2d}
+                </me>
+                <me>
+                  n=2,\quad y_{2} = \frac{5\lambda D}{2d}
+                </me>
+                <me>
+                  y_{n} = \frac{(2n+1)\lambda D}{2d}
+                </me>
+                 Therefore the distance between any two consecutive dark fringes 
+                 <me>
+                  y_{2}-y_{1} = \beta= \frac{5\lambda D}{2d}-\frac{3\lambda D}{2d} = \frac{\lambda D}{d}
+                 </me>
+                  The fringe width is same for bright or dark fringe.
+               </p>
+ </subsection>
+  
+
+ <subsection xml:id="subsec-thin_film">
+  <title>Thickness of Thin Sheet of Transparent Material</title>
+  <p>
+    Consider A and B are two virtual coherent sources which produce a central bright fringe at point C. 
+    When a transparent plate G of thickness t and refractive index <m>\eta</m> is introduced in the 
+    path of one of the beams, the fringe at C shifts to another point P as shown in <xref ref="interplatethick"/>. 
+    The time taken by the wave from B to P in air is the same as the time taken by the wave from A to P partly 
+    through air and partly through the plate. Suppose c and v are the velocity of light in air and in plate, respectively, then
+  </p>
+  <figure xml:id="interplatethick">
+    <caption></caption>
+    <image source="interplatethick.png" width="50%"/>
+</figure>
+<p>
+  <me>
+    \frac{BP}{c}  = \frac{AP-t}{c}+\frac{t}{v} 
+  </me>
+  <me>
+    \text{or,}\quad BP = AP-t + t\frac{c}{v}
+  </me>
+  <me>
+    \therefore\quad BP -AP = \eta t -t = (\eta -1)t  \qquad [\because \frac{c}{v}= \eta]
+  </me>
+ If P is the point originally occupied be the <m>n^{th}</m> fringes then the path difference 
+<me>
+  BP-AP =n\lambda
+</me>
+<me>
+  \therefore \quad BP -AP =  (\eta -1)t  =n\lambda 
+</me>
+ Also the distance y through which the fringe is shifted is given by 
+ <me>
+  y=\frac{n\lambda D}{d} 
+ </me>
+ <me>
+  \therefore\quad  (\eta -1)t = n\lambda = \frac{yd}{D} 
+ </me>
+  By knowing the value of fringe shifts of the central fringe y,  the screen distance D, 
+  slits separation  d, and refractive index <m>\eta</m> of the material of thin transparent plate, 
+  its thickness t can be evaluated.
+</p>
+ </subsection>
+
+ <subsection xml:id="subsec-thinfilm_interf">
+  <title>Interference in Thin Films</title>
+  <introduction>
+    <p>
+      A colorful oil film on the surface of water and a colorful soap bubble can be a pretty 
+      pleasant to everyone as shown in <xref ref="thinfilm"/>. Hook was able to develop 
+      interference fringes through mica sheet and Newton was able to develop interference fringes 
+      in the gap between a convex lens and a plane glass plate. Young was able to explain these  
+      phenomena on the basis of interference between light reflected from the top and bottom surface 
+      of a thin film. It has been observed that interference in the case of thin film takes place due to 
+      <ol>
+        <li>
+          reflected light and
+        </li>
+        <li>
+          transmitted light.
+        </li>
+      </ol>
+      </p>
+      <figure xml:id="thinfilm">
+        <caption></caption>
+        <sidebyside widths="35% 35%">
+                <figure xml:id="soapbubble">
+              <caption></caption>
+              <image source="soapbubble.png"/>
+          </figure>
+              <figure xml:id="oilfilm">
+                <caption></caption>
+                <image source="oilfilm.png"/>
+            </figure>
+             </sidebyside>
+      </figure>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-thinf_interr">
+    <title>Interference due to Reflected Light in Thin Films</title>
+    <p>
+      In amplitude division method to obtain coherent sources, amplitude of the reflected waves 
+      at each interface decreases gradually, hence only the first reflection from each interface 
+      is considered for interference fringes. Consider a transparent thin film of thickness t and 
+      refractive indices of rare and denser media are <m>\eta_{1}</m> and <m>\eta_{2},</m> respectively. 
+      A ray SA incident on the top surface of the film which is partly reflected along AP and partly 
+      refracted along AB. The ray further reflected along BC from the bottom surface and emerges out 
+      from the film along CQ. To calculate the path difference between AP and CQ drop a perpendicular 
+      CD from point C onto the ray AP. Now the optical path difference 
+      <me>
+        \Delta x = \eta_{2} (AB+BC) -\eta_{1} AD  
+      </me>
+          </p>
+          <figure xml:id="interefl">
+            <caption></caption>
+            <image source="interefl.png" width="45%"/>
+        </figure>
+          <p>
+            <em>Optical length is an equivalent distance that light travels in a medium in same time as it travels in vacuum.</em> 
+            <me>
+              \eta =\frac{c}{v}=\frac{ct}{vt} = \frac{\text{distance in vacuum}}{\text{distance in medium}} 
+            </me>
+            [distance in vacuum <m>= \eta \times </m> (distance in medium).
+          <me>
+            \text{But, from } \quad  ABM, \quad \cos r = \frac{BM}{AB} \Rightarrow AB = BC = \frac{t}{\cos r}
+          </me>
+          <me>
+            \text{Also, from } \quad  ADC, \quad \sin i = \frac{AD}{AC} 
+          </me>
+          <me>
+            \Rightarrow AD = AC\sin i = (AM+MC)\sin i = 2AB\sin r \sin i
+          </me>
+          <me>
+            \text{or,}\quad AD = 2 \frac{t}{\cos r} \sin i\sin r 
+          </me>
+          <me>
+            \therefore\quad \Delta x = \eta_{2} \left(\frac{2t}{\cos r}\right) - \eta_{1}\left( \frac{2t}{\cos r} \sin i\sin r\right)
+          </me>
+          <me>
+            \text{or,}\quad  \Delta x=\frac{2t}{\cos r}\left[\eta_{2}- \eta_{2}\sin^{2} r\right] 
+          </me>
+          [Snell's law <m> \quad \eta_{1}\sin i =\eta_{2}\sin r</m>]
+           <me>
+            \therefore\quad \Delta x = 2t\eta_{2}\cos r
+           </me>
+               </p>
+               <p>
+                But this is only apparent path difference, from electromagnetic theory of light it is 
+                known that when light wave reflected from  the surface of optical denser medium, 
+                it suffers a phase difference of <m>\pi</m>, which is equivalent to a path difference of 
+                <m>\frac{\lambda}{2}</m>, i.e., a wave along AP has already a path difference of   <m> \frac{\lambda}{2} </m>. 
+                Hence, the actual path difference in this case is 
+                <me>
+                  \Delta x= 2t\eta_{2}\cos r -  \frac{\lambda}{2}
+                </me>
+               <ol>
+                <li>
+                  Now if <m>\Delta x = n\lambda</m>, where <m>n = 0, 1, 2, 3,\cdots,</m> then constructive 
+                  interference takes place and the film appears bright, i.e., 
+                  <me>
+                    2t\eta_{2}\cos r -  \frac{\lambda}{2} = n\lambda 
+                  </me>
+                  <men xml:id="eqn-interr1">
+                    2\eta t \cos r =(2n+1)\frac{\lambda}{2} 
+                  </men>
+                      </li>
+                      <li>
+                        If <m>\Delta x = (2n+1)\frac{\lambda}{2}</m>, where <m>n=0,1,2,3,\cdots,</m> 
+                        then destructive interference takes place and the film appears dark, i.e., 
+                        <me>
+                          2t\eta_{2}\cos r -  \frac{\lambda}{2} = (2n+1)\frac{\lambda}{2}
+                        </me>
+                        <me>
+                          2\eta t \cos r =(2n+1)\frac{\lambda}{2} +\frac{\lambda}{2}= (n+1)\lambda
+                        </me>
+                        <men xml:id="eqn-interr2">
+                          2\eta t \cos r =n\lambda
+                        </men>
+                        <m> [\because (n+1)=n,\quad \text{for}\quad n=0,1,2,\cdots] </m>
+                            </li>
+               </ol>
+               Since the amplitude is varying for the interfering waves, fringes are not perfect. 
+               </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-thinf_intert">
+    <title>Interference due to Transmitted Light in Thin Films</title>
+    <p>
+      In thin film interference, fringes are produced by the transmitted waves also as shown in <xref ref="interefr"/>. 
+      A ray SA incident on the top surface of the film partly reflected along AP and partly refracted along AB. 
+      The ray further reflected along BC from the bottom surface which is reflected once again along CD and 
+      finally emerges out from the film along DP. Now the optical path difference between BT and DP, 
+      <me>
+        \Delta x = \eta_{2} (BC+CD) -\eta_{1} BN  = \eta_{2} (2BC) -\eta_{1} BN 
+      </me>
+      <me>
+        \text{But, from } \quad  BDN, \quad \sin i = \frac{BN}{BD}
+      </me>
+      <me>
+        \Rightarrow BN = BD \sin i = 2 BQ \sin i = 2BC\sin r\sin i
+      </me>
+      <me>
+        \text{or,}\quad \Delta x = \eta_{2} (2BC) - \eta_{1}2BC\sin r\sin i 
+      </me>
+        </p>
+    <figure xml:id="interefr">
+      <caption></caption>
+      <image source="interefr.png" width="45%"/>
+  </figure>
+  <p>
+    <me>
+      \text{or,}\quad \Delta x = 2BC \left(\eta_{2}-\eta_{1}\sin r\sin i \right)  = 2BC \left(\eta_{2}-\eta_{2}\sin^{2} r \right)
+    </me>
+    <me>
+      \text{or,}\quad \Delta x = \frac{2t\eta_{2}}{\cos r} \left(1-\sin^{2} r \right) = 2t\eta_{2}\cos r
+    </me>
+    <m>[BC = \frac{t}{\cos r}]</m>
+   <ol>
+    <li>
+      Now for bright fringes, <m>\Delta x= n\lambda</m>, i.e., 
+      <men xml:id="eqn-intert1">
+        2\eta t \cos r =n\lambda \qquad \text{where}\quad n=0,1,2,3,\cdots  
+      </men>
+       </li>
+       <li>
+        For dark fringes, <m>\Delta x = (2n+1)\frac{\lambda}{2}</m>,
+        <men xml:id="eqn-intert2">
+          2\eta t \cos r =(2n+1)\frac{\lambda}{2} \qquad [\text{where}\quad n=0,1,2,\cdots]
+        </men>
+         </li>
+   </ol>
+   In this case the interference fringes are less distinct because the difference in amplitude between BT and DP is very large.
+  </p>
+  </subsubsection>
+    </subsection>
+
+    <subsection xml:id="subsec-thinf_color">
+      <title>Colors of Thin Films</title>
+      <p>
+        As a light wave incident from the air into the soap film, part of it reflects off the top surface. 
+        When it does, it reflects inverted because it was moving from less dense air to more dense soap film.  
+        Most of the light energy transmitted into the soap film  where a small part of it reflects off again 
+        from the bottom surface of the soap film. This time, the wave reflects unchanged because it was 
+        going from more dense soap film to less dense air. When this wave energy transmits back into the air, 
+        it is <em>out-of-phase</em> with the wave that is reflecting off the top surface. 
+        This means that a crest of one matches up with a trough of the other. Interference of waves 
+        tells us that they will cancel each other out at this point. The overall effect is that some of 
+        the colors in the original white light disappear altogether, leaving other colors behind. 
+        These are the colors you see in soap bubbles.
+      </p>
+      <p>
+        When white light is incident on a thin film, the reflected light rays which satisfies the condition 
+        <me>
+          2\eta t \cos r = n\lambda
+        </me>
+         will not include any color. Therefore, the film appears colored and the 
+         color will depend upon the thickness and the angle of inclination [<xref ref="colorsthinfilms"/>]. 
+         If r and t are constant, the 
+         color will be uniform. In the case of oil and water different colors are seen because r and t vary. 
+         The wavelengths (in nm) of visible spectrum is listed as 
+         <me>
+          Violet,\, V=380-420;
+         </me>
+         <me>
+          Indigo,\, I=420-450;
+         </me>
+         <me>
+          Blue,\, B=450-490;
+         </me>
+         <me>
+          Green,\, G=490-570;
+         </me>
+         <me>
+          Yellow,\, Y=570-590;
+         </me>
+         <me>
+         Orange,\, O=590-620;
+         </me>
+         <me>
+          Red,\, R=620-750.
+         </me>
+             </p>
+    </subsection>
+
+    <subsection xml:id="subsec-diffraction">
+      <title>Diffraction</title>
+      <introduction>
+       
+      <p>
+        We may have seen a geometrical shadow around the bright spot when the light coming through a 
+        hole falls on a screen. If the size of hole is decreased gradually, the brightness also 
+        spreads over the geometrical shadow region, which could not be explained on the basis of 
+        geometrical optics. Such phenomenon of bending of light around the corners of a narrow aperture 
+        or obstacle and spreading of light waves into geometrical shadow is called <term>diffraction</term>. 
+        It is also a superposition of two light waves just as in case of interference. 
+        The difference is that when two wavefronts from coherent sources are superimposed 
+        interference takes place but when two secondary wavelets of a same wavefront superimpose 
+        diffraction takes place. Hence two coherent sources are mandatory for interference pattern 
+        but only one source is sufficient enough to produce diffraction pattern. Thus diffraction is a 
+        superposition of two or more secondary wavelets. The diffraction phenomena can only 
+        be explained on the basis of wave theory of light.
+      </p>
+      <figure>
+        <caption></caption>
+        <sidebyside widths="35% 35%">
+                <figure xml:id="diffapert">
+              <caption></caption>
+              <image source="diffapert.png"/>
+          </figure>
+              <figure xml:id="diffobst">
+                <caption></caption>
+                <image source="diffobst.png"/>
+            </figure>
+             </sidebyside>
+      </figure>
+      <p>
+        Consider a monochromatic light from a source S is passing through samll aperture MN and 
+        falls on the screen XY. On the screen AB is a bright portion and the portion above point A 
+        and below point B is geometric shadow. From the rectilinear propagation of light the 
+        geometrical shadow region must be completely dark but we know that the there is an encroachment 
+        of light and shadow is no longer a complete dark rather darkness prevails more as we go further 
+        above A or below B as shown in <xref ref="diffapert"/>. Similarly, if an opaque obstacle MN 
+        is placed in the path of light there should be illumination in the geometrical shadow region AB 
+        also as shown in <xref ref="diffobst"/>. In order to see the illumination in a geometrical 
+        shadow the size of the obstacle must be comparable to the wavelength of light.
+      </p>
+      <p>
+        Light waves have very small wavelength from <m>4\times10^{-7}\,m</m> mto <m>7 \times 10^{-7}\, m</m>. 
+        If the size of opening or obstacle is near to this limit, then only diffraction takes place. 
+        Huygens wavelets theory with the help of principle of interference can explain satisfactorily 
+        the bending effect of light around the obstacles. Diffraction phenomena can be divided into two types: 
+        <em>Fresnel diffraction</em> and <em>Fraunhofer diffraction</em>. In Fresnel class, the source and the 
+        screen  are taken at finite distances from the aperture or obstacle. In Fraunhofer class, 
+        the source and the screen  are taken virtually at infinite distances from the aperture or obstacle. 
+        The incoming light is rendered parallel with a lens and the diffracted beam is focused on the 
+        screen with another lens.  Fresnel diffraction does not require any lens.  
+        A plane wavefront is considered in Fraunhofer diffraction. We discuss here only Fraunhoffer type diffraction.
+      </p>
+     
+    </introduction>
+
+
+      <subsubsection xml:id="subsubsec-ssdiffrct">
+        <title> Single Slit Diffraction</title>
+        <p>
+         To obtain a Fraunhoffer diffraction pattern, the incident wavefront must be plane 
+         and the diffracted light is collected on the screen with the help of a lens. 
+         To obtain a  plane wavefront either the source is set at far away from the slit or a 
+         source is placed at a focus of a lens as shown in <xref ref="fraunarrng"/>. 
+        </p>
+        <figure xml:id="fraunarrng">
+          <caption></caption>
+          <image source="fraunarrng.png" width="45%"/>
+      </figure>
+        <p>
+          Let a parallel beam of monochromatic light be incident on a slit AB of width a. 
+          The secondary waves traveling in the same direction as the incident light come to 
+          focus at the point O and those traveling at an angle <m>\theta</m> come to focus at 
+          P as shown in <xref ref="diffraction1"/>.
+        </p>
+        <figure>
+          <caption></caption>
+          <sidebyside widths="35% 35%">
+                  <figure xml:id="diffraction1">
+                <caption></caption>
+                <image source="diffraction1.png"/>
+            </figure>
+                <figure xml:id="diffgraph">
+                  <caption></caption>
+                  <image source="diffgraph.png"/>
+              </figure>
+               </sidebyside>
+        </figure>
+        <p>
+          Consider a plane wavefront is incident on the slit AB and each point on this wavefront 
+          behaves as a source of secondary disturbance (Huygen's principle). The secondary waves  
+          (wavelets) from A and B reach the point O after traveling the equal distance  
+          and produce the central bright fringe. The path difference between the waves 
+          from A and B to point O is zero. Hence, the secondary waves reinforce each other at point O 
+          and the point O will be of maximum intensity. 
+        </p>
+        <p>
+          Now consider the secondary waves from point A travel with the inclination <m>\theta</m> 
+          reach the point P. All the secondary waves from slit when reach the point P then point P 
+          will be of maximum or minimum intensity depending on the path difference between them 
+          originating from the corresponding points of the wavefront on slit. Draw BL normal on BP, 
+          then from <m>\triangle ABL</m>,  
+          <me>
+            \sin\theta =\frac{BL}{a} \quad \Rightarrow BL=a\sin\theta
+          </me>
+          where a is the width of the slit and BL is the path difference between secondary waves 
+          originating from points A and B. If <m>BL = \lambda</m>, then point P will be a point of minimum intensity. 
+          To understand this concept divide the  wavefront into two halves AC and BC and if the path difference 
+          between the secondary waves from A and B is <m>\lambda</m>, then path difference between the secondary 
+          waves from point A and C will be <m>\frac{\lambda}{2}</m>. Similarly from every point in the upper half 
+          AC there is a corresponding point in the lower half BC and the path difference between the secondary 
+          waves from these points is  <m>\frac{\lambda}{2}</m>. Thus, destructive interference takes place 
+          and the point P will be of minimum intensity. If <m>BL=2\lambda</m>, then also the point where 
+          they meet on the screen will be of minimum intensity. To understand this concept the wavefront 
+          AB now can be divided into four quarters. The secondary waves from first quarter meet on that 
+          from second quarter on screen in opposite phase, i.e. in <m>\frac{\lambda}{2}</m> path difference 
+          and cancel out each other. Hence the point on screen will be of minimum intensity. 
+          In general for secondary minima
+        </p>
+        <p>
+          <men xml:id="eqn-ssdiffr1">
+            a\sin\theta_{n}=n\lambda 
+          </men>
+          where <m>\theta_{n}</m> gives the direction of <m>n^{th}</m> minimum, here <m>n =1,2,3,\cdots</m>. 
+          If, however, the path difference is odd multiple of <m>\frac{\lambda}{2}</m>, 
+          the direction of secondary maxima can be obtained. In this case, 
+          <men xml:id="eqn-ssdiffr2">
+            a\sin\theta_{n}=(2n+1)\frac{\lambda}{2} 
+          </men>
+          Thus, the diffraction pattern due to a single slit consists of a central bright maximum at 
+          O followed by secondary maxima and minima on both sides. All waves do not interfere 
+          constructively for this situation, and so the maximum is not as intense as the central maximum. 
+          The intensity distribution on the screen is given in <xref ref="diffgraph"/>. 
+          The secondary maxima are of much less intensity and the intensity also falls of rapidly from 
+          the point O outwards. From <xref ref="diffraction1"/>, we have 
+          <me>
+            \tan\theta=\frac{y}{D} \simeq \sin\theta = \frac{\lambda}{a} 
+          </me>
+          
+          <men xml:id="eqn-ssdiffr3">
+            \Rightarrow y=\frac{\lambda D}{a}  \quad \text{(Small angles)}
+          </men>
+          Therefore, the width of central maximum <me>=2y=\frac{2\lambda D}{a}</me>, 
+          i.e. no diffraction if width of slit, a is very large as <m>\theta</m> becomes very small. 
+          <me>
+            \text{fringe width,}\quad \beta = y_{2}-y_{1}= D\frac{n\lambda}{a} 	\quad \text{(small angles.)} 
+          </me>
+                  </p>
+      </subsubsection>
+
+      <subsubsection xml:id="subsubsec-issdiff">
+        <title>Intensity of Diffraction Pattern due to a Single Slit</title>
+        <p>
+          Consider the center of the slit C as a origin of coordinates and the element <m>\,dz</m> 
+          of the wavefront at coordinate (0,z). The distance of the element <m>\,dz</m> from point P is <m>\rho</m>.
+        </p>
+          <figure xml:id="diffraction2">
+            <caption></caption>
+            <image source="diffraction2.png" width="45%"/>
+        </figure>
+        <p>
+            The displacement at point P due to the waves coming from the element <m>\,dz</m> at any time is given by 
+            <me>
+              \,dy=A\sin(\omega t - k\rho)\,dz
+            </me>
+            The resultant displacement at P due to the whole wavefront, 
+            <men xml:id="eqn-issdiff1">
+              y=\int\limits_{-\frac{a}{2}}^{+\frac{a}{2}} A\sin(\omega t - k\rho)\,dz  
+            </men>
+            From <xref ref="diffraction2"/>, 
+            <me>
+              \sin\theta = \frac{\delta x}{z}
+            </me>
+            <me>
+              \Rightarrow \delta x = z\sin\theta = r-\rho
+            </me>
+                 </p>
+                 <p>
+                  <me>
+                    \text{or,} \quad \rho = r-z\sin\theta
+                  </me>
+                  <men xml:id="eqn-issdiff2">
+                    \therefore \quad y=\int\limits_{-\frac{a}{2}}^{+\frac{a}{2}} A\sin\left[\omega t - k(r-z\sin\theta)\right]\,dz  
+                  </men>
+                  <me>
+                    \text{or,} \quad y=\left.\frac{-A\cos\left[\omega t - k(r-z\sin\theta)\right]}{k\sin\theta}\right]_{-\frac{a}{2}}^{+\frac{a}{2}} 
+                  </me>
+                  <me>
+                    \text{or,} \quad y =-\frac{A}{k\sin\theta}\left[\cos\left\{\omega t -k\left(r-\frac{a}{2}\sin\theta\right)\right\}-\cos\left\{\omega t -k\left(r+\frac{a}{2}\sin\theta\right)\right\}\right]
+                  </me>
+                 <me>
+                  \text{or,} \quad y =-\frac{A}{k\sin\theta}\left[\cos\left\{(\omega t -kr)+\frac{ka}{2}\sin\theta \right\}-\cos\left\{(\omega t -kr)-\frac{ka}{2}\sin\theta \right\}\right] 
+                 </me>
+                <men xml:id="eqn-issdiff3">
+                  \therefore \quad y = \frac{2A}{k\sin\theta}\sin\left(\frac{ka}{2}\sin\theta\right) \sin(\omega t-kr) 
+                </men>
+                <me>
+                  \text{Let}\quad \frac{ka}{2}\sin\theta =\alpha
+                </me>
+                <men xml:id="eqn-issdiff4">
+                  \therefore \quad y = Aa\frac{\sin\alpha}{\alpha} \sin(\omega t-kr) 
+                </men>
+                Therefore the amplitude at P is <m>\left(Aa\frac{\sin\alpha}{\alpha}\right)</m>
+                 and thus intensity at P is 
+                 <me>
+                  I=\left(Aa\frac{\sin\alpha}{\alpha}\right)^{2} = A^{2}a^{2}\left( \frac{\sin^{2}\alpha}{\alpha^{2}}\right) 
+                 </me>
+               <men xml:id="eqn-issdiff5">
+                \therefore\quad I = I_{o} \left(\frac{\sin^{2}\alpha}{\alpha^{2}}\right) 
+               </men>
+        <m>\because\quad \lim\limits_{\alpha \to 0} \frac{\sin\alpha}{\alpha}=1</m>
+           we have 
+           <me>
+            I=I_{o}\quad [\textbf{central maximum},\quad as \quad \alpha \to 0, \theta \to 0.]
+           </me>
+          For secondary maxima, from eqn. <xref ref="eqn-ssdiffr2"/>, 
+          <me>
+            \sin\theta_{n}  = \frac{(2n+1)\lambda}{2a} 
+          </me>
+          <men xml:id="eqn-issdiff6">
+            \therefore\quad \alpha = \frac{ka}{2}\frac{(2n+1)\lambda}{2a} = \frac{(2n+1)\pi}{2} \quad [k=\frac{2\pi}{\lambda}] 
+          </men>
+          Substituting <m>n=1,2,3,\cdots</m>, we have 
+          <me>
+            \alpha = \frac{3\pi}{2}, \frac{5\pi}{2},\frac{7\pi}{2}, \cdots
+          </me>
+                          </p>
+                          <p>
+                            <ol>
+                              <li>
+                                <p>
+                                  For the first secondary maximum <m>\alpha=\frac{3\pi}{2}</m>, 
+                                  <me>
+                                    \therefore\quad I =I_{o}\left(\frac{\sin\alpha}{\alpha}\right)^{2} 
+                                      </me>
+                                      <me>
+                                        = I_{o} \left(\frac{-1}{\frac{3\pi}{2}}\right)^{2} =\frac{4I_{o}}{9\pi^{2}}
+                                      </me>
+                                        </p>
+                              </li>
+                              <li>
+                                <p>
+                                  For the second secondary maximum <m>\alpha=\frac{5\pi}{2}</m>, 
+                                  <me>
+                                    \therefore\quad I =I_{o}\left(\frac{\sin\alpha}{\alpha}\right)^{2}
+                                  </me>
+                                  <me>
+                                    = I_{o} \left(\frac{1}{\frac{5\pi}{2}}\right)^{2} =\frac{4I_{o}}{25\pi^{2}}
+                                  </me>
+                                  </p>
+                              </li>
+                            </ol>
+                          </p>
+                          <p>
+                            Thus the secondary maxima are of decreasing intensity. For 
+                            secondary minima, from eqn. <xref ref="eqn-ssdiffr1"/>,
+                            <me>
+                              \sin\theta_{n}  = \frac{n\lambda}{a} 
+                            </me>
+                            <men xml:id="eqn-issdiff7">
+                              \therefore\quad \alpha = \frac{ka}{2}\frac{n\lambda}{a} = n\pi \quad [k=\frac{2\pi}{\lambda}]  
+                            </men>
+                            Substituting <m>n=1,2,3,\cdots</m>, we have <m>\alpha = \pi,\, 2\pi, \, 3\pi, \,\cdots</m>. 
+                            Therefore the intensity of secondary minima are given as 
+                            <me>
+                              I=I_{o}\left(\frac{\sin\alpha}{\alpha}\right)^{2} =0 
+                            </me>
+                              </p>
+      </subsubsection>
+    </subsection>
+
+    <subsection xml:id="subsec-dsdiffrc">
+      <title>Double Slits Diffraction</title>
+      <introduction>
+        <p>
+          If the width of slit is very narrow such as <m>a \lt \lt \lambda</m>, then in the double-slit experiment, 
+          the central maximum of the diffraction pattern of either slit covers the entire viewing screen and the 
+          interference of light produces bright fringes with approximately the same intensity. In practice, however, 
+          the condition <m>a \lt \lt \lambda</m> is not met. For relatively wide slits <xref ref="ddiff"/>, the interference of light 
+          from two slits produces bright fringes that do not all have the same intensity. That is, the intensities 
+          of the fringes produced by double-slit interference are modified by diffraction of the light passing through each slit. 
+        </p>
+        <figure>
+          <caption></caption>
+          <sidebyside widths="30% 30%">
+                  <figure xml:id="ddiff">
+                <caption></caption>
+                <image source="ddiff.png"/>
+            </figure>
+                <figure xml:id="diffgraph3">
+                <caption></caption>
+                <image source="diffgraph3.png"/>
+            </figure>
+               </sidebyside>
+        </figure>
+<p>
+  The intensity of <xref ref="ddiff"/>suggests the double-slit interference pattern that would occur 
+  if the slits were infinitely narrow; all the bright interference fringes would have the same intensity. 
+  The intensity plot of <xref ref="ddiff"/> is that for diffraction by a single slit; the diffraction pattern has 
+  a broad central maximum and weaker secondary maxima. The plot of <xref ref="diffgraph3"/> suggests the interference 
+  pattern for two actual slits. That plot was constructed by using the curve of <xref ref="ddiff"/> as an envelope 
+  on the intensity plot in <xref ref="diffgraph3"/>. The positions of the fringes are not changed; only the intensities are affected.
+</p>
+<p>
+  Double slit diffraction can be explained as a combination of 
+  <ol marker="i.">
+    <li>
+      the interference pattern due to secondary waves coming from the corresponding points of the two slits and
+    </li>
+    <li>
+      the diffraction pattern due to the secondary waves from the two slits individually. 
+    </li>
+  </ol>
+</p>
+<figure xml:id="ddiff2">
+  <caption></caption>
+  <image source="ddiff2.png" width="45%"/>
+</figure>
+<p>
+<ol>
+  <li>
+    <p>
+      <term>Interference maxima and minima:</term> Consider the secondary waves traveling in direction 
+      <m>\theta</m> with the initial direction of the incident light. Now from <m>\triangle ACN</m> from <xref ref="ddiff2"/> 
+      <me>
+        \sin\theta=\frac{CN}{AC}=\frac{CN}{a+b}\quad \Rightarrow CN=(a+b)\sin\theta
+      </me>
+      If the path difference CN is an odd multiple of <m>\lambda/2</m>, then <m>\theta</m> gives the direction of 
+      minima due to interference of the secondary waves. 
+      <men xml:id="eqn-dsidiff1">
+        \therefore\quad CN = (a+b) \sin\theta_{n}=(2n+1)\frac{\lambda}{2}  \quad [n=1,2,3,\cdots] 
+      </men>
+      <men xml:id="eqn-dsidiff2">
+        \text{or,}\quad \sin\theta_{n}=\frac{(2n+1)\lambda}{2(a+b)} 
+      </men>
+     But when CN is an even multiple of <m>\lambda/2</m>, then <m>\theta</m> gives the direction of 
+     maxima due to interference of the secondary waves. 
+     <me>
+      \therefore\quad CN = (a+b) \sin\theta_{n}=2n\frac{\lambda}{2}  \quad [n=1,2,3,\cdots] 
+     </me>
+     
+     <men xml:id="eqn-dsidiff3">
+      \text{or,}\quad \sin\theta_{n}=\frac{n\lambda}{a+b}  
+     </men>
+   The angular separation between any two consecutive minima or maxima is given by 
+   <me>
+    \sin\theta_{n}-\sin\theta_{n-1} = \frac{\lambda}{a+b} 
+   </me>
+      </p>
+  </li>
+  <li>
+    <p>
+      <term>Diffraction maxima and minima:</term> Consider the secondary waves traveling in direction 
+      <m>\phi</m> with the initial direction of the incident light from a same slit. If the path difference 
+      BM is equal to <m>\lambda</m>, then <m>\phi </m> will give the direction of diffraction minimum. 
+      If the wavefront AB divides into two halves, then the path difference between the corresponding 
+      points of the upper and lower half is equal to <m>\lambda/2.</m> Hence the point P has no effect 
+      due to wavefront coming from slit AB. Similarly, there is no effect at P due to the waves coming from 
+      slit CD with the same inclination. In general, 
+      <men xml:id="eqn-dsidiff4">
+        a\sin\phi_{n} = n\lambda \quad [n=1,2,3,\cdots] 
+      </men>
+      </p>
+  </li>
+</ol>
+</p>
+      </introduction>
+
+      <subsubsection xml:id="subsubsec-idsdiffrc">
+        <title>Intensity of Diffraction Pattern due to Double Slits</title>
+        <p>
+          The intensity due to Fraunhoffer double slits diffraction can be obtained by using eqn. <xref ref="eqn-issdiff1"/>.
+          <me>
+            y = A \left[\int\limits_{-\frac{a}{2}}^{\frac{a}{2}} \sin\left(\omega t -kr+kz\sin\theta \right)\,dz  + \int\limits_{d-\frac{a}{2}}^{d+\frac{a}{2}} \sin\left(\omega t -kr+kz\sin\theta \right)\,dz  \right] 
+          </me>
+          <me>
+            \therefore \quad y = aA \frac{\sin\alpha}{\alpha}\sin(\omega t -kr) + A \left[\frac{-\cos(\omega t -kr+kz\sin\theta)}{k\sin\theta}\right]_{d-\frac{a}{2}}^{d+\frac{a}{2}} 
+          </me>
+          <me>
+            \text{or,} \quad y =  \frac{aA\sin\alpha}{\alpha}\sin(\omega t -kr) - \frac{A}{k\sin\theta} \left[ \cos\left(\omega t -kr+kd\sin\theta + \frac{ka\sin\theta}{2}\right)\right.
+          </me>
+          <me>
+            \left.-\cos\left(\omega t -kr+kd\sin\theta - \frac{ka\sin\theta}{2}\right) \right]
+          </me>
+          <me>
+            \text{or,} \quad y =  \frac{aA\sin\alpha}{\alpha}\sin(\omega t -kr) + \frac{2A}{k\sin\theta} \left[ \sin\left(\omega t -kr+kd\sin\theta\right)\cdot\sin\left(\frac{ka\sin\theta}{2}\right)\right] 
+          </me>
+          <me>
+            \text{or,} \quad y =  \frac{aA\sin\alpha}{\alpha}\sin(\omega t -kr) + \frac{Aa\sin\alpha}{\alpha}  \sin\left(\omega t -kr+kd\sin\theta\right)
+          </me>
+          <m>\left( \because \frac{ka\sin\theta}{2}=\alpha \right)</m>
+                  </p>
+                  <p>
+                 <me>
+                  \text{or,} \quad y =  \frac{aA\sin\alpha}{\alpha}\left[\sin(\omega t -kr) +  \sin\left(\omega t -kr+kd\sin\theta\right) \right]
+                 </me>
+                 <me>
+                  \text{or,} \quad y =  \frac{2aA\sin\alpha}{\alpha}\left[\sin(\omega t -kr) + \frac{kd\sin\theta}{2}\right] \cos\left(-\frac{kd\sin\theta}{2} \right) 
+                 </me>
+                 Let 
+                 <me>
+                  \frac{kd\sin\theta}{2}=\beta,
+                 </me>
+                  and 
+                  <me>
+                    \cos(-\theta) = \cos\theta, 
+                  </me>
+                  we have - 
+                  <men xml:id="eqn-idsdiffrc1">
+                    \therefore \quad y =  \frac{2aA\sin\alpha}{\alpha} \cos\beta \sin(\omega t -kr+\beta)  
+                  </men>
+                The intensity at point P is therefore given by  
+                <men xml:id="eqn-idsdiffrc2">
+                  I=4a^{2}A^{2}\left(\frac{\sin^{2}\alpha}{\alpha^{2}}\right)\cos^{2}\beta  = 4I_{o}\left(\frac{\sin\alpha}{\alpha}\right)^{2}\cos^{2}\beta 
+                </men>
+              The intensity at central maximum is <m>4I_{o}</m> when <m>\alpha=0</m> and <m>\beta=0</m>. 
+                  </p>
+                  <p>
+                    In <xref ref="diffgraph3"/>, the red envelop represents the intensity distribution due 
+                    to diffraction in double slits <m>\left[\frac{\sin\alpha}{\alpha} \right]^{2},</m> also 
+                    called diffraction factor and blue curve represents the intensity distribution due to 
+                    interference of waves from both the slits <m>\left[\cos^{2}\beta\right],</m> also called interference factor. 
+                    <me>
+                      \text{Here}\quad \beta = \frac{\pi d\sin\theta}{\lambda}
+                    </me>
+                    <me>
+                      \text{and}\quad \alpha =\frac{\pi a\sin\theta}{\lambda}
+                    </me>
+                   Interference maxima occur when <m>\,d\sin\theta =m\lambda</m> and first diffraction minimum 
+                   occurs when <m>\,a\sin\theta =\lambda</m>. The <m> m^{th} </m> order of interference maximum 
+                   coincide with the first order diffraction minimum, which is given by <m>m=d/a</m>. 
+                   If <m>\frac{d}{a}=\frac{a+b}{a} =1;\quad  b=0</m>. In this case, the first order spectrum will 
+                   be absent and the resultant diffraction pattern is similar to single slit diffraction. If 
+                   <m>\frac{a+b}{a} =2; \quad a=b</m>, then second order spectrum will be absent.
+                  </p>
+      </subsubsection>
+        </subsection>
+
+        <subsection xml:id="subsec-msdiffrc">
+          <title>Multiple Slits Diffraction</title>
+          <p>
+            For a single slit, 
+            <me>
+              y = A\int\limits_{-\frac{a}{2}}^{\frac{a}{2}}\sin\left(\omega t-kr+kz\sin\theta\right)\,dz
+            </me>
+                        Let <m>\sin\left(\omega t -kr+kz\sin\theta\right) =\phi(z).</m>
+            Therefore, for N slits, 
+            <me>
+              y = A\left[\int\limits_{-\frac{a}{2}}^{\frac{a}{2}}\phi(z)\,dz +\int\limits_{d-\frac{a}{2}}^{d+\frac{a}{2}}\phi(z)\,dz +\int\limits_{2d-\frac{a}{2}}^{2d+\frac{a}{2}}\phi(z)\,dz+\cdots+\int\limits_{(N-1)d-\frac{a}{2}}^{(N-1)d+\frac{a}{2}}\phi(z)\,dz \right]
+            </me>
+            <men xml:id="eqn-msdiffrc1">
+              \text{or,}\quad y= \frac{Aa\sin\alpha}{\alpha}\left[\sin(\omega t -kr)+\sin(\omega t -kr+kd\sin\theta)+\sin(\omega t -kr+2kd\sin\theta)+\sin(\omega t -kr+(N-1)kd\sin\theta)\right] 
+            </men>
+             <me>
+              \text{If}\quad S=\sin X+\sin (X+Y)+\sin (X+2Y)+\cdots+\sin (X+(N-1)Y) 
+             </me>
+             <me>
+              \text{then,}\quad S\cdot\sin(\frac{Y}{2})=\sin X\cdot\sin(\frac{Y}{2})+\sin (X+Y)\cdot\sin(\frac{Y}{2})+\sin (X+2Y)\cdot\sin(\frac{Y}{2})+\cdots +\cdots+\sin (X+(N-1)Y)\cdot\sin(\frac{Y}{2}) 
+             </me>
+             Using the identity <m>2sin(A)sin(B) = \cos(A-B)-\cos(A+B)</m>, we would obtain, 
+            <me>
+              S=\frac{\sin(X+(N-1)Y/2).\sin(NY/2)}{\sin(Y/2)} 
+            </me>
+            <me>
+              \therefore\quad y=\frac{Aa\sin\alpha}{\alpha}\left(\frac{\sin\frac{NY}{2}}{\sin\frac{Y}{2}}\right)\left[\sin\left\{X+\left(\frac{N-1}{2}\right)Y\right\}\right] 
+            </me>
+            <men xml:id="eqn-msdiffrc2">
+              y=\frac{Aa\sin\alpha}{\alpha}\left(\frac{\sin N\beta}{\sin\beta}\right) \left[\sin\left\{\omega t -kr +\left(\frac{(N-1)kd\sin\theta}{2}\right)\right\}\right]
+            </men>
+                        Therefore intensity at point P [<xref ref="ddiff"/>]
+                        <men xml:id="eqn-msdiffrc3">
+                          I = \frac{A^{2}a^{2}\sin^{2}\alpha}{\alpha^{2}}\left(\frac{\sin^{2} N\beta}{\sin^{2}\beta}\right) =I_{o}\left[\frac{\sin\alpha}{\alpha}\right]^{2}\left(\frac{\sin N\beta}{\sin\beta}\right)^{2} 
+                        </men>
+                         Where <m>I_{o}=A^{2}a^{2}</m> is the maximum intensity at <m>\alpha=0</m> and <m>\beta=0</m>. 
+            The directions of principal maxima is given by  <m>N\beta=k\pi</m>, where <m>k=0,N,2N,3N,\cdots = nN</m>. 
+            <me>
+              \therefore\quad N\beta=\frac{Nkd\sin\theta}{2}= nN\pi \Rightarrow d\sin\theta=n\lambda 
+            </me>
+                        where <m>n=0,1,2,3,\cdots</m> and <m>k=\frac{2\pi}{\lambda}</m>. 
+                        If a is slit width and b is width of the opaque space, then 
+                        <me>
+                          (a+b)\sin\theta_{n}=n\lambda
+                        </me>
+                         provides the direction of principal maxima. The intensity goes to zero, when
+                          <m>\frac{\sin\alpha}{\alpha}=0</m>  (diffraction condition) or  <m>\sin N\beta=0</m> (interference term).
+                     </p>
+        </subsection>
+
+        <subsection xml:id="subsec-diffgrating">
+          <title>Diffraction Grating</title>
+          <introduction>
+            <p>
+              Diffraction grating is a collection of large number of narrow slits on a plane surface (or spherical surface). 
+              The most common type of diffraction gratings are plane gratings and concave gratings. 
+              When the incident wavefront on a grating surface is transmitted through the slits and obstructed by 
+              the opaque portions it is called a transmission grating. If a fine lines are drawn on a plane glass plate using 
+              diamond, then the space between the lines is transparent to light and lines are opaque to light. 
+              Such surface acts as a transmission grating.  
+            </p>
+            <figure xml:id="ddiff4">
+              <caption></caption>
+              <image source="ddiff4.png" width="45%"/>
+            </figure>
+            <p>
+              If the lines are drawn on a silvered glass surface then light is reflected from the surface between two 
+              lines and such surface acts as a reflecting grating. The separation between the slits are comparable 
+              to the wavelength of light under study. The separation between two adjacent slits is known as granting element. 
+              If N is number of lines drawn on a length L then the grating element can be given as 
+              <me>
+                \frac{N}{L}= 	\frac{1}{d}.
+              </me>
+              Consider secondary waves of angle of deviation <m>\theta</m> with the incident light. 
+              The path difference between the waves coming from points A and C of two adjacent slits. 
+              <me>
+                \therefore\quad \text{path difference} = AC\sin\theta =(AB+BC)\sin\theta=(a+b)\sin\theta 
+              </me>
+              For the point P will be of maximum intensity 
+              <me>
+                (a+b)\sin\theta_{n} = n\lambda
+              </me>
+              where <m>n=1,2,3,\cdots</m> are order of principal maxima. If the incident light consists of 
+              more than one wavelength, then the angles of deviation for different wavelengths will be different. 
+            </p>
+          </introduction>
+
+          <subsubsection xml:id="subsubsec-grat_spectrom">
+            <title>Grating Spectrometer</title>
+            <p>
+              A spectrometer is a device used to study the spectrum of light. A grating is a heart of 
+              spectrometer as it disperses light of different wavelengths into narrow fringes. 
+              The angles of deviation of maxima of these fringes are then used to measure the  wavelength precisely. 
+              The spectrometer consists of a collimator tube with an adjustable entrance slit, a 
+              rotating table on which the diffraction grating can be mounted, a telescope for observing the diffracted 
+              light, and an accurate angular scale for measuring the relative directions of the various spectrometer 
+              components.  The diffraction grating disperses the light, so that the relationship between the 
+              diffraction angle <m>\theta</m> and the wavelength <m>\lambda</m> of the light is given by the 
+              equation 
+              <me>
+                \,dsin\theta = n\lambda,  \quad  n = 0, 1, 2, \cdots.
+              </me>
+                </p>
+          </subsubsection>
+
+          <subsubsection xml:id="subsubsec-resolv_power">
+            <title>Resolving Power</title>
+            <p>
+              The capacity of an optical instrument to produce separate images of very closely placed two objects 
+              is called resolving power. The resolving power of a grating is defined as the ratio of the wavelength 
+              of any spectral line to the difference in wavelength between this line and a neighboring line such that 
+              the two lines appear to be just resolved. Thus the resolving power of a grating, 
+              <me>
+                R = \frac{\lambda}{\,d\lambda}
+              </me>
+                </p>
+                <figure>
+                  <caption></caption>
+                  <sidebyside widths="30% 30%">
+                          <figure xml:id="ddiff5">
+                        <caption></caption>
+                        <image source="ddiff5.png"/>
+                    </figure>
+                        <figure xml:id="diffgraph5">
+                        <caption></caption>
+                        <image source="diffgraph5.png"/>
+                    </figure>
+                       </sidebyside>
+                </figure>
+                <p>
+                  The direction of <m>n^{th}</m> order primary maximum for wavelength <m>\lambda</m> is given by 
+                  <men xml:id="eqn-resolp1">
+                    (a+b)\sin\theta_{n}=n\lambda 
+                  </men>
+                The direction of <m>n^{th}</m> order primary maximum for wavelength <m>(\lambda+\,d\lambda)</m> is given by 
+                <men xml:id="eqn-resolp2">
+                  (a+b)\sin(\theta_{n}+\,d\theta) = n(\lambda+\,d\lambda)   
+                </men>
+            The two lines will be just resolved if the angle of diffraction  <m> (\theta_{n}+\,d\theta)</m> 
+            corresponds to the direction of first secondary minimum after the <m>n^{th}</m> primary maximum at <m>P_{1}</m>. 
+            <men xml:id="eqn-resolp3">
+              \therefore\quad (a+b)\sin(\theta_{n}+\,d\theta) = n\lambda +\frac{\lambda}{N} 
+            </men>
+            The term <m>\frac{\lambda}{N}</m> is the path difference of extreme points of first slit 
+            if there are  N number of lines (slits) on the grating surface. Wavelength <m>\lambda</m> is 
+            the path difference between secondary waves from the first point of first slit and the 
+            last point of the last slit. Equating eqns. <xref ref="eqn-resolp2"/> and <xref ref="eqn-resolp3"/>, we get - 
+            <me>
+              n(\lambda+\,d\lambda)   = n\lambda +\frac{\lambda}{N} 
+            </me>
+            
+            <men xml:id="eqn-resolp4">
+              \therefore\quad  \frac{\lambda}{\,d\lambda} =nN =R 
+            </men>
+                  </p>
+          </subsubsection>
+        </subsection>
+
+
+        <subsection xml:id="subsec-polrzn">
+          <title>Polarization</title>
+          <p>
+            Light is an electromagnetic wave of transverse in nature. Interference and diffraction phenomena 
+            proved that the light is a wave but could not explain whether it is a transverse or a longitudinal. 
+            The polarization of wave helps explain that the light is transverse in nature. When light wave propagates 
+            along x-axis, the electric field and magnetic field oscillate along all possible directions which are 
+            perpendicular to the x-axis, <xref ref="polr1a"/>. Since magnetic field is always perpendicular to 
+            the electric field, <xref ref="polr1b"/> and is much smaller than it (<m>\vec{E}=c\vec{B}</m>) we usually take 
+            the electric field to characterize the property of polarization of light. 
+          </p>
+          <figure>
+            <caption></caption>
+            <sidebyside widths="30% 30%">
+                    <figure xml:id="polr1a">
+                  <caption></caption>
+                  <image source="polr1a.png"/>
+              </figure>
+                  <figure xml:id="polr1b">
+                  <caption></caption>
+                  <image source="polr1b.png"/>
+              </figure>
+                 </sidebyside>
+          </figure>
+          <p>
+            If light wave is propagating along x-axis, then electric field <m>\vec{E}</m> oscillates in the xy plane 
+            and magnetic field <m>\vec{B}</m> oscillates in the xz plane. Normally, any light source emits unpolarized 
+            light, i.e. electric field could vibrates along all possible directions perpendicular to the light propagation. 
+            Hence, polarization is a phenomenon of restricting the vibration of electric filed in a single plane. 
+            Light is said to be linearly polarized if the direction of oscillation of electric field is confined to 
+            one direction. Polarization direction is always perpendicular to the direction of propagation and electric 
+            field vector oscillates in a plane of polarization.
+          </p>
+          <p>
+            <term>Polarization of transverse waves:</term> 
+            Let a rope AB be passed through two parallel slits <m> S_{1}</m> and <m>S_{2}</m> and point B is fixed. 
+            If the rope is disturbed at point A in such a way that it moves up and down then a transverse wave 
+            emerges through opening C and D and reaches to point B, <xref ref="polr2a"/>. However, if the slit 
+            <m>S_{2}</m> is made perpendicular to slit <m>S_{1} </m> then it is observed that no vibration can 
+            pass through  <m>S_{2}</m>, <xref ref="polr2b"/>. This experiment proves that the parallel slits only 
+            allow the transverse waves to pass through them. On the other hand, if longitudinal waves are set 
+            up by compressing and stretching a spring in place of a rope then it can be seen that waves will pass 
+            through both the slits irrespective of their orientations. 
+          </p>
+          <figure>
+            <caption></caption>
+            <sidebyside widths="30% 30%">
+                    <figure xml:id="polr2a">
+                  <caption></caption>
+                  <image source="polr2a.png"/>
+              </figure>
+                  <figure xml:id="polr2b">
+                  <caption></caption>
+                  <image source="polr2b.png"/>
+              </figure>
+                 </sidebyside>
+          </figure>
+          <p>
+            A similar phenomenon has been observed in light when it passes through a tourmaline 
+            crystal <fn>A tourmaline crystal has a hexagonal system with four axes. Three are equal in 
+              length and intersect at <m>60^{o}</m>. The vertical C- axis or longer axis intersects the 
+              other shorter axes at <m>90^{o}. </m> The c-axis also called optic axis is associated with 
+              unique optical properties. when a beam of plane-polarized light is incident normally on a 
+              plate of tourmaline cut parallel to the optic axis, it will be absorbed or transmitted depending 
+              upon whether the axis of the tourmaline is parallel or perpendicular to the plane of polarization 
+              of the incident light.</fn> which acts as a slit and called a Polaroid. A polaroid transmits only 
+              the component of light along a particular direction and absorbs the component perpendicular to that direction.
+          </p>
+          <figure>
+            <caption></caption>
+            <sidebyside widths="30% 30%">
+                    <figure xml:id="polr3a">
+                  <caption></caption>
+                  <image source="polr3a.png"/>
+              </figure>
+                  <figure xml:id="polr3b">
+                  <caption></caption>
+                  <image source="polr3b.png"/>
+              </figure>
+                 </sidebyside>
+          </figure>
+          <p>
+            If the ordinary light is passed through these crystals when they are rotating in such a way that their 
+            axes are always parallel then no change has been observed in the light coming out of crystal B, 
+            <xref ref="polr3a"/>. On the other hand, if crystal A is fixed and crystal B is rotated with respect 
+            to A then light transmitted through B becomes dimmer gradually and no light is emerges out of B 
+            when it is perpendicular to A, <xref ref="polr3b"/>. If B is further rotated then light intensity 
+            increases gradually and becomes maximum when B becomes parallel to A again. This experiment 
+            concludes that light is not propagated as longitudinal waves rather it is transverse in nature 
+            otherwise it could never be extinguished by simply rotating crystal B. 
+          </p>
+          <figure xml:id="polr4a">
+            <caption></caption>
+            <image source="polr4a.png" width="45%"/>
+        </figure>
+          <p>
+            Ordinary light waves after passing through crystal A become polarized as their all vibrations 
+            filter except the one which is parallel to the crystal (optic) axis. Hence crystal A is also 
+            called polarizer and crystal B is called analyzer. The plane of polarization consists no vibrations. 
+            The plane in which vibrations are confined after passing through the polarizer is called the plane 
+            of vibration, <xref ref="polr4a"/>. Ordinary light may consist of large number of wavelengths and vibrations 
+            may be linear, circular, or elliptical. Circular or elliptical vibrations consist of two linear vibrations 
+            which are perpendicular to each other. The vibrations parallel to plane of the paper are shown as arrow heads 
+            and that perpendicular to the plane of paper are shown as dots in <xref ref="polr4a"/>.  
+          </p>
+        </subsection>
   </section>
 

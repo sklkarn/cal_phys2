@@ -710,10 +710,232 @@
   <subsubsection xml:id="subsubsec-lumenflx">
     <title>Luminous Flux, <m>\phi</m></title>
     <p>
-
+      The amount of light which flows from a source in one second is known as luminous flux. 
+      It is only that part of total radiant energy which is visible and affect the eye. 
+      Its SI unit is Lumen. Lumen is defined as luminous flux per unit solid angle due to a 
+      point source of one candela.
     </p>
-  </subsubsection>
+    <p>
+      Let a point source of light of one candela at the center of an imaginary sphere of radius r. 
+      Suppose the total luminous flux = <m>\phi</m>, the total solid angle subtends at the center 
+      of sphere by the entire surface area of the sphere, 
+      <me>
+        \omega=\frac{\text{area of sphere}}{r^{2}} = \frac{4\pi r^{2}}{r^{2}} =4\pi \, st.rad
+      </me>
+      <me>
+       or,  \quad \text{one lumen} = \frac{\phi}{\omega}=\frac{\phi}{4\pi}
+      </me>
+      <me>
+        \therefore\quad \phi= 4\pi \,lumen
+      </me>
+      Lumen is also defined as the flow of light energy per second through 1 square meter of a source of 1 m radius, 
+      where a source of 1 candela is placed at the center of curvature.
+    </p>
+   </subsubsection>
+
 </subsection>
 
+
+<subsection xml:id="subsec-isl">
+  <title> Inverse Square Law</title>
+  <p>
+   Consider a point source of light at O. Draw two spheres of radii <m>R_{1}</m> and <m>R_{2}</m>. 
+   Let the source gives out Q amount of energy per second. Now amount of energy flowing across 
+   the surface AB of surface area <m>S_{1}</m> in one second,
+  </p>
+  <figure xml:id="ISl">
+    <caption></caption>
+    <image source="ISl.png" width="45%"/>
+</figure>
+  <p>
+    <me>
+      E_{1}=\frac{QS_{1}}{4\pi R_{1}^{2}}
+    </me>
+          Also, amount of energy flowing accross the surface CD of surface area <m>S_{2}</m> in one second, 
+          <me>
+            E_{2}=\frac{QS_{2}}{4\pi R_{2}^{2}}
+          </me>
+                But from source, 
+                <me>
+                  E_{1}=E_{2}
+                </me>
+                <me>
+                  \therefore \quad \frac{QS_{1}}{4\pi R_{1}^{2}} = \frac{QS_{2}}{4\pi R_{2}^{2}}
+                </me>
+               <men xml:id="eqn-isl1">
+                or, \quad \frac{S_{1}}{S_{2}}=\frac{R_{1}^{2}}{R_{2}^{2}} 
+               </men>
+             </p>
+             <p>
+              Again, energy flowing out of the sphere per unit area per second is given by 
+              <me>
+                I_{1}=\frac{Q}{4\pi R_{1}^{2}} 
+              </me>
+              <me>
+                I_{2}=\frac{Q}{4\pi R_{2}^{2}}
+              </me>
+              <men xml:id="eqn-isl2">
+                \frac{I_{1}}{I_{2}}=\frac{R_{2}^{2}}{R_{1}^{2}} 
+              </men>
+              From eqns. <xref ref="eqn-isl1"/> and <xref ref="eqn-isl2"/>, we have - 
+              <me>
+                \frac{I_{1}}{I_{2}}=\frac{S_{2}}{S_{1}}=\frac{R_{2}^{2}}{R_{1}^{2}} 
+              </me>
+              
+              <men xml:id="eqn-isl3">
+                \therefore\quad I \propto \frac{1}{R^{2}}  
+              </men>
+          This is a famous inverse square law which states that the amount of light energy 
+          falling on a given surface from a point source is inversely proportional to the 
+          square of the  distance between the surface and the source.
+             </p>
+ </subsection>
+
+<subsection xml:id="subsec-iil">
+  <title>Intensity of Illumination</title>
+  <p>
+    It is defined as the flux falling per unit area on a given surface perpendicularly.  
+  </p>
+  <figure xml:id="Intill">
+    <caption></caption>
+    <image source="Intill.png" width="45%"/>
+</figure>
+  <p>
+Consider a point source of light, S and an element AB of the surface area, A  
+that subtends a solid angle <m>\omega</m> at the point S. A flux of <m>\phi</m> lumens 
+falls on the area AB. Intensity of illumination on AB, 
+<men xml:id="eqn-iil1">
+  I = \frac{\phi}{A} 
+</men>
+Let L is the illuminating power (luminous intensity) of the source which is a 
+luminous flux per unit solid angle. Its unit is candela.
+  </p>
+  <p>
+   <men xml:id="eqn-iil2">
+    L=\frac{\phi}{\omega}
+   </men>
+   <me>
+    or, \quad \phi = L\omega 
+   </me>
+  <men xml:id="eqn-iil3">
+    \therefore \quad I = \frac{L\omega}{A}  
+  </men>
+  Let the area of AC be <m>a_{1} </m>, where <m>a_{1}= a\cos\theta,</m> a being the surface area of AB. 
+  Therefore solid angle,
+  <me>
+    \omega =  \frac{a_{1}}{r^{2}} =\frac{a\cos\theta}{r^{2}}
+  </me>
+ <men xml:id="eqn-iil4">
+  or, \quad I = \frac{La\cos\theta}{ar^{2}} = \frac{L\cos\theta}{r^{2}} 
+ </men>
+   </p>
+   <p>
+    This is known as Lambert's law. The intensity of illumination is  
+    <ol marker="i.">
+      <li>
+        <p>
+          directly proportional to the luminous intensity (illuminating power) of the source,
+        </p>
+      </li>
+      <li>
+        <p>
+          directly proportional to the cosine of the angle of incidence of light radiations on the given surface, and
+        </p>
+      </li>
+      <li>
+        <p>
+          inversely proportional to the square of the distance between the source and the surface.
+        </p>
+      </li>
+    </ol>
+      If <m>\theta=0, \cos\theta = 1,</m> then 
+      <me>
+        I = \frac{L}{r^{2}}
+      </me>
+     i.e., maximum illumination of a surface is obtained when light falls normally on the surface.
+   </p>
+   <p>
+    <term>Units of intensity of illumination: </term> 
+   <em> Lux:</em> It is the amount of light that falls on a spherical surface of unit square 
+   meter of radius one meter if a source of one candela is kept at the center of this sphere. 
+   One lux = one lumen per square meter (in SI unit). One phot = one lumen per square centimeter (in cgs unit).
+   </p>
+</subsection>
+
+
+<subsection xml:id="subsec-bsil">
+  <title>Brightness of a surface and illumination</title>
+  <introduction>
+    <p>
+      The brightness of a surface depends on the reflecting power of the surface and it is 
+      not the same as the intensity of illumination. For example, 
+      <ol>
+        <li>
+          <p>
+            The brightness of a white chalk on the blackboard is very high as compared to the 
+            black polish on the board, but the intensity of illumination of the white chalk and black polish is the same.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the two opposite walls of a room are painted with white paint and red paint, respectively 
+            then the wall with white paint appears brighter than the red wall. However, the intensity of 
+            illumination of both the walls is same as the amount of luminous flux per square cm incident 
+            on each wall is the same.
+          </p>
+        </li>
+      </ol>
+Due to these reasons, the brightness of a surface is defined as the luminous flux per sq. cm. coming out of 
+the surface after reflection. If I is the intensity of illumination and R is the reflecting power of 
+the surface, then the brightness of the surface = RI.
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-bgsp">
+    <title>Bunsen's Grease Spot Photometer</title>
+    <p>
+      This photometer is used to compare the luminous intensities of the two sources 
+      or to calculate the luminous intensity of the unknown source by comparing that with the known source. 
+      It consists of a piece of white paper with grease spot at its center lies in between the two sources 
+      whose luminous intensities are to be compared. The two sources on the optical bench are so adjusted 
+      that the grease spot becomes indistinguishable from the rest of the paper. 
+         </p>
+         <figure xml:id="bgsp">
+          <caption></caption>
+          <image source="bgsp.png" width="65%"/>
+      </figure>
+         <p>
+          When light falls on the grease spot it transmits the fraction of incident light and 
+          reflects the rest of it. Let x be the fraction of transmitted light by the grease spot, 
+          then the fraction of light reflected from it's surface would be (1-x). Hence the light energy 
+          coming out per second from a unit area of the grease spot to the left side of the paper is 
+          <m>I_{1}(1-x) + I_{2}x,</m> where <m> I_{1}</m> and <m>I_{2} </m> are intensities of illumination of 
+          a left side and right side of the paper due to two sources <m>S_{1}</m> and <m>S_{1}</m>, respectively. 
+          Similarly, light coming out per second from the unit area of the grease spot to the right 
+          side of the paper is <m>I_{1}x + I_{2}(1-x).</m>
+         </p>
+         <p>
+          For the grease spot to be indistinguishable from the paper, we must have - 
+          <me>
+            I_{1}(1-x) + I_{2}x =I_{1}x + I_{2}(1-x)
+          </me>
+          <me>
+            or,\quad I_{1}(1-2x) = I_{2}(1-2x)
+          </me>
+          <me>
+            \therefore\quad I_{1}=I_{2}
+          </me>
+          <me>
+            or,\quad \frac{L_{1}}{r_{1}^{2}} = \frac{L_{2}}{r_{2}^{2}} 
+          </me>
+          <me>
+            \therefore\quad \frac{L_{1}}{L_{2}} = \left(\frac{r_{1}}{r_{2}}\right)^{2}
+          </me>
+          By measuring the distance <m>r_{1}</m> and <m> r_{2}</m>  of sources from the grease spot, 
+          the luminous intensities of the two sources can be compared. 
+          If one of them is known the other can be calculated.
+         </p>
+  </subsubsection>
+</subsection>
   </section>
 

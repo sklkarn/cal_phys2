@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-examplesD" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples D</title>
+  
+
+  <example>
+    <statement>
+      <p>
+        In a double slit interference experiment, the spacing between the slits is <m>10 \,\mu m</m> 
+        and the screen is at a distance of 2 m. If light of wavelength 500 nm is used, find 
+        <ol marker="a.">
+          <li>
+            the location of the first dark fringe,
+          </li>
+          <li>
+            the location of the third (off axis) bright fringe,
+          </li>
+          <li>
+            the spacing between the fringes,
+          </li>
+          <li>
+            the theoretical maximum number of bright fringes possible. 
+          </li>
+        </ol>
+             </p>
+    </statement>
+    <solution>
+      <image source="fig79.png" width ="60%"> </image>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              \Delta x=d\sin\theta = m \frac{\lambda}{2}
+            </me>
+            <me>
+              \text{or,}\quad 10.00\times10^{-6}\sin\theta = \frac{1}{2}500.00\times10^{-9} \Rightarrow \theta = 1.43^{o} 
+            </me>
+            <me>
+              y=D\tan\theta \Rightarrow y = 2\tan(1.43^{o}) \Rightarrow y = 5 \,cm
+            </me>
+             </li>
+          <li>
+            <me>
+              \Delta x=d\sin\theta = m \lambda 
+            </me>
+            <me>
+              \text{or,}\quad 10.00\times10^{-6}\sin\theta = (3)(500.00\times10^{-9}) \Rightarrow \theta = 8.63^{o}
+            </me>
+            <me>
+              y=D\tan\theta \Rightarrow y = 2\tan(8.63^{o}) \Rightarrow y = 30 \,cm
+            </me>
+               </li>
+          <li>
+            <me>
+              \beta = \frac{D\lambda}{d} = 10 \,cm
+            </me>
+            <me>
+              \text{alternate,}\quad 10.00\times10^{-6}\sin\theta =(1) (500\times10^{-9})\Rightarrow \theta = 2.86^{o}
+            </me>
+            <me>
+              y=2\tan 2.86^{o} \Rightarrow y= 10 \,cm
+            </me>
+                </li>
+          <li>
+            <me>
+              \Delta x=d\sin\theta = m \lambda
+            </me>
+            <me>
+              \text{or,}\quad 10.00\times10^{-6}\sin 90^{o} = (m)(500.00\times10^{-9}) \Rightarrow m = 20 
+            </me>
+            <me>
+              m_{total}=2m+1, 
+            </me>
+           fringes on both sides plus central frings 
+            <me>
+              \Rightarrow m=41.
+            </me>
+             </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        <ol marker="a.">
+          <li>
+            What is the minimum thickness of a soap bubble film with index of refraction 1.33 which would reflect most brightly 
+            red light of wavelength 650 nm? 
+          </li>
+          <li>
+            What is the minimum thickness of an anti-reflecting coating of index of refraction 1.4 on a glass lens of index 1.5 
+            which would reflect no green light of wavelength 550 nm?
+          </li>
+          <li>
+            What would be the color of the light that is reflected off the lens? 
+          </li>
+        </ol>
+        </p>
+         </statement>
+    <solution>
+      <image source="fig80.png" width ="60%"> </image>
+      <p>
+        <ol marker="a.">
+          <li>
+            As I reflected ray is <m>180^{o}</m> out of phase by itself due to reflection from a 
+            surface of high refracting medium, so in order to make it interferes constructively 
+            with II emergent ray from films the total path difference between these rays must be 
+            equal to integral multiple of <m>\lambda/2</m>. 
+            <me>
+              \therefore \quad 2t=m\frac{\lambda_{film}}{2},
+            </me>
+            set m = 1 for minimum thickness. 
+            <me>
+              \text{or,}\quad 2t=\frac{\lambda_{film}}{2} \quad \text{for bright fringe}
+            </me>
+             <me>
+              but, n = \frac{c}{v}= \frac{\nu \lambda_{o}}{\nu \lambda_{film}} = \frac{ \lambda_{o}}{ \lambda_{film}} 
+             </me>
+             <me>
+              \Rightarrow \lambda_{film} = \frac{\lambda_{o}}{n_{2}}
+             </me>
+             <me>
+              \text{or,}\quad t=\frac{\lambda_{film}}{4} = \frac{\lambda_{o}}{4 n_{2}}  = \frac{650 \,nm}{4\times1.33} =122 \,nm
+             </me>
+                 </li>
+          <li>
+            As I and II rays are <m>180^{o}</m> out of phase due to reflection from a surface of 
+            high refracting medium, so in order to make them interfere destructively total path 
+            difference between them must be equal to integral multiple of <m>\lambda/2</m>  
+            <me>
+              \therefore 2t = m\frac{\lambda_{film}}{2}
+            </me>
+              set m = 1$  for minimum thickness. 
+              <me>
+                \text{or},\quad t = \frac{\lambda_{film}}{4} = \frac{\lambda_{o}}{4 n_{2}} = \frac{550\,nm}{4\times1.4} =98\,nm
+              </me>
+                </li>
+          <li>
+            Since green light is transmitted, red and blue are reflected. Therefore, color reflected is magenta.
+          </li>
+        </ol> 
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A parallel beam of light <m>\lambda=5890 \,\AA </m> is incident on a thin glass plate (n=1.5) 
+        such that the angle of refraction into the plate is <m>60^{o}</m>.  Calculate the minimum 
+        thickness of the glass plate which will appear dark by reflection.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        For destructive interference by reflected ray, 
+        <me>
+          2\eta t \cos r = n\lambda
+        </me>
+        <me>
+          \Rightarrow t = \frac{n\lambda}{2 \eta \cos r} = \frac{1\times 5890}{2\times 1.5\times 0.5}=3926 \,\AA; 
+        </me>
+        for minimum thickness, set n=1.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A beam of parallel rays is incident at an angle of <m>30^{o}</m> with the normal 
+        on a plane parallel film of thickness <m>4\times 10^{-5} \,cm</m> and refractive index is 1.5. 
+        Show that the reflected light whose wavelength is <m>7.539\times 10^{-5} \,cm,</m> 
+        will be strengthened by reinforcement.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        For constructive interference by reflected ray, 
+        <me>
+          2\eta t \cos r = \frac{n\lambda}{2} 
+        </me>
+        <me>
+          or, \quad n =\frac{4\eta t \cos r}{\lambda}  =\frac{4\times 1.5\times \cos 19.4}{7.539\times 10^{-5} } =3
+        </me>
+      at <me> i = 30^{o},\quad \eta_{1}\sin i = \eta_{2}\sin r </me> 
+       <me> \Rightarrow \sin r = \frac{\sin 30}{1.5} =0.33 </me>
+       <me>
+         \Rightarrow r= 19.4^{o}.
+       </me>
+        </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A single slit of width 0.2 mm is illuminated with a beam of laser light of wavelength 600 nm 
+        which casts a single slit diffraction pattern on a screen 6 m away. 
+        <ol marker="a.">
+          <li>
+            What is the linear spacing between two successive fringes observed on the screen? 
+          </li>
+          <li>
+            How far from the central bright fringe is the 4^{th} dark fringe located?
+          </li>
+          <li>
+            How far from the central (zero^{th}) bright fringe is the first bright fringe located? 
+          </li>
+        </ol>
+             </p>
+    </statement>
+    <solution>
+      <p>
+      Given: <m>a=2.0\times10^{-4}\,m; \quad \lambda= 6.0\times10^{-7}\,m; \quad D = 6\,m</m> 
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+           <me>
+            \beta = m\frac{D \lambda}{a} = 0.018 \,m \quad [set\quad m=1]
+           </me>
+           
+          </li>
+          <li>
+          <me>
+            y = m\beta = 4\times0.018=0.072 \,m
+          </me>
+          
+          </li>
+          <li>
+           <me>
+            y = \frac{mD\lambda}{a}= 0.027 \,m \quad [set\quad m=\frac{3}{2}]
+           </me>
+           
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A diffraction grating has 500 slits per millimeter. 
+        <ol marker="a.">
+          <li>
+            What is the angle between red light of wavelength 700 nm and violet light of wavelength 400 nm for the second order spectrum? 
+          </li>
+          <li>
+            Does the third order spectrum overlap the second order spectrum?
+          </li>
+          <li>
+            If a beam of green light of wavelength 550 nm passes through the grating and is projected on a wall 4 meters away, 
+            what is the distance between the first order fringe and the second order fringe?
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              \frac{N}{L} = \frac{1}{d} \Rightarrow   \frac{500}{0.001} = \frac{1}{d} \Rightarrow d=2\times10^{-6}\,m
+            </me>
+              <me>
+              \,d\sin\theta_{1} = m\lambda_{1} \Rightarrow  2\times10^{-6} \sin\theta_{1} = (2)(700\times10^{-9}) \Rightarrow \theta_{1} = 44.4^{o}
+            </me>
+            <me>
+              \,d\sin\theta_{2} = m\lambda_{2} \Rightarrow 2\times10^{-6} \sin\theta_{2} = (2)(400\times10^{-9}) \Rightarrow \theta_{2} = 23.6^{o}
+            </me>
+            <me>
+              \Delta\theta = \theta_{1}-\theta_{2}=20.8^{o}
+            </me>
+            </li>
+          <li>
+            <me>
+              \,d\sin\theta_{3} = m\lambda_{3} \Rightarrow 2\times10^{-6} \sin\theta_{3} = (3)(400\times10^{-9})\Rightarrow \theta_{3} = 36.9^{o}
+            </me>
+             Since the third order red <m>\theta_{3} = 36.9^{o}</m> is less than the second order violet <m>\theta_{1} = 44.4^{o}</m>, yes.
+          </li>
+          <li>
+            <me>
+              \,d\sin\theta_{4} = m\lambda_{4} \Rightarrow  2\times10^{-6} \sin\theta_{4} = (1)(550\times10^{-9}) \Rightarrow \theta_{4} = 16.0^{o}
+            </me>
+            <me>
+              \tan\theta_{4} = \frac{y_{4}}{D} \Rightarrow \tan(16.0^{o}) = \frac{y_{4}}{4}  \Rightarrow y_{4}  = 1.14 \,m 
+            </me>
+            <me>
+              \,d\sin\theta_{5} = m\lambda_{5} \Rightarrow 2\times10^{-6} \sin\theta_{5} = (2)(550\times10^{-9}) \Rightarrow \theta_{5} = 33.4^{o}
+            </me>
+            <me>
+              \tan\theta_{5} = \frac{y_{5}}{D} \Rightarrow \tan(33.4^{o}) = \frac{y_{5}}{4}  \Rightarrow y_{5}  = 2.63 \,m
+            </me>
+            <me>
+              \Delta y =y_{1}-y_{2}= 1.49 \,m 
+            </me>
+             </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+</section>

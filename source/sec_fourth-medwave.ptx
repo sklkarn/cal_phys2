@@ -383,8 +383,15 @@ If
     Hence we need to define intensity of wave, which is energy transmitted by the wave 
     in unit area of this material in unit time. 
     <me>
-      I = \frac{E}{A t} = \frac{\frac{1}{2}mv^{2}_{max}} {A t} =\frac{\frac{1}{2}\rho V (s_{o}\omega)^{2}} {A t} =\frac{1}{2} \rho v s^{2}_{o}\omega^{2} 
+      I = \frac{E}{A t} = \frac{\frac{1}{2}mv^{2}_{max}} {A t} =\frac{\frac{1}{2}\rho V (s_{o}\omega)^{2}} {A t} 
     </me>
+    <me>
+     \therefore \quad I =\frac{1}{2} \rho v s^{2}_{o}\omega^{2} 
+    </me>
+    <men xml:id="eqn-ia_rel1">
+      I \propto A^2  \quad [\because \quad s_o=A.]
+    </men>
+    
           <me>
       =\frac{1}{2}\sqrt{\rho B} \omega^{2} s^{2}_{o}\quad	\text{(In Fluid)}
      </me>
