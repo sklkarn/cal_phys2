@@ -882,11 +882,11 @@
 
   <exercise>
     <p>
-      Green light of wavelength <m>5100\, \AA </m> from\item	An object of height 5 cm is located at a 
-      distance 30 cm in front of a convex lens of focal length 10 cm and radii of curvature . 
+      Green light of wavelength <m>5100\, \overset{\circ}{A} </m> from 
       <ol marker="a.">
         <li>
-          Where is the image located?
+          An object of height 5 cm is located at a  distance 30 cm in front of a convex lens of focal length 10 cm 
+          and radii of curvature.  Where is the image located?
         </li>
         <li>
           Is the image real or virtual?
@@ -1000,7 +1000,7 @@
 
   <exercise>
     <p>
-      How many orders will be visible if the wavelength of the incident light is <m> 5000\,Angstrom </m> 
+      How many orders will be visible if the wavelength of the incident light is <m> 5000\,\overset{\circ}{A} </m> 
       and the number of lines on the grating is 2620 per inch.
     </p>
   </exercise>

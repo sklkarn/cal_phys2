@@ -149,7 +149,7 @@
   <example>
     <statement>
       <p>
-        A parallel beam of light <m>\lambda=5890 \,\AA </m> is incident on a thin glass plate (n=1.5) 
+        A parallel beam of light <m>\lambda=5890 \,\overset{\circ}{A}</m> is incident on a thin glass plate (n=1.5) 
         such that the angle of refraction into the plate is <m>60^{o}</m>.  Calculate the minimum 
         thickness of the glass plate which will appear dark by reflection.
       </p>
