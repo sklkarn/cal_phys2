@@ -3238,7 +3238,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "4.4.3",
   "title": "Energy Transport in a Mechanical Wave",
-  "body": " Energy Transport in a Mechanical Wave  When wave passes through the medium it transfers energy to that medium. Consider a small portion of oscillating string in which sinusoidal wave is propagated then average energy attains by the particle of a string is given by where m and is the mass and maximum velocity of the particle of that string.  Waves on a string carry energy along the length of the string, but when waves pass through a solid or a fluid they carry energy along all three dimensions of space. Hence we need to define intensity of wave, which is energy transmitted by the wave in unit area of this material in unit time.  here , is amplitude of oscillation, and v is wave speed. Since intensity obeys inverse square law as  where is the surface area of a sphere of radius, r of space in which wave is propagated. Hence intensity of the wave decreases by the square of the distance it propagated.  "
+  "body": " Energy Transport in a Mechanical Wave  When wave passes through the medium it transfers energy to that medium. Consider a small portion of oscillating string in which sinusoidal wave is propagated then average energy attains by the particle of a string is given by where m and is the mass and maximum velocity of the particle of that string.  Waves on a string carry energy along the length of the string, but when waves pass through a solid or a fluid they carry energy along all three dimensions of space. Hence we need to define intensity of wave, which is energy transmitted by the wave in unit area of this material in unit time.    here , is amplitude of oscillation, and v is wave speed. Since intensity obeys inverse square law as  where is the surface area of a sphere of radius, r of space in which wave is propagated. Hence intensity of the wave decreases by the square of the distance it propagated.  "
 },
 {
   "id": "subsec-interferMW",
@@ -4479,8 +4479,8 @@ var ptx_lunr_docs = [
   "url": "subsec-rainbow.html",
   "type": "Subsection",
   "number": "5.3.4",
-  "title": "Rainbow:",
-  "body": " Rainbow:   A rainbow is an optical phenomenon, which is produced in the sky due to the combined effect of refraction, internal reflection, and dispersion of light in water droplets. A rainbow consists of the primary rainbow and the secondary rainbow. The primary (main) rainbow is caused by two refractions and one internal reflection inside a rain droplet. The secondary rainbow appears outside the primary one and is caused by two refractions and two internal reflections inside the spherical water droplet. The colors of the secondary rainbow are reversed from the primary bow, and the secondary bow is twice as broad.               A rainbow can be seen in the sky when an observer facing opposite to the sun look at about above the horizon to suspended water droplets. Each individual droplet of water acts as a tiny prism that both disperses the light and reflects it back to the observer's eye. As you sight into the sky, wavelengths of light associated with a specific color arrive at your eye from the collection of droplets as shown in . The net effect of the vast array of droplets is that a circular arc of VIBGYOR is seen across the sky. A rainbow is actually a complete circle but observers on the ground only view the top half of the circle since the bottom half of the circular arc is prevented by the presence of the ground. However, observers in an airborne plane can view the complete circular bow. Rainbows are not limited to the dispersion of light by raindrops. The splashing of water in front of you forms water mist in the air and if you are facing opposite to the sun then the chances are you can create your own rainbows. Bright sunlight, suspended water droplets and the proper angle of sighting are the three necessary components for viewing one of nature's most spectacular activities.    Primary Rainbow  Consider a ray AP from the sun is incident at point P in a spherical water droplet and refracts along PQ. If the angle of incidence of ray PQ at point P is greater than the critical angle for water air interface then light gets internally reflected along QR from the back surface of drop and may emerge into the air at the point R as shown in . During this operation the deviation suffered by the ray of light is given by the , since the line MO is parallel to the incident ray AP and line ON is parallel to the emergent ray RB. Note that the absorption, reflection, and refraction happen in light at each point it strikes on the surface of droplet. From figure at left,         Using Snell's law at point P, we have -  where for air and the refractive index of water.   Now from eqn. , we get - A rainbow will form when the angle of deviation is maximum for the given angle of incidence i, i.e., when . If this condition is satisfied, all the rays with incident angle close to will be sent back in the same direction, producing a bright zone in the sky.  Differentiating eqn. w.r.t. and set that to zero, we get -           Since for red light, angle of incidence at maximum deviation is given by   Also for violet light,         That is, the different colors of light correspond to different wavelengths of light, which are refracted at slightly different angles, thus splitting the white sunlight into red and violet lights. The color of the primary rainbow are spread over about out of the away from the anti-solar point as shown in . The viewer sees the rainbow with the red at the outer side of the arc and the violet on the inner side. Our perception of vision for violet light is not that sensitive hence, we see blue light more clearly than violet light. It is to be remembered that sunlight strikes the raindrops at different angles of incidence and undergoes different deviations. Only those rays produce a rainbow which have the angle of incidence corresponding to maximum angles of deviation.    Secondary Rainbow  In secondary rainbow, there are two reflections and two refractions. From f the total deviation   Now for minimum deviation             using eqn.    Taking refractive index of water for red light, angle of deviation, The acute angle Taking refractive index of water for violet light, angle of deviation, The acute angle Hence, the angle of inclination for violet light is more than for red light.   "
+  "title": "Rainbow",
+  "body": " Rainbow   A rainbow is an optical phenomenon, which is produced in the sky due to the combined effect of refraction, internal reflection, and dispersion of light in water droplets. A rainbow consists of the primary rainbow and the secondary rainbow. The primary (main) rainbow is caused by two refractions and one internal reflection inside a rain droplet. The secondary rainbow appears outside the primary one and is caused by two refractions and two internal reflections inside the spherical water droplet. The colors of the secondary rainbow are reversed from the primary bow, and the secondary bow is twice as broad.               A rainbow can be seen in the sky when an observer facing opposite to the sun look at about above the horizon to suspended water droplets. Each individual droplet of water acts as a tiny prism that both disperses the light and reflects it back to the observer's eye. As you sight into the sky, wavelengths of light associated with a specific color arrive at your eye from the collection of droplets as shown in . The net effect of the vast array of droplets is that a circular arc of VIBGYOR is seen across the sky. A rainbow is actually a complete circle but observers on the ground only view the top half of the circle since the bottom half of the circular arc is prevented by the presence of the ground. However, observers in an airborne plane can view the complete circular bow. Rainbows are not limited to the dispersion of light by raindrops. The splashing of water in front of you forms water mist in the air and if you are facing opposite to the sun then the chances are you can create your own rainbows. Bright sunlight, suspended water droplets and the proper angle of sighting are the three necessary components for viewing one of nature's most spectacular activities.    Primary Rainbow  Consider a ray AP from the sun is incident at point P in a spherical water droplet and refracts along PQ. If the angle of incidence of ray PQ at point P is greater than the critical angle for water air interface then light gets internally reflected along QR from the back surface of drop and may emerge into the air at the point R as shown in . During this operation the deviation suffered by the ray of light is given by the , since the line MO is parallel to the incident ray AP and line ON is parallel to the emergent ray RB. Note that the absorption, reflection, and refraction happen in light at each point it strikes on the surface of droplet. From figure at left,         Using Snell's law at point P, we have -  where for air and the refractive index of water.   Now from eqn. , we get - A rainbow will form when the angle of deviation is maximum for the given angle of incidence i, i.e., when . If this condition is satisfied, all the rays with incident angle close to will be sent back in the same direction, producing a bright zone in the sky.  Differentiating eqn. w.r.t. and set that to zero, we get -           Since for red light, angle of incidence at maximum deviation is given by   Also for violet light,         That is, the different colors of light correspond to different wavelengths of light, which are refracted at slightly different angles, thus splitting the white sunlight into red and violet lights. The color of the primary rainbow are spread over about out of the away from the anti-solar point as shown in . The viewer sees the rainbow with the red at the outer side of the arc and the violet on the inner side. Our perception of vision for violet light is not that sensitive hence, we see blue light more clearly than violet light. It is to be remembered that sunlight strikes the raindrops at different angles of incidence and undergoes different deviations. Only those rays produce a rainbow which have the angle of incidence corresponding to maximum angles of deviation.    Secondary Rainbow  In secondary rainbow, there are two reflections and two refractions. From f the total deviation   Now for minimum deviation             using eqn.    Taking refractive index of water for red light, angle of deviation, The acute angle Taking refractive index of water for violet light, angle of deviation, The acute angle Hence, the angle of inclination for violet light is more than for red light.   "
 },
 {
   "id": "rainbow",
@@ -4948,7 +4948,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "5.6.5",
   "title": "Photometry",
-  "body": " Photometry   The branch of optics which deals with the measurement of light energy is called photometry. Light is either reflected by the object or is emitted by it. Most of the objects are seen when it reflects light, such as wall, book, moon, etc. Objects like lamp, stars, sun, etc. can be seen when it emits its own light. To protect eye from light strain, some standard of illumination must be set. Hence, it is necessary to measure the quantity of light emitted by a source as well as the amount of light reflecting from some surface. The classroom illumination of 250 lumens per square meter (or, lux) should be preferable, whereas operation theater should be preferable to about 1000 lumens per square meter (or, lux).    Standard Candle  A standard candle is made out of sperm wax weighing 1\/6 pound, 7\/8 inch in diameter, 4.5 cm in height, and it burns at the rate of 120 grains per hour. It was taken as a standard unit of illuminating power of a source in early days. If the source gives off light 60 times as the light given out by a standard candle then its power is taken as 60 candle power. However, such measurement cannot be used in scientific work as the power of candle depends on the shape of wick, size of flame during different seasons. With the advancement in science standard of light has been defined in terms of blackbody radiation. International unit of Luminous intensity (or, Illuminating power) of source is taken as candela. One candela is 1\/60 of the light luminosity coming out of a hole of area of a hollow cavity acting as a black body radiator maintained at the freezing point ( ) of platinum.    Solid Angle,  It is an angle subtends by any object at a point. It is defined as the ratio of surface area of an object to the square of distance of object from the point at which solid angle is being subtended.       where S is the surface area of the object perpendicular to the rays subtending the angle at the point and r is the distance of object from the point. If S is oblique to r then, Its SI unit is steradian (st.rad.).   "
+  "body": " Photometry   The branch of optics which deals with the measurement of light energy is called photometry. Light is either reflected by the object or is emitted by it. Most of the objects are seen when it reflects light, such as wall, book, moon, etc. Objects like lamp, stars, sun, etc. can be seen when it emits its own light. To protect eye from light strain, some standard of illumination must be set. Hence, it is necessary to measure the quantity of light emitted by a source as well as the amount of light reflecting from some surface. The classroom illumination of 250 lumens per square meter (or, lux) should be preferable, whereas operation theater should be preferable to about 1000 lumens per square meter (or, lux).    Standard Candle  A standard candle is made out of sperm wax weighing 1\/6 pound, 7\/8 inch in diameter, 4.5 cm in height, and it burns at the rate of 120 grains per hour. It was taken as a standard unit of illuminating power of a source in early days. If the source gives off light 60 times as the light given out by a standard candle then its power is taken as 60 candle power. However, such measurement cannot be used in scientific work as the power of candle depends on the shape of wick, size of flame during different seasons. With the advancement in science standard of light has been defined in terms of blackbody radiation. International unit of Luminous intensity (or, Illuminating power) of source is taken as candela. One candela is 1\/60 of the light luminosity coming out of a hole of area of a hollow cavity acting as a black body radiator maintained at the freezing point ( ) of platinum.    Solid Angle,  It is an angle subtends by any object at a point. It is defined as the ratio of surface area of an object to the square of distance of object from the point at which solid angle is being subtended.       where S is the surface area of the object perpendicular to the rays subtending the angle at the point and r is the distance of object from the point. If S is oblique to r then, Its SI unit is steradian (st.rad.).    Luminous Flux,  The amount of light which flows from a source in one second is known as luminous flux. It is only that part of total radiant energy which is visible and affect the eye. Its SI unit is Lumen. Lumen is defined as luminous flux per unit solid angle due to a point source of one candela.  Let a point source of light of one candela at the center of an imaginary sphere of radius r. Suppose the total luminous flux = , the total solid angle subtends at the center of sphere by the entire surface area of the sphere,   Lumen is also defined as the flow of light energy per second through 1 square meter of a source of 1 m radius, where a source of 1 candela is placed at the center of curvature.   "
 },
 {
   "id": "sangl",
@@ -4960,38 +4960,551 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
+  "id": "subsec-isl",
+  "level": "1",
+  "url": "subsec-isl.html",
+  "type": "Subsection",
+  "number": "5.6.6",
+  "title": "Inverse Square Law",
+  "body": " Inverse Square Law  Consider a point source of light at O. Draw two spheres of radii and . Let the source gives out Q amount of energy per second. Now amount of energy flowing across the surface AB of surface area in one second,       Also, amount of energy flowing accross the surface CD of surface area in one second, But from source,     Again, energy flowing out of the sphere per unit area per second is given by   From eqns. and , we have -  This is a famous inverse square law which states that the amount of light energy falling on a given surface from a point source is inversely proportional to the square of the distance between the surface and the source.  "
+},
+{
+  "id": "ISl",
+  "level": "2",
+  "url": "subsec-isl.html#ISl",
+  "type": "Figure",
+  "number": "5.6.17",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-iil",
+  "level": "1",
+  "url": "subsec-iil.html",
+  "type": "Subsection",
+  "number": "5.6.7",
+  "title": "Intensity of Illumination",
+  "body": " Intensity of Illumination  It is defined as the flux falling per unit area on a given surface perpendicularly.      Consider a point source of light, S and an element AB of the surface area, A that subtends a solid angle at the point S. A flux of lumens falls on the area AB. Intensity of illumination on AB, Let L is the illuminating power (luminous intensity) of the source which is a luminous flux per unit solid angle. Its unit is candela.     Let the area of AC be , where a being the surface area of AB. Therefore solid angle,    This is known as Lambert's law. The intensity of illumination is   directly proportional to the luminous intensity (illuminating power) of the source,    directly proportional to the cosine of the angle of incidence of light radiations on the given surface, and    inversely proportional to the square of the distance between the source and the surface.   If then i.e., maximum illumination of a surface is obtained when light falls normally on the surface.   Units of intensity of illumination:  Lux: It is the amount of light that falls on a spherical surface of unit square meter of radius one meter if a source of one candela is kept at the center of this sphere. One lux = one lumen per square meter (in SI unit). One phot = one lumen per square centimeter (in cgs unit).  "
+},
+{
+  "id": "Intill",
+  "level": "2",
+  "url": "subsec-iil.html#Intill",
+  "type": "Figure",
+  "number": "5.6.18",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1110",
+  "level": "2",
+  "url": "subsec-iil.html#p-1110",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Units of intensity of illumination: "
+},
+{
+  "id": "subsec-bsil",
+  "level": "1",
+  "url": "subsec-bsil.html",
+  "type": "Subsection",
+  "number": "5.6.8",
+  "title": "Brightness of a surface and illumination",
+  "body": " Brightness of a surface and illumination   The brightness of a surface depends on the reflecting power of the surface and it is not the same as the intensity of illumination. For example,   The brightness of a white chalk on the blackboard is very high as compared to the black polish on the board, but the intensity of illumination of the white chalk and black polish is the same.    If the two opposite walls of a room are painted with white paint and red paint, respectively then the wall with white paint appears brighter than the red wall. However, the intensity of illumination of both the walls is same as the amount of luminous flux per square cm incident on each wall is the same.   Due to these reasons, the brightness of a surface is defined as the luminous flux per sq. cm. coming out of the surface after reflection. If I is the intensity of illumination and R is the reflecting power of the surface, then the brightness of the surface = RI.    Bunsen's Grease Spot Photometer  This photometer is used to compare the luminous intensities of the two sources or to calculate the luminous intensity of the unknown source by comparing that with the known source. It consists of a piece of white paper with grease spot at its center lies in between the two sources whose luminous intensities are to be compared. The two sources on the optical bench are so adjusted that the grease spot becomes indistinguishable from the rest of the paper.      When light falls on the grease spot it transmits the fraction of incident light and reflects the rest of it. Let x be the fraction of transmitted light by the grease spot, then the fraction of light reflected from it's surface would be (1-x). Hence the light energy coming out per second from a unit area of the grease spot to the left side of the paper is where and are intensities of illumination of a left side and right side of the paper due to two sources and , respectively. Similarly, light coming out per second from the unit area of the grease spot to the right side of the paper is   For the grease spot to be indistinguishable from the paper, we must have -     By measuring the distance and of sources from the grease spot, the luminous intensities of the two sources can be compared. If one of them is known the other can be calculated.   "
+},
+{
+  "id": "bgsp",
+  "level": "2",
+  "url": "subsec-bsil.html#bgsp",
+  "type": "Figure",
+  "number": "5.6.19",
+  "title": "",
+  "body": "   "
+},
+{
   "id": "sec_fifth-examplesC",
   "level": "1",
   "url": "sec_fifth-examplesC.html",
   "type": "Section",
   "number": "5.7",
   "title": "Examples C",
-  "body": " Examples C  "
+  "body": " Examples C    A telescope consists of an objective lens of focal length 2 m and diameter 20 cm and an eyepiece of diameter 1 cm and focal length 2 cm.   What is the f-number of the objective.    If the moon has a diameter of 3480 km and is located at a distance of 386,000 km, what is the size and location of the moon's primary image as formed by the objective?    If the eyepiece acts like a simple magnifier, producing a virtual secondary image 25 cm from the lens, what is the distance between the eyepiece and the moon's primary image.    What is the lateral magnification of the telescope?    What is the angular magnification of the telescope?                                               A convex lens of focal length 10 cm is used as a magnifying glass. Find the magnifying power when  the image is formed at infinity and  the image is formed at the least distance of distinct vision.        When image is formed at infinity,   When image is formed at near point,         A person has his near point at 15 cm and a range of distinct vision of 85 cm. What is his range of distinct vision when he wears spectacles of power -0.8 diopter?     diopter, Now, let his near point after using spectacles be from the eye, then  Again, for the far point let it be from eye, hence,  Hence, the range of vision = 500-17= 483 cm.      What is the size of the image on the retina of an object of size 10 cm, held at 200.0 cm away? Assume the diameter of eye ball is 2.00 cm.    Given: Size of eye ball, size of object, distance of object from eye, and size of image,         A normal eye has a far point of infinity. The focal length of the eye lens is 2.5 cm. Determine  the image distance  lens power.      Using lens formula,  v=f=2.5 cm and is real image at retina.           A normal eye has a near point of 25 cm. The image distance is the same as the distance between cornea and retina = 2.5 cm. Determine  the focal length  lens power.      Using lens formula, \\[\\] \\[\\]              A far sighted person cannot see objects clearly that are closer to the eye than 73 cm. Determine the focal length of contact lenses that will enable this person to read a magazine at a distance of 25 cm.    A converging lens is required to correct far sightedness, hence distant objects need to be imaged at most 73 cm from the eye.          Two lamps of 100 candle power and 25 candle power are placed one meter apart. At what points on the line passing through them is the illumination due to each of them is same?    Let a point of equal intensity of illumination be at a distance from the source then   Since sources are placed at 1 m apart, r must be 2\/3 m.      A lamp of 100 candle power is suspended 6 m vertically above a point P on a horizontal surface. Calculate the illumination at a point Q on the surface 8 m from P and also at P.     At center point P on the table,   At the edge point Q of the table,       "
 },
 {
-  "id": "sec_fifth-physopt",
+  "id": "example-94",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-94",
+  "type": "Example",
+  "number": "5.7.1",
+  "title": "",
+  "body": "  A telescope consists of an objective lens of focal length 2 m and diameter 20 cm and an eyepiece of diameter 1 cm and focal length 2 cm.   What is the f-number of the objective.    If the moon has a diameter of 3480 km and is located at a distance of 386,000 km, what is the size and location of the moon's primary image as formed by the objective?    If the eyepiece acts like a simple magnifier, producing a virtual secondary image 25 cm from the lens, what is the distance between the eyepiece and the moon's primary image.    What is the lateral magnification of the telescope?    What is the angular magnification of the telescope?                                            "
+},
+{
+  "id": "example-95",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-95",
+  "type": "Example",
+  "number": "5.7.2",
+  "title": "",
+  "body": "  A convex lens of focal length 10 cm is used as a magnifying glass. Find the magnifying power when  the image is formed at infinity and  the image is formed at the least distance of distinct vision.        When image is formed at infinity,   When image is formed at near point,      "
+},
+{
+  "id": "example-96",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-96",
+  "type": "Example",
+  "number": "5.7.3",
+  "title": "",
+  "body": "  A person has his near point at 15 cm and a range of distinct vision of 85 cm. What is his range of distinct vision when he wears spectacles of power -0.8 diopter?     diopter, Now, let his near point after using spectacles be from the eye, then  Again, for the far point let it be from eye, hence,  Hence, the range of vision = 500-17= 483 cm.   "
+},
+{
+  "id": "example-97",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-97",
+  "type": "Example",
+  "number": "5.7.4",
+  "title": "",
+  "body": "  What is the size of the image on the retina of an object of size 10 cm, held at 200.0 cm away? Assume the diameter of eye ball is 2.00 cm.    Given: Size of eye ball, size of object, distance of object from eye, and size of image,      "
+},
+{
+  "id": "example-98",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-98",
+  "type": "Example",
+  "number": "5.7.5",
+  "title": "",
+  "body": "  A normal eye has a far point of infinity. The focal length of the eye lens is 2.5 cm. Determine  the image distance  lens power.      Using lens formula,  v=f=2.5 cm and is real image at retina.        "
+},
+{
+  "id": "example-99",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-99",
+  "type": "Example",
+  "number": "5.7.6",
+  "title": "",
+  "body": "  A normal eye has a near point of 25 cm. The image distance is the same as the distance between cornea and retina = 2.5 cm. Determine  the focal length  lens power.      Using lens formula, \\[\\] \\[\\]           "
+},
+{
+  "id": "example-100",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-100",
+  "type": "Example",
+  "number": "5.7.7",
+  "title": "",
+  "body": "  A far sighted person cannot see objects clearly that are closer to the eye than 73 cm. Determine the focal length of contact lenses that will enable this person to read a magazine at a distance of 25 cm.    A converging lens is required to correct far sightedness, hence distant objects need to be imaged at most 73 cm from the eye.       "
+},
+{
+  "id": "example-101",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-101",
+  "type": "Example",
+  "number": "5.7.8",
+  "title": "",
+  "body": "  Two lamps of 100 candle power and 25 candle power are placed one meter apart. At what points on the line passing through them is the illumination due to each of them is same?    Let a point of equal intensity of illumination be at a distance from the source then   Since sources are placed at 1 m apart, r must be 2\/3 m.   "
+},
+{
+  "id": "example-102",
+  "level": "2",
+  "url": "sec_fifth-examplesC.html#example-102",
+  "type": "Example",
+  "number": "5.7.9",
+  "title": "",
+  "body": "  A lamp of 100 candle power is suspended 6 m vertically above a point P on a horizontal surface. Calculate the illumination at a point Q on the surface 8 m from P and also at P.     At center point P on the table,   At the edge point Q of the table,      "
+},
+{
+  "id": "subsec-interfnc",
   "level": "1",
-  "url": "sec_fifth-physopt.html",
+  "url": "subsec-interfnc.html",
+  "type": "Subsection",
+  "number": "5.8.1",
+  "title": "Interference",
+  "body": " Interference   When two or more waves interact simultaneously at any particle in a medium, the resultant displacement of the particle at that instant is given by the superposition of all these waves. After the superposition from the region of overlapping these waves emerge as if they have not interfered at all. Each wave retains its individual characteristics and behaves as if others were not there. This behavior is known as principle of superposition . The principle of superposition states that when two or more waves meet at a point, the total displacement is the vector sum of the displacements that each individual wave would cause at that point.      The phenomenon of overlapping of two or more waves at a point in space is called an interference . Suppose two waves of same amplitudes and frequencies superimpose on each other at a point (in same phase) in such a way that the crest of one falls on the crest of the other or the trough of one falls on the trough of the other then the amplitude of the particle is twice the amplitude of either of the waves. At these points, the waves reinforce with each other. If they superimpose in (opposite phase) such a way that the crest of one falls on the trough of the other then the amplitude is zero. At these points, the waves cancel out the displacement of the particle due to each other. It is possible that in some region of space the energy is more than the energy due to individual waves and in some other region, it is less than that due to individual waves. Hence, the phenomenon of redistribution of energy due to superposition of waves is also termed as interference . This redistribution of energy depends upon the frequency, amplitude, and the phases of individual waves. It should be remembered that there is no loss of energy due to interference. Since intensity is proportional to square of amplitude, the intensity at a maximum displacement is four times than the intensity due to one of the waves. The interference with maximum intensity or maximum amplitude is known as constructive interference and those with minimum intensity or minimum amplitude is known as destructive interference . The interference phenomenon was first demonstrated clearly in Young's experiment in 1802.  A sunlight is allowed to pass through a pinhole S and then at some distance away on two other pinholes and as shown in . and are equidistant from S and are very close to each other. When a spherical wavefront from S reaches to and it distributed into two separate wavefronts of identical in nature (Huygen's principle). When these wavefronts superimpose to each other on the screen dark and bright bands can be observed clearly. The point such as O on the screen is bright because the crest of one wave falls on the crest of another (or trough of one falls on the trough of the other). Hence they reinforce each other. The points such as P are dark because the crest of one wave falls on the trough of the other wave and they neutralize the effect of each other.    Coherent Sources  It is not possible to have interference due to two independent sources of light because they are not similar to each other and can not maintain a constant phase difference. To have a sustained interference the two waves must be coherent (i.e., they have same wavelength, amplitude, and in a constant phase difference), and must be moving nearly parallel to each other. Since the wavelength of light is extremely small (of the order of ), the two sources must be narrow and very close to each other.  Two wave sources are said to be coherent if they emit light waves of same frequency (i.e. same wavelength), same amplitude, and in a constant phase difference with each other. In practice, it is not possible to have two independent sources which are coherent. A source of light consists of a large number of atoms and light pulse is emitted when an electron from higher energy levels falls onto a lower energy levels in an excited atom. The emission of light pulse from various atoms is random and hence such light pulses do not have constant phase relationship.               For sustained interference the superposing waves must be in constant phase difference which can be achieved through the following two methods called wavefront division or amplitude division. In wavefront division very narrow slits are taken help to divide the wavefront and form two virtual sources. According to Huygens principle every points on a wavefront behave as secondary sources that are vibrating in phase. Therefore portions of wave front cut by holes (or slits) are coherent sources and waves emitted by them are also coherent as shown in .  In amplitude division coherent sources are formed by dividing the amplitude of wave by multiple reflection and refraction by a thin transparent film. A ray of light gets partly reflected as ray and partly refracted when incident on a thin transparent film. At the point of incidence the refracted ray is again partly reflected and emerges out from the upper surface as ray . At every stage of reflection and refraction the intensity of light decreases. Now, intensity is proportional to square of amplitude hence at each stage amplitude is divided. Since, both rays have been obtained from a single ray, they are coherent as shown in .    Phase Difference and Path Difference  If the path difference between the two waves is , the phase difference between them is . Therefore if the path difference is x, then their phase difference, would be given by    "
+},
+{
+  "id": "p-1146",
+  "level": "2",
+  "url": "subsec-interfnc.html#p-1146",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "principle of superposition "
+},
+{
+  "id": "youngs2",
+  "level": "2",
+  "url": "subsec-interfnc.html#youngs2",
+  "type": "Figure",
+  "number": "5.8.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1147",
+  "level": "2",
+  "url": "subsec-interfnc.html#p-1147",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "interference constructive interference destructive interference "
+},
+{
+  "id": "p-1150",
+  "level": "2",
+  "url": "subsec-interfnc.html#p-1150",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "coherent "
+},
+{
+  "id": "figure-386",
+  "level": "2",
+  "url": "subsec-interfnc.html#figure-386",
+  "type": "Figure",
+  "number": "5.8.2",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-inter_fringe",
+  "level": "1",
+  "url": "subsec-inter_fringe.html",
+  "type": "Subsection",
+  "number": "5.8.2",
+  "title": "Theory of Interference Fringes",
+  "body": " Theory of Interference Fringes  Consider a monochromatic (single color) source of light $S$ which emits waves of wavelength . Two narrow slits and are placed equidistant from S and very close (distance, d apart) to each other so that they act like two virtual coherent sources. Let a screen be placed at a distance, D from the coherent sources as shown in .               If and are the displacement of the particle at point P on the screen when the waves from and reach at P, then the resultant displacement at P is given by the principle of superposition where a is amplitude of the waves and is their phase difference at P.     which represents the equation of simple harmonic vibration of amplitude A. Amplitude of resultant wave depends on the phase difference between two interfering waves, if , , which is maximum, i.e. constructive interference. If , , which is minimum, i.e. destructive interference. The intensity at a point is given by the square of the amplitude  look at       When phase difference or the path difference . Intensity is maximum when the phase difference between the interfering waves is an integral multiple of or the path difference between them is an integral multiple of .    When phase difference or the path difference . Intensity is minimum when the phase difference between the interfering waves is an odd number multiple of or the path difference between them is an odd number multiple of .     From eqn. , it is clear that intensity is at bright point and zero at dark point. Hence the energy is transferred from dark point to bright point. The intensity of the bright points due to two waves without interference would be which is the same as the average intensity after interference ( ). The waves emitting from the sources and are in phase hence, whether the point P is bright or dark depends upon the path difference of these waves when reach to point P. The path difference between waves at point P is given by Since as is a perpendicular on . The waves travel the same distance from to P and from L to P, hence, whether the waves reach at point P are in phase or in opposite phase can be described by . Where from  The slits and are very close to each other hence angle is very small. The screen is placed very far away from the slits hence the waves from and to P can be considered as parallel to each other, i.e., from  From eqns. and , we have -      For bright fringes,   At point O, path difference is zero and a bright fringe is formed, when    Therefore the distance between any two consecutive bright fringes    For dark fringes   For a dark fringe, when    Therefore the distance between any two consecutive dark fringes The fringe width is same for bright or dark fringe.  "
+},
+{
+  "id": "figure-389",
+  "level": "2",
+  "url": "subsec-inter_fringe.html#figure-389",
+  "type": "Figure",
+  "number": "5.8.3",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-thin_film",
+  "level": "1",
+  "url": "subsec-thin_film.html",
+  "type": "Subsection",
+  "number": "5.8.3",
+  "title": "Thickness of Thin Sheet of Transparent Material",
+  "body": " Thickness of Thin Sheet of Transparent Material  Consider A and B are two virtual coherent sources which produce a central bright fringe at point C. When a transparent plate G of thickness t and refractive index is introduced in the path of one of the beams, the fringe at C shifts to another point P as shown in . The time taken by the wave from B to P in air is the same as the time taken by the wave from A to P partly through air and partly through the plate. Suppose c and v are the velocity of light in air and in plate, respectively, then         If P is the point originally occupied be the fringes then the path difference  Also the distance y through which the fringe is shifted is given by  By knowing the value of fringe shifts of the central fringe y, the screen distance D, slits separation d, and refractive index of the material of thin transparent plate, its thickness t can be evaluated.  "
+},
+{
+  "id": "interplatethick",
+  "level": "2",
+  "url": "subsec-thin_film.html#interplatethick",
+  "type": "Figure",
+  "number": "5.8.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-thinfilm_interf",
+  "level": "1",
+  "url": "subsec-thinfilm_interf.html",
+  "type": "Subsection",
+  "number": "5.8.4",
+  "title": "Interference in Thin Films",
+  "body": " Interference in Thin Films   A colorful oil film on the surface of water and a colorful soap bubble can be a pretty pleasant to everyone as shown in . Hook was able to develop interference fringes through mica sheet and Newton was able to develop interference fringes in the gap between a convex lens and a plane glass plate. Young was able to explain these phenomena on the basis of interference between light reflected from the top and bottom surface of a thin film. It has been observed that interference in the case of thin film takes place due to  reflected light and  transmitted light.                   Interference due to Reflected Light in Thin Films  In amplitude division method to obtain coherent sources, amplitude of the reflected waves at each interface decreases gradually, hence only the first reflection from each interface is considered for interference fringes. Consider a transparent thin film of thickness t and refractive indices of rare and denser media are and respectively. A ray SA incident on the top surface of the film which is partly reflected along AP and partly refracted along AB. The ray further reflected along BC from the bottom surface and emerges out from the film along CQ. To calculate the path difference between AP and CQ drop a perpendicular CD from point C onto the ray AP. Now the optical path difference        Optical length is an equivalent distance that light travels in a medium in same time as it travels in vacuum.  [distance in vacuum (distance in medium).      [Snell's law ]   But this is only apparent path difference, from electromagnetic theory of light it is known that when light wave reflected from the surface of optical denser medium, it suffers a phase difference of , which is equivalent to a path difference of , i.e., a wave along AP has already a path difference of . Hence, the actual path difference in this case is   Now if , where then constructive interference takes place and the film appears bright, i.e.,    If , where then destructive interference takes place and the film appears dark, i.e.,      Since the amplitude is varying for the interfering waves, fringes are not perfect.    Interference due to Transmitted Light in Thin Films  In thin film interference, fringes are produced by the transmitted waves also as shown in . A ray SA incident on the top surface of the film partly reflected along AP and partly refracted along AB. The ray further reflected along BC from the bottom surface which is reflected once again along CD and finally emerges out from the film along DP. Now the optical path difference between BT and DP,               Now for bright fringes, , i.e.,   For dark fringes, ,   In this case the interference fringes are less distinct because the difference in amplitude between BT and DP is very large.   "
+},
+{
+  "id": "thinfilm",
+  "level": "2",
+  "url": "subsec-thinfilm_interf.html#thinfilm",
+  "type": "Figure",
+  "number": "5.8.5",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "interefl",
+  "level": "2",
+  "url": "subsec-thinfilm_interf.html#interefl",
+  "type": "Figure",
+  "number": "5.8.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "interefr",
+  "level": "2",
+  "url": "subsec-thinfilm_interf.html#interefr",
+  "type": "Figure",
+  "number": "5.8.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-thinf_color",
+  "level": "1",
+  "url": "subsec-thinf_color.html",
+  "type": "Subsection",
+  "number": "5.8.5",
+  "title": "Colors of Thin Films",
+  "body": " Colors of Thin Films  As a light wave incident from the air into the soap film, part of it reflects off the top surface. When it does, it reflects inverted because it was moving from less dense air to more dense soap film. Most of the light energy transmitted into the soap film where a small part of it reflects off again from the bottom surface of the soap film. This time, the wave reflects unchanged because it was going from more dense soap film to less dense air. When this wave energy transmits back into the air, it is out-of-phase with the wave that is reflecting off the top surface. This means that a crest of one matches up with a trough of the other. Interference of waves tells us that they will cancel each other out at this point. The overall effect is that some of the colors in the original white light disappear altogether, leaving other colors behind. These are the colors you see in soap bubbles.  When white light is incident on a thin film, the reflected light rays which satisfies the condition will not include any color. Therefore, the film appears colored and the color will depend upon the thickness and the angle of inclination [ ]. If r and t are constant, the color will be uniform. In the case of oil and water different colors are seen because r and t vary. The wavelengths (in nm) of visible spectrum is listed as         "
+},
+{
+  "id": "subsec-diffraction",
+  "level": "1",
+  "url": "subsec-diffraction.html",
+  "type": "Subsection",
+  "number": "5.8.6",
+  "title": "Diffraction",
+  "body": " Diffraction   We may have seen a geometrical shadow around the bright spot when the light coming through a hole falls on a screen. If the size of hole is decreased gradually, the brightness also spreads over the geometrical shadow region, which could not be explained on the basis of geometrical optics. Such phenomenon of bending of light around the corners of a narrow aperture or obstacle and spreading of light waves into geometrical shadow is called diffraction . It is also a superposition of two light waves just as in case of interference. The difference is that when two wavefronts from coherent sources are superimposed interference takes place but when two secondary wavelets of a same wavefront superimpose diffraction takes place. Hence two coherent sources are mandatory for interference pattern but only one source is sufficient enough to produce diffraction pattern. Thus diffraction is a superposition of two or more secondary wavelets. The diffraction phenomena can only be explained on the basis of wave theory of light.               Consider a monochromatic light from a source S is passing through samll aperture MN and falls on the screen XY. On the screen AB is a bright portion and the portion above point A and below point B is geometric shadow. From the rectilinear propagation of light the geometrical shadow region must be completely dark but we know that the there is an encroachment of light and shadow is no longer a complete dark rather darkness prevails more as we go further above A or below B as shown in . Similarly, if an opaque obstacle MN is placed in the path of light there should be illumination in the geometrical shadow region AB also as shown in . In order to see the illumination in a geometrical shadow the size of the obstacle must be comparable to the wavelength of light.  Light waves have very small wavelength from mto . If the size of opening or obstacle is near to this limit, then only diffraction takes place. Huygens wavelets theory with the help of principle of interference can explain satisfactorily the bending effect of light around the obstacles. Diffraction phenomena can be divided into two types: Fresnel diffraction and Fraunhofer diffraction . In Fresnel class, the source and the screen are taken at finite distances from the aperture or obstacle. In Fraunhofer class, the source and the screen are taken virtually at infinite distances from the aperture or obstacle. The incoming light is rendered parallel with a lens and the diffracted beam is focused on the screen with another lens. Fresnel diffraction does not require any lens. A plane wavefront is considered in Fraunhofer diffraction. We discuss here only Fraunhoffer type diffraction.    Single Slit Diffraction  To obtain a Fraunhoffer diffraction pattern, the incident wavefront must be plane and the diffracted light is collected on the screen with the help of a lens. To obtain a plane wavefront either the source is set at far away from the slit or a source is placed at a focus of a lens as shown in .      Let a parallel beam of monochromatic light be incident on a slit AB of width a. The secondary waves traveling in the same direction as the incident light come to focus at the point O and those traveling at an angle come to focus at P as shown in .               Consider a plane wavefront is incident on the slit AB and each point on this wavefront behaves as a source of secondary disturbance (Huygen's principle). The secondary waves (wavelets) from A and B reach the point O after traveling the equal distance and produce the central bright fringe. The path difference between the waves from A and B to point O is zero. Hence, the secondary waves reinforce each other at point O and the point O will be of maximum intensity.  Now consider the secondary waves from point A travel with the inclination reach the point P. All the secondary waves from slit when reach the point P then point P will be of maximum or minimum intensity depending on the path difference between them originating from the corresponding points of the wavefront on slit. Draw BL normal on BP, then from , where a is the width of the slit and BL is the path difference between secondary waves originating from points A and B. If , then point P will be a point of minimum intensity. To understand this concept divide the wavefront into two halves AC and BC and if the path difference between the secondary waves from A and B is , then path difference between the secondary waves from point A and C will be . Similarly from every point in the upper half AC there is a corresponding point in the lower half BC and the path difference between the secondary waves from these points is . Thus, destructive interference takes place and the point P will be of minimum intensity. If , then also the point where they meet on the screen will be of minimum intensity. To understand this concept the wavefront AB now can be divided into four quarters. The secondary waves from first quarter meet on that from second quarter on screen in opposite phase, i.e. in path difference and cancel out each other. Hence the point on screen will be of minimum intensity. In general for secondary minima   where gives the direction of minimum, here . If, however, the path difference is odd multiple of , the direction of secondary maxima can be obtained. In this case, Thus, the diffraction pattern due to a single slit consists of a central bright maximum at O followed by secondary maxima and minima on both sides. All waves do not interfere constructively for this situation, and so the maximum is not as intense as the central maximum. The intensity distribution on the screen is given in . The secondary maxima are of much less intensity and the intensity also falls of rapidly from the point O outwards. From , we have  Therefore, the width of central maximum , i.e. no diffraction if width of slit, a is very large as becomes very small.     Intensity of Diffraction Pattern due to a Single Slit  Consider the center of the slit C as a origin of coordinates and the element of the wavefront at coordinate (0,z). The distance of the element from point P is .      The displacement at point P due to the waves coming from the element at any time is given by The resultant displacement at P due to the whole wavefront, From ,            Therefore the amplitude at P is and thus intensity at P is   we have For secondary maxima, from eqn. ,  Substituting , we have      For the first secondary maximum ,      For the second secondary maximum ,       Thus the secondary maxima are of decreasing intensity. For secondary minima, from eqn. ,  Substituting , we have . Therefore the intensity of secondary minima are given as    "
+},
+{
+  "id": "p-1173",
+  "level": "2",
+  "url": "subsec-diffraction.html#p-1173",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "diffraction "
+},
+{
+  "id": "figure-398",
+  "level": "2",
+  "url": "subsec-diffraction.html#figure-398",
+  "type": "Figure",
+  "number": "5.8.8",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "fraunarrng",
+  "level": "2",
+  "url": "subsec-diffraction.html#fraunarrng",
+  "type": "Figure",
+  "number": "5.8.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-402",
+  "level": "2",
+  "url": "subsec-diffraction.html#figure-402",
+  "type": "Figure",
+  "number": "5.8.10",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "diffraction2",
+  "level": "2",
+  "url": "subsec-diffraction.html#diffraction2",
+  "type": "Figure",
+  "number": "5.8.11",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-dsdiffrc",
+  "level": "1",
+  "url": "subsec-dsdiffrc.html",
+  "type": "Subsection",
+  "number": "5.8.7",
+  "title": "Double Slits Diffraction",
+  "body": " Double Slits Diffraction   If the width of slit is very narrow such as , then in the double-slit experiment, the central maximum of the diffraction pattern of either slit covers the entire viewing screen and the interference of light produces bright fringes with approximately the same intensity. In practice, however, the condition is not met. For relatively wide slits , the interference of light from two slits produces bright fringes that do not all have the same intensity. That is, the intensities of the fringes produced by double-slit interference are modified by diffraction of the light passing through each slit.               The intensity of suggests the double-slit interference pattern that would occur if the slits were infinitely narrow; all the bright interference fringes would have the same intensity. The intensity plot of is that for diffraction by a single slit; the diffraction pattern has a broad central maximum and weaker secondary maxima. The plot of suggests the interference pattern for two actual slits. That plot was constructed by using the curve of as an envelope on the intensity plot in . The positions of the fringes are not changed; only the intensities are affected.  Double slit diffraction can be explained as a combination of  the interference pattern due to secondary waves coming from the corresponding points of the two slits and  the diffraction pattern due to the secondary waves from the two slits individually.            Interference maxima and minima: Consider the secondary waves traveling in direction with the initial direction of the incident light. Now from from  If the path difference CN is an odd multiple of , then gives the direction of minima due to interference of the secondary waves.  But when CN is an even multiple of , then gives the direction of maxima due to interference of the secondary waves.  The angular separation between any two consecutive minima or maxima is given by      Diffraction maxima and minima: Consider the secondary waves traveling in direction with the initial direction of the incident light from a same slit. If the path difference BM is equal to , then will give the direction of diffraction minimum. If the wavefront AB divides into two halves, then the path difference between the corresponding points of the upper and lower half is equal to Hence the point P has no effect due to wavefront coming from slit AB. Similarly, there is no effect at P due to the waves coming from slit CD with the same inclination. In general,        Intensity of Diffraction Pattern due to Double Slits  The intensity due to Fraunhoffer double slits diffraction can be obtained by using eqn. .           Let and we have - The intensity at point P is therefore given by The intensity at central maximum is when and .  In , the red envelop represents the intensity distribution due to diffraction in double slits also called diffraction factor and blue curve represents the intensity distribution due to interference of waves from both the slits also called interference factor.  Interference maxima occur when and first diffraction minimum occurs when . The order of interference maximum coincide with the first order diffraction minimum, which is given by . If . In this case, the first order spectrum will be absent and the resultant diffraction pattern is similar to single slit diffraction. If , then second order spectrum will be absent.   "
+},
+{
+  "id": "figure-406",
+  "level": "2",
+  "url": "subsec-dsdiffrc.html#figure-406",
+  "type": "Figure",
+  "number": "5.8.12",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "ddiff2",
+  "level": "2",
+  "url": "subsec-dsdiffrc.html#ddiff2",
+  "type": "Figure",
+  "number": "5.8.13",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-1191",
+  "level": "2",
+  "url": "subsec-dsdiffrc.html#p-1191",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Interference maxima and minima: Diffraction maxima and minima: "
+},
+{
+  "id": "subsec-msdiffrc",
+  "level": "1",
+  "url": "subsec-msdiffrc.html",
+  "type": "Subsection",
+  "number": "5.8.8",
+  "title": "Multiple Slits Diffraction",
+  "body": " Multiple Slits Diffraction  For a single slit, Let Therefore, for N slits,    Using the identity , we would obtain,   Therefore intensity at point P [ ] Where is the maximum intensity at and . The directions of principal maxima is given by , where . where and . If a is slit width and b is width of the opaque space, then provides the direction of principal maxima. The intensity goes to zero, when (diffraction condition) or (interference term).  "
+},
+{
+  "id": "subsec-diffgrating",
+  "level": "1",
+  "url": "subsec-diffgrating.html",
+  "type": "Subsection",
+  "number": "5.8.9",
+  "title": "Diffraction Grating",
+  "body": " Diffraction Grating   Diffraction grating is a collection of large number of narrow slits on a plane surface (or spherical surface). The most common type of diffraction gratings are plane gratings and concave gratings. When the incident wavefront on a grating surface is transmitted through the slits and obstructed by the opaque portions it is called a transmission grating. If a fine lines are drawn on a plane glass plate using diamond, then the space between the lines is transparent to light and lines are opaque to light. Such surface acts as a transmission grating.      If the lines are drawn on a silvered glass surface then light is reflected from the surface between two lines and such surface acts as a reflecting grating. The separation between the slits are comparable to the wavelength of light under study. The separation between two adjacent slits is known as granting element. If N is number of lines drawn on a length L then the grating element can be given as Consider secondary waves of angle of deviation with the incident light. The path difference between the waves coming from points A and C of two adjacent slits. For the point P will be of maximum intensity where are order of principal maxima. If the incident light consists of more than one wavelength, then the angles of deviation for different wavelengths will be different.    Grating Spectrometer  A spectrometer is a device used to study the spectrum of light. A grating is a heart of spectrometer as it disperses light of different wavelengths into narrow fringes. The angles of deviation of maxima of these fringes are then used to measure the wavelength precisely. The spectrometer consists of a collimator tube with an adjustable entrance slit, a rotating table on which the diffraction grating can be mounted, a telescope for observing the diffracted light, and an accurate angular scale for measuring the relative directions of the various spectrometer components. The diffraction grating disperses the light, so that the relationship between the diffraction angle and the wavelength of the light is given by the equation     Resolving Power  The capacity of an optical instrument to produce separate images of very closely placed two objects is called resolving power. The resolving power of a grating is defined as the ratio of the wavelength of any spectral line to the difference in wavelength between this line and a neighboring line such that the two lines appear to be just resolved. Thus the resolving power of a grating,                The direction of order primary maximum for wavelength is given by The direction of order primary maximum for wavelength is given by The two lines will be just resolved if the angle of diffraction corresponds to the direction of first secondary minimum after the primary maximum at . The term is the path difference of extreme points of first slit if there are N number of lines (slits) on the grating surface. Wavelength is the path difference between secondary waves from the first point of first slit and the last point of the last slit. Equating eqns. and , we get -     "
+},
+{
+  "id": "ddiff4",
+  "level": "2",
+  "url": "subsec-diffgrating.html#ddiff4",
+  "type": "Figure",
+  "number": "5.8.14",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-411",
+  "level": "2",
+  "url": "subsec-diffgrating.html#figure-411",
+  "type": "Figure",
+  "number": "5.8.15",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-polrzn",
+  "level": "1",
+  "url": "subsec-polrzn.html",
+  "type": "Subsection",
+  "number": "5.8.10",
+  "title": "Polarization",
+  "body": " Polarization  Light is an electromagnetic wave of transverse in nature. Interference and diffraction phenomena proved that the light is a wave but could not explain whether it is a transverse or a longitudinal. The polarization of wave helps explain that the light is transverse in nature. When light wave propagates along x-axis, the electric field and magnetic field oscillate along all possible directions which are perpendicular to the x-axis, . Since magnetic field is always perpendicular to the electric field, and is much smaller than it ( ) we usually take the electric field to characterize the property of polarization of light.               If light wave is propagating along x-axis, then electric field oscillates in the xy plane and magnetic field oscillates in the xz plane. Normally, any light source emits unpolarized light, i.e. electric field could vibrates along all possible directions perpendicular to the light propagation. Hence, polarization is a phenomenon of restricting the vibration of electric filed in a single plane. Light is said to be linearly polarized if the direction of oscillation of electric field is confined to one direction. Polarization direction is always perpendicular to the direction of propagation and electric field vector oscillates in a plane of polarization.   Polarization of transverse waves: Let a rope AB be passed through two parallel slits and and point B is fixed. If the rope is disturbed at point A in such a way that it moves up and down then a transverse wave emerges through opening C and D and reaches to point B, . However, if the slit is made perpendicular to slit then it is observed that no vibration can pass through , . This experiment proves that the parallel slits only allow the transverse waves to pass through them. On the other hand, if longitudinal waves are set up by compressing and stretching a spring in place of a rope then it can be seen that waves will pass through both the slits irrespective of their orientations.               A similar phenomenon has been observed in light when it passes through a tourmaline crystal A tourmaline crystal has a hexagonal system with four axes. Three are equal in length and intersect at . The vertical C- axis or longer axis intersects the other shorter axes at The c-axis also called optic axis is associated with unique optical properties. when a beam of plane-polarized light is incident normally on a plate of tourmaline cut parallel to the optic axis, it will be absorbed or transmitted depending upon whether the axis of the tourmaline is parallel or perpendicular to the plane of polarization of the incident light. which acts as a slit and called a Polaroid. A polaroid transmits only the component of light along a particular direction and absorbs the component perpendicular to that direction.               If the ordinary light is passed through these crystals when they are rotating in such a way that their axes are always parallel then no change has been observed in the light coming out of crystal B, . On the other hand, if crystal A is fixed and crystal B is rotated with respect to A then light transmitted through B becomes dimmer gradually and no light is emerges out of B when it is perpendicular to A, . If B is further rotated then light intensity increases gradually and becomes maximum when B becomes parallel to A again. This experiment concludes that light is not propagated as longitudinal waves rather it is transverse in nature otherwise it could never be extinguished by simply rotating crystal B.      Ordinary light waves after passing through crystal A become polarized as their all vibrations filter except the one which is parallel to the crystal (optic) axis. Hence crystal A is also called polarizer and crystal B is called analyzer. The plane of polarization consists no vibrations. The plane in which vibrations are confined after passing through the polarizer is called the plane of vibration, . Ordinary light may consist of large number of wavelengths and vibrations may be linear, circular, or elliptical. Circular or elliptical vibrations consist of two linear vibrations which are perpendicular to each other. The vibrations parallel to plane of the paper are shown as arrow heads and that perpendicular to the plane of paper are shown as dots in .  "
+},
+{
+  "id": "figure-414",
+  "level": "2",
+  "url": "subsec-polrzn.html#figure-414",
+  "type": "Figure",
+  "number": "5.8.16",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "p-1205",
+  "level": "2",
+  "url": "subsec-polrzn.html#p-1205",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Polarization of transverse waves: "
+},
+{
+  "id": "figure-417",
+  "level": "2",
+  "url": "subsec-polrzn.html#figure-417",
+  "type": "Figure",
+  "number": "5.8.17",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "figure-420",
+  "level": "2",
+  "url": "subsec-polrzn.html#figure-420",
+  "type": "Figure",
+  "number": "5.8.18",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "polr4a",
+  "level": "2",
+  "url": "subsec-polrzn.html#polr4a",
+  "type": "Figure",
+  "number": "5.8.19",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_fifth-examplesD",
+  "level": "1",
+  "url": "sec_fifth-examplesD.html",
   "type": "Section",
-  "number": "5.8",
-  "title": "Physical Optics",
-  "body": " Physical Optics      "
+  "number": "5.9",
+  "title": "Examples D",
+  "body": " Examples D    In a double slit interference experiment, the spacing between the slits is and the screen is at a distance of 2 m. If light of wavelength 500 nm is used, find  the location of the first dark fringe,  the location of the third (off axis) bright fringe,  the spacing between the fringes,  the theoretical maximum number of bright fringes possible.                            fringes on both sides plus central frings           What is the minimum thickness of a soap bubble film with index of refraction 1.33 which would reflect most brightly red light of wavelength 650 nm?  What is the minimum thickness of an anti-reflecting coating of index of refraction 1.4 on a glass lens of index 1.5 which would reflect no green light of wavelength 550 nm?  What would be the color of the light that is reflected off the lens?          As I reflected ray is out of phase by itself due to reflection from a surface of high refracting medium, so in order to make it interferes constructively with II emergent ray from films the total path difference between these rays must be equal to integral multiple of . set m = 1 for minimum thickness.      As I and II rays are out of phase due to reflection from a surface of high refracting medium, so in order to make them interfere destructively total path difference between them must be equal to integral multiple of  set m = 1$ for minimum thickness.   Since green light is transmitted, red and blue are reflected. Therefore, color reflected is magenta.        A parallel beam of light is incident on a thin glass plate (n=1.5) such that the angle of refraction into the plate is . Calculate the minimum thickness of the glass plate which will appear dark by reflection.    For destructive interference by reflected ray,  for minimum thickness, set n=1.      A beam of parallel rays is incident at an angle of with the normal on a plane parallel film of thickness and refractive index is 1.5. Show that the reflected light whose wavelength is will be strengthened by reinforcement.    For constructive interference by reflected ray,  at         A single slit of width 0.2 mm is illuminated with a beam of laser light of wavelength 600 nm which casts a single slit diffraction pattern on a screen 6 m away.  What is the linear spacing between two successive fringes observed on the screen?  How far from the central bright fringe is the 4^{th} dark fringe located?  How far from the central (zero^{th}) bright fringe is the first bright fringe located?      Given:                    A diffraction grating has 500 slits per millimeter.  What is the angle between red light of wavelength 700 nm and violet light of wavelength 400 nm for the second order spectrum?  Does the third order spectrum overlap the second order spectrum?  If a beam of green light of wavelength 550 nm passes through the grating and is projected on a wall 4 meters away, what is the distance between the first order fringe and the second order fringe?               Since the third order red is less than the second order violet , yes.             "
+},
+{
+  "id": "example-103",
+  "level": "2",
+  "url": "sec_fifth-examplesD.html#example-103",
+  "type": "Example",
+  "number": "5.9.1",
+  "title": "",
+  "body": "  In a double slit interference experiment, the spacing between the slits is and the screen is at a distance of 2 m. If light of wavelength 500 nm is used, find  the location of the first dark fringe,  the location of the third (off axis) bright fringe,  the spacing between the fringes,  the theoretical maximum number of bright fringes possible.                            fringes on both sides plus central frings      "
+},
+{
+  "id": "example-104",
+  "level": "2",
+  "url": "sec_fifth-examplesD.html#example-104",
+  "type": "Example",
+  "number": "5.9.2",
+  "title": "",
+  "body": "    What is the minimum thickness of a soap bubble film with index of refraction 1.33 which would reflect most brightly red light of wavelength 650 nm?  What is the minimum thickness of an anti-reflecting coating of index of refraction 1.4 on a glass lens of index 1.5 which would reflect no green light of wavelength 550 nm?  What would be the color of the light that is reflected off the lens?          As I reflected ray is out of phase by itself due to reflection from a surface of high refracting medium, so in order to make it interferes constructively with II emergent ray from films the total path difference between these rays must be equal to integral multiple of . set m = 1 for minimum thickness.      As I and II rays are out of phase due to reflection from a surface of high refracting medium, so in order to make them interfere destructively total path difference between them must be equal to integral multiple of  set m = 1$ for minimum thickness.   Since green light is transmitted, red and blue are reflected. Therefore, color reflected is magenta.     "
+},
+{
+  "id": "example-105",
+  "level": "2",
+  "url": "sec_fifth-examplesD.html#example-105",
+  "type": "Example",
+  "number": "5.9.3",
+  "title": "",
+  "body": "  A parallel beam of light is incident on a thin glass plate (n=1.5) such that the angle of refraction into the plate is . Calculate the minimum thickness of the glass plate which will appear dark by reflection.    For destructive interference by reflected ray,  for minimum thickness, set n=1.   "
+},
+{
+  "id": "example-106",
+  "level": "2",
+  "url": "sec_fifth-examplesD.html#example-106",
+  "type": "Example",
+  "number": "5.9.4",
+  "title": "",
+  "body": "  A beam of parallel rays is incident at an angle of with the normal on a plane parallel film of thickness and refractive index is 1.5. Show that the reflected light whose wavelength is will be strengthened by reinforcement.    For constructive interference by reflected ray,  at      "
+},
+{
+  "id": "example-107",
+  "level": "2",
+  "url": "sec_fifth-examplesD.html#example-107",
+  "type": "Example",
+  "number": "5.9.5",
+  "title": "",
+  "body": "  A single slit of width 0.2 mm is illuminated with a beam of laser light of wavelength 600 nm which casts a single slit diffraction pattern on a screen 6 m away.  What is the linear spacing between two successive fringes observed on the screen?  How far from the central bright fringe is the 4^{th} dark fringe located?  How far from the central (zero^{th}) bright fringe is the first bright fringe located?      Given:                 "
+},
+{
+  "id": "example-108",
+  "level": "2",
+  "url": "sec_fifth-examplesD.html#example-108",
+  "type": "Example",
+  "number": "5.9.6",
+  "title": "",
+  "body": "  A diffraction grating has 500 slits per millimeter.  What is the angle between red light of wavelength 700 nm and violet light of wavelength 400 nm for the second order spectrum?  Does the third order spectrum overlap the second order spectrum?  If a beam of green light of wavelength 550 nm passes through the grating and is projected on a wall 4 meters away, what is the distance between the first order fringe and the second order fringe?               Since the third order red is less than the second order violet , yes.            "
 },
 {
   "id": "ex_fifth",
   "level": "1",
   "url": "ex_fifth.html",
   "type": "Exercises",
-  "number": "5.9",
+  "number": "5.10",
   "title": "Exercise",
-  "body": "  Exercise   Reflection  An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?    A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?      Refraction  A cylindrical glass rod of index 1.5 is immersed in water of index 1.33. A fish of length 1 cm is located in the water along the axis of the cylinder and 20 cm from the end of the rod which is polished into a concave surface of radius 10 cm.  What is the focal length of the refracting surface? Is it converging or diverging.  Where is the image of the fish located? Is the image real or virtual?  What is the length of the image? Is the image enlarged or reduced? Erect or inverted?    A thin concavo-convex lens has its concave surface of radius 20 cm and its convex surface of radius 10 cm. Its index of refraction is 1.5, and an object of height 5 cm is located 50 cm in front of the concave side of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the light bulb located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?    The left end of a long glass rod 4 cm in diameter is polished to a convex surface of radius 10 cm. The index of refraction of the glass is 1.50. An object 2 cm tall is located 20 cm to the left of the rod along its axis. Find  the location and  size of the image.  Describe the image. Is it inside or outside the rod? Real or virtual? Erect or inverted? Enlarged or reduced?    A speck of dirt embedded in a sheet of ice appears to be 5 cm below the surface and 4 mm long. If the index of refraction of ice is 1.309, what is  the actual depth of the speck and  its true length.    A fish tank whose bottom is a mirror is filled with water to a depth of 20 cm. A small fish 2 cm long is swimming 9 cm below the surface of the water. When viewed from above, both the fish and its image reflected from the bottom can be viewed.  What is the apparent depth of the fish below the surface of the water?  What is the apparent size of the reflected image?    Light of wavelength 500 nm is incident normally on the thin film of a soap bubble. If the film has an index of refraction of 1.33 and a thickness of 10 wavelengths, what is the thickness of the film in meters?  A prism has an index of refraction of 1.5 and is located in air.  What is the critical angle for a light ray inside the prism.  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?    A prism has an index of refraction of 1.5 and is immersed in a liquid of index 1.3.  What is the critical angle for a light ray inside the prism?  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?    A ray of light of wavelength 500 nm strikes a window at a angle with the surface. If the window glass is flat, has an index of refraction of 1.5, and is 5 mm thick,  what is the angular displacement of the light ray as it goes through the window (how much does the light ray change directions)?  What is the lateral displacement of the ray as it goes through the window (how much does it shift sideways)?    Calculate the focal length of a double convex lens, for which the radius of curvature of each surface is 50 cm and the refractive index of glass is 1.5.  Calculate the focal length of a plano convex lens, the radius of curvature of a convex surface is 40 cm and the refractive index of glass is 1.5.  A ray of light from the sun enters a solid sphere of glass parallel to its axis. The sphere has a diameter of 30 cm and refractive index of glass is 1.5. Find the position of the image of sun.  A light ray of wavelength 600 nm enters an equilateral prism such that the ray inside the prism is parallel to one of the faces as shown at right. Whenever this happens, the angle of deviation between the incoming ray and the outgoing ray is a minimum. What is the minimum angle of deviation for such a prism having an index of refraction of 1.6?   A horizontal light ray of wavelength 400 nm enters the surface of an equilateral prism and exits the opposite surface which is vertical as shown below. If the index of refraction of the prism is 1.6, what is the angle of deviation between the incoming light ray and the outgoing light ray?   The two surfaces of a double concave lens has radii of curvature 10 cm and 30 cm. Find its focal length in water.   Two convex lenses having focal lengths 6 cm and 2 cm are coaxially attached together. Calculate the focal length of the combination. Given:   Calculate the focal lengths of a convex lens of crown glass ( ) and a concave lens of flint glass ( ) so that when placed in contact they form an achromatic combination of focal length 30 cm.   "
+  "body": "  Exercise   Reflection  An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?    A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?    A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?    An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?      Refraction  A cylindrical glass rod of index 1.5 is immersed in water of index 1.33. A fish of length 1 cm is located in the water along the axis of the cylinder and 20 cm from the end of the rod which is polished into a concave surface of radius 10 cm.  What is the focal length of the refracting surface? Is it converging or diverging.  Where is the image of the fish located? Is the image real or virtual?  What is the length of the image? Is the image enlarged or reduced? Erect or inverted?    A thin concavo-convex lens has its concave surface of radius 20 cm and its convex surface of radius 10 cm. Its index of refraction is 1.5, and an object of height 5 cm is located 50 cm in front of the concave side of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the light bulb located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?    The left end of a long glass rod 4 cm in diameter is polished to a convex surface of radius 10 cm. The index of refraction of the glass is 1.50. An object 2 cm tall is located 20 cm to the left of the rod along its axis. Find  the location and  size of the image.  Describe the image. Is it inside or outside the rod? Real or virtual? Erect or inverted? Enlarged or reduced?    A speck of dirt embedded in a sheet of ice appears to be 5 cm below the surface and 4 mm long. If the index of refraction of ice is 1.309, what is  the actual depth of the speck and  its true length.    A fish tank whose bottom is a mirror is filled with water to a depth of 20 cm. A small fish 2 cm long is swimming 9 cm below the surface of the water. When viewed from above, both the fish and its image reflected from the bottom can be viewed.  What is the apparent depth of the fish below the surface of the water?  What is the apparent size of the reflected image?    Light of wavelength 500 nm is incident normally on the thin film of a soap bubble. If the film has an index of refraction of 1.33 and a thickness of 10 wavelengths, what is the thickness of the film in meters?  A prism has an index of refraction of 1.5 and is located in air.  What is the critical angle for a light ray inside the prism.  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?    A prism has an index of refraction of 1.5 and is immersed in a liquid of index 1.3.  What is the critical angle for a light ray inside the prism?  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?    A ray of light of wavelength 500 nm strikes a window at a angle with the surface. If the window glass is flat, has an index of refraction of 1.5, and is 5 mm thick,  what is the angular displacement of the light ray as it goes through the window (how much does the light ray change directions)?  What is the lateral displacement of the ray as it goes through the window (how much does it shift sideways)?    Calculate the focal length of a double convex lens, for which the radius of curvature of each surface is 50 cm and the refractive index of glass is 1.5.  Calculate the focal length of a plano convex lens, the radius of curvature of a convex surface is 40 cm and the refractive index of glass is 1.5.  A ray of light from the sun enters a solid sphere of glass parallel to its axis. The sphere has a diameter of 30 cm and refractive index of glass is 1.5. Find the position of the image of sun.  A light ray of wavelength 600 nm enters an equilateral prism such that the ray inside the prism is parallel to one of the faces as shown at right. Whenever this happens, the angle of deviation between the incoming ray and the outgoing ray is a minimum. What is the minimum angle of deviation for such a prism having an index of refraction of 1.6?   A horizontal light ray of wavelength 400 nm enters the surface of an equilateral prism and exits the opposite surface which is vertical as shown below. If the index of refraction of the prism is 1.6, what is the angle of deviation between the incoming light ray and the outgoing light ray?   The two surfaces of a double concave lens has radii of curvature 10 cm and 30 cm. Find its focal length in water.   Two convex lenses having focal lengths 6 cm and 2 cm are coaxially attached together. Calculate the focal length of the combination. Given:   Calculate the focal lengths of a convex lens of crown glass ( ) and a concave lens of flint glass ( ) so that when placed in contact they form an achromatic combination of focal length 30 cm.    Optical Instruments  An object of height 10 cm is placed 2 m in front of a converging lens of focal length 20 cm. The light passes through that lens and then through a diverging lens of focal length 5 cm.  What is the distance between the two lenses if the final image is virtual and 25 cm from the diverging lens?  What is the height of the final image?    A microscope 30 cm long is constructed from two lenses each of focal length 1 cm.  What is the magnifying power (angular magnification) of the microscope?  What would be the apparent size of a flee which is 1 mm in actual length?  If the angular view through the eyepiece is , could you see the whole flee in the microscope?    The picture size of a 35-mm camera is normally .  What focal length lens should be used to fill the picture with a hang glider at an altitude of 500 ft if the wingspan of the glider is 40 ft?  If the lens setting is f\/11, what is the diameter of the opening in the lens diaphragm?    A 35-mm slide projector projects a slide onto a screen 2 m wide and 20 m away.  What is the focal length of the projectors lens?  If it is 5 cm in diameter, what is its f-number?  What is the height of the projected image?    A microscope consists of two converging lenses each of focal length 1.00 cm located 20 cm apart. An object 1 mm long is placed in front of the first lens at such a distance that the final image (from the second lens) falls on top of the object. In other words, the object and its final image are at the same location.  What is the object distance for the first lens?  What is the size of the first image?  What is the magnification of the microscope?  If the index of refraction of each lens is 1.50 and they are symmetrical, what is the radius of curvature of each lens surface?  If a thin non-reflecting coating of is placed on each lens surface, what is the minimum thickness of such a coat in order that green light of wavelength 550 nm is not reflected?    A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. A fortune teller looks through the ball at an object 10 cm high located on the other side of the ball 50 cm from the center of the ball. Light travels from the object through the ball so as to form a final image.  Where is this final image located?  What is the magnification of the complete optical system?  What is the height of the final image?    A reflecting telescope has a primary mirror of diameter 20 cm and radius of curvature 2 m. If the telescope is pointed at the moon, 3480 km in diameter and 386,000 km away, find  the location of the moon's image and  the size of the moon's image.  Describe the moon's image. Is it real or virtual, erect or inverted, enlarged or reduced, normal or perverted?    The primary lens of a refracting telescope is 20 cm in diameter and has a focal length of 1 m. If the telescope is pointed at a bird 20 cm long and 20 m away, find  the location of the bird's image and  the size of the bird's image.  Describe the bird\\rq s image. Is it real or virtual, erect or inverted, enlarged or reduced, normal or perverted?    A thin concave-convex lens has its concave surface of radius 20 cm and its convex surface of radius 10 cm. Its index of refraction is 1.5, and an object of height 5 cm is located 50 cm in front of the concave side of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the object located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?    A short-sighted eye has a new far point of 5.00 m and a near point of 0.25 m. State the type of lens needed to correct this defect and calculate the power of the correcting lens. Calculate the distance from the lens to the new near point of the eye with the correcting lens in front of the eye.  Hint for second part: Once the glasses on eye Near point shifts further away from eye, find the object position when image disance = -0.25 m.   A long-sighted eye has the far point at infinity and a near point which is 40 cm from the eye. State the type of lens needed to correct this defect and calculate the power of the correcting lens. Calculate the distance from the lens to the new far point of the eye with the correcting lens in front of the eye.  Hint for second part: Once the glasses on eye Far point shifts further away from eye, find the object position when image disance = .    Find the size of the letters the normal eye can read at 6.10 m, if the criterion is that they subtend 3 arc minute visual angle. Using this information what size object is required at 10 m?  A man has a far point of 2 m. Find the focal length of the corrective lens for seeing distant objects, and find the near point of this eye with corrective lens if the man has the normal near point without glasses.  A person has a near point of 50 cm. Find the corrective lens required to enable this person to read at the normal distance of 25 cm.  A man has a near point of 50 cm from his eyes and a far point at infinity. What is the useful accommodation power of his eyes? Consider the lens of the eye as a simple lens.  A young person with a near point of 20 cm, is not able to see an object clearly if it is more than 5 m from his eye. What kind of lens should you prescribe to correct his vision?  A nearsighted person wears glasses of f = -50.0 cm. Through these glasses he has perfect distant vision, but he cannot focus clearly on the objects closer than 25.0 cm. How close can he focus if he removes his glasses? What is his far point?  A pair of bifocal lenses have components with focal lengths of 50 cm and -250 cm. What are the near and far points for the wearer of these bifocal lenses?  An older person has a near point of 75 cm. Find the correct lenses to prescribe for this person.  Calculate the magnification of an object placed 6.20 mm from a compound microscope that has a 6.00 mm focal length objective and a 50.0 mm focal length eyepiece. The objective and eyepiece are separated by 23.0 cm.  A college professor can see objects clearly only if they are between 70 and 500 cm from his eyes. His optometrist prescribes bifocals that enable him to see distant objects clearly through the top half of the lenses and read students papers at a distance of 25 cm through the lower half. What are the powers of the top and bottom lenses.  A 100 candle power lamp hangs 2 m above the center of a circular table of diameter 2 m. Determine the intensity of illumination at a point on the edge of the table.    Interference  In a double slit interference experiment, the spacing between the slits is 0.1 mm and the screen is at a distance of 4 m. If light of wavelength 600 nm is used, find  the location of the second dark fringe,  the location of the fifth (off axis) bright fringe,  the spacing between the fringes.    A flat glass plate of length 10 cm is placed on top of a larger flat glass slab. A small grain of sand of diameter is placed under the right end of the plate to separate it from the slab. (The left end is in contact.) The index of refraction of the plate is 1.5, that of the slab is 1.6. When viewed from above and illuminated from above with light of wavelength 550 nm a series of light and dark fringes are observed.  What is the spacing between the fringes?  How far from the left end of the plate is the fourth bright fringe?    A plano-convex lens of radius of curvature 1 m is placed, curved side down, on a flat glass plate and illuminated from above with light of wavelength 450 nm so as to form Newton rings.  Is a bright or a dark spot observed at the center of the rings when viewed from above?  What is the radius of the 4'th bright ring when viewed from above?  What is the radius of the 4'th bright ring when viewed from below?    Two flat plates of index of refraction 1.5 are 10 cm long. At the left end they are in contact; at the right they are separated by a sheet of paper 0.010 mm thick. The space between the plates is filled with a liquid of index of refraction 1.6. When viewed from above and illuminated from above with light of wavelength 550 nm a series of light and dark fringes are observed.  What is the spacing between the fringes?  How far from the left end of the plate is the fourth bright fringe?    A monochromatic point source of light of wavelength 550 nm is located 0.05 mm above the left end of a horizontal flat glass plate 20 cm long and index of refraction 1.5. Light from the source shines down on the surface of the plate and is reflected back upward so as to interfere with the light that doesn't hit the plate.  At a point immediately above the right end of the plate will this interference be constructive or destructive? Why?  At a point located 0.05 mm above the right end of the plate will this interference be constructive or destructive? Why?  How far above the right end of the plate will the fourth bright fringe occur?    Green light of wavelength from\\item An object of height 5 cm is located at a distance 30 cm in front of a convex lens of focal length 10 cm and radii of curvature .  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted? a narrow slit is incident on a double slit. If the overall separation of 10 fringes on a screen 200 cm away is 2 cm, find the slit separation.    Two coherent sources are 0.18 mm apart and the fringes are absorbed on a screen 80 cm away. It is found that with a certain monochromatic source of light, the fourth bright fringe is situated at a distance of 10.8 mm from the central fringe. Calculate the wavelength of light.  In Young's double slit experiment the separation of the slits is 1.9 mm and the fringe spacing is 0.31 mm at a distance of 1 m from the slits. Calculate the wavelength of light.  Two straight and narrow parallel slits 1 mm apart are illuminated by monochromatic light. Fringes formed on the screen held at a distance of 100 cm from the slits are 0.50 mm apart. What is the wavelength of light?    Diffraction  Light of wavelength 650 nm passes through a narrow slit producing a single slit diffraction pattern on a screen 5 m away. The width of the central bright fringe is 2 cm.  What is the width of the slit?  What is the distance between the dark interference fringes on either side of the bright central fringe?  How far from the central bright fringe is the third dark fringe located?    White light ranging between 400 nm and 700 nm in wavelength falls at normal incident on a diffraction grating that has 400 slits\/mm. What is the angular width of the visible spectrum for  first order,  second order.  What is the highest order complete spectrum for this arrangement?  Do any of the spectra overlap?    Laser light of wavelength 632.8 nm shines normally on the reflective side of a compact disk whose information tracks are apart.  What is the highest order reflected interference beam observed?  What is the angles of reflection (measured from the normal) for the second order beam?    A beam of white light shines normally on the reflective side of a compact disk whose information tracks are apart. What color light will be observed at an angle of with respect to the normal?  How many orders will be visible if the wavelength of the incident light is and the number of lines on the grating is 2620 per inch.  A parallel beam of monochromatic light is allowed to be incident normally on a plane transmission grating having 5000 lines\/cm and the second order spectral line is found to be diffracted through Calculate the wavelength of light.   "
 },
 {
   "id": "exercise-146",
   "level": "2",
   "url": "ex_fifth.html#exercise-146",
   "type": "Exercise",
-  "number": "5.9.1",
+  "number": "5.10.1",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 20 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -5000,7 +5513,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-147",
   "type": "Exercise",
-  "number": "5.9.2",
+  "number": "5.10.2",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 15 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -5009,7 +5522,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-148",
   "type": "Exercise",
-  "number": "5.9.3",
+  "number": "5.10.3",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 10 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -5018,7 +5531,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-149",
   "type": "Exercise",
-  "number": "5.9.4",
+  "number": "5.10.4",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 5 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -5027,7 +5540,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-150",
   "type": "Exercise",
-  "number": "5.9.5",
+  "number": "5.10.5",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 30 cm in front of a convex mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -5036,7 +5549,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-151",
   "type": "Exercise",
-  "number": "5.9.6",
+  "number": "5.10.6",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -5045,7 +5558,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-152",
   "type": "Exercise",
-  "number": "5.9.7",
+  "number": "5.10.7",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 30 cm in front of a plane mirror.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -5054,7 +5567,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-153",
   "type": "Exercise",
-  "number": "5.9.8",
+  "number": "5.10.8",
   "title": "",
   "body": "A spherical concave shaving mirror has a radius of curvature of 30 cm. A person is located 10 cm in front of the mirror.  Where is the image of the person's face located?  Is the image real or virtual?  How much is the person's face magnified?  Is the image erect or inverted?   "
 },
@@ -5063,7 +5576,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-154",
   "type": "Exercise",
-  "number": "5.9.9",
+  "number": "5.10.9",
   "title": "",
   "body": "A person of height 1.5 m looks at his image in a Christmas tree ornament 10 cm in diameter. If he is 2 m from the ornament,  what is the height of his image?  Is it erect or inverted?  Is it real or virtual?   "
 },
@@ -5072,7 +5585,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-155",
   "type": "Exercise",
-  "number": "5.9.10",
+  "number": "5.10.10",
   "title": "",
   "body": "An object of height 1 cm is located at a distance 30 cm in front of a concave mirror of focal length 10 cm.  What is the radius of curvature of the mirror?  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted?   "
 },
@@ -5081,7 +5594,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-156",
   "type": "Exercise",
-  "number": "5.9.11",
+  "number": "5.10.11",
   "title": "",
   "body": "A cylindrical glass rod of index 1.5 is immersed in water of index 1.33. A fish of length 1 cm is located in the water along the axis of the cylinder and 20 cm from the end of the rod which is polished into a concave surface of radius 10 cm.  What is the focal length of the refracting surface? Is it converging or diverging.  Where is the image of the fish located? Is the image real or virtual?  What is the length of the image? Is the image enlarged or reduced? Erect or inverted?   "
 },
@@ -5090,7 +5603,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-157",
   "type": "Exercise",
-  "number": "5.9.12",
+  "number": "5.10.12",
   "title": "",
   "body": "A thin concavo-convex lens has its concave surface of radius 20 cm and its convex surface of radius 10 cm. Its index of refraction is 1.5, and an object of height 5 cm is located 50 cm in front of the concave side of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the light bulb located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?   "
 },
@@ -5099,7 +5612,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-158",
   "type": "Exercise",
-  "number": "5.9.13",
+  "number": "5.10.13",
   "title": "",
   "body": "The left end of a long glass rod 4 cm in diameter is polished to a convex surface of radius 10 cm. The index of refraction of the glass is 1.50. An object 2 cm tall is located 20 cm to the left of the rod along its axis. Find  the location and  size of the image.  Describe the image. Is it inside or outside the rod? Real or virtual? Erect or inverted? Enlarged or reduced?   "
 },
@@ -5108,7 +5621,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-159",
   "type": "Exercise",
-  "number": "5.9.14",
+  "number": "5.10.14",
   "title": "",
   "body": "A speck of dirt embedded in a sheet of ice appears to be 5 cm below the surface and 4 mm long. If the index of refraction of ice is 1.309, what is  the actual depth of the speck and  its true length.   "
 },
@@ -5117,7 +5630,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-160",
   "type": "Exercise",
-  "number": "5.9.15",
+  "number": "5.10.15",
   "title": "",
   "body": "A fish tank whose bottom is a mirror is filled with water to a depth of 20 cm. A small fish 2 cm long is swimming 9 cm below the surface of the water. When viewed from above, both the fish and its image reflected from the bottom can be viewed.  What is the apparent depth of the fish below the surface of the water?  What is the apparent size of the reflected image?   "
 },
@@ -5126,7 +5639,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-161",
   "type": "Exercise",
-  "number": "5.9.16",
+  "number": "5.10.16",
   "title": "",
   "body": "Light of wavelength 500 nm is incident normally on the thin film of a soap bubble. If the film has an index of refraction of 1.33 and a thickness of 10 wavelengths, what is the thickness of the film in meters? "
 },
@@ -5135,7 +5648,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-162",
   "type": "Exercise",
-  "number": "5.9.17",
+  "number": "5.10.17",
   "title": "",
   "body": "A prism has an index of refraction of 1.5 and is located in air.  What is the critical angle for a light ray inside the prism.  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?   "
 },
@@ -5144,7 +5657,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-163",
   "type": "Exercise",
-  "number": "5.9.18",
+  "number": "5.10.18",
   "title": "",
   "body": "A prism has an index of refraction of 1.5 and is immersed in a liquid of index 1.3.  What is the critical angle for a light ray inside the prism?  Will a light ray entering the prism normal to one face be totally reflected from the next face?  If not, what will be the angle of refraction?   "
 },
@@ -5153,7 +5666,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-164",
   "type": "Exercise",
-  "number": "5.9.19",
+  "number": "5.10.19",
   "title": "",
   "body": "A ray of light of wavelength 500 nm strikes a window at a angle with the surface. If the window glass is flat, has an index of refraction of 1.5, and is 5 mm thick,  what is the angular displacement of the light ray as it goes through the window (how much does the light ray change directions)?  What is the lateral displacement of the ray as it goes through the window (how much does it shift sideways)?   "
 },
@@ -5162,7 +5675,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-165",
   "type": "Exercise",
-  "number": "5.9.20",
+  "number": "5.10.20",
   "title": "",
   "body": "Calculate the focal length of a double convex lens, for which the radius of curvature of each surface is 50 cm and the refractive index of glass is 1.5. "
 },
@@ -5171,7 +5684,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-166",
   "type": "Exercise",
-  "number": "5.9.21",
+  "number": "5.10.21",
   "title": "",
   "body": "Calculate the focal length of a plano convex lens, the radius of curvature of a convex surface is 40 cm and the refractive index of glass is 1.5. "
 },
@@ -5180,7 +5693,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-167",
   "type": "Exercise",
-  "number": "5.9.22",
+  "number": "5.10.22",
   "title": "",
   "body": "A ray of light from the sun enters a solid sphere of glass parallel to its axis. The sphere has a diameter of 30 cm and refractive index of glass is 1.5. Find the position of the image of sun. "
 },
@@ -5189,7 +5702,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-168",
   "type": "Exercise",
-  "number": "5.9.23",
+  "number": "5.10.23",
   "title": "",
   "body": "A light ray of wavelength 600 nm enters an equilateral prism such that the ray inside the prism is parallel to one of the faces as shown at right. Whenever this happens, the angle of deviation between the incoming ray and the outgoing ray is a minimum. What is the minimum angle of deviation for such a prism having an index of refraction of 1.6?  "
 },
@@ -5198,7 +5711,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-169",
   "type": "Exercise",
-  "number": "5.9.24",
+  "number": "5.10.24",
   "title": "",
   "body": "A horizontal light ray of wavelength 400 nm enters the surface of an equilateral prism and exits the opposite surface which is vertical as shown below. If the index of refraction of the prism is 1.6, what is the angle of deviation between the incoming light ray and the outgoing light ray?  "
 },
@@ -5207,7 +5720,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-170",
   "type": "Exercise",
-  "number": "5.9.25",
+  "number": "5.10.25",
   "title": "",
   "body": "The two surfaces of a double concave lens has radii of curvature 10 cm and 30 cm. Find its focal length in water.  "
 },
@@ -5216,7 +5729,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-171",
   "type": "Exercise",
-  "number": "5.9.26",
+  "number": "5.10.26",
   "title": "",
   "body": "Two convex lenses having focal lengths 6 cm and 2 cm are coaxially attached together. Calculate the focal length of the combination. Given:  "
 },
@@ -5225,9 +5738,342 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fifth.html#exercise-172",
   "type": "Exercise",
-  "number": "5.9.27",
+  "number": "5.10.27",
   "title": "",
   "body": "Calculate the focal lengths of a convex lens of crown glass ( ) and a concave lens of flint glass ( ) so that when placed in contact they form an achromatic combination of focal length 30 cm. "
+},
+{
+  "id": "exercise-173",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-173",
+  "type": "Exercise",
+  "number": "5.10.28",
+  "title": "",
+  "body": "An object of height 10 cm is placed 2 m in front of a converging lens of focal length 20 cm. The light passes through that lens and then through a diverging lens of focal length 5 cm.  What is the distance between the two lenses if the final image is virtual and 25 cm from the diverging lens?  What is the height of the final image?   "
+},
+{
+  "id": "exercise-174",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-174",
+  "type": "Exercise",
+  "number": "5.10.29",
+  "title": "",
+  "body": "A microscope 30 cm long is constructed from two lenses each of focal length 1 cm.  What is the magnifying power (angular magnification) of the microscope?  What would be the apparent size of a flee which is 1 mm in actual length?  If the angular view through the eyepiece is , could you see the whole flee in the microscope?   "
+},
+{
+  "id": "exercise-175",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-175",
+  "type": "Exercise",
+  "number": "5.10.30",
+  "title": "",
+  "body": "The picture size of a 35-mm camera is normally .  What focal length lens should be used to fill the picture with a hang glider at an altitude of 500 ft if the wingspan of the glider is 40 ft?  If the lens setting is f\/11, what is the diameter of the opening in the lens diaphragm?   "
+},
+{
+  "id": "exercise-176",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-176",
+  "type": "Exercise",
+  "number": "5.10.31",
+  "title": "",
+  "body": "A 35-mm slide projector projects a slide onto a screen 2 m wide and 20 m away.  What is the focal length of the projectors lens?  If it is 5 cm in diameter, what is its f-number?  What is the height of the projected image?   "
+},
+{
+  "id": "exercise-177",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-177",
+  "type": "Exercise",
+  "number": "5.10.32",
+  "title": "",
+  "body": "A microscope consists of two converging lenses each of focal length 1.00 cm located 20 cm apart. An object 1 mm long is placed in front of the first lens at such a distance that the final image (from the second lens) falls on top of the object. In other words, the object and its final image are at the same location.  What is the object distance for the first lens?  What is the size of the first image?  What is the magnification of the microscope?  If the index of refraction of each lens is 1.50 and they are symmetrical, what is the radius of curvature of each lens surface?  If a thin non-reflecting coating of is placed on each lens surface, what is the minimum thickness of such a coat in order that green light of wavelength 550 nm is not reflected?   "
+},
+{
+  "id": "exercise-178",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-178",
+  "type": "Exercise",
+  "number": "5.10.33",
+  "title": "",
+  "body": "A clear crystal ball of diameter 20 cm is made from solid glass of index of refraction 1.5. A fortune teller looks through the ball at an object 10 cm high located on the other side of the ball 50 cm from the center of the ball. Light travels from the object through the ball so as to form a final image.  Where is this final image located?  What is the magnification of the complete optical system?  What is the height of the final image?   "
+},
+{
+  "id": "exercise-179",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-179",
+  "type": "Exercise",
+  "number": "5.10.34",
+  "title": "",
+  "body": "A reflecting telescope has a primary mirror of diameter 20 cm and radius of curvature 2 m. If the telescope is pointed at the moon, 3480 km in diameter and 386,000 km away, find  the location of the moon's image and  the size of the moon's image.  Describe the moon's image. Is it real or virtual, erect or inverted, enlarged or reduced, normal or perverted?   "
+},
+{
+  "id": "exercise-180",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-180",
+  "type": "Exercise",
+  "number": "5.10.35",
+  "title": "",
+  "body": "The primary lens of a refracting telescope is 20 cm in diameter and has a focal length of 1 m. If the telescope is pointed at a bird 20 cm long and 20 m away, find  the location of the bird's image and  the size of the bird's image.  Describe the bird\\rq s image. Is it real or virtual, erect or inverted, enlarged or reduced, normal or perverted?   "
+},
+{
+  "id": "exercise-181",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-181",
+  "type": "Exercise",
+  "number": "5.10.36",
+  "title": "",
+  "body": "A thin concave-convex lens has its concave surface of radius 20 cm and its convex surface of radius 10 cm. Its index of refraction is 1.5, and an object of height 5 cm is located 50 cm in front of the concave side of the lens along its principle axis.  What is the focal length of the lens? Is it converging or diverging?  Where is the image of the object located? Is the image real or virtual?  What is the height of the image? Is the image enlarged or reduced? Erect or inverted?   "
+},
+{
+  "id": "exercise-182",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-182",
+  "type": "Exercise",
+  "number": "5.10.37",
+  "title": "",
+  "body": "A short-sighted eye has a new far point of 5.00 m and a near point of 0.25 m. State the type of lens needed to correct this defect and calculate the power of the correcting lens. Calculate the distance from the lens to the new near point of the eye with the correcting lens in front of the eye.  Hint for second part: Once the glasses on eye Near point shifts further away from eye, find the object position when image disance = -0.25 m.  "
+},
+{
+  "id": "exercise-183",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-183",
+  "type": "Exercise",
+  "number": "5.10.38",
+  "title": "",
+  "body": "A long-sighted eye has the far point at infinity and a near point which is 40 cm from the eye. State the type of lens needed to correct this defect and calculate the power of the correcting lens. Calculate the distance from the lens to the new far point of the eye with the correcting lens in front of the eye.  Hint for second part: Once the glasses on eye Far point shifts further away from eye, find the object position when image disance = .   "
+},
+{
+  "id": "exercise-184",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-184",
+  "type": "Exercise",
+  "number": "5.10.39",
+  "title": "",
+  "body": "Find the size of the letters the normal eye can read at 6.10 m, if the criterion is that they subtend 3 arc minute visual angle. Using this information what size object is required at 10 m? "
+},
+{
+  "id": "exercise-185",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-185",
+  "type": "Exercise",
+  "number": "5.10.40",
+  "title": "",
+  "body": "A man has a far point of 2 m. Find the focal length of the corrective lens for seeing distant objects, and find the near point of this eye with corrective lens if the man has the normal near point without glasses. "
+},
+{
+  "id": "exercise-186",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-186",
+  "type": "Exercise",
+  "number": "5.10.41",
+  "title": "",
+  "body": "A person has a near point of 50 cm. Find the corrective lens required to enable this person to read at the normal distance of 25 cm. "
+},
+{
+  "id": "exercise-187",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-187",
+  "type": "Exercise",
+  "number": "5.10.42",
+  "title": "",
+  "body": "A man has a near point of 50 cm from his eyes and a far point at infinity. What is the useful accommodation power of his eyes? Consider the lens of the eye as a simple lens. "
+},
+{
+  "id": "exercise-188",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-188",
+  "type": "Exercise",
+  "number": "5.10.43",
+  "title": "",
+  "body": "A young person with a near point of 20 cm, is not able to see an object clearly if it is more than 5 m from his eye. What kind of lens should you prescribe to correct his vision? "
+},
+{
+  "id": "exercise-189",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-189",
+  "type": "Exercise",
+  "number": "5.10.44",
+  "title": "",
+  "body": "A nearsighted person wears glasses of f = -50.0 cm. Through these glasses he has perfect distant vision, but he cannot focus clearly on the objects closer than 25.0 cm. How close can he focus if he removes his glasses? What is his far point? "
+},
+{
+  "id": "exercise-190",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-190",
+  "type": "Exercise",
+  "number": "5.10.45",
+  "title": "",
+  "body": "A pair of bifocal lenses have components with focal lengths of 50 cm and -250 cm. What are the near and far points for the wearer of these bifocal lenses? "
+},
+{
+  "id": "exercise-191",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-191",
+  "type": "Exercise",
+  "number": "5.10.46",
+  "title": "",
+  "body": "An older person has a near point of 75 cm. Find the correct lenses to prescribe for this person. "
+},
+{
+  "id": "exercise-192",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-192",
+  "type": "Exercise",
+  "number": "5.10.47",
+  "title": "",
+  "body": "Calculate the magnification of an object placed 6.20 mm from a compound microscope that has a 6.00 mm focal length objective and a 50.0 mm focal length eyepiece. The objective and eyepiece are separated by 23.0 cm. "
+},
+{
+  "id": "exercise-193",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-193",
+  "type": "Exercise",
+  "number": "5.10.48",
+  "title": "",
+  "body": "A college professor can see objects clearly only if they are between 70 and 500 cm from his eyes. His optometrist prescribes bifocals that enable him to see distant objects clearly through the top half of the lenses and read students papers at a distance of 25 cm through the lower half. What are the powers of the top and bottom lenses. "
+},
+{
+  "id": "exercise-194",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-194",
+  "type": "Exercise",
+  "number": "5.10.49",
+  "title": "",
+  "body": "A 100 candle power lamp hangs 2 m above the center of a circular table of diameter 2 m. Determine the intensity of illumination at a point on the edge of the table. "
+},
+{
+  "id": "exercise-195",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-195",
+  "type": "Exercise",
+  "number": "5.10.50",
+  "title": "",
+  "body": "In a double slit interference experiment, the spacing between the slits is 0.1 mm and the screen is at a distance of 4 m. If light of wavelength 600 nm is used, find  the location of the second dark fringe,  the location of the fifth (off axis) bright fringe,  the spacing between the fringes.   "
+},
+{
+  "id": "exercise-196",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-196",
+  "type": "Exercise",
+  "number": "5.10.51",
+  "title": "",
+  "body": "A flat glass plate of length 10 cm is placed on top of a larger flat glass slab. A small grain of sand of diameter is placed under the right end of the plate to separate it from the slab. (The left end is in contact.) The index of refraction of the plate is 1.5, that of the slab is 1.6. When viewed from above and illuminated from above with light of wavelength 550 nm a series of light and dark fringes are observed.  What is the spacing between the fringes?  How far from the left end of the plate is the fourth bright fringe?   "
+},
+{
+  "id": "exercise-197",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-197",
+  "type": "Exercise",
+  "number": "5.10.52",
+  "title": "",
+  "body": "A plano-convex lens of radius of curvature 1 m is placed, curved side down, on a flat glass plate and illuminated from above with light of wavelength 450 nm so as to form Newton rings.  Is a bright or a dark spot observed at the center of the rings when viewed from above?  What is the radius of the 4'th bright ring when viewed from above?  What is the radius of the 4'th bright ring when viewed from below?   "
+},
+{
+  "id": "exercise-198",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-198",
+  "type": "Exercise",
+  "number": "5.10.53",
+  "title": "",
+  "body": "Two flat plates of index of refraction 1.5 are 10 cm long. At the left end they are in contact; at the right they are separated by a sheet of paper 0.010 mm thick. The space between the plates is filled with a liquid of index of refraction 1.6. When viewed from above and illuminated from above with light of wavelength 550 nm a series of light and dark fringes are observed.  What is the spacing between the fringes?  How far from the left end of the plate is the fourth bright fringe?   "
+},
+{
+  "id": "exercise-199",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-199",
+  "type": "Exercise",
+  "number": "5.10.54",
+  "title": "",
+  "body": "A monochromatic point source of light of wavelength 550 nm is located 0.05 mm above the left end of a horizontal flat glass plate 20 cm long and index of refraction 1.5. Light from the source shines down on the surface of the plate and is reflected back upward so as to interfere with the light that doesn't hit the plate.  At a point immediately above the right end of the plate will this interference be constructive or destructive? Why?  At a point located 0.05 mm above the right end of the plate will this interference be constructive or destructive? Why?  How far above the right end of the plate will the fourth bright fringe occur?   "
+},
+{
+  "id": "exercise-200",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-200",
+  "type": "Exercise",
+  "number": "5.10.55",
+  "title": "",
+  "body": "Green light of wavelength from\\item An object of height 5 cm is located at a distance 30 cm in front of a convex lens of focal length 10 cm and radii of curvature .  Where is the image located?  Is the image real or virtual?  What is the magnification of the mirror?  Is the image enlarged or reduced?  What is the height of the image?  Is the image erect or inverted? a narrow slit is incident on a double slit. If the overall separation of 10 fringes on a screen 200 cm away is 2 cm, find the slit separation.   "
+},
+{
+  "id": "exercise-201",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-201",
+  "type": "Exercise",
+  "number": "5.10.56",
+  "title": "",
+  "body": "Two coherent sources are 0.18 mm apart and the fringes are absorbed on a screen 80 cm away. It is found that with a certain monochromatic source of light, the fourth bright fringe is situated at a distance of 10.8 mm from the central fringe. Calculate the wavelength of light. "
+},
+{
+  "id": "exercise-202",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-202",
+  "type": "Exercise",
+  "number": "5.10.57",
+  "title": "",
+  "body": "In Young's double slit experiment the separation of the slits is 1.9 mm and the fringe spacing is 0.31 mm at a distance of 1 m from the slits. Calculate the wavelength of light. "
+},
+{
+  "id": "exercise-203",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-203",
+  "type": "Exercise",
+  "number": "5.10.58",
+  "title": "",
+  "body": "Two straight and narrow parallel slits 1 mm apart are illuminated by monochromatic light. Fringes formed on the screen held at a distance of 100 cm from the slits are 0.50 mm apart. What is the wavelength of light? "
+},
+{
+  "id": "exercise-204",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-204",
+  "type": "Exercise",
+  "number": "5.10.59",
+  "title": "",
+  "body": "Light of wavelength 650 nm passes through a narrow slit producing a single slit diffraction pattern on a screen 5 m away. The width of the central bright fringe is 2 cm.  What is the width of the slit?  What is the distance between the dark interference fringes on either side of the bright central fringe?  How far from the central bright fringe is the third dark fringe located?   "
+},
+{
+  "id": "exercise-205",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-205",
+  "type": "Exercise",
+  "number": "5.10.60",
+  "title": "",
+  "body": "White light ranging between 400 nm and 700 nm in wavelength falls at normal incident on a diffraction grating that has 400 slits\/mm. What is the angular width of the visible spectrum for  first order,  second order.  What is the highest order complete spectrum for this arrangement?  Do any of the spectra overlap?   "
+},
+{
+  "id": "exercise-206",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-206",
+  "type": "Exercise",
+  "number": "5.10.61",
+  "title": "",
+  "body": "Laser light of wavelength 632.8 nm shines normally on the reflective side of a compact disk whose information tracks are apart.  What is the highest order reflected interference beam observed?  What is the angles of reflection (measured from the normal) for the second order beam?   "
+},
+{
+  "id": "exercise-207",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-207",
+  "type": "Exercise",
+  "number": "5.10.62",
+  "title": "",
+  "body": "A beam of white light shines normally on the reflective side of a compact disk whose information tracks are apart. What color light will be observed at an angle of with respect to the normal? "
+},
+{
+  "id": "exercise-208",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-208",
+  "type": "Exercise",
+  "number": "5.10.63",
+  "title": "",
+  "body": "How many orders will be visible if the wavelength of the incident light is and the number of lines on the grating is 2620 per inch. "
+},
+{
+  "id": "exercise-209",
+  "level": "2",
+  "url": "ex_fifth.html#exercise-209",
+  "type": "Exercise",
+  "number": "5.10.64",
+  "title": "",
+  "body": "A parallel beam of monochromatic light is allowed to be incident normally on a plane transmission grating having 5000 lines\/cm and the second order spectral line is found to be diffracted through Calculate the wavelength of light. "
 },
 {
   "id": "append_math",
@@ -5239,72 +6085,72 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-1126",
+  "id": "p-1288",
   "level": "2",
-  "url": "append_math.html#p-1126",
+  "url": "append_math.html#p-1288",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
-  "id": "p-1127",
+  "id": "p-1289",
   "level": "2",
-  "url": "append_math.html#p-1127",
+  "url": "append_math.html#p-1289",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Geometric Formulae: "
 },
 {
-  "id": "p-1128",
+  "id": "p-1290",
   "level": "2",
-  "url": "append_math.html#p-1128",
+  "url": "append_math.html#p-1290",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-1129",
+  "id": "p-1291",
   "level": "2",
-  "url": "append_math.html#p-1129",
+  "url": "append_math.html#p-1291",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "p-1130",
+  "id": "p-1292",
   "level": "2",
-  "url": "append_math.html#p-1130",
+  "url": "append_math.html#p-1292",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Binomial Theorem: "
 },
 {
-  "id": "p-1131",
+  "id": "p-1293",
   "level": "2",
-  "url": "append_math.html#p-1131",
+  "url": "append_math.html#p-1293",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Power Series: "
 },
 {
-  "id": "p-1132",
+  "id": "p-1294",
   "level": "2",
-  "url": "append_math.html#p-1132",
+  "url": "append_math.html#p-1294",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Calculus: Derivatives: Integrals: "
 },
 {
-  "id": "p-1133",
+  "id": "p-1295",
   "level": "2",
-  "url": "append_math.html#p-1133",
+  "url": "append_math.html#p-1295",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5320,9 +6166,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols    Electrical Circuit Symbols:     "
 },
 {
-  "id": "p-1134",
+  "id": "p-1296",
   "level": "2",
-  "url": "appendix-2.html#p-1134",
+  "url": "appendix-2.html#p-1296",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

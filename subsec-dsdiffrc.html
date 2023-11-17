@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Double Slits Diffraction</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="General Physics II">
+<meta property="book:author" content="Sunil Karna">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.98,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="calPhysII.html"><span class="title">General Physics II:</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="subsec-diffraction.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="sec_fifth-physopt.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="subsec-msdiffrc.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\T}{\mathcal T}
+\newcommand\comb[2]{^{#1}C{_{#2}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth3"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Electrostatics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Electrostatic Induction</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-charg_transf.html" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Methods of Transferring Charges:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-charg_transf.html#subsubsec-electroscope" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Electrophorus:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-charg_transf.html#subsubsec-electrscp" class="internal"><span class="codenumber">1.1.1.2</span> <span class="title">Electroscope:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-coulmb_law.html" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Coulumb’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-coulmb_law.html#subsubsec-1d_colmb" class="internal"><span class="codenumber">1.1.2.1</span> <span class="title">Coulumb’s Law in One Dimension</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-coulmb_law.html#subsubsec-2d_colmb" class="internal"><span class="codenumber">1.1.2.2</span> <span class="title">Coulomb’s Law in Two and Three Dimensions</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-superp_th.html" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Principle of Superposition</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_first-el_field.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Electric Field</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-chrg_dist.html" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Electric Field of a Continuous Charge Distribution</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesA.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_first-flux.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Electric Flux</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-gauss.html" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Gauss’s Law</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-gauss.html#subsubsec-appl_gauss" class="internal"><span class="codenumber">1.4.1.1</span> <span class="title">Applications of Gauss’s Law</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-sph_symmtr.html" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Cases of spherical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-point_chrg" class="internal"><span class="codenumber">1.4.2.1</span> <span class="title">Electric field due to a point charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-sph_chrg" class="internal"><span class="codenumber">1.4.2.2</span> <span class="title">Electric field due to a  spherical symmetric charged distribution</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sph_symmtr.html#subsubsec-hsph_chrg" class="internal"><span class="codenumber">1.4.2.3</span> <span class="title">Electric field due to a uniformly charged non-conducting hollow sphere</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-cyl_symtr.html" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Cases of cylindrical symmetry:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_wire" class="internal"><span class="codenumber">1.4.3.1</span> <span class="title">Electric field due to infinitely long charged conductor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-long_cyl" class="internal"><span class="codenumber">1.4.3.2</span> <span class="title">Electric field due to a uniform infinite cylindrical charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-chrgd_sheet" class="internal"><span class="codenumber">1.4.3.3</span> <span class="title">Electric field due to infinite sheet of charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-cyl_symtr.html#subsubsec-out_cond" class="internal"><span class="codenumber">1.4.3.4</span> <span class="title">Electric field just outside a charged conductor</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesB.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstA.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Exercise A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_first-pot.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Electric Potential</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-capctrs.html" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Capacitors</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-cap_comb" class="internal"><span class="codenumber">1.7.1.1</span> <span class="title">Combination of Capacitors</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-paralle_cap" class="internal"><span class="codenumber">1.7.1.2</span> <span class="title">Parallel-Plate Capacitor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-spher_cap" class="internal"><span class="codenumber">1.7.1.3</span> <span class="title">Spherical Capacitor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-capctrs.html#subsubsec-cyl_cap" class="internal"><span class="codenumber">1.7.1.4</span> <span class="title">Cylindrical Capacitor</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-enrgy_cap.html" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Energy Stored in a Capacitor</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-enrgy_cap.html#subsubsec-elf_enrgdenst" class="internal"><span class="codenumber">1.7.2.1</span> <span class="title">Electric Field Energy Density</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-cap_enrgloss.html" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Loss of Energy in Combining two Capacitors</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_first-examplesC.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Examples C</span></a></div></li>
+<li><div class="toc-item"><a href="ex_firstB.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Exercise B</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Electricity</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Conduction Mechanism of Current in a Metal</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-ohm_law.html" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Ohm’s Law:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-restvty" class="internal"><span class="codenumber">2.1.1.1</span> <span class="title">Resistivity or Specific Resistance, <span class="process-math">\(\rho\text{:}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-temp_restvty" class="internal"><span class="codenumber">2.1.1.2</span> <span class="title">Temperature Coefficient of Resistivity</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ohm_law.html#subsubsec-el_power" class="internal"><span class="codenumber">2.1.1.3</span> <span class="title">Electrical Power:</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesA.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_second-elcircuits.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Electrical Circuits</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-emf.html" class="internal"><span class="codenumber">2.3.1</span> <span class="title">A summary on internal resistance, emf, and terminal potential difference:</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-res_circt.html" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Resistance Circuits:</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-res_circt.html#subsubsec-res_comb" class="internal"><span class="codenumber">2.3.2.1</span> <span class="title">Combination of Resistances</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-maxptr.html" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Maximum Power Transfer Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-el_instrmnt.html" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Electrical Instruments:</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_second-kirchhf.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Kirchhoff’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-cir_anals.html" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Analysis of DC Electric Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-wheat_stone.html" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Wheat-Stone’s Bridge Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-chrg_dischrg.html" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Charging and Discharging of a Capacitor</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_second-examplesB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_second.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Magnetism</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Magnetic Field</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-mag_mater.html" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Magnetic Materials</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-ferro" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Ferromagnetic Material:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-para" class="internal"><span class="codenumber">3.1.1.2</span> <span class="title">Paramagnetic Material:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_mater.html#subsubsec-dia" class="internal"><span class="codenumber">3.1.1.3</span> <span class="title">Diamagnetic Material:</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-geo_mag.html" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Geomagnetism</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_force.html" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Magnetic Force on a Moving Charge</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lorentz.html" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Electromagnetic Force on a Moving Charge (or Lorentz Force)</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-mag_flux.html" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Magnetic Flux, <span class="process-math">\(\Phi_{B}\)</span></span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-gauss_mag" class="internal"><span class="codenumber">3.1.5.1</span> <span class="title">Gauss’s Law for Magnetism</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-vel_select" class="internal"><span class="codenumber">3.1.5.2</span> <span class="title">Velocity Selector</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-cyclotron" class="internal"><span class="codenumber">3.1.5.3</span> <span class="title">Cyclotron Frequency</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-masspect" class="internal"><span class="codenumber">3.1.5.4</span> <span class="title">Mass Spectrometer</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_flux.html#subsubsec-Hall_effect" class="internal"><span class="codenumber">3.1.5.5</span> <span class="title">Hall Effect</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_third-Aforce.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Magnetic Forces on Currents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-ilb.html" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Magnetic Force on a Current Element</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-IA.html" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Magnetic Dipole Moment of a Current Loop</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-IA.html#subsubsec-solenoid" class="internal"><span class="codenumber">3.2.2.1</span> <span class="title">Solenoid</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-mag_torq.html" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Magnetic Torque on a Current Loop</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_potE.html" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Potential Energy of Magnetic Dipole</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-magS.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Sources of Magnetic Fields</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-magfld_movcharge.html" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Magnetic Field of a Moving Charge:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-free_permblt" class="internal"><span class="codenumber">3.4.1.1</span> <span class="title">Permeability of Free Space, <span class="process-math">\(\mu_{o}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-biot_savrt" class="internal"><span class="codenumber">3.4.1.2</span> <span class="title">Magnetic Field of a Current Element (Biot Savart Law)</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-stwire_magf" class="internal"><span class="codenumber">3.4.1.3</span> <span class="title">Magnetic Field of a straight wire</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-magcrnt_loop" class="internal"><span class="codenumber">3.4.1.4</span> <span class="title">Magnetic field due to a current loop</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-helmholtz" class="internal"><span class="codenumber">3.4.1.5</span> <span class="title">Magnetic field at the center of a Helmholtz coil</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-magfld_movcharge.html#subsubsec-solenoid_curnt" class="internal"><span class="codenumber">3.4.1.6</span> <span class="title">Magnetic field at a point due to current carrying solenoid</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_third-ampre.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Amper’s Law</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-mag_longcond.html" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Magnetic field  due to infinitely long current carrying  conductor</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_sheetcond.html" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Magnetic field  due to infinitely long current carrying flat sheet</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_solnd.html" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Magnetic field at a point due to infinitely long solenoid</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_toroid.html" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Magnetic field at a point due to toroid</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-mag_parallelcond.html" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Magnetic Force between Parallel Wires</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesB.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Examples B</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-elmag.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Electromagnetic Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-faraday.html" class="internal"><span class="codenumber">3.7.1</span> <span class="title">Faraday’s Law</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lenz.html" class="internal"><span class="codenumber">3.7.2</span> <span class="title">Lenz’s Law</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-motional_emf.html" class="internal"><span class="codenumber">3.7.3</span> <span class="title">Motional Electromotive Force</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-induced_elf.html" class="internal"><span class="codenumber">3.7.4</span> <span class="title">Induced Electric Fields</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-eddy" class="internal"><span class="codenumber">3.7.4.1</span> <span class="title">Eddy Currents</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-genertr" class="internal"><span class="codenumber">3.7.4.2</span> <span class="title">Generator</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-skineffect" class="internal"><span class="codenumber">3.7.4.3</span> <span class="title">Skin Effect</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-induced_elf.html#subsubsec-supercond" class="internal"><span class="codenumber">3.7.4.4</span> <span class="title">Superconductivity</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-self_induct.html" class="internal"><span class="codenumber">3.7.5</span> <span class="title">Self-Inductance:</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-self_solenoid" class="internal"><span class="codenumber">3.7.5.1</span> <span class="title">Self-inductance of a solenoid:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-mutual_ind" class="internal"><span class="codenumber">3.7.5.2</span> <span class="title">Mutual Inductance:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-self_induct.html#subsubsec-maf_fieldenergy" class="internal"><span class="codenumber">3.7.5.3</span> <span class="title">Magnetic-Field Energy</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-rlc.html" class="internal"><span class="codenumber">3.7.6</span> <span class="title">R-L Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lc.html" class="internal"><span class="codenumber">3.7.7</span> <span class="title">L-C Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lcr.html" class="internal"><span class="codenumber">3.7.8</span> <span class="title">L-C-R Circuit</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesC.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Examples C</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_third-accircuits.html" class="internal"><span class="codenumber">3.9</span> <span class="title">AC Circuits</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-rmsI.html" class="internal"><span class="codenumber">3.9.1</span> <span class="title">RMS value of emf or current</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-complex_number.html" class="internal"><span class="codenumber">3.9.2</span> <span class="title">The Complex Number Method for A.C. Analysis</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-ZXY" class="internal"><span class="codenumber">3.9.2.1</span> <span class="title">Impedance, Reactance, and Admittance</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acR" class="internal"><span class="codenumber">3.9.2.2</span> <span class="title">Resistance in an AC Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acL" class="internal"><span class="codenumber">3.9.2.3</span> <span class="title">Inductance in an AC Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acC" class="internal"><span class="codenumber">3.9.2.4</span> <span class="title">Capacitance in an AC Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-rlc_variation" class="internal"><span class="codenumber">3.9.2.5</span> <span class="title">Variation of reactance due to R, L and C with angular frequency <span class="process-math">\(\omega\)</span> in an AC circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acPower" class="internal"><span class="codenumber">3.9.2.6</span> <span class="title">Power in an AC Circuit</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acRL" class="internal"><span class="codenumber">3.9.2.7</span> <span class="title">AC Circuit with Resistance and  Inductance in Series</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acRC" class="internal"><span class="codenumber">3.9.2.8</span> <span class="title">AC Circuit with Resistance and  Capacitance in Series</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acRLC_series" class="internal"><span class="codenumber">3.9.2.9</span> <span class="title">AC Circuit with Resistance,  Capacitance, and Inductance in Series</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-complex_number.html#subsubsec-acRLC_parallel" class="internal"><span class="codenumber">3.9.2.10</span> <span class="title">AC Circuit with Resistance,  Capacitance, and Inductance in Parallel</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-transformer.html" class="internal"><span class="codenumber">3.9.3</span> <span class="title">Transformer</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-ac_preferential.html" class="internal"><span class="codenumber">3.9.4</span> <span class="title">AC is preferential over dc in power transmission</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_third-examplesD.html" class="internal"><span class="codenumber">3.10</span> <span class="title">Examples D</span></a></div></li>
+<li><div class="toc-item"><a href="ex_third.html" class="internal"><span class="codenumber">3.11</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Waves and Acoustics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Simple Harmonic Motion</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-shm_energy.html" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Energy in SHM</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fourth-waves.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Waves</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="subsec-shm_wfn.html" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Simple harmonic wave function</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-shm_wfn.html#subsubsec-wave_eq" class="internal"><span class="codenumber">4.2.1.1</span> <span class="title">Wave equation</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-shm_wfn.html#subsubsec-waveeq_string" class="internal"><span class="codenumber">4.2.1.2</span> <span class="title">Wave Equation in Stretched String</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li><div class="toc-item"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Examples A</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_fourth-medwave.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Waves in a Medium</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-speed_TW.html" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Speed of a Transverse Wave</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-speed_LW.html" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Speed of a Longitudinal Wave</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-energy_MW.html" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Energy Transport in a Mechanical Wave</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-interferMW.html" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Interference of Mechanical Waves</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-super_princple.html" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Principle of Superposition</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-prog_wave.html" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Traveling Waves (or Progressive Waves):</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-stand_wave.html" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Standing Waves (or stationary waves):</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-stand_wave.html#subsubsec-node_antinode" class="internal"><span class="codenumber">4.4.7.1</span> <span class="title">Position of nodes and antinodes</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fourth-organ.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Musical Instruments</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-string.html" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Stretched String</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-organ_pipe.html" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Organ Pipe</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fourth-sound.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Sound</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-echo.html" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Reverberation and Echo</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-beatsf.html" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Beats</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-dopplerefct.html" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Doppler Effect</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-ssl" class="internal"><span class="codenumber">4.6.3.1</span> <span class="title">Stationary source and listener</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-smsl" class="internal"><span class="codenumber">4.6.3.2</span> <span class="title">Source is moving towards stationary listener</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-smaway_sl" class="internal"><span class="codenumber">4.6.3.3</span> <span class="title">Source is moving away from stationary listner</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-lmss" class="internal"><span class="codenumber">4.6.3.4</span> <span class="title">Listener is moving towards a stationary source</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-lmaway_ss" class="internal"><span class="codenumber">4.6.3.5</span> <span class="title">Listener is moving away from a stationary source</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-sl_eo" class="internal"><span class="codenumber">4.6.3.6</span> <span class="title">Source and listener move towards each other</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-dopplerefct.html#subsubsec-slaway_eo" class="internal"><span class="codenumber">4.6.3.7</span> <span class="title">Source and listener move away from each other</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-sonic_boom.html" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Sonic Boom</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_fourth-examplesB.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Examples B</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Optics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Light</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-speed_light.html" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Speed of Light</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-huygens.html" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Huygens’s Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fifth-geoopt.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Geometrical Optics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-refl.html" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Reflection</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-refl_laws" class="internal"><span class="codenumber">5.2.1.1</span> <span class="title">Laws of Reflection</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-reg_diff" class="internal"><span class="codenumber">5.2.1.2</span> <span class="title">Regular and Diffuse Reflection</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-image_pmirror" class="internal"><span class="codenumber">5.2.1.3</span> <span class="title">Image formed by a mirror</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-plan_mirror" class="internal"><span class="codenumber">5.2.1.4</span> <span class="title">Plane Mirror</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refl.html#subsubsec-inclined_mir" class="internal"><span class="codenumber">5.2.1.5</span> <span class="title">Inclined Mirrors</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-sp_mir.html" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Spherical Mirror</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-fr_rel" class="internal"><span class="codenumber">5.2.2.1</span> <span class="title">Relation between f and R</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-mir_form" class="internal"><span class="codenumber">5.2.2.2</span> <span class="title">Mirror Formula</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-lateral_magmir" class="internal"><span class="codenumber">5.2.2.3</span> <span class="title">Lateral Magnification, m</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-concave_image" class="internal"><span class="codenumber">5.2.2.4</span> <span class="title">Formation of Image by a Concave Mirror</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-sp_mir.html#subsubsec-convex_image" class="internal"><span class="codenumber">5.2.2.5</span> <span class="title">Formation of Image by a Convex Mirror</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-refraction.html" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Refraction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-refraction.html#subsubsec-" class="internal"><span class="codenumber">5.2.3.1</span> <span class="title">Laws of Refraction</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refraction.html#subsubsec-real_apprnt" class="internal"><span class="codenumber">5.2.3.2</span> <span class="title">Real and Apparent Depth</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refraction.html#subsubsec-lateral_shift" class="internal"><span class="codenumber">5.2.3.3</span> <span class="title">Lateral Shift</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-refraction.html#subsubsec-reversblty_prncple" class="internal"><span class="codenumber">5.2.3.4</span> <span class="title">Principle of Reversibility of Light</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-tir.html" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Total Internal Reflection</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-tir.html#subsubsec-mirage" class="internal"><span class="codenumber">5.2.4.1</span> <span class="title">Mirage</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-prism_ref.html" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Refraction through a Prism</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-srs_img.html" class="internal"><span class="codenumber">5.2.6</span> <span class="title">Image formed by Spherical Refracting Surfaces</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-srs_img.html#subsubsec-srs_mag" class="internal"><span class="codenumber">5.2.6.1</span> <span class="title">Lateral or Transverse Magnification, m</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-srs_img.html#subsubsec-longmag_srs" class="internal"><span class="codenumber">5.2.6.2</span> <span class="title">Longitudinal Magnification, L</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-thin_lens.html" class="internal"><span class="codenumber">5.2.7</span> <span class="title">Thin Lenses</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-thin_lens.html#subsubsec-lens_formula" class="internal"><span class="codenumber">5.2.7.1</span> <span class="title">Lens Formula</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-thin_lens.html#subsubsec-vexlens_img" class="internal"><span class="codenumber">5.2.7.2</span> <span class="title">Image formed by a convex lens</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-thin_lens.html#subsubsec-cavelens_img" class="internal"><span class="codenumber">5.2.7.3</span> <span class="title">Image formed by a concave lens</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-lensmakers.html" class="internal"><span class="codenumber">5.2.8</span> <span class="title">Lens Maker’s Formula</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-lensmakers.html#subsubsec-fr_dependence" class="internal"><span class="codenumber">5.2.8.1</span> <span class="title">Dependence of f of a lens on R of its surfaces</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lensmakers.html#subsubsec-mindist_rimge" class="internal"><span class="codenumber">5.2.8.2</span> <span class="title">Minimum distance between object and its real image in a convex lens</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-lensmakers.html#subsubsec-eqf_thinlens" class="internal"><span class="codenumber">5.2.8.3</span> <span class="title">Equivalent focal length of two thin lenses</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec_fifth-dispers.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Dispersion</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-achrom_prism.html" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Deviation Without Dispersion (Achromatic Prism)</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-diswdev1.html" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Dispersion Without Deviation</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-chrom_abr.html" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Chromatic Aberation in a Lens</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-chrom_abr.html#subsubsec-achrom" class="internal"><span class="codenumber">5.3.3.1</span> <span class="title">Achromatism</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-rainbow.html" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Rainbow</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-rainbow.html#subsubsec-prainbow" class="internal"><span class="codenumber">5.3.4.1</span> <span class="title">Primary Rainbow</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-rainbow.html#subsubsec-srainbow" class="internal"><span class="codenumber">5.3.4.2</span> <span class="title">Secondary Rainbow</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-scattering.html" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Scattering</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Examples A</span></a></div></li>
+<li><div class="toc-item"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Examples B</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_fifth-opinst.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Optical Instruments</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-camera.html" class="internal"><span class="codenumber">5.6.1</span> <span class="title">Camera</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-opvision.html" class="internal"><span class="codenumber">5.6.2</span> <span class="title">Optical Vision</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-opvision.html#subsubsec-myopia" class="internal"><span class="codenumber">5.6.2.1</span> <span class="title">Myopia:</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-opvision.html#subsubsec-hyperopia" class="internal"><span class="codenumber">5.6.2.2</span> <span class="title">Hypermetropia  (or hyperopia):</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-opvision.html#subsubsec-visangle" class="internal"><span class="codenumber">5.6.2.3</span> <span class="title">Visual Angle</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-opvision.html#subsubsec-magpower" class="internal"><span class="codenumber">5.6.2.4</span> <span class="title">Angular Magnification  (or Magnifying Power:)</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-microscope.html" class="internal"><span class="codenumber">5.6.3</span> <span class="title">Microscope</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-microscope.html#subsubsec-handlens" class="internal"><span class="codenumber">5.6.3.1</span> <span class="title">Simple Microscope</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-microscope.html#subsubsec-compmicros" class="internal"><span class="codenumber">5.6.3.2</span> <span class="title">Compound Microscope</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-telescope.html" class="internal"><span class="codenumber">5.6.4</span> <span class="title">Telescope</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-telescope.html#subsubsec-astrts" class="internal"><span class="codenumber">5.6.4.1</span> <span class="title">Astronomical Telescope</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-telescope.html#subsubsec-terrts" class="internal"><span class="codenumber">5.6.4.2</span> <span class="title">Terrestrial Telescope</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-telescope.html#subsubsec-galilots" class="internal"><span class="codenumber">5.6.4.3</span> <span class="title">Galileo’s Telescope</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="subsec-photmtry.html" class="internal"><span class="codenumber">5.6.5</span> <span class="title">Photometry</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-photmtry.html#subsubsec-stcandle" class="internal"><span class="codenumber">5.6.5.1</span> <span class="title">Standard Candle</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-photmtry.html#subsubsec-sangl" class="internal"><span class="codenumber">5.6.5.2</span> <span class="title">Solid Angle, <span class="process-math">\(\omega\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="subsec-photmtry.html#subsubsec-lumenflx" class="internal"><span class="codenumber">5.6.5.3</span> <span class="title">Luminous Flux, <span class="process-math">\(\phi\)</span></span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-isl.html" class="internal"><span class="codenumber">5.6.6</span> <span class="title">Inverse Square Law</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-iil.html" class="internal"><span class="codenumber">5.6.7</span> <span class="title">Intensity of Illumination</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-bsil.html" class="internal"><span class="codenumber">5.6.8</span> <span class="title">Brightness of a surface and illumination</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-bsil.html#subsubsec-bgsp" class="internal"><span class="codenumber">5.6.8.1</span> <span class="title">Bunsen’s Grease Spot Photometer</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_fifth-examplesC.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Examples C</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec_fifth-physopt.html" class="internal"><span class="codenumber">5.8</span> <span class="title">Physical Optics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="subsec-interfnc.html" class="internal"><span class="codenumber">5.8.1</span> <span class="title">Interference</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-interfnc.html#subsubsec-coherent" class="internal"><span class="codenumber">5.8.1.1</span> <span class="title">Coherent Sources</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-interfnc.html#subsubsec-phase_path" class="internal"><span class="codenumber">5.8.1.2</span> <span class="title">Phase Difference and Path Difference</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-inter_fringe.html" class="internal"><span class="codenumber">5.8.2</span> <span class="title">Theory of Interference Fringes</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-thin_film.html" class="internal"><span class="codenumber">5.8.3</span> <span class="title">Thickness of Thin Sheet of Transparent Material</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-thinfilm_interf.html" class="internal"><span class="codenumber">5.8.4</span> <span class="title">Interference in Thin Films</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-thinfilm_interf.html#subsubsec-thinf_interr" class="internal"><span class="codenumber">5.8.4.1</span> <span class="title">Interference due to Reflected Light in Thin Films</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-thinfilm_interf.html#subsubsec-thinf_intert" class="internal"><span class="codenumber">5.8.4.2</span> <span class="title">Interference due to Transmitted Light in Thin Films</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-thinf_color.html" class="internal"><span class="codenumber">5.8.5</span> <span class="title">Colors of Thin Films</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-diffraction.html" class="internal"><span class="codenumber">5.8.6</span> <span class="title">Diffraction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-diffraction.html#subsubsec-ssdiffrct" class="internal"><span class="codenumber">5.8.6.1</span> <span class="title">Single Slit Diffraction</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-diffraction.html#subsubsec-issdiff" class="internal"><span class="codenumber">5.8.6.2</span> <span class="title">Intensity of Diffraction Pattern due to a Single Slit</span></a></div></li>
+</ul>
+</li>
+<li class="active">
+<div class="toc-item"><a href="subsec-dsdiffrc.html" class="internal"><span class="codenumber">5.8.7</span> <span class="title">Double Slits Diffraction</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="subsec-dsdiffrc.html#subsubsec-idsdiffrc" class="internal"><span class="codenumber">5.8.7.1</span> <span class="title">Intensity of Diffraction Pattern due to Double Slits</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="subsec-msdiffrc.html" class="internal"><span class="codenumber">5.8.8</span> <span class="title">Multiple Slits Diffraction</span></a></div></li>
+<li>
+<div class="toc-item"><a href="subsec-diffgrating.html" class="internal"><span class="codenumber">5.8.9</span> <span class="title">Diffraction Grating</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="subsec-diffgrating.html#subsubsec-grat_spectrom" class="internal"><span class="codenumber">5.8.9.1</span> <span class="title">Grating Spectrometer</span></a></div></li>
+<li><div class="toc-item"><a href="subsec-diffgrating.html#subsubsec-resolv_power" class="internal"><span class="codenumber">5.8.9.2</span> <span class="title">Resolving Power</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="subsec-polrzn.html" class="internal"><span class="codenumber">5.8.10</span> <span class="title">Polarization</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="sec_fifth-examplesD.html" class="internal"><span class="codenumber">5.9</span> <span class="title">Examples D</span></a></div></li>
+<li><div class="toc-item"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.10</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="subsec-dsdiffrc"><h2 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">5.8.7</span> <span class="title">Double Slits Diffraction</span>
+</h2>
+<section class="introduction" id="introduction-67"><div class="para" id="p-1188">If the width of slit is very narrow such as <span class="process-math">\(a \lt \lt \lambda\text{,}\)</span> then in the double-slit experiment, the central maximum of the diffraction pattern of either slit covers the entire viewing screen and the interference of light produces bright fringes with approximately the same intensity. In practice, however, the condition <span class="process-math">\(a \lt \lt \lambda\)</span> is not met. For relatively wide slits <a href="" class="xref" data-knowl="./knowl/ddiff.html" title="Figure 5.8.12.(a)">Figure 5.8.12.(a)</a>, the interference of light from two slits produces bright fringes that do not all have the same intensity. That is, the intensities of the fringes produced by double-slit interference are modified by diffraction of the light passing through each slit.</div> <figure class="figure figure-like" id="figure-406"><div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;">
+<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="ddiff"><img src="external/ddiff.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:37.5%;"><figure class="figure figure-like" id="diffgraph3"><img src="external/diffgraph3.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.8.12<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="p-1189">The intensity of <a href="" class="xref" data-knowl="./knowl/ddiff.html" title="Figure 5.8.12.(a)">Figure 5.8.12.(a)</a>suggests the double-slit interference pattern that would occur if the slits were infinitely narrow; all the bright interference fringes would have the same intensity. The intensity plot of <a href="" class="xref" data-knowl="./knowl/ddiff.html" title="Figure 5.8.12.(a)">Figure 5.8.12.(a)</a> is that for diffraction by a single slit; the diffraction pattern has a broad central maximum and weaker secondary maxima. The plot of <a href="" class="xref" data-knowl="./knowl/diffgraph3.html" title="Figure 5.8.12.(b)">Figure 5.8.12.(b)</a> suggests the interference pattern for two actual slits. That plot was constructed by using the curve of <a href="" class="xref" data-knowl="./knowl/ddiff.html" title="Figure 5.8.12.(a)">Figure 5.8.12.(a)</a> as an envelope on the intensity plot in <a href="" class="xref" data-knowl="./knowl/diffgraph3.html" title="Figure 5.8.12.(b)">Figure 5.8.12.(b)</a>. The positions of the fringes are not changed; only the intensities are affected.</div> <div class="para logical" id="p-1190">
+<div class="para">Double slit diffraction can be explained as a combination of</div>
+<ol class="lower-roman">
+<li id="li-1030"><div class="para" id="p-derived-li-1030">the interference pattern due to secondary waves coming from the corresponding points of the two slits and</div></li>
+<li id="li-1031"><div class="para" id="p-derived-li-1031">the diffraction pattern due to the secondary waves from the two slits individually.</div></li>
+</ol>
+</div> <figure class="figure figure-like" id="ddiff2"><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/ddiff2.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.8.13<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para logical" id="p-1191"><ol class="decimal">
+<li id="li-1032"><div class="para logical" id="p-1192">
+<div class="para">
+<dfn class="terminology">Interference maxima and minima:</dfn> Consider the secondary waves traveling in direction <span class="process-math">\(\theta\)</span> with the initial direction of the incident light. Now from <span class="process-math">\(\triangle ACN\)</span> from <a href="" class="xref" data-knowl="./knowl/ddiff2.html" title="Figure 5.8.13">Figure 5.8.13</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff2.html">
+\begin{equation*}
+\sin\theta=\frac{CN}{AC}=\frac{CN}{a+b}\quad \Rightarrow CN=(a+b)\sin\theta
+\end{equation*}
+</div>
+<div class="para">If the path difference CN is an odd multiple of <span class="process-math">\(\lambda/2\text{,}\)</span> then <span class="process-math">\(\theta\)</span> gives the direction of minima due to interference of the secondary waves.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff2.html" id="eqn-dsidiff1">
+\begin{equation}
+\therefore\quad CN = (a+b) \sin\theta_{n}=(2n+1)\frac{\lambda}{2}  \quad [n=1,2,3,\cdots] \tag{5.8.20}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff2.html" id="eqn-dsidiff2">
+\begin{equation}
+\text{or,}\quad \sin\theta_{n}=\frac{(2n+1)\lambda}{2(a+b)} \tag{5.8.21}
+\end{equation}
+</div>
+<div class="para">But when CN is an even multiple of <span class="process-math">\(\lambda/2\text{,}\)</span> then <span class="process-math">\(\theta\)</span> gives the direction of maxima due to interference of the secondary waves.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff2.html">
+\begin{equation*}
+\therefore\quad CN = (a+b) \sin\theta_{n}=2n\frac{\lambda}{2}  \quad [n=1,2,3,\cdots] 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff2.html" id="eqn-dsidiff3">
+\begin{equation}
+\text{or,}\quad \sin\theta_{n}=\frac{n\lambda}{a+b}  \tag{5.8.22}
+\end{equation}
+</div>
+<div class="para">The angular separation between any two consecutive minima or maxima is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff2.html">
+\begin{equation*}
+\sin\theta_{n}-\sin\theta_{n-1} = \frac{\lambda}{a+b} 
+\end{equation*}
+</div>
+</div></li>
+<li id="li-1033"><div class="para logical" id="p-1193">
+<div class="para">
+<dfn class="terminology">Diffraction maxima and minima:</dfn> Consider the secondary waves traveling in direction <span class="process-math">\(\phi\)</span> with the initial direction of the incident light from a same slit. If the path difference BM is equal to <span class="process-math">\(\lambda\text{,}\)</span> then <span class="process-math">\(\phi \)</span> will give the direction of diffraction minimum. If the wavefront AB divides into two halves, then the path difference between the corresponding points of the upper and lower half is equal to <span class="process-math">\(\lambda/2.\)</span> Hence the point P has no effect due to wavefront coming from slit AB. Similarly, there is no effect at P due to the waves coming from slit CD with the same inclination. In general,</div>
+<div class="displaymath process-math" id="eqn-dsidiff4">
+\begin{equation}
+a\sin\phi_{n} = n\lambda \quad [n=1,2,3,\cdots] \tag{5.8.23}
+\end{equation}
+</div>
+</div></li>
+</ol></div></section><section class="subsubsection" id="subsubsec-idsdiffrc"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">5.8.7.1</span> <span class="title">Intensity of Diffraction Pattern due to Double Slits</span>
+</h3>
+<div class="para logical" id="p-1194">
+<div class="para">The intensity due to Fraunhoffer double slits diffraction can be obtained by using eqn. <a href="" class="xref" data-knowl="./knowl/eqn-issdiff1.html" title="Equation 5.8.13">(5.8.13)</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-issdiff1.html">
+\begin{equation*}
+y = A \left[\int\limits_{-\frac{a}{2}}^{\frac{a}{2}} \sin\left(\omega t -kr+kz\sin\theta \right)\,dz  + \int\limits_{d-\frac{a}{2}}^{d+\frac{a}{2}} \sin\left(\omega t -kr+kz\sin\theta \right)\,dz  \right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-issdiff1.html">
+\begin{equation*}
+\therefore \quad y = aA \frac{\sin\alpha}{\alpha}\sin(\omega t -kr) + A \left[\frac{-\cos(\omega t -kr+kz\sin\theta)}{k\sin\theta}\right]_{d-\frac{a}{2}}^{d+\frac{a}{2}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-issdiff1.html">
+\begin{equation*}
+\text{or,} \quad y =  \frac{aA\sin\alpha}{\alpha}\sin(\omega t -kr) - \frac{A}{k\sin\theta} \left[ \cos\left(\omega t -kr+kd\sin\theta + \frac{ka\sin\theta}{2}\right)\right.
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-issdiff1.html">
+\begin{equation*}
+\left.-\cos\left(\omega t -kr+kd\sin\theta - \frac{ka\sin\theta}{2}\right) \right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-issdiff1.html">
+\begin{equation*}
+\text{or,} \quad y =  \frac{aA\sin\alpha}{\alpha}\sin(\omega t -kr) + \frac{2A}{k\sin\theta} \left[ \sin\left(\omega t -kr+kd\sin\theta\right)\cdot\sin\left(\frac{ka\sin\theta}{2}\right)\right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-issdiff1.html">
+\begin{equation*}
+\text{or,} \quad y =  \frac{aA\sin\alpha}{\alpha}\sin(\omega t -kr) + \frac{Aa\sin\alpha}{\alpha}  \sin\left(\omega t -kr+kd\sin\theta\right)
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\(\left( \because \frac{ka\sin\theta}{2}=\alpha \right)\)</span></div>
+</div>
+<div class="para logical" id="p-1195">
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad y =  \frac{aA\sin\alpha}{\alpha}\left[\sin(\omega t -kr) +  \sin\left(\omega t -kr+kd\sin\theta\right) \right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad y =  \frac{2aA\sin\alpha}{\alpha}\left[\sin(\omega t -kr) + \frac{kd\sin\theta}{2}\right] \cos\left(-\frac{kd\sin\theta}{2} \right) 
+\end{equation*}
+</div>
+<div class="para">Let</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{kd\sin\theta}{2}=\beta,
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos(-\theta) = \cos\theta, 
+\end{equation*}
+</div>
+<div class="para">we have -</div>
+<div class="displaymath process-math" id="eqn-idsdiffrc1">
+\begin{equation}
+\therefore \quad y =  \frac{2aA\sin\alpha}{\alpha} \cos\beta \sin(\omega t -kr+\beta)  \tag{5.8.24}
+\end{equation}
+</div>
+<div class="para">The intensity at point P is therefore given by</div>
+<div class="displaymath process-math" id="eqn-idsdiffrc2">
+\begin{equation}
+I=4a^{2}A^{2}\left(\frac{\sin^{2}\alpha}{\alpha^{2}}\right)\cos^{2}\beta  = 4I_{o}\left(\frac{\sin\alpha}{\alpha}\right)^{2}\cos^{2}\beta \tag{5.8.25}
+\end{equation}
+</div>
+<div class="para">The intensity at central maximum is <span class="process-math">\(4I_{o}\)</span> when <span class="process-math">\(\alpha=0\)</span> and <span class="process-math">\(\beta=0\text{.}\)</span>
+</div>
+</div>
+<div class="para logical" id="p-1196">
+<div class="para">In <a href="" class="xref" data-knowl="./knowl/diffgraph3.html" title="Figure 5.8.12.(b)">Figure 5.8.12.(b)</a>, the red envelop represents the intensity distribution due to diffraction in double slits <span class="process-math">\(\left[\frac{\sin\alpha}{\alpha} \right]^{2},\)</span> also called diffraction factor and blue curve represents the intensity distribution due to interference of waves from both the slits <span class="process-math">\(\left[\cos^{2}\beta\right],\)</span> also called interference factor.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/diffgraph3.html">
+\begin{equation*}
+\text{Here}\quad \beta = \frac{\pi d\sin\theta}{\lambda}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/diffgraph3.html">
+\begin{equation*}
+\text{and}\quad \alpha =\frac{\pi a\sin\theta}{\lambda}
+\end{equation*}
+</div>
+<div class="para">Interference maxima occur when <span class="process-math">\(\,d\sin\theta =m\lambda\)</span> and first diffraction minimum occurs when <span class="process-math">\(\,a\sin\theta =\lambda\text{.}\)</span> The <span class="process-math">\(m^{th} \)</span> order of interference maximum coincide with the first order diffraction minimum, which is given by <span class="process-math">\(m=d/a\text{.}\)</span> If <span class="process-math">\(\frac{d}{a}=\frac{a+b}{a} =1;\quad  b=0\text{.}\)</span> In this case, the first order spectrum will be absent and the resultant diffraction pattern is similar to single slit diffraction. If <span class="process-math">\(\frac{a+b}{a} =2; \quad a=b\text{,}\)</span> then second order spectrum will be absent.</div>
+</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="subsec-diffraction.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="subsec-msdiffrc.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
