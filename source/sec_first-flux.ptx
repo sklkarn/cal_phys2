@@ -58,7 +58,7 @@
             and for surface S', the flux
             <men xml:id="eqn-gauss_law3">
               \Phi_{s'} = \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}   
-            </men>
+            </men>   
               </p>
               <p>
                 From eqns. <xref ref="eqn-gauss_law2"/> and <xref ref="eqn-gauss_law3"/> we get- 
