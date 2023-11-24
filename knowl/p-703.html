@@ -13,36 +13,29 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">If the acceleration of the element along vertical be <span class="process-math">\(\frac{\partial^{2} y}{\partial t^{2}}\)</span> and mass of an element, AB is <span class="process-math">\(\mu\,ds\)</span> then according to Newton’s second law of motion, this force is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq3.html ./knowl/eqn-strngeq4.html">
+<div class="para">From eqn. <a href="" class="xref" data-knowl="./knowl/eqn-strngeq2.html" title="Equation 4.2.11">(4.2.11)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq2.html">
+\begin{equation*}
+F_{y}=T\left(\frac{\partial y}{\partial x}\right)_{x+\,dx}-T\left(\frac{\partial y}{\partial x}\right)_{x} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq2.html">
+\begin{equation*}
+=T\left[\left(\frac{\partial y}{\partial x}\right)_{x+\,dx}-\left(\frac{\partial y}{\partial x}\right)_{x}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq2.html">
+\begin{equation*}
+=T\left[\left(\frac{\partial y}{\partial x}\right)_{x}+\frac{\partial}{\partial x}\left(\frac{\partial y}{\partial x}\right)_{x}\,dx+\cdots-\left(\frac{\partial y}{\partial x}\right)_{x}\right]
+\end{equation*}
+</div>
+<div class="para">using Taylor’s expansions.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq2.html">
 \begin{equation}
-F_{y} = \mu\,ds\frac{\partial^{2} y}{\partial t^{2}} \tag{4.2.13}
+\therefore  F_{y}=T\frac{\partial^{2} y}{\partial x^{2}}\,dx \tag{4.2.12}
 \end{equation}
 </div>
-<div class="para">from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-strngeq3.html" title="Equation 4.2.12">(4.2.12)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-strngeq4.html" title="Equation 4.2.13">(4.2.13)</a>, we have-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq3.html ./knowl/eqn-strngeq4.html">
-\begin{equation*}
-T\frac{\partial^{2} y}{\partial x^{2}}\,dx =  \mu\,dx\frac{\partial^{2} y}{\partial t^{2}} 
-\end{equation*}
-</div>
-<div class="para">[Since, slope of the curve is small, <span class="process-math">\(\,ds\)</span> can be replaced by <span class="process-math">\(\,dx\)</span>]</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq3.html ./knowl/eqn-strngeq4.html">
-\begin{equation*}
-T\frac{\partial^{2} y}{\partial x^{2}} =  \mu\frac{\partial^{2} y}{\partial t^{2}}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq3.html ./knowl/eqn-strngeq4.html">
-\begin{equation}
-\text{or,}\quad	\frac{\partial^{2} y}{\partial x^{2}} =  \frac{1}{v^{2}}\frac{\partial^{2} y}{\partial t^{2}} \tag{4.2.14}
-\end{equation}
-</div>
-<div class="para">It is the wave equation for a vibrating string, where</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-strngeq3.html ./knowl/eqn-strngeq4.html">
-\begin{equation*}
-v^{2}=\frac{T}{\mu}
-\end{equation*}
-</div>
-<div class="para">is the velocity of the wave propagating along the string.</div>
+<div class="para">by neglicting higher order terms. i.e., <span class="process-math">\(F_{y} \neq 0\)</span>  hence the motion of the particle of string is only along y - axis.</div>
 </div>
 <span class="incontext"><a href="subsec-shm_wfn.html#p-703" class="internal">in-context</a></span>
 </body>

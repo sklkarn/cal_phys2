@@ -11,64 +11,28 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
+<h2 class="heading"><span class="type">Paragraph</span></h2>
 <div class="para logical">
-<div class="para">It is an effective value of alternating current which develops the same amount of heat in resistance R as direct current (or steady current) will develop when flowing  through it. That is,</div>
+<div class="para">An average value of emf over one half cycle is,</div>
 <div class="displaymath process-math">
 \begin{equation*}
-I^{2}_{eff}R=I^{2}R= \overline{I}^{2}R
+E_{av}=\frac{\int\limits_{0}^{T/2}E_{o}\sin\omega t\,dt}{\int\limits_{0}^{T/2}\,dt} 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore\quad I_{eff}=I_{rms} = \sqrt{\overline{I}^{2}}
+= \frac{E_{o}}{T/2}\left[\frac{-\cos\omega t}{\omega}\right]_{0}^{T/2} = \frac{2E_{o}}{\pi}
 \end{equation*}
 </div>
-<div class="para">Thus the rms value of current is the square root of mean of squares of instantaneous values over one complete cycle. If an alternating current is represented by</div>
+<div class="para">
+<span class="process-math">\([\because \quad T = \frac{2\pi}{\omega}]\)</span> Similarly, average alternating current over half cycle is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-I=I_{o}\sin\omega t
+I_{av}=\frac{2I_{o}}{\pi}
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(I_{o}\)</span> is an amplitude of the alternating current, then mean square current is</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\overline{I}^{2} = \frac{\int\limits_{0}^{T}I^{2}\,dt}{\int\limits_{0}^{T}\,dt}
-\end{equation*}
+<div class="para">Hence an average over one cycle is zero.</div>
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-= \frac{1}{T} \int\limits_{0}^{T} I_{o}^{2}\sin^{2}\omega t\,dt =  \frac{I^{2}_{o}}{2T}\int\limits_{0}^{T} 2\sin^{2}\omega t\,dt
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-= \frac{I^{2}_{o}}{2T}\int\limits_{0}^{T}(1- \cos 2\omega t)\,dt = \frac{I^{2}_{o}}{2T}\left(t-\frac{\sin 2\omega t}{2\omega}\right)_{0}^{T} 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-= \frac{I^{2}_{o}}{2T} T = \frac{I^{2}_{o}}{2}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore\quad I_{rms}= \sqrt{\overline{I}^{2}} = \frac{I_{o}}{\sqrt{2}} = 0.707 I_{o}
-\end{equation*}
-</div>
-<div class="para">similarly,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-E_{rms}= \sqrt{\overline{E}^{2}} = \frac{E_{o}}{\sqrt{2}} = 0.707 E_{o}
-\end{equation*}
-</div>
-<div class="para">The hot wire meter is used to measure rms value of current. It measures the expansion of wire due to heat generated as current flow in it.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\textbf{Form Factor}= \frac{I_{rms}}{I_{av}} = \frac{E_{rms}}{E_{av}} = \frac{\pi}{2\sqrt{2}}=1.11
-\end{equation*}
-</div>
-</div>
-<span class="incontext"><a href="subsec-rmsI.html#p-584" class="internal">in-context</a></span>
+<span class="incontext"><a href="sec_third-accircuits.html#p-584" class="internal">in-context</a></span>
 </body>
 </html>

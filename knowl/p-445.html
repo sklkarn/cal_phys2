@@ -13,12 +13,39 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Magnetic field at the center (ie., x=0) of a current carrying loop is</div>
+<div class="para">Due to symmetry of current along the ring y components of field cancel out but x component survived, hence</div>
 <div class="displaymath process-math">
 \begin{equation*}
-B= \frac{\mu_{o}I N a^{2}}{2a^{3}}=\frac{\mu_{o}I N }{2a}
+\,dB\sin\phi=\frac{\mu_{o}I}{4\pi}\frac{\,dl}{r^{2}}\frac{a}{r} 
 \end{equation*}
 </div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{\mu_{o}I}{4\pi}\frac{\,dl a}{r^{3}} =  \frac{\mu_{o}I}{4\pi} \frac{a\,dl}{(a^{2}+x^{2})^{3/2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad B= \int\,dB = \int\limits_{0}^{2\pi a}\frac{\mu_{o}I}{4\pi} \frac{a\,dl}{(a^{2}+x^{2})^{3/2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{\mu_{o}I}{4\pi} \frac{a}{(a^{2}+x^{2})^{3/2}} \left[l\right]_{0}^{2\pi a}  = \frac{\mu_{o}I}{4\pi} \frac{a (2\pi a)}{(a^{2}+x^{2})^{3/2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B= \frac{\mu_{o}I}{2} \frac{a^{2}}{(a^{2}+x^{2})^{3/2}}
+\end{equation*}
+</div>
+<div class="para">If number of turns in a circular loop is N, then</div>
+<div class="displaymath process-math">
+\begin{equation}
+B=\frac{\mu_{o}I N a^{2}}{2(a^{2}+x^{2})^{3/2}} \tag{3.4.2}
+\end{equation}
+</div>
+<div class="para">along the x-axis.</div>
 </div>
 <span class="incontext"><a href="subsec-magfld_movcharge.html#p-445" class="internal">in-context</a></span>
 </body>

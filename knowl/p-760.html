@@ -13,13 +13,44 @@
 <body class="ignore-math">
 <h2 class="heading"><span class="type">Paragraph</span></h2>
 <div class="para logical">
-<div class="para">Intensity level or loudness is measured in logarithmic scale as it depends upon human perception of sound, i.e</div>
+<div class="para">Sound Wave Equations are</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\beta =  10 \log\frac{I}{I_{o}} \quad (dB)
+s(x,t) = s_{o} sin (kx-\omega t) \quad	(Displacement) 
 \end{equation*}
 </div>
-<div class="para">The unit of loudness is decibels (dB) and the term <span class="process-math">\(I_{o} = 10^{-12} \,(W/m^{2})\)</span> is a minimum intensity of sound that human ear can perceive with zero loudness. <span class="process-math">\(I_{o}\)</span> is also known as <dfn class="terminology">Threshold of hearing</dfn> as <span class="process-math">\(\beta=0\)</span> at <span class="process-math">\(I=I_{o}\text{.}\)</span>
+<div class="displaymath process-math">
+\begin{equation*}
+p(x,t) = Bks_{o} cos (kx-\omega t) \quad	(Pressure) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p_{max} = |Bks_{o}|	\quad \text{(Pressure Amplitude)}
+\end{equation*}
+</div>
+<div class="para">Now sound intensity can be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I = \frac{P}{A}	(W/m^{2}) = \frac{\,E}{A\,dt}=\frac{F \,ds}{A\,dt} = p(x,t)v(x,t)=Bk\omega s_{o}^{2}\cos^{2}(\omega t-kx)
+\end{equation*}
+</div>
+<div class="para">At any point x the average value of function <span class="process-math">\(\cos^{2}(\omega t-kx) \)</span> over one period <span class="process-math">\(T=2\pi/\omega\)</span> is <span class="process-math">\(\frac{1}{2}\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad  I = \frac{1}{2}Bk\omega s_{o}^{2} = \frac{\omega p_{max}^{2}}{2Bk}=\frac{v p_{max}^{2}}{2B}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{But,}\quad v=\sqrt{\frac{B}{\rho}}\quad \text{hence}\quad  I = \frac{1}{2}\sqrt{\rho B}\omega^{2}s_{o}^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad I = \frac{p^{2}_{max}}{2\rho v} = \frac{p^{2}_{max}}{2\sqrt{\rho B}}
+\end{equation*}
 </div>
 </div>
 <span class="incontext"><a href="sec_fourth-sound.html#p-760" class="internal">in-context</a></span>

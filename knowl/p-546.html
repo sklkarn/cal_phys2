@@ -13,51 +13,43 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Let us put <span class="process-math">\(\frac{\lambda}{\gamma} = \tan\theta\)</span> where <span class="process-math">\(\theta\)</span> is a new constant so that <span class="process-math">\(\sin\theta=\frac{\lambda}{\omega_{o}}\)</span> and <span class="process-math">\(\cos\theta=\frac{\gamma}{\omega_{o}}.\)</span> as shown in <a href="" class="xref" data-knowl="./knowl/pyth.html" title="Figure 3.7.9.(b)">Figure 3.7.9.(b)</a>. Hence from the above equation</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+<div class="para">
+<dfn class="terminology">Case III:</dfn> If <span class="process-math">\(\lambda^{2} \lt \omega^{2}_{o},\)</span> then <span class="process-math">\(\beta\)</span> is imaginary. Let us put</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
 \begin{equation*}
-q= q_{o}-q_{o}e^{-\lambda t}\left(\cos\gamma t+\tan\theta\sin\gamma t\right)
+\beta = \sqrt{(\lambda^{2}-\omega^{2}_{o})}=j\sqrt{(\omega^{2}_{o}-\lambda^{2})}=j\gamma 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+<div class="para">where</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
 \begin{equation*}
-=  q_{o}-q_{o}\frac{e^{-\lambda t}}{\cos\theta}\left(\cos\theta\cos\gamma t+\sin\theta\sin\gamma t\right)
+\gamma = \sqrt{(\omega^{2}_{o}-\lambda^{2})}.
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+<div class="para">Hence, from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr6.html" title="Equation 3.7.14">(3.7.14)</a>, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
 \begin{equation*}
-\therefore\quad q= q_{o}-q_{o}\frac{\omega_{o} e^{-\lambda t}}{\gamma} \cos\left(\gamma t-\theta \right)
+q= q_{o}-\frac{q_{o}}{2}\left(1+\frac{\lambda}{j\gamma}\right) e^{(-\lambda +j\gamma)t} 
+- \frac{q_{o}}{2}\left(1-\frac{\lambda}{j\gamma}\right) e^{(-\lambda -j\gamma)t}
 \end{equation*}
 </div>
-<div class="para">Thus in this case the charge is damped oscillatory as shown by <em class="emphasis">curve III</em> in <a href="" class="xref" data-knowl="./knowl/gr10.html" title="Figure 3.7.9.(a)">Figure 3.7.9.(a)</a>. The current in this case is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
 \begin{equation*}
-i=\frac{\,dq}{\,dt} = q_{o}\omega_{o}e^{-\lambda t}\sin(\gamma t - \theta) +q_{o}\frac{\omega_{o}\lambda e^{-\lambda t}}{\gamma} \cos\left(\gamma t-\theta \right)
+\text{or,}\quad q = q_{o}-\frac{q_{o}}{2}e^{-\lambda t}\left(e^{j\gamma t}
++\frac{\lambda}{j\gamma} e^{j\gamma t}+ e^{-j\gamma t}- \frac{\lambda}{j\gamma} e^{-j\gamma t}\right)
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
 \begin{equation*}
-\text{or,}\quad i=q_{o}\frac{\omega_{o} e^{-\lambda t}}{\gamma}\left[\gamma\sin(\gamma t-\theta)+\lambda\cos(\gamma t-\theta)\right]
+\text{or,}\quad q = q_{o}-q_{o}e^{-\lambda t}\left(\frac{e^{j\gamma t}+e^{-j\gamma t}}{2} 
++ \frac{\lambda}{\gamma} \frac{e^{j\gamma t}-e^{-j\gamma t}}{2j} \right)
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr6.html">
 \begin{equation*}
-\text{or,}\quad i=q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\left[\frac{\gamma}{\omega_{o}}\sin(\gamma t-\theta) 
-+\frac{\lambda}{\omega_{o}}\cos(\gamma t-\theta)\right]
+\therefore\quad q = q_{o}-q_{o}e^{-\lambda t}\left(\cos\gamma t+ \frac{\lambda}{\gamma} \sin\gamma t\right)
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
-\begin{equation*}
-\text{or,}\quad i=q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\left[\cos\theta\sin(\gamma t-\theta)
-+\sin\theta\cos(\gamma t-\theta)\right]
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/pyth.html ./knowl/gr10.html">
-\begin{equation*}
-\therefore\quad i= q_{o}\frac{\omega^{2}_{o} e^{-\lambda t}}{\gamma}\sin\gamma t
-\end{equation*}
-</div>
-<div class="para">i.e., current is also damped oscillatory.</div>
 </div>
 <span class="incontext"><a href="subsec-lcr.html#p-546" class="internal">in-context</a></span>
 </body>

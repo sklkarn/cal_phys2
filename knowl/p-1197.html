@@ -11,72 +11,21 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
+<h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">For a single slit,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
+<div class="para">In <a href="" class="xref" data-knowl="./knowl/diffgraph3.html" title="Figure 5.8.12.(b)">Figure 5.8.12.(b)</a>, the red envelop represents the intensity distribution due to diffraction in double slits <span class="process-math">\(\left[\frac{\sin\alpha}{\alpha} \right]^{2},\)</span> also called diffraction factor and blue curve represents the intensity distribution due to interference of waves from both the slits <span class="process-math">\(\left[\cos^{2}\beta\right],\)</span> also called interference factor.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/diffgraph3.html">
 \begin{equation*}
-y = A\int\limits_{-\frac{a}{2}}^{\frac{a}{2}}\sin\left(\omega t-kr+kz\sin\theta\right)\,dz
+\text{Here}\quad \beta = \frac{\pi d\sin\theta}{\lambda}
 \end{equation*}
 </div>
-<div class="para">Let <span class="process-math">\(\sin\left(\omega t -kr+kz\sin\theta\right) =\phi(z).\)</span> Therefore, for N slits,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/diffgraph3.html">
 \begin{equation*}
-y = A\left[\int\limits_{-\frac{a}{2}}^{\frac{a}{2}}\phi(z)\,dz +\int\limits_{d-\frac{a}{2}}^{d+\frac{a}{2}}\phi(z)\,dz +\int\limits_{2d-\frac{a}{2}}^{2d+\frac{a}{2}}\phi(z)\,dz+\cdots+\int\limits_{(N-1)d-\frac{a}{2}}^{(N-1)d+\frac{a}{2}}\phi(z)\,dz \right]
+\text{and}\quad \alpha =\frac{\pi a\sin\theta}{\lambda}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation}
-\text{or,}\quad y= \frac{Aa\sin\alpha}{\alpha}\left[\sin(\omega t -kr)+\sin(\omega t -kr+kd\sin\theta)+\sin(\omega t -kr+2kd\sin\theta)+\sin(\omega t -kr+(N-1)kd\sin\theta)\right] \tag{5.8.26}
-\end{equation}
+<div class="para">Interference maxima occur when <span class="process-math">\(\,d\sin\theta =m\lambda\)</span> and first diffraction minimum occurs when <span class="process-math">\(\,a\sin\theta =\lambda\text{.}\)</span> The <span class="process-math">\(m^{th} \)</span> order of interference maximum coincide with the first order diffraction minimum, which is given by <span class="process-math">\(m=d/a\text{.}\)</span> If <span class="process-math">\(\frac{d}{a}=\frac{a+b}{a} =1;\quad  b=0\text{.}\)</span> In this case, the first order spectrum will be absent and the resultant diffraction pattern is similar to single slit diffraction. If <span class="process-math">\(\frac{a+b}{a} =2; \quad a=b\text{,}\)</span> then second order spectrum will be absent.</div>
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation*}
-\text{If}\quad S=\sin X+\sin (X+Y)+\sin (X+2Y)+\cdots+\sin (X+(N-1)Y) 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation*}
-\text{then,}\quad S\cdot\sin(\frac{Y}{2})=\sin X\cdot\sin(\frac{Y}{2})+\sin (X+Y)\cdot\sin(\frac{Y}{2})+\sin (X+2Y)\cdot\sin(\frac{Y}{2})+\cdots +\cdots+\sin (X+(N-1)Y)\cdot\sin(\frac{Y}{2}) 
-\end{equation*}
-</div>
-<div class="para">Using the identity <span class="process-math">\(2sin(A)sin(B) = \cos(A-B)-\cos(A+B)\text{,}\)</span> we would obtain,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation*}
-S=\frac{\sin(X+(N-1)Y/2).\sin(NY/2)}{\sin(Y/2)} 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation*}
-\therefore\quad y=\frac{Aa\sin\alpha}{\alpha}\left(\frac{\sin\frac{NY}{2}}{\sin\frac{Y}{2}}\right)\left[\sin\left\{X+\left(\frac{N-1}{2}\right)Y\right\}\right] 
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation}
-y=\frac{Aa\sin\alpha}{\alpha}\left(\frac{\sin N\beta}{\sin\beta}\right) \left[\sin\left\{\omega t -kr +\left(\frac{(N-1)kd\sin\theta}{2}\right)\right\}\right]\tag{5.8.27}
-\end{equation}
-</div>
-<div class="para">Therefore intensity at point P [<a href="" class="xref" data-knowl="./knowl/ddiff.html" title="Figure 5.8.12.(a)">Figure 5.8.12.(a)</a>]</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation}
-I = \frac{A^{2}a^{2}\sin^{2}\alpha}{\alpha^{2}}\left(\frac{\sin^{2} N\beta}{\sin^{2}\beta}\right) =I_{o}\left[\frac{\sin\alpha}{\alpha}\right]^{2}\left(\frac{\sin N\beta}{\sin\beta}\right)^{2} \tag{5.8.28}
-\end{equation}
-</div>
-<div class="para">Where <span class="process-math">\(I_{o}=A^{2}a^{2}\)</span> is the maximum intensity at <span class="process-math">\(\alpha=0\)</span> and <span class="process-math">\(\beta=0\text{.}\)</span> The directions of principal maxima is given by  <span class="process-math">\(N\beta=k\pi\text{,}\)</span> where <span class="process-math">\(k=0,N,2N,3N,\cdots = nN\text{.}\)</span>
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation*}
-\therefore\quad N\beta=\frac{Nkd\sin\theta}{2}= nN\pi \Rightarrow d\sin\theta=n\lambda 
-\end{equation*}
-</div>
-<div class="para">where <span class="process-math">\(n=0,1,2,3,\cdots\)</span> and <span class="process-math">\(k=\frac{2\pi}{\lambda}\text{.}\)</span> If a is slit width and b is width of the opaque space, then</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/ddiff.html">
-\begin{equation*}
-(a+b)\sin\theta_{n}=n\lambda
-\end{equation*}
-</div>
-<div class="para">provides the direction of principal maxima. The intensity goes to zero, when <span class="process-math">\(\frac{\sin\alpha}{\alpha}=0\)</span>  (diffraction condition) or  <span class="process-math">\(\sin N\beta=0\)</span> (interference term).</div>
-</div>
-<span class="incontext"><a href="subsec-msdiffrc.html#p-1197" class="internal">in-context</a></span>
+<span class="incontext"><a href="subsec-dsdiffrc.html#p-1197" class="internal">in-context</a></span>
 </body>
 </html>

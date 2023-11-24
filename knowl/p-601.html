@@ -13,13 +13,35 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Let emf of</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/figacRL.html">
+<div class="para">Therefore average power dissipated over a cycle is given by</div>
+<div class="displaymath process-math">
 \begin{equation*}
-E=E_{o}e^{j\omega t}
+P_{av}=\frac{\int\limits_{0}^{T}P\,dt}{\int\limits_{0}^{T}\,dt} = \frac{1}{T}\int\limits_{0}^{T}P\,dt 
 \end{equation*}
 </div>
-<div class="para">be applied to a circuit containing a resistor R and an inductor L in series as shown in <a href="" class="xref" data-knowl="./knowl/figacRL.html" title="Figure 3.9.7">Figure 3.9.7</a>, then from Kirchhoff’s law, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad P_{av}=\frac{1}{T}\int\limits_{0}^{T}\frac{E_{o}I_{o}}{2}\left[\cos(\theta)-\cos(2\omega t+\theta)\right]\,dt
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{E_{o}I_{o}}{2}\cos\theta = \left(\frac{E_{o}}{\sqrt{2}}\right)\left(\frac{I_{o}}{\sqrt{2}}\right)\cos\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+[\therefore \quad P_{av} = E_{rms}I_{rms}\cos\theta
+\end{equation*}
+</div>
+<div class="para">Hence if current and voltage is <span class="process-math">\(90^{o} \)</span> out of phase then <span class="process-math">\(\theta= 90^{o} \)</span> and average power consumption in ac circuit is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+[P_{av} = E_{rms}I_{rms}\cos 90^{o} = 0]
+\end{equation*}
+</div>
+<div class="para">zero. Here <span class="process-math">\(\cos\theta\)</span> is called a <dfn class="terminology">Power Factor</dfn> which can be defined as <span class="process-math">\(\cos\theta = \frac{R}{Z}.\)</span>
+</div>
 </div>
 <span class="incontext"><a href="subsec-complex_number.html#p-601" class="internal">in-context</a></span>
 </body>

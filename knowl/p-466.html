@@ -13,13 +13,29 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">In vector form</div>
+<div class="para">Now magnetic field <span class="process-math">\(B_{out}\)</span> at any point outside of the solenoid is zero because field due to current <span class="process-math">\(I_{in}\)</span> cancels out the field due to <span class="process-math">\(I_{out}\)</span> at that point. Hence solenoid generates uniform field only inside of it as <span class="process-math">\(B_{in}\)</span> due to these both currents enforces to each other. Use Ampere’s law for loop L2, we have -</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\vec{B} = \frac{\mu_{o} N I}{L} \hat{x} 
+\oint\vec{B}\cdot\vec{\,dl}=\int\limits_{a}^{b}\vec{B}\cdot\vec{\,dl}+\int\limits_{b}^{c}\vec{B}\cdot\vec{\,dl} + \int\limits_{c}^{d}\vec{B}\cdot\vec{\,dl}  + \int\limits_{d}^{a}\vec{B}\cdot\vec{\,dl}
 \end{equation*}
 </div>
-<div class="para">if solenoid is lying along x-axis. The magnetic field direction obeys right hand thumb rule.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad\oint\vec{B}\cdot\vec{\,dl} = B_{in}\Delta x +0+B_{out}(-\Delta x) + 0 = B_{in}\Delta x
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because \quad B_{out}=0]\)</span></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad B_{in}\Delta x = \mu_{o} I_{enc} = \mu_{o} n \Delta x I
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad B_{in} = \mu_{o} n I = \frac{\mu_{o} N I}{L}
+\end{equation*}
+</div>
+<div class="para"><em class="emphasis">Right Hand Rule.</em></div>
 </div>
 <span class="incontext"><a href="subsec-mag_solnd.html#p-466" class="internal">in-context</a></span>
 </body>

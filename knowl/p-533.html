@@ -13,40 +13,41 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Let <span class="process-math">\(q=Ae^{\alpha t}\)</span> be the solution of eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lc1.html" title="Equation 3.7.5">(3.7.5)</a> Where A and <span class="process-math">\(\alpha\)</span> are constants.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lc1.html ./knowl/eqn-lc1.html">
+<div class="para">Consider a charged capacitor of capacitance C is connected in a circuit in such a way that it begins discharging through an inductor of inductance L. If i is current flowing in the circuit at some extent then potential difference across the inductance is</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\text{Now,}\quad \frac{\,dq}{\,dt}= A\alpha e^{\alpha t}
+V_{L}= -L\frac{\,di}{\,dt}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lc1.html ./knowl/eqn-lc1.html">
+<div class="para">and potential difference across the capacitor at the same extent is <span class="process-math">\(V_{C}=\frac{q}{C}\text{.}\)</span> The -ve sign of <span class="process-math">\(V_{L}\)</span> indicates the back emf in the inductance. From the circuit, we have</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\text{and}\quad \frac{\,d^{2}q}{\,dt^{2}}= A\alpha^{2} e^{\alpha t}
+V_{C}=V_{L}
 \end{equation*}
 </div>
-<div class="para">Therefore from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lc1.html" title="Equation 3.7.5">(3.7.5)</a>, we get -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lc1.html ./knowl/eqn-lc1.html">
+<div class="displaymath process-math">
 \begin{equation*}
-A\alpha^{2} e^{\alpha t}+\omega^{2}Ae^{\alpha t}=0
+\frac{q}{C} = -L\frac{\,di}{\,dt}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lc1.html ./knowl/eqn-lc1.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\text{or,} \quad A e^{\alpha t}\left[\alpha^{2} +\omega^{2}\right]=0 
+\text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}} + \frac{q}{C}=0
 \end{equation*}
 </div>
-<div class="para"><span class="process-math">\([\text{Since,}\quad q= A e^{\alpha t} \neq 0 ]\)</span></div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lc1.html ./knowl/eqn-lc1.html">
+<div class="para"><span class="process-math">\([\because i=\frac{\,dq}{\,dt}]\)</span></div>
+<div class="displaymath process-math">
 \begin{equation*}
-\text{We have -}\quad \left[\alpha^{2} +\omega^{2}\right]=0
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \frac{q}{LC}=0
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lc1.html ./knowl/eqn-lc1.html">
-\begin{equation*}
-\therefore\quad \alpha=\pm j\omega_{o}
-\end{equation*}
+<div class="displaymath process-math">
+\begin{equation}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \omega^{2}_{o}q=0 \tag{3.7.5}
+\end{equation}
 </div>
-<div class="para"><span class="process-math">\([\text{where}\quad j=\sqrt{-1}]\)</span></div>
+<div class="para">
+<span class="process-math">\(\text{where} \quad [\omega^{2}_{o} = \frac{1}{LC}] \)</span> This is a second order linear differential equation.</div>
 </div>
 <span class="incontext"><a href="subsec-lc.html#p-533" class="internal">in-context</a></span>
 </body>
