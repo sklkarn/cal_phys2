@@ -12,42 +12,62 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para logical"><ol class="lower-alpha">
-<li><div class="para">
+<div class="para logical">
+<div class="para">Consider a current carrying straight conductor of length  2a. To find a magnetic field at a point P from the conductor consider a small current element <span class="process-math">\(\,dy\)</span> on a conductor and use Biot-Savart’s law,</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore \quad B = \frac{\mu_{o}I x}{4\pi}\left[\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}\right]_{-a}^{a}
+\vec{\,dB}=\frac{\mu_{o}I}{4\pi}\frac{\vec{\,dy}\times\hat{r}}{r^{2}} (-\hat{k})
 \end{equation*}
 </div>
+<div class="para">The direction of magnetic field at  P  is given by right hand grip rule which is going into the plane of the paper. <span class="process-math">\(\hat{r} \)</span> is unit vector along <span class="process-math">\(\vec{r}\)</span> and <span class="process-math">\(\theta\)</span> is angle between current element and line joining the current element to point P.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-=\frac{\mu_{o}I}{4\pi} \left[\frac{2a}{x\sqrt{x^{2}+a^{2}}}\right]
-\end{equation*}
-</div>
-</div></li>
-<li><div class="para">When <span class="process-math">\(x \lt \lt a\)</span> (ie., for infinitely long wire) then <span class="process-math">\(1 \lt \lt \frac{a}{x} \text{,}\)</span> hence<div class="displaymath process-math">
-\begin{equation*}
-B = \frac{\mu_{o}I}{4\pi} \left[\frac{2a}{x\cdot x\sqrt{1+\frac{a^{2}}{x^{2}}}}\right] 
+\text{or,}\quad \,dB=\frac{\mu_{o}I}{4\pi}\frac{\,dy\sin\theta}{r^{2}}  =\frac{\mu_{o}I}{4\pi}\frac{x}{r}\frac{\,dy}{r^{2}}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-= \frac{\mu_{o}I}{4\pi}\frac{2a}{x^{2}\sqrt{\frac{a^{2}}{x^{2}}}} =\frac{\mu_{o}I}{4\pi} \frac{2a}{x}
+= \frac{\mu_{o}I}{4\pi}\frac{x\,dy}{r^{3}}   =\frac{\mu_{o}I}{4\pi}\frac{x\,dy}{(x^{2}+y^{2})^{3/2}}
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because \quad r^{2}=x^{2}+y^{2}]\)</span></div>
+<div class="displaymath process-math">
+\begin{equation}
+\therefore \quad B = \int \,dB=\frac{\mu_{o}I x}{4\pi}\int\limits_{-a}^{a}\frac{\,dy}{(x^{2}+y^{2})^{3/2}} \tag{3.4.1}
+\end{equation}
+</div>
+<div class="para">Now solve the integrand first with the help of geometry of the figure then substitute the value to obtain B.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan\phi = \frac{y}{x}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\therefore \quad  B=  \frac{\mu_{o}I }{2\pi x} 
+\text{or,}\quad y=x\tan\phi
 \end{equation*}
 </div>
-</div></li>
-<li><div class="para">When <span class="process-math">\(x \gt \gt a\)</span> then <span class="process-math">\(\frac{x}{a} \gt \gt 1\text{,}\)</span> hence<div class="displaymath process-math">
+<div class="displaymath process-math">
 \begin{equation*}
-B =  \frac{\mu_{o}I }{2\pi} \frac{a}{x^{2}} \simeq 0 
+\text{or,}\quad \,dy=x\sec^{2}\phi\,d\phi
 \end{equation*}
 </div>
-</div></li>
-</ol></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad \mathscr{I} = \int \frac{\,dy}{(x^{2}+y^{2})^{3/2}}  = \int \frac{x \sec^{2}\phi\,d\phi}{\left[x^{2}(1+\tan^{2}\phi)\right]^{3/2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \int\frac{x\sec^{2}\phi\,d\phi}{x^{3}\sec^{3}\phi} = \frac{1}{x^{2}}\int\cos\phi\,d\phi
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \mathscr{I} = \frac{1}{x^{2}}\sin\phi  =\frac{1}{x^{2}}\frac{y}{r} =\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}
+\end{equation*}
+</div>
+</div>
 <span class="incontext"><a href="subsec-magfld_movcharge.html#p-442" class="internal">in-context</a></span>
 </body>
 </html>

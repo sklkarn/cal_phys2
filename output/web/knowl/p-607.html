@@ -13,17 +13,28 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Let emf of <span class="process-math">\(E=E_{o}e^{j\omega t}\)</span> be applied to a circuit containing a resistor of resistance R, an inductor of inductance L, and a capacitor of capacitance C in series as shown in <a href="" class="xref" data-knowl="./knowl/figacRLC.html" title="Figure 3.9.11.(a)">Figure 3.9.11.(a)</a>, then from Kirchhoff’s law, we have</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/figacRLC.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/gr17.html ./knowl/phasor6.html">
 \begin{equation*}
-E=V_{R}+V_{L}+V_{C};
+\text{or,}\quad I = \frac{E_{o} e^{j\omega t}}{\sqrt{\left(R^{2}+\frac{1}{\omega^{2}C^{2}}\right)} e^{-j\tan^{-1}\left(\frac{1/\omega C}{R}\right)}}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/figacRLC.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/gr17.html ./knowl/phasor6.html">
 \begin{equation*}
-\text{or,}\quad E=RI+j\omega LI + \frac{1}{j\omega C}I
+= \frac{E_{o}}{ \sqrt{\left(R^{2}+\frac{1}{\omega^{2}C^{2}}\right)}}e^{j(\omega t+\phi)}  
 \end{equation*}
 </div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/gr17.html ./knowl/phasor6.html">
+\begin{equation*}
+\text{where }\quad \phi=\tan^{-1}\left(\frac{1/\omega C}{R}\right)=\tan^{-1}\left(\frac{1}{\omega CR}\right)
+\end{equation*}
+</div>
+<div class="para">The current in this circuit leads the applied emf by an angle <span class="process-math">\(\phi\)</span> between <span class="process-math">\(0^{o}\)</span> and <span class="process-math">\(90^{o}\)</span> as shown in <a href="" class="xref" data-knowl="./knowl/gr17.html" title="Figure 3.9.10.(a)">Figure 3.9.10.(a)</a>. The capacitive reactance</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/gr17.html ./knowl/phasor6.html">
+\begin{equation*}
+X_{C}=\frac{1}{\omega C}
+\end{equation*}
+</div>
+<div class="para">lags behind the resistance R by an angle <span class="process-math">\(90^{o}\)</span> as shown in <a href="" class="xref" data-knowl="./knowl/phasor6.html" title="Figure 3.9.10.(b)">Figure 3.9.10.(b)</a>.</div>
 </div>
 <span class="incontext"><a href="subsec-complex_number.html#p-607" class="internal">in-context</a></span>
 </body>

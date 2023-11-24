@@ -13,111 +13,15 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">The choice of signs preceding final terms depends on the current flowing through the two coils. Hence by solving</div>
-<div class="displaymath process-math">
+<div class="para">Let us consider a transformer as shown in circuit <a href="" class="xref" data-knowl="./knowl/transform2.html" title="Figure 3.9.13.(d)">Figure 3.9.13.(d)</a>. Consider <span class="process-math">\(L_{1}, \quad L_{2}, \quad  R_{1},\quad  R_{2},\quad  N_{1},\)</span> and <span class="process-math">\(N_{2}\)</span> are inductances, resistances, and number of turns in primary and secondary coils, respectively. Mutual inductance of the two coils is <span class="process-math">\(M,\)</span> and impedances of the generator and load are <span class="process-math">\(Z_{g}\)</span> and <span class="process-math">\(Z_{l}\text{,}\)</span> respectively, then from Kirchhoff’s law -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/transform2.html">
 \begin{equation*}
-E=I_{1}\left(Z_{g}+R_{1}+j\omega L_{1}\right) + j\omega M I_{2} 
+\begin{cases}
+E=I_{1}\left(Z_{g}+R_{1}+j\omega L_{1}\right) \pm j\omega M I_{2} \\
+0=I_{2}\left(Z_{l}+R_{2}+j\omega L_{2}\right) \pm j\omega M I_{1}
+\end{cases}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-0=I_{2}\left(Z_{l}+R_{2}+j\omega L_{2}\right) - j\omega M I_{1}
-\end{equation*}
-</div>
-<div class="para">we get -</div>
-<div class="displaymath process-math">
-\begin{equation*}
-I_{1} = \frac{E\left(Z_{l}+R_{2}+j\omega L_{2}\right)}{\left(Z_{g}+R_{1}+j\omega L_{1}\right) \left(Z_{l}+R_{2}+j\omega L_{2}\right)+\omega^{2}M^{2}}
-\end{equation*}
-</div>
-<div class="para">and</div>
-<div class="displaymath process-math">
-\begin{equation*}
-I_{2} = \frac{Ej\omega M}{\left(Z_{g}+R_{1}+j\omega L_{1}\right) \left(Z_{l}+R_{2}+j\omega L_{2}\right)+\omega^{2}M^{2}}
-\end{equation*}
-</div>
-<div class="para">Hence voltage drop at primary coil,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-V_{1} = E-I_{1}Z_{g}
-\end{equation*}
-</div>
-<div class="para">and</div>
-<div class="displaymath process-math">
-\begin{equation*}
-V_{2} = I_{2}Z_{l}
-\end{equation*}
-</div>
-<div class="para">In an ideal transformer flux due to one coil is completely passes through the other, i.e.,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\Phi_{B1} =\Phi_{B2},
-\end{equation*}
-</div>
-<div class="para">hence the coupling constant k becomes unity,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore \quad M= k\sqrt{L_{1}L_{2}} =\sqrt{L_{1}L_{2}}
-\end{equation*}
-</div>
-<div class="para">Since <span class="process-math">\(R_{1}\)</span> and <span class="process-math">\(R_{2}\)</span> in an ideal transformer is zero, and reactance of the two coils are so large in comparison to the generator and load impedances, we can write</div>
-<div class="displaymath process-math">
-\begin{equation*}
-Z_{g}+R_{1}+j\omega L_{1} \approx j\omega L_{1}
-\end{equation*}
-</div>
-<div class="para">and</div>
-<div class="displaymath process-math">
-\begin{equation*}
-Z_{l}+R_{2}+j\omega L_{2} \approx j\omega L_{2}
-\end{equation*}
-</div>
-<div class="para">Hence for an ideal transformer</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{I_{1}}{I_{2}} = \frac{Z_{l}+R_{2}+j\omega L_{2}}{j\omega M} \approx \frac{L_{2}}{M} = \sqrt{\frac{L_{2}}{L_{1}}}
-\end{equation*}
-</div>
-<div class="para">but <span class="process-math">\(L \propto N^{2}\)</span>
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore \quad \frac{I_{1}}{I_{2}}=\frac{N_{2}}{N_{1}}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad N_{1}I_{1}= N_{2}I_{2}
-\end{equation*}
-</div>
-<div class="para">Also</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{V_{2}}{V_{1}} = \frac{i_{2}Z_{l}}{E-i_{1}Z_{g}} \approx \frac{I_{2}Z_{l}}{E}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\approx \frac{Ej\omega M}{\left(j\omega L_{1}\right) \left(Z_{l}+j\omega L_{2}\right)+\omega^{2}M^{2}}\cdot\frac{Z_{l}}{E}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\approx \frac{j\omega MZ_{l}}{j\omega L_{1}Z_{l}-\omega^{2} L_{1} L_{2} +\omega^{2}M^{2}}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad \frac{V_{2}}{V_{1}} \approx 	\frac{M}{L_{1}} \approx \sqrt{\frac{L_{2}}{L_{1}}} \approx \frac{N_{2}}{N_{1}}
-\end{equation*}
-</div>
-<div class="para">This equation shows the voltage transformation property of a transformer. Also we have</div>
-<div class="displaymath process-math">
-\begin{equation*}
-I_{1}V_{1}=I_{2}V_{2}
-\end{equation*}
-</div>
-<div class="para">i.e., Input power = output power.</div>
 </div>
 <span class="incontext"><a href="subsec-transformer.html#p-615" class="internal">in-context</a></span>
 </body>

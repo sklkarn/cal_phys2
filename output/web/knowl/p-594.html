@@ -13,24 +13,24 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">Consider an alternating emf</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/figacC.html">
+<div class="para"><em class="alert">Alternative:</em></div>
+<div class="displaymath process-math">
 \begin{equation*}
-E=E_{o} e^{j\omega t}
+E(t) = L \frac{\,dI(t)}{\,dt}
 \end{equation*}
 </div>
-<div class="para">is applied across a capacitor of capacitance C, and I be the current flowing through it then from the circuit [<a href="" class="xref" data-knowl="./knowl/figacC.html" title="Figure 3.9.5.(a)">Figure 3.9.5.(a)</a>] we have</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/figacC.html">
+<div class="displaymath process-math">
 \begin{equation*}
-E_{o}e^{j\omega t} = \frac{q}{C}
+or,\quad \int_{0}^{t} E_{o}\sin\omega t \,dt= L \int_{0}^{I}\,dI(t)
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/figacC.html">
+<div class="displaymath process-math">
 \begin{equation*}
-\text{But,}\quad I=\frac{\,dq}{\,dt} = \frac{\,d}{\,dt}(CE_{o}e^{j\omega t})=j\omega CE_{o}e^{j\omega t} =\frac{E}{j\omega C}
+\therefore I(t) = -\frac{E_{o}}{\omega L}\cos\omega t = I_{o} \sin\left(\omega t-\frac{\pi}{2}\right)
 \end{equation*}
 </div>
-<div class="para"><span class="process-math">\(\left\lbrace \because  j=e^{j\frac{\pi}{2}}=\cos\frac{\pi}{2}+j\sin\frac{\pi}{2} \right\rbrace \)</span></div>
+<div class="para">This implies that <span class="process-math">\(I(t)\)</span> is lagging behind <span class="process-math">\(E(t)\)</span> by phase <span class="process-math">\(\pi/2.\)</span>
+</div>
 </div>
 <span class="incontext"><a href="subsec-complex_number.html#p-594" class="internal">in-context</a></span>
 </body>

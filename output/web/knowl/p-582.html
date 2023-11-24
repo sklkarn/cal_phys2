@@ -11,16 +11,32 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h2 class="heading"><span class="type">Paragraph</span></h2>
-<div class="para logical">
-<div class="para">A current which can only flow in a circuit in the same direction without changing the polarity is called a <em class="emphasis">direct current</em>. The current due to battery is one of the examples of direct current. On the other hand when current changes direction periodically from positive to negative is called an <em class="emphasis">alternating current</em>. In alternating current the flow of charge also reverses its direction back and forth with time. As a result, the voltage level also reverses along with the current. The current due to dynamo and electro-mechanical generator are some of the  sources of alternating current (AC). AC is used to deliver power to houses, office buildings, etc. because of low loss of energy. The alternating emf is represented as</div>
-<div class="displaymath process-math">
+<h4 class="heading"><span class="type">Paragraph</span></h4>
+<div class="para logical"><ol class="lower-alpha">
+<li><div class="para"><span class="process-math">\(\displaystyle V_{ab} =0, \quad V_{bc} =0,\quad V_{cd}=12V,\quad V_{ce} = 0, \quad I=0\)</span></div></li>
+<li><div class="para"><span class="process-math">\(\displaystyle V_{ab} =0, \quad V_{bc} =12\,V,\quad V_{cd}=0, \quad V_{ce} = -12\,V, \quad I=0\)</span></div></li>
+<li><div class="para"><span class="process-math">\(\displaystyle [V_{ab} =12\,V,\quad V_{bc} =0,\quad V_{cd}=0, \quad V_{ce} = -12\,V,\quad I=1.2\,A\)</span></div></li>
+<li><div class="para">Assume, <span class="process-math">\(I =I_{f}(1-e^{-t/\tau}),\)</span> then<div class="displaymath process-math">
 \begin{equation*}
-E=E_{o}\sin\omega t
+\frac{dI}{dt} = \frac{I_{f}}{\tau}e^{-t/\tau},
 \end{equation*}
 </div>
-<div class="para">Where E is called an instantaneous emf, <span class="process-math">\(E_{o}\)</span> is an  amplitude of emf, <span class="process-math">\(\omega \)</span> is an angular frequency, and t is the time of current flow.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{f} =\frac{\varepsilon}{R} = 1.2\,A
+\end{equation*}
+</div>and<div class="displaymath process-math">
+\begin{equation*}
+\tau=\frac{L}{R} = 10 \,s 
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_third-accircuits.html#p-582" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{ab} = 3.96\,V, \quad V_{bc} = 8.04\,V, \quad V_{cd} = 0,  \quad V_{ce} = -12\,V,\quad I = 0.396 \,A
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+<span class="incontext"><a href="sec_third-examplesC.html#p-582" class="internal">in-context</a></span>
 </body>
 </html>

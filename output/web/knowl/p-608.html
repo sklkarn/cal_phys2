@@ -13,71 +13,15 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="displaymath process-math">
+<div class="para">Let emf of <span class="process-math">\(E=E_{o}e^{j\omega t}\)</span> be applied to a circuit containing a resistor of resistance R, an inductor of inductance L, and a capacitor of capacitance C in series as shown in <a href="" class="xref" data-knowl="./knowl/figacRLC.html" title="Figure 3.9.11.(a)">Figure 3.9.11.(a)</a>, then from Kirchhoff’s law, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/figacRLC.html">
 \begin{equation*}
-\text{or,}\quad E=\left(R+j\omega L + \frac{1}{j\omega C}\right)I;
+E=V_{R}+V_{L}+V_{C};
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/figacRLC.html">
 \begin{equation*}
-\text{or,}\quad E= \left[R+j\omega L - \frac{j}{\omega C}\right]I
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore\quad I = \frac{E}{Z}= \frac{E}{\left[R+j\left(\omega L - \frac{1}{\omega C}\right)\right]}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore \quad Z= \left[R+j\left(\omega L - \frac{1}{\omega C}\right)\right] = \left[R-j\left( \frac{1}{\omega C}-\omega L \right)\right] 
-\end{equation*}
-</div>
-<div class="para">Minus sign between <span class="process-math">\(X_{L}=\omega L\)</span> and <span class="process-math">\(X_{C}= \frac{1}{\omega C}\)</span> indicates that they are in opposite phase to each other.  The circuit becomes inductive, capacitive or purely resistive if <span class="process-math">\(X_{L} \gt X_{C},\)</span>  <span class="process-math">\(X_{L} \lt X_{C},\)</span>  or <span class="process-math">\(X_{L} = X_{C}.\)</span> Now since impedance  <span class="process-math">\(Z=|Z|e^{j\theta}\text{,}\)</span> we have</div>
-<div class="displaymath process-math">
-\begin{equation*}
-|Z|= \sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{and}\quad \theta =-\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore \quad Z=\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} e^{-j\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{Hence,}\quad I= \frac{E_{o}e^{j\omega t}}{\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}} e^{-j\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]}} 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-= \frac{E_{o}e^{j(\omega t+\phi)}} {\sqrt{R^{2}+\left(\frac{1}{\omega C}-\omega L \right)^{2}}}
-\end{equation*}
-</div>
-<div class="para">where phase angle</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\phi = -\tan^{-1}\left[\frac{\left(\frac{1}{\omega C}-\omega L\right)}{R} \right]
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-E_{R}=RI = RI_{o}e^{j(\omega t +\phi)}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-E_{L}=j\omega L I = j\omega L I_{o}e^{j(\omega t +\phi)}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-E_{C}=-j\frac{1}{\omega C}I = -j \frac{1}{\omega C} I_{o}e^{j(\omega t +\phi)}
+\text{or,}\quad E=RI+j\omega LI + \frac{1}{j\omega C}I
 \end{equation*}
 </div>
 </div>

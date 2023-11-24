@@ -11,65 +11,48 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Using Kirchhoff’s voltage law,</div>
-<div class="displaymath process-math">
+<div class="para">Applying Kirchhoff’s II law to the loop BDCB,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
+\begin{equation}
+I_{g}G+(I_{2}+I_{g})X-(I_{1}-I_{g})Q=0 \tag{2.4.4}
+\end{equation}
+</div>
+<div class="para">When potential at junctions B and D are equal, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
 \begin{equation*}
-\text{In loop I,}\quad 0 = I_1 P+I_1 G +I_1 R-I_2 G-I_3 R
+I_{g}=0.
 \end{equation*}
 </div>
-<div class="para">In loop I [<span class="process-math">\(I_1\)</span> is + ve], hence <span class="process-math">\(I_2\)</span> and <span class="process-math">\(I_3\)</span> are taken as - ve as they oppose the current <span class="process-math">\(I_1\text{.}\)</span>
-</div>
-<div class="displaymath process-math">
+<div class="para">Hence from eqns. <a href="" class="xref" data-knowl="./knowl/eqn-kirch3.html" title="Equation 2.4.3">(2.4.3)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-kirch4.html" title="Equation 2.4.4">(2.4.4)</a>, we get-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
 \begin{equation*}
-\text{In loop II,}\quad 0 = I_2 Q+I_2 X +I_2 G -I_1 G-I_3 X
+I_{1}P-I_{2}R=0
 \end{equation*}
 </div>
-<div class="para">In loop II [<span class="process-math">\(I_2\)</span> is +ve], hence <span class="process-math">\(I_1\)</span> and <span class="process-math">\(I_3\)</span> are taken as - ve as they oppose the current <span class="process-math">\(I_2\text{.}\)</span> Since Wheat-stone bridge is used at balanced condtion no current should pass through the Galvanometer, i.e.,</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
+\begin{equation}
+\text{or,}\quad I_{1}P=I_{2}R \tag{2.4.5}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
 \begin{equation*}
-I_1+I_2=0
+I_{2}X-I_{1}Q=0
 \end{equation*}
 </div>
-<div class="para">Hence, in this case</div>
-<div class="displaymath process-math">
-\begin{equation*}
-I_1+(-I_2)=0 
-\end{equation*}
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
+\begin{equation}
+\text{or,}\quad I_{2}X=I_{1}Q\tag{2.4.6}
+\end{equation}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-or, \quad I_1 = I_2
-\end{equation*}
+<div class="para">Dividing these equations, we get-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-kirch3.html ./knowl/eqn-kirch4.html">
+\begin{equation}
+\frac{P}{Q}=\frac{R}{X}  \tag{2.4.7}
+\end{equation}
 </div>
-<div class="para">Now from above equations we have</div>
-<div class="displaymath process-math">
-\begin{equation*}
-I_1 (P + R) = I_3 R 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-or, \quad I_3=\frac{(P + R) }{R}I_1
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{and}\quad I_2 (Q + X) = I_3 X 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-or, \quad I_3=\frac{(Q + X) }{X}I_2 
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore\quad \frac{P}{Q} = \frac{R}{X} 
-\end{equation*}
-</div>
-<div class="para"><span class="process-math">\([\because I_1=I_2]\)</span></div>
+<div class="para">This is the required condition for balancing wheatstone’s bridge.</div>
 </div>
 <span class="incontext"><a href="subsec-wheat_stone.html#p-333" class="internal">in-context</a></span>
 </body>

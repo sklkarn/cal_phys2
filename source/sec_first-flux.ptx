@@ -51,26 +51,28 @@
            </p>
            <p>
            or, line crossing the surface S =<m>\Phi_{s}</m> =<m> K\cdot E(r) \cdot Area_{\bot}</m>
-            where K is a proportionality constant. Hence, 
-            <men xml:id="eqn-gauss_law2">
-              \Phi_{s}= K.E(r). 4\pi r^{2} 
-            </men>
-            and for surface S', the flux
-            <men xml:id="eqn-gauss_law3">
-              \Phi_{s'} = \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}   
-            </men>   
-              </p>
+             </p>
+             <p>
+              where K is a proportionality constant. Hence, 
+              <men xml:id="eqn-gauss_law2">
+                \Phi_{s}= K.E(r). 4\pi r^{2} 
+              </men>
+              and for surface S', the flux
+              <men xml:id="eqn-gauss_law3">
+                \Phi_{s'} = \mathop{\vcenter{\large\unicode{x222F}\,}}\limits_{s'}\vec{E}\cdot\vec{\,dA}   
+              </men>              
+             </p>
               <p>
                 From eqns. <xref ref="eqn-gauss_law2"/> and <xref ref="eqn-gauss_law3"/> we get- 
                 <me>
-                  K.E(r).4\pi\, r^{2} = \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}
+                  K.E(r).4\pi\, r^{2} = \mathop{\vcenter{\large\unicode{x222F}\,}}\limits_{s'}\vec{E}\cdot\vec{\,dA}
                 </me>
                 <me>
-                  \text{or,}\quad K\left(\frac{q}{4\pi\epsilon_{o}r^{2}}\right).4\pi \,r^{2} \iint\limits_{s'}\vec{E}\cdot\vec{\,dA}
+                  \text{or,}\quad K\left(\frac{q}{4\pi\epsilon_{o}r^{2}}\right).4\pi \,r^{2} \mathop{\vcenter{\large\unicode{x222F}\,}}\limits_{s'}\vec{E}\cdot\vec{\,dA}
                 </me>
                 In SI unit, set constant, K = 1, 
                 <me>
-                  \therefore \quad \frac{q}{\epsilon_{o}}= \iint\limits_{surface}\vec{E}\cdot\vec{\,dA}  = \Phi_{E}
+                  \therefore \quad \frac{q}{\epsilon_{o}}= \mathop{\vcenter{\large\unicode{x222F}\,}}\limits_{surface}\vec{E}\cdot\vec{\,dA}  = \Phi_{E}
                 </me> <fn>all integrals used here are closed surface integrals.</fn>
                 Which is a Gauss's law. Gauss's law is applicable for any surface as long as the charge distribution 
                 is symmetrical for the surface. It can be used to find the electric field due to a point charge, 
@@ -274,7 +276,7 @@
     so electric field inside the shell at any point  P  at a distance  <m>a</m>  from 
     the center of hollow sphere can be found by using Gauss's law 
     <me>
-      \phi=\iint\vec{E}\cdot\vec{\,dA}= \frac{q_{enc}}{\epsilon_{o}}
+      \phi=\mathop{\vcenter{\large\unicode{x222F}\,}}\vec{E}\cdot\vec{\,dA}= \frac{q_{enc}}{\epsilon_{o}}
     </me>
     <me>
       E 4\pi a^{2}=\frac{1}{\epsilon_{o}}\int\limits_{0}^{a}\rho 4\pi x^{2}\,dx
@@ -331,10 +333,12 @@
         \phi=\phi_{1}+\phi_{2}+\phi_{3}
       </me>
       <me>
-        \text{or,}\quad \phi=\iint \vec{E}\cdot\vec{\,ds}_{1}+\iint \vec{E}\cdot\vec{\,ds}_{2}+\iint \vec{E}\cdot\vec{\,ds}_{3}
+        \text{or,}\quad \phi=\mathop{\vcenter{\large\unicode{x222F}\,}} \vec{E}\cdot\vec{\,ds}_{1} 
+        +\mathop{\vcenter{\large\unicode{x222F}\,}} \vec{E}\cdot\vec{\,ds}_{2} 
+        +\mathop{\vcenter{\large\unicode{x222F}\,}} \vec{E}\cdot\vec{\,ds}_{3}
       </me>
       <me>
-        \text{or,}\quad \phi= 0+0+\iint \vec{E}\cdot\vec{\,ds}_{3} = \iint E \,ds = E(2\pi rl)
+        \text{or,}\quad \phi= 0+0+\mathop{\vcenter{\large\unicode{x222F}\,}} \vec{E}\cdot\vec{\,ds}_{3} = \mathop{\vcenter{\large\unicode{x222F}\,}} E \,ds = E(2\pi rl)
       </me>
        From Gauss's law 
        <me>
