@@ -11,18 +11,68 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h4 class="heading"><span class="type">Paragraph</span></h4>
+<h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">A 12 V battery with an internal resistance of 1 ohm is connected to four other resistors as shown in figure below.  Find <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig31a.png" class="contained"></div>
+<div class="para">When switch k is connected to the point 2, capacitor statrs discharging. Applying Kirchhoff’s voltage law to the discharging loop, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation*}
+iR+\frac{q}{C}=0
+\end{equation*}
 </div>
-<ol class="lower-alpha">
-<li><div class="para">the voltage across and the current through each resistor.</div></li>
-<li><div class="para">the voltage <span class="process-math">\(V_{ab}\)</span> across the battery, and</div></li>
-<li><div class="para">the the electrical potential at point c.</div></li>
-</ol>
-<div class="para">Provided: <span class="process-math">\(R_{1} =1 \,\Omega; \quad R_{2}= 2\,\Omega;\)</span> <span class="process-math">\(R_{3}= 3\,\Omega; \quad R_{4}= 6\,\Omega; \)</span> and <span class="process-math">\(E = 12\,V\)</span>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation*}
+\text{or,}\quad \frac{q}{C} = -iR=-\frac{\,dq}{\,dt}R 
+\end{equation*}
 </div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,dq}{q}=-\frac{\,dt}{RC}
+\end{equation*}
 </div>
-<span class="incontext"><a href="sec_second-examplesB.html#p-339" class="internal">in-context</a></span>
+<div class="para">Integrating, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation*}
+\text{or,}\quad \int\limits_{q_{o}}^{q(t)}\frac{\,dq}{q}=-\int\limits_{0}^{t}\frac{\,dt}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation*}
+\text{or,}\quad \left.ln q \right\vert_{q_{o}}^{q(t)} =-\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation*}
+\text{or,}\quad lnq(t)-lnq_{o}=-\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation*}
+\text{or,}\quad ln\frac{q(t)}{q_{o}}=-\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation*}
+\text{or,}\quad \frac{q(t)}{q_{o}}=e^{-(\frac{t}{RC})}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation}
+\text{or,}\quad q(t) = q_{o} e^{-(\frac{t}{RC})} \tag{2.4.11}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation}
+\text{also,}\quad V_{c}(t)=Ee^{-(\frac{t}{RC})} \tag{2.4.12}
+\end{equation}
+</div>
+<div class="para">Differentiating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-chrg_dis4.html" title="Equation 2.4.11">(2.4.11)</a>, we get-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis4.html ./knowl/chardisgr.html">
+\begin{equation}
+i(t)=-i_{o}e^{-(\frac{t}{RC})} \tag{2.4.13}
+\end{equation}
+</div>
+<div class="para">- ve  sign indicates current is decreasing gradually during discharging of a capacitor. <span class="process-math">\(RC=\tau\)</span> is called a time constant. The graph of charging and discharging of a capacitor is shown in <a href="" class="xref" data-knowl="./knowl/chardisgr.html" title="Figure 2.4.5.(b)">Figure 2.4.5.(b)</a>. At one time constant potential of capacitors becomes <span class="process-math">\(63\%\)</span> (emf of battery) during charging and <span class="process-math">\(36\%E\)</span> during discharging.</div>
+</div>
+<span class="incontext"><a href="subsec-chrg_dischrg.html#p-339" class="internal">in-context</a></span>
 </body>
 </html>

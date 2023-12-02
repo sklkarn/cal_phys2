@@ -13,29 +13,34 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">If i is an instantaneous current moving in a circuit like a solenoid then back emf induced in the inductor is given by</div>
+<div class="para">Where <span class="process-math">\(M_{21}\)</span> is constant of proportionality and is termed as mutual inductance of circuit <span class="process-math">\(C_{2}\)</span> with respect to circuit <span class="process-math">\(C_{1}.\)</span> Now, emf induced in a circuit  <span class="process-math">\(C_{2}\)</span> is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\varepsilon =-L\frac{\,di}{\,dt}
+\varepsilon_{2} = -\frac{\,d\Phi_{2}}{\,dt} = -M_{21}\frac{\,di_{1}}{\,dt}
 \end{equation*}
 </div>
-<div class="para">The workdone is moving charge <span class="process-math">\(\,dq\)</span> against this emf is</div>
+<div class="para">Similarly, emf induced in a circuit <span class="process-math">\(C_{1}\)</span> due current flowing in circuit <span class="process-math">\(C_{2}\)</span> is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\,dW=-\varepsilon \,dq
+\varepsilon_{1} = -\frac{\,d\Phi_{1}}{\,dt} = -M_{12}\frac{\,di_{2}}{\,dt}
+\end{equation*}
+</div>
+<div class="para">If shapes, orientations, and the positions of the coils are fixed, then the mutual inductance of the two coils does not depend upon which circuits carries the current i.e., <span class="process-math">\(M_{21}=M_{12}\text{.}\)</span> The mutual inductance of two neighboring coils and mutually induced emfs are given by the following equations.</div>
+<div class="displaymath process-math">
+\begin{equation}
+M  = \frac{N_{1}\Phi_{B1}}{I_{2}} = \frac{N_{2}\Phi_{B2}}{I_{1}}\tag{3.7.3}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varepsilon_{2}   =  -M\frac{\,dI_{1}}{\,dt}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-=L\frac{\,di}{\,dt}\,dq = L\frac{\,dq}{\,dt}\,di=Li\,di
+and \quad \varepsilon_{1}   =  -M\frac{\,dI_{2}}{\,dt}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore\quad W=\frac{1}{2}Li^{2}
-\end{equation*}
-</div>
-<div class="para">This energy is stored in a magnetic field of the inductor.</div>
 </div>
 <span class="incontext"><a href="subsec-self_induct.html#p-523" class="internal">in-context</a></span>
 </body>

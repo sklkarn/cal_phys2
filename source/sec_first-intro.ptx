@@ -17,7 +17,7 @@
       <caption></caption>
       <image source="fig2.png" width="45%"/>
     </figure>
-
+<p>Use this simulator <url href="https://javalab.org/en/electrostatic_induction_en/"><c>electrostatic induction</c></url></p>
 </introduction>
 
 
@@ -106,7 +106,8 @@
     brought near the conducting ball or make in contact with it causes the leaves 
     to diverge because like charges repel each other. The nature of charge (positive 
     or negative) on any object can also be determined with the help of electroscope,
-     by making its leaves charged with the known charges.
+     by making its leaves charged with the known charges. 
+     [use this simulator <url href="https://javalab.org/en/electroscope_en/"><c>electroscope</c></url>]
   </p>
  </subsubsection>
 </subsection>

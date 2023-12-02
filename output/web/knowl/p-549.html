@@ -13,73 +13,36 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+<div class="para">
+<dfn class="terminology">Discharging of a capacitor</dfn> When circuit is connected to point 2 capacitor begins discharging through the inductor and resistor. Hence</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
+\begin{equation*}
+\frac{q}{C}+L\frac{\,di}{\,dt}+Ri=0
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(i=\pm \frac{\,dq}{\,dt}\)</span> and during discharging <span class="process-math">\(\,dq \)</span> is decreasing or <span class="process-math">\(\,dq\)</span> is negative, Therefore <span class="process-math">\(i=\frac{\,dq}{\,dt}\text{.}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
+\begin{equation*}
+\text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}}+R\frac{\,dq}{\,dt}+\frac{q}{C} =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
+\begin{equation*}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}}+\frac{R}{L}\frac{\,dq}{\,dt}+\frac{q}{LC} =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
 \begin{equation}
-\text{or,}\quad \alpha = -\lambda \pm \sqrt{(\lambda^{2}-\omega^{2}_{o})} = -\lambda \pm \beta  \tag{3.7.17}
+\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}}+2\lambda\frac{\,dq}{\,dt}+\omega^{2}_{o}q =0\tag{3.7.16}
 \end{equation}
 </div>
-<div class="para">The general solution of eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr9.html" title="Equation 3.7.17">(3.7.17)</a> is given by</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
+<div class="para">where <span class="process-math">\([\frac{R}{L} = 2\lambda \)</span> and <span class="process-math">\(\frac{1}{LC}=\omega^{2}_{o}] \)</span> If <span class="process-math">\(q=Ae^{\alpha t}\)</span> be the trial solution of eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr8.html" title="Equation 3.7.16">(3.7.16)</a> then this equation becomes</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr8.html">
 \begin{equation*}
-q=Ae^{(-\lambda+\beta t)}+B e^{(-\lambda-\beta t)}
+\alpha^{2}+2\lambda \alpha +\omega^{2}_{o} =0
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation}
-q=e^{-\lambda t}\left(Ae^{\beta t}+B e^{-\beta t}\right)  \tag{3.7.18}
-\end{equation}
-</div>
-<div class="para">According to initial condition, when t=0, <span class="process-math">\(q=q_{o}\text{,}\)</span> maximum value.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation*}
-\therefore\quad A+B = q_{o}
-\end{equation*}
-</div>
-<div class="para">Differentiating eqn.<a href="" class="xref" data-knowl="./knowl/eqn-lcr10.html" title="Equation 3.7.18">(3.7.18)</a>, we get -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation*}
-i=\frac{\,dq}{\,dt} = -\lambda e^{-\lambda t}\left(Ae^{\beta t}+B e^{-\beta t}\right)+e^{-\lambda t}\left(A\beta e^{-\beta t}
--B \beta e^{-\beta t}\right)
-\end{equation*}
-</div>
-<div class="para">At i=0, <span class="process-math">\(\frac{\,dq}{\,dt} =0.\)</span>
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation*}
-\beta(A-B)-\lambda(A+B)=0.
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation*}
-\therefore\quad A-B = \frac{\lambda(A+B)}{\beta} = \frac{\lambda q_{o}}{\beta}
-\end{equation*}
-</div>
-<div class="para">Hence</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation*}
-A = \frac{q_{o}}{2}\left[1+\frac{\lambda}{\beta}\right] 
-\end{equation*}
-</div>
-<div class="para">and</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation*}
-B = \frac{q_{o}}{2}\left[1-\frac{\lambda}{\beta}\right]
-\end{equation*}
-</div>
-<div class="para">Therefore eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr10.html" title="Equation 3.7.18">(3.7.18)</a> becomes -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation*}
-q=\frac{q_{o}}{2}\left\{\left(1+\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\lambda+\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}
-+ \left(1-\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\lambda-\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}\right\}
-\end{equation*}
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr9.html ./knowl/eqn-lcr10.html ./knowl/eqn-lcr10.html">
-\begin{equation}
-\therefore\quad q= \frac{q_{o}}{2}e^{-\lambda t}\left\{\left(1+\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{\sqrt{(\lambda^{2} 
--\omega^{2}_{o})}t}+ \left(1-\frac{\lambda}{\sqrt{\lambda^{2}-\omega^{2}_{o}}}\right)e^{-\sqrt{(\lambda^{2}-\omega^{2}_{o})}t}\right\} \tag{3.7.19}
-\end{equation}
-</div>
-<div class="para">Depending upon the relative value of <span class="process-math">\(\lambda\text{,}\)</span> there arises three cases -</div>
 </div>
 <span class="incontext"><a href="subsec-lcr.html#p-549" class="internal">in-context</a></span>
 </body>

@@ -12,7 +12,41 @@
 </head>
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para">The Doppler effect is the change in perceived frequency of a source due to the relative motion between the source and the receiver. It applies to all sorts of waves. Doppler effect can be experienced as the change in frequency or <dfn class="terminology">pitch</dfn> received when an ambulance passes by. When the ambulence is approaching, the pitch of siren is getting higher than the actual frequency of siren. When the ambulence passes by, the frequency sounds the same as the actual emitted frequency and when the ambulance is moving away, the pitch is getting lower than the actual emitted frequency. When the source of the waves is coming towards the observer, observer receives more waves every second compared to being at rest. That is waves bunch together for the observer giving impression for the decrease of wavelength and causing an increase in the frequency. Conversely, if the source of waves is going away from the observer, observer receives less waves every second compared to being at rest. That is waves <em class="emphasis">spread out</em> for the observer giving impression for the increase of wavelength and causing a decrease in the frequency as shown in <a href="" class="xref" data-knowl="./knowl/deb.html" title="Figure 4.6.2.(b)">Figure 4.6.2.(b)</a>. Since the velocity of sound is comparable to the listener’s velocity and it propagates only in medium, Doppler effect may be the consequence of motion of the source, motion of the observer, or motion of the medium. Each of these effects is analyzed separately. For waves which do not require a medium such as light, only the relative velocity between the observer and the source needs to be considered.</div>
-<span class="incontext"><a href="subsec-dopplerefct.html#p-772" class="internal">in-context</a></span>
+<div class="para logical">
+<div class="para">Consider two waves are interfering to each other, then the resultant wave is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+s(x,t) = s_{a}(x,t)+s_{b}(x,t)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=s_{o}\sin(k_{a}x-\omega_{a} t)+s_{o}\sin(k_{b}x-\omega_{b} t)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= 2s_{o}\sin\left[\left(\frac{k_{a}+k_{b}}{2}\right)x -\left(\frac{\omega_{a}+\omega_{b}}{2}\right)t\right] \cdot \cos\left[ \left(\frac{k_{a}-k_{b}}{2}\right)x -\left(\frac{\omega_{a}-\omega_{b}}{2}\right)t\right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad s(t) = 2s_{o}\cos\left(\omega_{d}\right)t \sin\left(\omega_{c}\right)t \quad \text{at}\quad x=0
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\omega_{c}\)</span> is the average of <span class="process-math">\(\omega_{a}\)</span> and <span class="process-math">\(\omega_{b}\)</span> and <span class="process-math">\(\omega_{d}\)</span> is one half of their difference. The amplitude factor <span class="process-math">\(2s_{o}\cos\left(\omega_{d}\right)t\)</span> varies slowly with <span class="process-math">\(\frac{\omega_{a} -\omega_{b}}{2}\text{.}\)</span> The frequency of this second term is <span class="process-math">\(\frac{f_{a} -f_{b}}{2}\text{,}\)</span> but the ear cannot hear the inversion of phase that occurs when phase is negative and the difference is small. This term is responsible for the beating effect, and is known as an envelope. The sine factor varies with a frequency</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\omega_{d}=\frac{\omega_{a} +\omega_{b}}{2}.
+\end{equation*}
+</div>
+<div class="para">There are two times that the envelope (cosine term) passes through zero for every wavelength, so the beat frequency is twice the frequency of the envelope and is given by the magnitude of the difference of the two frequencies, i.e.,  beat frequency</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f_{beat} = |f_{a}-f_{b}|.
+\end{equation*}
+</div>
+</div>
+<span class="incontext"><a href="subsec-beatsf.html#p-772" class="internal">in-context</a></span>
 </body>
 </html>

@@ -1,4 +1,4 @@
-/home/sk/Desktop/calPhysII/PhysII_ptx/source/main.ptx:80:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element blockquote, got p
-/home/sk/Desktop/calPhysII/PhysII_ptx/source/main.ptx:29:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element frontmatter there
-/home/sk/Desktop/calPhysII/PhysII_ptx/source/main.ptx:25:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
-/home/sk/Desktop/calPhysII/PhysII_ptx/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
+/home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source/main.ptx:80:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element blockquote, got p
+/home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source/main.ptx:29:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element frontmatter there
+/home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source/main.ptx:25:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
+/home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext

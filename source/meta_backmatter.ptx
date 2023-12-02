@@ -351,7 +351,300 @@
         
       </appendix>
     
-    
+      <appendix xml:id="append_physTable">
+        <title>(Useful Data and Greek Letters) </title>
+
+        <table>
+          <title>Physical Data Table</title>
+          <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell>Quantity</cell>
+              <cell>Symbol</cell>
+              <cell>Value</cell>
+              <cell>SI Unit</cell>
+            </row>
+            <row>
+              <cell>Avagadro's Number</cell>
+              <cell><m>N_A</m></cell>
+              <cell><m>6.02\times 10^{23}</m></cell>
+              <cell>particles/mol</cell>
+            </row>
+            <row>
+              <cell>Bohr Radius</cell>
+              <cell><m>a_o</m></cell>
+              <cell><m>5.29\times 10^{-11}</m></cell>
+              <cell>m</cell>
+            </row>
+            <row>
+              <cell>Boltzmann's Constant</cell>
+              <cell><m>k_B</m></cell>
+              <cell><m>1.38\times 10^{-23}</m></cell>
+              <cell>J/K</cell>
+            </row>
+            <row>
+              <cell>Coulomb's Constant</cell>
+              <cell><m>k_e</m></cell>
+              <cell><m>8.99\times 10^{9}</m></cell>
+              <cell><m>Nm^2/C^2</m></cell>
+            </row>
+            <row>
+              <cell>Electron Mass</cell>
+              <cell><m>m_e</m></cell>
+              <cell><m>9.11\times 10^{-31}</m></cell>
+              <cell><m>kg</m></cell>
+            </row>
+            <row>
+              <cell>Proton Mass</cell>
+              <cell><m>m_p</m></cell>
+              <cell><m>1.672\times 10^{-27}</m></cell>
+              <cell><m>kg</m></cell>
+            </row>
+            <row>
+              <cell>Neutron Mass</cell>
+              <cell><m>m_n</m></cell>
+              <cell><m>1.674\times 10^{-27}</m></cell>
+              <cell><m>kg</m></cell>
+            </row>
+            <row>
+              <cell>Electron's Charge</cell>
+              <cell><m>q_e</m></cell>
+              <cell><m>1.60\times 10^{-19}</m></cell>
+              <cell><m>C</m></cell>
+            </row>
+            <row>
+              <cell>Gravitational Constant</cell>
+              <cell><m>G</m></cell>
+              <cell><m>6.67\times 10^{-11}</m></cell>
+              <cell><m>Nm^2/kg^2</m></cell>
+            </row>
+            <row>
+              <cell>Mass of Earth</cell>
+              <cell><m>M_E</m></cell>
+              <cell><m>5.98\times 10^{24}</m></cell>
+              <cell><m>kg</m></cell>
+            </row>
+            <row>
+              <cell>Mass of Sun</cell>
+              <cell><m>M_S</m></cell>
+              <cell><m>1.99\times 10^{30}</m></cell>
+              <cell><m>kg</m></cell>
+            </row>
+            <row>
+              <cell>Mass of Moon</cell>
+              <cell><m>M_M</m></cell>
+              <cell><m>7.36\times 10^{22}</m></cell>
+              <cell><m>kg</m></cell>
+            </row>
+            <row>
+              <cell>Radius of Earth</cell>
+              <cell><m>R_E</m></cell>
+              <cell><m>6.38\times 10^{6}</m></cell>
+              <cell><m>m</m></cell>
+            </row>
+            <row>
+              <cell>Planck's Constant</cell>
+              <cell><m>h</m></cell>
+              <cell><m>6.63\times 10^{-34}</m></cell>
+              <cell><m>Js</m></cell>
+            </row>
+            <row>
+              <cell>Spped of Light in Vacuum</cell>
+              <cell><m>c</m></cell>
+              <cell><m>3.00\times 10^{8}</m></cell>
+              <cell><m>m/s</m></cell>
+            </row>
+            <row>
+              <cell>Stefan-Boltzmann Constant</cell>
+              <cell><m>\sigma</m></cell>
+              <cell><m>5.67\times 10^{-8}</m></cell>
+              <cell><m>W/m^2.K^4</m></cell>
+            </row>
+            <row>
+              <cell>Universal Gas Constant</cell>
+              <cell><m>R</m></cell>
+              <cell><m>8.31</m></cell>
+              <cell><m>J/mol.K</m></cell>
+            </row>
+            <row>
+              <cell>Permittivity of Free Space</cell>
+              <cell><m>\epsilon_o</m></cell>
+              <cell><m>8.85\times 10^{-12}</m></cell>
+              <cell><m>C^2/N.m^2</m></cell>
+            </row>
+            <row>
+              <cell>Permeability of Free Space</cell>
+              <cell><m>\mu_o</m></cell>
+              <cell><m>4\pi\times 10^{-7}</m></cell>
+              <cell><m>T.m/A</m></cell>
+            </row>
+            <row>
+              <cell>Molar volume of ideal gas at STP</cell>
+              <cell><m>V</m></cell>
+              <cell><m>22.4</m></cell>
+              <cell><m>L/mol</m></cell>
+            </row>
+            <row>
+              <cell>Standard Atmospheric Pressure</cell>
+              <cell><m>P_o</m></cell>
+              <cell><m>1.013\times 10^{5}</m></cell>
+              <cell><m>Pa</m></cell>
+            </row>
+            <row>
+              <cell>Acceleration due to gravity</cell>
+              <cell><m>g</m></cell>
+              <cell><m>9.80</m></cell>
+              <cell><m>m/s^2</m></cell>
+            </row>
+            <row>
+              <cell>Average Earth-Sun distance</cell>
+              <cell><m>AU</m><fn>Astronomical Unit</fn></cell>
+              <cell><m>1.496\times 10^{11}</m></cell>
+              <cell><m>m</m></cell>
+            </row>
+            <row>
+              <cell>Average Earth-Moon distance</cell>
+              <cell><m>LD</m><fn>Lunar Distance</fn></cell>
+              <cell><m>3.84\times 10^{8}</m></cell>
+              <cell><m>m</m></cell>
+            </row>
+            </tabular>
+        
+        </table>
+
+        <table>
+          <title>Greek Alphabet</title>
+          <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell>Name</cell>
+              <cell>Capital Letter</cell>
+              <cell>Small Letter</cell>
+              </row>
+              <row>
+                <cell>Alpha</cell>
+                <cell>A</cell>
+                <cell><m>\alpha</m></cell>
+                </row>
+                <row>
+                  <cell>Beta</cell>
+                  <cell>B</cell>
+                  <cell><m>\beta</m></cell>
+                  </row>
+                  <row>
+                    <cell>Gamma</cell>
+                    <cell><m>\Gamma</m></cell>
+                    <cell><m>\gamma</m></cell>
+                    </row>
+                    <row>
+                      <cell>Delta</cell>
+                      <cell><m>\Delta</m></cell>
+                      <cell><m>\delta</m></cell>
+                      </row>
+                      <row>
+                        <cell>Epsilon</cell>
+                        <cell><m>E</m></cell>
+                        <cell><m>\epsilon</m></cell>
+                        </row>
+                        <row>
+                          <cell>Eta</cell>
+                          <cell><m>H</m></cell>
+                          <cell><m>\eta</m></cell>
+                          </row>
+                          <row>
+                            <cell>Iota</cell>
+                            <cell><m>I</m></cell>
+                            <cell><m>\iota</m></cell>
+                            </row>
+                            <row>
+                              <cell>Kappa</cell>
+                              <cell><m>K</m></cell>
+                              <cell><m>\kappa</m></cell>
+                              </row>
+                          <row>
+                            <cell>Theta</cell>
+                            <cell><m>\Theta</m></cell>
+                            <cell><m>\theta</m></cell>
+                            </row>
+                            <row>
+                              <cell>Mu</cell>
+                              <cell><m>M</m></cell>
+                              <cell><m>\mu</m></cell>
+                              </row>
+                              <row>
+                                <cell>Nu</cell>
+                                <cell><m>N</m></cell>
+                                <cell><m>\nu</m></cell>
+                                </row>
+                                <row>
+                                  <cell>Omicron</cell>
+                                  <cell><m>O</m></cell>
+                                  <cell><m>o</m></cell>
+                                  </row>
+                              <row>
+                                <cell>Rho</cell>
+                                <cell><m>P</m></cell>
+                                <cell><m>\rho</m></cell>
+                                </row>
+                                <row>
+                                  <cell>Sigma</cell>
+                                  <cell><m>\Sigma</m></cell>
+                                  <cell><m>\sigma</m></cell>
+                                  </row>
+                                  <row>
+                                    <cell>Tau</cell>
+                                    <cell><m>T</m></cell>
+                                    <cell><m>\tau</m></cell>
+                                    </row>
+                                  <row>
+                                    <cell>Phi</cell>
+                                    <cell><m>\Phi</m></cell>
+                                    <cell><m>\phi</m></cell>
+                                    </row>
+                                    <row>
+                                      <cell>Psi</cell>
+                                      <cell><m>\Psi</m></cell>
+                                      <cell><m>\psi</m></cell>
+                                      </row>
+                                      <row>
+                                        <cell>Pi</cell>
+                                        <cell><m>\Pi</m></cell>
+                                        <cell><m>\pi</m></cell>
+                                        </row>
+                                      <row>
+                                        <cell>Chi</cell>
+                                        <cell><m>X</m></cell>
+                                        <cell><m>\chi</m></cell>
+                                        </row>
+                                        <row>
+                                          <cell>Lambda</cell>
+                                          <cell><m>\Lambda</m></cell>
+                                          <cell><m>\lambda</m></cell>
+                                          </row>
+                                        <row>
+                                          <cell>Omega</cell>
+                                          <cell><m>\Omega</m></cell>
+                                          <cell><m>\omega</m></cell>
+                                          </row>
+                                          <row>
+                                            <cell>Upsilon</cell>
+                                            <cell><m>\Upsilon</m></cell>
+                                            <cell><m>\upsilon</m></cell>
+                                            </row>
+                                            <row>
+                                              <cell>Xi</cell>
+                                              <cell><m>\Xi</m></cell>
+                                              <cell><m>\xi</m></cell>
+                                              </row>
+                                          <row>
+                                            <cell>Zeta</cell>
+                                            <cell><m>Z</m></cell>
+                                            <cell><m>\zeta</m></cell>
+                                            </row>
+          </tabular>
+        
+        </table>
+
+      </appendix>
+
 
       <appendix>
         <title>List of Symbols</title>

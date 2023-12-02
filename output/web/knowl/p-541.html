@@ -13,13 +13,56 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="displaymath process-math">
-\begin{equation}
-\therefore\quad q= x+\frac{E}{L\omega^{2}_{o}} = A e^{(-\lambda + \beta) t} + B e^{(-\lambda - \beta) t} + q_{o}\tag{3.7.11}
-\end{equation}
+<div class="para">Let <span class="process-math">\(x=Ae^{\alpha t}\)</span> be the solution of this equation, so that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\frac{\,dx}{\,dt} = A\alpha e^{\alpha t}
+\end{equation*}
 </div>
-<div class="para">
-<span class="process-math">\([\because \quad \frac{E}{L\omega^{2}_{o}} =\frac{E}{L\frac{1}{LC}} = CE=q_{o}] \)</span> where <span class="process-math">\(q_{o}\)</span> is the final charge in the capacitor.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{and}\quad \frac{\,d^{2}x}{\,dt^{2}} =  A\alpha^{2} e^{\alpha t}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\therefore\quad  A\alpha^{2} e^{\alpha t}+2\lambda A\alpha e^{\alpha t} + \omega^{2}_{o} Ae^{\alpha t} =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{or,}\quad  Ae^{\alpha t}\left( \alpha^{2} +2\lambda \alpha + \omega^{2}_{o}\right) =0
+\end{equation*}
+</div>
+<div class="para">Since, <span class="process-math">\(Ae^{\alpha t} \neq 0, \)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{we have}\quad \left( \alpha^{2} +2\lambda \alpha + \omega^{2}_{o}\right) =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{or,}\quad \alpha = \frac{-\lambda\pm\sqrt{4\lambda^{2}-4\omega^{2}_{o}}}{2} =-\lambda\pm\sqrt{\lambda^{2}-\omega^{2}_{o}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\therefore\quad \alpha = -\lambda \pm \beta,
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+\text{where}\quad \beta = \sqrt{\lambda^{2}-\omega^{2}_{o}} 
+\end{equation*}
+</div>
+<div class="para">Hence the most general solution of eqn. <a href="" class="xref" data-knowl="./knowl/eqn-lcr2.html" title="Equation 3.7.10">(3.7.10)</a> is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-lcr2.html">
+\begin{equation*}
+x= A e^{\alpha t} + B e^{-\alpha t} =   A e^{(-\lambda + \beta) t} + B e^{(-\lambda - \beta) t}
+\end{equation*}
+</div>
+<div class="para">where A and B are constants and can be determined by initial conditions.</div>
 </div>
 <span class="incontext"><a href="subsec-lcr.html#p-541" class="internal">in-context</a></span>
 </body>

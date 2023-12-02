@@ -12,39 +12,42 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para logical">
+<div class="para logical"><ol class="lower-alpha">
+<li><div class="para">
 <div class="displaymath process-math">
 \begin{equation*}
-B = \frac{\mu_{o}NIa^{2}}{2(x^{2}+a^{2})^{3/2}}
+\therefore \quad B = \frac{\mu_{o}I x}{4\pi}\left[\frac{y}{x^{2}\sqrt{x^{2}+y^{2}}}\right]_{-a}^{a}
 \end{equation*}
-</div>
-<div class="para">on axis of Coil with N turns.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-B = \frac{\mu_{o}NI}{2a}
-\end{equation*}
-</div>
-<div class="para">at center of Coil with N turns. Magnetic field at a point  P  due to a current element  <span class="process-math">\(\,dl\)</span>  is given by</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\vec{\,dB} = \frac{\mu_{o}I}{4\pi}\frac{\vec{\,dl}\times\hat{r}}{r^{2}}
-\end{equation*}
-</div>
-<div class="para">From Biot-Savart’s law and is directed normal to the plane subtends by <span class="process-math">\(\,dl\)</span> and <span class="process-math">\(r\text{.}\)</span>
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad \vec{\,dB} = \frac{\mu_{o}I}{4\pi}\frac{\,dl\sin90^{o}}{r^{2}}
+=\frac{\mu_{o}I}{4\pi} \left[\frac{2a}{x\sqrt{x^{2}+a^{2}}}\right]
 \end{equation*}
 </div>
-<div class="para">angle between <span class="process-math">\(\,dl\)</span> and <span class="process-math">\(r\)</span> is <span class="process-math">\(90^{o}\)</span>
+</div></li>
+<li><div class="para">When <span class="process-math">\(x \lt \lt a\)</span> (ie., for infinitely long wire) then <span class="process-math">\(1 \lt \lt \frac{a}{x} \text{,}\)</span> hence<div class="displaymath process-math">
+\begin{equation*}
+B = \frac{\mu_{o}I}{4\pi} \left[\frac{2a}{x\cdot x\sqrt{1+\frac{a^{2}}{x^{2}}}}\right] 
+\end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad \,dB = \frac{\mu_{o}I}{4\pi}\frac{\,dl}{r^{2}}
+= \frac{\mu_{o}I}{4\pi}\frac{2a}{x^{2}\sqrt{\frac{a^{2}}{x^{2}}}} =\frac{\mu_{o}I}{4\pi} \frac{2a}{x}
 \end{equation*}
 </div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad  B=  \frac{\mu_{o}I }{2\pi x} 
+\end{equation*}
 </div>
+</div></li>
+<li><div class="para">When <span class="process-math">\(x \gt \gt a\)</span> then <span class="process-math">\(\frac{x}{a} \gt \gt 1\text{,}\)</span> hence<div class="displaymath process-math">
+\begin{equation*}
+B =  \frac{\mu_{o}I }{2\pi} \frac{a}{x^{2}} \simeq 0 
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
 <span class="incontext"><a href="subsec-magfld_movcharge.html#p-444" class="internal">in-context</a></span>
 </body>
 </html>

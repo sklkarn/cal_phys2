@@ -13,15 +13,73 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">A parallel-plate capacitor is made from two square sheets of metal each 2 mm thick and 20 cm on a side. The distance between the plates is 1 mm and the voltage between them is 1000 V. Find</div>
-<ol class="lower-alpha">
-<li><div class="para">the capacitance of the capacitor,</div></li>
-<li><div class="para">the charge on each plate,</div></li>
-<li><div class="para">the charge density (charge per unit area),</div></li>
-<li><div class="para">the electric field between the plates,</div></li>
-<li><div class="para">the energy stored in the capacitor,</div></li>
-<li><div class="para">the energy density of the electric field.</div></li>
-</ol>
+<div class="para">Therefore potential at P  due to entire rod,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V=\int\,dV=\int\limits_{-a}^{a}\frac{k\lambda\,dy}{\sqrt{x^{2}+y^{2}}} \quad [\because\lambda=\frac{\,dq}{\,dy}]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad V=\int\,dV=\int\limits_{-a}^{a}\frac{k a|y|\,dy}{\sqrt{x^{2}+y^{2}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \int\limits_{-a}^{0}\frac{-k a y\,dy}{\sqrt{x^{2}+y^{2}}} + \int\limits_{0}^{a}\frac{k a y\,dy}{\sqrt{x^{2}+y^{2}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad V = -k a \left[\int\limits_{-a}^{0}\frac{ y\,dy}{\sqrt{x^{2}+y^{2}}} - \int\limits_{0}^{a}\frac{ y\,dy}{\sqrt{x^{2}+y^{2}}}\right]
+\end{equation*}
+</div>
+<div class="para">Lets solve</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mathscr{I} = \frac{ y\,dy}{\sqrt{x^{2}+y^{2}}}
+\end{equation*}
+</div>
+<div class="para">From figure,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x^{2}+y^{2}=r^{2} 
+\end{equation*}
+</div>
+<div class="para">so that  <span class="process-math">\(2y\,dy=2r\,dr\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad  y\,dy=r\,dr 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad I = \int \frac{r\,dr}{r}=\int \,dr=r=\sqrt{x^{2}+y^{2}}
+\end{equation*}
+</div>
+<div class="para">Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V=-ka\left[\left(\sqrt{x^{2}+y^{2}}\right)_{-a}^{0}-\left(\sqrt{x^{2}+y^{2}}\right)_{0}^{a}\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=-ka\left[\left(\sqrt{x^{2}}-\sqrt{x^{2}+a^{2}}\right)-\left(\sqrt{x^{2}+a^{2}}-\sqrt{x^{2}}\right)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=-ka\left[\left(|x|-\sqrt{x^{2}+a^{2}}\right)-\left(\sqrt{x^{2}+a^{2}}-|x|\right)\right]
+\end{equation*}
+</div>
+<div class="para">since <span class="process-math">\(-a\)</span> to  <span class="process-math">\(0\)</span>  <span class="process-math">\(|x|\)</span> is -ve hence first term is -ve, ie.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad V=2ka\left[|x|-\sqrt{x^{2}+y^{2}}\right]
+\end{equation*}
+</div>
 </div>
 <span class="incontext"><a href="sec_first-examplesC.html#p-231" class="internal">in-context</a></span>
 </body>

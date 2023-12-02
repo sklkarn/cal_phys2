@@ -12,7 +12,96 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para">That is, the different colors of light correspond to different wavelengths of light, which are refracted at slightly different angles, thus splitting the white sunlight into red and violet lights. The color of the primary rainbow are spread over about <span class="process-math">\(2^{o}\)</span> out of the <span class="process-math">\(42^{o}\)</span> away from the anti-solar point as shown in <a href="" class="xref" data-knowl="./knowl/rainbowc.html" title="Figure 5.3.8">Figure 5.3.8</a>. The viewer sees the rainbow with the red at the outer side of the arc and the violet on the inner side. Our perception of vision for violet light is not that sensitive hence, we see blue light more clearly than violet light. It is to be remembered that sunlight strikes the raindrops at different angles of incidence and undergoes different deviations.  Only those rays produce a rainbow which have the angle of incidence corresponding to maximum angles of deviation.</div>
+<div class="para logical">
+<div class="para">Differentiating eqn. <a href="" class="xref" data-knowl="./knowl/eqn-rainbow3.html" title="Equation 5.3.12">(5.3.12)</a> w.r.t. <span class="process-math">\('i'\)</span> and set that to zero, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation}
+\left.\frac{\,\partial \phi}{\partial i}\right]_{max}= 0  \tag{5.3.13}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{now,}\quad \frac{\,\partial \phi}{\partial i} = 4\left[\frac{\,\partial}{\,\partial i}\left\{\sin^{-1}\left(\frac{\sin i}{\eta}\right)\right\}\right]-2 =0 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{or,} \quad 4\left[\frac{\,\partial}{\,\partial u}\left(\sin^{-1}u\right)\frac{\,\partial u}{\,\partial i }\right]-2 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{where,} \quad u = \frac{\sin i}{\eta}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\Rightarrow\quad \frac{\,\partial u}{\,\partial i } = \frac{\cos i}{\eta}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{and} \quad \frac{\,\partial}{\,\partial u }\left(\sin^{-1}u\right)=\frac{1}{\sqrt{1-u^{2}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{or,}\quad  4\left[\frac{1}{\sqrt{1-\frac{\sin^{2}i}{\eta^{2}}}}\cdot \frac{\cos i}{\eta}\right]-2 =0 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{or,}\quad  4\left[\frac{\eta}{\sqrt{\eta^{2}-\sin^{2}i}}\cdot \frac{\cos i}{\eta}\right]-2 =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{or,}\quad 2\cos i= \sqrt{\eta^{2}-\sin^{2}i} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{or,}\quad 4\cos^{2} i = \eta^{2}-(1-\cos^{2}i)
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation}
+\text{or,}\quad \cos^{2} i = \frac{\eta^{2}-1}{3}  \tag{5.3.14}
+\end{equation}
+</div>
+<div class="para">Since <span class="process-math">\(\eta =1.331\)</span> for red light, angle of incidence <span class="process-math">\(i\)</span> at maximum deviation is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\left. i\right]_{\phi_{max}}=59.53^{o},
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\left. r\right]_{\phi_{max}}=40.36^{o}, 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{and}\quad \left. \phi\right]_{{max}}=42.37^{o}
+\end{equation*}
+</div>
+<div class="para">Also <span class="process-math">\(\eta =1.343\)</span> for violet light,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\left. i\right]_{\phi_{max}}=58.83^{o}, 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\left. r\right]_{\phi_{max}}=39.58^{o},
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-rainbow3.html">
+\begin{equation*}
+\text{and}\quad \left. \phi\right]_{{max}}=40.65^{o}
+\end{equation*}
+</div>
+</div>
 <span class="incontext"><a href="subsec-rainbow.html#p-981" class="internal">in-context</a></span>
 </body>
 </html>

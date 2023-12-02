@@ -12,7 +12,43 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para">Find the electric field at a point due to a uniformly charged ring.</div>
+<div class="para logical">
+<div class="para">Consider an arc of radius r and linear charge density <span class="process-math">\(\lambda.\)</span> To find the field at a point  O  consider a small charged element <span class="process-math">\(\,dl \)</span> which behaves as a point charge <span class="process-math">\(\,dq\)</span> then field at  O is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE=\frac{k\,dq}{r^{2}}
+\end{equation*}
+</div>
+<div class="para">Now due to charge symmetry components of field along y - axis cancels out each other and only x-components are survived. Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE_{x} = \,dE \cos\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad E  = \int\,dE_{x} =\int\limits_{-\theta_{o}}^{\theta_{o}} \,dE \cos\theta 
+= \int\limits_{-\theta_{o}}^{\theta_{o}}\frac{k\,dq}{r^{2}}\cos\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E = \int\limits_{-\theta_{o}}^{\theta_{o}} \frac{k \lambda r \,d\theta}{r^{2}}\cos\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+[\because \quad \,dq=\lambda\,dl\quad and \quad\,dl=r\,d\theta  ]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E  = \frac{k\lambda}{r}\int\limits_{-\theta_{o}}^{\theta_{o}}\cos\theta\,d\theta 
+=\frac{k\lambda}{r} \{\sin\theta\}_{-\theta_{o}}^{\theta_{o}}  = \frac{k\lambda}{r} \{2\sin\theta_{o}\} 
+\end{equation*}
+</div>
+<div class="para">along x-axis.  If <span class="process-math">\(\theta_{o}\rightarrow \pi \)</span> then arc becomes a circular ring and field at the center of ring is zero.</div>
+</div>
 <span class="incontext"><a href="sec_first-examplesA.html#p-67" class="internal">in-context</a></span>
 </body>
 </html>

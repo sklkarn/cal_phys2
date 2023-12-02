@@ -13,58 +13,71 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Also pressure fluctuation can be</div>
-<div class="displaymath process-math">
+<div class="para">But from Bulk modulus of elasticity,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
+\begin{equation*}
+B=-\frac{P}{\,dV/V_{i}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
+\begin{equation*}
+\text{or,}\quad P = -B\left(\frac{\,dV}{V_{i}}\right)
+\end{equation*}
+</div>
+<div class="para">where</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
+\begin{equation*}
+\,dV=V_{f}-V_{i} = A[(x_{2}+s_{2})-(x_{1}+s_{1})]-A\,dx
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
+\begin{equation*}
+= A[(x_{2}-x_{1})+(s_{2}-s_{1})]-A\,dx = A(\,dx+\,ds)-A\,dx =A\,ds
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
+\begin{equation*}
+\therefore \quad P = -B\frac{A\,ds}{A\,dx}=-B\frac{\,ds}{\,dx} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
 \begin{equation}
-p(x,t) = -Bks_{o}\cos(kx-\omega t)  \tag{4.4.5}
+\text{or,} \quad \frac{\,dP}{\,dx} = -B\frac{\,d^{2}s}{\,dx^{2}}  \tag{4.4.2}
 \end{equation}
 </div>
-<div class="para">which is lagging behind the displacement <span class="process-math">\(s(x,t)\)</span> by quarter of wavelength and</div>
-<div class="displaymath process-math">
+<div class="para">From eqns. <a href="" class="xref" data-knowl="./knowl/eqn-speedLW1.html" title="Equation 4.4.1">(4.4.1)</a> and <a href="" class="xref" data-knowl="./knowl/eqn-speedLW2.html" title="Equation 4.4.2">(4.4.2)</a>, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
 \begin{equation*}
-p_{max} = B\,k\,s_{o}
+-\rho \frac{\,d^{2}s}{\,dt^{2}}=-B\frac{\,d^{2}s}{\,dx^{2}}
 \end{equation*}
 </div>
-<div class="para">is pressure amplitude.</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
+\begin{equation}
+\therefore \quad  \frac{\,d^{2}s}{\,dx^{2}}=\frac{\rho}{B}\frac{\,d^{2}s}{\,dt^{2}}\tag{4.4.3}
+\end{equation}
+</div>
+<div class="para">Which is the wave equation of longitudinal wave. Hence</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
+\begin{equation}
+s(x,t) = s_{o}\sin(kx-\omega t) \tag{4.4.4}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(s_{o} \)</span> is the amplitude of the wave or maximum displacement of fluid column,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
 \begin{equation*}
-\text{and,}\quad \frac{\,d^{2}s}{\,dx^{2}} =-s_{o}k^{2}\sin(kx-\omega t)
+\omega =2\pi f 
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="para">is angular frequency, and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
 \begin{equation*}
-\text{Also}\quad \frac{\,ds}{\,dt} =-s_{o}\omega\cos(kx-\omega t)
+k=\frac{2\pi}{\lambda}
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="para">is the wave number.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-speedLW1.html ./knowl/eqn-speedLW2.html">
 \begin{equation*}
-\text{or,}\quad \frac{\,d^{2}s}{\,dt^{2}} =-s_{o}\omega^{2}\sin(kx-\omega t)
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{Hence,}\quad -s_{o}k^{2}\sin(kx-\omega t) =-\frac{\rho}{B} s_{o}\omega^{2}\sin(kx-\omega t)
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad k^{2} =\frac{\rho}{B}\omega^{2}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{or,}\quad \frac{1}{\lambda^{2} f^{2}}=\frac{\rho}{B}
-\end{equation*}
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\therefore \quad v^{2}=\frac{B}{\rho}
-\end{equation*}
-</div>
-<div class="para">Hence the speed of longitudinal wave in fluid is given by</div>
-<div class="displaymath process-math">
-\begin{equation*}
-v=\sqrt{\frac{B}{\rho}}
+\text{Now}\quad \frac{\,ds(x,t)}{\,dx} =s_{o}k\cos(kx-\omega t) 
 \end{equation*}
 </div>
 </div>

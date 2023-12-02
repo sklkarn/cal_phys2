@@ -13,19 +13,30 @@
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
 <div class="para logical">
-<div class="para">In this case, the capacitive reactance</div>
-<div class="displaymath process-math">
+<div class="para">We can write</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/gr15.html">
 \begin{equation*}
-X_{C} = \frac{E_{o}}{I_{o}}= \frac{1}{\omega C}
+I = \omega C E_{o}e^{j\omega t}e^{j\frac{\pi}{2}} = \omega C E_{o}e^{j(\omega t+\frac{\pi}{2})}
 \end{equation*}
 </div>
-<div class="para">and impedance,</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/gr15.html">
 \begin{equation*}
-Z = \frac{E}{I}=\frac{1}{j\omega C}.
+= \frac{E_{o}}{1/\omega C}e^{j(\omega t+\frac{\pi}{2})}= I_{o}e^{j(\omega t+\frac{\pi}{2})}
 \end{equation*}
 </div>
-<div class="para">The capacitive reactance <span class="process-math">\(X_{C}\)</span> measures the hindrance to the flow of ac just like resistance R in purely resistive circuit. The reciprocal of capacitive reactance is called capacitive susceptance which is <span class="process-math">\(\omega C\text{.}\)</span> Even though capacitor provide hindrance to the flow of current it does not consume any energy over a cycle.</div>
+<div class="para">where,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/gr15.html">
+\begin{equation*}
+I_{o}= \frac{E_{o}}{1/\omega C}
+\end{equation*}
+</div>
+<div class="para">is the peak value of altenating current,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/gr15.html">
+\begin{equation*}
+I=I_{o}\sin\left(\omega t+\frac{\pi}{2}\right)
+\end{equation*}
+</div>
+<div class="para">Hence, in this case also current is alternating sinusoidal with frequency <span class="process-math">\(\omega\)</span> but leading the emf by <span class="process-math">\(\frac{\pi}{2}\)</span> phase as shown in <a href="" class="xref" data-knowl="./knowl/gr15.html" title="Figure 3.9.5.(b)">Figure 3.9.5.(b)</a>.</div>
 </div>
 <span class="incontext"><a href="subsec-complex_number.html#p-597" class="internal">in-context</a></span>
 </body>

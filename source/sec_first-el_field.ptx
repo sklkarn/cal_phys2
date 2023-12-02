@@ -35,6 +35,7 @@
     if it is free to do so. It is always in the direction of  electric field vectors leaving from 
     positive charges and ending on negative charges. Density of lines indicates field strength. 
     Electric lines of force diverge from positive charge and converge in a negative charge as shown in <xref ref="fig6"/>.
+    [use this simulator <url href="https://javalab.org/en/electric_field_line_en/"><c>Electric Field line</c></url>]
      </p>
      <figure xml:id="fig6">
       <caption></caption>
@@ -53,7 +54,7 @@
         </figure>
        </sidebyside>
   </figure>
-  
+ 
   <p>
     <term>Test Charge:</term> It is an imaginary unit positive charge that can not distort the electric 
     field of any other charge. It is used to determine the direction of electric field vector. 
