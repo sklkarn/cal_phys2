@@ -13,42 +13,50 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Consider a charged capacitor of capacitance C is connected in a circuit in such a way that it begins discharging through an inductor of inductance L. If i is current flowing in the circuit at some extent then potential difference across the inductance is</div>
+<div class="para">From the circuit, we have</div>
 <div class="displaymath process-math">
 \begin{equation*}
-V_{L}= -L\frac{\,di}{\,dt}
-\end{equation*}
-</div>
-<div class="para">and potential difference across the capacitor at the same extent is <span class="process-math">\(V_{C}=\frac{q}{C}\text{.}\)</span> The -ve sign of <span class="process-math">\(V_{L}\)</span> indicates the back emf in the inductance. From the circuit, we have</div>
-<div class="displaymath process-math">
-\begin{equation*}
-V_{C}=V_{L}
+-L\frac{\,di}{\,dt} = Ri 
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\frac{q}{C} = -L\frac{\,di}{\,dt}
+\text{or,}\quad \frac{\,di}{i}= -\frac{R}{L}\,dt
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad L\frac{\,d^{2}q}{\,dt^{2}} + \frac{q}{C}=0
+\text{or,}\quad \int\limits_{i_{o}}^{i}\frac{\,di}{i}= -\frac{R}{L}\int\limits_{0}^{t}\,dt
 \end{equation*}
 </div>
-<div class="para"><span class="process-math">\([\because i=\frac{\,dq}{\,dt}]\)</span></div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \frac{q}{LC}=0
+\text{or,}\quad \left.\ln \,i\right\vert_{i_{o}}^{i} = -\frac{R}{L} t
 \end{equation*}
 </div>
 <div class="displaymath process-math">
-\begin{equation}
-\text{or,}\quad \frac{\,d^{2}q}{\,dt^{2}} + \omega^{2}_{o}q=0 \tag{3.7.5}
-\end{equation}
+\begin{equation*}
+\text{or,}\quad  \ln i -\ln i_{o} = -\frac{R}{L} t
+\end{equation*}
 </div>
-<div class="para">
-<span class="process-math">\(\text{where} \quad [\omega^{2}_{o} = \frac{1}{LC}] \)</span> This is a second order linear differential equation.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \ln \frac{i}{i_{o}} = -\frac{R}{L} t
+\end{equation*}
 </div>
-<span class="incontext"><a href="subsec-lc.html#p-533" class="internal">in-context</a></span>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad i = i_{o}e^{-(\frac{R}{L})t} = i_{o}e^{-(t/\tau)}
+\end{equation*}
+</div>
+<div class="para">i.e., current decays exponentially. After time constant L/R,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+i=i_{o}e^{-(1)}
+\end{equation*}
+</div>
+<div class="para">Hence time constant is the time in which current in the R-L circuit falls to <span class="process-math">\(1/e\)</span> of its maximum value when the emf of the circuit is removed.</div>
+</div>
+<span class="incontext"><a href="subsec-rlc.html#p-533" class="internal">in-context</a></span>
 </body>
 </html>

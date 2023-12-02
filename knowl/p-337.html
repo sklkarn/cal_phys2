@@ -13,24 +13,71 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Since, <span class="process-math">\(q(t)=CV_{c}(t)\)</span> and <span class="process-math">\(q_{o}=EC\text{,}\)</span> we have -</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis1.html">
-\begin{equation}
-V_{c}(t)=E\left(1-e^{(-\frac{t}{RC})}\right)\tag{2.4.9}
-\end{equation}
-</div>
-<div class="para">Now, differentiate eqn. <a href="" class="xref" data-knowl="./knowl/eqn-chrg_dis1.html" title="Equation 2.4.8">(2.4.8)</a> with respect to time t, we get-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis1.html">
+<div class="para">Applying Kirchhoff’s Voltage law to the charging loop, we have</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\frac{dq}{dt}=-q_{o}e^{(-\frac{t}{RC})}\left(-\frac{1}{RC}\right) = \frac{q_{o}}{RC}e^{(-\frac{t}{RC})}
+E=V_{R}+V_{c} = iR+\frac{q}{C}, 
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-chrg_dis1.html">
+<div class="para">where <span class="process-math">\(E\)</span> is emf of a battery, <span class="process-math">\(V_{R}\)</span> is a potential drop at resistance <span class="process-math">\(R\text{,}\)</span> <span class="process-math">\(V_{c}\)</span> is a potential across the capacitor, <span class="process-math">\(C\)</span> is capacitance of the capacitor, <span class="process-math">\(q\)</span> is the charge stored in the capacitor at any time <span class="process-math">\(t,\)</span> and <span class="process-math">\(i\)</span> is a changing current in a circuit with time.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+E=\frac{\,dq}{\,dt}R+\frac{q}{C}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad E-\frac{q}{C}=\frac{\,dq}{\,dt}R 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{EC-q}{RC}=\frac{\,dq}{\,dt}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{\,dq}{EC-q}=\frac{\,dt}{RC}
+\end{equation*}
+</div>
+<div class="para">Integrating, we get -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int\limits_{0}^{q}\frac{\,dq}{EC-q}=\int\limits_{0}^{t}\frac{\,dt}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \left.\frac{ln(EC-q)}{-1}\right\vert_{0}^{q}=\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \ln(EC-q)-ln(EC)=-\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad ln\left(\frac{EC-q}{EC}\right)=-\frac{t}{RC}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{EC-q}{EC}=e^{(-\frac{t}{RC})}
+\end{equation*}
+</div>
+<div class="para">Here <span class="process-math">\(EC=q_{o},\)</span> is the maximum charge this capacitor can hold.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{q_{o}-q}{q_{o}}=e^{(-\frac{t}{RC})} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
 \begin{equation}
-\text{Hence} \quad I  =  I_{o}e^{-\frac{t}{RC}} \tag{2.4.10}
+\therefore \quad q(t)= q_{o}\left[1-e^{(-\frac{t}{RC})}\right] \tag{2.4.8}
 \end{equation}
 </div>
-<div class="para">where <span class="process-math">\(\frac{q_{o}}{RC}=I_{o},\)</span> the maximum current in a circuit.</div>
+<div class="para">This is the charge stored in a capacitor at any time t.</div>
 </div>
 <span class="incontext"><a href="subsec-chrg_dischrg.html#p-337" class="internal">in-context</a></span>
 </body>

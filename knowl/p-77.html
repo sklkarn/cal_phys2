@@ -12,7 +12,37 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para">A charge  q = +200 nC  is located on a small object attached to a light string of length 1 m attached to the top of a thin vertical rod of length 2 m as shown in figure below. A charge  Q = +100 nC  is distributed uniformly throughout the rod. Due to electrostatic repulsion the string makes an angle <span class="process-math">\(\theta = 5^{o}.\)</span> What is the mass of the hanging object?</div>
+<div class="para logical">
+<div class="para">Consider a strip on the hemisphere of radius <span class="process-math">\(r=R\sin\theta \)</span> and thickness <span class="process-math">\(R\,d\theta.\)</span> The charge on the strip is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dq=\sigma \,dA = \sigma 2\pi r \,dr = \sigma 2\pi R\sin\theta R\,d\theta 
+\end{equation*}
+</div>
+<div class="para">Electric filed at the center <span class="process-math">\(o\)</span> of the hemisphere  due to this strip is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dE = \,dE_{z}=\,dE\cos\theta = \frac{\sigma k\,dq z}{(z^{2}+r^{2})^{3/2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{\sigma k\,dq R\cos\theta}{(R^{2}\cos^{2}\theta+R^{2}\sin^{2}\theta)^{3/2}}
+= \frac{\sigma 2\pi k R^{3}\sin\theta\cos\theta\,d\theta}{R^{3}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{\sigma}{2\epsilon_{o}}\sin\theta\cos\theta\,d\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore E = \int \,dE = \frac{\sigma}{2\epsilon_{o}}\int\limits_{0}^{\frac{\pi}{2}}\frac{\sin 2\theta}{2}\,d\theta 
+=\frac{\sigma}{4\epsilon_{o}} \quad\text{along -ve z-axis}
+\end{equation*}
+</div>
+</div>
 <span class="incontext"><a href="sec_first-examplesA.html#p-77" class="internal">in-context</a></span>
 </body>
 </html>

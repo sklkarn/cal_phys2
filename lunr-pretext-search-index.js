@@ -52,12 +52,12 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.1.1",
   "title": "Methods of Transferring Charges:",
-  "body": " Methods of Transferring Charges:   Charge can neither be created nor be destroyed but it can be transferred from one object to another by the following processes.   Charging by Friction: In this method two neutral objects are rubbed together against each other to transfer charges from one object to another. The object which gains electrons becomes negatively charged and the one which looses electrons becomes positively charged.   Charging by Conduction: In this method charged object are brought in contact to the other object to transfer charges. Uncharged object becomes charged after touching by the charged object. When oppositely charged object brought in contact with each other they lose their charges.   Charging by Induction: In this method an uncharged object is brought near a charged object (no physical contact) to induce a positive and negative charge on it. When charged object is in proximity of uncharged object it produces an electrical force on electrons to move them from one part of object to another. When an insulator is brought near a charged object electrons of insulator atoms experience electrical force which stretches atoms to displace center of gravity of positive charges and negative charges. This phenomenon of separation of charges is called polarization . Hence in induction positive charges are separated from negative charges to produce charges on an object.      Electrophorus:                   It is a device used to produce charges using electrostatic induction. It consists of an insulating base plate and a conducting disc (also known as electrophorus disc) with an insulated handle [ ]. At first insulating plate is rubbed with silk, fur, or wool which produces charges on the plate depending on the type of materials being rubbed together. In the figure above negative charges are produced on the base plate. Electrophorus disk is then brought in contact with this plate and then grounded. Grounding help free charges on disk to neutralize with the opposite charges from the earth (ground). Earth is an infinite source of charges and because electrons are lighter than the positive charges electrons can easily come from earth to the disk to neutralize free positive charges or they can leave the disc to the ground if they are free charges. After grounding, the disk contains only one kind of charges, it is then disconnected from ground before get removed from the plate. All the charges on the disk then spread around its surface which can be stored and used as needed. In this case positive charges are stored from the disk.    Electroscope:      It is an instrument used to detect charge on a body. It consists of two gold (or silver or aluminum) leaves suspended from a conducting rod that leads to the outside of an insulating glass container ( ). The rod has metallic ball attached at its top, when a charged object is brought near the conducting ball or make in contact with it causes the leaves to diverge because like charges repel each other. The nature of charge (positive or negative) on any object can also be determined with the help of electroscope, by making its leaves charged with the known charges.   "
+  "body": " Methods of Transferring Charges:   Charge can neither be created nor be destroyed but it can be transferred from one object to another by the following processes.   Charging by Friction: In this method two neutral objects are rubbed together against each other to transfer charges from one object to another. The object which gains electrons becomes negatively charged and the one which looses electrons becomes positively charged.   Charging by Conduction: In this method charged object are brought in contact to the other object to transfer charges. Uncharged object becomes charged after touching by the charged object. When oppositely charged object brought in contact with each other they lose their charges.   Charging by Induction: In this method an uncharged object is brought near a charged object (no physical contact) to induce a positive and negative charge on it. When charged object is in proximity of uncharged object it produces an electrical force on electrons to move them from one part of object to another. When an insulator is brought near a charged object electrons of insulator atoms experience electrical force which stretches atoms to displace center of gravity of positive charges and negative charges. This phenomenon of separation of charges is called polarization . Hence in induction positive charges are separated from negative charges to produce charges on an object.      Electrophorus:                   It is a device used to produce charges using electrostatic induction. It consists of an insulating base plate and a conducting disc (also known as electrophorus disc) with an insulated handle [ ]. At first insulating plate is rubbed with silk, fur, or wool which produces charges on the plate depending on the type of materials being rubbed together. In the figure above negative charges are produced on the base plate. Electrophorus disk is then brought in contact with this plate and then grounded. Grounding help free charges on disk to neutralize with the opposite charges from the earth (ground). Earth is an infinite source of charges and because electrons are lighter than the positive charges electrons can easily come from earth to the disk to neutralize free positive charges or they can leave the disc to the ground if they are free charges. After grounding, the disk contains only one kind of charges, it is then disconnected from ground before get removed from the plate. All the charges on the disk then spread around its surface which can be stored and used as needed. In this case positive charges are stored from the disk.    Electroscope:      It is an instrument used to detect charge on a body. It consists of two gold (or silver or aluminum) leaves suspended from a conducting rod that leads to the outside of an insulating glass container ( ). The rod has metallic ball attached at its top, when a charged object is brought near the conducting ball or make in contact with it causes the leaves to diverge because like charges repel each other. The nature of charge (positive or negative) on any object can also be determined with the help of electroscope, by making its leaves charged with the known charges. [use this simulator electroscope ]   "
 },
 {
-  "id": "p-22",
+  "id": "p-23",
   "level": "2",
-  "url": "subsec-charg_transf.html#p-22",
+  "url": "subsec-charg_transf.html#p-23",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -91,9 +91,9 @@ var ptx_lunr_docs = [
   "body": " Coulumb's Law   The force of attraction or repulsion between any two point charges is directly proportional to the product of these charges and inversely proportional to the square of distance between them. The direction of force is always acting along the line joining these two point charges. If is a force acting on charge due to charge  is a force acting on charge due to charge and is a distance between the two charges ( ) then from Coulumb's law where is unit vector along line joining the two charges, Coulomb's constant of free space, ; and permittivity of free space,  Permittivity is an ability of a medium to store electrical energy in an electric field. In other words, permittivity is the extent to which a medium permits electrical lines of force between the charges. It is a resistance of a medium in forming electric fields. It describes the effect of a material in an electrical field. The higher the permittivity, the more the material tends to reduce electrical field (due to polarization) that set up it.                 Coulumb's Law in One Dimension  Coulomb's law holds good only for two point charges but if more than two charges are located in space then the force on each of them can be determined by using the principle of superposition.    Coulomb's Law in Two and Three Dimensions  Use principle of superposition to obtain force on any charge if the charges are distributed at different points in space.   "
 },
 {
-  "id": "p-25",
+  "id": "p-26",
   "level": "2",
-  "url": "subsec-coulmb_law.html#p-25",
+  "url": "subsec-coulmb_law.html#p-26",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -127,9 +127,9 @@ var ptx_lunr_docs = [
   "body": " Electric Field of a Continuous Charge Distribution  Coulomb's law only work for two point charges, if we are dealing with more than two discrete charges then we have to use principle of superposition to find the field at a point using Coulomb's law. Most often charges are distributed on the material in such a rigourous way that applying Coulomb's low is very difficult, e.g. charges are distributed on a sphere, a plane surface, a rod or on some weird surface like pyramid. In that case it would be easier to find an electric field at point by breaking the charge distribution in small elements and treat them like a point charge. Write the equation of electric field for one single element of the charge and integrate them for the entire charge. In order to break these charge distribution in small elements we need to discuss charge density.   Charge Density: Depend upon the surface where charges are distributed uniformly we can have three different types of charge density.   Linear charge density, : If the charges are distributed uniformly in a linear shape then the charge density is called a linear charge density. It is defined as the amount of charge per unit length. Let say the charge Q be distributed smoothly on a wire of length L, then It's unit is Now if a small length contains a charge then    Surface charge density, If the charges are distributed uniformly on a surface area then the charge density is called a surface charge density. It is defined as the amount of charge per unit area. Let say the charge Q be distributed smoothly on a plane of area A, then It's unit is Now if a small area of that surface contains a charge then    Volume charge density, If the charges are distributed uniformly in a volume of any material then the charge density is called a volume charge density. It is defined as the amount of charge per unit volume. Let say the charge Q bw distributed smoothly in a volume V, then It's unit is Now if a small volume of that material contains a charge then     "
 },
 {
-  "id": "p-37",
+  "id": "p-38",
   "level": "2",
-  "url": "subsec-chrg_dist.html#p-37",
+  "url": "subsec-chrg_dist.html#p-38",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -253,9 +253,9 @@ var ptx_lunr_docs = [
   "body": "  Find the electric field at a point due to a uniformly charged disc.      Consider a disc of radius having total charge and uniform surface charge density To find the field at point consider an elementary charged ring of radius and thickness having charge then the field at point due to a ring is given by the eqn. , i.e.,   (area of the ring)].  From geometry of the figure      If the field at the center of the disc (or, field near charged surface, )    If  If     "
 },
 {
-  "id": "p-71",
+  "id": "p-72",
   "level": "2",
-  "url": "sec_first-examplesA.html#p-71",
+  "url": "sec_first-examplesA.html#p-72",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -307,9 +307,9 @@ var ptx_lunr_docs = [
   "body": " Suppose a charge is enclosed by the two closed surfaces and then number of lines crossing the surface = number of lines crossing the surface But, the number of lines per unit area through a surface perpendicular to the lines is proportional to the strength of the electric field at a given region, i.e., line density is proportional to the electric field, .      where, line density =   or, No. of lines = line density.   or, line crossing the surface S = =   where K is a proportionality constant. Hence, and for surface S', the flux   From eqns. and we get-  In SI unit, set constant, K = 1,  all integrals used here are closed surface integrals. Which is a Gauss's law. Gauss's law is applicable for any surface as long as the charge distribution is symmetrical for the surface. It can be used to find the electric field due to a point charge, a spherically symmetric charge distribution, a uniform rod of charge, and a uniform sheet of charge. It is not applicable for a charge distribution in pyramid type surface or a finite disc or rod. An imaginary surface symmetrical to charge distribution considered at any point where electric field is to be determined is called Gaussian Surface .  "
 },
 {
-  "id": "p-89",
+  "id": "p-90",
   "level": "2",
-  "url": "subsec-gauss.html#p-89",
+  "url": "subsec-gauss.html#p-90",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -865,18 +865,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-190",
+  "id": "p-191",
   "level": "2",
-  "url": "subsec-capctrs.html#p-190",
+  "url": "subsec-capctrs.html#p-191",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "capacitor "
 },
 {
-  "id": "p-191",
+  "id": "p-192",
   "level": "2",
-  "url": "subsec-capctrs.html#p-191",
+  "url": "subsec-capctrs.html#p-192",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -892,18 +892,18 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-192",
+  "id": "p-193",
   "level": "2",
-  "url": "subsec-capctrs.html#p-192",
+  "url": "subsec-capctrs.html#p-193",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Capacitance: Farad "
 },
 {
-  "id": "p-195",
+  "id": "p-196",
   "level": "2",
-  "url": "subsec-capctrs.html#p-195",
+  "url": "subsec-capctrs.html#p-196",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -919,9 +919,9 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-197",
+  "id": "p-198",
   "level": "2",
-  "url": "subsec-capctrs.html#p-197",
+  "url": "subsec-capctrs.html#p-198",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -937,9 +937,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-199",
+  "id": "p-200",
   "level": "2",
-  "url": "subsec-capctrs.html#p-199",
+  "url": "subsec-capctrs.html#p-200",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1315,9 +1315,9 @@ var ptx_lunr_docs = [
   "body": " Ohm's Law:   In 1827, George Simon Ohm studied that the current flowing through a conductor is directly proportional to the potential difference applied between its two ends at constant physical conditions ( Temperature, light, electric, or magnetic field. ) i.e.  where is a proportionality constant and known as a conductance of a conductor. Usually , being resistance of the conductor. Hence      Resistivity or Specific Resistance, :  We know that if a conductor of length has a potential difference across its ends is then electric field can be given as [ ] and if current, is flowing in this conductor of area of cross-section , then current density is . Now using Ohm's law, we have In this expression resistance of the conductor of the given length and area of cross-section are all constant. Hence we can write electrical field as where is known as a specific resistance or resistivity of the conductor. It is a property of the material. Different material has a different resistivity. If a conductor of length has a cross-section area then i.e., resistivity of a conductor is a resistance of a unit length of the conductor of unit area cross-section. It's unit is  The reciprocal of resistivty is known as conductivity , Such expression allows us to compare electrical field with current density such as      Temperature Coefficient of Resistivity  The resistivity of a conductor varies with temperature such that where are resistivity at temperature and and are constants whose value depend on material. If temperature is not sufficiently large then higher order terms are neglected hence,  Here the constant is called temperature coefficient of resistivity of a conductor. It defines the material property. Now as resistance is proportional to the resistivity, we can write i.e., a resistance or resistivity of metallic conductors increases with temperature.    Electrical Power:  It is a measure of energy transferred or consumed by an electrical component per unit time i.e.,  it's unit is Watts (= J\/s).   "
 },
 {
-  "id": "p-287",
+  "id": "p-288",
   "level": "2",
-  "url": "subsec-ohm_law.html#p-287",
+  "url": "subsec-ohm_law.html#p-288",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1369,9 +1369,9 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-303",
+  "id": "p-304",
   "level": "2",
-  "url": "subsec-emf.html#p-303",
+  "url": "subsec-emf.html#p-304",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1441,22 +1441,13 @@ var ptx_lunr_docs = [
   "body": " Galvanometer, Ammeter, Voltmeter, Ohmmeter, Potentiometer, and Multimeter from top left to bottom right, respectively.   "
 },
 {
-  "id": "p-317",
-  "level": "2",
-  "url": "subsec-el_instrmnt.html#p-317",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Galvanometer: "
-},
-{
   "id": "p-318",
   "level": "2",
   "url": "subsec-el_instrmnt.html#p-318",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Ammeter: "
+  "body": "Galvanometer: "
 },
 {
   "id": "p-319",
@@ -1465,7 +1456,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Voltmeter: "
+  "body": "Ammeter: "
 },
 {
   "id": "p-320",
@@ -1474,7 +1465,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Ohmmeter: "
+  "body": "Voltmeter: "
 },
 {
   "id": "p-321",
@@ -1483,12 +1474,21 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Potentiometer: "
+  "body": "Ohmmeter: "
 },
 {
   "id": "p-322",
   "level": "2",
   "url": "subsec-el_instrmnt.html#p-322",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Potentiometer: "
+},
+{
+  "id": "p-323",
+  "level": "2",
+  "url": "subsec-el_instrmnt.html#p-323",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1531,9 +1531,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-332",
+  "id": "p-333",
   "level": "2",
-  "url": "subsec-wheat_stone.html#p-332",
+  "url": "subsec-wheat_stone.html#p-333",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1765,9 +1765,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-388",
+  "id": "p-389",
   "level": "2",
-  "url": "subsec-mag_mater.html#p-388",
+  "url": "subsec-mag_mater.html#p-389",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1792,9 +1792,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-392",
+  "id": "p-393",
   "level": "2",
-  "url": "subsec-geo_mag.html#p-392",
+  "url": "subsec-geo_mag.html#p-393",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1810,9 +1810,9 @@ var ptx_lunr_docs = [
   "body": " Magnetic Force on a Moving Charge  If a charge is moving with a velocity in a magnetic field , then at any point of its path it experiences a magnetic force , given by   where is an angle between and . The direction of force is always perpendicular to the plane describes by and . If the force is maximum, if or then no force acting on a charge. The direction of force can be determined by Fleming's Left hand rule , by stretching thumb, forefinger, and middle finger of the left hand perpendicular to each other, where forefinger pointed in a direction of magnetic field, middle finger pointed in a direction of motion of charge then thumb must shows the direction of force experienced by a charge as shown in .      Since moving charge experiences magnetic force perpendicular to its motion, magnetic force does no work on moving charge. Hence magnetic field only changes the direction of velocity of the charged particle but not the magnitude of its velocity. A particle moving in a constant force perpendicular to its motion leads to the circular motion.  "
 },
 {
-  "id": "p-393",
+  "id": "p-394",
   "level": "2",
-  "url": "subsec-mag_force.html#p-393",
+  "url": "subsec-mag_force.html#p-394",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1846,9 +1846,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-395",
+  "id": "p-396",
   "level": "2",
-  "url": "subsec-lorentz.html#p-395",
+  "url": "subsec-lorentz.html#p-396",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1927,9 +1927,9 @@ var ptx_lunr_docs = [
   "body": " Magnetic Force on a Current Element   The force on a current element when placed in a magnetic field, is  Current Element   Straight wire in Uniform Field  where is the angle between the direction of the current element and the direction of magnetic flux density. The direction of force is perpendicular to the plane subtends by and as adjacent sides. If you stretch your right hand fingers in the direction of current element and curl that up along the direction of magnetic field then thumb will pointed along the force acting on that current element.  Maximum Magnitudes.    Consider a differential charge, to be moving with a velocity, in a magnetic field, then differential force acting on a charge is given by    Here, are volume charge density, volume, length, current density, and current of a conductor.    "
 },
 {
-  "id": "p-408",
+  "id": "p-409",
   "level": "2",
-  "url": "subsec-ilb.html#p-408",
+  "url": "subsec-ilb.html#p-409",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1954,9 +1954,9 @@ var ptx_lunr_docs = [
   "body": " Magnetic Dipole Moment of a Current Loop   If a current is flowing in a loop of surface area A as shown in , then the magnetic dipole moment is given by  Right hand grip rule.                It is vector quantity and its direction is given by right hand thumb (grip) rule as shown in . If there are N number of turns in a loop then Its unit is or     Solenoid      A solenoid [ ] is a tightly wound helical coil of wire whose diameter is small compared to its length. The magnetic field generated inside the current carrying solenoid is essentially uniform, and is directed along the axis of the solenoid. Outside the solenoid, the magnetic field is very weak. The winding of wire is sufficiently tight that each turn of the solenoid is well approximated as a circular wire loop, lying in the plane perpendicular to the axis of the solenoid, which carries a current I. If a solenoid of length l has total number of turns N then the magnetic field (i.e. total magnetic moments) along the axis of a solenoid is given by .   "
 },
 {
-  "id": "p-410",
+  "id": "p-411",
   "level": "2",
-  "url": "subsec-IA.html#p-410",
+  "url": "subsec-IA.html#p-411",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2080,9 +2080,9 @@ var ptx_lunr_docs = [
   "body": " Magnetic Field of a Moving Charge:         Permeability of Free Space,  The property of space which permit magnetic flux to pass through it is known as permeability. It is a measure of relative increase or decrease in the resultant magnetic field inside a material compared with the magnetizing field H in which the given material is located. It is a constant of proportionality that exists between magnetic induction (magnetic flux density) B and magnetic field intensity (magnetizing field) H. For free space   Materials may be classified magnetically on the basis of their permeabilities. Materials that cause the lines of flux to move farther apart, resulting in a decrease in magnetic flux density compared with a vacuum, are called diamagnetic . Materials that concentrate magnetic flux by a factor of more than 1 but less than or equal to 10 are called paramagnetic ; materials that concentrate the flux by a factor of more than 10 are called ferromagnetic . The permeability factors of some substances change with rising or falling temperature, or with the intensity of the applied magnetic field. Permeability is often expressed in relative, rather than in absolute, terms. If be the permeability of free space, be the permeability of the given substance, then the relative permeability, , is given by:     Magnetic Field of a Current Element (Biot Savart Law)        Magnetic Field of a straight wire                   Consider a current carrying straight conductor of length 2a. To find a magnetic field at a point P from the conductor consider a small current element on a conductor and use Biot-Savart's law, The direction of magnetic field at P is given by right hand grip rule which is going into the plane of the paper. is unit vector along and is angle between current element and line joining the current element to point P.    Now solve the integrand first with the help of geometry of the figure then substitute the value to obtain B.              When (ie., for infinitely long wire) then , hence     When then , hence       Magnetic field due to a current loop   on axis of Coil with N turns. at center of Coil with N turns. Magnetic field at a point P due to a current element is given by From Biot-Savart's law and is directed normal to the plane subtends by and . angle between and is        Due to symmetry of current along the ring y components of field cancel out but x component survived, hence     If number of turns in a circular loop is N, then along the x-axis.  Magnetic field at the center (ie., x=0) of a current carrying loop is     Magnetic field at the center of a Helmholtz coil  Helmholtz coils consist of two similar co-axial coils A and B having same radius, same number of turns, and placed parallel to each other at a distance equal to their radii as shown in . When the coils are connected in such a way that the current flows through the coils in the same direction, then Helmholtz coils produce nearly uniform magnetic field over a considerable region between the coils.      Magnetic field at the axial point at a distance x from the center of the coil of radius a, number of turns N, and carrying current I is given by along x-axis.  The rate of variation of magnetic field B along x-axis is given by   For uniform variation of , must be constant and must be zero. Hence,    Thus, the rate of variation of magnetic field is constant at distance from the center of the coil. Therefore on either side of point P, the field due to one coil decreases uniformly, while that due to another is increases uniformly. Since both the coils are identical and carry the same amount of current in same direction the decrease in field due to one coil is balanced by the increase in field by another one. Hence overall magnetic field remains uniform over a considerable region on either side of the point P. The resultant magnetic field B between the region of coils are obtained by substituting the value of in eqn. . We have       Magnetic field at a point due to current carrying solenoid  Solenoid is a long wire wound in a closed-packed helix which behaves as a magnet when carrying an electric current. Magnetic field is directed along the axis of solenoid and can be determined by right hand grip rule [ ].  Consider a solenoid of radius a, number of turns per unit length n and a length of current element so that total number of turns in strip ABCD is . If current I is flowing through a solenoid then the field at point P due to current element is given by       from eqn.  From           For an infinitely long solenoid, Hence, If point P is at the end of a solenoid, Hence, Thus for a long solenoid the magnetic field at the ends is half of that at the middle of the solenoid.   "
 },
 {
-  "id": "p-439",
+  "id": "p-440",
   "level": "2",
-  "url": "subsec-magfld_movcharge.html#p-439",
+  "url": "subsec-magfld_movcharge.html#p-440",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2332,9 +2332,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-504",
+  "id": "p-505",
   "level": "2",
-  "url": "subsec-induced_elf.html#p-504",
+  "url": "subsec-induced_elf.html#p-505",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2350,27 +2350,27 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-513",
-  "level": "2",
-  "url": "subsec-induced_elf.html#p-513",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Emf of Moving Conductor: "
-},
-{
   "id": "p-514",
   "level": "2",
   "url": "subsec-induced_elf.html#p-514",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Induced Electric Field: "
+  "body": "Emf of Moving Conductor: "
 },
 {
   "id": "p-515",
   "level": "2",
   "url": "subsec-induced_elf.html#p-515",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Induced Electric Field: "
+},
+{
+  "id": "p-516",
+  "level": "2",
+  "url": "subsec-induced_elf.html#p-516",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2413,9 +2413,9 @@ var ptx_lunr_docs = [
   "body": " R-L Circuit      Rise of current Consider a circuit containing an inductor of self-inductance L, resistance R, and a battery of constant emf E is connected with the switch s. As soon as the switch is connected to the battery current begins to flow and magnetic flux is linked with the coil. As a result a self induced emf is set up in the coil which opposes the rise of current in the circuit. Hence the current does not attain its final steady value instantaneously.                  Integrating, we get -          From this equation it is clear that the current in the circuit rises according to an exponential law. The quantity L\/R is known as the time constant of L-R circuit. If L is in Henry and R is in ohms then will be in second. If t=L\/R, then i.e., the time constant of L-R circuit is the current rises to nearly two third of its maximum steady value.     Decay of current When the switch is disconnected from point 1 and connected to point 2 then the current begins to decays through the resistance R from maximum its value to zero. During the decay, the flux linked with the coil changes which induced an emf in the coil to oppose this decay. Hence current takes some time to reach to zero.  From the circuit, we have       i.e., current decays exponentially. After time constant L\/R, Hence time constant is the time in which current in the R-L circuit falls to of its maximum value when the emf of the circuit is removed.     "
 },
 {
-  "id": "p-527",
+  "id": "p-528",
   "level": "2",
-  "url": "subsec-rlc.html#p-527",
+  "url": "subsec-rlc.html#p-528",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2458,9 +2458,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-537",
+  "id": "p-538",
   "level": "2",
-  "url": "subsec-lcr.html#p-537",
+  "url": "subsec-lcr.html#p-538",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2575,18 +2575,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-587",
+  "id": "p-588",
   "level": "2",
-  "url": "subsec-complex_number.html#p-587",
+  "url": "subsec-complex_number.html#p-588",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "phasors phasor diagrams "
 },
 {
-  "id": "p-588",
+  "id": "p-589",
   "level": "2",
-  "url": "subsec-complex_number.html#p-588",
+  "url": "subsec-complex_number.html#p-589",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2629,9 +2629,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-601",
+  "id": "p-602",
   "level": "2",
-  "url": "subsec-complex_number.html#p-601",
+  "url": "subsec-complex_number.html#p-602",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2710,9 +2710,9 @@ var ptx_lunr_docs = [
   "body": " Transformer    Schematic     Step Up     Step Down     in circuit     "
 },
 {
-  "id": "p-614",
+  "id": "p-615",
   "level": "2",
-  "url": "subsec-transformer.html#p-614",
+  "url": "subsec-transformer.html#p-615",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3268,9 +3268,9 @@ var ptx_lunr_docs = [
   "body": " Free End Pulse Overlapping    Incident Pulse     Reflected Pulse     Amplitude Doubled     "
 },
 {
-  "id": "p-733",
+  "id": "p-734",
   "level": "2",
-  "url": "subsec-interferMW.html#p-733",
+  "url": "subsec-interferMW.html#p-734",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3295,9 +3295,9 @@ var ptx_lunr_docs = [
   "body": " Superposition of two waves    in same phase     Double amplitude     in oppsite phase     Zero amplitude     "
 },
 {
-  "id": "p-735",
+  "id": "p-736",
   "level": "2",
-  "url": "subsec-super_princple.html#p-735",
+  "url": "subsec-super_princple.html#p-736",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3322,9 +3322,9 @@ var ptx_lunr_docs = [
   "body": " Standing Waves (or stationary waves):    stationary waves A wave which appears stand still and does not seem to be moving is called a standing wave. It is a pattern of waves rather than wave itself. When two (or more) progressive waves of same frequency travel in a same medium in opposite directions overlap in such a way that the position of medium particles seem stand still at the same point is know as a standing wave. It is a superposition of progressive wave with its own reflection. There is no onward motion of the disturbance as no particle transfers its motion to the next. Since the waves seem stand still the position of medium particles form a pattern of nodes and antinodes. The point in a medium where amplitude of oscillation is zero is called nodes . The point in a medium where oscillations reach to their maximum value is called antinodes . All points on the string oscillate at the same frequency but with different amplitudes. Standing wave is one of the normal modes of vibrations of stretched string.   Standing wave    The wave function of standing wave can be found as  From the principle of superposition the resultant wave is   See Appendix for trigonometric identities and .     The term describes the sinusoidal shape of the wave pattern and the term describes the flip-flop (up-down oscillatory) motion of each wave segment. This is no longer a progressive wave equation as position and time dependence of the wave equation have been separated from each other. The term defines the amplitude of a wave at a given location and the term defines the variation in displacement of a medium particle with time, t.    Position of nodes and antinodes  Since the amplitude of standing wave is zero we can set in eqn. as      Since the displacement of particles are maximum at antinodes in standing wave we can set in eqn. as     "
 },
 {
-  "id": "p-737",
+  "id": "p-738",
   "level": "2",
-  "url": "subsec-stand_wave.html#p-737",
+  "url": "subsec-stand_wave.html#p-738",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3367,9 +3367,9 @@ var ptx_lunr_docs = [
   "body": " Organ Pipe  It is a musical instrument which produces standing waves if the vibration is set up at one end of the pipe. Vibration set up at one end get reflected back from the other end and once they overlap standing wave pattern produced with a melodious sound. There are two types of organ pipe.      Open Pipe: An organ pipe which is open at its both ends is an open organ pipe. Flute, Trumpet, etc. are open organ pipes. Consider an open pipe of length, L whose both ends are open. When vibration is set at one end it reflects from the other end and produces standing waves of fundamental frequency as shown in .   Stretched String    Fundamental Frequency ( Harmonics)     Harmonics (I Overtones)     Harmonics (II Overtones)                  Hence the normal modes of vibration of an open pipe is given by      Closed Pipe: An organ pipe which is open at its one ends and closed at another is a closed organ pipe. Clarinet, whistle, bottle, etc. are closed organ pipes. Consider a closed pipe of length, L whose one end is open and another is closed. When vibration is set at open end it reflects from the other end and produces standing waves of fundamental frequency as shown in .   Stretched String    Fundamental Frequency ( Harmonics)     Harmonics (I Overtones)     Harmonics (II Overtones)                 Hence the normal modes of vibration of a closed pipe is given by It is observed that in case of closed pipe frequency of higher modes of vibration is odd multiples of fundamental frequency. Even harmonics are missing in this case hence sound quality is poor.     "
 },
 {
-  "id": "p-752",
+  "id": "p-753",
   "level": "2",
-  "url": "subsec-organ_pipe.html#p-752",
+  "url": "subsec-organ_pipe.html#p-753",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3394,9 +3394,9 @@ var ptx_lunr_docs = [
   "body": " Beats  The phenomenon of producing a maximum loudness periodically when two sound waves of same amplitude and slightly different frequencies are superimposed is known as beats . The frequency of the beats depends upon the difference in frequency of the two waves. If the frequency difference is larger than 20 Hz, a tone is usually perceived separately rather than distinct beats. Beat frequency is given by where and are frequencies of the two waves. When two such waves superimpose there is a variation in amplitude of resulting wave which causes the change in loudness and hence the beats are produced.      Two waves of different frequency     Superposition of two waves      Consider two waves are interfering to each other, then the resultant wave is given by    where is the average of and and is one half of their difference. The amplitude factor varies slowly with . The frequency of this second term is , but the ear cannot hear the inversion of phase that occurs when phase is negative and the difference is small. This term is responsible for the beating effect, and is known as an envelope. The sine factor varies with a frequency There are two times that the envelope (cosine term) passes through zero for every wavelength, so the beat frequency is twice the frequency of the envelope and is given by the magnitude of the difference of the two frequencies, i.e., beat frequency   "
 },
 {
-  "id": "p-770",
+  "id": "p-771",
   "level": "2",
-  "url": "subsec-beatsf.html#p-770",
+  "url": "subsec-beatsf.html#p-771",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3421,9 +3421,9 @@ var ptx_lunr_docs = [
   "body": " Doppler Effect   The Doppler effect is the change in perceived frequency of a source due to the relative motion between the source and the receiver. It applies to all sorts of waves. Doppler effect can be experienced as the change in frequency or pitch received when an ambulance passes by. When the ambulence is approaching, the pitch of siren is getting higher than the actual frequency of siren. When the ambulence passes by, the frequency sounds the same as the actual emitted frequency and when the ambulance is moving away, the pitch is getting lower than the actual emitted frequency. When the source of the waves is coming towards the observer, observer receives more waves every second compared to being at rest. That is waves bunch together for the observer giving impression for the decrease of wavelength and causing an increase in the frequency. Conversely, if the source of waves is going away from the observer, observer receives less waves every second compared to being at rest. That is waves spread out for the observer giving impression for the increase of wavelength and causing a decrease in the frequency as shown in . Since the velocity of sound is comparable to the listener's velocity and it propagates only in medium, Doppler effect may be the consequence of motion of the source, motion of the observer, or motion of the medium. Each of these effects is analyzed separately. For waves which do not require a medium such as light, only the relative velocity between the observer and the source needs to be considered.      Stationary Source and Listners     Source towards Listner      As source of sound moves there is a change in wavelength perceived by the listener and if listener moves there is a change relative velocity of the sound can be measured by the listener. Hence the frequency (or pitch, ) of sound perceived by the listner can be determined by where and are the relative velocity of sound and effective wavelength of sound wave for the listner.    Stationary source and listener  If source and listener both are at rest then there is no change in pitch i.e., here , v and are the frequency, velocity, and wavelength of sound wave, respectively.    Source is moving towards stationary listener  If source is moving towards listener with a velocity then listener receives more waves everysecond causes decrease in wavelength. Hence pitch of sound heard by the listener is given by  When source is moving towards the listener wavelength squeezed by for every cycle of wave. Here T is a time period of the wave.    Source is moving away from stationary listner  If source is moving away from the listener wavelength stretched out by for every cycle of wave. Hence pitch is given by     Listener is moving towards a stationary source  If listener is moving towards a stationary source of sound with a velocity then the relative velocity of sound is changed for the listener. Hence pitch of sound heard by the listener is given by  The direction of sound velocity is taken as positive and hence if listener is moving towards the source then the relative velocity increased.    Listener is moving away from a stationary source  If listener is moving away from a stationary source of sound with a velocity then the relative velocity of sound for the listener is . Hence pitch of sound heard by the listener is given by     Source and listener move towards each other  In ths case pitch is given by      Source and listener move away from each other  In ths case pitch is given by      Sign Rules for Doppler Effect:        Remember: If a source is going away from a listener then denominator has to increase (i.e. ) to lower the pitch. If a source is coming towards a listener then denominator has to decrease (i.e. ) to raise the pitch.   "
 },
 {
-  "id": "p-772",
+  "id": "p-773",
   "level": "2",
-  "url": "subsec-dopplerefct.html#p-772",
+  "url": "subsec-dopplerefct.html#p-773",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3466,9 +3466,9 @@ var ptx_lunr_docs = [
   "body": "    source at rest     subsonic     sonic     supersonic     "
 },
 {
-  "id": "p-784",
+  "id": "p-785",
   "level": "2",
-  "url": "subsec-sonic_boom.html#p-784",
+  "url": "subsec-sonic_boom.html#p-785",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3844,9 +3844,9 @@ var ptx_lunr_docs = [
   "body": " Speed of Light  Before century, velocity of light was thought to be infinite because of the fact that the flash of lightening is seen instantly and the sound is heard after some time. According to Newton a luminous object continuously emits streams of particles, called corpuscles . Corpuscles are tiny, light, and elastic in nature which travel in a straight line with very high velocities and can pass through interstices of the particles of matter and posses the property of reflection and transmission. The first unsuccessful attempt to find the velocity of light was made by Galileo in 1600. In 1679, Christian Huygens proposed the wave nature of light. In 1873 James Clerk Maxwell predicted the electromagnetic waves and calculated speed of light in vacuum by using formula where is electric permitivitty and is magnetic permeability of vacuum.  "
 },
 {
-  "id": "p-849",
+  "id": "p-850",
   "level": "2",
-  "url": "subsec-speed_light.html#p-849",
+  "url": "subsec-speed_light.html#p-850",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3871,9 +3871,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-851",
+  "id": "p-852",
   "level": "2",
-  "url": "subsec-huygens.html#p-851",
+  "url": "subsec-huygens.html#p-852",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3907,9 +3907,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-861",
+  "id": "p-862",
   "level": "2",
-  "url": "subsec-refl.html#p-861",
+  "url": "subsec-refl.html#p-862",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3925,9 +3925,9 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-864",
+  "id": "p-865",
   "level": "2",
-  "url": "subsec-refl.html#p-864",
+  "url": "subsec-refl.html#p-865",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3952,9 +3952,9 @@ var ptx_lunr_docs = [
   "body": " Spherical Mirror   Spherical mirror is a part of spherical surface which is polished in such a way that one of its side becomes reflecting surface. If the exterior of a curvature of hollow sphere is coated in such a way that the interior (or cave part) of the surface behaves as reflecting surface then it is called a concave mirror . If the interior of the sphere is coated in such a way that the exterior (or vex part) behaves as a reflecting surface then it is called a convex mirror as shown in .                   The center of a sphere of which a mirror is a part is called a center of curvature, C . An imaginary line passing through the center of curvature of a spherical mirror is called the principal axis or optical axis of the mirror. Principle axis is a symmetrical line of the mirror. The point on the surface of mirror through which a principle axis is passing is called a pole, P or vertex of the mirror. The radius of a sphere of which a mirror is a part is called the radius of curvature, R of the mirror. Radius of curvature is a distance between pole of the mirror to the center of curvature of the mirror.                   The point on the principle axis through which the reflected rays of all the incident rays prallel to the principle axis must pass or appear to diverge from is called a focus, F and the distance between the pole and the focus is called a focal length, f of the mirror as shown in and . The size of the mirror is called the aperture of the mirror. If the aperture of a mirror is small then reflected rays of any beam parallel to the principle axis either must pass through or appear to diverge from the focus of the the mirror. In the case of a mirror of large aperture these reflected rays fail to meet at a single focus point, such inability of a mirror to focus all the reflected rays of a parallel incident beam at a single point is called geometrical or spherical aberration of the mirror. The light rays that lie close to the principal axis are called paraxial rays and they only able to meet at a single focus after reflection from the mirror. The rays that lie far from the principal axis are called marginal rays and after reflection they cross the principle axis before focus point. Hence, the reflection of large beam of light from the spherical mirror of large aperture creates a curved shape of light called a caustic curve as shown in . The cusp of caustic curves lie at the focus of the mirror. Spherical aberration can be minimized by using a mirror of small aperture which is smaller compared to its radius of curvature. Parabolic mirror will also minimize such spherical aberration.    Relation between f and R    Consider a concave mirror of small aperture and the incoming parallel ray is close to the principal axis so that angle of incidence i is small. Hence and are approximately right angled triangles with the same opposite side AB.      From   an alternate angle.] but from  exterior angle is sum of non-adjacent interior angles and law of reflection.    Similarly, we can obtain the relation for convex mirror as .    Sign Rules: Since focus and center of curvature lie behind the convex mirror the following sign conventions will be helpful in analyzing the nature of image formation by the spherical mirrors.  All distance will be measured from pole of the mirror;  Radius of curvature and focal length of concave mirror are assumed to be positive and that for convex mirror are negative; and  Distance for real object or real image is taken as positive and that for imaginary object or image is taken as negative.     Note: The distance between object and pole of the mirror is called object distance and that between image and pole of the mirror is called image distance .     Mirror Formula  An expression which shows the relation between object distance, image distance, and focal length of a mirror is called the mirror formula. To derive the formula following assumptions will be made. The aperture of the mirror is small and the object should be placed on the principal axis.               Let an object AB is placed on the principle axis as shown in . Consider a ray of light BM incident on the mirror parallel to the principle axis and after reflection passes through the focus F and goes along FB'. Another ray from B passes through the focus F, incident on the mirror at N and after reflection meets FB' at B'. So that A'B' is the real image of the object AB. Draw perpendicular from points M and N on the principle axis. Now, from similar and  In similar triangles the ratio of corresponding sides are equal.   here and are size of object, size of image, object distance, and image distance, respectively. Again, from similar and   From eqns. and , we get -  Divide both sides by , we get - We can obtain the similar formula for convex mirror with the help of . From similar and  From similar and   Substituting and solving the above expression, we get -     Lateral Magnification, m  The ratio of the size of image to the size of object is known as a magnification, Negative sign indicates inverted image.    Formation of Image by a Concave Mirror      When object lies at infinity: Consider a parallel beam of light coming from an object O at infinity incident on the mirror and after reflection converges on a focal plane to form an image I as shown in . The image is formed at focus and will be real, inverted, and point in size. Using mirror formula, if then , hence real, point in size, (as ) and inverted.         When object lies beyond center of curvature: Consider a ray of light BM is incident on the mirror parallel to the principle axis then after reflection it passes through F along MB'. Another ray BN incident on the mirror through F and meet to MB' at B' to form an image AB' as shown in . From geometry of the figure the image is formed between focus and center of curvature, inverted, real, and smaller in size.         When object lies at center of curvature: From geometry of the , the image is formed at C, inverted, real, and equal in size. Mirror formula . If , and .         When object lies between F and C: From geometry of the , the image is formed beyond C, inverted, real, and magnified.         When object lies at F: From geometry of the , the image is formed at infinity, inverted, real, and highly magnified.         When object lies between F and P: From geometry of the , the image is formed behind the mirror, erect, virtual, and magnified.           Formation of Image by a Convex Mirror      When object lies at infinity: From geometry of the , the image is formed behind the mirror at F, erect, virtual, and highly diminished.         When object lies on the Principle axis: From geometry of the , the image is formed behind the mirror between F and P, erect, virtual, and diminished.          "
 },
 {
-  "id": "p-868",
+  "id": "p-869",
   "level": "2",
-  "url": "subsec-sp_mir.html#p-868",
+  "url": "subsec-sp_mir.html#p-869",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3970,9 +3970,9 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-869",
+  "id": "p-870",
   "level": "2",
-  "url": "subsec-sp_mir.html#p-869",
+  "url": "subsec-sp_mir.html#p-870",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3988,9 +3988,9 @@ var ptx_lunr_docs = [
   "body": "                "
 },
 {
-  "id": "p-870",
+  "id": "p-871",
   "level": "2",
-  "url": "subsec-sp_mir.html#p-870",
+  "url": "subsec-sp_mir.html#p-871",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4024,18 +4024,18 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-880",
+  "id": "p-881",
   "level": "2",
-  "url": "subsec-sp_mir.html#p-880",
+  "url": "subsec-sp_mir.html#p-881",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "When object lies at infinity: When object lies beyond center of curvature: When object lies at center of curvature: When object lies between F and C: When object lies at F: When object lies between F and P: "
 },
 {
-  "id": "p-887",
+  "id": "p-888",
   "level": "2",
-  "url": "subsec-sp_mir.html#p-887",
+  "url": "subsec-sp_mir.html#p-888",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4051,9 +4051,9 @@ var ptx_lunr_docs = [
   "body": " Refraction   The phenomenon of bending of light ray as it goes from one medium to another is called a refraction. The velocity of light depends on the medium it is propagating which causes the refraction. The measure of an obstacle that a medium imposes on the velocity of light is known as refractive index of that medium. Hence the light ray bend as it goes from a medium of lower refractive index to the higher one or vice a versa.      If c is a velocity of light in a vacuum and v is the velocity of light in a given medium then the refractive index of this medium is defined as Medium with higher refractive index is known as optically denser medium and that with lower refractive index is known as optically rare medium .   Note: Optically denser and rare has nothing to do with the density of the medium which is sometimes misunderstood. However, refractive index of a medium is proportional to the density of that medium. As the temperature increases the density of the medium decreases generally and so is its refractive index. For example, water has density of and refractive index of whereas isopropyle alcohol has density of and refractive index of it means light bend more in alcohol then in water. The refractive index of vacuum is 1 and that for air is 1.0003 hence they are taken as same. When a ray is incident on the surface separating two media it either bends towards or away from the normal at the point of incidence. If light goes from rare to denser it bends towards the normal and if it goes from denser to rare it bends away from the normal. The angle between initial direction of light to the final direction in the second medium is known as angle of deviation, .   Refraction of a plane wavefront at a plane surface:   Let MN be the surface separating two media a and b having refracting indices of and ,respectively as shown in . Let velocity of light in medium a is and medium b is where . Consider a plane wavefront APB is coming to incident on plane MN. By the time the disturbance at B reaches to C, the secondary waves from A must have traveled a distance where t is the time taken by the waves to travel the distance BC. As velocity of light is less in medium b, the refracted wavefront is given by the tangent CD drawn at point D, where AD is a radius of sphere centered at point A. The line CD happens to be an envelop of all the secondary wavelets of wavefront APB coming from medium a to medium b.      From the and  Similarly, from and    From eqns. and , we get -  Hence, if AD is the radius of the secondary wavefront for the point A, then QS is the radius of the secondary wavefront for the point Q. Let i and r be the angles of incidence and refraction, respectively then from and    From the definition of rare and denser medium, . This is the Snell's law.  If then that is the refracted ray bent towards the normal. If then that is the refracted ray bent away from the normal.    Laws of Refraction  The laws of refraction state that  The incident ray, the normal at the point of incidence, and the refracted ray are coplanar;  The ratio of sine of the angles of incidence to the sine of angle of refraction is equal to the ratio of refractive indices of the second and first medium, i.e.   where and are absolute refractive index of first and second medium, respectively. An absolute refractive index is the measure of refractive index of the medium with respect to air or vacuum. is read as refractive index of a second medium with respect to the first.  The second law is also known as Snell's law , which is     Real and Apparent Depth   A plane interface between two transparent media is a special surface of spherical refracting surface with infinite radius of curvature. When objects are seen under a transparent medium like water they appear closer than they really are. This is the effect of refraction and hence it is used to determine the refractive index of the transparent medium. The refraction produces a virtual image of an object above its real position.      Suppose an object O is lying at a depth t below an optically denser medium such as water. A ray of light OC is incident on interface normally and passes along CD without any deviation. Another ray of light OA incident at an on the interface and refracted along AE at an . For a small aperture of eye points A and C are very close to each other and once the rays AE and CD reach to the eye then object appears at point I which is a virtual image of object O. Here in , the rays AE and BF are constituting the virtual image $I$ of the object O. Actually in geometrical optics, to see an image of any object at least two rays emanating from the object after reflection or refraction must reach to the oberserver's eye.  From , alternating angles and , corresponding angles. Therefore from Snell's law  where is absolute refractive index of water (denser medium) and is absolute refractive index of air (rare medium). Since the aperture of eye is very small points A and C are considered very close to each other and hence and are very small, i.e., and .    Hence the apparent shift, d of the object to be appered is given by where is the real depth of the object and is a refractive index of medium b with respect to medium a.   Apparent shift under a number of transparent media:       When an object lies under a number of transparent media [ ] then its apparent shift can be determined by Where and are the apparent shift of the object in a medium of refractive index and , respectively.    Lateral Shift  When a ray of light is incident obliquely on a parallel sided transparent medium such as glass slab, then the emergent ray shifts laterally. The perpendicular distance between the direction of the incident ray and the emergent ray is called a lateral shift .      In the given figure, d is a lateral shift, BD is an emergent ray, and is a thickness of the glass slab. From ,   But from ,   Hence from eqns. and , we get -     Principle of Reversibility of Light      The principle of reversibility of light states that if the path of light is reversed even after suffering from the number of reflections and refractions, it retraces its original path.  From the principle of reversibility -  Multiplying them we get-    "
 },
 {
-  "id": "p-890",
+  "id": "p-891",
   "level": "2",
-  "url": "subsec-refraction.html#p-890",
+  "url": "subsec-refraction.html#p-891",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4069,18 +4069,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-891",
+  "id": "p-892",
   "level": "2",
-  "url": "subsec-refraction.html#p-891",
+  "url": "subsec-refraction.html#p-892",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "denser medium rare medium "
 },
 {
-  "id": "p-893",
+  "id": "p-894",
   "level": "2",
-  "url": "subsec-refraction.html#p-893",
+  "url": "subsec-refraction.html#p-894",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4096,9 +4096,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-900",
+  "id": "p-901",
   "level": "2",
-  "url": "subsec-refraction.html#p-900",
+  "url": "subsec-refraction.html#p-901",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4114,9 +4114,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-905",
+  "id": "p-906",
   "level": "2",
-  "url": "subsec-refraction.html#p-905",
+  "url": "subsec-refraction.html#p-906",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4132,9 +4132,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-907",
+  "id": "p-908",
   "level": "2",
-  "url": "subsec-refraction.html#p-907",
+  "url": "subsec-refraction.html#p-908",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4168,9 +4168,9 @@ var ptx_lunr_docs = [
   "body": " Total Internal Reflection   When a ray of light passes from an optically denser medium to the rare medium it bends away from the normal. If the angle of incidence in this case is increased gradually then at particular angle of incidence the refracted ray starts grazing on the surface separating two media i.e., angle of refraction becomes . The angle of incidence at that condition is called a critical angle, c . If the angle of incidence is further increased above the critical angle then the light ray returns into the same denser medium, such phenomenon is called the total internal reflection . Since the reflection happen at a very top thin surface of interface and it is assumed that there is no loss of energy in the form of transmission or absorption, hence the name total internal reflection. Starting from angle of incidence angle of refraction as i increases r also increases if the ray of light is going from denser to a rare medium as shown in . When (the critical angle) then the angle of refraction, . Hence from Snell's law          Now once the the refracted ray disappears and appears as a reflected ray in the same medium, b and obeys all the laws of reflection.  This phenomenon is very useful in sending the light signal through an optical fiber, and changing the direction of ray of light using prism. Rainbow, mirage, and sparkling of diamond can be possible due to total internal reflection.    Mirage  It is an optical illusion which gives the deceptive appearance of image of a distant object as it is formed in a pool of water. Mirage is caused by refraction of the light rays in layers of air of varying density. In a hot summer day in a desert or on a highway layers of varying density of air is formed because of heat. Layer of air near the surface of earth is hotter than it is above the surface of earth.                   Colder air above the earth behaves as a denser medium and hotter air near the earth surface behaves as rare medium. Now when a light ray coming from a tall distant object passes through a denser to a rare medium keep bending away from normal and when angle of incidence becomes greater than the critical angle it gets total internal reflection. When this ray falls on the observer's eye it appears to come from an inverted image of that tall object which deceives the observer's that there may be a puddle of water near the tall object as shown in .  On the other hand, in a cold winter days near the sea-shore an inverted or upright image of an object such as a boat can be seen hanging in the sky. This is all because of the bending of light. When the virtual image of an object over a body of water, due to a cool, dense layers of air is seen then it is called a looming as shown in . Thus, an object like a boat below the horizon which is not visible directly, will be seen apparently lifted into the sky.  When a strong inversion layer extends upwards from the surface of a body of water an enhanced bending of light happen and an object appears to be suspended in the air. On the other hand, when the bottom of the inversion layer is some distance above the water and the observer is slightly below the inversion layer as shown in , the observer sees the object hanging inverted in the sky called superior mirage .   "
 },
 {
-  "id": "p-910",
+  "id": "p-911",
   "level": "2",
-  "url": "subsec-tir.html#p-910",
+  "url": "subsec-tir.html#p-911",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4222,9 +4222,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-922",
+  "id": "p-923",
   "level": "2",
-  "url": "subsec-prism_ref.html#p-922",
+  "url": "subsec-prism_ref.html#p-923",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4267,9 +4267,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-926",
+  "id": "p-927",
   "level": "2",
-  "url": "subsec-srs_img.html#p-926",
+  "url": "subsec-srs_img.html#p-927",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4285,9 +4285,9 @@ var ptx_lunr_docs = [
   "body": " Thin Lenses   A lens is a part of solid spherical refracting surfaces. If its thickness is very thin it is called a thin lens. It is mainly of two types, concave lens and convex lens. The property of lens depends upon its shape and the type of material it is made up off. The lens which consists of two inward curved surfaces is known as concave lens and that which consists of two outward bulged surfaces is known as convex lens . However the combination of types of surfaces gives a lens different shapes. In are biconvex lens, plano-convex lens, concavo-convex lens, biconcave lens, plano-concavelens, and convexo-concave lens, respectively. Convex lenses are thicker at the middle and thinner at the edges and concave lenses are thinner at the middle and thicker at the edges.                               Anatomy of lenses are shown in . An imaginary line that bisects the symmetrical lens into two halves is known as vertical axis . The center of sphere of which a surface of lens is a part is known as center of curvature . There are two faces in a lens so it has two centers of curvature, . An imaginary straight line that is passing through the geometrical centre of a lens and joining the two centres of curvature of its surfaces is known as optical axis or principle axis. The light ray passing along this axis is perpendicular to the surfaces and will not deviate. All other rays passing through a lens and its optical center are called secondary axes. The geometric center of a lens is called an optical center of lens. The light ray passing through the optical center will never deviate.               The beam of light incident parallel to the principal axis will converge when passing through a convex lens, and diverge when passing through a concave lens. Since the convex lens converges the incident light rays it is also known as converging lens and the concave lens diverges the incident light rays it is also known as diverging lens ( and ). In a lens it is convenient to take 2F points on the principle axis on both sides of the lens to draw ray diagram. It is just double the focal length of the lens but not the center of curvature.               The point on the principle axis where the incident light rays parallel to the principle axis after refraction from the lens will converge on or appear to diverge from is known as focus or focal point of a lens. Two foci exist in a lens, equidistant on either side of the lens, since light behaves the same way when traveling in either direction (Principle of Reversibility). The two foci, and are called the primary principal focus and the secondary principal focus, respectively. An imaginary plane that is perpendicular to the principal axis at the focal point is known as focal plane . The size of a lens is known as aperture . The distance between the optical center, O to the center of curvature is known as radius of curvature, R and the distance between optical center, O to the focal point of a lens is known as focal length, f . The focal length, f is taken as positive for a converging lens and negative for a diverging lens. The radius of curvature, R is positive for convex surface and negative for concave surface. The shape of surface can be defined from which surface is the light incident.               A lens can be thought of as made up of a number of truncated prisms of varying refracting angle pile on top of each other on both sides. The refracting angle of a prism at the middle portion is infinite hence it behaves like a simple glass slab. The refracting angles of the prisms above or below the middle section of the lens gradually increase positively for convex lens and negatively for concave lens as shown in and . Since the prism bends the ray of light towards its base light converges in convex lens and diverges in concave lens after passing through the lens.    Lens Formula  Ray diagrams provide the nature of the image formed by the lens for an object placed at different distances from the lens but it can not provide the numerical information about image distance and its size. Hence the lens formula is very useful in determining the numerical relationship between the object distance, s, the image distance, s', and the focal length, f of a lens. From right angled and [ and ],                   Here y, y', s, s' are size of object, size of image, object distance, and image distance, respectively. Now from right angled and , we have -    From eqns. and , we get - Dividing by ss'f on both sides, we get- Which is a lens formula. The lateral magnification produced by the lens is given by -ve sign indicates an inverted image.  The following sign conventions are used for lens formula. All the distances are measured from the optical center of a lens. The distance for real object or real image is taken as positive and the distance for virtual object or virtual image is taken as negative. The focal length and radius of curvature of a convex lens are taken as positive and that for concave lens are taken as negative.                Alternative: A thin lens is a combination of a number of thin prisms and as a refracting angle, A of a prism at the point of incidence of a ray in the lens is same, the angle of deviation is given as which is constant irrespective of the angle of incidence for a ray incident on the lens. Now suppose a ray is incident at a height, h on a lens and produce a deviation . Hence from a we have - Also from , For a thin lens, is small, hence are and .       Image formed by a convex lens      When object lies at infinity: When object lies at infinity rays of light coming from the object considered as parallel beam of light and must converge at the focal plane after refraction through the lens. Hence the image is formed at focal plane, will be real, inverted, and point in size ( ).         When object lies beyond 2F: The ray parallel to the principle axis after refraction from the lens passes through the point F and the ray passes through the optical center goes without deviation. When both these refracted rays meet each other image is formed. Hence, the image is formed between F and 2F on the other side of the lens, will be real, inverted, and smaller in size ( ).         When object lies at 2F: The image is formed at 2F on the other side of the lens, will be real, inverted, and equal in size ( ).         When object lies between F and 2F: The image is formed beyond 2F on the other side of the lens, will be real, inverted, and larger in size ( ).         When object lies at F: The image is formed at infinity on the other side of the lens, will be real, inverted, and highly magnified ( ).         When object lies between focus, F and optical center, C: The image is formed at the same side of the object, will be virtual, errect, and magnified ( ).           Image formed by a concave lens   When object lies at principle axis: The image is formed between F and C at the same side of the object, will be virtual, errect, and diminished ( ).       "
 },
 {
-  "id": "p-927",
+  "id": "p-928",
   "level": "2",
-  "url": "subsec-thin_lens.html#p-927",
+  "url": "subsec-thin_lens.html#p-928",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4348,27 +4348,27 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-935",
-  "level": "2",
-  "url": "subsec-thin_lens.html#p-935",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Alternative: "
-},
-{
   "id": "p-936",
   "level": "2",
   "url": "subsec-thin_lens.html#p-936",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
+  "body": "Alternative: "
+},
+{
+  "id": "p-937",
+  "level": "2",
+  "url": "subsec-thin_lens.html#p-937",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
   "body": "When object lies at infinity: When object lies beyond 2F: When object lies at 2F: When object lies between F and 2F: When object lies at F: When object lies between focus, F and optical center, C: "
 },
 {
-  "id": "p-943",
+  "id": "p-944",
   "level": "2",
-  "url": "subsec-thin_lens.html#p-943",
+  "url": "subsec-thin_lens.html#p-944",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4411,9 +4411,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-953",
+  "id": "p-954",
   "level": "2",
-  "url": "subsec-lensmakers.html#p-953",
+  "url": "subsec-lensmakers.html#p-954",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4789,9 +4789,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1055",
+  "id": "p-1056",
   "level": "2",
-  "url": "subsec-opvision.html#p-1055",
+  "url": "subsec-opvision.html#p-1056",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4807,9 +4807,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-1056",
+  "id": "p-1057",
   "level": "2",
-  "url": "subsec-opvision.html#p-1056",
+  "url": "subsec-opvision.html#p-1057",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4843,9 +4843,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1065",
+  "id": "p-1066",
   "level": "2",
-  "url": "subsec-opvision.html#p-1065",
+  "url": "subsec-opvision.html#p-1066",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4879,18 +4879,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1075",
+  "id": "p-1076",
   "level": "2",
-  "url": "subsec-microscope.html#p-1075",
+  "url": "subsec-microscope.html#p-1076",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "eyepiece objective "
 },
 {
-  "id": "p-1076",
+  "id": "p-1077",
   "level": "2",
-  "url": "subsec-microscope.html#p-1076",
+  "url": "subsec-microscope.html#p-1077",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4996,9 +4996,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1111",
+  "id": "p-1112",
   "level": "2",
-  "url": "subsec-iil.html#p-1111",
+  "url": "subsec-iil.html#p-1112",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5122,9 +5122,9 @@ var ptx_lunr_docs = [
   "body": " Interference   When two or more waves interact simultaneously at any particle in a medium, the resultant displacement of the particle at that instant is given by the superposition of all these waves. After the superposition from the region of overlapping these waves emerge as if they have not interfered at all. Each wave retains its individual characteristics and behaves as if others were not there. This behavior is known as principle of superposition . The principle of superposition states that when two or more waves meet at a point, the total displacement is the vector sum of the displacements that each individual wave would cause at that point.      The phenomenon of overlapping of two or more waves at a point in space is called an interference . Suppose two waves of same amplitudes and frequencies superimpose on each other at a point (in same phase) in such a way that the crest of one falls on the crest of the other or the trough of one falls on the trough of the other then the amplitude of the particle is twice the amplitude of either of the waves. At these points, the waves reinforce with each other. If they superimpose in (opposite phase) such a way that the crest of one falls on the trough of the other then the amplitude is zero. At these points, the waves cancel out the displacement of the particle due to each other. It is possible that in some region of space the energy is more than the energy due to individual waves and in some other region, it is less than that due to individual waves. Hence, the phenomenon of redistribution of energy due to superposition of waves is also termed as interference . This redistribution of energy depends upon the frequency, amplitude, and the phases of individual waves. It should be remembered that there is no loss of energy due to interference. Since intensity is proportional to square of amplitude, the intensity at a maximum displacement is four times than the intensity due to one of the waves. The interference with maximum intensity or maximum amplitude is known as constructive interference and those with minimum intensity or minimum amplitude is known as destructive interference . The interference phenomenon was first demonstrated clearly in Young's experiment in 1802.  A sunlight is allowed to pass through a pinhole S and then at some distance away on two other pinholes and as shown in . and are equidistant from S and are very close to each other. When a spherical wavefront from S reaches to and it distributed into two separate wavefronts of identical in nature (Huygen's principle). When these wavefronts superimpose to each other on the screen dark and bright bands can be observed clearly. The point such as O on the screen is bright because the crest of one wave falls on the crest of another (or trough of one falls on the trough of the other). Hence they reinforce each other. The points such as P are dark because the crest of one wave falls on the trough of the other wave and they neutralize the effect of each other.    Coherent Sources  It is not possible to have interference due to two independent sources of light because they are not similar to each other and can not maintain a constant phase difference. To have a sustained interference the two waves must be coherent (i.e., they have same wavelength, amplitude, and in a constant phase difference), and must be moving nearly parallel to each other. Since the wavelength of light is extremely small (of the order of ), the two sources must be narrow and very close to each other.  Two wave sources are said to be coherent if they emit light waves of same frequency (i.e. same wavelength), same amplitude, and in a constant phase difference with each other. In practice, it is not possible to have two independent sources which are coherent. A source of light consists of a large number of atoms and light pulse is emitted when an electron from higher energy levels falls onto a lower energy levels in an excited atom. The emission of light pulse from various atoms is random and hence such light pulses do not have constant phase relationship.               For sustained interference the superposing waves must be in constant phase difference which can be achieved through the following two methods called wavefront division or amplitude division. In wavefront division very narrow slits are taken help to divide the wavefront and form two virtual sources. According to Huygens principle every points on a wavefront behave as secondary sources that are vibrating in phase. Therefore portions of wave front cut by holes (or slits) are coherent sources and waves emitted by them are also coherent as shown in .  In amplitude division coherent sources are formed by dividing the amplitude of wave by multiple reflection and refraction by a thin transparent film. A ray of light gets partly reflected as ray and partly refracted when incident on a thin transparent film. At the point of incidence the refracted ray is again partly reflected and emerges out from the upper surface as ray . At every stage of reflection and refraction the intensity of light decreases. Now, intensity is proportional to square of amplitude hence at each stage amplitude is divided. Since, both rays have been obtained from a single ray, they are coherent as shown in .    Phase Difference and Path Difference  If the path difference between the two waves is , the phase difference between them is . Therefore if the path difference is x, then their phase difference, would be given by    "
 },
 {
-  "id": "p-1147",
+  "id": "p-1148",
   "level": "2",
-  "url": "subsec-interfnc.html#p-1147",
+  "url": "subsec-interfnc.html#p-1148",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5140,18 +5140,18 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1148",
+  "id": "p-1149",
   "level": "2",
-  "url": "subsec-interfnc.html#p-1148",
+  "url": "subsec-interfnc.html#p-1149",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "interference constructive interference destructive interference "
 },
 {
-  "id": "p-1151",
+  "id": "p-1152",
   "level": "2",
-  "url": "subsec-interfnc.html#p-1151",
+  "url": "subsec-interfnc.html#p-1152",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5257,9 +5257,9 @@ var ptx_lunr_docs = [
   "body": " Diffraction   We may have seen a geometrical shadow around the bright spot when the light coming through a hole falls on a screen. If the size of hole is decreased gradually, the brightness also spreads over the geometrical shadow region, which could not be explained on the basis of geometrical optics. Such phenomenon of bending of light around the corners of a narrow aperture or obstacle and spreading of light waves into geometrical shadow is called diffraction . It is also a superposition of two light waves just as in case of interference. The difference is that when two wavefronts from coherent sources are superimposed interference takes place but when two secondary wavelets of a same wavefront superimpose diffraction takes place. Hence two coherent sources are mandatory for interference pattern but only one source is sufficient enough to produce diffraction pattern. Thus diffraction is a superposition of two or more secondary wavelets. The diffraction phenomena can only be explained on the basis of wave theory of light.               Consider a monochromatic light from a source S is passing through samll aperture MN and falls on the screen XY. On the screen AB is a bright portion and the portion above point A and below point B is geometric shadow. From the rectilinear propagation of light the geometrical shadow region must be completely dark but we know that the there is an encroachment of light and shadow is no longer a complete dark rather darkness prevails more as we go further above A or below B as shown in . Similarly, if an opaque obstacle MN is placed in the path of light there should be illumination in the geometrical shadow region AB also as shown in . In order to see the illumination in a geometrical shadow the size of the obstacle must be comparable to the wavelength of light.  Light waves have very small wavelength from mto . If the size of opening or obstacle is near to this limit, then only diffraction takes place. Huygens wavelets theory with the help of principle of interference can explain satisfactorily the bending effect of light around the obstacles. Diffraction phenomena can be divided into two types: Fresnel diffraction and Fraunhofer diffraction . In Fresnel class, the source and the screen are taken at finite distances from the aperture or obstacle. In Fraunhofer class, the source and the screen are taken virtually at infinite distances from the aperture or obstacle. The incoming light is rendered parallel with a lens and the diffracted beam is focused on the screen with another lens. Fresnel diffraction does not require any lens. A plane wavefront is considered in Fraunhofer diffraction. We discuss here only Fraunhoffer type diffraction.    Single Slit Diffraction  To obtain a Fraunhoffer diffraction pattern, the incident wavefront must be plane and the diffracted light is collected on the screen with the help of a lens. To obtain a plane wavefront either the source is set at far away from the slit or a source is placed at a focus of a lens as shown in .      Let a parallel beam of monochromatic light be incident on a slit AB of width a. The secondary waves traveling in the same direction as the incident light come to focus at the point O and those traveling at an angle come to focus at P as shown in .               Consider a plane wavefront is incident on the slit AB and each point on this wavefront behaves as a source of secondary disturbance (Huygen's principle). The secondary waves (wavelets) from A and B reach the point O after traveling the equal distance and produce the central bright fringe. The path difference between the waves from A and B to point O is zero. Hence, the secondary waves reinforce each other at point O and the point O will be of maximum intensity.  Now consider the secondary waves from point A travel with the inclination reach the point P. All the secondary waves from slit when reach the point P then point P will be of maximum or minimum intensity depending on the path difference between them originating from the corresponding points of the wavefront on slit. Draw BL normal on BP, then from , where a is the width of the slit and BL is the path difference between secondary waves originating from points A and B. If , then point P will be a point of minimum intensity. To understand this concept divide the wavefront into two halves AC and BC and if the path difference between the secondary waves from A and B is , then path difference between the secondary waves from point A and C will be . Similarly from every point in the upper half AC there is a corresponding point in the lower half BC and the path difference between the secondary waves from these points is . Thus, destructive interference takes place and the point P will be of minimum intensity. If , then also the point where they meet on the screen will be of minimum intensity. To understand this concept the wavefront AB now can be divided into four quarters. The secondary waves from first quarter meet on that from second quarter on screen in opposite phase, i.e. in path difference and cancel out each other. Hence the point on screen will be of minimum intensity. In general for secondary minima   where gives the direction of minimum, here . If, however, the path difference is odd multiple of , the direction of secondary maxima can be obtained. In this case, Thus, the diffraction pattern due to a single slit consists of a central bright maximum at O followed by secondary maxima and minima on both sides. All waves do not interfere constructively for this situation, and so the maximum is not as intense as the central maximum. The intensity distribution on the screen is given in . The secondary maxima are of much less intensity and the intensity also falls of rapidly from the point O outwards. From , we have  Therefore, the width of central maximum , i.e. no diffraction if width of slit, a is very large as becomes very small.     Intensity of Diffraction Pattern due to a Single Slit  Consider the center of the slit C as a origin of coordinates and the element of the wavefront at coordinate (0,z). The distance of the element from point P is .      The displacement at point P due to the waves coming from the element at any time is given by The resultant displacement at P due to the whole wavefront, From ,            Therefore the amplitude at P is and thus intensity at P is   we have For secondary maxima, from eqn. ,  Substituting , we have      For the first secondary maximum ,      For the second secondary maximum ,       Thus the secondary maxima are of decreasing intensity. For secondary minima, from eqn. ,  Substituting , we have . Therefore the intensity of secondary minima are given as    "
 },
 {
-  "id": "p-1174",
+  "id": "p-1175",
   "level": "2",
-  "url": "subsec-diffraction.html#p-1174",
+  "url": "subsec-diffraction.html#p-1175",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5329,9 +5329,9 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "p-1192",
+  "id": "p-1193",
   "level": "2",
-  "url": "subsec-dsdiffrc.html#p-1192",
+  "url": "subsec-dsdiffrc.html#p-1193",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5392,9 +5392,9 @@ var ptx_lunr_docs = [
   "body": "            "
 },
 {
-  "id": "p-1206",
+  "id": "p-1207",
   "level": "2",
-  "url": "subsec-polrzn.html#p-1206",
+  "url": "subsec-polrzn.html#p-1207",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6085,22 +6085,13 @@ var ptx_lunr_docs = [
   "body": " Mathematical Relations     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Calculus:      Derivatives:             Integrals:                  Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now    and  and        "
 },
 {
-  "id": "p-1289",
-  "level": "2",
-  "url": "append_math.html#p-1289",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
-},
-{
   "id": "p-1290",
   "level": "2",
   "url": "append_math.html#p-1290",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Geometric Formulae: "
+  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
 },
 {
   "id": "p-1291",
@@ -6109,7 +6100,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Trigonometric Identities: "
+  "body": "Geometric Formulae: "
 },
 {
   "id": "p-1292",
@@ -6127,7 +6118,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Binomial Theorem: "
+  "body": "Trigonometric Identities: "
 },
 {
   "id": "p-1294",
@@ -6136,7 +6127,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Power Series: "
+  "body": "Binomial Theorem: "
 },
 {
   "id": "p-1295",
@@ -6145,7 +6136,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Calculus: Derivatives: Integrals: "
+  "body": "Power Series: "
 },
 {
   "id": "p-1296",
@@ -6154,21 +6145,57 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Vectors: "
-},
-{
-  "id": "appendix-2",
-  "level": "1",
-  "url": "appendix-2.html",
-  "type": "Appendix",
-  "number": "B",
-  "title": "List of Symbols",
-  "body": " List of Symbols    Electrical Circuit Symbols:     "
+  "body": "Calculus: Derivatives: Integrals: "
 },
 {
   "id": "p-1297",
   "level": "2",
-  "url": "appendix-2.html#p-1297",
+  "url": "append_math.html#p-1297",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Vectors: "
+},
+{
+  "id": "append_physTable",
+  "level": "1",
+  "url": "append_physTable.html",
+  "type": "Appendix",
+  "number": "B",
+  "title": "(Useful Data and Greek Letters)",
+  "body": " (Useful Data and Greek Letters)   Physical Data Table    Quantity  Symbol  Value  SI Unit    Avagadro's Number    particles\/mol    Bohr Radius    m    Boltzmann's Constant    J\/K    Coulomb's Constant       Electron Mass       Proton Mass       Neutron Mass       Electron's Charge       Gravitational Constant       Mass of Earth       Mass of Sun       Mass of Moon       Radius of Earth       Planck's Constant       Spped of Light in Vacuum       Stefan-Boltzmann Constant       Universal Gas Constant       Permittivity of Free Space       Permeability of Free Space       Molar volume of ideal gas at STP       Standard Atmospheric Pressure       Acceleration due to gravity       Average Earth-Sun distance  Astronomical Unit      Average Earth-Moon distance  Lunar Distance        Greek Alphabet    Name  Capital Letter  Small Letter    Alpha  A     Beta  B     Gamma      Delta      Epsilon      Eta      Iota      Kappa      Theta      Mu      Nu      Omicron      Rho      Sigma      Tau      Phi      Psi      Pi      Chi      Lambda      Omega      Upsilon      Xi      Zeta       "
+},
+{
+  "id": "table-2",
+  "level": "2",
+  "url": "append_physTable.html#table-2",
+  "type": "Table",
+  "number": "B.0.1",
+  "title": "Physical Data Table",
+  "body": " Physical Data Table    Quantity  Symbol  Value  SI Unit    Avagadro's Number    particles\/mol    Bohr Radius    m    Boltzmann's Constant    J\/K    Coulomb's Constant       Electron Mass       Proton Mass       Neutron Mass       Electron's Charge       Gravitational Constant       Mass of Earth       Mass of Sun       Mass of Moon       Radius of Earth       Planck's Constant       Spped of Light in Vacuum       Stefan-Boltzmann Constant       Universal Gas Constant       Permittivity of Free Space       Permeability of Free Space       Molar volume of ideal gas at STP       Standard Atmospheric Pressure       Acceleration due to gravity       Average Earth-Sun distance  Astronomical Unit      Average Earth-Moon distance  Lunar Distance      "
+},
+{
+  "id": "table-3",
+  "level": "2",
+  "url": "append_physTable.html#table-3",
+  "type": "Table",
+  "number": "B.0.2",
+  "title": "Greek Alphabet",
+  "body": " Greek Alphabet    Name  Capital Letter  Small Letter    Alpha  A     Beta  B     Gamma      Delta      Epsilon      Eta      Iota      Kappa      Theta      Mu      Nu      Omicron      Rho      Sigma      Tau      Phi      Psi      Pi      Chi      Lambda      Omega      Upsilon      Xi      Zeta      "
+},
+{
+  "id": "appendix-3",
+  "level": "1",
+  "url": "appendix-3.html",
+  "type": "Appendix",
+  "number": "C",
+  "title": "List of Symbols",
+  "body": " List of Symbols    Electrical Circuit Symbols:     "
+},
+{
+  "id": "p-1298",
+  "level": "2",
+  "url": "appendix-3.html#p-1298",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

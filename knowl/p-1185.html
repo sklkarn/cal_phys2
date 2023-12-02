@@ -12,36 +12,83 @@
 </head>
 <body class="ignore-math">
 <h4 class="heading"><span class="type">Paragraph</span></h4>
-<div class="para logical"><ol class="decimal">
-<li><div class="para logical">
-<div class="para">For the first secondary maximum <span class="process-math">\(\alpha=\frac{3\pi}{2}\text{,}\)</span>
-</div>
-<div class="displaymath process-math">
+<div class="para logical">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
 \begin{equation*}
-\therefore\quad I =I_{o}\left(\frac{\sin\alpha}{\alpha}\right)^{2} 
+\text{or,} \quad \rho = r-z\sin\theta
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation}
+\therefore \quad y=\int\limits_{-\frac{a}{2}}^{+\frac{a}{2}} A\sin\left[\omega t - k(r-z\sin\theta)\right]\,dz  \tag{5.8.14}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
 \begin{equation*}
-= I_{o} \left(\frac{-1}{\frac{3\pi}{2}}\right)^{2} =\frac{4I_{o}}{9\pi^{2}}
+\text{or,} \quad y=\left.\frac{-A\cos\left[\omega t - k(r-z\sin\theta)\right]}{k\sin\theta}\right]_{-\frac{a}{2}}^{+\frac{a}{2}} 
 \end{equation*}
 </div>
-</div></li>
-<li><div class="para logical">
-<div class="para">For the second secondary maximum <span class="process-math">\(\alpha=\frac{5\pi}{2}\text{,}\)</span>
-</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
 \begin{equation*}
-\therefore\quad I =I_{o}\left(\frac{\sin\alpha}{\alpha}\right)^{2}
+\text{or,} \quad y =-\frac{A}{k\sin\theta}\left[\cos\left\{\omega t -k\left(r-\frac{a}{2}\sin\theta\right)\right\}-\cos\left\{\omega t -k\left(r+\frac{a}{2}\sin\theta\right)\right\}\right]
 \end{equation*}
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
 \begin{equation*}
-= I_{o} \left(\frac{1}{\frac{5\pi}{2}}\right)^{2} =\frac{4I_{o}}{25\pi^{2}}
+\text{or,} \quad y =-\frac{A}{k\sin\theta}\left[\cos\left\{(\omega t -kr)+\frac{ka}{2}\sin\theta \right\}-\cos\left\{(\omega t -kr)-\frac{ka}{2}\sin\theta \right\}\right] 
 \end{equation*}
 </div>
-</div></li>
-</ol></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation}
+\therefore \quad y = \frac{2A}{k\sin\theta}\sin\left(\frac{ka}{2}\sin\theta\right) \sin(\omega t-kr) \tag{5.8.15}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation*}
+\text{Let}\quad \frac{ka}{2}\sin\theta =\alpha
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation}
+\therefore \quad y = Aa\frac{\sin\alpha}{\alpha} \sin(\omega t-kr) \tag{5.8.16}
+\end{equation}
+</div>
+<div class="para">Therefore the amplitude at P is <span class="process-math">\(\left(Aa\frac{\sin\alpha}{\alpha}\right)\)</span> and thus intensity at P is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation*}
+I=\left(Aa\frac{\sin\alpha}{\alpha}\right)^{2} = A^{2}a^{2}\left( \frac{\sin^{2}\alpha}{\alpha^{2}}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation}
+\therefore\quad I = I_{o} \left(\frac{\sin^{2}\alpha}{\alpha^{2}}\right) \tag{5.8.17}
+\end{equation}
+</div>
+<div class="para">
+<span class="process-math">\(\because\quad \lim\limits_{\alpha \to 0} \frac{\sin\alpha}{\alpha}=1\)</span> we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation*}
+I=I_{o}\quad [\textbf{central maximum},\quad as \quad \alpha \to 0, \theta \to 0.]
+\end{equation*}
+</div>
+<div class="para">For secondary maxima, from eqn. <a href="" class="xref" data-knowl="./knowl/eqn-ssdiffr2.html" title="Equation 5.8.11">(5.8.11)</a>,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation*}
+\sin\theta_{n}  = \frac{(2n+1)\lambda}{2a} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation}
+\therefore\quad \alpha = \frac{ka}{2}\frac{(2n+1)\lambda}{2a} = \frac{(2n+1)\pi}{2} \quad [k=\frac{2\pi}{\lambda}] \tag{5.8.18}
+\end{equation}
+</div>
+<div class="para">Substituting <span class="process-math">\(n=1,2,3,\cdots\text{,}\)</span> we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/eqn-ssdiffr2.html">
+\begin{equation*}
+\alpha = \frac{3\pi}{2}, \frac{5\pi}{2},\frac{7\pi}{2}, \cdots
+\end{equation*}
+</div>
+</div>
 <span class="incontext"><a href="subsec-diffraction.html#p-1185" class="internal">in-context</a></span>
 </body>
 </html>
