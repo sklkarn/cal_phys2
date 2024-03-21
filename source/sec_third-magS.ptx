@@ -59,13 +59,17 @@
     <subsubsection xml:id="subsubsec-biot_savrt">
       <title>Magnetic Field of a Current Element (Biot Savart Law)</title>
       <p>
+        Magnetic field, <m>\,dB</m> due a small current element of length, <m>\,dl</m> is given by
         <me>
           \vec{dB} =\frac{\mu_{o}}{4\pi}\frac{I\vec{dl}\times\hat{r}}{r^{2}} \quad (Differential) 
         </me>
+        where <m>\hat{r}</m> is a unit vector along the direction of <m>\vec{r}.</m> 
+        This law only works for a small current element. To find the magnetic field at a point 
+        due to entire current carrying conductor, we need to integrate the the above equation for the total length of the conductor.
         <me>
           \vec{B} =\frac{\mu_{o}}{4\pi}\int\frac{I\vec{dl}\times\hat{r}}{r^{2}} \quad (Integral)
         </me>
-          </p>
+            </p>
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-stwire_magf">
