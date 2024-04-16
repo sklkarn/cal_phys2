@@ -1,9 +1,23 @@
 INFO    : PreTeXt project found in `/home/sk/Desktop/my_book/calPhysII/PhysII_ptx`.
-WARNING : Using CLI version 1.5.3 but project's `requirements.txt`
-WARNING : is configured to use 1.3.0. Consider either installing
-WARNING : CLI version 1.3.0 or changing `requirements.txt` to match 1.5.3.
-INFO    : Preparing to deploy from active `main` git branch.
+WARNING : Assets like latex-images will not be regenerated for this build
+WARNING : (previously generated assets will be used if they exist).
+WARNING : To generate these assets before building, run `pretext build -g`.
+INFO    : Preparing to build into /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/output/web.
 INFO    : 
-INFO    : Changes to project source since last commit detected.
-INFO    : Add/committing these changes to local Git repository.
+Now building HTML into /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/output/web
+
+INFO    : discovering source file's directory name: /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source
+INFO    : verifying and expanding input directory: /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/generated-assets
+INFO    : verifying and expanding input directory: /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source/../assets
+INFO    : input directory expanded to absolute path: /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/assets
+INFO    : Runestone Services (via PreTeXt repository): version 6.5.0
+INFO    : Runestone Services (using newer, via online CDN query): version 7.2.15
+INFO    : converting /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source/main.ptx to HTML in /tmp/tmp6pwikogu
+INFO    : XSL conversion of /home/sk/Desktop/my_book/calPhysII/PhysII_ptx/source/main.ptx by /home/sk/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /home/sk/.ptx/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/tmp6pwikogu
 INFO    : 
+Success! Run `pretext view web` to see the results.
+

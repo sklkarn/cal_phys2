@@ -31,7 +31,7 @@
         <author>
           <personname>Sunil Karna</personname>
           <department>School of Health &amp; Natural Science</department>
-          <institution>Union College, Barbourville, KY</institution>
+          <institution>Union Commonwealth University, Barbourville, KY</institution>
           <email>skarna@unionky.edu</email>
         </author>
         <date>
@@ -42,11 +42,9 @@
       <colophon>
 
         <website>
-          <name>
-            <c>http://my.unionky.edu</c>
-          </name>
-          <address>http://my.unionky.edu</address>
+          <url href="https://sklkarn.github.io/calphysII/">UCU</url>
         </website>
+
 
         <copyright>
           <year>2023<ndash />2024</year>

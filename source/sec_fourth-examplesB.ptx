@@ -335,8 +335,8 @@
   <example>
     <statement>
       <p>
-        A car traveling 20 m/s blows its horn of frequency m  300 H_{z} as it passes a second car at rest. 
-        If the speed of sound in air is 345 m/s, find 
+        A car traveling <m>20 \,m/s </m> blows its horn of frequency <m>300\,H_{z}</m> as it passes a second car at rest. 
+        If the speed of sound in air is <m>345\, m/s</m>, find 
         <ol marker="a.">
           <li>
             the frequency hear by the second car before the first passes it,
